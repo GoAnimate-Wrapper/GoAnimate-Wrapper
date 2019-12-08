@@ -1,21 +1,32 @@
-const env = Object.assign(process.env, require('./env.json'));
-const port = env.SERVER_PORT;
+if (!/^win/i.test(process.platform)) {
+	console.log('How dare you run this server on a non-Windows device!  You know I can\'t use Internet Explorer on your machine.');
+	console.log(`That's it: you're ${'grounded '.repeat(Math.floor(Math.random() * 7 + 13))}for ${('' + Math.random()).replace('0.', '')} years.`);
+	process.exitCode = 666;
+}
+
+const env = Object.assign(process.env,
+	require('./env.json'),
+	require('./config.json'));
 
 const http = require('http');
-const chars = require('./getCharacter');
-const static = require('./staticLoader');
-const pages = require('./loadPages');
+const saveChar = require('./saveCharacter');
+const premade = require('./premadeChars');
+const getChar = require('./getCharacter');
+const static = require('./staticAssets');
+const pages = require('./displayPages');
+const getTheme = require('./getTheme');
 const url = require('url');
 
 const functions = [
 	pages,
-	chars.srvr_goAPI,
-	chars.srvr_get,
-	static.local,
-	static.remote,
+	premade,
+	getChar,
+	getTheme,
+	saveChar,
+	static,
 ];
 
 http.createServer((req, res) => {
 	const parsedUrl = url.parse(req.url, true);
 	functions.forEach(f => f(req, res, parsedUrl));
-}).listen(port - 0, console.log);
+}).listen(env.SERVER_PORT, console.log);

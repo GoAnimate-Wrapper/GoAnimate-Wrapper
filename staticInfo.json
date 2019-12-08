@@ -1,0 +1,24 @@
+{
+	"GET": {
+		"/crossdomain.xml": {
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			},
+			"content": "<cross-domain-policy><allow-access-from domain=\"*\"/></cross-domain-policy>"
+		},
+		"cc.swf": {},
+		"go_full.swf": {},
+		"favicon.ico": {}
+	},
+	"POST": {
+		"/goapi/getThemeList/": {
+			"link": "/themes/themelist.zip"
+		},
+		"/goapi/getUserWatermarks/": {
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			},
+			"content": "<?xml encoding=\"UTF-8\"?><watermarks><current/><preview/></watermarks>"
+		}
+	}
+}
