@@ -9,21 +9,23 @@ const env = Object.assign(process.env,
 	require('./config.json'));
 
 const http = require('http');
-const saveChar = require('./saveCharacter');
-const premade = require('./premadeChars');
-const getChar = require('./getCharacter');
-const static = require('./staticAssets');
-const pages = require('./displayPages');
+const saveCharacter = require('./saveCharacter');
+const premadeChars = require('./premadeChars');
+const loadCharacter = require('./loadCharacter');
+const staticAssets = require('./staticAssets');
+const displayPages = require('./displayPages');
+const saveMovie = require('./saveMovie');
 const getTheme = require('./getTheme');
 const url = require('url');
 
 const functions = [
-	pages,
-	premade,
-	getChar,
+	displayPages,
+	premadeChars,
+	loadCharacter,
 	getTheme,
-	saveChar,
-	static,
+	saveCharacter,
+	saveMovie,
+	staticAssets,
 ];
 
 http.createServer((req, res) => {

@@ -17,7 +17,7 @@ module.exports = function (req, res, parsedUrl) {
 	if (req.method != 'GET') return;
 	const query = parsedUrl.query;
 
-	var attrs, params;
+	var attrs, params, script = '';
 	switch (parsedUrl.pathname) {
 		case '/cc':
 			attrs = {
@@ -44,13 +44,14 @@ module.exports = function (req, res, parsedUrl) {
 			params = {
 				flashvars: {
 					'apiserver': 'http://localhost/', 'storePath': process.env.STORE_URL + '/<store>',
-					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'uisa': 0,
-					'themeId': 'business', 'ut': 60, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'go',
-					'm_mode': 'school', 'isLogin': 'Y', 'isEmbed': 1, 'ctc': 'go', 'tlang': 'en_US', 'userId': '0YBp87c2WG-0'
+					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'themeId': 'business',
+					'ut': 60, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'go', 'm_mode': 'school',
+					'isLogin': 'Y', 'isEmbed': '1', 'ctc': 'go', 'tlang': 'en_US', 'retut': '1'
 				},
 				allowScriptAccess: 'always',
 				movie: process.env.SWF_URL + '/cc.swf', // 'http://localhost/cc.swf'
 			};
+			script = `interactiveTutorial={neverDisplay:function(){return true}}`;
 			break;
 
 		default:
@@ -58,6 +59,6 @@ module.exports = function (req, res, parsedUrl) {
 	}
 	res.setHeader('Content-Type', 'text/html; charset=UTF-8');
 	Object.assign(params.flashvars, query);
-	res.end(toObjectString(attrs, params));
+	res.end(`${toObjectString(attrs, params)}<script>${script}</script>`);
 	return true;
 }
