@@ -13,6 +13,7 @@ const saveCharacter = require('./saveCharacter');
 const premadeChars = require('./premadeChars');
 const loadCharacter = require('./loadCharacter');
 const staticAssets = require('./staticAssets');
+const getUserAssets = require('./getUserAssets');
 const displayPages = require('./displayPages');
 const saveMovie = require('./saveMovie');
 const getTheme = require('./getTheme');
@@ -24,6 +25,7 @@ const functions = [
 	loadCharacter,
 	getTheme,
 	saveCharacter,
+	getUserAssets,
 	saveMovie,
 	staticAssets,
 ];

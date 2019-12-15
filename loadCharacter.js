@@ -49,7 +49,7 @@ module.exports = function (req, res) {
 			if (req.url != '/goapi/getCcCharCompositionXml/' || req.method != 'POST') return;
 			loadPost(req, res).then(async data => {
 				res.setHeader('Content-Type', 'text/html; charset=UTF-8');
-				retrieve(data.original_asset_id)
+				retrieve(data.assetId || data.original_asset_id)
 					.then(v => { res.statusCode = 200, res.end(0 + v) })
 					//.catch(e => { res.statusCode = 404, res.end(1 + e) })
 

@@ -8,7 +8,8 @@
 		},
 		"cc.swf": {},
 		"go_full.swf": {},
-		"favicon.ico": {}
+		"favicon.ico": {},
+		"char_default.png": {}
 	},
 	"POST": {
 		"/goapi/getThemeList/": {
@@ -19,9 +20,6 @@
 				"Content-Type": "text/html; charset=UTF-8"
 			},
 			"content": "<?xml encoding=\"UTF-8\"?><watermarks><current/><preview/></watermarks>"
-		},
-		"/goapi/getUserAssetsXml/": {
-			"content": "0<?xml encoding=\"UTF-8\"?><watermarks><current/><preview/></watermarks>"
 		}
 	}
 }
