@@ -51,7 +51,7 @@ module.exports = function (req, res, url) {
 				allowScriptAccess: 'always',
 				movie: process.env.SWF_URL + '/cc.swf', // 'http://localhost/cc.swf'
 			};
-			script = `interactiveTutorial={neverDisplay:function(){return true}}`;
+			script += `interactiveTutorial={neverDisplay:function(){return true}};window.onbeforeunload=function(){fetch('event/close')};`;
 			break;
 
 		default:

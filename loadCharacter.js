@@ -20,7 +20,7 @@ function retrieve(id) {
 	return new Promise((res, rej) => {
 		const nId = Number.parseInt(id);
 		if (isNaN(nId))
-			fs.readFile(`./files/${id}.xml`, { encoding: "utf-8" }, (e, s) => e ? rej(e) : res(s));
+			fs.readFile(fUtil.getFileIndex('char-', '.xml', id), { encoding: "utf-8" }, (e, s) => e ? rej(e) : res(s));
 		else {
 			const xmlSubId = nId % fw, fileId = nId - xmlSubId;
 			const lnNum = fUtil.padZero(xmlSubId, xNumWidth);
