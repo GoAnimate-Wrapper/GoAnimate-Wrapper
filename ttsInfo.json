@@ -1,0 +1,182 @@
+{
+	"languages": {
+		"ar": "Arabic",
+		"en": "English",
+		"es": "Spañish",
+		"de": "German",
+		"fr": "French",
+		"ru": "Russian",
+		"it": "Italian",
+		"tr": "Türkish"
+	},
+	"voices": {
+		"Amy": {
+			"country": "GB",
+			"language": "en",
+			"gender": "F",
+			"source": "polly",
+			"arg": 1
+		},
+		"Brian": {
+			"country": "GB",
+			"language": "en",
+			"gender": "M",
+			"source": "polly",
+			"arg": 2
+		},
+		"Emma": {
+			"country": "GB",
+			"language": "en",
+			"gender": "F",
+			"source": "polly",
+			"arg": 3
+		},
+		"Salli": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "polly",
+			"arg": 4
+		},
+		"Joey": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "polly",
+			"arg": 5
+		},
+		"Ivy": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "polly",
+			"arg": 8
+		},
+		"Justin": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "polly",
+			"arg": 10
+		},
+		"Kendra": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "polly",
+			"arg": 11
+		},
+		"Kimberly": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "polly",
+			"arg": 12
+		},
+		"Nicole": {
+			"country": "AU",
+			"language": "en",
+			"gender": "F",
+			"source": "polly",
+			"arg": 13
+		},
+		"Russell": {
+			"country": "AU",
+			"language": "en",
+			"gender": "M",
+			"source": "polly",
+			"arg": 14
+		},
+		"Raveena": {
+			"country": "IN",
+			"language": "en",
+			"gender": "F",
+			"source": "polly",
+			"arg": 15
+		},
+		"Marlene": {
+			"country": "DE",
+			"language": "de",
+			"gender": "F",
+			"source": "polly",
+			"arg": 18
+		},
+		"Hans": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+			"source": "polly",
+			"arg": 19
+		},
+		"Gwyneth": {
+			"country": "GB",
+			"language": "en",
+			"gender": "F",
+			"source": "polly",
+			"arg": 20
+		},
+		"Geraint": {
+			"country": "GB",
+			"language": "en",
+			"gender": "M",
+			"source": "polly",
+			"arg": 21
+		},
+		"Conchita": {
+			"country": "ES",
+			"language": "es",
+			"gender": "F",
+			"source": "polly",
+			"arg": 24
+		},
+		"Enrique": {
+			"country": "ES",
+			"language": "es",
+			"gender": "M",
+			"source": "polly",
+			"arg": 25
+		},
+		"Penélope": {
+			"country": "US",
+			"language": "es",
+			"gender": "F",
+			"source": "polly",
+			"arg": 26
+		},
+		"Miguel": {
+			"country": "US",
+			"language": "es",
+			"gender": "M",
+			"source": "polly",
+			"arg": 27
+		},
+		"Carla": {
+			"country": "IT",
+			"language": "it",
+			"gender": "F",
+			"source": "polly",
+			"arg": 33
+		},
+		"Giorgio": {
+			"country": "IT",
+			"language": "it",
+			"gender": "M",
+			"source": "polly",
+			"arg": 34
+		},
+		"Maxim": {
+			"country": "RU",
+			"language": "ru",
+			"gender": "M",
+			"source": "polly",
+			"arg": 47
+		},
+		"Tatyana": {
+			"country": "RU",
+			"language": "ru",
+			"gender": "F",
+			"source": "polly",
+			"arg": 48
+		}
+	}
+}

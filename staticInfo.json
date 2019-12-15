@@ -12,9 +12,6 @@
 		"char_default.png": {}
 	},
 	"POST": {
-		"/goapi/getThemeList/": {
-			"link": "/themes/themelist.zip"
-		},
 		"/goapi/getUserWatermarks/": {
 			"headers": {
 				"Content-Type": "text/html; charset=UTF-8"

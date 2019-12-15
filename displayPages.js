@@ -13,12 +13,12 @@ function toObjectString(attrs, params) {
 	).join(' ')}>${toParamString(params)}</object>`;
 }
 
-module.exports = function (req, res, parsedUrl) {
+module.exports = function (req, res, url) {
 	if (req.method != 'GET') return;
-	const query = parsedUrl.query;
+	const query = url.query;
 
 	var attrs, params, script = '';
-	switch (parsedUrl.pathname) {
+	switch (url.pathname) {
 		case '/cc':
 			attrs = {
 				data: process.env.SWF_URL + '/cc.swf', // data: 'cc.swf',

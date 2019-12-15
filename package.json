@@ -6,6 +6,6 @@
 	},
 	"main": "index.js",
 	"dependencies": {
-		"zipstream": "*"
+		"node-zip": "github:kyriosli/node-zip"
 	}
 }
