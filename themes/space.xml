@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <theme id="space" name="Space Peepz" cc_theme_id="cc2">
-  <background id="ncc_sci01bg.swf" name="Control room" enable="N" default="N" is_premium="N" aid="14929" money="0" sharing="0"/>
+  <background id="ncc_sci01bg.swf" name="Control room" enable="Y" default="N" is_premium="N" aid="14929" money="0" sharing="0"/>
   <background id="ncc_sci02bg.swf" name="Empty room" enable="Y" default="N" is_premium="N" aid="14930" money="0" sharing="0"/>
   <background id="ncc_sci03bg.swf" name="Empty room" enable="Y" default="N" is_premium="N" aid="14931" money="0" sharing="0"/>
   <background id="ncc_sci04bg.swf" name="Hallway" enable="Y" default="N" is_premium="N" aid="14932" money="0" sharing="0"/>
   <background id="ncc_sci05bg.swf" name="Hallway with window" enable="Y" default="N" is_premium="N" aid="14933" money="0" sharing="0"/>
-  <background id="ncc_sci06bg.swf" name="Speed lines" enable="N" default="N" is_premium="N" aid="14934" money="0" sharing="0"/>
-  <background id="ncc_sci07bg.swf" name="Sandy planet" enable="N" default="N" is_premium="N" aid="14935" money="0" sharing="0"/>
-  <background id="ncc_sci08bg.swf" name="Rocky planet" enable="N" default="N" is_premium="N" aid="14936" money="0" sharing="0"/>
-  <background id="ncc_sci10bg.swf" name="Volcanic planet" enable="N" default="N" is_premium="N" aid="14937" money="0" sharing="0"/>
+  <background id="ncc_sci06bg.swf" name="Speed lines" enable="Y" default="N" is_premium="N" aid="14934" money="0" sharing="0"/>
+  <background id="ncc_sci07bg.swf" name="Sandy planet" enable="Y" default="N" is_premium="N" aid="14935" money="0" sharing="0"/>
+  <background id="ncc_sci08bg.swf" name="Rocky planet" enable="Y" default="N" is_premium="N" aid="14936" money="0" sharing="0"/>
+  <background id="ncc_sci10bg.swf" name="Volcanic planet" enable="Y" default="N" is_premium="N" aid="14937" money="0" sharing="0"/>
   <background id="ncc_sci11bg.swf" name="Space travel" enable="Y" default="N" is_premium="N" aid="14938" money="0" sharing="0"/>
-  <background id="ncc_sci09bg.swf" name="" enable="N" default="N" is_premium="N" aid="14939" money="0" sharing="0"/>
-  <background id="ncc_sci12bg.swf" name="" enable="N" default="N" is_premium="N" aid="14940" money="0" sharing="0"/>
+  <background id="ncc_sci09bg.swf" name="" enable="Y" default="N" is_premium="N" aid="14939" money="0" sharing="0"/>
+  <background id="ncc_sci12bg.swf" name="" enable="Y" default="N" is_premium="N" aid="14940" money="0" sharing="0"/>
   <background id="ncc_sci13bg.swf" name="" enable="Y" default="N" is_premium="N" aid="14941" money="0" sharing="0"/>
-  <background id="ncc_sci14bg.swf" name="" enable="N" default="N" is_premium="N" aid="14942" money="0" sharing="0"/>
+  <background id="ncc_sci14bg.swf" name="" enable="Y" default="N" is_premium="N" aid="14942" money="0" sharing="0"/>
   <compositebg id="cbg_ncc_sci016" name="Bridge" enable="Y" default="Y" thumb="ncc_sci016bg.png" display_order="1" is_premium="N" money="0" sharing="0" aid="14956">
   <bg id="cbg_ncc_sci016_BG62" index="0">
     <file>space.ncc_sci03bg.swf</file>
@@ -647,9 +647,9 @@
     <state id="msp_sci008_ncc_sci008_front.swf" name="front" enable="Y" default="Y"/>
     <state id="msp_sci008_ncc_sci008_side.swf" name="side" enable="Y"/>
   </prop>
-  <prop id="ncc_sci009.swf" name="Entrance" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="14853" money="0" sharing="0"/>
-  <prop id="ncc_sci010.swf" name="Cargo door" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="14854" money="0" sharing="0"/>
-  <prop id="msp_sci011" name="Entrance" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sci011_ncc_sci011_open.swf" enable="N" is_premium="N" aid="14855" money="0" sharing="0">
+  <prop id="ncc_sci009.swf" name="Entrance" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14853" money="0" sharing="0"/>
+  <prop id="ncc_sci010.swf" name="Cargo door" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14854" money="0" sharing="0"/>
+  <prop id="msp_sci011" name="Entrance" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sci011_ncc_sci011_open.swf" enable="Y" is_premium="N" aid="14855" money="0" sharing="0">
     <state id="msp_sci011_ncc_sci011_close.swf" name="closed" enable="Y"/>
     <state id="msp_sci011_ncc_sci011_open.swf" name="opened" enable="Y" default="Y"/>
   </prop>
@@ -659,7 +659,7 @@
     <state id="msp_sci012_ncc_sci012_03.swf" name="receiving data" enable="Y"/>
     <state id="msp_sci012_ncc_sci012_04.swf" name="sphere" enable="Y"/>
   </prop>
-  <prop id="ncc_sci013.swf" name="Bridge" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="14863" money="0" sharing="0"/>
+  <prop id="ncc_sci013.swf" name="Bridge" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14863" money="0" sharing="0"/>
   <prop id="msp_sci014" name="Bed" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sci014_ncc_sci014_front.swf" enable="Y" is_premium="N" aid="14864" money="0" sharing="0">
     <state id="msp_sci014_ncc_sci014_front.swf" name="front" enable="Y" default="Y"/>
     <state id="msp_sci014_ncc_sci014_side.swf" name="side" enable="Y"/>
@@ -696,8 +696,8 @@
     <state id="msp_sci018b_ncc_sci018_sideopentran.swf" name="opened - transparent" enable="Y"/>
   </prop>
   <prop id="ncc_sci019.swf" name="Wall control board" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14893" money="0" sharing="0"/>
-  <prop id="ncc_sci020.swf" name="Landscape" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="14894" money="0" sharing="0"/>
-  <prop id="ncc_sci021.swf" name="Bush" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="14895" money="0" sharing="0"/>
+  <prop id="ncc_sci020.swf" name="Landscape" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14894" money="0" sharing="0"/>
+  <prop id="ncc_sci021.swf" name="Bush" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14895" money="0" sharing="0"/>
   <prop id="ncc_sci022.swf" name="Space battle" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14896" money="0" sharing="0"/>
   <prop id="msp_sci023" name="Storage tank" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sci023_ncc_sci023_off.swf" enable="Y" is_premium="N" aid="14897" money="0" sharing="0">
     <state id="msp_sci023_ncc_sci023_off.swf" name="off" enable="Y" default="Y"/>
@@ -706,7 +706,7 @@
   <prop id="ncc_sci024.swf" name="Storage tank" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14900" money="0" sharing="0"/>
   <prop id="ncc_sci025.swf" name="Box" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14901" money="0" sharing="0"/>
   <prop id="ncc_sci026.swf" name="Speed lines" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14902" money="0" sharing="0"/>
-  <prop id="ncc_sci027.swf" name="Lava" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="14903" money="0" sharing="0"/>
+  <prop id="ncc_sci027.swf" name="Lava" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14903" money="0" sharing="0"/>
   <prop id="ncc_sci028.swf" name="Moving stars" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14904" money="0" sharing="0"/>
   <prop id="msp_sci029" name="Wall control board" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sci029_ncc_sci029_front.swf" enable="Y" is_premium="N" aid="14905" money="0" sharing="0">
     <state id="msp_sci029_ncc_sci029_front.swf" name="front" enable="Y" default="Y"/>
@@ -734,7 +734,7 @@
     <state id="msp_ncc_gun_sci01_ncc_gun_once.swf" name="shoot once" enable="Y"/>
     <state id="msp_ncc_gun_sci01_ncc_gun_still.swf" name="still" enable="Y" default="Y"/>
   </prop>
-  <prop id="msp_sci033" name="Cargo Doors" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sci033_ncc_sci032_close.swf" enable="N" is_premium="N" aid="14924" money="0" sharing="0">
+  <prop id="msp_sci033" name="Cargo Doors" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sci033_ncc_sci032_close.swf" enable="Y" is_premium="N" aid="14924" money="0" sharing="0">
     <state id="msp_sci033_ncc_sci032_close.swf" name="closed" enable="Y" default="Y"/>
     <state id="msp_sci033_ncc_sci032_open.swf" name="opened - both" enable="Y"/>
     <state id="msp_sci033_ncc_sci032_open1.swf" name="opened - one" enable="Y"/>
@@ -745,15 +745,15 @@
     <state id="msp_sci033a_ncc_sci033_mult.swf" name="multiple" enable="Y"/>
     <state id="msp_sci033a_ncc_sci033_once.swf" name="once" enable="Y" default="Y"/>
   </prop>
-  <prop id="ncc_sci034.swf" name="Screenviewer" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="14964" money="0" sharing="0"/>
+  <prop id="ncc_sci034.swf" name="Screenviewer" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14964" money="0" sharing="0"/>
   <prop id="msp_sci034" name="View screen" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sci034_ncc_sci034_still.swf" enable="Y" is_premium="N" aid="14965" money="0" sharing="0">
     <state id="msp_sci034_ncc_sci034_open.swf" name="connect" enable="Y"/>
     <state id="msp_sci034_ncc_sci034_still.swf" name="default" enable="Y" default="Y"/>
     <state id="msp_sci034_ncc_sci034_close.swf" name="disconnect" enable="Y"/>
   </prop>
-  <effect id="ncc_fx_scifi.swf" type="ANIME" resize="false" move="false" name="Analyzing specimen" enable="N" is_premium="N" aid="14958" money="0" sharing="0" display_order="0"/>
-  <effect id="ncc_sci002fx.swf" type="ANIME" resize="false" move="false" name="Snow storm" enable="N" is_premium="N" aid="14959" money="0" sharing="0" display_order="0"/>
-  <effect id="ncc_sci003fx.swf" type="ANIME" resize="false" move="false" name="Screenviewer" enable="N" is_premium="N" aid="14970" money="0" sharing="0" display_order="0"/>
-  <effect id="ncc_sci004fx.swf" type="ANIME" resize="false" move="false" name="Red alert" enable="N" is_premium="N" aid="14971" money="0" sharing="0" display_order="0"/>
-  <effect id="ncc_sci005fx.swf" type="ANIME" resize="false" move="false" name="Ceiling Crumbling" enable="N" is_premium="N" aid="14972" money="0" sharing="0" display_order="0"/>
+  <effect id="ncc_fx_scifi.swf" type="ANIME" resize="false" move="false" name="Analyzing specimen" enable="Y" is_premium="N" aid="14958" money="0" sharing="0" display_order="0"/>
+  <effect id="ncc_sci002fx.swf" type="ANIME" resize="false" move="false" name="Snow storm" enable="Y" is_premium="N" aid="14959" money="0" sharing="0" display_order="0"/>
+  <effect id="ncc_sci003fx.swf" type="ANIME" resize="false" move="false" name="Screenviewer" enable="Y" is_premium="N" aid="14970" money="0" sharing="0" display_order="0"/>
+  <effect id="ncc_sci004fx.swf" type="ANIME" resize="false" move="false" name="Red alert" enable="Y" is_premium="N" aid="14971" money="0" sharing="0" display_order="0"/>
+  <effect id="ncc_sci005fx.swf" type="ANIME" resize="false" move="false" name="Ceiling Crumbling" enable="Y" is_premium="N" aid="14972" money="0" sharing="0" display_order="0"/>
 </theme>

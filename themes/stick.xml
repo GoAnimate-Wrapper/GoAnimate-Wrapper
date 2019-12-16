@@ -953,8 +953,8 @@
       <c_area oc="">sfSkinLegs</c_area>
     </c_parts>
   </char>
-  <background id="bg03.swf" name="City" enable="N" default="N" is_premium="N" aid="7494" money="0" sharing="0"/>
-  <background id="bg04.swf" name="Living Room" enable="N" default="N" is_premium="N" aid="7495" money="0" sharing="0"/>
+  <background id="bg03.swf" name="City" enable="Y" default="N" is_premium="N" aid="7494" money="0" sharing="0"/>
+  <background id="bg04.swf" name="Living Room" enable="Y" default="N" is_premium="N" aid="7495" money="0" sharing="0"/>
   <background id="gradient.swf" name="gradient" enable="Y" is_premium="N" aid="7496" money="0" sharing="0">
     <colorset enable="Y" aid="7497">
   <color r="gradient">0x333333</color>
@@ -1547,7 +1547,7 @@
     <color r="sfOtherProp">3355443</color>
   </prop>
 </compositebg>
-  <prop id="shotgun.swf" name="shotgun" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7681" money="0" sharing="0"/>
+  <prop id="shotgun.swf" name="shotgun" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7681" money="0" sharing="0"/>
   <prop id="chair.swf" name="chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7682" money="0" sharing="0">
     <colorset enable="Y" aid="7683">
   <color r="sfOtherProp">0x000000</color>
@@ -1940,7 +1940,7 @@
   <c_area oc="">sfHandProp</c_area>
 </c_parts>
   </prop>
-  <prop id="gun.swf" name="Gun" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7550" money="0" sharing="0">
+  <prop id="gun.swf" name="Gun" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7550" money="0" sharing="0">
     <colorset enable="Y" aid="7551">
   <color r="sfHandProp">0x000000</color>
 </colorset>
@@ -2536,10 +2536,10 @@
 </c_parts>
   </prop>
   <prop id="electric_blast.swf" name="Electric blast" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8153" money="0" sharing="0">
-    <colorset enable="N" aid="8154">
+    <colorset enable="Y" aid="8154">
   <color r="sfOtherProp">0x000000</color>
 </colorset>
-    <c_parts enable="N">
+    <c_parts enable="Y">
   <c_area>sfOtherProp</c_area>
 </c_parts>
   </prop>
@@ -2554,10 +2554,10 @@
 </c_parts>
   </prop>
   <prop id="energy_blast.swf" name="Energy Blast" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8155" money="0" sharing="0">
-    <colorset enable="N" aid="8156">
+    <colorset enable="Y" aid="8156">
   <color r="sfOtherProp">0x000000</color>
 </colorset>
-    <c_parts enable="N">
+    <c_parts enable="Y">
   <c_area>sfOtherProp</c_area>
 </c_parts>
   </prop>
@@ -2572,10 +2572,10 @@
 </c_parts>
   </prop>
   <prop id="energy_ball.swf" name="Energy Ball" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8157" money="0" sharing="0">
-    <colorset enable="N" aid="8158">
+    <colorset enable="Y" aid="8158">
   <color r="sfOtherProp">0x000000</color>
 </colorset>
-    <c_parts enable="N">
+    <c_parts enable="Y">
   <c_area>sfOtherProp</c_area>
 </c_parts>
   </prop>
@@ -2590,10 +2590,10 @@
 </c_parts>
   </prop>
   <prop id="hit_fx.swf" name="hit effect" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8159" money="0" sharing="0">
-    <colorset enable="N" aid="8160">
+    <colorset enable="Y" aid="8160">
   <color r="sfOtherProp">0x000000</color>
 </colorset>
-    <c_parts enable="N">
+    <c_parts enable="Y">
   <c_area>sfOtherProp</c_area>
 </c_parts>
   </prop>
@@ -2608,10 +2608,10 @@
 </c_parts>
   </prop>
   <prop id="power.swf" name="power" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8161" money="0" sharing="0">
-    <colorset enable="N" aid="8162">
+    <colorset enable="Y" aid="8162">
   <color r="sfOtherProp">0x000000</color>
 </colorset>
-    <c_parts enable="N">
+    <c_parts enable="Y">
   <c_area>sfOtherProp</c_area>
 </c_parts>
   </prop>

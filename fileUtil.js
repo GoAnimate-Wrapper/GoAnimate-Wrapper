@@ -1,3 +1,4 @@
+const nodezip = require('node-zip');
 const fs = require('fs');
 
 module.exports = {
@@ -39,5 +40,28 @@ module.exports = {
 	 */
 	getFileIndex(s, ext = '.xml', n, l = 7) {
 		return `${process.env.FILE_FOLDER}/${s}${this.padZero(n, l)}${ext}`;
+	},
+	/**
+	 * 
+	 * @param {string} fileName 
+	 * @param {string} zipName 
+	 */
+	zippy(fileName, zipName) {
+		if (!fs.existsSync(fileName)) return Promise.reject();
+		const buffer = fs.readFileSync(fileName);
+		const zip = nodezip.create();
+		this.addToZip(zip, zipName, buffer);
+		return zip.zip();
+	},
+	/**
+	 * 
+	 * @param {nodezip.ZipFile} zip 
+	 * @param {string} zipName 
+	 * @param {string} buffer 
+	 */
+	addToZip(zip, zipName, buffer) {
+		zip.add(zipName, buffer);
+		if (zip[zipName].crc32 < 0)
+			zip[zipName].crc32 += 4294967296;
 	},
 }

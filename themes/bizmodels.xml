@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <theme id="bizmodels" name="Business Models">
-  <char id="male_01" name="male_01" thumb="poses_01.swf" facing="left" default="poses_01.swf" motion="" enable="N" is_premium="N" aid="19679" money="0" sharing="0">
+  <char id="male_01" name="male_01" thumb="poses_01.swf" facing="left" default="poses_01.swf" motion="" enable="Y" is_premium="N" aid="19679" money="0" sharing="0">
     <category name="Business">
       <action id="office_01.swf" name="Stand with briefcase" loop="Y" totalframe="60" enable="Y" aid="19680"/>
       <action id="office_02.swf" name="Walk with briefcase" loop="Y" totalframe="60" enable="Y" aid="19681"/>
@@ -183,7 +183,7 @@
     <facial id="head_talk_neutral.swf" name="Talk neutral" enable="Y" aid="19849"/>
     <facial id="head_no_expression.swf" name="Blank face" enable="Y" aid="19850"/>
   </char>
-  <char id="female_01" name="female_01" thumb="poses_01.swf" facing="left" default="poses_01.swf" motion="" enable="N" is_premium="N" aid="19851" money="0" sharing="0">
+  <char id="female_01" name="female_01" thumb="poses_01.swf" facing="left" default="poses_01.swf" motion="" enable="Y" is_premium="N" aid="19851" money="0" sharing="0">
     <category name="Business">
       <action id="office_01.swf" name="Stand with briefcase" loop="Y" totalframe="60" enable="Y" aid="19852"/>
       <action id="office_02.swf" name="Walk with briefcase" loop="Y" totalframe="60" enable="Y" aid="19853"/>
@@ -366,7 +366,7 @@
     <facial id="head_talk_neutral.swf" name="Talk neutral" enable="Y" aid="20021"/>
     <facial id="head_no_expression.swf" name="Blank face" enable="Y" aid="20022"/>
   </char>
-  <char id="male_03" name="male_03" thumb="poses_01.swf" facing="left" default="poses_01.swf" motion="" enable="N" is_premium="N" aid="20280" money="0" sharing="0">
+  <char id="male_03" name="male_03" thumb="poses_01.swf" facing="left" default="poses_01.swf" motion="" enable="Y" is_premium="N" aid="20280" money="0" sharing="0">
     <category name="Business">
       <action id="office_01.swf" name="Stand with briefcase" loop="Y" totalframe="60" enable="Y" aid="20281"/>
       <action id="office_02.swf" name="Walk with briefcase" loop="Y" totalframe="60" enable="Y" aid="20282"/>
@@ -549,7 +549,7 @@
     <facial id="head_talk_neutral.swf" name="Talk neutral" enable="Y" aid="20450"/>
     <facial id="head_no_expression.swf" name="Blank face" enable="Y" aid="20451"/>
   </char>
-  <char id="male_02" name="male_02" thumb="poses_01.swf" facing="left" default="poses_01.swf" motion="" enable="N" is_premium="N" aid="20023" money="0" sharing="0">
+  <char id="male_02" name="male_02" thumb="poses_01.swf" facing="left" default="poses_01.swf" motion="" enable="Y" is_premium="N" aid="20023" money="0" sharing="0">
     <tag>male</tag>
     <tag>man</tag>
     <category name="Business">
@@ -5418,14 +5418,14 @@
   <background id="bg25.swf" name="Plain" enable="Y" default="N" is_premium="N" aid="20231" money="0" sharing="0"/>
   <background id="bg26.swf" name="Plain" enable="Y" default="N" is_premium="N" aid="20232" money="0" sharing="0"/>
   <background id="bg27.swf" name="Plain" enable="Y" default="N" is_premium="N" aid="20233" money="0" sharing="0"/>
-  <background id="bg33.swf" name="Split" enable="N" default="N" is_premium="N" aid="20456" money="0" sharing="0"/>
-  <background id="bg34.swf" name="Split" enable="N" default="N" is_premium="N" aid="20457" money="0" sharing="0"/>
-  <background id="bg35.swf" name="Split" enable="N" default="N" is_premium="N" aid="20458" money="0" sharing="0"/>
-  <background id="bg36.swf" name="Split" enable="N" default="N" is_premium="N" aid="20459" money="0" sharing="0"/>
+  <background id="bg33.swf" name="Split" enable="Y" default="N" is_premium="N" aid="20456" money="0" sharing="0"/>
+  <background id="bg34.swf" name="Split" enable="Y" default="N" is_premium="N" aid="20457" money="0" sharing="0"/>
+  <background id="bg35.swf" name="Split" enable="Y" default="N" is_premium="N" aid="20458" money="0" sharing="0"/>
+  <background id="bg36.swf" name="Split" enable="Y" default="N" is_premium="N" aid="20459" money="0" sharing="0"/>
   <background id="bg08.swf" name="Single lined paper" enable="Y" default="N" is_premium="N" aid="20216" money="0" sharing="0"/>
   <background id="bg11.swf" name="Brown paper" enable="Y" default="N" is_premium="N" aid="20217" money="0" sharing="0"/>
   <background id="bg12.swf" name="Vintage style" enable="Y" default="N" is_premium="N" aid="20218" money="0" sharing="0"/>
-  <background id="bg15.swf" name="Vintage style" enable="N" default="N" is_premium="N" aid="20221" money="0" sharing="0"/>
+  <background id="bg15.swf" name="Vintage style" enable="Y" default="N" is_premium="N" aid="20221" money="0" sharing="0"/>
   <background id="bg17.swf" name="Wood" enable="Y" default="N" is_premium="N" aid="20223" money="0" sharing="0"/>
   <background id="bg15a.swf" name="Vintage style" enable="Y" default="N" is_premium="N" aid="22062" money="0" sharing="0"/>
   <background id="bg13.swf" name="Workspace" enable="Y" default="N" is_premium="N" aid="20219" money="0" sharing="0"/>
@@ -5433,7 +5433,7 @@
   <background id="bg16.swf" name="Clip board" enable="Y" default="N" is_premium="N" aid="20222" money="0" sharing="0"/>
   <background id="bg18.swf" name="Workspace" enable="Y" default="N" is_premium="N" aid="20224" money="0" sharing="0"/>
   <background id="bg28.swf" name="Workspace" enable="Y" default="N" is_premium="N" aid="20234" money="0" sharing="0"/>
-  <compositebg id="cbg_bizmodel01" name="Split bg" enable="N" default="N" thumb="st_603.png" display_order="10" is_premium="N" money="0" sharing="0" aid="20460">
+  <compositebg id="cbg_bizmodel01" name="Split bg" enable="Y" default="N" thumb="st_603.png" display_order="10" is_premium="N" money="0" sharing="0" aid="20460">
   <bg id="cbg_bizmodel01_BG3" index="0">
     <file>bizmodels.bg33.swf</file>
   </bg>
@@ -5447,7 +5447,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_bizmodel02" name="Split bg" enable="N" default="N" thumb="st_606.png" display_order="10" is_premium="N" money="0" sharing="0" aid="20461">
+  <compositebg id="cbg_bizmodel02" name="Split bg" enable="Y" default="N" thumb="st_606.png" display_order="10" is_premium="N" money="0" sharing="0" aid="20461">
   <bg id="cbg_bizmodel02_BG3" index="0">
     <file>bizmodels.bg33.swf</file>
   </bg>
@@ -5461,7 +5461,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_bizmodel03" name="Split bg" enable="N" default="N" thumb="st_604.png" display_order="10" is_premium="N" money="0" sharing="0" aid="20462">
+  <compositebg id="cbg_bizmodel03" name="Split bg" enable="Y" default="N" thumb="st_604.png" display_order="10" is_premium="N" money="0" sharing="0" aid="20462">
   <bg id="cbg_bizmodel03_BG7" index="0">
     <file>bizmodels.bg34.swf</file>
   </bg>
@@ -5475,7 +5475,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_bizmodel04" name="Split bg" enable="N" default="N" thumb="st_605.png" display_order="10" is_premium="N" money="0" sharing="0" aid="20463">
+  <compositebg id="cbg_bizmodel04" name="Split bg" enable="Y" default="N" thumb="st_605.png" display_order="10" is_premium="N" money="0" sharing="0" aid="20463">
   <bg id="cbg_bizmodel04_BG7" index="0">
     <file>bizmodels.bg34.swf</file>
   </bg>
@@ -5491,7 +5491,7 @@
 </compositebg>
   <prop id="hg_001.swf" name="Hairstyle" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="19634" money="0" sharing="0"/>
   <prop id="hg_002.swf" name="Hairstyle" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="19635" money="0" sharing="0"/>
-  <prop id="hg_003.swf" name="Hairstyle" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="N" is_premium="N" aid="19636" money="0" sharing="0"/>
+  <prop id="hg_003.swf" name="Hairstyle" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="19636" money="0" sharing="0"/>
   <prop id="hg_004.swf" name="Hairstyle" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="19637" money="0" sharing="0"/>
   <prop id="hg_005.swf" name="Hairstyle" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="19638" money="0" sharing="0"/>
   <prop id="hg_006.swf" name="Hairstyle" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="19639" money="0" sharing="0"/>
@@ -5706,10 +5706,10 @@
   <prop id="st_591.swf" name="Office - Bookshelf" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="19664" money="0" sharing="0"/>
   <prop id="st_593.swf" name="Office - Whiteboard" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="19666" money="0" sharing="0"/>
   <prop id="st_602.swf" name="Office - Calendar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="19678" money="0" sharing="0"/>
-  <prop id="st_603.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="20276" money="0" sharing="0"/>
-  <prop id="st_604.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="20277" money="0" sharing="0"/>
-  <prop id="st_605.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="20278" money="0" sharing="0"/>
-  <prop id="st_606.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="20279" money="0" sharing="0"/>
+  <prop id="st_603.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="20276" money="0" sharing="0"/>
+  <prop id="st_604.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="20277" money="0" sharing="0"/>
+  <prop id="st_605.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="20278" money="0" sharing="0"/>
+  <prop id="st_606.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="20279" money="0" sharing="0"/>
   <prop id="st_188.swf" name="Education - Book" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="19462" money="0" sharing="0"/>
   <prop id="st_189.swf" name="Education - Book" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="19463" money="0" sharing="0"/>
   <prop id="st_108.swf" name="Tools - Magnifier" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="19426" money="0" sharing="0"/>

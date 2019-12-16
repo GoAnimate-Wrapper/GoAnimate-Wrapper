@@ -32,11 +32,11 @@
 */
 
 const nodezip = require('node-zip');
-const zippy = require('./zippy');
+const fUtil = require('./fileUtil');
 
 module.exports = function (req, res, url) {
 	if (req.method != 'POST' || url.path != '/goapi/getThemeList/') return;
 	res.setHeader('Content-Type', 'application/zip');
-	zippy('themes/themelist.xml', 'themelist.xml').then(b => res.end(b));
+	fUtil.zippy('themes/themelist.xml', 'themelist.xml').then(b => res.end(b));
 	return true;
 }

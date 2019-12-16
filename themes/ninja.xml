@@ -949,7 +949,7 @@
   <prop id="02ninja_sword.swf" name="Katana" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15103" money="0" sharing="0" handstyle="stick"/>
   <prop id="02ninja_umbrella.swf" name="Umbrella" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15104" money="0" sharing="0" handstyle="stick"/>
   <prop id="03ninja_handfan01.swf" name="Handheld fan" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15105" money="0" sharing="0" handstyle="flat"/>
-  <prop id="03ninja_shuriken02.swf" name="Shuriken" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="15106" money="0" sharing="0" handstyle="flat"/>
+  <prop id="03ninja_shuriken02.swf" name="Shuriken" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15106" money="0" sharing="0" handstyle="flat"/>
   <prop id="ncc_ninja_prop01.swf" name="Energy blast" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15107" money="0" sharing="0"/>
   <prop id="msp_ninja_prop03" name="Energy beam" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_prop03_ncc_ninja_prop03a.swf" enable="Y" is_premium="N" aid="15108" money="0" sharing="0">
     <state id="msp_ninja_prop03_ncc_ninja_prop03a.swf" name="Default" enable="Y" default="Y"/>
@@ -1063,8 +1063,8 @@
     <state id="msp_ninja_door01_ncc_ninja_door01_open.swf" name="open" enable="Y"/>
   </prop>
   <prop id="ncc_ninja_drawer02.swf" name="Drawers" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15101" money="0" sharing="0"/>
-  <effect id="ncc_ninja_fx02.swf" type="ANIME" resize="false" move="false" name="Hit" enable="N" is_premium="N" aid="15157" money="0" sharing="0" display_order="0"/>
-  <effect id="ncc_ninja_fx04.swf" type="ANIME" resize="false" move="false" name="Purple petals" enable="N" is_premium="N" aid="15159" money="0" sharing="0" display_order="0"/>
-  <effect id="ncc_ninja_fx01.swf" type="ANIME" resize="false" move="false" name="Focus" enable="N" is_premium="N" aid="15156" money="0" sharing="0" display_order="10"/>
-  <effect id="ncc_ninja_fx03.swf" type="ANIME" resize="false" move="false" name="Focus" enable="N" is_premium="N" aid="15158" money="0" sharing="0" display_order="10"/>
+  <effect id="ncc_ninja_fx02.swf" type="ANIME" resize="false" move="false" name="Hit" enable="Y" is_premium="N" aid="15157" money="0" sharing="0" display_order="0"/>
+  <effect id="ncc_ninja_fx04.swf" type="ANIME" resize="false" move="false" name="Purple petals" enable="Y" is_premium="N" aid="15159" money="0" sharing="0" display_order="0"/>
+  <effect id="ncc_ninja_fx01.swf" type="ANIME" resize="false" move="false" name="Focus" enable="Y" is_premium="N" aid="15156" money="0" sharing="0" display_order="10"/>
+  <effect id="ncc_ninja_fx03.swf" type="ANIME" resize="false" move="false" name="Focus" enable="Y" is_premium="N" aid="15158" money="0" sharing="0" display_order="10"/>
 </theme>

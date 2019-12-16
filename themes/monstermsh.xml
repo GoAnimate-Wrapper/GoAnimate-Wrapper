@@ -98,7 +98,7 @@
     <action id="surprised.swf" name="surprised" loop="Y" totalframe="100" enable="Y" aid="3545"/>
     <action id="screaming.swf" name="scream" loop="Y" totalframe="52" enable="Y" aid="3546"/>
     <action id="dancing.swf" name="dance" loop="Y" totalframe="36" enable="Y" aid="3547"/>
-    <action id="drinking.swf" name="drink" loop="Y" totalframe="60" enable="N" aid="3548"/>
+    <action id="drinking.swf" name="drink" loop="Y" totalframe="60" enable="Y" aid="3548"/>
     <action id="talking.swf" name="talk" loop="Y" totalframe="100" enable="Y" aid="3549"/>
     <facial id="head_angry.swf" name="angry" enable="Y" aid="3550"/>
     <facial id="head_cry.swf" name="cry" enable="Y" aid="3551"/>
@@ -152,11 +152,11 @@
     <facial id="head_think.swf" name="thinking" enable="Y" aid="3677"/>
     <facial id="head_default.swf" name="neutral" enable="Y" aid="8540"/>
   </char>
-  <background id="evil_lair_bg.swf" name="evil_lair" enable="N" is_premium="N" aid="3579" money="0" sharing="0"/>
-  <background id="cemetery_bg.swf" name="cemetery" enable="N" is_premium="N" aid="3580" money="0" sharing="0"/>
-  <background id="graveyard_bg.swf" name="Graveyard" enable="N" is_premium="N" aid="3581" money="0" sharing="0"/>
-  <background id="spooky_lab_bg.swf" name="Spooky Lab" enable="N" is_premium="N" aid="3582" money="0" sharing="0"/>
-  <background id="witch_house_bg.swf" name="witch house" enable="N" is_premium="N" aid="3583" money="0" sharing="0"/>
+  <background id="evil_lair_bg.swf" name="evil_lair" enable="Y" is_premium="N" aid="3579" money="0" sharing="0"/>
+  <background id="cemetery_bg.swf" name="cemetery" enable="Y" is_premium="N" aid="3580" money="0" sharing="0"/>
+  <background id="graveyard_bg.swf" name="Graveyard" enable="Y" is_premium="N" aid="3581" money="0" sharing="0"/>
+  <background id="spooky_lab_bg.swf" name="Spooky Lab" enable="Y" is_premium="N" aid="3582" money="0" sharing="0"/>
+  <background id="witch_house_bg.swf" name="witch house" enable="Y" is_premium="N" aid="3583" money="0" sharing="0"/>
   <compositebg id="witch_house" name="witch house" enable="Y" default="Y" thumb="witch_house.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="3584">
   <bg id="BG1" index="0">
     <file>monstermsh.witch_house_bg.swf</file>
@@ -261,40 +261,40 @@
   <prop id="sword.swf" name="Sword" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3602" money="0" sharing="0"/>
   <prop id="evil_lair_torture_table.swf" name="Torture Table" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3603" money="0" sharing="0"/>
   <prop id="evil_lair_rotating_saw.swf" name="Rotating Saw" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3604" money="0" sharing="0"/>
-  <prop id="evil_lair_chair.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="3605" money="0" sharing="0"/>
-  <prop id="cemetery_gravestone.swf" name="cemetery gravestone" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="3606" money="0" sharing="0"/>
+  <prop id="evil_lair_chair.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3605" money="0" sharing="0"/>
+  <prop id="cemetery_gravestone.swf" name="cemetery gravestone" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3606" money="0" sharing="0"/>
   <prop id="spooky_lab_table.swf" name="Lab Table" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3607" money="0" sharing="0"/>
-  <prop id="graveyard_grave.swf" name="Graveyard grave" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="3608" money="0" sharing="0"/>
-  <prop id="witch_house_fence.swf" name="Witch house fence" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="3609" money="0" sharing="0"/>
-  <effect id="zoom" x="0" y="0" w="140" h="90" rotate="0" type="ZOOM" resize="true" move="true" name="Zoom" enable="N" is_premium="N" aid="3610" money="0" sharing="0" display_order="0"/>
-  <effect id="aud-clap.swf" type="ANIME" resize="false" move="false" name="Clap" enable="N" is_premium="N" aid="3627" money="0" sharing="0" display_order="0"/>
-  <effect id="black_all.swf" type="ANIME" resize="false" move="false" name="Darkness" enable="N" is_premium="N" aid="3628" money="0" sharing="0" display_order="0"/>
-  <effect id="black_bar.swf" type="ANIME" resize="false" move="false" name="Black Bar" enable="N" is_premium="N" aid="3629" money="0" sharing="0" display_order="0"/>
-  <effect id="blue_screen.swf" type="ANIME" resize="false" move="false" name="Blue Screen" enable="N" is_premium="N" aid="3630" money="0" sharing="0" display_order="0"/>
-  <effect id="circle_fade_out.swf" type="ANIME" resize="false" move="false" name="Circle Fade Out" enable="N" is_premium="N" aid="3631" money="0" sharing="0" display_order="0"/>
-  <effect id="fade_in.swf" type="ANIME" resize="false" move="false" name="Fade In" enable="N" is_premium="N" aid="3632" money="0" sharing="0" display_order="0"/>
-  <effect id="fade_out.swf" type="ANIME" resize="false" move="false" name="Fade Out" enable="N" is_premium="N" aid="3633" money="0" sharing="0" display_order="0"/>
-  <effect id="flash_light01.swf" type="ANIME" resize="false" move="false" name="Flash Light" enable="N" is_premium="N" aid="3634" money="0" sharing="0" display_order="0"/>
-  <effect id="gnn_news.swf" type="ANIME" resize="false" move="false" name="GNN News" enable="N" is_premium="N" aid="3635" money="0" sharing="0" display_order="0"/>
-  <effect id="green_screen.swf" type="ANIME" resize="false" move="false" name="Green Screen" enable="N" is_premium="N" aid="3636" money="0" sharing="0" display_order="0"/>
-  <effect id="ppl01.swf" type="ANIME" resize="false" move="false" name="People" enable="N" is_premium="N" aid="3637" money="0" sharing="0" display_order="0"/>
-  <effect id="bomb.swf" type="ANIME" resize="false" move="false" name="Bomb" enable="N" is_premium="N" aid="3638" money="0" sharing="0" display_order="0"/>
-  <effect id="water_flood.swf" type="ANIME" resize="false" move="false" name="Water Flood" enable="N" is_premium="N" aid="3639" money="0" sharing="0" display_order="0"/>
-  <effect id="aud-banner.swf" type="ANIME" resize="false" move="false" name="Banner" enable="N" is_premium="N" aid="3626" money="0" sharing="0" display_order="0"/>
-  <effect id="aud-01.swf" type="ANIME" resize="false" move="false" name="Auditorium" enable="N" is_premium="N" aid="3625" money="0" sharing="0" display_order="0"/>
-  <effect id="atomic-bomb.swf" type="ANIME" resize="false" move="false" name="Atomic Bomb" enable="N" is_premium="N" aid="3624" money="0" sharing="0" display_order="0"/>
-  <effect id="cut" x="0" y="0" w="140" h="90" rotate="0" type="ZOOM" resize="true" move="true" name="Cut" enable="N" isCut="true" is_premium="N" aid="3611" money="0" sharing="0" display_order="0"/>
-  <effect id="earthquake" x="0" y="0" w="550" h="354" rotate="0" type="EARTHQUAKE" resize="false" move="false" name="Earthquake" enable="N" is_premium="N" aid="3612" money="0" sharing="0" display_order="0"/>
-  <effect id="upsideDown" x="0" y="0" w="550" h="354" rotate="0" type="UPSIDEDOWN" resize="false" move="false" name="Upside Down" enable="N" is_premium="N" aid="3613" money="0" sharing="0" display_order="0"/>
-  <effect id="firework" x="0" y="0" w="550" h="354" rotate="0" type="FIREWORK" resize="false" move="false" name="Firework" enable="N" is_premium="N" aid="3614" money="0" sharing="0" display_order="0"/>
-  <effect id="firespring" x="0" y="0" w="550" h="354" rotate="0" type="FIRESPRING" resize="false" move="false" name="Fire Spring" enable="N" is_premium="N" aid="3615" money="0" sharing="0" display_order="0"/>
-  <effect id="fire.swf" type="ANIME" resize="false" move="false" name="BBQ" enable="N" is_premium="N" aid="3616" money="0" sharing="0" display_order="0"/>
-  <effect id="lightening.swf" type="ANIME" resize="false" move="false" name="Lightning" enable="N" is_premium="N" aid="3617" money="0" sharing="0" display_order="0"/>
-  <effect id="snow.swf" type="ANIME" resize="false" move="false" name="Snow" enable="N" is_premium="N" aid="3618" money="0" sharing="0" display_order="0"/>
-  <effect id="hyper_snow.swf" type="ANIME" resize="false" move="false" name="Hyper Snow" enable="N" is_premium="N" aid="3619" money="0" sharing="0" display_order="0"/>
-  <effect id="snow01.swf" type="ANIME" resize="false" move="false" name="Snow01" enable="N" is_premium="N" aid="3620" money="0" sharing="0" display_order="0"/>
-  <effect id="snow02.swf" type="ANIME" resize="false" move="false" name="Snow02" enable="N" is_premium="N" aid="3621" money="0" sharing="0" display_order="0"/>
-  <effect id="old_film_effect.swf" type="ANIME" resize="false" move="false" name="Old Film" enable="N" is_premium="N" aid="3622" money="0" sharing="0" display_order="0"/>
-  <effect id="hearts.swf" type="ANIME" resize="false" move="false" name="Heart" enable="N" is_premium="N" aid="3623" money="0" sharing="0" display_order="0"/>
-  <effect id="DV_screen.swf" type="ANIME" resize="false" move="false" name="DV Screen" enable="N" is_premium="N" aid="3640" money="0" sharing="0" display_order="0"/>
+  <prop id="graveyard_grave.swf" name="Graveyard grave" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3608" money="0" sharing="0"/>
+  <prop id="witch_house_fence.swf" name="Witch house fence" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3609" money="0" sharing="0"/>
+  <effect id="zoom" x="0" y="0" w="140" h="90" rotate="0" type="ZOOM" resize="true" move="true" name="Zoom" enable="Y" is_premium="N" aid="3610" money="0" sharing="0" display_order="0"/>
+  <effect id="aud-clap.swf" type="ANIME" resize="false" move="false" name="Clap" enable="Y" is_premium="N" aid="3627" money="0" sharing="0" display_order="0"/>
+  <effect id="black_all.swf" type="ANIME" resize="false" move="false" name="Darkness" enable="Y" is_premium="N" aid="3628" money="0" sharing="0" display_order="0"/>
+  <effect id="black_bar.swf" type="ANIME" resize="false" move="false" name="Black Bar" enable="Y" is_premium="N" aid="3629" money="0" sharing="0" display_order="0"/>
+  <effect id="blue_screen.swf" type="ANIME" resize="false" move="false" name="Blue Screen" enable="Y" is_premium="N" aid="3630" money="0" sharing="0" display_order="0"/>
+  <effect id="circle_fade_out.swf" type="ANIME" resize="false" move="false" name="Circle Fade Out" enable="Y" is_premium="N" aid="3631" money="0" sharing="0" display_order="0"/>
+  <effect id="fade_in.swf" type="ANIME" resize="false" move="false" name="Fade In" enable="Y" is_premium="N" aid="3632" money="0" sharing="0" display_order="0"/>
+  <effect id="fade_out.swf" type="ANIME" resize="false" move="false" name="Fade Out" enable="Y" is_premium="N" aid="3633" money="0" sharing="0" display_order="0"/>
+  <effect id="flash_light01.swf" type="ANIME" resize="false" move="false" name="Flash Light" enable="Y" is_premium="N" aid="3634" money="0" sharing="0" display_order="0"/>
+  <effect id="gnn_news.swf" type="ANIME" resize="false" move="false" name="GNN News" enable="Y" is_premium="N" aid="3635" money="0" sharing="0" display_order="0"/>
+  <effect id="green_screen.swf" type="ANIME" resize="false" move="false" name="Green Screen" enable="Y" is_premium="N" aid="3636" money="0" sharing="0" display_order="0"/>
+  <effect id="ppl01.swf" type="ANIME" resize="false" move="false" name="People" enable="Y" is_premium="N" aid="3637" money="0" sharing="0" display_order="0"/>
+  <effect id="bomb.swf" type="ANIME" resize="false" move="false" name="Bomb" enable="Y" is_premium="N" aid="3638" money="0" sharing="0" display_order="0"/>
+  <effect id="water_flood.swf" type="ANIME" resize="false" move="false" name="Water Flood" enable="Y" is_premium="N" aid="3639" money="0" sharing="0" display_order="0"/>
+  <effect id="aud-banner.swf" type="ANIME" resize="false" move="false" name="Banner" enable="Y" is_premium="N" aid="3626" money="0" sharing="0" display_order="0"/>
+  <effect id="aud-01.swf" type="ANIME" resize="false" move="false" name="Auditorium" enable="Y" is_premium="N" aid="3625" money="0" sharing="0" display_order="0"/>
+  <effect id="atomic-bomb.swf" type="ANIME" resize="false" move="false" name="Atomic Bomb" enable="Y" is_premium="N" aid="3624" money="0" sharing="0" display_order="0"/>
+  <effect id="cut" x="0" y="0" w="140" h="90" rotate="0" type="ZOOM" resize="true" move="true" name="Cut" enable="Y" isCut="true" is_premium="N" aid="3611" money="0" sharing="0" display_order="0"/>
+  <effect id="earthquake" x="0" y="0" w="550" h="354" rotate="0" type="EARTHQUAKE" resize="false" move="false" name="Earthquake" enable="Y" is_premium="N" aid="3612" money="0" sharing="0" display_order="0"/>
+  <effect id="upsideDown" x="0" y="0" w="550" h="354" rotate="0" type="UPSIDEDOWN" resize="false" move="false" name="Upside Down" enable="Y" is_premium="N" aid="3613" money="0" sharing="0" display_order="0"/>
+  <effect id="firework" x="0" y="0" w="550" h="354" rotate="0" type="FIREWORK" resize="false" move="false" name="Firework" enable="Y" is_premium="N" aid="3614" money="0" sharing="0" display_order="0"/>
+  <effect id="firespring" x="0" y="0" w="550" h="354" rotate="0" type="FIRESPRING" resize="false" move="false" name="Fire Spring" enable="Y" is_premium="N" aid="3615" money="0" sharing="0" display_order="0"/>
+  <effect id="fire.swf" type="ANIME" resize="false" move="false" name="BBQ" enable="Y" is_premium="N" aid="3616" money="0" sharing="0" display_order="0"/>
+  <effect id="lightening.swf" type="ANIME" resize="false" move="false" name="Lightning" enable="Y" is_premium="N" aid="3617" money="0" sharing="0" display_order="0"/>
+  <effect id="snow.swf" type="ANIME" resize="false" move="false" name="Snow" enable="Y" is_premium="N" aid="3618" money="0" sharing="0" display_order="0"/>
+  <effect id="hyper_snow.swf" type="ANIME" resize="false" move="false" name="Hyper Snow" enable="Y" is_premium="N" aid="3619" money="0" sharing="0" display_order="0"/>
+  <effect id="snow01.swf" type="ANIME" resize="false" move="false" name="Snow01" enable="Y" is_premium="N" aid="3620" money="0" sharing="0" display_order="0"/>
+  <effect id="snow02.swf" type="ANIME" resize="false" move="false" name="Snow02" enable="Y" is_premium="N" aid="3621" money="0" sharing="0" display_order="0"/>
+  <effect id="old_film_effect.swf" type="ANIME" resize="false" move="false" name="Old Film" enable="Y" is_premium="N" aid="3622" money="0" sharing="0" display_order="0"/>
+  <effect id="hearts.swf" type="ANIME" resize="false" move="false" name="Heart" enable="Y" is_premium="N" aid="3623" money="0" sharing="0" display_order="0"/>
+  <effect id="DV_screen.swf" type="ANIME" resize="false" move="false" name="DV Screen" enable="Y" is_premium="N" aid="3640" money="0" sharing="0" display_order="0"/>
 </theme>

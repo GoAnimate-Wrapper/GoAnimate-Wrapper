@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <theme id="commoncraft" name="Common Craft">
-  <char id="male_full" name="Male Full" thumb="pf_0002.swf" facing="left" default="pf_0002.swf" motion="" enable="N" is_premium="N" aid="20733" money="0" sharing="0">
+  <char id="male_full" name="Male Full" thumb="pf_0002.swf" facing="left" default="pf_0002.swf" motion="" enable="Y" is_premium="N" aid="20733" money="0" sharing="0">
     <category name="Poses">
       <action id="pf_0002.swf" name="1" loop="Y" totalframe="60" enable="Y" aid="20734"/>
       <action id="pf_0004.swf" name="2" loop="Y" totalframe="60" enable="Y" aid="20735"/>
@@ -9,7 +9,7 @@
       <action id="pf_0007.swf" name="5" loop="Y" totalframe="60" enable="Y" aid="20738"/>
     </category>
   </char>
-  <char id="male_waist" name="Male Waist" thumb="pw_0001.swf" facing="left" default="pw_0001.swf" motion="" enable="N" is_premium="N" aid="20739" money="0" sharing="0">
+  <char id="male_waist" name="Male Waist" thumb="pw_0001.swf" facing="left" default="pw_0001.swf" motion="" enable="Y" is_premium="N" aid="20739" money="0" sharing="0">
     <category name="Poses">
       <action id="pw_0001.swf" name="1" loop="Y" totalframe="60" enable="Y" aid="20740"/>
       <action id="pw_0002.swf" name="2" loop="Y" totalframe="60" enable="Y" aid="20741"/>
@@ -37,7 +37,7 @@
     <action id="mf_0016.swf" name="Arm raised" loop="Y" totalframe="60" enable="Y" aid="21576"/>
     <action id="mf_0017.swf" name="Arms spread out" loop="Y" totalframe="60" enable="Y" aid="21577"/>
     <action id="mf_0018.swf" name="Present" loop="Y" totalframe="60" enable="Y" aid="21578"/>
-    <action id="mf_0019.swf" name="Sideways" loop="Y" totalframe="60" enable="N" aid="21579"/>
+    <action id="mf_0019.swf" name="Sideways" loop="Y" totalframe="60" enable="Y" aid="21579"/>
     <action id="mf_0020.swf" name="Walk" loop="Y" totalframe="60" enable="Y" aid="21580"/>
     <action id="mf_0021.swf" name="Run" loop="Y" totalframe="60" enable="Y" aid="21581"/>
     <action id="mf_0022.swf" name="Hold" loop="Y" totalframe="60" enable="Y" aid="21582"/>
@@ -69,7 +69,7 @@
     <action id="standing.swf" name="Standing" loop="Y" totalframe="60" enable="Y" aid="21608"/>
     <action id="mf_0049.swf" name="Speak in megaphone" loop="Y" totalframe="60" enable="Y" aid="21609"/>
     <action id="mf_0050.swf" name="Walk away" loop="Y" totalframe="60" enable="Y" aid="21610"/>
-    <action id="mf_0051.swf" name="In Wheel Chair" loop="Y" totalframe="60" enable="N" aid="21611"/>
+    <action id="mf_0051.swf" name="In Wheel Chair" loop="Y" totalframe="60" enable="Y" aid="21611"/>
   </char>
   <char id="carl_waist" name="Carl Waist" thumb="mw_0001.swf" facing="left" default="mw_0001.swf" motion="" enable="Y" is_premium="N" aid="20727" money="0" sharing="0">
     <action id="mw_0001.swf" name="Think" loop="Y" totalframe="60" enable="Y" aid="20728"/>
@@ -144,7 +144,7 @@
     <action id="wf_0026.swf" name="Standing" loop="Y" totalframe="60" enable="Y" aid="21675"/>
     <action id="wf_0027.swf" name="Hold" loop="Y" totalframe="60" enable="Y" aid="21676"/>
     <action id="wf_0028.swf" name="Hold" loop="Y" totalframe="60" enable="Y" aid="21677"/>
-    <action id="wf_0029.swf" name="Dance" loop="Y" totalframe="60" enable="N" aid="21678"/>
+    <action id="wf_0029.swf" name="Dance" loop="Y" totalframe="60" enable="Y" aid="21678"/>
   </char>
   <char id="carla_waist" name="Carla Waist" thumb="standing.swf" facing="left" default="standing.swf" motion="" enable="Y" is_premium="N" aid="21679" money="0" sharing="0">
     <action id="ww_0001.swf" name="Scared" loop="Y" totalframe="60" enable="Y" aid="21680"/>
@@ -1903,53 +1903,53 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <prop id="bs_0015.swf" name="Buildings Structures" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="20710" money="0" sharing="0">
+  <prop id="bs_0015.swf" name="Buildings Structures" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="20710" money="0" sharing="0">
     <tag>Building</tag>
     <tag>cat:Buildings Structures</tag>
     <tag>City</tag>
     <tag>House</tag>
   </prop>
-  <prop id="hh_0011.swf" name="Household" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="20711" money="0" sharing="0">
+  <prop id="hh_0011.swf" name="Household" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="20711" money="0" sharing="0">
     <tag>cat:Household</tag>
     <tag>Home</tag>
     <tag>House</tag>
   </prop>
-  <prop id="jw_0072.swf" name="Jobs Workplace 1" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="20712" money="0" sharing="0">
+  <prop id="jw_0072.swf" name="Jobs Workplace 1" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="20712" money="0" sharing="0">
     <tag>cat:Jobs Workplace 1</tag>
     <tag>Job</tag>
     <tag>Office</tag>
   </prop>
-  <prop id="jw_0156.swf" name="Jobs Workplace 2" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="20713" money="0" sharing="0">
+  <prop id="jw_0156.swf" name="Jobs Workplace 2" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="20713" money="0" sharing="0">
     <tag>cat:Jobs Workplace 2</tag>
     <tag>Job</tag>
     <tag>Office</tag>
   </prop>
-  <prop id="pf_0002.swf" name="Various Male Full" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="20714" money="0" sharing="0">
+  <prop id="pf_0002.swf" name="Various Male Full" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="20714" money="0" sharing="0">
     <tag>cat:Various Male Full</tag>
     <tag>Male</tag>
   </prop>
-  <prop id="pf_0057.swf" name="Various Female Full" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="20715" money="0" sharing="0">
+  <prop id="pf_0057.swf" name="Various Female Full" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="20715" money="0" sharing="0">
     <tag>cat:Various Female Full</tag>
     <tag>Woman</tag>
   </prop>
-  <prop id="pw_0001.swf" name="Various Male Waist" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="20716" money="0" sharing="0">
+  <prop id="pw_0001.swf" name="Various Male Waist" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="20716" money="0" sharing="0">
     <tag>cat:Various Male Waist</tag>
     <tag>Male</tag>
   </prop>
-  <prop id="ss_0037.swf" name="Symbols Shapes" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="20717" money="0" sharing="0">
+  <prop id="ss_0037.swf" name="Symbols Shapes" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="20717" money="0" sharing="0">
     <tag>cat:Symbols Shapes</tag>
     <tag>Shape</tag>
     <tag>Symbol</tag>
   </prop>
-  <prop id="tc_0034.swf" name="Technology" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="20718" money="0" sharing="0">
+  <prop id="tc_0034.swf" name="Technology" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="20718" money="0" sharing="0">
     <tag>cat:Technology</tag>
     <tag>Technology</tag>
   </prop>
-  <prop id="tp_0001.swf" name="Transportation" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="20719" money="0" sharing="0">
+  <prop id="tp_0001.swf" name="Transportation" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="20719" money="0" sharing="0">
     <tag>cat:Transportation</tag>
     <tag>Transportation</tag>
   </prop>
-  <prop id="wwf_0001.swf" name="Various Female Waist" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="20720" money="0" sharing="0">
+  <prop id="wwf_0001.swf" name="Various Female Waist" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="20720" money="0" sharing="0">
     <tag>cat:Various Female Waist</tag>
     <tag>Woman</tag>
   </prop>
@@ -4455,7 +4455,7 @@
     <tag>Half length</tag>
     <tag>Women</tag>
   </prop>
-  <prop id="wwf_0008.swf" name="Woman - hold" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="21170" money="0" sharing="0">
+  <prop id="wwf_0008.swf" name="Woman - hold" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="21170" money="0" sharing="0">
     <tag>cat:Various Female Waist</tag>
     <tag>guys</tag>
     <tag>Half length</tag>
@@ -4510,7 +4510,7 @@
     <tag>Half length</tag>
     <tag>Women</tag>
   </prop>
-  <prop id="wwf_0017.swf" name="Woman - hold paper" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="21179" money="0" sharing="0">
+  <prop id="wwf_0017.swf" name="Woman - hold paper" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="21179" money="0" sharing="0">
     <tag>cat:Various Female Waist</tag>
     <tag>guys</tag>
     <tag>Half length</tag>

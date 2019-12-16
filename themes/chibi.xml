@@ -2472,5 +2472,5 @@
     <state id="msp_ninja_door01_ncc_ninja_door01_close.swf" name="close" enable="Y" default="Y"/>
     <state id="msp_ninja_door01_ncc_ninja_door01_open.swf" name="open" enable="Y"/>
   </prop>
-  <effect id="ncc_jp_sakura.swf" type="ANIME" resize="false" move="false" name="Sakura" enable="N" is_premium="N" aid="14976" money="0" sharing="0" display_order="0"/>
+  <effect id="ncc_jp_sakura.swf" type="ANIME" resize="false" move="false" name="Sakura" enable="Y" is_premium="N" aid="14976" money="0" sharing="0" display_order="0"/>
 </theme>

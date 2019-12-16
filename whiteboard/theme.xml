@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <theme id="whiteboard" name="Whiteboard Animation" cc_theme_id="whiteboard">
   <background id="g4b_bg001.swf" name="Plain" enable="Y" default="Y" is_premium="N" aid="23025" money="0" sharing="0"/>
-  <compositebg id="cbg_055" name="Office" enable="N" default="N" thumb="cbg_055.png" display_order="1" is_premium="N" money="0" sharing="0" aid="23073">
+  <compositebg id="cbg_055" name="Office" enable="Y" default="N" thumb="cbg_055.png" display_order="1" is_premium="N" money="0" sharing="0" aid="23073">
   <prop id="cbg_055_PROP7" index="5">
     <file>whiteboard.g4b_618.swf</file>
     <x>424</x>
@@ -63,7 +63,7 @@
     <isBG>1</isBG>
   </prop>
 </compositebg>
-  <compositebg id="cbg_056" name="Meeting room" enable="N" default="N" thumb="cbg_056.png" display_order="1" is_premium="N" money="0" sharing="0" aid="23074">
+  <compositebg id="cbg_056" name="Meeting room" enable="Y" default="N" thumb="cbg_056.png" display_order="1" is_premium="N" money="0" sharing="0" aid="23074">
   <prop id="cbg_056_PROP11" index="1">
     <file>whiteboard.g4b_606.swf</file>
     <x>327.2</x>
@@ -110,7 +110,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_057" name="Office pantry" enable="N" default="N" thumb="cbg_057.png" display_order="1" is_premium="N" money="0" sharing="0" aid="23075">
+  <compositebg id="cbg_057" name="Office pantry" enable="Y" default="N" thumb="cbg_057.png" display_order="1" is_premium="N" money="0" sharing="0" aid="23075">
   <prop id="cbg_057_PROP15" index="4">
     <file>whiteboard.g4b_615.swf</file>
     <x>360.1</x>
@@ -192,7 +192,7 @@
     <isBG>1</isBG>
   </prop>
 </compositebg>
-  <compositebg id="cbg_058" name="Office room" enable="N" default="N" thumb="cbg_058.png" display_order="1" is_premium="N" money="0" sharing="0" aid="23076">
+  <compositebg id="cbg_058" name="Office room" enable="Y" default="N" thumb="cbg_058.png" display_order="1" is_premium="N" money="0" sharing="0" aid="23076">
   <prop id="cbg_058_PROP22" index="5">
     <file>whiteboard.g4b_618.swf</file>
     <x>444.3</x>
@@ -254,7 +254,7 @@
     <isBG>1</isBG>
   </prop>
 </compositebg>
-  <compositebg id="cbg_059" name="Copier" enable="N" default="N" thumb="cbg_059.png" display_order="1" is_premium="N" money="0" sharing="0" aid="23077">
+  <compositebg id="cbg_059" name="Copier" enable="Y" default="N" thumb="cbg_059.png" display_order="1" is_premium="N" money="0" sharing="0" aid="23077">
   <prop id="cbg_059_PROP7" index="1">
     <file>whiteboard.msp_copier.msp_copier_g4b_623.swf</file>
     <x>267.1</x>
@@ -283,7 +283,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_060" name="Lift" enable="N" default="N" thumb="cbg_060.png" display_order="1" is_premium="N" money="0" sharing="0" aid="23078">
+  <compositebg id="cbg_060" name="Lift" enable="Y" default="N" thumb="cbg_060.png" display_order="1" is_premium="N" money="0" sharing="0" aid="23078">
   <prop id="cbg_060_PROP3" index="1">
     <file>whiteboard.msp_lift.msp_lift_g4b_627.swf</file>
     <x>323</x>
@@ -312,7 +312,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_049" name="Dining room" enable="N" default="N" thumb="cbg_049.png" display_order="2" is_premium="N" money="0" sharing="0" aid="23026">
+  <compositebg id="cbg_049" name="Dining room" enable="Y" default="N" thumb="cbg_049.png" display_order="2" is_premium="N" money="0" sharing="0" aid="23026">
   <prop id="cbg_049_PROP17" index="9">
     <file>whiteboard.g4b_583.swf</file>
     <x>322</x>
@@ -404,7 +404,7 @@
     <isBG>1</isBG>
   </prop>
 </compositebg>
-  <compositebg id="cbg_051" name="Study room" enable="N" default="N" thumb="cbg_051.png" display_order="2" is_premium="N" money="0" sharing="0" aid="23069">
+  <compositebg id="cbg_051" name="Study room" enable="Y" default="N" thumb="cbg_051.png" display_order="2" is_premium="N" money="0" sharing="0" aid="23069">
   <prop id="cbg_051_PROP8" index="2">
     <file>whiteboard.g4b_587.swf</file>
     <x>277.3</x>
@@ -436,7 +436,7 @@
     <isBG>1</isBG>
   </prop>
 </compositebg>
-  <compositebg id="cbg_052" name="Study room" enable="N" default="N" thumb="cbg_052.png" display_order="2" is_premium="N" money="0" sharing="0" aid="23070">
+  <compositebg id="cbg_052" name="Study room" enable="Y" default="N" thumb="cbg_052.png" display_order="2" is_premium="N" money="0" sharing="0" aid="23070">
   <prop id="cbg_052_PROP9" index="2">
     <file>whiteboard.g4b_590.swf</file>
     <x>196.9</x>
@@ -483,7 +483,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_053" name="Kitchen" enable="N" default="N" thumb="cbg_053.png" display_order="2" is_premium="N" money="0" sharing="0" aid="23071">
+  <compositebg id="cbg_053" name="Kitchen" enable="Y" default="N" thumb="cbg_053.png" display_order="2" is_premium="N" money="0" sharing="0" aid="23071">
   <prop id="cbg_053_PROP8" index="1">
     <file>whiteboard.g4b_600.swf</file>
     <x>300.5</x>
@@ -548,7 +548,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_054" name="Living room" enable="N" default="N" thumb="cbg_054.png" display_order="2" is_premium="N" money="0" sharing="0" aid="23072">
+  <compositebg id="cbg_054" name="Living room" enable="Y" default="N" thumb="cbg_054.png" display_order="2" is_premium="N" money="0" sharing="0" aid="23072">
   <prop id="cbg_054_PROP7" index="1">
     <file>whiteboard.g4b_465.swf</file>
     <x>225.8</x>
@@ -586,7 +586,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_071" name="Home - backyard" enable="N" default="N" thumb="cbg_071.png" display_order="2" is_premium="N" money="0" sharing="0" aid="23089">
+  <compositebg id="cbg_071" name="Home - backyard" enable="Y" default="N" thumb="cbg_071.png" display_order="2" is_premium="N" money="0" sharing="0" aid="23089">
   <prop id="cbg_071_PROP6" index="1">
     <file>whiteboard.g4b_856.swf</file>
     <x>319.6</x>
@@ -597,7 +597,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_072" name="Home - bathroom" enable="N" default="N" thumb="cbg_072.png" display_order="2" is_premium="N" money="0" sharing="0" aid="23090">
+  <compositebg id="cbg_072" name="Home - bathroom" enable="Y" default="N" thumb="cbg_072.png" display_order="2" is_premium="N" money="0" sharing="0" aid="23090">
   <prop id="cbg_072_PROP7" index="1">
     <file>whiteboard.g4b_849.swf</file>
     <x>322</x>
@@ -635,7 +635,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_047" name="Bar" enable="N" default="N" thumb="cbg_047.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23067">
+  <compositebg id="cbg_047" name="Bar" enable="Y" default="N" thumb="cbg_047.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23067">
   <prop id="cbg_047_PROP9" index="1">
     <file>whiteboard.g4b_573.swf</file>
     <x>477.9</x>
@@ -682,7 +682,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_048" name="Coffee Shop" enable="N" default="N" thumb="cbg_048.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23068">
+  <compositebg id="cbg_048" name="Coffee Shop" enable="Y" default="N" thumb="cbg_048.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23068">
   <prop id="cbg_048_PROP1" index="1">
     <file>whiteboard.g4b_577.swf</file>
     <x>211.7</x>
@@ -720,7 +720,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_073" name="Public - toilet" enable="N" default="N" thumb="cbg_073.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23091">
+  <compositebg id="cbg_073" name="Public - toilet" enable="Y" default="N" thumb="cbg_073.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23091">
   <prop id="cbg_073_PROP19" index="5">
     <file>whiteboard.msp_bathroombasin.msp_bathroombasin_g4b_799.swf</file>
     <x>166.5</x>
@@ -772,7 +772,7 @@
     <isBG>1</isBG>
   </prop>
 </compositebg>
-  <compositebg id="cbg_074" name="Restaurant - kitchen" enable="N" default="N" thumb="cbg_074.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23092">
+  <compositebg id="cbg_074" name="Restaurant - kitchen" enable="Y" default="N" thumb="cbg_074.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23092">
   <prop id="cbg_074_PROP6" index="1">
     <file>whiteboard.g4b_868.swf</file>
     <x>182.1</x>
@@ -819,7 +819,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_075" name="Warehouse - loading dock" enable="N" default="N" thumb="cbg_075.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23093">
+  <compositebg id="cbg_075" name="Warehouse - loading dock" enable="Y" default="N" thumb="cbg_075.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23093">
   <prop id="cbg_075_PROP6" index="1">
     <file>whiteboard.g4b_864.swf</file>
     <x>311.6</x>
@@ -848,7 +848,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_076" name="Warehouse - pallet racking" enable="N" default="N" thumb="cbg_076.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23094">
+  <compositebg id="cbg_076" name="Warehouse - pallet racking" enable="Y" default="N" thumb="cbg_076.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23094">
   <prop id="cbg_076_PROP6" index="1">
     <file>whiteboard.g4b_857.swf</file>
     <x>189.3</x>
@@ -904,7 +904,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_077" name="Factory - workshop" enable="N" default="N" thumb="cbg_077.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23095">
+  <compositebg id="cbg_077" name="Factory - workshop" enable="Y" default="N" thumb="cbg_077.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23095">
   <prop id="cbg_077_PROP11" index="6">
     <file>whiteboard.g4b_846.swf</file>
     <x>163.8</x>
@@ -966,7 +966,7 @@
     <isBG>1</isBG>
   </prop>
 </compositebg>
-  <compositebg id="cbg_078" name="Factory - machinery" enable="N" default="N" thumb="cbg_078.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23096">
+  <compositebg id="cbg_078" name="Factory - machinery" enable="Y" default="N" thumb="cbg_078.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23096">
   <prop id="cbg_078_PROP11" index="3">
     <file>whiteboard.g4b_861.swf</file>
     <x>142.6</x>
@@ -1004,7 +1004,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_079" name="School - lockers" enable="N" default="N" thumb="cbg_079.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23097">
+  <compositebg id="cbg_079" name="School - lockers" enable="Y" default="N" thumb="cbg_079.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23097">
   <prop id="cbg_079_PROP8" index="1">
     <file>whiteboard.g4b_853.swf</file>
     <x>260.8</x>
@@ -1024,7 +1024,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_080" name="School - classroom" enable="N" default="N" thumb="cbg_080.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23098">
+  <compositebg id="cbg_080" name="School - classroom" enable="Y" default="N" thumb="cbg_080.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23098">
   <prop id="cbg_080_PROP14" index="1">
     <file>whiteboard.g4b_922.swf</file>
     <x>326.4</x>
@@ -1080,7 +1080,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_081" name="School - classroom" enable="N" default="N" thumb="cbg_081.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23099">
+  <compositebg id="cbg_081" name="School - classroom" enable="Y" default="N" thumb="cbg_081.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23099">
   <prop id="cbg_081_PROP7" index="1">
     <file>whiteboard.g4b_930.swf</file>
     <x>312.7</x>
@@ -1109,7 +1109,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_082" name="School - entrance" enable="N" default="N" thumb="cbg_082.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23100">
+  <compositebg id="cbg_082" name="School - entrance" enable="Y" default="N" thumb="cbg_082.png" display_order="3" is_premium="N" money="0" sharing="0" aid="23100">
   <prop id="cbg_082_PROP6" index="2">
     <file>whiteboard.g4b_925.swf</file>
     <x>316</x>
@@ -1138,7 +1138,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_039" name="Eiffel tower" enable="N" default="N" thumb="cbg_039.png" display_order="10" is_premium="N" money="0" sharing="0" aid="23063">
+  <compositebg id="cbg_039" name="Eiffel tower" enable="Y" default="N" thumb="cbg_039.png" display_order="10" is_premium="N" money="0" sharing="0" aid="23063">
   <prop id="cbg_039_PROP1" index="1">
     <file>whiteboard.g4b_538.swf</file>
     <x>322.5</x>
@@ -1149,7 +1149,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_040" name="Pyramid" enable="N" default="N" thumb="cbg_040.png" display_order="11" is_premium="N" money="0" sharing="0" aid="23064">
+  <compositebg id="cbg_040" name="Pyramid" enable="Y" default="N" thumb="cbg_040.png" display_order="11" is_premium="N" money="0" sharing="0" aid="23064">
   <prop id="cbg_040_PROP2" index="1">
     <file>whiteboard.g4b_539.swf</file>
     <x>322.5</x>
@@ -1160,7 +1160,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_041" name="Kitchen" enable="N" default="N" thumb="cbg_041.png" display_order="11" is_premium="N" money="0" sharing="0" aid="23065">
+  <compositebg id="cbg_041" name="Kitchen" enable="Y" default="N" thumb="cbg_041.png" display_order="11" is_premium="N" money="0" sharing="0" aid="23065">
   <prop id="cbg_041_PROP2" index="1">
     <file>whiteboard.g4b_540.swf</file>
     <x>322</x>
@@ -1171,7 +1171,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_042" name="Hong Kong street" enable="N" default="N" thumb="cbg_042.png" display_order="11" is_premium="N" money="0" sharing="0" aid="23066">
+  <compositebg id="cbg_042" name="Hong Kong street" enable="Y" default="N" thumb="cbg_042.png" display_order="11" is_premium="N" money="0" sharing="0" aid="23066">
   <prop id="cbg_042_PROP2" index="1">
     <file>whiteboard.g4b_541.swf</file>
     <x>314.5</x>
@@ -1182,7 +1182,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_061" name="Gift Shop" enable="N" default="N" thumb="cbg_061.png" display_order="20" is_premium="N" money="0" sharing="0" aid="23079">
+  <compositebg id="cbg_061" name="Gift Shop" enable="Y" default="N" thumb="cbg_061.png" display_order="20" is_premium="N" money="0" sharing="0" aid="23079">
   <prop id="cbg_061_PROP7" index="1">
     <file>whiteboard.g4b_640.swf</file>
     <x>293.4</x>
@@ -1211,7 +1211,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_062" name="Clothing Boutique" enable="N" default="N" thumb="cbg_062.png" display_order="20" is_premium="N" money="0" sharing="0" aid="23080">
+  <compositebg id="cbg_062" name="Clothing Boutique" enable="Y" default="N" thumb="cbg_062.png" display_order="20" is_premium="N" money="0" sharing="0" aid="23080">
   <prop id="cbg_062_PROP11" index="1">
     <file>whiteboard.g4b_644.swf</file>
     <x>429.2</x>
@@ -1240,7 +1240,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_063" name="Shops" enable="N" default="N" thumb="cbg_063.png" display_order="20" is_premium="N" money="0" sharing="0" aid="23081">
+  <compositebg id="cbg_063" name="Shops" enable="Y" default="N" thumb="cbg_063.png" display_order="20" is_premium="N" money="0" sharing="0" aid="23081">
   <prop id="cbg_063_PROP5" index="1">
     <file>whiteboard.g4b_648.swf</file>
     <x>461.6</x>
@@ -1269,7 +1269,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_064" name="Grocery Store" enable="N" default="N" thumb="cbg_064.png" display_order="20" is_premium="N" money="0" sharing="0" aid="23082">
+  <compositebg id="cbg_064" name="Grocery Store" enable="Y" default="N" thumb="cbg_064.png" display_order="20" is_premium="N" money="0" sharing="0" aid="23082">
   <prop id="cbg_064_PROP6" index="1">
     <file>whiteboard.g4b_649.swf</file>
     <x>311.3</x>
@@ -1280,7 +1280,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_065" name="Grocery Store" enable="N" default="N" thumb="cbg_065.png" display_order="20" is_premium="N" money="0" sharing="0" aid="23083">
+  <compositebg id="cbg_065" name="Grocery Store" enable="Y" default="N" thumb="cbg_065.png" display_order="20" is_premium="N" money="0" sharing="0" aid="23083">
   <prop id="cbg_065_PROP5" index="1">
     <file>whiteboard.g4b_638.swf</file>
     <x>445.4</x>
@@ -1309,7 +1309,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_066" name="Store" enable="N" default="N" thumb="cbg_066.png" display_order="20" is_premium="N" money="0" sharing="0" aid="23084">
+  <compositebg id="cbg_066" name="Store" enable="Y" default="N" thumb="cbg_066.png" display_order="20" is_premium="N" money="0" sharing="0" aid="23084">
   <prop id="cbg_066_PROP9" index="1">
     <file>whiteboard.g4b_645.swf</file>
     <x>426</x>
@@ -1338,7 +1338,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_067" name="Waiting Room" enable="N" default="N" thumb="cbg_067.png" display_order="30" is_premium="N" money="0" sharing="0" aid="23085">
+  <compositebg id="cbg_067" name="Waiting Room" enable="Y" default="N" thumb="cbg_067.png" display_order="30" is_premium="N" money="0" sharing="0" aid="23085">
   <prop id="cbg_067_PROP11" index="1">
     <file>whiteboard.g4b_670.swf</file>
     <x>205</x>
@@ -1376,7 +1376,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_068" name="Patient Examination Room" enable="N" default="N" thumb="cbg_068.png" display_order="30" is_premium="N" money="0" sharing="0" aid="23086">
+  <compositebg id="cbg_068" name="Patient Examination Room" enable="Y" default="N" thumb="cbg_068.png" display_order="30" is_premium="N" money="0" sharing="0" aid="23086">
   <prop id="cbg_068_PROP6" index="3">
     <file>whiteboard.g4b_673.swf</file>
     <x>176.3</x>
@@ -1432,7 +1432,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_069" name="Hospital Bed" enable="N" default="N" thumb="cbg_069.png" display_order="30" is_premium="N" money="0" sharing="0" aid="23087">
+  <compositebg id="cbg_069" name="Hospital Bed" enable="Y" default="N" thumb="cbg_069.png" display_order="30" is_premium="N" money="0" sharing="0" aid="23087">
   <prop id="cbg_069_PROP8" index="1">
     <file>whiteboard.g4b_676.swf</file>
     <x>300.8</x>
@@ -1452,7 +1452,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_070" name="Hospital MRI lab" enable="N" default="N" thumb="cbg_070.png" display_order="30" is_premium="N" money="0" sharing="0" aid="23088">
+  <compositebg id="cbg_070" name="Hospital MRI lab" enable="Y" default="N" thumb="cbg_070.png" display_order="30" is_premium="N" money="0" sharing="0" aid="23088">
   <prop id="cbg_070_PROP6" index="1">
     <file>whiteboard.g4b_681.swf</file>
     <x>395.7</x>
@@ -1472,7 +1472,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_083" name="Fire station" enable="N" default="N" thumb="cbg_083.png" display_order="30" is_premium="N" money="0" sharing="0" aid="23101">
+  <compositebg id="cbg_083" name="Fire station" enable="Y" default="N" thumb="cbg_083.png" display_order="30" is_premium="N" money="0" sharing="0" aid="23101">
   <prop id="cbg_083_PROP6" index="1">
     <file>whiteboard.g4b_933.swf</file>
     <x>314.4</x>
@@ -1492,7 +1492,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_084" name="Jail cell" enable="N" default="N" thumb="cbg_084.png" display_order="30" is_premium="N" money="0" sharing="0" aid="23102">
+  <compositebg id="cbg_084" name="Jail cell" enable="Y" default="N" thumb="cbg_084.png" display_order="30" is_premium="N" money="0" sharing="0" aid="23102">
   <prop id="cbg_084_PROP6" index="1">
     <file>whiteboard.g4b_935.swf</file>
     <x>331.4</x>
@@ -1521,7 +1521,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_085" name="Police station" enable="N" default="N" thumb="cbg_085.png" display_order="30" is_premium="N" money="0" sharing="0" aid="23103">
+  <compositebg id="cbg_085" name="Police station" enable="Y" default="N" thumb="cbg_085.png" display_order="30" is_premium="N" money="0" sharing="0" aid="23103">
   <prop id="cbg_085_PROP6" index="1">
     <file>whiteboard.g4b_937.swf</file>
     <x>316</x>
@@ -1541,7 +1541,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_086" name="Airport" enable="N" default="N" thumb="cbg_086.png" display_order="30" is_premium="N" money="0" sharing="0" aid="23183">
+  <compositebg id="cbg_086" name="Airport" enable="Y" default="N" thumb="cbg_086.png" display_order="30" is_premium="N" money="0" sharing="0" aid="23183">
   <prop id="PROP23" index="2">
     <file>whiteboard.g4b_952.swf</file>
     <x>461.7</x>
@@ -1588,7 +1588,7 @@
     <rotation>-0.4</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_087" name="Boarding Gate" enable="N" default="N" thumb="cbg_087.png" display_order="30" is_premium="N" money="0" sharing="0" aid="23184">
+  <compositebg id="cbg_087" name="Boarding Gate" enable="Y" default="N" thumb="cbg_087.png" display_order="30" is_premium="N" money="0" sharing="0" aid="23184">
   <prop id="cbg_087_PROP34" index="4">
     <file>whiteboard.g4b_951.swf</file>
     <x>415.5</x>
@@ -1629,7 +1629,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_088" name="Running track" enable="N" default="N" thumb="cbg_088.png" display_order="30" is_premium="N" money="0" sharing="0" aid="25239">
+  <compositebg id="cbg_088" name="Running track" enable="Y" default="N" thumb="cbg_088.png" display_order="30" is_premium="N" money="0" sharing="0" aid="25239">
   <prop id="cbg_088_PROP8" index="1">
     <file>whiteboard.g4b_1025.swf</file>
     <x>322</x>
@@ -1649,7 +1649,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_089" name="Gym" enable="N" default="N" thumb="cbg_089.png" display_order="30" is_premium="N" money="0" sharing="0" aid="25240">
+  <compositebg id="cbg_089" name="Gym" enable="Y" default="N" thumb="cbg_089.png" display_order="30" is_premium="N" money="0" sharing="0" aid="25240">
   <prop id="cbg_089_PROP62" index="1">
     <file>whiteboard.g4b_1030.swf</file>
     <x>203.1</x>
@@ -1705,7 +1705,7 @@
     <rotation>3.9</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_001" name="Living room" enable="N" default="N" thumb="cbg_001.png" display_order="101" is_premium="N" money="0" sharing="0" aid="23027">
+  <compositebg id="cbg_001" name="Living room" enable="Y" default="N" thumb="cbg_001.png" display_order="101" is_premium="N" money="0" sharing="0" aid="23027">
   <prop id="cbg_001_PROP6" index="1">
     <file>whiteboard.g4b_295.swf</file>
     <x>235.7</x>
@@ -1716,7 +1716,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_002" name="Bedroom" enable="N" default="N" thumb="cbg_002.png" display_order="102" is_premium="N" money="0" sharing="0" aid="23028">
+  <compositebg id="cbg_002" name="Bedroom" enable="Y" default="N" thumb="cbg_002.png" display_order="102" is_premium="N" money="0" sharing="0" aid="23028">
   <prop id="cbg_002_PROP6" index="1">
     <file>whiteboard.g4b_296.swf</file>
     <x>417.5</x>
@@ -1727,7 +1727,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_022" name="Restaurant" enable="N" default="N" thumb="cbg_022.png" display_order="103" is_premium="N" money="0" sharing="0" aid="23046">
+  <compositebg id="cbg_022" name="Restaurant" enable="Y" default="N" thumb="cbg_022.png" display_order="103" is_premium="N" money="0" sharing="0" aid="23046">
   <prop id="cbg_022_PROP7" index="1">
     <file>whiteboard.g4b_395.swf</file>
     <x>418.8</x>
@@ -1756,7 +1756,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_027" name="Mall" enable="N" default="N" thumb="cbg_027.png" display_order="104" is_premium="N" money="0" sharing="0" aid="23051">
+  <compositebg id="cbg_027" name="Mall" enable="Y" default="N" thumb="cbg_027.png" display_order="104" is_premium="N" money="0" sharing="0" aid="23051">
   <prop id="cbg_027_PROP6" index="1">
     <file>whiteboard.g4b_504.swf</file>
     <x>382.7</x>
@@ -1767,7 +1767,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_029" name="Hospital" enable="N" default="N" thumb="cbg_029.png" display_order="105" is_premium="N" money="0" sharing="0" aid="23053">
+  <compositebg id="cbg_029" name="Hospital" enable="Y" default="N" thumb="cbg_029.png" display_order="105" is_premium="N" money="0" sharing="0" aid="23053">
   <prop id="cbg_029_PROP2" index="1">
     <file>whiteboard.g4b_513.swf</file>
     <x>330.5</x>
@@ -1778,7 +1778,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_004" name="Bar" enable="N" default="N" thumb="cbg_004.png" display_order="106" is_premium="N" money="0" sharing="0" aid="23030">
+  <compositebg id="cbg_004" name="Bar" enable="Y" default="N" thumb="cbg_004.png" display_order="106" is_premium="N" money="0" sharing="0" aid="23030">
   <prop id="cbg_004_PROP17" index="1">
     <file>whiteboard.g4b_303.swf</file>
     <x>428.7</x>
@@ -1789,7 +1789,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_003" name="Snooker table" enable="N" default="N" thumb="cbg_003.png" display_order="107" is_premium="N" money="0" sharing="0" aid="23029">
+  <compositebg id="cbg_003" name="Snooker table" enable="Y" default="N" thumb="cbg_003.png" display_order="107" is_premium="N" money="0" sharing="0" aid="23029">
   <prop id="cbg_003_PROP6" index="1">
     <file>whiteboard.g4b_302.swf</file>
     <x>401.6</x>
@@ -1800,7 +1800,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_028" name="Casino" enable="N" default="N" thumb="cbg_028.png" display_order="108" is_premium="N" money="0" sharing="0" aid="23052">
+  <compositebg id="cbg_028" name="Casino" enable="Y" default="N" thumb="cbg_028.png" display_order="108" is_premium="N" money="0" sharing="0" aid="23052">
   <prop id="cbg_028_PROP1" index="1">
     <file>whiteboard.g4b_505.swf</file>
     <x>306.1</x>
@@ -1811,7 +1811,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_005" name="Garage" enable="N" default="N" thumb="cbg_005.png" display_order="109" is_premium="N" money="0" sharing="0" aid="23031">
+  <compositebg id="cbg_005" name="Garage" enable="Y" default="N" thumb="cbg_005.png" display_order="109" is_premium="N" money="0" sharing="0" aid="23031">
   <prop id="cbg_005_PROP6" index="1">
     <file>whiteboard.g4b_304.swf</file>
     <x>404.4</x>
@@ -1822,7 +1822,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_031" name="Car" enable="N" default="N" thumb="cbg_031.png" display_order="110" is_premium="N" money="0" sharing="0" aid="23055">
+  <compositebg id="cbg_031" name="Car" enable="Y" default="N" thumb="cbg_031.png" display_order="110" is_premium="N" money="0" sharing="0" aid="23055">
   <prop id="cbg_031_PROP3" index="1">
     <file>whiteboard.g4b_470.swf</file>
     <x>322</x>
@@ -1833,7 +1833,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_015" name="Public Transport" enable="N" default="N" thumb="cbg_015.png" display_order="111" is_premium="N" money="0" sharing="0" aid="23039">
+  <compositebg id="cbg_015" name="Public Transport" enable="Y" default="N" thumb="cbg_015.png" display_order="111" is_premium="N" money="0" sharing="0" aid="23039">
   <prop id="cbg_015_PROP6" index="1">
     <file>whiteboard.g4b_491.swf</file>
     <x>310</x>
@@ -1844,7 +1844,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_016" name="Airplane" enable="N" default="N" thumb="cbg_016.png" display_order="112" is_premium="N" money="0" sharing="0" aid="23040">
+  <compositebg id="cbg_016" name="Airplane" enable="Y" default="N" thumb="cbg_016.png" display_order="112" is_premium="N" money="0" sharing="0" aid="23040">
   <prop id="cbg_016_PROP6" index="1">
     <file>whiteboard.g4b_483.swf</file>
     <x>326.4</x>
@@ -1855,7 +1855,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_017" name="Airplane" enable="N" default="N" thumb="cbg_017.png" display_order="113" is_premium="N" money="0" sharing="0" aid="23041">
+  <compositebg id="cbg_017" name="Airplane" enable="Y" default="N" thumb="cbg_017.png" display_order="113" is_premium="N" money="0" sharing="0" aid="23041">
   <prop id="cbg_017_PROP6" index="1">
     <file>whiteboard.g4b_484.swf</file>
     <x>328.4</x>
@@ -1866,7 +1866,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_030" name="Train" enable="N" default="N" thumb="cbg_030.png" display_order="114" is_premium="N" money="0" sharing="0" aid="23054">
+  <compositebg id="cbg_030" name="Train" enable="Y" default="N" thumb="cbg_030.png" display_order="114" is_premium="N" money="0" sharing="0" aid="23054">
   <prop id="cbg_030_PROP1" index="1">
     <file>whiteboard.g4b_506.swf</file>
     <x>329.7</x>
@@ -1877,7 +1877,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_032" name="Bicycle" enable="N" default="N" thumb="cbg_032.png" display_order="115" is_premium="N" money="0" sharing="0" aid="23056">
+  <compositebg id="cbg_032" name="Bicycle" enable="Y" default="N" thumb="cbg_032.png" display_order="115" is_premium="N" money="0" sharing="0" aid="23056">
   <prop id="cbg_032_PROP3" index="1">
     <file>whiteboard.g4b_507.swf</file>
     <x>329.5</x>
@@ -1888,7 +1888,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_033" name="Scooter" enable="N" default="N" thumb="cbg_033.png" display_order="116" is_premium="N" money="0" sharing="0" aid="23057">
+  <compositebg id="cbg_033" name="Scooter" enable="Y" default="N" thumb="cbg_033.png" display_order="116" is_premium="N" money="0" sharing="0" aid="23057">
   <prop id="cbg_033_PROP1" index="1">
     <file>whiteboard.g4b_508.swf</file>
     <x>315.7</x>
@@ -1899,7 +1899,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_034" name="Skateboard" enable="N" default="N" thumb="cbg_034.png" display_order="117" is_premium="N" money="0" sharing="0" aid="23058">
+  <compositebg id="cbg_034" name="Skateboard" enable="Y" default="N" thumb="cbg_034.png" display_order="117" is_premium="N" money="0" sharing="0" aid="23058">
   <prop id="cbg_034_PROP3" index="1">
     <file>whiteboard.g4b_509.swf</file>
     <x>322</x>
@@ -1910,7 +1910,7 @@
     <rotation>-2.1</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_038" name="Grocery store" enable="N" default="N" thumb="cbg_038.png" display_order="118" is_premium="N" money="0" sharing="0" aid="23062">
+  <compositebg id="cbg_038" name="Grocery store" enable="Y" default="N" thumb="cbg_038.png" display_order="118" is_premium="N" money="0" sharing="0" aid="23062">
   <prop id="cbg_038_PROP8" index="1">
     <file>whiteboard.g4b_532.swf</file>
     <x>330.1</x>
@@ -1921,7 +1921,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_025" name="Lecture room" enable="N" default="N" thumb="cbg_025.png" display_order="202" is_premium="N" money="0" sharing="0" aid="23049">
+  <compositebg id="cbg_025" name="Lecture room" enable="Y" default="N" thumb="cbg_025.png" display_order="202" is_premium="N" money="0" sharing="0" aid="23049">
   <prop id="cbg_025_PROP11" index="1">
     <file>whiteboard.g4b_494.swf</file>
     <x>470.1</x>
@@ -1968,7 +1968,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_026" name="Conference room" enable="N" default="N" thumb="cbg_026.png" display_order="203" is_premium="N" money="0" sharing="0" aid="23050">
+  <compositebg id="cbg_026" name="Conference room" enable="Y" default="N" thumb="cbg_026.png" display_order="203" is_premium="N" money="0" sharing="0" aid="23050">
   <prop id="cbg_026_PROP12" index="1">
     <file>whiteboard.g4b_042.swf</file>
     <x>207.5</x>
@@ -2015,7 +2015,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_024" name="Lift" enable="N" default="N" thumb="cbg_024.png" display_order="204" is_premium="N" money="0" sharing="0" aid="23048">
+  <compositebg id="cbg_024" name="Lift" enable="Y" default="N" thumb="cbg_024.png" display_order="204" is_premium="N" money="0" sharing="0" aid="23048">
   <prop id="cbg_024_PROP6" index="1">
     <file>whiteboard.g4b_488.swf</file>
     <x>322</x>
@@ -2026,7 +2026,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_006" name="Organization Chart" enable="N" default="N" thumb="cbg_006.png" display_order="205" is_premium="N" money="0" sharing="0" aid="23032">
+  <compositebg id="cbg_006" name="Organization Chart" enable="Y" default="N" thumb="cbg_006.png" display_order="205" is_premium="N" money="0" sharing="0" aid="23032">
   <prop id="cbg_006_PROP6" index="1">
     <file>whiteboard.g4b_399.swf</file>
     <x>329.1</x>
@@ -2037,7 +2037,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_012" name="Globe" enable="N" default="N" thumb="cbg_012.png" display_order="206" is_premium="N" money="0" sharing="0" aid="23037">
+  <compositebg id="cbg_012" name="Globe" enable="Y" default="N" thumb="cbg_012.png" display_order="206" is_premium="N" money="0" sharing="0" aid="23037">
   <prop id="cbg_012_PROP6" index="1">
     <file>whiteboard.g4b_076.swf</file>
     <x>307.6</x>
@@ -2048,7 +2048,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_023" name="World map" enable="N" default="N" thumb="cbg_023.png" display_order="207" is_premium="N" money="0" sharing="0" aid="23047">
+  <compositebg id="cbg_023" name="World map" enable="Y" default="N" thumb="cbg_023.png" display_order="207" is_premium="N" money="0" sharing="0" aid="23047">
   <prop id="cbg_023_PROP6" index="1">
     <file>whiteboard.g4b_129.swf</file>
     <x>330.6</x>
@@ -2059,7 +2059,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_013" name="USA" enable="N" default="N" thumb="cbg_013.png" display_order="208" is_premium="N" money="0" sharing="0" aid="23038">
+  <compositebg id="cbg_013" name="USA" enable="Y" default="N" thumb="cbg_013.png" display_order="208" is_premium="N" money="0" sharing="0" aid="23038">
   <prop id="cbg_013_PROP6" index="1">
     <file>whiteboard.g4b_333.swf</file>
     <x>322</x>
@@ -2070,7 +2070,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_036" name="Stock market" enable="N" default="N" thumb="cbg_036.png" display_order="209" is_premium="N" money="0" sharing="0" aid="23060">
+  <compositebg id="cbg_036" name="Stock market" enable="Y" default="N" thumb="cbg_036.png" display_order="209" is_premium="N" money="0" sharing="0" aid="23060">
   <prop id="cbg_036_PROP1" index="1">
     <file>whiteboard.g4b_499.swf</file>
     <x>329.4</x>
@@ -2081,7 +2081,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_009" name="Webpage" enable="N" default="N" thumb="cbg_009.png" display_order="301" is_premium="N" money="0" sharing="0" aid="23035">
+  <compositebg id="cbg_009" name="Webpage" enable="Y" default="N" thumb="cbg_009.png" display_order="301" is_premium="N" money="0" sharing="0" aid="23035">
   <prop id="cbg_009_PROP7" index="1">
     <file>whiteboard.g4b_007.swf</file>
     <x>322</x>
@@ -2164,7 +2164,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_008" name="Social Media" enable="N" default="N" thumb="cbg_008.png" display_order="302" is_premium="N" money="0" sharing="0" aid="23034">
+  <compositebg id="cbg_008" name="Social Media" enable="Y" default="N" thumb="cbg_008.png" display_order="302" is_premium="N" money="0" sharing="0" aid="23034">
   <prop id="cbg_008_PROP25" index="1">
     <file>whiteboard.g4b_232.swf</file>
     <x>322</x>
@@ -2229,7 +2229,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_007" name="Facebook" enable="N" default="N" thumb="cbg_007.png" display_order="303" is_premium="N" money="0" sharing="0" aid="23033">
+  <compositebg id="cbg_007" name="Facebook" enable="Y" default="N" thumb="cbg_007.png" display_order="303" is_premium="N" money="0" sharing="0" aid="23033">
   <prop id="cbg_007_PROP6" index="1">
     <file>whiteboard.g4b_004.swf</file>
     <x>322</x>
@@ -2240,7 +2240,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_010" name="Iphone" enable="N" default="N" thumb="cbg_010.png" display_order="304" is_premium="N" money="0" sharing="0" aid="23036">
+  <compositebg id="cbg_010" name="Iphone" enable="Y" default="N" thumb="cbg_010.png" display_order="304" is_premium="N" money="0" sharing="0" aid="23036">
   <prop id="cbg_010_PROP6" index="1">
     <file>whiteboard.g4b_018.swf</file>
     <x>310.8</x>
@@ -2260,7 +2260,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_037" name="Desert Island" enable="N" default="N" thumb="cbg_037.png" display_order="401" is_premium="N" money="0" sharing="0" aid="23061">
+  <compositebg id="cbg_037" name="Desert Island" enable="Y" default="N" thumb="cbg_037.png" display_order="401" is_premium="N" money="0" sharing="0" aid="23061">
   <prop id="cbg_037_PROP2" index="1">
     <file>whiteboard.g4b_481.swf</file>
     <x>329.4</x>
@@ -2280,7 +2280,7 @@
     <rotation>85.7</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_035" name="Space" enable="N" default="N" thumb="cbg_035.png" display_order="402" is_premium="N" money="0" sharing="0" aid="23059">
+  <compositebg id="cbg_035" name="Space" enable="Y" default="N" thumb="cbg_035.png" display_order="402" is_premium="N" money="0" sharing="0" aid="23059">
   <prop id="cbg_035_PROP10" index="1">
     <file>whiteboard.g4b_268.swf</file>
     <x>410.5</x>
@@ -2300,7 +2300,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_018" name="Earthquake zone" enable="N" default="N" thumb="cbg_018.png" display_order="403" is_premium="N" money="0" sharing="0" aid="23042">
+  <compositebg id="cbg_018" name="Earthquake zone" enable="Y" default="N" thumb="cbg_018.png" display_order="403" is_premium="N" money="0" sharing="0" aid="23042">
   <prop id="cbg_018_PROP6" index="1">
     <file>whiteboard.g4b_496.swf</file>
     <x>322</x>
@@ -2311,7 +2311,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_019" name="Flooded zone" enable="N" default="N" thumb="cbg_019.png" display_order="404" is_premium="N" money="0" sharing="0" aid="23043">
+  <compositebg id="cbg_019" name="Flooded zone" enable="Y" default="N" thumb="cbg_019.png" display_order="404" is_premium="N" money="0" sharing="0" aid="23043">
   <prop id="cbg_019_PROP6" index="1">
     <file>whiteboard.g4b_497.swf</file>
     <x>326.9</x>
@@ -2322,7 +2322,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_020" name="Heaven" enable="N" default="N" thumb="cbg_020.png" display_order="405" is_premium="N" money="0" sharing="0" aid="23044">
+  <compositebg id="cbg_020" name="Heaven" enable="Y" default="N" thumb="cbg_020.png" display_order="405" is_premium="N" money="0" sharing="0" aid="23044">
   <prop id="cbg_020_PROP6" index="1">
     <file>whiteboard.g4b_479.swf</file>
     <x>310</x>
@@ -2333,7 +2333,7 @@
     <rotation>0</rotation>
   </prop>
 </compositebg>
-  <compositebg id="cbg_021" name="Hell" enable="N" default="N" thumb="cbg_021.png" display_order="406" is_premium="N" money="0" sharing="0" aid="23045">
+  <compositebg id="cbg_021" name="Hell" enable="Y" default="N" thumb="cbg_021.png" display_order="406" is_premium="N" money="0" sharing="0" aid="23045">
   <prop id="cbg_021_PROP6" index="1">
     <file>whiteboard.g4b_480.swf</file>
     <x>322</x>
@@ -2816,49 +2816,49 @@
   <prop id="g4b_396.swf" name="Shapes - Circle" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22207" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_631.swf" name="Shape" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22687" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_632.swf" name="Shape" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22688" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_004.swf" name="Web - Facebook" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22209" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_005.swf" name="Web - Twitter" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22210" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_006.swf" name="Web - Google" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22211" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_004.swf" name="Web - Facebook" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22209" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_005.swf" name="Web - Twitter" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22210" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_006.swf" name="Web - Google" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22211" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_007.swf" name="Web - Browser" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22212" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_008.swf" name="Web - Movie player" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22213" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_010.swf" name="Web - Facebook - Share button" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22214" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_011.swf" name="Web - Facebook - Like button" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22215" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_012.swf" name="Web - Facebook - Share icon" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22216" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_013.swf" name="Web - Facebook - Like icon" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22217" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_010.swf" name="Web - Facebook - Share button" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22214" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_011.swf" name="Web - Facebook - Like button" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22215" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_012.swf" name="Web - Facebook - Share icon" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22216" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_013.swf" name="Web - Facebook - Like icon" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22217" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_015.swf" name="Web - Facebook -Like this" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22218" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_016.swf" name="Web - Facebook -Comments" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22219" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_017.swf" name="Web - Facebook -Profile" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22220" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_074.swf" name="Web - Refresh" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22221" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_144.swf" name="Web - App store" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22222" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_235.swf" name="Web - Facebook" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22223" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_236.swf" name="Web - Quora" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22224" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_237.swf" name="Web - Linkedin" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22225" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_238.swf" name="Web - Google plus" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22226" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_239.swf" name="Web - Twitter" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22227" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_240.swf" name="Web - YouTube" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22228" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_235.swf" name="Web - Facebook" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22223" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_236.swf" name="Web - Quora" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22224" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_237.swf" name="Web - Linkedin" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22225" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_238.swf" name="Web - Google plus" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22226" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_239.swf" name="Web - Twitter" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22227" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_240.swf" name="Web - YouTube" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22228" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_241.swf" name="Web - Rss" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22229" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_287.swf" name="Web - Internet explorer" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22230" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_288.swf" name="Web - Firefox" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22231" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_289.swf" name="Web - Chrome" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22232" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_290.swf" name="Web - Safari" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22233" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_457.swf" name="Web - Twitter bird" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22234" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_287.swf" name="Web - Internet explorer" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22230" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_288.swf" name="Web - Firefox" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22231" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_289.swf" name="Web - Chrome" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22232" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_290.swf" name="Web - Safari" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22233" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_457.swf" name="Web - Twitter bird" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22234" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_514.swf" name="Web - Button" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22566" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_515.swf" name="Web - Button" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22567" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_657.swf" name="Internet - Social networks - Profile - Facebook - LinkedIn" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22715" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_658.swf" name="Lighting effects - Spotlight" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22716" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_666.swf" name="Globe - Earth - Planet" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22724" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_666.swf" name="Globe - Earth - Planet" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22724" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_667.swf" name="Shape - Circle - Ring" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22725" money="0" sharing="0" has_mask="Y"/>
-  <prop id="msp_cusor" name="Web - cursor" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cusor_g4b_692.swf" enable="N" is_premium="N" aid="22749" money="0" sharing="0">
+  <prop id="msp_cusor" name="Web - cursor" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cusor_g4b_692.swf" enable="Y" is_premium="N" aid="22749" money="0" sharing="0">
     <state id="msp_cusor_g4b_692.swf" name="default" enable="Y" default="Y" has_mask="Y"/>
     <state id="msp_cusor_g4b_693.swf" name="click" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_facebook" name="Web - Facebook" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_facebook_g4b_235.swf" enable="N" is_premium="N" aid="22752" money="0" sharing="0">
+  <prop id="msp_facebook" name="Web - Facebook" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_facebook_g4b_235.swf" enable="Y" is_premium="N" aid="22752" money="0" sharing="0">
     <state id="msp_facebook_g4b_235.swf" name="default" enable="Y" default="Y" has_mask="Y"/>
     <state id="msp_facebook_g4b_691.swf" name="click" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="g4b_1339.swf" name="Flickr" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="29076" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_1340.swf" name="Instragram" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="29077" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_1341.swf" name="Pinterest" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="29078" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_1339.swf" name="Flickr" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29076" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_1340.swf" name="Instragram" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29077" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_1341.swf" name="Pinterest" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29078" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_009.swf" name="Computer - Cursor" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22235" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_014.swf" name="Computer - Loading bar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22236" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_022.swf" name="Computer - Laptop" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22237" money="0" sharing="0" has_mask="Y"/>
@@ -2892,22 +2892,22 @@
   <prop id="g4b_391.swf" name="Computer" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22265" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_392.swf" name="Computer - Floppy disk" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22266" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_393.swf" name="Computer - Usb key" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22267" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_424.swf" name="Computer - Apple logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22268" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_425.swf" name="Computer - Blackberry logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22269" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_426.swf" name="Computer - Windows logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22270" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_427.swf" name="Computer - Available in Appstore" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22271" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_428.swf" name="Computer - Available in App Market" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22272" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_424.swf" name="Computer - Apple logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22268" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_425.swf" name="Computer - Blackberry logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22269" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_426.swf" name="Computer - Windows logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22270" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_427.swf" name="Computer - Available in Appstore" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22271" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_428.swf" name="Computer - Available in App Market" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22272" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_460.swf" name="Computer - Console / XBOX" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22273" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_527.swf" name="Computer - Server" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22579" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_529.swf" name="Computer - Console / Wii" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22581" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_530.swf" name="Computer - Console / Playstation" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22582" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_531.swf" name="Computer - Console controller / Joypad" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22583" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_654.swf" name="Credit Card Reader - Credit Card Slider - Credit Card Swiper" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22711" money="0" sharing="0" has_mask="Y"/>
-  <prop id="msp_tv" name="Home electronics - LCD TV - Flat Screen TV - LED TV" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_tv_g4b_655.swf" enable="N" is_premium="N" aid="22712" money="0" sharing="0">
+  <prop id="msp_tv" name="Home electronics - LCD TV - Flat Screen TV - LED TV" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_tv_g4b_655.swf" enable="Y" is_premium="N" aid="22712" money="0" sharing="0">
     <state id="msp_tv_g4b_655.swf" name="on" enable="Y" default="Y" has_mask="Y"/>
     <state id="msp_tv_g4b_656.swf" name="empty" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="g4b_877.swf" name="Computer - Available in App Market" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22962" money="0" sharing="0" has_mask="Y">
+  <prop id="g4b_877.swf" name="Computer - Available in App Market" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22962" money="0" sharing="0" has_mask="Y">
     <tag>banner</tag>
     <tag>google</tag>
   </prop>
@@ -2927,8 +2927,8 @@
   <prop id="g4b_1695.swf" name="Smartphone Frame" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29375" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_1696.swf" name="Tablet Frame" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29376" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_1697.swf" name="Cloud" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29377" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_1698.swf" name="Apple Store Badge" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="29378" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_1699.swf" name="Google Play Badge" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="29379" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_1698.swf" name="Apple Store Badge" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29378" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_1699.swf" name="Google Play Badge" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29379" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_1700.swf" name="Computer - Cursor (Animated)" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29380" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_1701.swf" name="Computer - Cursor (Animated)" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29381" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_1702.swf" name="Text Bubble" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29382" money="0" sharing="0" has_mask="Y"/>
@@ -2937,12 +2937,12 @@
   <prop id="g4b_1705.swf" name="Icon - Wireless/Wifi/Hotspot" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29385" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_1706.swf" name="Icon - Wireless/Wifi/Hotspot (Animated)" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29386" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_018.swf" name="Mobile - Iphone" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22274" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_019.swf" name="Mobile - Iphone - like" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22275" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_020.swf" name="Mobile - Iphone - share" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22276" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_019.swf" name="Mobile - Iphone - like" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22275" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_020.swf" name="Mobile - Iphone - share" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22276" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_021.swf" name="Mobile - Iphone - message" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22277" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_030.swf" name="Mobile - Ipad" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22278" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_420.swf" name="Mobile - Android robot" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22279" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_1161.swf" name="Smartphone" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="25693" money="0" sharing="0" has_mask="Y">
+  <prop id="g4b_420.swf" name="Mobile - Android robot" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22279" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_1161.swf" name="Smartphone" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="25693" money="0" sharing="0" has_mask="Y">
     <tag>B20150203</tag>
     <tag>Blackberry</tag>
     <tag>mobile phone</tag>
@@ -3031,8 +3031,8 @@
   <prop id="g4b_037.swf" name="Office - Inbox" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22305" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_038.swf" name="Office - Outbox" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22306" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_039.swf" name="Office - Monitor" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22307" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_040.swf" name="Office - Desk - empty" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22308" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_041.swf" name="Office - Desk - full" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22309" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_040.swf" name="Office - Desk - empty" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22308" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_041.swf" name="Office - Desk - full" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22309" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_042.swf" name="Office - Screen / Whiteboard" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22310" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_048.swf" name="Office - Chart - circle" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22311" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_051.swf" name="Office - Clipboard" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22314" money="0" sharing="0" has_mask="Y"/>
@@ -3052,10 +3052,10 @@
   <prop id="g4b_300.swf" name="Office - Desk" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22328" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_301.swf" name="Office - list" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22329" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_475.swf" name="Office - Podium" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22330" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_477.swf" name="Office - Desk" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22331" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_477.swf" name="Office - Desk" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22331" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_485.swf" name="Office - Conference table" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22332" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_486.swf" name="Office - Seat / Chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22333" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_487.swf" name="Office - Screen" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22334" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_487.swf" name="Office - Screen" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22334" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_488.swf" name="Office - Elevator" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22335" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_492.swf" name="Office - Desk" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22336" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_493.swf" name="Office - Podium" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22337" money="0" sharing="0" has_mask="Y"/>
@@ -3091,19 +3091,19 @@
   <prop id="g4b_620.swf" name="Office Furniture - Partition - Cubicle" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22674" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_621.swf" name="Office - Rubbish bin - Trash Bin" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22675" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_622.swf" name="Office Furniture - Window - Skyline view" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22676" money="0" sharing="0" has_mask="Y"/>
-  <prop id="msp_copier" name="Electronics - Photocopier - Copier" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_copier_g4b_623.swf" enable="N" is_premium="N" aid="22677" money="0" sharing="0">
+  <prop id="msp_copier" name="Electronics - Photocopier - Copier" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_copier_g4b_623.swf" enable="Y" is_premium="N" aid="22677" money="0" sharing="0">
     <state id="msp_copier_g4b_623.swf" name="closed" enable="Y" default="Y" has_mask="Y"/>
     <state id="msp_copier_g4b_624.swf" name="opened" enable="Y" has_mask="Y"/>
     <state id="msp_copier_g4b_625.swf" name="broken" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="g4b_626.swf" name="Electronics - Photocopier - Copier - Paper bin - Recycle Bin" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22681" money="0" sharing="0" has_mask="Y"/>
-  <prop id="msp_lift" name="Lift - Elevator" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_lift_g4b_627.swf" enable="N" is_premium="N" aid="22682" money="0" sharing="0">
+  <prop id="g4b_626.swf" name="Electronics - Photocopier - Copier - Paper bin - Recycle Bin" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22681" money="0" sharing="0" has_mask="Y"/>
+  <prop id="msp_lift" name="Lift - Elevator" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_lift_g4b_627.swf" enable="Y" is_premium="N" aid="22682" money="0" sharing="0">
     <state id="msp_lift_g4b_627.swf" name="closed" enable="Y" default="Y" has_mask="Y"/>
     <state id="msp_lift_g4b_628.swf" name="opening" enable="Y" has_mask="Y"/>
     <state id="msp_lift_g4b_629.swf" name="closing" enable="Y" has_mask="Y"/>
   </prop>
   <prop id="g4b_650.swf" name="Publishing - Printing machine" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22706" money="0" sharing="0" has_mask="Y"/>
-  <prop id="msp_large_front_door" name="Doors - Large Front Door - Wooden door" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_large_front_door_g4b_651.swf" enable="N" is_premium="N" aid="22707" money="0" sharing="0">
+  <prop id="msp_large_front_door" name="Doors - Large Front Door - Wooden door" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_large_front_door_g4b_651.swf" enable="Y" is_premium="N" aid="22707" money="0" sharing="0">
     <state id="msp_large_front_door_g4b_651.swf" name="closed" enable="Y" default="Y" has_mask="Y"/>
     <state id="msp_large_front_door_g4b_652.swf" name="opening" enable="Y" has_mask="Y"/>
     <state id="msp_large_front_door_g4b_653.swf" name="closing" enable="Y" has_mask="Y"/>
@@ -3293,10 +3293,10 @@
   <prop id="g4b_399.swf" name="Office - Organization Chart" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22344" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_557.swf" name="Office - Calendar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22609" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_567.swf" name="Office - Calendar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22619" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_568.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22620" money="0" sharing="0"/>
-  <prop id="g4b_569.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22621" money="0" sharing="0"/>
-  <prop id="g4b_570.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22622" money="0" sharing="0"/>
-  <prop id="g4b_571.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22623" money="0" sharing="0"/>
+  <prop id="g4b_568.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22620" money="0" sharing="0"/>
+  <prop id="g4b_569.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22621" money="0" sharing="0"/>
+  <prop id="g4b_570.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22622" money="0" sharing="0"/>
+  <prop id="g4b_571.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22623" money="0" sharing="0"/>
   <prop id="g4b_049.swf" name="Office - Chart - bar / bar chart" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22312" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_050.swf" name="Office - Chart - raise" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22313" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_516.swf" name="Office - Chart - bar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22568" money="0" sharing="0" has_mask="Y"/>
@@ -3357,7 +3357,7 @@
   <prop id="g4b_555.swf" name="Tools - Scaffolding" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22607" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_556.swf" name="Tools - Scaffolding" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22608" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_566.swf" name="Tools - Helmet" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22618" money="0" sharing="0" has_mask="Y"/>
-  <prop id="msp_forklift" name="Forklift" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_forklift_g4b_788.swf" enable="N" is_premium="N" aid="22865" money="0" sharing="0">
+  <prop id="msp_forklift" name="Forklift" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_forklift_g4b_788.swf" enable="Y" is_premium="N" aid="22865" money="0" sharing="0">
     <tag>factories</tag>
     <tag>factory</tag>
     <tag>industrial vehicle</tag>
@@ -3370,11 +3370,11 @@
     <state id="msp_forklift_g4b_790.swf" name="still - loaded" enable="Y" has_mask="Y"/>
     <state id="msp_forklift_g4b_791.swf" name="moving - loaded" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_palletjack" name="Pallet jack" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_palletjack_g4b_794.swf" enable="N" is_premium="N" aid="22870" money="0" sharing="0">
+  <prop id="msp_palletjack" name="Pallet jack" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_palletjack_g4b_794.swf" enable="Y" is_premium="N" aid="22870" money="0" sharing="0">
     <tag>boxes</tag>
     <tag>logistics</tag>
     <tag>warehouse</tag>
-    <state id="msp_palletjack_g4b_792.swf" name="pallet" enable="N" has_mask="Y"/>
+    <state id="msp_palletjack_g4b_792.swf" name="pallet" enable="Y" has_mask="Y"/>
     <state id="msp_palletjack_g4b_793.swf" name="empty" enable="Y" has_mask="Y"/>
     <state id="msp_palletjack_g4b_794.swf" name="full" enable="Y" default="Y" has_mask="Y"/>
   </prop>
@@ -3389,7 +3389,7 @@
     <tag>factory</tag>
     <tag>production line</tag>
   </prop>
-  <prop id="msp_toolbox" name="Tool box" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_toolbox_g4b_797.swf" enable="N" is_premium="N" aid="22876" money="0" sharing="0">
+  <prop id="msp_toolbox" name="Tool box" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_toolbox_g4b_797.swf" enable="Y" is_premium="N" aid="22876" money="0" sharing="0">
     <tag>screw-driver</tag>
     <tag>tools</tag>
     <tag>utilities</tag>
@@ -3398,7 +3398,7 @@
     <state id="msp_toolbox_g4b_797.swf" name="closed" enable="Y" default="Y" has_mask="Y"/>
     <state id="msp_toolbox_g4b_798.swf" name="opened" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_platformtrolley" name="Platform Trolley" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_platformtrolley_g4b_802.swf" enable="N" is_premium="N" aid="22883" money="0" sharing="0">
+  <prop id="msp_platformtrolley" name="Platform Trolley" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_platformtrolley_g4b_802.swf" enable="Y" is_premium="N" aid="22883" money="0" sharing="0">
     <tag>boxes</tag>
     <tag>logistics</tag>
     <tag>moving</tag>
@@ -3834,7 +3834,7 @@
   <prop id="g4b_379.swf" name="State / Hawaii" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22434" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_380.swf" name="State / West Virginia" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22435" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_381.swf" name="State / District of Columbia" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22436" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_385.swf" name="State" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22437" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_385.swf" name="State" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22437" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_978.swf" name="State / Kansas" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="24340" money="0" sharing="0" has_mask="Y">
     <tag>map</tag>
     <tag>region</tag>
@@ -3906,7 +3906,7 @@
   <prop id="g4b_603.swf" name="Furniture - Fireplace tools - Log Grabber" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22657" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_604.swf" name="Furniture - Floor lamp" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22658" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_605.swf" name="Decoration - Plant" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22659" money="0" sharing="0" has_mask="Y"/>
-  <prop id="msp_bathroombasin" name="Bathroom basin" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_bathroombasin_g4b_799.swf" enable="N" is_premium="N" aid="22879" money="0" sharing="0">
+  <prop id="msp_bathroombasin" name="Bathroom basin" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_bathroombasin_g4b_799.swf" enable="Y" is_premium="N" aid="22879" money="0" sharing="0">
     <tag>faucet</tag>
     <tag>plumbing</tag>
     <tag>sink</tag>
@@ -3927,7 +3927,7 @@
     <tag>cleaning</tag>
     <tag>janitor</tag>
   </prop>
-  <prop id="msp_lamp" name="Lamp" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_lamp_g4b_807.swf" enable="N" is_premium="N" aid="22889" money="0" sharing="0">
+  <prop id="msp_lamp" name="Lamp" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_lamp_g4b_807.swf" enable="Y" is_premium="N" aid="22889" money="0" sharing="0">
     <tag>ceiling</tag>
     <tag>home</tag>
     <tag>lighting</tag>
@@ -4735,7 +4735,7 @@
   <prop id="g4b_090.swf" name="Transportation - Truck" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22521" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_091.swf" name="Transportation - Cargo Ship" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22522" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_092.swf" name="Transportation - Car" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22523" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_093.swf" name="Transportation - Aircraft / airplane / plane" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="22524" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_093.swf" name="Transportation - Aircraft / airplane / plane" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22524" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_107.swf" name="Transportation - Tractor" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22525" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_157.swf" name="Transportation - Yellow bus / School Bus" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22526" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_310.swf" name="Transportation - Car" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22527" money="0" sharing="0" has_mask="Y"/>
@@ -4772,7 +4772,7 @@
     <tag>transportation</tag>
     <tag>vehicle</tag>
   </prop>
-  <prop id="g4b_1063.swf" name="Convertible" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="25595" money="0" sharing="0" has_mask="Y">
+  <prop id="g4b_1063.swf" name="Convertible" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="25595" money="0" sharing="0" has_mask="Y">
     <tag>B20150203</tag>
     <tag>car</tag>
     <tag>transportation</tag>
@@ -5304,7 +5304,7 @@
   <prop id="g4b_197.swf" name="Animals - Hay" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22559" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_198.swf" name="Animal - Cow" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22560" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_199.swf" name="Animal - Rat" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="22561" money="0" sharing="0" has_mask="Y"/>
-  <prop id="msp_dog01" name="Dog" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_dog01_g4b_694.swf" enable="N" is_premium="N" aid="22755" money="0" sharing="0">
+  <prop id="msp_dog01" name="Dog" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_dog01_g4b_694.swf" enable="Y" is_premium="N" aid="22755" money="0" sharing="0">
     <tag>animals</tag>
     <tag>pets</tag>
     <state id="msp_dog01_g4b_694.swf" name="still" enable="Y" default="Y" has_mask="Y"/>
@@ -5315,7 +5315,7 @@
     <state id="msp_dog01_g4b_699.swf" name="running" enable="Y" has_mask="Y"/>
     <state id="msp_dog01_g4b_700.swf" name="eating" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_dog02" name="Dog" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_dog02_g4b_701.swf" enable="N" is_premium="N" aid="22763" money="0" sharing="0">
+  <prop id="msp_dog02" name="Dog" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_dog02_g4b_701.swf" enable="Y" is_premium="N" aid="22763" money="0" sharing="0">
     <tag>animals</tag>
     <tag>pets</tag>
     <state id="msp_dog02_g4b_701.swf" name="still" enable="Y" default="Y" has_mask="Y"/>
@@ -5326,7 +5326,7 @@
     <state id="msp_dog02_g4b_706.swf" name="running" enable="Y" has_mask="Y"/>
     <state id="msp_dog02_g4b_707.swf" name="eating" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_dog03" name="Dog" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_dog03_g4b_708.swf" enable="N" is_premium="N" aid="22771" money="0" sharing="0">
+  <prop id="msp_dog03" name="Dog" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_dog03_g4b_708.swf" enable="Y" is_premium="N" aid="22771" money="0" sharing="0">
     <tag>animals</tag>
     <tag>pets</tag>
     <state id="msp_dog03_g4b_708.swf" name="still" enable="Y" default="Y" has_mask="Y"/>
@@ -5337,7 +5337,7 @@
     <state id="msp_dog03_g4b_713.swf" name="running" enable="Y" has_mask="Y"/>
     <state id="msp_dog03_g4b_714.swf" name="eating" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_dog04" name="Dog" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_dog04_g4b_715.swf" enable="N" is_premium="N" aid="22779" money="0" sharing="0">
+  <prop id="msp_dog04" name="Dog" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_dog04_g4b_715.swf" enable="Y" is_premium="N" aid="22779" money="0" sharing="0">
     <tag>animals</tag>
     <tag>pets</tag>
     <state id="msp_dog04_g4b_715.swf" name="still" enable="Y" default="Y" has_mask="Y"/>
@@ -5348,7 +5348,7 @@
     <state id="msp_dog04_g4b_720.swf" name="running" enable="Y" has_mask="Y"/>
     <state id="msp_dog04_g4b_721.swf" name="eating" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_cat01" name="Cat" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cat01_g4b_722.swf" enable="N" is_premium="N" aid="22787" money="0" sharing="0">
+  <prop id="msp_cat01" name="Cat" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cat01_g4b_722.swf" enable="Y" is_premium="N" aid="22787" money="0" sharing="0">
     <tag>animals</tag>
     <tag>pets</tag>
     <state id="msp_cat01_g4b_722.swf" name="still" enable="Y" default="Y" has_mask="Y"/>
@@ -5359,7 +5359,7 @@
     <state id="msp_cat01_g4b_727.swf" name="running" enable="Y" has_mask="Y"/>
     <state id="msp_cat01_g4b_728.swf" name="eating" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_cat02" name="Cat" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cat02_g4b_729.swf" enable="N" is_premium="N" aid="22795" money="0" sharing="0">
+  <prop id="msp_cat02" name="Cat" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cat02_g4b_729.swf" enable="Y" is_premium="N" aid="22795" money="0" sharing="0">
     <tag>animals</tag>
     <tag>pets</tag>
     <state id="msp_cat02_g4b_729.swf" name="still" enable="Y" default="Y" has_mask="Y"/>
@@ -5370,7 +5370,7 @@
     <state id="msp_cat02_g4b_734.swf" name="running" enable="Y" has_mask="Y"/>
     <state id="msp_cat02_g4b_735.swf" name="eating" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_cat03" name="Cat" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cat03_g4b_736.swf" enable="N" is_premium="N" aid="22803" money="0" sharing="0">
+  <prop id="msp_cat03" name="Cat" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cat03_g4b_736.swf" enable="Y" is_premium="N" aid="22803" money="0" sharing="0">
     <tag>animals</tag>
     <tag>pets</tag>
     <state id="msp_cat03_g4b_736.swf" name="still" enable="Y" default="Y" has_mask="Y"/>
@@ -5380,7 +5380,7 @@
     <state id="msp_cat03_g4b_741.swf" name="running" enable="Y" has_mask="Y"/>
     <state id="msp_cat03_g4b_742.swf" name="eating" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_racccoon01" name="Raccoon" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_racccoon01_g4b_743.swf" enable="N" is_premium="N" aid="22810" money="0" sharing="0">
+  <prop id="msp_racccoon01" name="Raccoon" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_racccoon01_g4b_743.swf" enable="Y" is_premium="N" aid="22810" money="0" sharing="0">
     <tag>animals</tag>
     <tag>forests</tag>
     <state id="msp_racccoon01_g4b_743.swf" name="still" enable="Y" default="Y" has_mask="Y"/>
@@ -5390,7 +5390,7 @@
     <state id="msp_racccoon01_g4b_747.swf" name="running" enable="Y" has_mask="Y"/>
     <state id="msp_racccoon01_g4b_748.swf" name="eating garbage" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_pigeon01" name="Pigeon" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_pigeon01_g4b_749.swf" enable="N" is_premium="N" aid="22817" money="0" sharing="0">
+  <prop id="msp_pigeon01" name="Pigeon" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_pigeon01_g4b_749.swf" enable="Y" is_premium="N" aid="22817" money="0" sharing="0">
     <tag>animals</tag>
     <tag>birds</tag>
     <tag>cities</tag>
@@ -5402,7 +5402,7 @@
     <state id="msp_pigeon01_g4b_752.swf" name="flying" enable="Y" has_mask="Y"/>
     <state id="msp_pigeon01_g4b_753.swf" name="eating" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_pig01" name="Pig" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_pig01_g4b_754.swf" enable="N" is_premium="N" aid="22823" money="0" sharing="0">
+  <prop id="msp_pig01" name="Pig" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_pig01_g4b_754.swf" enable="Y" is_premium="N" aid="22823" money="0" sharing="0">
     <tag>animals</tag>
     <tag>farm</tag>
     <tag>livestock</tag>
@@ -5412,7 +5412,7 @@
     <state id="msp_pig01_g4b_756.swf" name="sitting" enable="Y" has_mask="Y"/>
     <state id="msp_pig01_g4b_757.swf" name="eating" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_cow01" name="Cow" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cow01_g4b_758.swf" enable="N" is_premium="N" aid="22828" money="0" sharing="0">
+  <prop id="msp_cow01" name="Cow" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cow01_g4b_758.swf" enable="Y" is_premium="N" aid="22828" money="0" sharing="0">
     <tag>animals</tag>
     <tag>cattle</tag>
     <tag>farms</tag>
@@ -5424,7 +5424,7 @@
     <state id="msp_cow01_g4b_760.swf" name="walking" enable="Y" has_mask="Y"/>
     <state id="msp_cow01_g4b_761.swf" name="milking" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_chicken01" name="Chicken" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_chicken01_g4b_762.swf" enable="N" is_premium="N" aid="22833" money="0" sharing="0">
+  <prop id="msp_chicken01" name="Chicken" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_chicken01_g4b_762.swf" enable="Y" is_premium="N" aid="22833" money="0" sharing="0">
     <tag>animals</tag>
     <tag>eggs</tag>
     <tag>farms</tag>
@@ -5437,7 +5437,7 @@
     <state id="msp_chicken01_g4b_765.swf" name="walking" enable="Y" has_mask="Y"/>
     <state id="msp_chicken01_g4b_766.swf" name="in nest" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_elephant01" name="Elephant" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_elephant01_g4b_767.swf" enable="N" is_premium="N" aid="22839" money="0" sharing="0">
+  <prop id="msp_elephant01" name="Elephant" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_elephant01_g4b_767.swf" enable="Y" is_premium="N" aid="22839" money="0" sharing="0">
     <tag>africa</tag>
     <tag>animals</tag>
     <tag>circus</tag>
@@ -5451,7 +5451,7 @@
     <state id="msp_elephant01_g4b_770.swf" name="eating" enable="Y" has_mask="Y"/>
     <state id="msp_elephant01_g4b_771.swf" name="resting" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_panda01" name="Panda" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_panda01_g4b_772.swf" enable="N" is_premium="N" aid="22845" money="0" sharing="0">
+  <prop id="msp_panda01" name="Panda" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_panda01_g4b_772.swf" enable="Y" is_premium="N" aid="22845" money="0" sharing="0">
     <tag>animals</tag>
     <tag>china</tag>
     <tag>giant panda</tag>
@@ -5463,7 +5463,7 @@
     <state id="msp_panda01_g4b_775.swf" name="eating" enable="Y" has_mask="Y"/>
     <state id="msp_panda01_g4b_776.swf" name="sleeping" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_polarbear01" name="Polar bear" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_polarbear01_g4b_777.swf" enable="N" is_premium="N" aid="22851" money="0" sharing="0">
+  <prop id="msp_polarbear01" name="Polar bear" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_polarbear01_g4b_777.swf" enable="Y" is_premium="N" aid="22851" money="0" sharing="0">
     <tag>animals</tag>
     <tag>arctic</tag>
     <tag>cold</tag>
@@ -5476,7 +5476,7 @@
     <state id="msp_polarbear01_g4b_781.swf" name="sad" enable="Y" has_mask="Y"/>
     <state id="msp_polarbear01_g4b_782.swf" name="sleeping" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_penguin01" name="Penguin" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_penguin01_g4b_783.swf" enable="N" is_premium="N" aid="22858" money="0" sharing="0">
+  <prop id="msp_penguin01" name="Penguin" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_penguin01_g4b_783.swf" enable="Y" is_premium="N" aid="22858" money="0" sharing="0">
     <tag>animals</tag>
     <tag>antarctica</tag>
     <tag>birds</tag>
@@ -5486,7 +5486,7 @@
     <state id="msp_penguin01_g4b_784.swf" name="walking" enable="Y" has_mask="Y"/>
     <state id="msp_penguin01_g4b_785.swf" name="sleeping" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_sealion01" name="Sea lion" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sealion01_g4b_786.swf" enable="N" is_premium="N" aid="22862" money="0" sharing="0">
+  <prop id="msp_sealion01" name="Sea lion" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sealion01_g4b_786.swf" enable="Y" is_premium="N" aid="22862" money="0" sharing="0">
     <tag>animals</tag>
     <tag>mammal</tag>
     <tag>sea world</tag>
@@ -5494,7 +5494,7 @@
     <state id="msp_sealion01_g4b_786.swf" name="still" enable="Y" default="Y" has_mask="Y"/>
     <state id="msp_sealion01_g4b_787.swf" name="walking" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_horse" name="Horse" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_horse_g4b_1131.swf" enable="N" is_premium="N" aid="25661" money="0" sharing="0">
+  <prop id="msp_horse" name="Horse" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_horse_g4b_1131.swf" enable="Y" is_premium="N" aid="25661" money="0" sharing="0">
     <tag>animal</tag>
     <tag>B20150203</tag>
     <tag>farm</tag>
@@ -5503,7 +5503,7 @@
     <state id="msp_horse_g4b_1133.swf" name="run" enable="Y" has_mask="Y"/>
     <state id="msp_horse_g4b_1134.swf" name="eat" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_sheep" name="Sheep" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sheep_g4b_1135.swf" enable="N" is_premium="N" aid="25666" money="0" sharing="0">
+  <prop id="msp_sheep" name="Sheep" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sheep_g4b_1135.swf" enable="Y" is_premium="N" aid="25666" money="0" sharing="0">
     <tag>animal</tag>
     <tag>B20150203</tag>
     <tag>farm</tag>
@@ -5512,7 +5512,7 @@
     <state id="msp_sheep_g4b_1137.swf" name="eat" enable="Y" has_mask="Y"/>
     <state id="msp_sheep_g4b_1138.swf" name="sheared" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_White_chicken" name="White Chicken" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_White_chicken_g4b_1223.swf" enable="N" is_premium="N" aid="25755" money="0" sharing="0">
+  <prop id="msp_White_chicken" name="White Chicken" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_White_chicken_g4b_1223.swf" enable="Y" is_premium="N" aid="25755" money="0" sharing="0">
     <tag>B20150203</tag>
     <tag>birds</tag>
     <tag>farm</tag>
@@ -5525,7 +5525,7 @@
     <state id="msp_White_chicken_g4b_1227.swf" name="Laying Eggs" enable="Y" has_mask="Y"/>
     <state id="msp_White_chicken_g4b_1228.swf" name="In Nest" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_Chick" name="Little Chick" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_Chick_g4b_1234.swf" enable="N" is_premium="N" aid="25767" money="0" sharing="0">
+  <prop id="msp_Chick" name="Little Chick" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_Chick_g4b_1234.swf" enable="Y" is_premium="N" aid="25767" money="0" sharing="0">
     <tag>B20150203</tag>
     <tag>birds</tag>
     <tag>chicken</tag>
@@ -5536,7 +5536,7 @@
     <state id="msp_Chick_g4b_1237.swf" name="Pops out" enable="Y" has_mask="Y"/>
     <state id="msp_Chick_g4b_1238.swf" name="Eating" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_Rooster" name="Rooster" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_Rooster_g4b_1240.swf" enable="N" is_premium="N" aid="25774" money="0" sharing="0">
+  <prop id="msp_Rooster" name="Rooster" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_Rooster_g4b_1240.swf" enable="Y" is_premium="N" aid="25774" money="0" sharing="0">
     <tag>B20150203</tag>
     <tag>birds</tag>
     <tag>farm</tag>
@@ -5751,7 +5751,7 @@
     <tag>kitchen</tag>
     <tag>utensil</tag>
   </prop>
-  <prop id="msp_tray" name="Silver platter" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_tray_g4b_832.swf" enable="N" is_premium="N" aid="22916" money="0" sharing="0">
+  <prop id="msp_tray" name="Silver platter" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_tray_g4b_832.swf" enable="Y" is_premium="N" aid="22916" money="0" sharing="0">
     <tag>eat and drink</tag>
     <tag>fine dining</tag>
     <tag>food</tag>
@@ -6352,14 +6352,14 @@
     <tag>manufacturing</tag>
     <tag>wing</tag>
   </prop>
-  <prop id="msp_turnstile" name="Turnstile" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_turnstile_g4b_965.swf" enable="N" is_premium="N" aid="23174" money="0" sharing="0">
+  <prop id="msp_turnstile" name="Turnstile" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_turnstile_g4b_965.swf" enable="Y" is_premium="N" aid="23174" money="0" sharing="0">
     <tag>airport</tag>
     <tag>boarding gate bridge</tag>
     <tag>turnstile</tag>
     <state id="msp_turnstile_g4b_965.swf" name="closed" enable="Y" default="Y" has_mask="Y"/>
     <state id="msp_turnstile_g4b_968.swf" name="open" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_xray_scanner" name="XRay(airport)" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_xray_scanner_g4b_969.swf" enable="N" is_premium="N" aid="23177" money="0" sharing="0">
+  <prop id="msp_xray_scanner" name="XRay(airport)" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_xray_scanner_g4b_969.swf" enable="Y" is_premium="N" aid="23177" money="0" sharing="0">
     <tag>airport</tag>
     <tag>safety</tag>
     <tag>security</tag>
@@ -6367,7 +6367,7 @@
     <state id="msp_xray_scanner_g4b_969.swf" name="no threat" enable="Y" default="Y" has_mask="Y"/>
     <state id="msp_xray_scanner_g4b_967.swf" name="threat" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_airplane" name="Airplane" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_airplane_g4b_971.swf" enable="N" is_premium="N" aid="23180" money="0" sharing="0">
+  <prop id="msp_airplane" name="Airplane" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_airplane_g4b_971.swf" enable="Y" is_premium="N" aid="23180" money="0" sharing="0">
     <tag>aeroplane</tag>
     <tag>airplane</tag>
     <tag>airport</tag>
@@ -6381,7 +6381,7 @@
     <state id="msp_airplane_g4b_971.swf" name="Landing gear retracted" enable="Y" default="Y" has_mask="Y"/>
     <state id="msp_airplane_g4b_970.swf" name="Landing gear deployed" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_goal" name="Goal" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_goal_g4b_972.swf" enable="N" is_premium="N" aid="24350" money="0" sharing="0">
+  <prop id="msp_goal" name="Goal" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_goal_g4b_972.swf" enable="Y" is_premium="N" aid="24350" money="0" sharing="0">
     <tag>football</tag>
     <tag>kick off</tag>
     <tag>soccer</tag>
@@ -6390,7 +6390,7 @@
     <state id="msp_goal_g4b_972.swf" name="default" enable="Y" default="Y" has_mask="Y"/>
     <state id="msp_goal_g4b_973.swf" name="goal" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_ball" name="Soccer ball" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ball_g4b_974.swf" enable="N" is_premium="N" aid="24353" money="0" sharing="0">
+  <prop id="msp_ball" name="Soccer ball" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ball_g4b_974.swf" enable="Y" is_premium="N" aid="24353" money="0" sharing="0">
     <tag>football</tag>
     <tag>kick off</tag>
     <tag>soccer</tag>
@@ -6409,7 +6409,7 @@
     <tag>sports</tag>
     <tag>world cup</tag>
   </prop>
-  <prop id="msp_goal_front" name="Goal" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_goal_front_g4b_981.swf" enable="N" is_premium="N" aid="24358" money="0" sharing="0">
+  <prop id="msp_goal_front" name="Goal" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_goal_front_g4b_981.swf" enable="Y" is_premium="N" aid="24358" money="0" sharing="0">
     <tag>football</tag>
     <tag>kick off</tag>
     <tag>soccer</tag>
@@ -6418,7 +6418,7 @@
     <state id="msp_goal_front_g4b_981.swf" name="default" enable="Y" default="Y" has_mask="Y"/>
     <state id="msp_goal_front_g4b_982.swf" name="goal" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_football" name="Football" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_football_g4b_983.swf" enable="N" is_premium="N" aid="24361" money="0" sharing="0">
+  <prop id="msp_football" name="Football" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_football_g4b_983.swf" enable="Y" is_premium="N" aid="24361" money="0" sharing="0">
     <tag>football</tag>
     <tag>kick off</tag>
     <tag>nfl</tag>
@@ -6441,7 +6441,7 @@
     <tag>sports</tag>
     <tag>super bowl</tag>
   </prop>
-  <prop id="msp_backboard" name="Backboard" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_backboard_g4b_987.swf" enable="N" is_premium="N" aid="24366" money="0" sharing="0">
+  <prop id="msp_backboard" name="Backboard" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_backboard_g4b_987.swf" enable="Y" is_premium="N" aid="24366" money="0" sharing="0">
     <tag>basket</tag>
     <tag>basketball</tag>
     <tag>nba</tag>
@@ -6450,7 +6450,7 @@
     <state id="msp_backboard_g4b_987.swf" name="default" enable="Y" default="Y" has_mask="Y"/>
     <state id="msp_backboard_g4b_988.swf" name="goal" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_backboard_front" name="Backboard" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_backboard_front_g4b_989.swf" enable="N" is_premium="N" aid="24369" money="0" sharing="0">
+  <prop id="msp_backboard_front" name="Backboard" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_backboard_front_g4b_989.swf" enable="Y" is_premium="N" aid="24369" money="0" sharing="0">
     <tag>basket</tag>
     <tag>basketball</tag>
     <tag>nba</tag>
@@ -6459,7 +6459,7 @@
     <state id="msp_backboard_front_g4b_989.swf" name="default" enable="Y" default="Y" has_mask="Y"/>
     <state id="msp_backboard_front_g4b_990.swf" name="goal" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_basketball" name="Basketball" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_basketball_g4b_991.swf" enable="N" is_premium="N" aid="24372" money="0" sharing="0">
+  <prop id="msp_basketball" name="Basketball" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_basketball_g4b_991.swf" enable="Y" is_premium="N" aid="24372" money="0" sharing="0">
     <tag>basket</tag>
     <tag>basketball</tag>
     <tag>nba</tag>
@@ -6550,7 +6550,7 @@
     <tag>law</tag>
     <tag>tribunal</tag>
   </prop>
-  <prop id="g4b_998.swf" name="Great hall" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="25121" money="0" sharing="0" has_mask="Y">
+  <prop id="g4b_998.swf" name="Great hall" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="25121" money="0" sharing="0" has_mask="Y">
     <tag>buildings</tag>
     <tag>justice</tag>
   </prop>
@@ -6579,12 +6579,12 @@
     <tag>speak</tag>
     <tag>speech</tag>
   </prop>
-  <prop id="msp_courtchair" name="Court chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_courtchair_g4b_1004.swf" enable="N" is_premium="N" aid="25127" money="0" sharing="0">
+  <prop id="msp_courtchair" name="Court chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_courtchair_g4b_1004.swf" enable="Y" is_premium="N" aid="25127" money="0" sharing="0">
     <tag>justice</tag>
     <state id="msp_courtchair_g4b_1004.swf" name="front" enable="Y" default="Y" has_mask="Y"/>
     <state id="msp_courtchair_g4b_1005.swf" name="side" enable="Y" has_mask="Y"/>
   </prop>
-  <prop id="msp_courtdesk" name="Court desk" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_courtdesk_g4b_1006.swf" enable="N" is_premium="N" aid="25130" money="0" sharing="0">
+  <prop id="msp_courtdesk" name="Court desk" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_courtdesk_g4b_1006.swf" enable="Y" is_premium="N" aid="25130" money="0" sharing="0">
     <tag>justice</tag>
     <state id="msp_courtdesk_g4b_1006.swf" name="front" enable="Y" default="Y" has_mask="Y"/>
     <state id="msp_courtdesk_g4b_1007.swf" name="side" enable="Y" has_mask="Y"/>
@@ -6600,7 +6600,7 @@
     <tag>people</tag>
     <tag>tribunal</tag>
   </prop>
-  <prop id="msp_note" name="Note" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_note_g4b_1010.swf" enable="N" is_premium="N" aid="25135" money="0" sharing="0">
+  <prop id="msp_note" name="Note" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_note_g4b_1010.swf" enable="Y" is_premium="N" aid="25135" money="0" sharing="0">
     <tag>paper</tag>
     <state id="msp_note_g4b_1010.swf" name="front" enable="Y" default="Y" has_mask="Y"/>
     <state id="msp_note_g4b_1011.swf" name="side" enable="Y" has_mask="Y"/>
@@ -6610,7 +6610,7 @@
     <tag>law</tag>
     <tag>table</tag>
   </prop>
-  <prop id="msp_courtcurtains" name="Curtains" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_courtcurtains_g4b_1013.swf" enable="N" is_premium="N" aid="25139" money="0" sharing="0">
+  <prop id="msp_courtcurtains" name="Curtains" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_courtcurtains_g4b_1013.swf" enable="Y" is_premium="N" aid="25139" money="0" sharing="0">
     <tag>curtains</tag>
     <tag>justice</tag>
     <tag>law</tag>
@@ -6924,7 +6924,7 @@
   <prop id="g4b_1998.swf" name="Volcano smoke" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29602" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_1999.swf" name="Puzzle piece" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29603" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2000.swf" name="Puzzle piece" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29604" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_2317.swf" name="Frame - Thinking" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="28886" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_2317.swf" name="Frame - Thinking" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="28886" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2109.swf" name="Spotlights" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29021" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2110.swf" name="Armchair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29022" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2638.swf" name="Fence" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29023" money="0" sharing="0" has_mask="Y"/>
@@ -7201,7 +7201,7 @@
   <prop id="g4b_2504.swf" name="Cork board" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30033" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2505.swf" name="Crown" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30034" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2506.swf" name="Cup" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30035" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_2507.swf" name="Envelope" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="30036" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_2507.swf" name="Envelope" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30036" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2508.swf" name="Flower vase" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30037" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2509.swf" name="Fountain" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30038" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2510.swf" name="Fountain" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30039" money="0" sharing="0" has_mask="Y"/>
@@ -7247,7 +7247,7 @@
   <prop id="g4b_2550.swf" name="Cake" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30079" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2551.swf" name="Capitol" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30080" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2552.swf" name="Fried Chicken" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30081" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_2553.swf" name="Civil War Flag" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="30082" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_2553.swf" name="Civil War Flag" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30082" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2554.swf" name="Clock - Fast" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30083" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2555.swf" name="Clock - Normal" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30084" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2556.swf" name="Hanged Clothes" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30085" money="0" sharing="0" has_mask="Y"/>
@@ -7519,25 +7519,25 @@
   <prop id="g4b_2812.swf" name="Circle" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30632" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2813.swf" name="Circle call out" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30633" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2814.swf" name="Envelope" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30634" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_2815.swf" name="Icon - Facebook" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="30635" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_2815.swf" name="Icon - Facebook" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30635" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2816.swf" name="Fishbowl" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30636" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2817.swf" name="Goldfish" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30637" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2818.swf" name="Fishbowl" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30638" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2819.swf" name="Fishbowl" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30639" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_2820.swf" name="Icon - Google plus" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="30640" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_2821.swf" name="Icon - Instagram" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="30641" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_2820.swf" name="Icon - Google plus" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30640" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_2821.swf" name="Icon - Instagram" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30641" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2822.swf" name="Leaking bucket" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30642" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_2823.swf" name="Icon - Linkedin" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="30643" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_2823.swf" name="Icon - Linkedin" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30643" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2824.swf" name="Icon - Person" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30644" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2825.swf" name="Icon - Person" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30645" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2826.swf" name="Marketing funnel" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30646" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2827.swf" name="Smartphone" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30647" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_2828.swf" name="Icon - Pinterest" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="30648" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_2828.swf" name="Icon - Pinterest" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30648" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2829.swf" name="Squiggle border" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30649" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2830.swf" name="Trend arrow" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30650" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_2831.swf" name="Icon - Twitter" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="30651" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_2831.swf" name="Icon - Twitter" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30651" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2832.swf" name="Barchart" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30652" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_2833.swf" name="Icon - Youtube" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="30653" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_2833.swf" name="Icon - Youtube" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30653" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2839.swf" name="Bar" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30654" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2840.swf" name="Label" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30655" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2841.swf" name="Frame" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30656" money="0" sharing="0" has_mask="Y"/>
@@ -7844,13 +7844,13 @@
   <prop id="g4b_3197.swf" name="Cruiser motorcycle" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="31345" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_3198.swf" name="Sports motorcycle" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="31346" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_3199.swf" name="Motor scooter - Delivery" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="31347" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_3200.swf" name="Lemur - Eating" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="31372" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_3201.swf" name="Lemur - Running" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="31373" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_3202.swf" name="Lemur - Sleeping" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="31374" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_3203.swf" name="Lemur - Standing" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="31375" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_3204.swf" name="Lemur - Stand up" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="31376" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_3205.swf" name="Lemur - Still" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="31377" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_3206.swf" name="Lemur - Walking" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="31378" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_3200.swf" name="Lemur - Eating" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="31372" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_3201.swf" name="Lemur - Running" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="31373" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_3202.swf" name="Lemur - Sleeping" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="31374" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_3203.swf" name="Lemur - Standing" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="31375" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_3204.swf" name="Lemur - Stand up" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="31376" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_3205.swf" name="Lemur - Still" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="31377" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_3206.swf" name="Lemur - Walking" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="31378" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_3341.swf" name="Lemur - Eating" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="31379" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_3342.swf" name="Lemur - Running" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="31380" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_3343.swf" name="Lemur - Sleeping" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="31381" money="0" sharing="0" has_mask="Y"/>
@@ -7873,8 +7873,8 @@
   <prop id="g4b_2313wb.swf" name="LED TV - Empty" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30349" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2314wb.swf" name="Cursor - Default" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30350" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_2315wb.swf" name="Cursor - Click" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30351" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_2316wb.swf" name="Facebook - Default" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="30352" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_2317wb.swf" name="Facebook - Click" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="30353" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_2316wb.swf" name="Facebook - Default" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30352" money="0" sharing="0" has_mask="Y"/>
+  <prop id="g4b_2317wb.swf" name="Facebook - Click" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="30353" money="0" sharing="0" has_mask="Y"/>
   <prop id="g4b_1104.swf" name="Pile of debris" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="25636" money="0" sharing="0" has_mask="Y">
     <tag>B20150203</tag>
     <tag>junk</tag>
@@ -8236,21 +8236,21 @@
     <tag>mound</tag>
     <tag>peak</tag>
   </prop>
-  <prop id="g4b_1322.swf" name="Snow" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="25857" money="0" sharing="0" has_mask="Y">
+  <prop id="g4b_1322.swf" name="Snow" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="25857" money="0" sharing="0" has_mask="Y">
     <tag>B20150203</tag>
     <tag>cold</tag>
     <tag>freeze</tag>
     <tag>frozen</tag>
     <tag>ice</tag>
   </prop>
-  <prop id="g4b_1323.swf" name="Snow" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="25858" money="0" sharing="0" has_mask="Y">
+  <prop id="g4b_1323.swf" name="Snow" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="25858" money="0" sharing="0" has_mask="Y">
     <tag>B20150203</tag>
     <tag>cold</tag>
     <tag>freeze</tag>
     <tag>frozen</tag>
     <tag>ice</tag>
   </prop>
-  <prop id="g4b_1324.swf" name="Snowman" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="25859" money="0" sharing="0" has_mask="Y">
+  <prop id="g4b_1324.swf" name="Snowman" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="25859" money="0" sharing="0" has_mask="Y">
     <tag>B20150203</tag>
     <tag>sculpture</tag>
     <tag>statue</tag>
@@ -8270,7 +8270,7 @@
   <prop id="wb_0006.swf" name="Train window" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="29029" money="0" sharing="0" has_mask="Y"/>
   <prop id="wb_0023.swf" name="Path" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="31690" money="0" sharing="0" has_mask="Y"/>
   <prop id="wb_0024.swf" name="Shape - Fish bone" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="31691" money="0" sharing="0" has_mask="Y"/>
-  <prop id="g4b_9999.swf" name="Yoga Mat" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="25157" money="0" sharing="0" has_mask="Y">
+  <prop id="g4b_9999.swf" name="Yoga Mat" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="25157" money="0" sharing="0" has_mask="Y">
     <tag>drive</tag>
     <tag>path</tag>
     <tag>road</tag>

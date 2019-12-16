@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <theme id="politics2" name="US Election 2012">
-  <char id="char01" name="Char01" thumb="stand_side.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="12564" money="0" sharing="0">
-    <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="N" aid="12565"/>
-    <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="N" aid="12566"/>
-    <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="N" aid="12567"/>
-    <action id="cry.swf" name="Cry" loop="Y" totalframe="100" enable="N" aid="12568"/>
-    <action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="N" aid="12569"/>
-    <action id="shock.swf" name="Shock" loop="Y" totalframe="100" enable="N" aid="12570"/>
-    <action id="stand.swf" name="Standing" loop="Y" totalframe="100" enable="N" aid="12571"/>
-    <action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="N" aid="12572"/>
-    <action id="talk_angry.swf" name="Talk angry" loop="Y" totalframe="100" enable="N" aid="12573"/>
-    <action id="talk_happy.swf" name="Talk happy" loop="Y" totalframe="100" enable="N" aid="12574"/>
-    <action id="stand_side.swf" name="Standing" loop="Y" totalframe="100" enable="N" aid="12575"/>
-    <action id="sit.swf" name="Sitting" loop="Y" totalframe="100" enable="N" aid="12576"/>
-    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="N" aid="12577"/>
-    <motion id="walk.swf" name="Walk" loop="Y" totalframe="100" enable="N" aid="12578"/>
-    <facial id="head_talk.swf" name="Face Camera - Talk Neutral" enable="N" aid="12579"/>
-    <facial id="head_talkangry.swf" name="Face Camera - Angry" enable="N" aid="12580"/>
-    <facial id="head_talkhappy.swf" name="Face Camera - Happy" enable="N" aid="12581"/>
-    <facial id="head_talksad.swf" name="3/4 Front View - Sad" enable="N" aid="12582"/>
-    <facial id="head_talkcry.swf" name="3/4 Front View - Cry" enable="N" aid="12583"/>
-    <facial id="head_rolleye.swf" name="3/4 Front View - Bored" enable="N" aid="12584"/>
-    <facial id="head_talkthink.swf" name="3/4 Front View - Thinking" enable="N" aid="12585"/>
-    <facial id="head_shake.swf" name="3/4 Front View - Shaking head" enable="N" aid="12586"/>
-    <facial id="head_nod.swf" name="3/4 Front View - Nodding head" enable="N" aid="12587"/>
-    <facial id="head_asleep.swf" name="3/4 Front View - Fall asleep" enable="N" aid="12588"/>
-    <facial id="head_drunk.swf" name="3/4 Front View - Drunk" enable="N" aid="12589"/>
-    <motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="N" aid="12746"/>
-    <facial id="head_talkside.swf" name="3/4 Front View - Talk Neutral" enable="N" aid="12747"/>
-    <action id="stand_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="N" aid="12900"/>
-    <action id="sit_move.swf" name="Sitting - move" loop="Y" totalframe="100" enable="N" aid="12901"/>
-    <action id="stand_side_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="N" aid="12902"/>
-    <facial id="head_talkangryside.swf" name="3/4 Front View - Angry" enable="N" aid="12903"/>
-    <facial id="head_talkhappyside.swf" name="3/4 Front View - Happy" enable="N" aid="12904"/>
-    <facial id="head_neutral.swf" name="Face Camera - Neutral" enable="N" aid="12905"/>
-    <facial id="head_neutralside.swf" name="3/4 Front View - Neutral" enable="N" aid="12906"/>
-    <action id="talk_side.swf" name="Talk" loop="Y" totalframe="100" enable="N" aid="13197"/>
-    <facial id="head_sad.swf" name="Face Camera - Sad" enable="N" aid="13198"/>
-    <facial id="head_cry.swf" name="Face Camera - Cry" enable="N" aid="13199"/>
-    <facial id="head_shockside.swf" name="3/4 Front View - Shock" enable="N" aid="13200"/>
+  <char id="char01" name="Char01" thumb="stand_side.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="12564" money="0" sharing="0">
+    <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="12565"/>
+    <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="12566"/>
+    <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="12567"/>
+    <action id="cry.swf" name="Cry" loop="Y" totalframe="100" enable="Y" aid="12568"/>
+    <action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="Y" aid="12569"/>
+    <action id="shock.swf" name="Shock" loop="Y" totalframe="100" enable="Y" aid="12570"/>
+    <action id="stand.swf" name="Standing" loop="Y" totalframe="100" enable="Y" aid="12571"/>
+    <action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="12572"/>
+    <action id="talk_angry.swf" name="Talk angry" loop="Y" totalframe="100" enable="Y" aid="12573"/>
+    <action id="talk_happy.swf" name="Talk happy" loop="Y" totalframe="100" enable="Y" aid="12574"/>
+    <action id="stand_side.swf" name="Standing" loop="Y" totalframe="100" enable="Y" aid="12575"/>
+    <action id="sit.swf" name="Sitting" loop="Y" totalframe="100" enable="Y" aid="12576"/>
+    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="Y" aid="12577"/>
+    <motion id="walk.swf" name="Walk" loop="Y" totalframe="100" enable="Y" aid="12578"/>
+    <facial id="head_talk.swf" name="Face Camera - Talk Neutral" enable="Y" aid="12579"/>
+    <facial id="head_talkangry.swf" name="Face Camera - Angry" enable="Y" aid="12580"/>
+    <facial id="head_talkhappy.swf" name="Face Camera - Happy" enable="Y" aid="12581"/>
+    <facial id="head_talksad.swf" name="3/4 Front View - Sad" enable="Y" aid="12582"/>
+    <facial id="head_talkcry.swf" name="3/4 Front View - Cry" enable="Y" aid="12583"/>
+    <facial id="head_rolleye.swf" name="3/4 Front View - Bored" enable="Y" aid="12584"/>
+    <facial id="head_talkthink.swf" name="3/4 Front View - Thinking" enable="Y" aid="12585"/>
+    <facial id="head_shake.swf" name="3/4 Front View - Shaking head" enable="Y" aid="12586"/>
+    <facial id="head_nod.swf" name="3/4 Front View - Nodding head" enable="Y" aid="12587"/>
+    <facial id="head_asleep.swf" name="3/4 Front View - Fall asleep" enable="Y" aid="12588"/>
+    <facial id="head_drunk.swf" name="3/4 Front View - Drunk" enable="Y" aid="12589"/>
+    <motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="Y" aid="12746"/>
+    <facial id="head_talkside.swf" name="3/4 Front View - Talk Neutral" enable="Y" aid="12747"/>
+    <action id="stand_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="Y" aid="12900"/>
+    <action id="sit_move.swf" name="Sitting - move" loop="Y" totalframe="100" enable="Y" aid="12901"/>
+    <action id="stand_side_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="Y" aid="12902"/>
+    <facial id="head_talkangryside.swf" name="3/4 Front View - Angry" enable="Y" aid="12903"/>
+    <facial id="head_talkhappyside.swf" name="3/4 Front View - Happy" enable="Y" aid="12904"/>
+    <facial id="head_neutral.swf" name="Face Camera - Neutral" enable="Y" aid="12905"/>
+    <facial id="head_neutralside.swf" name="3/4 Front View - Neutral" enable="Y" aid="12906"/>
+    <action id="talk_side.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="13197"/>
+    <facial id="head_sad.swf" name="Face Camera - Sad" enable="Y" aid="13198"/>
+    <facial id="head_cry.swf" name="Face Camera - Cry" enable="Y" aid="13199"/>
+    <facial id="head_shockside.swf" name="3/4 Front View - Shock" enable="Y" aid="13200"/>
     <action id="thinking_side.swf" name="Thinking02" loop="Y" totalframe="100" enable="Y" aid="13530"/>
     <action id="happy_side.swf" name="Laugh02" loop="Y" totalframe="100" enable="Y" aid="13531"/>
     <action id="angry_side.swf" name="Angry02" loop="Y" totalframe="100" enable="Y" aid="13532"/>
@@ -77,45 +77,45 @@
     <facial id="head_cry_front.swf" name="Face Camera - Cry02" enable="Y" aid="13565"/>
     <facial id="head_shock_side.swf" name="3/4 Front View - Shock02" enable="Y" aid="13566"/>
   </char>
-  <char id="char02" name="char02" thumb="stand_side.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="12590" money="0" sharing="0">
-    <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="N" aid="12591"/>
-    <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="N" aid="12592"/>
-    <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="N" aid="12593"/>
-    <action id="cry.swf" name="Cry" loop="Y" totalframe="100" enable="N" aid="12594"/>
-    <action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="N" aid="12595"/>
-    <action id="shock.swf" name="Shock" loop="Y" totalframe="100" enable="N" aid="12596"/>
-    <action id="stand.swf" name="Standing" loop="Y" totalframe="100" enable="N" aid="12597"/>
-    <action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="N" aid="12598"/>
-    <action id="talk_angry.swf" name="Talk angry" loop="Y" totalframe="100" enable="N" aid="12599"/>
-    <action id="talk_happy.swf" name="Talk happy" loop="Y" totalframe="100" enable="N" aid="12600"/>
-    <action id="stand_side.swf" name="Standing" loop="Y" totalframe="100" enable="N" aid="12601"/>
-    <action id="sit.swf" name="Sitting" loop="Y" totalframe="100" enable="N" aid="12602"/>
-    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="N" aid="12603"/>
-    <motion id="walk.swf" name="Walk" loop="Y" totalframe="100" enable="N" aid="12604"/>
-    <facial id="head_talk.swf" name="Face Camera - Talk Neutral" enable="N" aid="12605"/>
-    <facial id="head_talkangry.swf" name="Face Camera - Angry" enable="N" aid="12606"/>
-    <facial id="head_talkhappy.swf" name="Face Camera - Happy" enable="N" aid="12607"/>
-    <facial id="head_talksad.swf" name="3/4 Front View - Sad" enable="N" aid="12608"/>
-    <facial id="head_talkcry.swf" name="3/4 Front View - Cry" enable="N" aid="12609"/>
-    <facial id="head_rolleye.swf" name="3/4 Front View - Bored" enable="N" aid="12610"/>
-    <facial id="head_talkthink.swf" name="3/4 Front View - Thinking" enable="N" aid="12611"/>
-    <facial id="head_shake.swf" name="3/4 Front View - Shaking head" enable="N" aid="12612"/>
-    <facial id="head_nod.swf" name="3/4 Front View - Nodding head" enable="N" aid="12613"/>
-    <facial id="head_asleep.swf" name="3/4 Front View - Fall asleep" enable="N" aid="12614"/>
-    <facial id="head_drunk.swf" name="3/4 Front View - Drunk" enable="N" aid="12615"/>
-    <motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="N" aid="12748"/>
-    <facial id="head_talkside.swf" name="3/4 Front View - Talk Neutral" enable="N" aid="12749"/>
-    <action id="stand_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="N" aid="12907"/>
-    <action id="sit_move.swf" name="Sitting - move" loop="Y" totalframe="100" enable="N" aid="12908"/>
-    <action id="stand_side_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="N" aid="12909"/>
-    <facial id="head_talkangryside.swf" name="3/4 Front View - Angry" enable="N" aid="12910"/>
-    <facial id="head_talkhappyside.swf" name="3/4 Front View - Happy" enable="N" aid="12911"/>
-    <facial id="head_neutral.swf" name="Face Camera - Neutral" enable="N" aid="12912"/>
-    <facial id="head_neutralside.swf" name="3/4 Front View - Neutral" enable="N" aid="12913"/>
-    <action id="talk_side.swf" name="Talk" loop="Y" totalframe="100" enable="N" aid="13201"/>
-    <facial id="head_sad.swf" name="Face Camera - Sad" enable="N" aid="13202"/>
-    <facial id="head_cry.swf" name="Face Camera - Cry" enable="N" aid="13203"/>
-    <facial id="head_shockside.swf" name="3/4 Front View - Shock" enable="N" aid="13204"/>
+  <char id="char02" name="char02" thumb="stand_side.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="12590" money="0" sharing="0">
+    <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="12591"/>
+    <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="12592"/>
+    <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="12593"/>
+    <action id="cry.swf" name="Cry" loop="Y" totalframe="100" enable="Y" aid="12594"/>
+    <action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="Y" aid="12595"/>
+    <action id="shock.swf" name="Shock" loop="Y" totalframe="100" enable="Y" aid="12596"/>
+    <action id="stand.swf" name="Standing" loop="Y" totalframe="100" enable="Y" aid="12597"/>
+    <action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="12598"/>
+    <action id="talk_angry.swf" name="Talk angry" loop="Y" totalframe="100" enable="Y" aid="12599"/>
+    <action id="talk_happy.swf" name="Talk happy" loop="Y" totalframe="100" enable="Y" aid="12600"/>
+    <action id="stand_side.swf" name="Standing" loop="Y" totalframe="100" enable="Y" aid="12601"/>
+    <action id="sit.swf" name="Sitting" loop="Y" totalframe="100" enable="Y" aid="12602"/>
+    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="Y" aid="12603"/>
+    <motion id="walk.swf" name="Walk" loop="Y" totalframe="100" enable="Y" aid="12604"/>
+    <facial id="head_talk.swf" name="Face Camera - Talk Neutral" enable="Y" aid="12605"/>
+    <facial id="head_talkangry.swf" name="Face Camera - Angry" enable="Y" aid="12606"/>
+    <facial id="head_talkhappy.swf" name="Face Camera - Happy" enable="Y" aid="12607"/>
+    <facial id="head_talksad.swf" name="3/4 Front View - Sad" enable="Y" aid="12608"/>
+    <facial id="head_talkcry.swf" name="3/4 Front View - Cry" enable="Y" aid="12609"/>
+    <facial id="head_rolleye.swf" name="3/4 Front View - Bored" enable="Y" aid="12610"/>
+    <facial id="head_talkthink.swf" name="3/4 Front View - Thinking" enable="Y" aid="12611"/>
+    <facial id="head_shake.swf" name="3/4 Front View - Shaking head" enable="Y" aid="12612"/>
+    <facial id="head_nod.swf" name="3/4 Front View - Nodding head" enable="Y" aid="12613"/>
+    <facial id="head_asleep.swf" name="3/4 Front View - Fall asleep" enable="Y" aid="12614"/>
+    <facial id="head_drunk.swf" name="3/4 Front View - Drunk" enable="Y" aid="12615"/>
+    <motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="Y" aid="12748"/>
+    <facial id="head_talkside.swf" name="3/4 Front View - Talk Neutral" enable="Y" aid="12749"/>
+    <action id="stand_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="Y" aid="12907"/>
+    <action id="sit_move.swf" name="Sitting - move" loop="Y" totalframe="100" enable="Y" aid="12908"/>
+    <action id="stand_side_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="Y" aid="12909"/>
+    <facial id="head_talkangryside.swf" name="3/4 Front View - Angry" enable="Y" aid="12910"/>
+    <facial id="head_talkhappyside.swf" name="3/4 Front View - Happy" enable="Y" aid="12911"/>
+    <facial id="head_neutral.swf" name="Face Camera - Neutral" enable="Y" aid="12912"/>
+    <facial id="head_neutralside.swf" name="3/4 Front View - Neutral" enable="Y" aid="12913"/>
+    <action id="talk_side.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="13201"/>
+    <facial id="head_sad.swf" name="Face Camera - Sad" enable="Y" aid="13202"/>
+    <facial id="head_cry.swf" name="Face Camera - Cry" enable="Y" aid="13203"/>
+    <facial id="head_shockside.swf" name="3/4 Front View - Shock" enable="Y" aid="13204"/>
     <action id="thinking_side.swf" name="Thinking02" loop="Y" totalframe="100" enable="Y" aid="13567"/>
     <action id="happy_side.swf" name="Laugh02" loop="Y" totalframe="100" enable="Y" aid="13568"/>
     <action id="angry_side.swf" name="Angry02" loop="Y" totalframe="100" enable="Y" aid="13569"/>
@@ -154,45 +154,45 @@
     <facial id="head_cry_front.swf" name="Face Camera - Cry02" enable="Y" aid="13602"/>
     <facial id="head_shock_side.swf" name="3/4 Front View - Shock02" enable="Y" aid="13603"/>
   </char>
-  <char id="char03" name="char03" thumb="stand_side.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="12616" money="0" sharing="0">
-    <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="N" aid="12617"/>
-    <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="N" aid="12618"/>
-    <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="N" aid="12619"/>
-    <action id="cry.swf" name="Cry" loop="Y" totalframe="100" enable="N" aid="12620"/>
-    <action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="N" aid="12621"/>
-    <action id="shock.swf" name="Shock" loop="Y" totalframe="100" enable="N" aid="12622"/>
-    <action id="stand.swf" name="Standing" loop="Y" totalframe="100" enable="N" aid="12623"/>
-    <action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="N" aid="12624"/>
-    <action id="talk_angry.swf" name="Talk angry" loop="Y" totalframe="100" enable="N" aid="12625"/>
-    <action id="talk_happy.swf" name="Talk happy" loop="Y" totalframe="100" enable="N" aid="12626"/>
-    <action id="stand_side.swf" name="Standing" loop="Y" totalframe="100" enable="N" aid="12627"/>
-    <action id="sit.swf" name="Sitting" loop="Y" totalframe="100" enable="N" aid="12628"/>
-    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="N" aid="12629"/>
-    <motion id="walk.swf" name="Walk" loop="Y" totalframe="100" enable="N" aid="12630"/>
-    <facial id="head_talk.swf" name="Face Camera - Talk Neutral" enable="N" aid="12631"/>
-    <facial id="head_talkangry.swf" name="Face Camera - Angry" enable="N" aid="12632"/>
-    <facial id="head_talkhappy.swf" name="Face Camera - Happy" enable="N" aid="12633"/>
-    <facial id="head_talksad.swf" name="3/4 Front View - Sad" enable="N" aid="12634"/>
-    <facial id="head_talkcry.swf" name="3/4 Front View - Cry" enable="N" aid="12635"/>
-    <facial id="head_rolleye.swf" name="3/4 Front View - Bored" enable="N" aid="12636"/>
-    <facial id="head_talkthink.swf" name="3/4 Front View - Thinking" enable="N" aid="12637"/>
-    <facial id="head_shake.swf" name="3/4 Front View - Shaking head" enable="N" aid="12638"/>
-    <facial id="head_nod.swf" name="3/4 Front View - Nodding head" enable="N" aid="12639"/>
-    <facial id="head_asleep.swf" name="3/4 Front View - Fall asleep" enable="N" aid="12640"/>
-    <facial id="head_drunk.swf" name="3/4 Front View - Drunk" enable="N" aid="12641"/>
-    <motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="N" aid="12750"/>
-    <facial id="head_talkside.swf" name="3/4 Front View - Talk Neutral" enable="N" aid="12751"/>
-    <action id="stand_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="N" aid="12914"/>
-    <action id="sit_move.swf" name="Sitting - move" loop="Y" totalframe="100" enable="N" aid="12915"/>
-    <action id="stand_side_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="N" aid="12916"/>
-    <facial id="head_talkangryside.swf" name="3/4 Front View - Angry" enable="N" aid="12917"/>
-    <facial id="head_talkhappyside.swf" name="3/4 Front View - Happy" enable="N" aid="12918"/>
-    <facial id="head_neutral.swf" name="Face Camera - Neutral" enable="N" aid="12919"/>
-    <facial id="head_neutralside.swf" name="3/4 Front View - Neutral" enable="N" aid="12920"/>
-    <action id="talk_side.swf" name="Talk" loop="Y" totalframe="100" enable="N" aid="13205"/>
-    <facial id="head_sad.swf" name="Face Camera - Sad" enable="N" aid="13206"/>
-    <facial id="head_cry.swf" name="Face Camera - Cry" enable="N" aid="13207"/>
-    <facial id="head_shockside.swf" name="3/4 Front View - Shock" enable="N" aid="13208"/>
+  <char id="char03" name="char03" thumb="stand_side.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="12616" money="0" sharing="0">
+    <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="12617"/>
+    <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="12618"/>
+    <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="12619"/>
+    <action id="cry.swf" name="Cry" loop="Y" totalframe="100" enable="Y" aid="12620"/>
+    <action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="Y" aid="12621"/>
+    <action id="shock.swf" name="Shock" loop="Y" totalframe="100" enable="Y" aid="12622"/>
+    <action id="stand.swf" name="Standing" loop="Y" totalframe="100" enable="Y" aid="12623"/>
+    <action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="12624"/>
+    <action id="talk_angry.swf" name="Talk angry" loop="Y" totalframe="100" enable="Y" aid="12625"/>
+    <action id="talk_happy.swf" name="Talk happy" loop="Y" totalframe="100" enable="Y" aid="12626"/>
+    <action id="stand_side.swf" name="Standing" loop="Y" totalframe="100" enable="Y" aid="12627"/>
+    <action id="sit.swf" name="Sitting" loop="Y" totalframe="100" enable="Y" aid="12628"/>
+    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="Y" aid="12629"/>
+    <motion id="walk.swf" name="Walk" loop="Y" totalframe="100" enable="Y" aid="12630"/>
+    <facial id="head_talk.swf" name="Face Camera - Talk Neutral" enable="Y" aid="12631"/>
+    <facial id="head_talkangry.swf" name="Face Camera - Angry" enable="Y" aid="12632"/>
+    <facial id="head_talkhappy.swf" name="Face Camera - Happy" enable="Y" aid="12633"/>
+    <facial id="head_talksad.swf" name="3/4 Front View - Sad" enable="Y" aid="12634"/>
+    <facial id="head_talkcry.swf" name="3/4 Front View - Cry" enable="Y" aid="12635"/>
+    <facial id="head_rolleye.swf" name="3/4 Front View - Bored" enable="Y" aid="12636"/>
+    <facial id="head_talkthink.swf" name="3/4 Front View - Thinking" enable="Y" aid="12637"/>
+    <facial id="head_shake.swf" name="3/4 Front View - Shaking head" enable="Y" aid="12638"/>
+    <facial id="head_nod.swf" name="3/4 Front View - Nodding head" enable="Y" aid="12639"/>
+    <facial id="head_asleep.swf" name="3/4 Front View - Fall asleep" enable="Y" aid="12640"/>
+    <facial id="head_drunk.swf" name="3/4 Front View - Drunk" enable="Y" aid="12641"/>
+    <motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="Y" aid="12750"/>
+    <facial id="head_talkside.swf" name="3/4 Front View - Talk Neutral" enable="Y" aid="12751"/>
+    <action id="stand_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="Y" aid="12914"/>
+    <action id="sit_move.swf" name="Sitting - move" loop="Y" totalframe="100" enable="Y" aid="12915"/>
+    <action id="stand_side_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="Y" aid="12916"/>
+    <facial id="head_talkangryside.swf" name="3/4 Front View - Angry" enable="Y" aid="12917"/>
+    <facial id="head_talkhappyside.swf" name="3/4 Front View - Happy" enable="Y" aid="12918"/>
+    <facial id="head_neutral.swf" name="Face Camera - Neutral" enable="Y" aid="12919"/>
+    <facial id="head_neutralside.swf" name="3/4 Front View - Neutral" enable="Y" aid="12920"/>
+    <action id="talk_side.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="13205"/>
+    <facial id="head_sad.swf" name="Face Camera - Sad" enable="Y" aid="13206"/>
+    <facial id="head_cry.swf" name="Face Camera - Cry" enable="Y" aid="13207"/>
+    <facial id="head_shockside.swf" name="3/4 Front View - Shock" enable="Y" aid="13208"/>
     <action id="thinking_side.swf" name="Thinking02" loop="Y" totalframe="100" enable="Y" aid="13604"/>
     <action id="happy_side.swf" name="Laugh02" loop="Y" totalframe="100" enable="Y" aid="13605"/>
     <action id="angry_side.swf" name="Angry02" loop="Y" totalframe="100" enable="Y" aid="13606"/>
@@ -231,45 +231,45 @@
     <facial id="head_cry_front.swf" name="Face Camera - Cry02" enable="Y" aid="13639"/>
     <facial id="head_shock_side.swf" name="3/4 Front View - Shock02" enable="Y" aid="13640"/>
   </char>
-  <char id="char04" name="char04" thumb="stand_side.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="12642" money="0" sharing="0">
-    <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="N" aid="12643"/>
-    <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="N" aid="12644"/>
-    <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="N" aid="12645"/>
-    <action id="cry.swf" name="Cry" loop="Y" totalframe="100" enable="N" aid="12646"/>
-    <action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="N" aid="12647"/>
-    <action id="shock.swf" name="Shock" loop="Y" totalframe="100" enable="N" aid="12648"/>
-    <action id="stand.swf" name="Standing" loop="Y" totalframe="100" enable="N" aid="12649"/>
-    <action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="N" aid="12650"/>
-    <action id="talk_angry.swf" name="Talk angry" loop="Y" totalframe="100" enable="N" aid="12651"/>
-    <action id="talk_happy.swf" name="Talk happy" loop="Y" totalframe="100" enable="N" aid="12652"/>
-    <action id="stand_side.swf" name="Standing" loop="Y" totalframe="100" enable="N" aid="12653"/>
-    <action id="sit.swf" name="Sitting" loop="Y" totalframe="100" enable="N" aid="12654"/>
-    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="N" aid="12655"/>
-    <motion id="walk.swf" name="Walk" loop="Y" totalframe="100" enable="N" aid="12656"/>
-    <facial id="head_talk.swf" name="Face Camera - Talk Neutral" enable="N" aid="12657"/>
-    <facial id="head_talkangry.swf" name="Face Camera - Angry" enable="N" aid="12658"/>
-    <facial id="head_talkhappy.swf" name="Face Camera - Happy" enable="N" aid="12659"/>
-    <facial id="head_talksad.swf" name="3/4 Front View - Sad" enable="N" aid="12660"/>
-    <facial id="head_talkcry.swf" name="3/4 Front View - Cry" enable="N" aid="12661"/>
-    <facial id="head_rolleye.swf" name="3/4 Front View - Bored" enable="N" aid="12662"/>
-    <facial id="head_talkthink.swf" name="3/4 Front View - Thinking" enable="N" aid="12663"/>
-    <facial id="head_shake.swf" name="3/4 Front View - Shaking head" enable="N" aid="12664"/>
-    <facial id="head_nod.swf" name="3/4 Front View - Nodding head" enable="N" aid="12665"/>
-    <facial id="head_asleep.swf" name="3/4 Front View - Fall asleep" enable="N" aid="12666"/>
-    <facial id="head_drunk.swf" name="3/4 Front View - Drunk" enable="N" aid="12667"/>
-    <motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="N" aid="12752"/>
-    <facial id="head_talkside.swf" name="3/4 Front View - Talk Neutral" enable="N" aid="12753"/>
-    <action id="stand_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="N" aid="12921"/>
-    <action id="sit_move.swf" name="Sitting - move" loop="Y" totalframe="100" enable="N" aid="12922"/>
-    <action id="stand_side_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="N" aid="12923"/>
-    <facial id="head_talkangryside.swf" name="3/4 Front View - Angry" enable="N" aid="12924"/>
-    <facial id="head_talkhappyside.swf" name="3/4 Front View - Happy" enable="N" aid="12925"/>
-    <facial id="head_neutral.swf" name="Face Camera - Neutral" enable="N" aid="12926"/>
-    <facial id="head_neutralside.swf" name="3/4 Front View - Neutral" enable="N" aid="12927"/>
-    <action id="talk_side.swf" name="Talk" loop="Y" totalframe="100" enable="N" aid="13209"/>
-    <facial id="head_sad.swf" name="Face Camera - Sad" enable="N" aid="13210"/>
-    <facial id="head_cry.swf" name="Face Camera - Cry" enable="N" aid="13211"/>
-    <facial id="head_shockside.swf" name="3/4 Front View - Shock" enable="N" aid="13212"/>
+  <char id="char04" name="char04" thumb="stand_side.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="12642" money="0" sharing="0">
+    <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="12643"/>
+    <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="12644"/>
+    <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="12645"/>
+    <action id="cry.swf" name="Cry" loop="Y" totalframe="100" enable="Y" aid="12646"/>
+    <action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="Y" aid="12647"/>
+    <action id="shock.swf" name="Shock" loop="Y" totalframe="100" enable="Y" aid="12648"/>
+    <action id="stand.swf" name="Standing" loop="Y" totalframe="100" enable="Y" aid="12649"/>
+    <action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="12650"/>
+    <action id="talk_angry.swf" name="Talk angry" loop="Y" totalframe="100" enable="Y" aid="12651"/>
+    <action id="talk_happy.swf" name="Talk happy" loop="Y" totalframe="100" enable="Y" aid="12652"/>
+    <action id="stand_side.swf" name="Standing" loop="Y" totalframe="100" enable="Y" aid="12653"/>
+    <action id="sit.swf" name="Sitting" loop="Y" totalframe="100" enable="Y" aid="12654"/>
+    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="Y" aid="12655"/>
+    <motion id="walk.swf" name="Walk" loop="Y" totalframe="100" enable="Y" aid="12656"/>
+    <facial id="head_talk.swf" name="Face Camera - Talk Neutral" enable="Y" aid="12657"/>
+    <facial id="head_talkangry.swf" name="Face Camera - Angry" enable="Y" aid="12658"/>
+    <facial id="head_talkhappy.swf" name="Face Camera - Happy" enable="Y" aid="12659"/>
+    <facial id="head_talksad.swf" name="3/4 Front View - Sad" enable="Y" aid="12660"/>
+    <facial id="head_talkcry.swf" name="3/4 Front View - Cry" enable="Y" aid="12661"/>
+    <facial id="head_rolleye.swf" name="3/4 Front View - Bored" enable="Y" aid="12662"/>
+    <facial id="head_talkthink.swf" name="3/4 Front View - Thinking" enable="Y" aid="12663"/>
+    <facial id="head_shake.swf" name="3/4 Front View - Shaking head" enable="Y" aid="12664"/>
+    <facial id="head_nod.swf" name="3/4 Front View - Nodding head" enable="Y" aid="12665"/>
+    <facial id="head_asleep.swf" name="3/4 Front View - Fall asleep" enable="Y" aid="12666"/>
+    <facial id="head_drunk.swf" name="3/4 Front View - Drunk" enable="Y" aid="12667"/>
+    <motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="Y" aid="12752"/>
+    <facial id="head_talkside.swf" name="3/4 Front View - Talk Neutral" enable="Y" aid="12753"/>
+    <action id="stand_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="Y" aid="12921"/>
+    <action id="sit_move.swf" name="Sitting - move" loop="Y" totalframe="100" enable="Y" aid="12922"/>
+    <action id="stand_side_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="Y" aid="12923"/>
+    <facial id="head_talkangryside.swf" name="3/4 Front View - Angry" enable="Y" aid="12924"/>
+    <facial id="head_talkhappyside.swf" name="3/4 Front View - Happy" enable="Y" aid="12925"/>
+    <facial id="head_neutral.swf" name="Face Camera - Neutral" enable="Y" aid="12926"/>
+    <facial id="head_neutralside.swf" name="3/4 Front View - Neutral" enable="Y" aid="12927"/>
+    <action id="talk_side.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="13209"/>
+    <facial id="head_sad.swf" name="Face Camera - Sad" enable="Y" aid="13210"/>
+    <facial id="head_cry.swf" name="Face Camera - Cry" enable="Y" aid="13211"/>
+    <facial id="head_shockside.swf" name="3/4 Front View - Shock" enable="Y" aid="13212"/>
     <action id="thinking_side.swf" name="Thinking02" loop="Y" totalframe="100" enable="Y" aid="13641"/>
     <action id="happy_side.swf" name="Laugh02" loop="Y" totalframe="100" enable="Y" aid="13642"/>
     <action id="angry_side.swf" name="Angry02" loop="Y" totalframe="100" enable="Y" aid="13643"/>
@@ -308,45 +308,45 @@
     <facial id="head_cry_front.swf" name="Face Camera - Cry02" enable="Y" aid="13676"/>
     <facial id="head_shock_side.swf" name="3/4 Front View - Shock02" enable="Y" aid="13677"/>
   </char>
-  <char id="char05" name="char05" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="12668" money="0" sharing="0">
-    <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="N" aid="12669"/>
-    <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="N" aid="12670"/>
-    <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="N" aid="12671"/>
-    <action id="cry.swf" name="Cry" loop="Y" totalframe="100" enable="N" aid="12672"/>
-    <action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="N" aid="12673"/>
-    <action id="shock.swf" name="Shock" loop="Y" totalframe="100" enable="N" aid="12674"/>
-    <action id="stand.swf" name="Standing" loop="Y" totalframe="100" enable="N" aid="12675"/>
-    <action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="N" aid="12676"/>
-    <action id="talk_angry.swf" name="Talk angry" loop="Y" totalframe="100" enable="N" aid="12677"/>
-    <action id="talk_happy.swf" name="Talk happy" loop="Y" totalframe="100" enable="N" aid="12678"/>
-    <action id="stand_side.swf" name="Standing" loop="Y" totalframe="100" enable="N" aid="12679"/>
-    <action id="sit.swf" name="Sitting" loop="Y" totalframe="100" enable="N" aid="12680"/>
-    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="N" aid="12681"/>
-    <motion id="walk.swf" name="Walk" loop="Y" totalframe="100" enable="N" aid="12682"/>
-    <facial id="head_talk.swf" name="Face Camera - Talk Neutral" enable="N" aid="12683"/>
-    <facial id="head_talkangry.swf" name="Face Camera - Angry" enable="N" aid="12684"/>
-    <facial id="head_talkhappy.swf" name="Face Camera - Happy" enable="N" aid="12685"/>
-    <facial id="head_talksad.swf" name="3/4 Front View - Sad" enable="N" aid="12686"/>
-    <facial id="head_talkcry.swf" name="3/4 Front View - Cry" enable="N" aid="12687"/>
-    <facial id="head_rolleye.swf" name="3/4 Front View - Bored" enable="N" aid="12688"/>
-    <facial id="head_talkthink.swf" name="3/4 Front View - Thinking" enable="N" aid="12689"/>
-    <facial id="head_shake.swf" name="3/4 Front View - Shaking head" enable="N" aid="12690"/>
-    <facial id="head_nod.swf" name="3/4 Front View - Nodding head" enable="N" aid="12691"/>
-    <facial id="head_asleep.swf" name="3/4 Front View - Fall asleep" enable="N" aid="12692"/>
-    <facial id="head_drunk.swf" name="3/4 Front View - Drunk" enable="N" aid="12693"/>
-    <motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="N" aid="12754"/>
-    <facial id="head_talkside.swf" name="3/4 Front View - Talk Neutral" enable="N" aid="12755"/>
-    <action id="stand_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="N" aid="12928"/>
-    <action id="sit_move.swf" name="Sitting - move" loop="Y" totalframe="100" enable="N" aid="12929"/>
-    <action id="stand_side_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="N" aid="12930"/>
-    <facial id="head_talkangryside.swf" name="3/4 Front View - Angry" enable="N" aid="12931"/>
-    <facial id="head_talkhappyside.swf" name="3/4 Front View - Happy" enable="N" aid="12932"/>
-    <facial id="head_neutral.swf" name="Face Camera - Neutral" enable="N" aid="12933"/>
-    <facial id="head_neutralside.swf" name="3/4 Front View - Neutral" enable="N" aid="12934"/>
-    <action id="talk_side.swf" name="Talk" loop="Y" totalframe="100" enable="N" aid="13213"/>
-    <facial id="head_sad.swf" name="Face Camera - Sad" enable="N" aid="13214"/>
-    <facial id="head_cry.swf" name="Face Camera - Cry" enable="N" aid="13215"/>
-    <facial id="head_shockside.swf" name="3/4 Front View - Shock" enable="N" aid="13216"/>
+  <char id="char05" name="char05" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="12668" money="0" sharing="0">
+    <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="12669"/>
+    <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="12670"/>
+    <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="12671"/>
+    <action id="cry.swf" name="Cry" loop="Y" totalframe="100" enable="Y" aid="12672"/>
+    <action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="Y" aid="12673"/>
+    <action id="shock.swf" name="Shock" loop="Y" totalframe="100" enable="Y" aid="12674"/>
+    <action id="stand.swf" name="Standing" loop="Y" totalframe="100" enable="Y" aid="12675"/>
+    <action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="12676"/>
+    <action id="talk_angry.swf" name="Talk angry" loop="Y" totalframe="100" enable="Y" aid="12677"/>
+    <action id="talk_happy.swf" name="Talk happy" loop="Y" totalframe="100" enable="Y" aid="12678"/>
+    <action id="stand_side.swf" name="Standing" loop="Y" totalframe="100" enable="Y" aid="12679"/>
+    <action id="sit.swf" name="Sitting" loop="Y" totalframe="100" enable="Y" aid="12680"/>
+    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="Y" aid="12681"/>
+    <motion id="walk.swf" name="Walk" loop="Y" totalframe="100" enable="Y" aid="12682"/>
+    <facial id="head_talk.swf" name="Face Camera - Talk Neutral" enable="Y" aid="12683"/>
+    <facial id="head_talkangry.swf" name="Face Camera - Angry" enable="Y" aid="12684"/>
+    <facial id="head_talkhappy.swf" name="Face Camera - Happy" enable="Y" aid="12685"/>
+    <facial id="head_talksad.swf" name="3/4 Front View - Sad" enable="Y" aid="12686"/>
+    <facial id="head_talkcry.swf" name="3/4 Front View - Cry" enable="Y" aid="12687"/>
+    <facial id="head_rolleye.swf" name="3/4 Front View - Bored" enable="Y" aid="12688"/>
+    <facial id="head_talkthink.swf" name="3/4 Front View - Thinking" enable="Y" aid="12689"/>
+    <facial id="head_shake.swf" name="3/4 Front View - Shaking head" enable="Y" aid="12690"/>
+    <facial id="head_nod.swf" name="3/4 Front View - Nodding head" enable="Y" aid="12691"/>
+    <facial id="head_asleep.swf" name="3/4 Front View - Fall asleep" enable="Y" aid="12692"/>
+    <facial id="head_drunk.swf" name="3/4 Front View - Drunk" enable="Y" aid="12693"/>
+    <motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="Y" aid="12754"/>
+    <facial id="head_talkside.swf" name="3/4 Front View - Talk Neutral" enable="Y" aid="12755"/>
+    <action id="stand_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="Y" aid="12928"/>
+    <action id="sit_move.swf" name="Sitting - move" loop="Y" totalframe="100" enable="Y" aid="12929"/>
+    <action id="stand_side_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="Y" aid="12930"/>
+    <facial id="head_talkangryside.swf" name="3/4 Front View - Angry" enable="Y" aid="12931"/>
+    <facial id="head_talkhappyside.swf" name="3/4 Front View - Happy" enable="Y" aid="12932"/>
+    <facial id="head_neutral.swf" name="Face Camera - Neutral" enable="Y" aid="12933"/>
+    <facial id="head_neutralside.swf" name="3/4 Front View - Neutral" enable="Y" aid="12934"/>
+    <action id="talk_side.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="13213"/>
+    <facial id="head_sad.swf" name="Face Camera - Sad" enable="Y" aid="13214"/>
+    <facial id="head_cry.swf" name="Face Camera - Cry" enable="Y" aid="13215"/>
+    <facial id="head_shockside.swf" name="3/4 Front View - Shock" enable="Y" aid="13216"/>
     <action id="thinking_side.swf" name="Thinking02" loop="Y" totalframe="100" enable="Y" aid="13678"/>
     <action id="happy_side.swf" name="Laugh02" loop="Y" totalframe="100" enable="Y" aid="13679"/>
     <action id="angry_side.swf" name="Angry02" loop="Y" totalframe="100" enable="Y" aid="13680"/>
@@ -385,45 +385,45 @@
     <facial id="head_cry_front.swf" name="Face Camera - Cry02" enable="Y" aid="13713"/>
     <facial id="head_shock_side.swf" name="3/4 Front View - Shock02" enable="Y" aid="13714"/>
   </char>
-  <char id="char06" name="char06" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="12694" money="0" sharing="0">
-    <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="N" aid="12695"/>
-    <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="N" aid="12696"/>
-    <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="N" aid="12697"/>
-    <action id="cry.swf" name="Cry" loop="Y" totalframe="100" enable="N" aid="12698"/>
-    <action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="N" aid="12699"/>
-    <action id="shock.swf" name="Shock" loop="Y" totalframe="100" enable="N" aid="12700"/>
-    <action id="stand.swf" name="Standing" loop="Y" totalframe="100" enable="N" aid="12701"/>
-    <action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="N" aid="12702"/>
-    <action id="talk_angry.swf" name="Talk angry" loop="Y" totalframe="100" enable="N" aid="12703"/>
-    <action id="talk_happy.swf" name="Talk happy" loop="Y" totalframe="100" enable="N" aid="12704"/>
-    <action id="stand_side.swf" name="Standing" loop="Y" totalframe="100" enable="N" aid="12705"/>
-    <action id="sit.swf" name="Sitting" loop="Y" totalframe="100" enable="N" aid="12706"/>
-    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="N" aid="12707"/>
-    <motion id="walk.swf" name="Walk" loop="Y" totalframe="100" enable="N" aid="12708"/>
-    <facial id="head_talk.swf" name="Face Camera - Talk Neutral" enable="N" aid="12709"/>
-    <facial id="head_talkangry.swf" name="Face Camera - Angry" enable="N" aid="12710"/>
-    <facial id="head_talkhappy.swf" name="Face Camera - Happy" enable="N" aid="12711"/>
-    <facial id="head_talksad.swf" name="3/4 Front View - Sad" enable="N" aid="12712"/>
-    <facial id="head_talkcry.swf" name="3/4 Front View - Cry" enable="N" aid="12713"/>
-    <facial id="head_rolleye.swf" name="3/4 Front View - Bored" enable="N" aid="12714"/>
-    <facial id="head_talkthink.swf" name="3/4 Front View - Thinking" enable="N" aid="12715"/>
-    <facial id="head_shake.swf" name="3/4 Front View - Shaking head" enable="N" aid="12716"/>
-    <facial id="head_nod.swf" name="3/4 Front View - Nodding head" enable="N" aid="12717"/>
-    <facial id="head_asleep.swf" name="3/4 Front View - Fall asleep" enable="N" aid="12718"/>
-    <facial id="head_drunk.swf" name="3/4 Front View - Drunk" enable="N" aid="12719"/>
-    <motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="N" aid="12756"/>
-    <facial id="head_talkside.swf" name="3/4 Front View - Talk Neutral" enable="N" aid="12757"/>
-    <action id="stand_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="N" aid="12935"/>
-    <action id="sit_move.swf" name="Sitting - move" loop="Y" totalframe="100" enable="N" aid="12936"/>
-    <action id="stand_side_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="N" aid="12937"/>
-    <facial id="head_talkangryside.swf" name="3/4 Front View - Angry" enable="N" aid="12938"/>
-    <facial id="head_talkhappyside.swf" name="3/4 Front View - Happy" enable="N" aid="12939"/>
-    <facial id="head_neutral.swf" name="Face Camera - Neutral" enable="N" aid="12940"/>
-    <facial id="head_neutralside.swf" name="3/4 Front View - Neutral" enable="N" aid="12941"/>
-    <action id="talk_side.swf" name="Talk" loop="Y" totalframe="100" enable="N" aid="13217"/>
-    <facial id="head_sad.swf" name="Face Camera - Sad" enable="N" aid="13218"/>
-    <facial id="head_cry.swf" name="Face Camera - Cry" enable="N" aid="13219"/>
-    <facial id="head_shockside.swf" name="3/4 Front View - Shock" enable="N" aid="13220"/>
+  <char id="char06" name="char06" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="12694" money="0" sharing="0">
+    <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="12695"/>
+    <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="12696"/>
+    <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="12697"/>
+    <action id="cry.swf" name="Cry" loop="Y" totalframe="100" enable="Y" aid="12698"/>
+    <action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="Y" aid="12699"/>
+    <action id="shock.swf" name="Shock" loop="Y" totalframe="100" enable="Y" aid="12700"/>
+    <action id="stand.swf" name="Standing" loop="Y" totalframe="100" enable="Y" aid="12701"/>
+    <action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="12702"/>
+    <action id="talk_angry.swf" name="Talk angry" loop="Y" totalframe="100" enable="Y" aid="12703"/>
+    <action id="talk_happy.swf" name="Talk happy" loop="Y" totalframe="100" enable="Y" aid="12704"/>
+    <action id="stand_side.swf" name="Standing" loop="Y" totalframe="100" enable="Y" aid="12705"/>
+    <action id="sit.swf" name="Sitting" loop="Y" totalframe="100" enable="Y" aid="12706"/>
+    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="Y" aid="12707"/>
+    <motion id="walk.swf" name="Walk" loop="Y" totalframe="100" enable="Y" aid="12708"/>
+    <facial id="head_talk.swf" name="Face Camera - Talk Neutral" enable="Y" aid="12709"/>
+    <facial id="head_talkangry.swf" name="Face Camera - Angry" enable="Y" aid="12710"/>
+    <facial id="head_talkhappy.swf" name="Face Camera - Happy" enable="Y" aid="12711"/>
+    <facial id="head_talksad.swf" name="3/4 Front View - Sad" enable="Y" aid="12712"/>
+    <facial id="head_talkcry.swf" name="3/4 Front View - Cry" enable="Y" aid="12713"/>
+    <facial id="head_rolleye.swf" name="3/4 Front View - Bored" enable="Y" aid="12714"/>
+    <facial id="head_talkthink.swf" name="3/4 Front View - Thinking" enable="Y" aid="12715"/>
+    <facial id="head_shake.swf" name="3/4 Front View - Shaking head" enable="Y" aid="12716"/>
+    <facial id="head_nod.swf" name="3/4 Front View - Nodding head" enable="Y" aid="12717"/>
+    <facial id="head_asleep.swf" name="3/4 Front View - Fall asleep" enable="Y" aid="12718"/>
+    <facial id="head_drunk.swf" name="3/4 Front View - Drunk" enable="Y" aid="12719"/>
+    <motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="Y" aid="12756"/>
+    <facial id="head_talkside.swf" name="3/4 Front View - Talk Neutral" enable="Y" aid="12757"/>
+    <action id="stand_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="Y" aid="12935"/>
+    <action id="sit_move.swf" name="Sitting - move" loop="Y" totalframe="100" enable="Y" aid="12936"/>
+    <action id="stand_side_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="Y" aid="12937"/>
+    <facial id="head_talkangryside.swf" name="3/4 Front View - Angry" enable="Y" aid="12938"/>
+    <facial id="head_talkhappyside.swf" name="3/4 Front View - Happy" enable="Y" aid="12939"/>
+    <facial id="head_neutral.swf" name="Face Camera - Neutral" enable="Y" aid="12940"/>
+    <facial id="head_neutralside.swf" name="3/4 Front View - Neutral" enable="Y" aid="12941"/>
+    <action id="talk_side.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="13217"/>
+    <facial id="head_sad.swf" name="Face Camera - Sad" enable="Y" aid="13218"/>
+    <facial id="head_cry.swf" name="Face Camera - Cry" enable="Y" aid="13219"/>
+    <facial id="head_shockside.swf" name="3/4 Front View - Shock" enable="Y" aid="13220"/>
     <action id="thinking_side.swf" name="Thinking02" loop="Y" totalframe="100" enable="Y" aid="13715"/>
     <action id="happy_side.swf" name="Laugh02" loop="Y" totalframe="100" enable="Y" aid="13716"/>
     <action id="angry_side.swf" name="Angry02" loop="Y" totalframe="100" enable="Y" aid="13717"/>
@@ -462,45 +462,45 @@
     <facial id="head_cry_front.swf" name="Face Camera - Cry02" enable="Y" aid="13750"/>
     <facial id="head_shock_side.swf" name="3/4 Front View - Shock02" enable="Y" aid="13751"/>
   </char>
-  <char id="char07" name="char07" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="12720" money="0" sharing="0">
-    <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="N" aid="12721"/>
-    <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="N" aid="12722"/>
-    <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="N" aid="12723"/>
-    <action id="cry.swf" name="Cry" loop="Y" totalframe="100" enable="N" aid="12724"/>
-    <action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="N" aid="12725"/>
-    <action id="shock.swf" name="Shock" loop="Y" totalframe="100" enable="N" aid="12726"/>
-    <action id="stand.swf" name="Standing" loop="Y" totalframe="100" enable="N" aid="12727"/>
-    <action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="N" aid="12728"/>
-    <action id="talk_angry.swf" name="Talk angry" loop="Y" totalframe="100" enable="N" aid="12729"/>
-    <action id="talk_happy.swf" name="Talk happy" loop="Y" totalframe="100" enable="N" aid="12730"/>
-    <action id="stand_side.swf" name="Standing" loop="Y" totalframe="100" enable="N" aid="12731"/>
-    <action id="sit.swf" name="Sitting" loop="Y" totalframe="100" enable="N" aid="12732"/>
-    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="N" aid="12733"/>
-    <motion id="walk.swf" name="Walk" loop="Y" totalframe="100" enable="N" aid="12734"/>
-    <facial id="head_talk.swf" name="Face Camera - Talk Neutral" enable="N" aid="12735"/>
-    <facial id="head_talkangry.swf" name="Face Camera - Angry" enable="N" aid="12736"/>
-    <facial id="head_talkhappy.swf" name="Face Camera - Happy" enable="N" aid="12737"/>
-    <facial id="head_talksad.swf" name="3/4 Front View - Sad" enable="N" aid="12738"/>
-    <facial id="head_talkcry.swf" name="3/4 Front View - Cry" enable="N" aid="12739"/>
-    <facial id="head_rolleye.swf" name="3/4 Front View - Bored" enable="N" aid="12740"/>
-    <facial id="head_talkthink.swf" name="3/4 Front View - Thinking" enable="N" aid="12741"/>
-    <facial id="head_shake.swf" name="3/4 Front View - Shaking head" enable="N" aid="12742"/>
-    <facial id="head_nod.swf" name="3/4 Front View - Nodding head" enable="N" aid="12743"/>
-    <facial id="head_asleep.swf" name="3/4 Front View - Fall asleep" enable="N" aid="12744"/>
-    <facial id="head_drunk.swf" name="3/4 Front View - Drunk" enable="N" aid="12745"/>
-    <motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="N" aid="12758"/>
-    <facial id="head_talkside.swf" name="3/4 Front View - Talk Neutral" enable="N" aid="12759"/>
-    <action id="stand_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="N" aid="12942"/>
-    <action id="sit_move.swf" name="Sitting - move" loop="Y" totalframe="100" enable="N" aid="12943"/>
-    <action id="stand_side_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="N" aid="12944"/>
-    <facial id="head_talkangryside.swf" name="3/4 Front View - Angry" enable="N" aid="12945"/>
-    <facial id="head_talkhappyside.swf" name="3/4 Front View - Happy" enable="N" aid="12946"/>
-    <facial id="head_neutral.swf" name="Face Camera - Neutral" enable="N" aid="12947"/>
-    <facial id="head_neutralside.swf" name="3/4 Front View - Neutral" enable="N" aid="12948"/>
-    <action id="talk_side.swf" name="Talk" loop="Y" totalframe="100" enable="N" aid="13221"/>
-    <facial id="head_sad.swf" name="Face Camera - Sad" enable="N" aid="13222"/>
-    <facial id="head_cry.swf" name="Face Camera - Cry" enable="N" aid="13223"/>
-    <facial id="head_shockside.swf" name="3/4 Front View - Shock" enable="N" aid="13224"/>
+  <char id="char07" name="char07" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="12720" money="0" sharing="0">
+    <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="12721"/>
+    <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="12722"/>
+    <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="12723"/>
+    <action id="cry.swf" name="Cry" loop="Y" totalframe="100" enable="Y" aid="12724"/>
+    <action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="Y" aid="12725"/>
+    <action id="shock.swf" name="Shock" loop="Y" totalframe="100" enable="Y" aid="12726"/>
+    <action id="stand.swf" name="Standing" loop="Y" totalframe="100" enable="Y" aid="12727"/>
+    <action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="12728"/>
+    <action id="talk_angry.swf" name="Talk angry" loop="Y" totalframe="100" enable="Y" aid="12729"/>
+    <action id="talk_happy.swf" name="Talk happy" loop="Y" totalframe="100" enable="Y" aid="12730"/>
+    <action id="stand_side.swf" name="Standing" loop="Y" totalframe="100" enable="Y" aid="12731"/>
+    <action id="sit.swf" name="Sitting" loop="Y" totalframe="100" enable="Y" aid="12732"/>
+    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="Y" aid="12733"/>
+    <motion id="walk.swf" name="Walk" loop="Y" totalframe="100" enable="Y" aid="12734"/>
+    <facial id="head_talk.swf" name="Face Camera - Talk Neutral" enable="Y" aid="12735"/>
+    <facial id="head_talkangry.swf" name="Face Camera - Angry" enable="Y" aid="12736"/>
+    <facial id="head_talkhappy.swf" name="Face Camera - Happy" enable="Y" aid="12737"/>
+    <facial id="head_talksad.swf" name="3/4 Front View - Sad" enable="Y" aid="12738"/>
+    <facial id="head_talkcry.swf" name="3/4 Front View - Cry" enable="Y" aid="12739"/>
+    <facial id="head_rolleye.swf" name="3/4 Front View - Bored" enable="Y" aid="12740"/>
+    <facial id="head_talkthink.swf" name="3/4 Front View - Thinking" enable="Y" aid="12741"/>
+    <facial id="head_shake.swf" name="3/4 Front View - Shaking head" enable="Y" aid="12742"/>
+    <facial id="head_nod.swf" name="3/4 Front View - Nodding head" enable="Y" aid="12743"/>
+    <facial id="head_asleep.swf" name="3/4 Front View - Fall asleep" enable="Y" aid="12744"/>
+    <facial id="head_drunk.swf" name="3/4 Front View - Drunk" enable="Y" aid="12745"/>
+    <motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="Y" aid="12758"/>
+    <facial id="head_talkside.swf" name="3/4 Front View - Talk Neutral" enable="Y" aid="12759"/>
+    <action id="stand_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="Y" aid="12942"/>
+    <action id="sit_move.swf" name="Sitting - move" loop="Y" totalframe="100" enable="Y" aid="12943"/>
+    <action id="stand_side_move.swf" name="Standing - move" loop="Y" totalframe="100" enable="Y" aid="12944"/>
+    <facial id="head_talkangryside.swf" name="3/4 Front View - Angry" enable="Y" aid="12945"/>
+    <facial id="head_talkhappyside.swf" name="3/4 Front View - Happy" enable="Y" aid="12946"/>
+    <facial id="head_neutral.swf" name="Face Camera - Neutral" enable="Y" aid="12947"/>
+    <facial id="head_neutralside.swf" name="3/4 Front View - Neutral" enable="Y" aid="12948"/>
+    <action id="talk_side.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="13221"/>
+    <facial id="head_sad.swf" name="Face Camera - Sad" enable="Y" aid="13222"/>
+    <facial id="head_cry.swf" name="Face Camera - Cry" enable="Y" aid="13223"/>
+    <facial id="head_shockside.swf" name="3/4 Front View - Shock" enable="Y" aid="13224"/>
     <action id="thinking_side.swf" name="Thinking02" loop="Y" totalframe="100" enable="Y" aid="13752"/>
     <action id="happy_side.swf" name="Laugh02" loop="Y" totalframe="100" enable="Y" aid="13753"/>
     <action id="angry_side.swf" name="Angry02" loop="Y" totalframe="100" enable="Y" aid="13754"/>
@@ -539,7 +539,7 @@
     <facial id="head_cry_front.swf" name="Face Camera - Cry02" enable="Y" aid="13787"/>
     <facial id="head_shock_side.swf" name="3/4 Front View - Shock02" enable="Y" aid="13788"/>
   </char>
-  <char id="mitt_romney" name="Mitt Romney" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="12760" money="0" sharing="0">
+  <char id="mitt_romney" name="Mitt Romney" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="12760" money="0" sharing="0">
     <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="12761"/>
     <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="12762"/>
     <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="12763"/>
@@ -552,7 +552,7 @@
     <action id="talk_happy.swf" name="Talk happy" loop="Y" totalframe="100" enable="Y" aid="12770"/>
     <action id="stand_side.swf" name="Standing" loop="Y" totalframe="100" enable="Y" aid="12771"/>
     <action id="sit.swf" name="Sitting" loop="Y" totalframe="100" enable="Y" aid="12772"/>
-    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="N" aid="12773"/>
+    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="Y" aid="12773"/>
     <motion id="walk.swf" name="Walk" loop="Y" totalframe="100" enable="Y" aid="12774"/>
     <motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="Y" aid="12775"/>
     <facial id="head_talk.swf" name="Face Camera - Talk Neutral" enable="Y" aid="12776"/>
@@ -587,7 +587,7 @@
       <c_area oc="">ccSkinColor</c_area>
     </c_parts>
   </char>
-  <char id="glenn_beck" name="Gleen Beck" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="12788" money="0" sharing="0">
+  <char id="glenn_beck" name="Gleen Beck" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="12788" money="0" sharing="0">
     <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="12789"/>
     <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="12790"/>
     <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="12791"/>
@@ -600,7 +600,7 @@
     <action id="talk_happy.swf" name="Talk happy" loop="Y" totalframe="100" enable="Y" aid="12798"/>
     <action id="stand_side.swf" name="Standing" loop="Y" totalframe="100" enable="Y" aid="12799"/>
     <action id="sit.swf" name="Sitting" loop="Y" totalframe="100" enable="Y" aid="12800"/>
-    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="N" aid="12801"/>
+    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="Y" aid="12801"/>
     <motion id="walk.swf" name="Walk" loop="Y" totalframe="100" enable="Y" aid="12802"/>
     <motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="Y" aid="12803"/>
     <facial id="head_talk.swf" name="Face Camera - Talk Neutral" enable="Y" aid="12804"/>
@@ -635,7 +635,7 @@
       <c_area oc="">ccSkinColor</c_area>
     </c_parts>
   </char>
-  <char id="michele_bachman" name="Michele Bachmann" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="12816" money="0" sharing="0">
+  <char id="michele_bachman" name="Michele Bachmann" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="12816" money="0" sharing="0">
     <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="12817"/>
     <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="12818"/>
     <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="12819"/>
@@ -648,7 +648,7 @@
     <action id="talk_happy.swf" name="Talk happy" loop="Y" totalframe="100" enable="Y" aid="12826"/>
     <action id="stand_side.swf" name="Standing" loop="Y" totalframe="100" enable="Y" aid="12827"/>
     <action id="sit.swf" name="Sitting" loop="Y" totalframe="100" enable="Y" aid="12828"/>
-    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="N" aid="12829"/>
+    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="Y" aid="12829"/>
     <motion id="walk.swf" name="Walk" loop="Y" totalframe="100" enable="Y" aid="12830"/>
     <motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="Y" aid="12831"/>
     <facial id="head_talk.swf" name="Face Camera - Talk Neutral" enable="Y" aid="12832"/>
@@ -683,7 +683,7 @@
       <c_area oc="">ccSkinColor</c_area>
     </c_parts>
   </char>
-  <char id="jon_huntsman" name="Jon Huntsman" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="12844" money="0" sharing="0">
+  <char id="jon_huntsman" name="Jon Huntsman" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="12844" money="0" sharing="0">
     <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="12845"/>
     <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="12846"/>
     <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="12847"/>
@@ -696,7 +696,7 @@
     <action id="talk_happy.swf" name="Talk happy" loop="Y" totalframe="100" enable="Y" aid="12854"/>
     <action id="stand_side.swf" name="Standing" loop="Y" totalframe="100" enable="Y" aid="12855"/>
     <action id="sit.swf" name="Sitting" loop="Y" totalframe="100" enable="Y" aid="12856"/>
-    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="N" aid="12857"/>
+    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="Y" aid="12857"/>
     <motion id="walk.swf" name="Walk" loop="Y" totalframe="100" enable="Y" aid="12858"/>
     <motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="Y" aid="12859"/>
     <facial id="head_talk.swf" name="Face Camera - Talk Neutral" enable="Y" aid="12860"/>
@@ -731,7 +731,7 @@
       <c_area oc="">ccSkinColor</c_area>
     </c_parts>
   </char>
-  <char id="rush_limbaugh" name="Rush Limbaugh" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="12872" money="0" sharing="0">
+  <char id="rush_limbaugh" name="Rush Limbaugh" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="12872" money="0" sharing="0">
     <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="12873"/>
     <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="12874"/>
     <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="12875"/>
@@ -744,7 +744,7 @@
     <action id="talk_happy.swf" name="Talk happy" loop="Y" totalframe="100" enable="Y" aid="12882"/>
     <action id="stand_side.swf" name="Standing" loop="Y" totalframe="100" enable="Y" aid="12883"/>
     <action id="sit.swf" name="Sitting" loop="Y" totalframe="100" enable="Y" aid="12884"/>
-    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="N" aid="12885"/>
+    <action id="throw.swf" name="Throw things" loop="Y" totalframe="100" enable="Y" aid="12885"/>
     <motion id="walk.swf" name="Walk" loop="Y" totalframe="100" enable="Y" aid="12886"/>
     <motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="Y" aid="12887"/>
     <facial id="head_rolleye.swf" name="3/4 Front View - Bored" enable="Y" aid="12888"/>
@@ -779,7 +779,7 @@
       <c_area oc="">ccSkinColor</c_area>
     </c_parts>
   </char>
-  <char id="ron_paul" name="Ron Paul" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="13024" money="0" sharing="0">
+  <char id="ron_paul" name="Ron Paul" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="13024" money="0" sharing="0">
     <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="13025"/>
     <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="13026"/>
     <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="13027"/>
@@ -826,7 +826,7 @@
       <c_area oc="">ccSkinColor</c_area>
     </c_parts>
   </char>
-  <char id="sarah_palin" name="Sarah Palin" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="13059" money="0" sharing="0">
+  <char id="sarah_palin" name="Sarah Palin" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="13059" money="0" sharing="0">
     <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="13060"/>
     <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="13061"/>
     <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="13062"/>
@@ -873,7 +873,7 @@
       <c_area oc="">ccSkinColor</c_area>
     </c_parts>
   </char>
-  <char id="newt_gingrich" name="Newt Gingrich" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="13094" money="0" sharing="0">
+  <char id="newt_gingrich" name="Newt Gingrich" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="13094" money="0" sharing="0">
     <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="13095"/>
     <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="13096"/>
     <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="13097"/>
@@ -920,7 +920,7 @@
       <c_area oc="">ccSkinColor</c_area>
     </c_parts>
   </char>
-  <char id="rick_perry" name="Rick Perry" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="13129" money="0" sharing="0">
+  <char id="rick_perry" name="Rick Perry" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="13129" money="0" sharing="0">
     <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="13130"/>
     <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="13131"/>
     <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="13132"/>
@@ -967,7 +967,7 @@
       <c_area oc="">ccSkinColor</c_area>
     </c_parts>
   </char>
-  <char id="rick_santorum" name="Rick Santorum" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="13265" money="0" sharing="0">
+  <char id="rick_santorum" name="Rick Santorum" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="13265" money="0" sharing="0">
     <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="13266"/>
     <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="13267"/>
     <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="13268"/>
@@ -1014,7 +1014,7 @@
       <c_area oc="">ccSkinColor</c_area>
     </c_parts>
   </char>
-  <char id="paul_ryan" name="Paul Ryan" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="13304" money="0" sharing="0">
+  <char id="paul_ryan" name="Paul Ryan" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="13304" money="0" sharing="0">
     <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="13305"/>
     <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="13306"/>
     <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="13307"/>
@@ -1061,7 +1061,7 @@
       <c_area oc="">ccSkinColor</c_area>
     </c_parts>
   </char>
-  <char id="john_boehner" name="John Boehner" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="13343" money="0" sharing="0">
+  <char id="john_boehner" name="John Boehner" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="13343" money="0" sharing="0">
     <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="13344"/>
     <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="13345"/>
     <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="13346"/>
@@ -1108,7 +1108,7 @@
       <c_area oc="">ccSkinColor</c_area>
     </c_parts>
   </char>
-  <char id="barack_obama" name="Barack Obama" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="13382" money="0" sharing="0">
+  <char id="barack_obama" name="Barack Obama" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="13382" money="0" sharing="0">
     <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="13383"/>
     <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="13384"/>
     <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="13385"/>
@@ -1155,7 +1155,7 @@
       <c_area oc="">ccSkinColor</c_area>
     </c_parts>
   </char>
-  <char id="jon_stewart" name="Jon Stewart" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="13421" money="0" sharing="0">
+  <char id="jon_stewart" name="Jon Stewart" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="13421" money="0" sharing="0">
     <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="13422"/>
     <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="13423"/>
     <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="13424"/>
@@ -1202,7 +1202,7 @@
       <c_area oc="">ccSkinColor</c_area>
     </c_parts>
   </char>
-  <char id="katie_couric" name="Katie Couric" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="13460" money="0" sharing="0">
+  <char id="katie_couric" name="Katie Couric" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="13460" money="0" sharing="0">
     <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="13461"/>
     <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="13462"/>
     <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="13463"/>
@@ -1249,7 +1249,7 @@
       <c_area oc="">ccSkinColor</c_area>
     </c_parts>
   </char>
-  <char id="bar_tender" name="Bartender" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="N" is_premium="N" aid="12989" money="0" sharing="0">
+  <char id="bar_tender" name="Bartender" thumb="stand.swf" facing="left" default="stand_side.swf" motion="walk.swf" enable="Y" is_premium="N" aid="12989" money="0" sharing="0">
     <action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="12990"/>
     <action id="happy.swf" name="Laugh" loop="Y" totalframe="100" enable="Y" aid="12991"/>
     <action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="12992"/>
@@ -2334,21 +2334,21 @@
       <c_area oc="">ccSkinColor</c_area>
     </c_parts>
   </char>
-  <background id="whitehouse01_bg.swf" name="White House - briefing room" enable="N" default="N" is_premium="N" aid="13499" money="0" sharing="0"/>
-  <background id="whitehouse05_bg.swf" name="" enable="N" default="N" is_premium="N" aid="13513" money="0" sharing="0"/>
-  <background id="whitehouse03_bg.swf" name="White House - briefing room" enable="N" default="N" is_premium="N" aid="13501" money="0" sharing="0"/>
-  <background id="whitehouse02_bg.swf" name="White House - outdoor" enable="N" default="N" is_premium="N" aid="13500" money="0" sharing="0"/>
-  <background id="bar01_bg.swf" name="Bar - outdoor" enable="N" default="N" is_premium="N" aid="13502" money="0" sharing="0"/>
-  <background id="bar02_bg.swf" name="Bar - outdoor (tilt)" enable="N" default="N" is_premium="N" aid="13503" money="0" sharing="0"/>
-  <background id="bar03_bg.swf" name="Bar - indoor" enable="N" default="N" is_premium="N" aid="13504" money="0" sharing="0"/>
-  <background id="bar04_bg.swf" name="Bar - indoor" enable="N" default="N" is_premium="N" aid="13505" money="0" sharing="0"/>
-  <background id="talk_show01_bg.swf" name="Talk show" enable="N" default="N" is_premium="N" aid="13506" money="0" sharing="0"/>
-  <background id="talk_show02_bg.swf" name="Talk show" enable="N" default="N" is_premium="N" aid="13507" money="0" sharing="0"/>
-  <background id="stage02_bg.swf" name="Debate stage" enable="N" default="N" is_premium="N" aid="13509" money="0" sharing="0"/>
-  <background id="stage03_bg.swf" name="Debate stage" enable="N" default="N" is_premium="N" aid="13510" money="0" sharing="0"/>
-  <background id="stage01_bg.swf" name="Debate stage" enable="N" default="N" is_premium="N" aid="13508" money="0" sharing="0"/>
-  <background id="news01_bg.swf" name="Network news" enable="N" default="N" is_premium="N" aid="13511" money="0" sharing="0"/>
-  <background id="news02_bg.swf" name="Network news" enable="N" default="N" is_premium="N" aid="13512" money="0" sharing="0"/>
+  <background id="whitehouse01_bg.swf" name="White House - briefing room" enable="Y" default="N" is_premium="N" aid="13499" money="0" sharing="0"/>
+  <background id="whitehouse05_bg.swf" name="" enable="Y" default="N" is_premium="N" aid="13513" money="0" sharing="0"/>
+  <background id="whitehouse03_bg.swf" name="White House - briefing room" enable="Y" default="N" is_premium="N" aid="13501" money="0" sharing="0"/>
+  <background id="whitehouse02_bg.swf" name="White House - outdoor" enable="Y" default="N" is_premium="N" aid="13500" money="0" sharing="0"/>
+  <background id="bar01_bg.swf" name="Bar - outdoor" enable="Y" default="N" is_premium="N" aid="13502" money="0" sharing="0"/>
+  <background id="bar02_bg.swf" name="Bar - outdoor (tilt)" enable="Y" default="N" is_premium="N" aid="13503" money="0" sharing="0"/>
+  <background id="bar03_bg.swf" name="Bar - indoor" enable="Y" default="N" is_premium="N" aid="13504" money="0" sharing="0"/>
+  <background id="bar04_bg.swf" name="Bar - indoor" enable="Y" default="N" is_premium="N" aid="13505" money="0" sharing="0"/>
+  <background id="talk_show01_bg.swf" name="Talk show" enable="Y" default="N" is_premium="N" aid="13506" money="0" sharing="0"/>
+  <background id="talk_show02_bg.swf" name="Talk show" enable="Y" default="N" is_premium="N" aid="13507" money="0" sharing="0"/>
+  <background id="stage02_bg.swf" name="Debate stage" enable="Y" default="N" is_premium="N" aid="13509" money="0" sharing="0"/>
+  <background id="stage03_bg.swf" name="Debate stage" enable="Y" default="N" is_premium="N" aid="13510" money="0" sharing="0"/>
+  <background id="stage01_bg.swf" name="Debate stage" enable="Y" default="N" is_premium="N" aid="13508" money="0" sharing="0"/>
+  <background id="news01_bg.swf" name="Network news" enable="Y" default="N" is_premium="N" aid="13511" money="0" sharing="0"/>
+  <background id="news02_bg.swf" name="Network news" enable="Y" default="N" is_premium="N" aid="13512" money="0" sharing="0"/>
   <compositebg id="cbg_wh01" name="White House - briefing room" enable="Y" default="N" thumb="whitehouse01.jpg" display_order="1" is_premium="N" money="0" sharing="0" aid="13514">
   <bg id="cbg_wh01_BG1" index="0">
     <file>politics2.whitehouse01_bg.swf</file>
@@ -2809,7 +2809,7 @@
     <state id="msp_desk_news_desk01.swf" name="Front view" enable="Y" default="Y"/>
     <state id="msp_desk_news_desk02.swf" name="Side view" enable="Y"/>
   </prop>
-  <prop id="news_light01.swf" name="Lighting" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="13194" money="0" sharing="0"/>
-  <prop id="news_tvscreen.swf" name="TV Screen" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="13195" money="0" sharing="0"/>
-  <prop id="news_logo.swf" name="Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="13196" money="0" sharing="0"/>
+  <prop id="news_light01.swf" name="Lighting" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="13194" money="0" sharing="0"/>
+  <prop id="news_tvscreen.swf" name="TV Screen" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="13195" money="0" sharing="0"/>
+  <prop id="news_logo.swf" name="Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="13196" money="0" sharing="0"/>
 </theme>
