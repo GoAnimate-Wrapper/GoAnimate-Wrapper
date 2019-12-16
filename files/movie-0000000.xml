@@ -1,6 +1,6 @@
 <film copyable="0" duration="5.0" published="0" pshare="0">
   <meta>
-    <title><![CDATA[666]]></title>
+    <title><![CDATA[]]></title>
     <tag><![CDATA[]]></tag>
     <hiddenTag><![CDATA[]]></hiddenTag>
     <desc><![CDATA[]]></desc>
@@ -28,6 +28,14 @@
       <file>business.g4b_bg191.swf</file>
       <color r="Color_A">15131603</color>
     </bg>
+    <char id="AVATOR11689" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.248088518.both_hand_up_front.xml</action>
+      <x>405</x>
+      <y>210</y>
+      <xscale>1.34</xscale>
+      <yscale>1.34</yscale>
+      <rotation>0</rotation>
+    </char>
     <char id="AVATOR11688" index="3" raceCode="1">
       <action face="-1" motionface="1">ugc.248089025.hand_up.xml</action>
       <x>267</x>
@@ -40,14 +48,6 @@
       <action face="1" motionface="1">ugc.274508546.bf_s29_hugfront.xml</action>
       <x>337</x>
       <y>212</y>
-      <xscale>1.34</xscale>
-      <yscale>1.34</yscale>
-      <rotation>0</rotation>
-    </char>
-    <char id="AVATOR11689" index="4" raceCode="1">
-      <action face="1" motionface="1">ugc.248088518.both_hand_up_front.xml</action>
-      <x>405</x>
-      <y>210</y>
       <xscale>1.34</xscale>
       <yscale>1.34</yscale>
       <rotation>0</rotation>
@@ -100,4 +100,4 @@
       <aTran id="703" target="BUBBLE11692" type="SpritePopSingleRing" atype="BubbleAsset" direction="0" section="5" timing="3" duration="24" delay="12">null</aTran>
     </aTranList>
   </scene>
-</film>
+</film > 
