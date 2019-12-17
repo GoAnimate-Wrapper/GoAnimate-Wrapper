@@ -59,6 +59,7 @@ module.exports = function (req, res, url) {
 	}
 	res.setHeader('Content-Type', 'text/html; charset=UTF-8');
 	Object.assign(params.flashvars, query);
-	res.end(`${toObjectString(attrs, params)}<script>${script}</script>`);
+	res.end(`<body style="margin:0px">${toObjectString(attrs, params)
+		}<script>${script}</script></body>`);
 	return true;
 }

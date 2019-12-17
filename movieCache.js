@@ -3,6 +3,13 @@ const fUtil = require('./fileUtil');
 const fs = require('fs');
 var cache = {}, filePath;
 
+function generateId() {
+	var id;
+	do id = ('' + Math.random()).replace('.', '');
+	while (cache[id]);
+	return id;
+}
+
 module.exports = {
 	load(path) {
 		if (!fs.existsSync(path))
@@ -51,9 +58,11 @@ module.exports = {
 		});
 	},
 	addFile(buffer) {
-
+		const id = generateId();
+		cache[id] = buffer;
+		return id;
 	},
-	getFile(path) {
-
+	getFile(id) {
+		return cache[id];
 	}
 }
