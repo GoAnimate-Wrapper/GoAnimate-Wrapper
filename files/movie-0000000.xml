@@ -28,14 +28,6 @@
       <file>business.g4b_bg191.swf</file>
       <color r="Color_A">15131603</color>
     </bg>
-    <char id="AVATOR11688" index="3" raceCode="1">
-      <action face="-1" motionface="1">ugc.248089025.hand_up.xml</action>
-      <x>267</x>
-      <y>207</y>
-      <xscale>1.34</xscale>
-      <yscale>1.34</yscale>
-      <rotation>0</rotation>
-    </char>
     <char id="AVATOR11689" index="4" raceCode="1">
       <action face="1" motionface="1">ugc.248088518.both_hand_up_front.xml</action>
       <x>405</x>
@@ -48,6 +40,14 @@
       <action face="1" motionface="1">ugc.274508546.bf_s29_hugfront.xml</action>
       <x>337</x>
       <y>212</y>
+      <xscale>1.34</xscale>
+      <yscale>1.34</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11688" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.248089025.hand_up.xml</action>
+      <x>267</x>
+      <y>207</y>
       <xscale>1.34</xscale>
       <yscale>1.34</yscale>
       <rotation>0</rotation>

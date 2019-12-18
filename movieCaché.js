@@ -57,12 +57,12 @@ module.exports = {
 			});
 		});
 	},
-	addFile(buffer) {
+	addAsset(buffer) {
 		const id = generateId();
 		cache[id] = buffer;
 		return id;
 	},
-	getFile(id) {
+	getAsset(id) {
 		return cache[id];
 	}
 }

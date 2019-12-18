@@ -10,27 +10,31 @@ const env = Object.assign(process.env,
 
 const http = require('http');
 const saveCharacter = require('./saveCharacter');
-const loadCharacter = require('./loadCharacter');
 const getUserAssets = require('./getUserAssets');
 const staticAssets = require('./staticAssets');
 const premadeChars = require('./premadeChars');
 const displayPages = require('./displayPages');
 const getThemeList = require('./getThemeList');
-const saveMovie = require('./saveMovie');
-const loadMovie = require('./loadMovie');
+const getCharacter = require('./getCharacter');
+const ttsProcess = require('./ttsProcess');
 const ttsVoices = require('./ttsVoices');
+const saveMovie = require('./saveMovie');
+const getAsset = require('./getAsset');
+const getMovie = require('./getMovie');
 const getTheme = require('./getTheme');
 const url = require('url');
 
 const functions = [
 	displayPages,
 	premadeChars,
-	loadCharacter,
+	getAsset,
+	getCharacter,
 	getThemeList,
 	getTheme,
 	saveCharacter,
 	getUserAssets,
-	loadMovie,
+	ttsProcess,
+	getMovie,
 	saveMovie,
 	ttsVoices,
 	staticAssets,
@@ -38,5 +42,5 @@ const functions = [
 
 http.createServer((req, res) => {
 	const parsedUrl = url.parse(req.url, true);
-	functions.forEach(f => f(req, res, parsedUrl));
+	functions.find(f => f(req, res, parsedUrl));
 }).listen(env.SERVER_PORT, console.log);

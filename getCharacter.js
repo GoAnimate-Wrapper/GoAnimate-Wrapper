@@ -26,7 +26,7 @@ function retrieve(id) {
 			const lnNum = fUtil.padZero(xmlSubId, xNumWidth);
 			const url = `${baseUrl}/${fUtil.padZero(fileId)}.txt`;
 			request(url).then(b => {
-				var line = b.split('\n').find(v => v.substr(0, xNumWidth) == lnNum);
+				var line = b.toString('utf8').split('\n').find(v => v.substr(0, xNumWidth) == lnNum);
 				line ? res(fUtil.fillTemplate(sXml, line.substr(xNumWidth))) : rej(fXml);
 			}).catch(e => rej(fXml));
 		}

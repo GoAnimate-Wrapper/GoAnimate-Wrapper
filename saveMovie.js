@@ -1,5 +1,5 @@
 const loadPost = require('./loadPostBody');
-const cache = require('./movieCache');
+const caché = require('./movieCaché');
 const fUtil = require('./fileUtil');
 
 module.exports = function (req, res, url) {
@@ -11,7 +11,7 @@ module.exports = function (req, res, url) {
 		else
 			fn = fUtil.getNextFile('movie-', '.xml', 7), id = fn.substr(fn.lastIndexOf('-') + 1, 7);
 		const body = Buffer.from(data.body_zip, 'base64');
-		cache.save(fn, body).then(() => res.end('0' + id));
+		caché.save(fn, body).then(() => res.end('0' + id));
 	});
 	return true;
 }
