@@ -21,6 +21,7 @@ function local(req, res, url) {
 			}
 			return true;
 		}
+	return false;
 }
 
 function remote(req, res) {

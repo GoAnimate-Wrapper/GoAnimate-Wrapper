@@ -1,4 +1,4 @@
 module.exports = function (req, res, url) {
-	if (req.method != '' || url.path != '') return;
+	if (!url.path.startsWith('/events/')) return;
 	return true;
 }
