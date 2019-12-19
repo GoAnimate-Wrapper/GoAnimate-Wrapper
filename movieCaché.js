@@ -1,5 +1,8 @@
+const char = require('./numberedChars');
+const source = process.env.CLIENT_URL;
 const nodezip = require('node-zip');
 const fUtil = require('./fileUtil');
+const xmldoc = require('xmldoc');
 const fs = require('fs');
 var cache = {}, filePath;
 
@@ -10,21 +13,60 @@ function generateId() {
 	return id;
 }
 
+async function parseMovie(zip, buffer) {
+	const chars = {}, themes = { common: true };
+	fUtil.addToZip(zip, 'movie.xml', buffer);
+	const xml = new xmldoc.XmlDocument(buffer);
+	var scenes = xml.childrenNamed('scene');
+
+	for (const sK in scenes) {
+		var scene = scenes[sK];
+		for (const pK in scene.children) {
+			var piece = scene.children[pK];
+
+			switch (piece.name) {
+				case 'durationSetting':
+				case 'trans':
+					continue;
+
+				case 'bg':
+				case 'prop':
+					/** @type [string] */
+					var v = piece.childNamed('file').val.split('.');
+					v.splice(1, 0, piece.name);
+					var name = v.join('.');
+					themes[v[0]] = true;
+					break;
+
+				case 'char':
+					var v = piece.childNamed('action').val.split('.'), id = Number.parseInt(v[1]);
+					if (v[0] != 'ugc') themes[v[0]] = true; v.splice(1, 0, piece.name); chars[id] = true;
+					switch (v[v.length - 1]) {
+						case 'xml':
+							var c = await char(id);
+							fUtil.addToZip(zip, `${v[0]}.${v[2]}.xml`, Buffer.from(c));
+							break;
+					};
+					break;
+			};
+		}
+	}
+	const charKs = Object.keys(chars);
+	const themeKs = Object.keys(themes);
+	themeKs.forEach(t => fUtil.addToZip(zip, `${t}.xml`, fs.readFileSync(`themes/${t}.xml`)));
+	fUtil.addToZip(zip, 'themelist.xml', Buffer.from(`<?xml version="1.0" encoding="utf-8"?><themes>${
+		themeKs.map(t => `<theme>${t}</theme>`).join('')}</themes>`));
+
+	return await zip.zip();
+}
+
 module.exports = {
 	load(path) {
 		if (!fs.existsSync(path))
 			return Promise.reject();
 		cache = {}, filePath = path;
 		const zip = nodezip.create();
-		fUtil.addToZip(zip, 'movie.xml',
-			fs.readFileSync(path));
-		fUtil.addToZip(zip, 'themelist.xml',
-			new Buffer(`<?xml version="1.0" encoding="utf-8"?><themes><theme>business</theme><theme>common</theme></themes>`));
-		fUtil.addToZip(zip, 'common.xml',
-			fs.readFileSync('themes/common.xml'));
-		fUtil.addToZip(zip, 'business.xml',
-			fs.readFileSync('themes/business.xml'));
-		return zip.zip();
+		return parseMovie(zip, fs.readFileSync(path));
 	},
 	save(path, buffer) {
 		return new Promise(res => {

@@ -1,37 +1,5 @@
-const env = process.env;
-const fNumWidth = env.FILE_NUM_WIDTH;
-const xNumWidth = env.XML_NUM_WIDTH;
-const crossdomain = env.CROSSDOMAIN;
-const port = env.SERVER_PORT;
-const sXml = env.SUCCESS_XML;
-const fXml = env.FAILURE_XML;
-const baseUrl = env.CHAR_BASE_URL;
-const fw = env.FILE_WIDTH;
-const fs = require('fs');
-const fUtil = require('./fileUtil');
-const request = require('./reqGet');
 const loadPost = require('./loadPostBody');
-
-/**
- * 
- * @param {number} id 
- */
-function retrieve(id) {
-	return new Promise((res, rej) => {
-		const nId = Number.parseInt(id);
-		if (isNaN(nId))
-			fs.readFile(fUtil.getFileIndex('char-', '.xml', id), { encoding: "utf-8" }, (e, s) => e ? rej(e) : res(s));
-		else {
-			const xmlSubId = nId % fw, fileId = nId - xmlSubId;
-			const lnNum = fUtil.padZero(xmlSubId, xNumWidth);
-			const url = `${baseUrl}/${fUtil.padZero(fileId)}.txt`;
-			request(url).then(b => {
-				var line = b.toString('utf8').split('\n').find(v => v.substr(0, xNumWidth) == lnNum);
-				line ? res(fUtil.fillTemplate(sXml, line.substr(xNumWidth))) : rej(fXml);
-			}).catch(e => rej(fXml));
-		}
-	});
-}
+const retrieve = require('./numberedChars');
 
 module.exports = function (req, res) {
 	switch (req.method) {

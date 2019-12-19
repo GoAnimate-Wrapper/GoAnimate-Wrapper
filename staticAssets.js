@@ -46,6 +46,5 @@ function remote(req, res) {
 }
 
 module.exports = function (req, res, url) {
-	local(req, res, url);
-	remote(req, res, url);
+	return local(req, res, url) || remote(req, res, url);
 }

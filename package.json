@@ -7,6 +7,7 @@
 	"main": "index.js",
 	"dependencies": {
 		"mp3-duration": "^1.1.0",
-		"node-zip": "github:kyriosli/node-zip"
+		"node-zip": "github:kyriosli/node-zip",
+		"xmldoc": "^1.1.2"
 	}
 }
