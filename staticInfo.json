@@ -1,5 +1,19 @@
 {
 	"GET": {
+		"/index.html": {
+			"headers": {
+				"Location": "/go_full"
+			},
+			"statusCode": 302,
+			"content": ""
+		},
+		"/$": {
+			"headers": {
+				"Location": "/go_full"
+			},
+			"statusCode": 302,
+			"content": ""
+		},
 		"/crossdomain.xml": {
 			"headers": {
 				"Content-Type": "text/html; charset=UTF-8"

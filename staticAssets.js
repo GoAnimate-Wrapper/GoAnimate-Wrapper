@@ -12,12 +12,12 @@ function local(req, res, url) {
 			try {
 				for (var headerName in headers || {})
 					res.setHeader(headerName, headers[headerName]);
-				res.statusCode = t.overrideCode || 200;
+				res.statusCode = t.statusCode || 200;
 				if (t.content !== undefined) res.end(t.content);
 				else fs.createReadStream('.' + link).pipe(res);
 			}
 			catch (e) {
-				res.statusCode = t.overrideCode || 404, res.end();
+				res.statusCode = t.statusCode || 404, res.end();
 			}
 			return true;
 		}

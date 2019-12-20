@@ -95,11 +95,11 @@ module.exports = {
 						str.on('data', b => chunks.push(b));
 						str.on('end', () => {
 							finalData += `<asset name = "${e.name}" > ${Buffer.concat(chunks)}</asset>`;
-							if (!--count) fs.writeFile(path, finalData += `</film> `, res);
+							if (!--count) fs.writeFile(path, finalData += `</film>`, res);
 						});
 					}
 				else
-					fs.writeFile(path, finalData += `</film > `, res);
+					fs.writeFile(path, finalData += `</film>`, res);
 			});
 		});
 	},
