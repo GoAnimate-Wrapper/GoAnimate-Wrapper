@@ -34,6 +34,16 @@ module.exports = {
 	/**
 	 * @param {string} s
 	 * @param {string} ext
+	 * @returns {number}
+	 */
+	getNextFileNum(s, ext = '.xml') {
+		const regex = new RegExp(`[^/]*/${s}.*${ext}`);
+		const dir = fs.readdirSync(process.env.FILE_FOLDER).filter(v => v && regex.test(v));
+		return dir.length;
+	},
+	/**
+	 * @param {string} s
+	 * @param {string} ext
 	 * @param {number} n
 	 * @param {number} l
 	 * @returns {string}

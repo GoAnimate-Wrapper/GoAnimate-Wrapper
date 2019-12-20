@@ -9,7 +9,9 @@
 		"cc.swf": {},
 		"go_full.swf": {},
 		"favicon.ico": {},
-		"char_default.png": {}
+		"char_default.png": {
+			"content": "{\"message\":\"REQUEST_HAS_EXPIRED\"}"
+		}
 	},
 	"POST": {
 		"/goapi/getUserWatermarks/": {

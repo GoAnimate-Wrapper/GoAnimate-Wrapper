@@ -1,4 +1,6 @@
 const stuff = require('./staticInfo');
+const fUtil = require('./fileUtil');
+
 function toAttrString(table) {
 	return typeof (table) == 'object' ? Object.keys(table).filter(key => table[key] !== null).map(key =>
 		`${encodeURIComponent(key)}=${encodeURIComponent(table[key])}`).join('&') : table.replace(/"/g, "\\\"");
@@ -18,7 +20,7 @@ module.exports = function (req, res, url) {
 	if (req.method != 'GET') return;
 	const query = url.query;
 
-	var attrs, params;;
+	var attrs, params;
 	switch (url.pathname) {
 		case '/cc':
 			attrs = {
@@ -46,8 +48,9 @@ module.exports = function (req, res, url) {
 				flashvars: {
 					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>',
 					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'themeId': 'business',
-					'ut': 60, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'go', 'm_mode': 'school',
-					'isLogin': 'Y', 'isEmbed': '1', 'ctc': 'go', 'tlang': 'en_US', 'retut': '1'
+					'ut': 30, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'go',
+					'isLogin': 'Y', 'isEmbed': '1', 'ctc': 'go', 'tlang': 'en_US', 'retut': '1',
+					'presaveId': query.movieId ? '' : fUtil.getNextFileNum('movie-', '.xml')
 				},
 				allowScriptAccess: 'always',
 			};
