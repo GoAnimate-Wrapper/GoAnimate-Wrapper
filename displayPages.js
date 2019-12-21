@@ -48,7 +48,7 @@ module.exports = function (req, res, url) {
 				flashvars: {
 					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>',
 					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'themeId': 'business',
-					'ut': 30, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'go',
+					'ut': 30, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'go', 'initcb': 'studioLoaded',
 					'isLogin': 'Y', 'isEmbed': '1', 'ctc': 'go', 'tlang': 'en_US', 'retut': '1',
 					'presaveId': query.movieId ? '' : fUtil.getNextFileNum('movie-', '.xml')
 				},
@@ -75,7 +75,7 @@ module.exports = function (req, res, url) {
 	}
 	res.setHeader('Content-Type', 'text/html; charset=UTF-8');
 	Object.assign(params.flashvars, query);
-	res.end(`<body style="margin:0px">${toObjectString(attrs, params)
+	res.end(`<script>flashvars=${JSON.stringify(params.flashvars)}</script><body style="margin:0px">${toObjectString(attrs, params)
 		}</body><script>${stuff.pages[url.pathname] || ''}</script>`);
 	return true;
 }

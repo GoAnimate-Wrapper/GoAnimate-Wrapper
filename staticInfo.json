@@ -48,6 +48,6 @@
 		}
 	},
 	"pages": {
-		"/go_full": "interactiveTutorial={neverDisplay:function(){return true}};exitStudio=function(){fetch('event/close')};load=function(){console.log;obj.bind('ready','console.log')}"
+		"/go_full": "interactiveTutorial={neverDisplay:function(){return true}};function exitStudio(){fetch('event/close')};studioLoaded=console.log;function initPreviewPlayer(xml){fetch('/goapi/saveMovieXml/',{method:'POST',headers:flashvars,body:xml})}"
 	}
 }

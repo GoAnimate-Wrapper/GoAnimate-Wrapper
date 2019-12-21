@@ -80,36 +80,40 @@ module.exports = {
 			return parseMovie(zip, fs.readFileSync(filePath));
 		}
 	},
-	save(buffer, id) {
-		var path = id ?
-			fUtil.getFileIndex('movie-', '.xml', id, 7) :
-			fUtil.getNextFile('movie-', '.xml', 7);
+	saveXmlStream(stream, id) {
 		return new Promise(res => {
-			const zip = nodezip.unzip(buffer);
-			var data = ''; delete caché[id];
+			var ws = fs.createWriteStream(id ?
+				fUtil.getFileIndex('movie-', '.xml', id, 7) :
+				fUtil.getNextFile('movie-', '.xml', 7));
+			var data = '';
 
-			const stream = zip['movie.xml'].toReadStream();
-			stream.on('data', b => data += b);
+			stream.on('data', b => {
+				ws.write(b);
+				data += b;
+			});
 			stream.on('end', () => {
-				var finalData = data.substr(0, data.length - 7);
-				var count = 0; for (var i in zip.entries()) count++;
-				if (count > 1)
-					for (var i in zip.entries()) {
-						var e = zip[i];
-						if (!e || e.name == 'movie.xml') {
-							count--; continue;
-						}
-						const chunks = [], str = e.toReadStream();
-						str.on('data', b => chunks.push(b));
-						str.on('end', () => {
-							finalData += `<asset name = "${e.name}" > ${Buffer.concat(chunks)}</asset>`;
-							if (!--count) fs.writeFile(path, finalData += `</film>`, res);
-						});
-					}
-				else
-					fs.writeFile(path, finalData += `</film>`, res);
+				data.substr(0, data.length - 7);
+				const t = caché[id];
+
+				var finalData = '';
+				for (const name in t)
+					if (data.includes(`"${name}"`))
+						finalData += `<asset name="${name}">${t[name]}</asset>`;
+					else
+						delete t[name];
+				finalData += `</film>`;
+				delete data;
+
+				ws.write(finalData, () => {
+					ws.close();
+					res(finalData);
+				});
 			});
 		});
+	},
+	save(buffer, id) {
+		const zip = nodezip.unzip(buffer);
+		saveXmlStream(zip['movie.xml'].toReadStream(), id);
 	},
 	addAsset(movieId, buffer) {
 		const id = generateId();
