@@ -67,13 +67,12 @@ async function parseMovie(zip, buffer) {
 module.exports = {
 	load(id) {
 		caché[id] = {};
-
 		if (id.toLowerCase().startsWith('e-')) {
 			var v = fs.readFileSync(`examples/${id.substr(2)}.zip`);
 			if (v[0] != 80) v = v.subarray(1);
 			return Promise.resolve(v);
 		}
-		else if (Number.parseInt(id)) {
+		else if (!isNaN(Number.parseInt(id))) {
 			const zip = nodezip.create();
 			const filePath = fUtil.getFileIndex('movie-', '.xml', id);
 			if (!fs.existsSync(filePath)) return Promise.reject();
@@ -117,7 +116,10 @@ module.exports = {
 	},
 	addAsset(movieId, buffer) {
 		const id = generateId();
-		caché[movieId][id] = buffer;
+		if (!caché[movieId])
+			caché[movieId] = {};
+		var t = caché[movieId];
+		t[id] = buffer;
 		return id;
 	},
 	getAsset(movieId, assetId) {

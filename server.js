@@ -11,32 +11,36 @@ const env = Object.assign(process.env,
 	require('./config.json'));
 
 const http = require('http');
+const loadUserAssets = require('./loadUserAssets');
 const saveCharacter = require('./saveCharacter');
-const getUserAssets = require('./getUserAssets');
+const loadThemeList = require('./loadThemeList');
+const loadCharacter = require('./loadCharacter');
 const staticAssets = require('./staticAssets');
 const premadeChars = require('./premadeChars');
 const displayPages = require('./displayPages');
-const getThemeList = require('./getThemeList');
-const getCharacter = require('./getCharacter');
+const savePreview = require('./savePreview');
+const loadPreview = require('./loadPreview');
 const ttsProcess = require('./ttsProcess');
 const ttsVoices = require('./ttsVoices');
 const saveMovie = require('./saveMovie');
-const getAsset = require('./getAsset');
-const getMovie = require('./getMovie');
-const getTheme = require('./getTheme');
+const loadAsset = require('./loadAsset');
+const loadMovie = require('./loadMovie');
+const loadTheme = require('./loadTheme');
 const url = require('url');
 
 const functions = [
 	displayPages,
 	premadeChars,
-	getAsset,
-	getCharacter,
-	getThemeList,
-	getTheme,
+	loadAsset,
+	loadCharacter,
+	loadThemeList,
+	loadTheme,
+	loadPreview,
+	savePreview,
 	saveCharacter,
-	getUserAssets,
+	loadUserAssets,
 	ttsProcess,
-	getMovie,
+	loadMovie,
 	saveMovie,
 	ttsVoices,
 	staticAssets,

@@ -91,10 +91,11 @@ function processVoice(voiceName, text) {
 module.exports = function (req, res, url) {
 	if (req.method != 'POST' || url.path != '/goapi/convertTextToSoundAsset/') return;
 	loadPost(req, res).then(data => {
+		const mId = data.movieId || data.presaveId;
 		processVoice(data.voice, data.text).then(buffer => {
-			const id = caché.addAsset(data.movieId, data.buffer);
+			const id = caché.addAsset(mId, buffer);
 			mp3Duration(buffer, (e, duration) => {
-				if (!duration) res.end(1 + process.env.FAILURE_XML);
+				if (e || !duration) res.end(1 + process.env.FAILURE_XML);
 				else res.end(`0<response><asset><id>${id}</id><enc_asset_id>${id}</enc_asset_id><type>sound</type><subtype>tts</subtype><title>[Joey] 666</title><published>0</published><tags></tags><duration>${1e3 * duration}</duration><downloadtype>progressive</downloadtype><file>${id}.mp3</file></asset></response>`)
 			});
 		});

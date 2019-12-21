@@ -48,6 +48,7 @@
 		}
 	},
 	"pages": {
-		"/go_full": "interactiveTutorial={neverDisplay:function(){return true}};function exitStudio(){fetch('event/close')};studioLoaded=console.log;function initPreviewPlayer(xml){fetch('/goapi/saveMovieXml/',{method:'POST',headers:flashvars,body:xml})}"
+		"/go_full": "interactiveTutorial={neverDisplay:function(){return true}};function exitStudio(){fetch('event/close')};studioLoaded=console.log;function initPreviewPlayer(xml){fetch('/savePreview/',{method:'POST',headers:flashvars,body:xml}).then(()=>{window.open('player?isInitFromExternal=1&'+obj.firstChild.value,'MsgWindow','width=1280,height=720,left='+(screen.width/2-640)+',top='+(screen.height/2-360))})}",
+		"/player": "function retrievePreviewPlayerData(){var r=new XMLHttpRequest();r.open('GET','/loadPreview'+window.location.search,false);r.send(null);return r.responseText}"
 	}
 }
