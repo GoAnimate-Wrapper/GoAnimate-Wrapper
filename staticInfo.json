@@ -48,6 +48,6 @@
 		}
 	},
 	"pages": {
-		"/go_full": "interactiveTutorial={neverDisplay:function(){return true}};exitStudio=function(){fetch('event/close')};"
+		"/go_full": "interactiveTutorial={neverDisplay:function(){return true}};exitStudio=function(){fetch('event/close')};load=function(){console.log;obj.bind('ready','console.log')}"
 	}
 }

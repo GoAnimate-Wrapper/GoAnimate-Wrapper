@@ -11,7 +11,7 @@ function toParamString(table) {
 	).join(' ');
 }
 function toObjectString(attrs, params) {
-	return `<object ${Object.keys(attrs).map(key =>
+	return `<object id="obj" ${Object.keys(attrs).map(key =>
 		`${key}="${attrs[key].replace(/"/g, "\\\"")}"`
 	).join(' ')}>${toParamString(params)}</object>`;
 }
@@ -76,6 +76,6 @@ module.exports = function (req, res, url) {
 	res.setHeader('Content-Type', 'text/html; charset=UTF-8');
 	Object.assign(params.flashvars, query);
 	res.end(`<body style="margin:0px">${toObjectString(attrs, params)
-		}<script>${stuff.pages[url.pathname] || ''}</script></body>`);
+		}</body><script>${stuff.pages[url.pathname] || ''}</script>`);
 	return true;
 }

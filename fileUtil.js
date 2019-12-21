@@ -27,7 +27,7 @@ module.exports = {
 	 * @returns {string}
 	 */
 	getNextFile(s, ext = '.xml', l = 7) {
-		const regex = new RegExp(`[^/]*/${s}.*${ext}`);
+		const regex = new RegExp(`${s}[0-9]*${ext}$`);
 		const dir = fs.readdirSync(process.env.FILE_FOLDER).filter(v => v && regex.test(v));
 		return `${process.env.FILE_FOLDER}/${s}${this.padZero(dir.length, l)}${ext}`;
 	},
@@ -37,7 +37,7 @@ module.exports = {
 	 * @returns {number}
 	 */
 	getNextFileNum(s, ext = '.xml') {
-		const regex = new RegExp(`[^/]*/${s}.*${ext}`);
+		const regex = new RegExp(`${s}[0-9]*${ext}$`);
 		const dir = fs.readdirSync(process.env.FILE_FOLDER).filter(v => v && regex.test(v));
 		return dir.length;
 	},
