@@ -26,10 +26,11 @@ const saveMovie = require('./saveMovie');
 const loadAsset = require('./loadAsset');
 const loadMovie = require('./loadMovie');
 const loadTheme = require('./loadTheme');
+const getThumbs = require('./getThumbs');
 const url = require('url');
 
 const functions = [
-	displayPages,
+	getThumbs,
 	premadeChars,
 	loadAsset,
 	loadCharacter,
@@ -43,10 +44,12 @@ const functions = [
 	loadMovie,
 	saveMovie,
 	ttsVoices,
+	displayPages,
 	staticAssets,
 ];
 
 http.createServer((req, res) => {
 	const parsedUrl = url.parse(req.url, true);
-	functions.find(f => f(req, res, parsedUrl));
+	const found = functions.find(f => f(req, res, parsedUrl));
+	if (!found) { res.statusCode = 404; res.end(); }
 }).listen(env.PORT || env.SERVER_PORT, console.log);

@@ -8385,757 +8385,757 @@
 		<part id="right" src="middleRight" grid="r" scale="h" anchor="tl" />
 		<part id="bottom" src="bottomCenter" grid="b" scale="w" />
 	</flow>
-	<char id="257896581" enc_asset_id="0HC4Ek7RLldwtNdXDmM8OWQ" name="Agent" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257896581.png" itemRef="/go-prod/asset/257896581" copyable="Y">
+	<char id="257896581" enc_asset_id="0HC4Ek7RLldwtNdXDmM8OWQ" name="Agent" cc_theme_id="whiteboard" thumbnail_url="thumbs/257896581.png" itemRef="/go-prod/asset/257896581" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="257893387" enc_asset_id="0LwlGe5yozteybOqn9az0aQ" name="Agent" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257893387.png" itemRef="/go-prod/asset/257893387" copyable="Y">
+	<char id="257893387" enc_asset_id="0LwlGe5yozteybOqn9az0aQ" name="Agent" cc_theme_id="whiteboard" thumbnail_url="thumbs/257893387.png" itemRef="/go-prod/asset/257893387" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257893307" enc_asset_id="0Hd4Rb988XeOybOqn9az0aQ" name="Agent" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257893307.png" itemRef="/go-prod/asset/257893307" copyable="Y">
+	<char id="257893307" enc_asset_id="0Hd4Rb988XeOybOqn9az0aQ" name="Agent" cc_theme_id="whiteboard" thumbnail_url="thumbs/257893307.png" itemRef="/go-prod/asset/257893307" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="292137559" enc_asset_id="0l-uQL7ThZPIiuQ0JDOFAuw" name="Airline - Cabin Crew" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292137559.png" itemRef="/alvin-dev/asset/65995" copyable="Y">
+	<char id="292137559" enc_asset_id="0l-uQL7ThZPIiuQ0JDOFAuw" name="Airline - Cabin Crew" cc_theme_id="whiteboard" thumbnail_url="thumbs/292137559.png" itemRef="/alvin-dev/asset/65995" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_public,_sticky_filter_girl</tags>
 	</char>
-	<char id="257892294" enc_asset_id="07A6CcMg-YepqxVOBTmUCag" name="Airline - Cabin Crew" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257892294.png" itemRef="/go-prod/asset/257892294" copyable="Y">
+	<char id="257892294" enc_asset_id="07A6CcMg-YepqxVOBTmUCag" name="Airline - Cabin Crew" cc_theme_id="whiteboard" thumbnail_url="thumbs/257892294.png" itemRef="/go-prod/asset/257892294" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="301637241" enc_asset_id="0QHskWI_mE0ItNdXDmM8OWQ" name="Airline - Pilot" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637241.png" itemRef="/alvin-dev/asset/68759" copyable="Y">
+	<char id="301637241" enc_asset_id="0QHskWI_mE0ItNdXDmM8OWQ" name="Airline - Pilot" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637241.png" itemRef="/alvin-dev/asset/68759" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="301637212" enc_asset_id="0luaboA8R5mi5Z_k8TyB-CA" name="Airline - Pilot" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637212.png" itemRef="/alvin-dev/asset/68729" copyable="Y">
+	<char id="301637212" enc_asset_id="0luaboA8R5mi5Z_k8TyB-CA" name="Airline - Pilot" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637212.png" itemRef="/alvin-dev/asset/68729" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="257901887" enc_asset_id="0KzFGYJLT7WuybOqn9az0aQ" name="Airline - Pilot" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901887.png" itemRef="/go-prod/asset/257901887" copyable="Y">
+	<char id="257901887" enc_asset_id="0KzFGYJLT7WuybOqn9az0aQ" name="Airline - Pilot" cc_theme_id="whiteboard" thumbnail_url="thumbs/257901887.png" itemRef="/go-prod/asset/257901887" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="257901468" enc_asset_id="0vwrbm2RAWQdrwxStLYRCSg" name="Airline - Pilot" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901468.png" itemRef="/go-prod/asset/257901468" copyable="Y">
+	<char id="257901468" enc_asset_id="0vwrbm2RAWQdrwxStLYRCSg" name="Airline - Pilot" cc_theme_id="whiteboard" thumbnail_url="thumbs/257901468.png" itemRef="/go-prod/asset/257901468" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="225400228" enc_asset_id="0W-fFXZdqy59rwxStLYRCSg" name="Airline - Pilot" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225400228.png" itemRef="/go-prod/asset/225400228" copyable="Y">
+	<char id="225400228" enc_asset_id="0W-fFXZdqy59rwxStLYRCSg" name="Airline - Pilot" cc_theme_id="whiteboard" thumbnail_url="thumbs/225400228.png" itemRef="/go-prod/asset/225400228" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="225400201" enc_asset_id="04iJdeAM5-zktNdXDmM8OWQ" name="Airline - Pilot" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225400201.png" itemRef="/go-prod/asset/225400201" copyable="Y">
+	<char id="225400201" enc_asset_id="04iJdeAM5-zktNdXDmM8OWQ" name="Airline - Pilot" cc_theme_id="whiteboard" thumbnail_url="thumbs/225400201.png" itemRef="/go-prod/asset/225400201" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257901762" enc_asset_id="0PIHd2IzkBO-5Z_k8TyB-CA" name="Bank - Banker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901762.png" itemRef="/go-prod/asset/257901762" copyable="Y">
+	<char id="257901762" enc_asset_id="0PIHd2IzkBO-5Z_k8TyB-CA" name="Bank - Banker" cc_theme_id="whiteboard" thumbnail_url="thumbs/257901762.png" itemRef="/go-prod/asset/257901762" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="292137555" enc_asset_id="0l-uQL7ThZPLGbLd1u6tbAw" name="Blue Collar" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292137555.png" itemRef="/alvin-dev/asset/65992" copyable="Y">
+	<char id="292137555" enc_asset_id="0l-uQL7ThZPLGbLd1u6tbAw" name="Blue Collar" cc_theme_id="whiteboard" thumbnail_url="thumbs/292137555.png" itemRef="/alvin-dev/asset/65992" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_public,_sticky_filter_guy</tags>
 	</char>
-	<char id="301637244" enc_asset_id="0QHskWI_mE0JqxVOBTmUCag" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637244.png" itemRef="/alvin-dev/asset/68762" copyable="Y">
+	<char id="301637244" enc_asset_id="0QHskWI_mE0JqxVOBTmUCag" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637244.png" itemRef="/alvin-dev/asset/68762" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="301637198" enc_asset_id="0rGeYbISuxtZrwxStLYRCSg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637198.png" itemRef="/alvin-dev/asset/68716" copyable="Y">
+	<char id="301637198" enc_asset_id="0rGeYbISuxtZrwxStLYRCSg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637198.png" itemRef="/alvin-dev/asset/68716" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="301637196" enc_asset_id="0rGeYbISuxtbZBgS1od14mg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637196.png" itemRef="/alvin-dev/asset/68715" copyable="Y">
+	<char id="301637196" enc_asset_id="0rGeYbISuxtbZBgS1od14mg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637196.png" itemRef="/alvin-dev/asset/68715" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="301637195" enc_asset_id="0rGeYbISuxtbGbLd1u6tbAw" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637195.png" itemRef="/alvin-dev/asset/68714" copyable="Y">
+	<char id="301637195" enc_asset_id="0rGeYbISuxtbGbLd1u6tbAw" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637195.png" itemRef="/alvin-dev/asset/68714" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="301637192" enc_asset_id="0rGeYbISuxta5Z_k8TyB-CA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637192.png" itemRef="/alvin-dev/asset/68712" copyable="Y">
+	<char id="301637192" enc_asset_id="0rGeYbISuxta5Z_k8TyB-CA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637192.png" itemRef="/alvin-dev/asset/68712" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="301637190" enc_asset_id="0rGeYbISuxtbMS39-jgv7mQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637190.png" itemRef="/alvin-dev/asset/68710" copyable="Y">
+	<char id="301637190" enc_asset_id="0rGeYbISuxtbMS39-jgv7mQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637190.png" itemRef="/alvin-dev/asset/68710" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="301637189" enc_asset_id="0T3TZi3l5Kl8iuQ0JDOFAuw" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637189.png" itemRef="/alvin-dev/asset/68709" copyable="Y">
+	<char id="301637189" enc_asset_id="0T3TZi3l5Kl8iuQ0JDOFAuw" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637189.png" itemRef="/alvin-dev/asset/68709" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="295843166" enc_asset_id="043czQ9XliuDZBgS1od14mg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295843166.png" itemRef="/alvin-dev/asset/67317" copyable="Y">
+	<char id="295843166" enc_asset_id="043czQ9XliuDZBgS1od14mg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/295843166.png" itemRef="/alvin-dev/asset/67317" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="295843163" enc_asset_id="043czQ9XliuDTEEJSpuZAGA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295843163.png" itemRef="/alvin-dev/asset/67314" copyable="Y">
+	<char id="295843163" enc_asset_id="043czQ9XliuDTEEJSpuZAGA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/295843163.png" itemRef="/alvin-dev/asset/67314" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_public,_sticky_filter_girl</tags>
 	</char>
-	<char id="292137561" enc_asset_id="0IaVF-5lqHsktNdXDmM8OWQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292137561.png" itemRef="/alvin-dev/asset/65997" copyable="Y">
+	<char id="292137561" enc_asset_id="0IaVF-5lqHsktNdXDmM8OWQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/292137561.png" itemRef="/alvin-dev/asset/65997" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_public,_sticky_filter_girl</tags>
 	</char>
-	<char id="290231248" enc_asset_id="0dx9vHG7Saz5rwxStLYRCSg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231248.png" itemRef="/alvin-dev/asset/65482" copyable="Y">
+	<char id="290231248" enc_asset_id="0dx9vHG7Saz5rwxStLYRCSg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231248.png" itemRef="/alvin-dev/asset/65482" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="290231247" enc_asset_id="0dx9vHG7Saz6ybOqn9az0aQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231247.png" itemRef="/alvin-dev/asset/65481" copyable="Y">
+	<char id="290231247" enc_asset_id="0dx9vHG7Saz6ybOqn9az0aQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231247.png" itemRef="/alvin-dev/asset/65481" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="290231242" enc_asset_id="0dx9vHG7Saz65Z_k8TyB-CA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231242.png" itemRef="/alvin-dev/asset/65476" copyable="Y">
+	<char id="290231242" enc_asset_id="0dx9vHG7Saz65Z_k8TyB-CA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231242.png" itemRef="/alvin-dev/asset/65476" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="290231239" enc_asset_id="0eBv_Eqpfb-0iuQ0JDOFAuw" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231239.png" itemRef="/alvin-dev/asset/65473" copyable="Y">
+	<char id="290231239" enc_asset_id="0eBv_Eqpfb-0iuQ0JDOFAuw" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231239.png" itemRef="/alvin-dev/asset/65473" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="290231234" enc_asset_id="0eBv_Eqpfb-1qxVOBTmUCag" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231234.png" itemRef="/alvin-dev/asset/65470" copyable="Y">
+	<char id="290231234" enc_asset_id="0eBv_Eqpfb-1qxVOBTmUCag" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231234.png" itemRef="/alvin-dev/asset/65470" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="290231231" enc_asset_id="0eBv_Eqpfb-0tNdXDmM8OWQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231231.png" itemRef="/alvin-dev/asset/65468" copyable="Y">
+	<char id="290231231" enc_asset_id="0eBv_Eqpfb-0tNdXDmM8OWQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231231.png" itemRef="/alvin-dev/asset/65468" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="290231220" enc_asset_id="0565J338Ss8_MS39-jgv7mQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231220.png" itemRef="/alvin-dev/asset/65460" copyable="Y">
+	<char id="290231220" enc_asset_id="0565J338Ss8_MS39-jgv7mQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231220.png" itemRef="/alvin-dev/asset/65460" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="290231215" enc_asset_id="0A31lhjWbMhrGbLd1u6tbAw" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231215.png" itemRef="/alvin-dev/asset/65456" copyable="Y">
+	<char id="290231215" enc_asset_id="0A31lhjWbMhrGbLd1u6tbAw" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231215.png" itemRef="/alvin-dev/asset/65456" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="290231210" enc_asset_id="0A31lhjWbMhrMS39-jgv7mQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231210.png" itemRef="/alvin-dev/asset/65450" copyable="Y">
+	<char id="290231210" enc_asset_id="0A31lhjWbMhrMS39-jgv7mQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231210.png" itemRef="/alvin-dev/asset/65450" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="289334683" enc_asset_id="0vu8RQit4c4HTEEJSpuZAGA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/289334683.png" itemRef="/alvin-dev/asset/65194" copyable="Y">
+	<char id="289334683" enc_asset_id="0vu8RQit4c4HTEEJSpuZAGA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/289334683.png" itemRef="/alvin-dev/asset/65194" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="289334681" enc_asset_id="0vu8RQit4c4EtNdXDmM8OWQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/289334681.png" itemRef="/alvin-dev/asset/65192" copyable="Y">
+	<char id="289334681" enc_asset_id="0vu8RQit4c4EtNdXDmM8OWQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/289334681.png" itemRef="/alvin-dev/asset/65192" copyable="Y">
 		<tags>whiteboard,_public,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="257902200" enc_asset_id="0GxrGrSM1JG3MS39-jgv7mQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257902200.png" itemRef="/go-prod/asset/257902200" copyable="Y">
+	<char id="257902200" enc_asset_id="0GxrGrSM1JG3MS39-jgv7mQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257902200.png" itemRef="/go-prod/asset/257902200" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="257902143" enc_asset_id="0gtEFLyBHBO_TEEJSpuZAGA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257902143.png" itemRef="/go-prod/asset/257902143" copyable="Y">
+	<char id="257902143" enc_asset_id="0gtEFLyBHBO_TEEJSpuZAGA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257902143.png" itemRef="/go-prod/asset/257902143" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257902077" enc_asset_id="0-y0mzC2DQtOybOqn9az0aQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257902077.png" itemRef="/go-prod/asset/257902077" copyable="Y">
+	<char id="257902077" enc_asset_id="0-y0mzC2DQtOybOqn9az0aQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257902077.png" itemRef="/go-prod/asset/257902077" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257901994" enc_asset_id="0ZldCY3rvXbpqxVOBTmUCag" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901994.png" itemRef="/go-prod/asset/257901994" copyable="Y">
+	<char id="257901994" enc_asset_id="0ZldCY3rvXbpqxVOBTmUCag" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257901994.png" itemRef="/go-prod/asset/257901994" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257901858" enc_asset_id="0twcPpD8M24prwxStLYRCSg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901858.png" itemRef="/go-prod/asset/257901858" copyable="Y">
+	<char id="257901858" enc_asset_id="0twcPpD8M24prwxStLYRCSg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257901858.png" itemRef="/go-prod/asset/257901858" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="257901729" enc_asset_id="0ynW6zn4lP0giuQ0JDOFAuw" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901729.png" itemRef="/go-prod/asset/257901729" copyable="Y">
+	<char id="257901729" enc_asset_id="0ynW6zn4lP0giuQ0JDOFAuw" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257901729.png" itemRef="/go-prod/asset/257901729" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257901183" enc_asset_id="0ivetDTB5iffTEEJSpuZAGA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901183.png" itemRef="/go-prod/asset/257901183" copyable="Y">
+	<char id="257901183" enc_asset_id="0ivetDTB5iffTEEJSpuZAGA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257901183.png" itemRef="/go-prod/asset/257901183" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="257900469" enc_asset_id="0TTWHQw43X5kiuQ0JDOFAuw" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257900469.png" itemRef="/go-prod/asset/257900469" copyable="Y">
+	<char id="257900469" enc_asset_id="0TTWHQw43X5kiuQ0JDOFAuw" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257900469.png" itemRef="/go-prod/asset/257900469" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257900220" enc_asset_id="0ovW8eyV43sfMS39-jgv7mQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257900220.png" itemRef="/go-prod/asset/257900220" copyable="Y">
+	<char id="257900220" enc_asset_id="0ovW8eyV43sfMS39-jgv7mQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257900220.png" itemRef="/go-prod/asset/257900220" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257899994" enc_asset_id="09sE4y4JFxvJqxVOBTmUCag" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257899994.png" itemRef="/go-prod/asset/257899994" copyable="Y">
+	<char id="257899994" enc_asset_id="09sE4y4JFxvJqxVOBTmUCag" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257899994.png" itemRef="/go-prod/asset/257899994" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257898506" enc_asset_id="0rrIMtrVXC8nZBgS1od14mg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257898506.png" itemRef="/go-prod/asset/257898506" copyable="Y">
+	<char id="257898506" enc_asset_id="0rrIMtrVXC8nZBgS1od14mg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257898506.png" itemRef="/go-prod/asset/257898506" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257898451" enc_asset_id="0ffE1uCmy9X4tNdXDmM8OWQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257898451.png" itemRef="/go-prod/asset/257898451" copyable="Y">
+	<char id="257898451" enc_asset_id="0ffE1uCmy9X4tNdXDmM8OWQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257898451.png" itemRef="/go-prod/asset/257898451" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257898210" enc_asset_id="0mc6apl7hHULMS39-jgv7mQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257898210.png" itemRef="/go-prod/asset/257898210" copyable="Y">
+	<char id="257898210" enc_asset_id="0mc6apl7hHULMS39-jgv7mQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257898210.png" itemRef="/go-prod/asset/257898210" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257898167" enc_asset_id="0iQjoykelOgKybOqn9az0aQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257898167.png" itemRef="/go-prod/asset/257898167" copyable="Y">
+	<char id="257898167" enc_asset_id="0iQjoykelOgKybOqn9az0aQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257898167.png" itemRef="/go-prod/asset/257898167" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257898118" enc_asset_id="0Zk1MemB_b2NrwxStLYRCSg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257898118.png" itemRef="/go-prod/asset/257898118" copyable="Y">
+	<char id="257898118" enc_asset_id="0Zk1MemB_b2NrwxStLYRCSg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257898118.png" itemRef="/go-prod/asset/257898118" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257898052" enc_asset_id="060PA9bVrevG5Z_k8TyB-CA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257898052.png" itemRef="/go-prod/asset/257898052" copyable="Y">
+	<char id="257898052" enc_asset_id="060PA9bVrevG5Z_k8TyB-CA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257898052.png" itemRef="/go-prod/asset/257898052" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="257897961" enc_asset_id="0I8dHJV-3zO0tNdXDmM8OWQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257897961.png" itemRef="/go-prod/asset/257897961" copyable="Y">
+	<char id="257897961" enc_asset_id="0I8dHJV-3zO0tNdXDmM8OWQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257897961.png" itemRef="/go-prod/asset/257897961" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="257897814" enc_asset_id="0YTsoibxiDiZqxVOBTmUCag" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257897814.png" itemRef="/go-prod/asset/257897814" copyable="Y">
+	<char id="257897814" enc_asset_id="0YTsoibxiDiZqxVOBTmUCag" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257897814.png" itemRef="/go-prod/asset/257897814" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="257897636" enc_asset_id="0h8U5Xf6DyHvZBgS1od14mg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257897636.png" itemRef="/go-prod/asset/257897636" copyable="Y">
+	<char id="257897636" enc_asset_id="0h8U5Xf6DyHvZBgS1od14mg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257897636.png" itemRef="/go-prod/asset/257897636" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="257897611" enc_asset_id="0NdyM0T_HIb8tNdXDmM8OWQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257897611.png" itemRef="/go-prod/asset/257897611" copyable="Y">
+	<char id="257897611" enc_asset_id="0NdyM0T_HIb8tNdXDmM8OWQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257897611.png" itemRef="/go-prod/asset/257897611" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="257897587" enc_asset_id="0TZNZzVd4ywaybOqn9az0aQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257897587.png" itemRef="/go-prod/asset/257897587" copyable="Y">
+	<char id="257897587" enc_asset_id="0TZNZzVd4ywaybOqn9az0aQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257897587.png" itemRef="/go-prod/asset/257897587" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="257897448" enc_asset_id="0wBK5sP0qsnVrwxStLYRCSg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257897448.png" itemRef="/go-prod/asset/257897448" copyable="Y">
+	<char id="257897448" enc_asset_id="0wBK5sP0qsnVrwxStLYRCSg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257897448.png" itemRef="/go-prod/asset/257897448" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257896778" enc_asset_id="0d9cbAPIOUQ5rwxStLYRCSg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257896778.png" itemRef="/go-prod/asset/257896778" copyable="Y">
+	<char id="257896778" enc_asset_id="0d9cbAPIOUQ5rwxStLYRCSg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257896778.png" itemRef="/go-prod/asset/257896778" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257896528" enc_asset_id="0XotNP0DBfJRrwxStLYRCSg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257896528.png" itemRef="/go-prod/asset/257896528" copyable="Y">
+	<char id="257896528" enc_asset_id="0XotNP0DBfJRrwxStLYRCSg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257896528.png" itemRef="/go-prod/asset/257896528" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257893241" enc_asset_id="0ekLYqOmNsUAtNdXDmM8OWQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257893241.png" itemRef="/go-prod/asset/257893241" copyable="Y">
+	<char id="257893241" enc_asset_id="0ekLYqOmNsUAtNdXDmM8OWQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257893241.png" itemRef="/go-prod/asset/257893241" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="257893156" enc_asset_id="0QvSCtLPWFBjZBgS1od14mg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257893156.png" itemRef="/go-prod/asset/257893156" copyable="Y">
+	<char id="257893156" enc_asset_id="0QvSCtLPWFBjZBgS1od14mg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257893156.png" itemRef="/go-prod/asset/257893156" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257893086" enc_asset_id="089bXY2Y1gGDZBgS1od14mg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257893086.png" itemRef="/go-prod/asset/257893086" copyable="Y">
+	<char id="257893086" enc_asset_id="089bXY2Y1gGDZBgS1od14mg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257893086.png" itemRef="/go-prod/asset/257893086" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257893003" enc_asset_id="007evQX61ZXPTEEJSpuZAGA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257893003.png" itemRef="/go-prod/asset/257893003" copyable="Y">
+	<char id="257893003" enc_asset_id="007evQX61ZXPTEEJSpuZAGA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257893003.png" itemRef="/go-prod/asset/257893003" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257892935" enc_asset_id="0863NZqpAQ8bGbLd1u6tbAw" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257892935.png" itemRef="/go-prod/asset/257892935" copyable="Y">
+	<char id="257892935" enc_asset_id="0863NZqpAQ8bGbLd1u6tbAw" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257892935.png" itemRef="/go-prod/asset/257892935" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257892472" enc_asset_id="0l6ARaOW7NjO5Z_k8TyB-CA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257892472.png" itemRef="/go-prod/asset/257892472" copyable="Y">
+	<char id="257892472" enc_asset_id="0l6ARaOW7NjO5Z_k8TyB-CA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257892472.png" itemRef="/go-prod/asset/257892472" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="257892394" enc_asset_id="0_4yX0ZLM9lFqxVOBTmUCag" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257892394.png" itemRef="/go-prod/asset/257892394" copyable="Y">
+	<char id="257892394" enc_asset_id="0_4yX0ZLM9lFqxVOBTmUCag" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257892394.png" itemRef="/go-prod/asset/257892394" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="257892140" enc_asset_id="0W1n4DEAttHbMS39-jgv7mQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257892140.png" itemRef="/go-prod/asset/257892140" copyable="Y">
+	<char id="257892140" enc_asset_id="0W1n4DEAttHbMS39-jgv7mQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/257892140.png" itemRef="/go-prod/asset/257892140" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="225402603" enc_asset_id="02S_4HxwIEsDTEEJSpuZAGA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225402603.png" itemRef="/go-prod/asset/225402603" copyable="Y">
+	<char id="225402603" enc_asset_id="02S_4HxwIEsDTEEJSpuZAGA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/225402603.png" itemRef="/go-prod/asset/225402603" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="225401152" enc_asset_id="0bXWF1Pm-6V-5Z_k8TyB-CA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225401152.png" itemRef="/go-prod/asset/225401152" copyable="Y">
+	<char id="225401152" enc_asset_id="0bXWF1Pm-6V-5Z_k8TyB-CA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/225401152.png" itemRef="/go-prod/asset/225401152" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="225401101" enc_asset_id="08_pqG6rvBzktNdXDmM8OWQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225401101.png" itemRef="/go-prod/asset/225401101" copyable="Y">
+	<char id="225401101" enc_asset_id="08_pqG6rvBzktNdXDmM8OWQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/225401101.png" itemRef="/go-prod/asset/225401101" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="225400806" enc_asset_id="0RIK2sxkASe3ZBgS1od14mg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225400806.png" itemRef="/go-prod/asset/225400806" copyable="Y">
+	<char id="225400806" enc_asset_id="0RIK2sxkASe3ZBgS1od14mg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/225400806.png" itemRef="/go-prod/asset/225400806" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="225400750" enc_asset_id="0KTLZW5ZrYofMS39-jgv7mQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225400750.png" itemRef="/go-prod/asset/225400750" copyable="Y">
+	<char id="225400750" enc_asset_id="0KTLZW5ZrYofMS39-jgv7mQ" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/225400750.png" itemRef="/go-prod/asset/225400750" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="225400714" enc_asset_id="0NTCBNvnde_dqxVOBTmUCag" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225400714.png" itemRef="/go-prod/asset/225400714" copyable="Y">
+	<char id="225400714" enc_asset_id="0NTCBNvnde_dqxVOBTmUCag" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/225400714.png" itemRef="/go-prod/asset/225400714" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="225400673" enc_asset_id="0vNmMbpXyLn7TEEJSpuZAGA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225400673.png" itemRef="/go-prod/asset/225400673" copyable="Y">
+	<char id="225400673" enc_asset_id="0vNmMbpXyLn7TEEJSpuZAGA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/225400673.png" itemRef="/go-prod/asset/225400673" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="225400274" enc_asset_id="0OmE_4oc1jiNqxVOBTmUCag" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225400274.png" itemRef="/go-prod/asset/225400274" copyable="Y">
+	<char id="225400274" enc_asset_id="0OmE_4oc1jiNqxVOBTmUCag" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/225400274.png" itemRef="/go-prod/asset/225400274" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="225400055" enc_asset_id="0njovoPpLTOLGbLd1u6tbAw" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225400055.png" itemRef="/go-prod/asset/225400055" copyable="Y">
+	<char id="225400055" enc_asset_id="0njovoPpLTOLGbLd1u6tbAw" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/225400055.png" itemRef="/go-prod/asset/225400055" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="225399918" enc_asset_id="0dhKZOU7u_DFrwxStLYRCSg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225399918.png" itemRef="/go-prod/asset/225399918" copyable="Y">
+	<char id="225399918" enc_asset_id="0dhKZOU7u_DFrwxStLYRCSg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/225399918.png" itemRef="/go-prod/asset/225399918" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="225399272" enc_asset_id="0MKHS3YtV6GS5Z_k8TyB-CA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225399272.png" itemRef="/go-prod/asset/225399272" copyable="Y">
+	<char id="225399272" enc_asset_id="0MKHS3YtV6GS5Z_k8TyB-CA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/225399272.png" itemRef="/go-prod/asset/225399272" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="225399203" enc_asset_id="0j0gpylbl6QHTEEJSpuZAGA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225399203.png" itemRef="/go-prod/asset/225399203" copyable="Y">
+	<char id="225399203" enc_asset_id="0j0gpylbl6QHTEEJSpuZAGA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/225399203.png" itemRef="/go-prod/asset/225399203" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="216791635" enc_asset_id="0-PLxfMh25QvGbLd1u6tbAw" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/216791635.png" itemRef="/go-prod/asset/216791635" copyable="Y">
+	<char id="216791635" enc_asset_id="0-PLxfMh25QvGbLd1u6tbAw" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/216791635.png" itemRef="/go-prod/asset/216791635" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="216791602" enc_asset_id="0Ezl_m3Yq77C5Z_k8TyB-CA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/216791602.png" itemRef="/go-prod/asset/216791602" copyable="Y">
+	<char id="216791602" enc_asset_id="0Ezl_m3Yq77C5Z_k8TyB-CA" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/216791602.png" itemRef="/go-prod/asset/216791602" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="216791476" enc_asset_id="0spewtb5hg5zZBgS1od14mg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/216791476.png" itemRef="/go-prod/asset/216791476" copyable="Y">
+	<char id="216791476" enc_asset_id="0spewtb5hg5zZBgS1od14mg" name="Casual" cc_theme_id="whiteboard" thumbnail_url="thumbs/216791476.png" itemRef="/go-prod/asset/216791476" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="301637225" enc_asset_id="0AOP4wuRFrNfGbLd1u6tbAw" name="Construction - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637225.png" itemRef="/alvin-dev/asset/68748" copyable="Y">
+	<char id="301637225" enc_asset_id="0AOP4wuRFrNfGbLd1u6tbAw" name="Construction - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637225.png" itemRef="/alvin-dev/asset/68748" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="301637223" enc_asset_id="0AOP4wuRFrNfTEEJSpuZAGA" name="Construction - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637223.png" itemRef="/alvin-dev/asset/68743" copyable="Y">
+	<char id="301637223" enc_asset_id="0AOP4wuRFrNfTEEJSpuZAGA" name="Construction - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637223.png" itemRef="/alvin-dev/asset/68743" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257902269" enc_asset_id="09nS-KrnKWDYiuQ0JDOFAuw" name="Construction - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257902269.png" itemRef="/go-prod/asset/257902269" copyable="Y">
+	<char id="257902269" enc_asset_id="09nS-KrnKWDYiuQ0JDOFAuw" name="Construction - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/257902269.png" itemRef="/go-prod/asset/257902269" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="257902240" enc_asset_id="0vkDmOuKrNrrMS39-jgv7mQ" name="Construction - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257902240.png" itemRef="/go-prod/asset/257902240" copyable="Y">
+	<char id="257902240" enc_asset_id="0vkDmOuKrNrrMS39-jgv7mQ" name="Construction - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/257902240.png" itemRef="/go-prod/asset/257902240" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="225400603" enc_asset_id="0b2OyHpi9isPTEEJSpuZAGA" name="Construction - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225400603.png" itemRef="/go-prod/asset/225400603" copyable="Y">
+	<char id="225400603" enc_asset_id="0b2OyHpi9isPTEEJSpuZAGA" name="Construction - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/225400603.png" itemRef="/go-prod/asset/225400603" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="225399712" enc_asset_id="0bDuCvw2WGi-5Z_k8TyB-CA" name="Construction - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225399712.png" itemRef="/go-prod/asset/225399712" copyable="Y">
+	<char id="225399712" enc_asset_id="0bDuCvw2WGi-5Z_k8TyB-CA" name="Construction - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/225399712.png" itemRef="/go-prod/asset/225399712" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="295041520" enc_asset_id="0XEE0RuFPwzbMS39-jgv7mQ" name="Customer Services" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295041520.png" itemRef="/alvin-dev/asset/66944" copyable="Y">
+	<char id="295041520" enc_asset_id="0XEE0RuFPwzbMS39-jgv7mQ" name="Customer Services" cc_theme_id="whiteboard" thumbnail_url="thumbs/295041520.png" itemRef="/alvin-dev/asset/66944" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="295041519" enc_asset_id="0e0UtUeAfMRciuQ0JDOFAuw" name="Customer Services" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295041519.png" itemRef="/alvin-dev/asset/66943" copyable="Y">
+	<char id="295041519" enc_asset_id="0e0UtUeAfMRciuQ0JDOFAuw" name="Customer Services" cc_theme_id="whiteboard" thumbnail_url="thumbs/295041519.png" itemRef="/alvin-dev/asset/66943" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="295041518" enc_asset_id="0e0UtUeAfMRdrwxStLYRCSg" name="Customer Services" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295041518.png" itemRef="/alvin-dev/asset/66942" copyable="Y">
+	<char id="295041518" enc_asset_id="0e0UtUeAfMRdrwxStLYRCSg" name="Customer Services" cc_theme_id="whiteboard" thumbnail_url="thumbs/295041518.png" itemRef="/alvin-dev/asset/66942" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="295041516" enc_asset_id="0e0UtUeAfMRfZBgS1od14mg" name="Customer Services" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295041516.png" itemRef="/alvin-dev/asset/66940" copyable="Y">
+	<char id="295041516" enc_asset_id="0e0UtUeAfMRfZBgS1od14mg" name="Customer Services" cc_theme_id="whiteboard" thumbnail_url="thumbs/295041516.png" itemRef="/alvin-dev/asset/66940" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="295041513" enc_asset_id="0e0UtUeAfMRfTEEJSpuZAGA" name="Customer Services" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295041513.png" itemRef="/alvin-dev/asset/66936" copyable="Y">
+	<char id="295041513" enc_asset_id="0e0UtUeAfMRfTEEJSpuZAGA" name="Customer Services" cc_theme_id="whiteboard" thumbnail_url="thumbs/295041513.png" itemRef="/alvin-dev/asset/66936" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="295041512" enc_asset_id="0e0UtUeAfMRe5Z_k8TyB-CA" name="Customer Services" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295041512.png" itemRef="/alvin-dev/asset/66935" copyable="Y">
+	<char id="295041512" enc_asset_id="0e0UtUeAfMRe5Z_k8TyB-CA" name="Customer Services" cc_theme_id="whiteboard" thumbnail_url="thumbs/295041512.png" itemRef="/alvin-dev/asset/66935" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="295041511" enc_asset_id="0e0UtUeAfMRctNdXDmM8OWQ" name="Customer Services" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295041511.png" itemRef="/alvin-dev/asset/66934" copyable="Y">
+	<char id="295041511" enc_asset_id="0e0UtUeAfMRctNdXDmM8OWQ" name="Customer Services" cc_theme_id="whiteboard" thumbnail_url="thumbs/295041511.png" itemRef="/alvin-dev/asset/66934" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="295041510" enc_asset_id="0e0UtUeAfMRfMS39-jgv7mQ" name="Customer Services" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295041510.png" itemRef="/alvin-dev/asset/66933" copyable="Y">
+	<char id="295041510" enc_asset_id="0e0UtUeAfMRfMS39-jgv7mQ" name="Customer Services" cc_theme_id="whiteboard" thumbnail_url="thumbs/295041510.png" itemRef="/alvin-dev/asset/66933" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="225400862" enc_asset_id="0O945KUIyVFO5Z_k8TyB-CA" name="Cyclist" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225400862.png" itemRef="/go-prod/asset/225400862" copyable="Y">
+	<char id="225400862" enc_asset_id="0O945KUIyVFO5Z_k8TyB-CA" name="Cyclist" cc_theme_id="whiteboard" thumbnail_url="thumbs/225400862.png" itemRef="/go-prod/asset/225400862" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="305676161" enc_asset_id="0wvgp5zRpNUAtNdXDmM8OWQ" name="Detective" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/305676161.png" itemRef="/alvin-dev/asset/69221" copyable="Y">
+	<char id="305676161" enc_asset_id="0wvgp5zRpNUAtNdXDmM8OWQ" name="Detective" cc_theme_id="whiteboard" thumbnail_url="thumbs/305676161.png" itemRef="/alvin-dev/asset/69221" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="305676157" enc_asset_id="0ETYqtT48u-2ybOqn9az0aQ" name="Detective" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/305676157.png" itemRef="/alvin-dev/asset/69217" copyable="Y">
+	<char id="305676157" enc_asset_id="0ETYqtT48u-2ybOqn9az0aQ" name="Detective" cc_theme_id="whiteboard" thumbnail_url="thumbs/305676157.png" itemRef="/alvin-dev/asset/69217" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="305676116" enc_asset_id="0OVvfhesBO0HZBgS1od14mg" name="Detective" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/305676116.png" itemRef="/alvin-dev/asset/69177" copyable="Y">
+	<char id="305676116" enc_asset_id="0OVvfhesBO0HZBgS1od14mg" name="Detective" cc_theme_id="whiteboard" thumbnail_url="thumbs/305676116.png" itemRef="/alvin-dev/asset/69177" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="301637204" enc_asset_id="0Fo4HPOi4X4lqxVOBTmUCag" name="Fast Food - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637204.png" itemRef="/alvin-dev/asset/68722" copyable="Y">
+	<char id="301637204" enc_asset_id="0Fo4HPOi4X4lqxVOBTmUCag" name="Fast Food - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637204.png" itemRef="/alvin-dev/asset/68722" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="301637203" enc_asset_id="0Fo4HPOi4X4nTEEJSpuZAGA" name="Fast Food - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637203.png" itemRef="/alvin-dev/asset/68721" copyable="Y">
+	<char id="301637203" enc_asset_id="0Fo4HPOi4X4nTEEJSpuZAGA" name="Fast Food - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637203.png" itemRef="/alvin-dev/asset/68721" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257898793" enc_asset_id="04d8tAo3y-WzTEEJSpuZAGA" name="Fast Food - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257898793.png" itemRef="/go-prod/asset/257898793" copyable="Y">
+	<char id="257898793" enc_asset_id="04d8tAo3y-WzTEEJSpuZAGA" name="Fast Food - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/257898793.png" itemRef="/go-prod/asset/257898793" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257898558" enc_asset_id="0cb4yiOM2cd1rwxStLYRCSg" name="Fast Food - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257898558.png" itemRef="/go-prod/asset/257898558" copyable="Y">
+	<char id="257898558" enc_asset_id="0cb4yiOM2cd1rwxStLYRCSg" name="Fast Food - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/257898558.png" itemRef="/go-prod/asset/257898558" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="257901789" enc_asset_id="0qUafhkUtPQEiuQ0JDOFAuw" name="Floor Broker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901789.png" itemRef="/go-prod/asset/257901789" copyable="Y">
+	<char id="257901789" enc_asset_id="0qUafhkUtPQEiuQ0JDOFAuw" name="Floor Broker" cc_theme_id="whiteboard" thumbnail_url="thumbs/257901789.png" itemRef="/go-prod/asset/257901789" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257900144" enc_asset_id="0H8XT4dAXhMVqxVOBTmUCag" name="Garage - Mechanic" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257900144.png" itemRef="/go-prod/asset/257900144" copyable="Y">
+	<char id="257900144" enc_asset_id="0H8XT4dAXhMVqxVOBTmUCag" name="Garage - Mechanic" cc_theme_id="whiteboard" thumbnail_url="thumbs/257900144.png" itemRef="/go-prod/asset/257900144" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257900054" enc_asset_id="0dTMacRHGJjdqxVOBTmUCag" name="Garage - Mechanic" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257900054.png" itemRef="/go-prod/asset/257900054" copyable="Y">
+	<char id="257900054" enc_asset_id="0dTMacRHGJjdqxVOBTmUCag" name="Garage - Mechanic" cc_theme_id="whiteboard" thumbnail_url="thumbs/257900054.png" itemRef="/go-prod/asset/257900054" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="290231250" enc_asset_id="0FL9B7ruJ9XzMS39-jgv7mQ" name="Hazmat Suit " cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231250.png" itemRef="/alvin-dev/asset/65484" copyable="Y">
+	<char id="290231250" enc_asset_id="0FL9B7ruJ9XzMS39-jgv7mQ" name="Hazmat Suit " cc_theme_id="whiteboard" thumbnail_url="thumbs/290231250.png" itemRef="/alvin-dev/asset/65484" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="290231249" enc_asset_id="0dx9vHG7Saz4iuQ0JDOFAuw" name="Hazmat Suit" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231249.png" itemRef="/alvin-dev/asset/65483" copyable="Y">
+	<char id="290231249" enc_asset_id="0dx9vHG7Saz4iuQ0JDOFAuw" name="Hazmat Suit" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231249.png" itemRef="/alvin-dev/asset/65483" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="301637218" enc_asset_id="0luaboA8R5mhrwxStLYRCSg" name="Hospital - Doctor" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637218.png" itemRef="/alvin-dev/asset/68733" copyable="Y">
+	<char id="301637218" enc_asset_id="0luaboA8R5mhrwxStLYRCSg" name="Hospital - Doctor" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637218.png" itemRef="/alvin-dev/asset/68733" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="301637217" enc_asset_id="0luaboA8R5miybOqn9az0aQ" name="Hospital - Doctor" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637217.png" itemRef="/alvin-dev/asset/68732" copyable="Y">
+	<char id="301637217" enc_asset_id="0luaboA8R5miybOqn9az0aQ" name="Hospital - Doctor" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637217.png" itemRef="/alvin-dev/asset/68732" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="225400893" enc_asset_id="0HSeGg_VjrrrTEEJSpuZAGA" name="Hospital - Doctor" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225400893.png" itemRef="/go-prod/asset/225400893" copyable="Y">
+	<char id="225400893" enc_asset_id="0HSeGg_VjrrrTEEJSpuZAGA" name="Hospital - Doctor" cc_theme_id="whiteboard" thumbnail_url="thumbs/225400893.png" itemRef="/go-prod/asset/225400893" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="216791536" enc_asset_id="0y_2nXLLyjgLZBgS1od14mg" name="Hospital - Doctor" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/216791536.png" itemRef="/go-prod/asset/216791536" copyable="Y">
+	<char id="216791536" enc_asset_id="0y_2nXLLyjgLZBgS1od14mg" name="Hospital - Doctor" cc_theme_id="whiteboard" thumbnail_url="thumbs/216791536.png" itemRef="/go-prod/asset/216791536" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="301637221" enc_asset_id="0AOP4wuRFrNctNdXDmM8OWQ" name="Hospital - Nurse" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637221.png" itemRef="/alvin-dev/asset/68736" copyable="Y">
+	<char id="301637221" enc_asset_id="0AOP4wuRFrNctNdXDmM8OWQ" name="Hospital - Nurse" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637221.png" itemRef="/alvin-dev/asset/68736" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="301637220" enc_asset_id="0AOP4wuRFrNfMS39-jgv7mQ" name="Hospital - Nurse" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637220.png" itemRef="/alvin-dev/asset/68735" copyable="Y">
+	<char id="301637220" enc_asset_id="0AOP4wuRFrNfMS39-jgv7mQ" name="Hospital - Nurse" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637220.png" itemRef="/alvin-dev/asset/68735" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257897884" enc_asset_id="0BdORsL4yltVqxVOBTmUCag" name="Hospital - Nurse" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257897884.png" itemRef="/go-prod/asset/257897884" copyable="Y">
+	<char id="257897884" enc_asset_id="0BdORsL4yltVqxVOBTmUCag" name="Hospital - Nurse" cc_theme_id="whiteboard" thumbnail_url="thumbs/257897884.png" itemRef="/go-prod/asset/257897884" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257897839" enc_asset_id="0FCmsN2PTZKYiuQ0JDOFAuw" name="Hospital - Nurse" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257897839.png" itemRef="/go-prod/asset/257897839" copyable="Y">
+	<char id="257897839" enc_asset_id="0FCmsN2PTZKYiuQ0JDOFAuw" name="Hospital - Nurse" cc_theme_id="whiteboard" thumbnail_url="thumbs/257897839.png" itemRef="/go-prod/asset/257897839" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257897771" enc_asset_id="0aMeg0-sDxmwtNdXDmM8OWQ" name="Hospital - Nurse" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257897771.png" itemRef="/go-prod/asset/257897771" copyable="Y">
+	<char id="257897771" enc_asset_id="0aMeg0-sDxmwtNdXDmM8OWQ" name="Hospital - Nurse" cc_theme_id="whiteboard" thumbnail_url="thumbs/257897771.png" itemRef="/go-prod/asset/257897771" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257896704" enc_asset_id="0PvEtcjxd50xqxVOBTmUCag" name="Hospital - Nurse" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257896704.png" itemRef="/go-prod/asset/257896704" copyable="Y">
+	<char id="257896704" enc_asset_id="0PvEtcjxd50xqxVOBTmUCag" name="Hospital - Nurse" cc_theme_id="whiteboard" thumbnail_url="thumbs/257896704.png" itemRef="/go-prod/asset/257896704" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="225400787" enc_asset_id="09x9Ajqi8s6aybOqn9az0aQ" name="Hospital - Nurse" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225400787.png" itemRef="/go-prod/asset/225400787" copyable="Y">
+	<char id="225400787" enc_asset_id="09x9Ajqi8s6aybOqn9az0aQ" name="Hospital - Nurse" cc_theme_id="whiteboard" thumbnail_url="thumbs/225400787.png" itemRef="/go-prod/asset/225400787" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="301637253" enc_asset_id="0gKbyYIDAV9vTEEJSpuZAGA" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637253.png" itemRef="/alvin-dev/asset/68772" copyable="Y">
+	<char id="301637253" enc_asset_id="0gKbyYIDAV9vTEEJSpuZAGA" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637253.png" itemRef="/alvin-dev/asset/68772" copyable="Y">
 		<tags>whiteboard,_cat:Kids,_sticky_filter_littleboy</tags>
 	</char>
-	<char id="301637238" enc_asset_id="0kWQJtGkPcXRrwxStLYRCSg" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637238.png" itemRef="/alvin-dev/asset/68757" copyable="Y">
+	<char id="301637238" enc_asset_id="0kWQJtGkPcXRrwxStLYRCSg" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637238.png" itemRef="/alvin-dev/asset/68757" copyable="Y">
 		<tags>whiteboard,_cat:Kids,_sticky_filter_littlegirl</tags>
 	</char>
-	<char id="301637237" enc_asset_id="0kWQJtGkPcXSybOqn9az0aQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637237.png" itemRef="/alvin-dev/asset/68756" copyable="Y">
+	<char id="301637237" enc_asset_id="0kWQJtGkPcXSybOqn9az0aQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637237.png" itemRef="/alvin-dev/asset/68756" copyable="Y">
 		<tags>whiteboard,_cat:Kids,_sticky_filter_littlegirl</tags>
 	</char>
-	<char id="301637235" enc_asset_id="0kWQJtGkPcXTGbLd1u6tbAw" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637235.png" itemRef="/alvin-dev/asset/68755" copyable="Y">
+	<char id="301637235" enc_asset_id="0kWQJtGkPcXTGbLd1u6tbAw" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637235.png" itemRef="/alvin-dev/asset/68755" copyable="Y">
 		<tags>whiteboard,_cat:Kids,_sticky_filter_littleboy</tags>
 	</char>
-	<char id="257902025" enc_asset_id="0-qNDxZ8TFdPGbLd1u6tbAw" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257902025.png" itemRef="/go-prod/asset/257902025" copyable="Y">
+	<char id="257902025" enc_asset_id="0-qNDxZ8TFdPGbLd1u6tbAw" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/257902025.png" itemRef="/go-prod/asset/257902025" copyable="Y">
 		<tags>whiteboard,_sticky_filter_littlegirl,_cat:Kids</tags>
 	</char>
-	<char id="257901959" enc_asset_id="0RP35_ZfzRj4iuQ0JDOFAuw" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901959.png" itemRef="/go-prod/asset/257901959" copyable="Y">
+	<char id="257901959" enc_asset_id="0RP35_ZfzRj4iuQ0JDOFAuw" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/257901959.png" itemRef="/go-prod/asset/257901959" copyable="Y">
 		<tags>whiteboard,_sticky_filter_littlegirl,_cat:Kids</tags>
 	</char>
-	<char id="257901845" enc_asset_id="0B7zqQ-Uhg-fGbLd1u6tbAw" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901845.png" itemRef="/go-prod/asset/257901845" copyable="Y">
+	<char id="257901845" enc_asset_id="0B7zqQ-Uhg-fGbLd1u6tbAw" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/257901845.png" itemRef="/go-prod/asset/257901845" copyable="Y">
 		<tags>whiteboard,_cat:Kids</tags>
 	</char>
-	<char id="257901790" enc_asset_id="08reqfSBzj33MS39-jgv7mQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901790.png" itemRef="/go-prod/asset/257901790" copyable="Y">
+	<char id="257901790" enc_asset_id="08reqfSBzj33MS39-jgv7mQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/257901790.png" itemRef="/go-prod/asset/257901790" copyable="Y">
 		<tags>whiteboard,_cat:Kids</tags>
 	</char>
-	<char id="257900060" enc_asset_id="0KGVv4YCEltHMS39-jgv7mQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257900060.png" itemRef="/go-prod/asset/257900060" copyable="Y">
+	<char id="257900060" enc_asset_id="0KGVv4YCEltHMS39-jgv7mQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/257900060.png" itemRef="/go-prod/asset/257900060" copyable="Y">
 		<tags>whiteboard,_cat:Kids</tags>
 	</char>
-	<char id="257899981" enc_asset_id="0fc70Tmx8X4ktNdXDmM8OWQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257899981.png" itemRef="/go-prod/asset/257899981" copyable="Y">
+	<char id="257899981" enc_asset_id="0fc70Tmx8X4ktNdXDmM8OWQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/257899981.png" itemRef="/go-prod/asset/257899981" copyable="Y">
 		<tags>whiteboard,_sticky_filter_littlegirl,_cat:Kids</tags>
 	</char>
-	<char id="257899525" enc_asset_id="0vM45zlFEktbGbLd1u6tbAw" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257899525.png" itemRef="/go-prod/asset/257899525" copyable="Y">
+	<char id="257899525" enc_asset_id="0vM45zlFEktbGbLd1u6tbAw" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/257899525.png" itemRef="/go-prod/asset/257899525" copyable="Y">
 		<tags>whiteboard,_cat:Kids</tags>
 	</char>
-	<char id="257899459" enc_asset_id="0Acph2qFeCC8iuQ0JDOFAuw" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257899459.png" itemRef="/go-prod/asset/257899459" copyable="Y">
+	<char id="257899459" enc_asset_id="0Acph2qFeCC8iuQ0JDOFAuw" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/257899459.png" itemRef="/go-prod/asset/257899459" copyable="Y">
 		<tags>whiteboard,_cat:Kids</tags>
 	</char>
-	<char id="257899404" enc_asset_id="0HND2u9NUJYdqxVOBTmUCag" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257899404.png" itemRef="/go-prod/asset/257899404" copyable="Y">
+	<char id="257899404" enc_asset_id="0HND2u9NUJYdqxVOBTmUCag" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/257899404.png" itemRef="/go-prod/asset/257899404" copyable="Y">
 		<tags>whiteboard,_sticky_filter_littlegirl,_cat:Kids</tags>
 	</char>
-	<char id="257899209" enc_asset_id="0Ednb78ASENQiuQ0JDOFAuw" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257899209.png" itemRef="/go-prod/asset/257899209" copyable="Y">
+	<char id="257899209" enc_asset_id="0Ednb78ASENQiuQ0JDOFAuw" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/257899209.png" itemRef="/go-prod/asset/257899209" copyable="Y">
 		<tags>whiteboard,_cat:Kids</tags>
 	</char>
-	<char id="257898991" enc_asset_id="0WsCT5elVNtAtNdXDmM8OWQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257898991.png" itemRef="/go-prod/asset/257898991" copyable="Y">
+	<char id="257898991" enc_asset_id="0WsCT5elVNtAtNdXDmM8OWQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/257898991.png" itemRef="/go-prod/asset/257898991" copyable="Y">
 		<tags>whiteboard,_sticky_filter_littlegirl,_cat:Kids</tags>
 	</char>
-	<char id="257898821" enc_asset_id="07yIbsoWnhZotNdXDmM8OWQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257898821.png" itemRef="/go-prod/asset/257898821" copyable="Y">
+	<char id="257898821" enc_asset_id="07yIbsoWnhZotNdXDmM8OWQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/257898821.png" itemRef="/go-prod/asset/257898821" copyable="Y">
 		<tags>whiteboard,_cat:Kids</tags>
 	</char>
-	<char id="257898546" enc_asset_id="0sA-tP834l6_ZBgS1od14mg" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257898546.png" itemRef="/go-prod/asset/257898546" copyable="Y">
+	<char id="257898546" enc_asset_id="0sA-tP834l6_ZBgS1od14mg" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/257898546.png" itemRef="/go-prod/asset/257898546" copyable="Y">
 		<tags>whiteboard,_cat:Kids</tags>
 	</char>
-	<char id="257898318" enc_asset_id="0RLqmPVulqpprwxStLYRCSg" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257898318.png" itemRef="/go-prod/asset/257898318" copyable="Y">
+	<char id="257898318" enc_asset_id="0RLqmPVulqpprwxStLYRCSg" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/257898318.png" itemRef="/go-prod/asset/257898318" copyable="Y">
 		<tags>whiteboard,_sticky_filter_littlegirl,_cat:Kids</tags>
 	</char>
-	<char id="257898240" enc_asset_id="0AXV6v-syokbMS39-jgv7mQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257898240.png" itemRef="/go-prod/asset/257898240" copyable="Y">
+	<char id="257898240" enc_asset_id="0AXV6v-syokbMS39-jgv7mQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/257898240.png" itemRef="/go-prod/asset/257898240" copyable="Y">
 		<tags>whiteboard,_sticky_filter_littlegirl,_cat:Kids</tags>
 	</char>
-	<char id="257898191" enc_asset_id="0YSVpsHPGOJEtNdXDmM8OWQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257898191.png" itemRef="/go-prod/asset/257898191" copyable="Y">
+	<char id="257898191" enc_asset_id="0YSVpsHPGOJEtNdXDmM8OWQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/257898191.png" itemRef="/go-prod/asset/257898191" copyable="Y">
 		<tags>whiteboard,_cat:Kids</tags>
 	</char>
-	<char id="257898125" enc_asset_id="0ZTbqpf4hRXLGbLd1u6tbAw" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257898125.png" itemRef="/go-prod/asset/257898125" copyable="Y">
+	<char id="257898125" enc_asset_id="0ZTbqpf4hRXLGbLd1u6tbAw" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/257898125.png" itemRef="/go-prod/asset/257898125" copyable="Y">
 		<tags>whiteboard,_sticky_filter_littlegirl,_cat:Kids</tags>
 	</char>
-	<char id="257897917" enc_asset_id="0YpIKbXUO5PmybOqn9az0aQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257897917.png" itemRef="/go-prod/asset/257897917" copyable="Y">
+	<char id="257897917" enc_asset_id="0YpIKbXUO5PmybOqn9az0aQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/257897917.png" itemRef="/go-prod/asset/257897917" copyable="Y">
 		<tags>whiteboard,_cat:Kids</tags>
 	</char>
-	<char id="257897686" enc_asset_id="0UDdUzZzzKq7ZBgS1od14mg" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257897686.png" itemRef="/go-prod/asset/257897686" copyable="Y">
+	<char id="257897686" enc_asset_id="0UDdUzZzzKq7ZBgS1od14mg" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/257897686.png" itemRef="/go-prod/asset/257897686" copyable="Y">
 		<tags>whiteboard,_cat:Kids</tags>
 	</char>
-	<char id="225402013" enc_asset_id="0cfrnC6CPmA_TEEJSpuZAGA" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225402013.png" itemRef="/go-prod/asset/225402013" copyable="Y">
+	<char id="225402013" enc_asset_id="0cfrnC6CPmA_TEEJSpuZAGA" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/225402013.png" itemRef="/go-prod/asset/225402013" copyable="Y">
 		<tags>whiteboard,_sticky_filter_littlegirl,_cat:Kids</tags>
 	</char>
-	<char id="225401798" enc_asset_id="0TxR6vVUdbTFrwxStLYRCSg" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225401798.png" itemRef="/go-prod/asset/225401798" copyable="Y">
+	<char id="225401798" enc_asset_id="0TxR6vVUdbTFrwxStLYRCSg" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/225401798.png" itemRef="/go-prod/asset/225401798" copyable="Y">
 		<tags>whiteboard,_sticky_filter_littlegirl,_cat:Kids</tags>
 	</char>
-	<char id="225401756" enc_asset_id="0tP_5xlueONjZBgS1od14mg" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225401756.png" itemRef="/go-prod/asset/225401756" copyable="Y">
+	<char id="225401756" enc_asset_id="0tP_5xlueONjZBgS1od14mg" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/225401756.png" itemRef="/go-prod/asset/225401756" copyable="Y">
 		<tags>whiteboard,_sticky_filter_littlegirl,_cat:Kids</tags>
 	</char>
-	<char id="225401587" enc_asset_id="0MgJpgUI8hteybOqn9az0aQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225401587.png" itemRef="/go-prod/asset/225401587" copyable="Y">
+	<char id="225401587" enc_asset_id="0MgJpgUI8hteybOqn9az0aQ" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/225401587.png" itemRef="/go-prod/asset/225401587" copyable="Y">
 		<tags>whiteboard,_cat:Kids</tags>
 	</char>
-	<char id="225401536" enc_asset_id="0UifsCA4MZDnZBgS1od14mg" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225401536.png" itemRef="/go-prod/asset/225401536" copyable="Y">
+	<char id="225401536" enc_asset_id="0UifsCA4MZDnZBgS1od14mg" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/225401536.png" itemRef="/go-prod/asset/225401536" copyable="Y">
 		<tags>whiteboard,_cat:Kids</tags>
 	</char>
-	<char id="225401429" enc_asset_id="0lElxS74yJYYiuQ0JDOFAuw" name="Kid" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225401429.png" itemRef="/go-prod/asset/225401429" copyable="Y">
+	<char id="225401429" enc_asset_id="0lElxS74yJYYiuQ0JDOFAuw" name="Kid" cc_theme_id="whiteboard" thumbnail_url="thumbs/225401429.png" itemRef="/go-prod/asset/225401429" copyable="Y">
 		<tags>whiteboard,_cat:Kids</tags>
 	</char>
-	<char id="290231214" enc_asset_id="0A31lhjWbMhpqxVOBTmUCag" name="Kitchen - Chef" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231214.png" itemRef="/alvin-dev/asset/65455" copyable="Y">
+	<char id="290231214" enc_asset_id="0A31lhjWbMhpqxVOBTmUCag" name="Kitchen - Chef" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231214.png" itemRef="/alvin-dev/asset/65455" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257899572" enc_asset_id="05_cNywqdsFm5Z_k8TyB-CA" name="Kitchen - Chef" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257899572.png" itemRef="/go-prod/asset/257899572" copyable="Y">
+	<char id="257899572" enc_asset_id="05_cNywqdsFm5Z_k8TyB-CA" name="Kitchen - Chef" cc_theme_id="whiteboard" thumbnail_url="thumbs/257899572.png" itemRef="/go-prod/asset/257899572" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="225401056" enc_asset_id="0KHAvxnNu7pTZBgS1od14mg" name="Kitchen - Chef" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225401056.png" itemRef="/go-prod/asset/225401056" copyable="Y">
+	<char id="225401056" enc_asset_id="0KHAvxnNu7pTZBgS1od14mg" name="Kitchen - Chef" cc_theme_id="whiteboard" thumbnail_url="thumbs/225401056.png" itemRef="/go-prod/asset/225401056" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="225400099" enc_asset_id="0coHNUGKh2fQiuQ0JDOFAuw" name="Kitchen - Chef" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225400099.png" itemRef="/go-prod/asset/225400099" copyable="Y">
+	<char id="225400099" enc_asset_id="0coHNUGKh2fQiuQ0JDOFAuw" name="Kitchen - Chef" cc_theme_id="whiteboard" thumbnail_url="thumbs/225400099.png" itemRef="/go-prod/asset/225400099" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="301637206" enc_asset_id="0Fo4HPOi4X4nZBgS1od14mg" name="Lawyer" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637206.png" itemRef="/alvin-dev/asset/68724" copyable="Y">
+	<char id="301637206" enc_asset_id="0Fo4HPOi4X4nZBgS1od14mg" name="Lawyer" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637206.png" itemRef="/alvin-dev/asset/68724" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="301637205" enc_asset_id="0Fo4HPOi4X4nGbLd1u6tbAw" name="Lawyer" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637205.png" itemRef="/alvin-dev/asset/68723" copyable="Y">
+	<char id="301637205" enc_asset_id="0Fo4HPOi4X4nGbLd1u6tbAw" name="Lawyer" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637205.png" itemRef="/alvin-dev/asset/68723" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="257901606" enc_asset_id="0O-hl56sT-AzZBgS1od14mg" name="Lawyer" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901606.png" itemRef="/go-prod/asset/257901606" copyable="Y">
+	<char id="257901606" enc_asset_id="0O-hl56sT-AzZBgS1od14mg" name="Lawyer" cc_theme_id="whiteboard" thumbnail_url="thumbs/257901606.png" itemRef="/go-prod/asset/257901606" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="257901533" enc_asset_id="0z0jWsBjd8obTEEJSpuZAGA" name="Lawyer" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901533.png" itemRef="/go-prod/asset/257901533" copyable="Y">
+	<char id="257901533" enc_asset_id="0z0jWsBjd8obTEEJSpuZAGA" name="Lawyer" cc_theme_id="whiteboard" thumbnail_url="thumbs/257901533.png" itemRef="/go-prod/asset/257901533" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="292137564" enc_asset_id="0IaVF-5lqHslqxVOBTmUCag" name="Marketer" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292137564.png" itemRef="/alvin-dev/asset/65999" copyable="Y">
+	<char id="292137564" enc_asset_id="0IaVF-5lqHslqxVOBTmUCag" name="Marketer" cc_theme_id="whiteboard" thumbnail_url="thumbs/292137564.png" itemRef="/alvin-dev/asset/65999" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_public,_sticky_filter_guy</tags>
 	</char>
-	<char id="305676150" enc_asset_id="0ETYqtT48u-3MS39-jgv7mQ" name="Military - Soldier" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/305676150.png" itemRef="/alvin-dev/asset/69209" copyable="Y">
+	<char id="305676150" enc_asset_id="0ETYqtT48u-3MS39-jgv7mQ" name="Military - Soldier" cc_theme_id="whiteboard" thumbnail_url="thumbs/305676150.png" itemRef="/alvin-dev/asset/69209" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="305676148" enc_asset_id="0MCr9yts-CrNrwxStLYRCSg" name="Military - Soldier" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/305676148.png" itemRef="/alvin-dev/asset/69207" copyable="Y">
+	<char id="305676148" enc_asset_id="0MCr9yts-CrNrwxStLYRCSg" name="Military - Soldier" cc_theme_id="whiteboard" thumbnail_url="thumbs/305676148.png" itemRef="/alvin-dev/asset/69207" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="305676146" enc_asset_id="0MCr9yts-CrPZBgS1od14mg" name="Military - Soldier" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/305676146.png" itemRef="/alvin-dev/asset/69205" copyable="Y">
+	<char id="305676146" enc_asset_id="0MCr9yts-CrPZBgS1od14mg" name="Military - Soldier" cc_theme_id="whiteboard" thumbnail_url="thumbs/305676146.png" itemRef="/alvin-dev/asset/69205" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="305676122" enc_asset_id="0TRfdRWp7hKm5Z_k8TyB-CA" name="Military - Soldier" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/305676122.png" itemRef="/alvin-dev/asset/69182" copyable="Y">
+	<char id="305676122" enc_asset_id="0TRfdRWp7hKm5Z_k8TyB-CA" name="Military - Soldier" cc_theme_id="whiteboard" thumbnail_url="thumbs/305676122.png" itemRef="/alvin-dev/asset/69182" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257901677" enc_asset_id="01DrG-gYZ6k6ybOqn9az0aQ" name="Military - Soldier" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901677.png" itemRef="/go-prod/asset/257901677" copyable="Y">
+	<char id="257901677" enc_asset_id="01DrG-gYZ6k6ybOqn9az0aQ" name="Military - Soldier" cc_theme_id="whiteboard" thumbnail_url="thumbs/257901677.png" itemRef="/go-prod/asset/257901677" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="257901641" enc_asset_id="0CoAIZwE4dKYtNdXDmM8OWQ" name="Military - Soldier" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901641.png" itemRef="/go-prod/asset/257901641" copyable="Y">
+	<char id="257901641" enc_asset_id="0CoAIZwE4dKYtNdXDmM8OWQ" name="Military - Soldier" cc_theme_id="whiteboard" thumbnail_url="thumbs/257901641.png" itemRef="/go-prod/asset/257901641" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="301637201" enc_asset_id="0Fo4HPOi4X4ktNdXDmM8OWQ" name="Office - Boss" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637201.png" itemRef="/alvin-dev/asset/68719" copyable="Y">
+	<char id="301637201" enc_asset_id="0Fo4HPOi4X4ktNdXDmM8OWQ" name="Office - Boss" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637201.png" itemRef="/alvin-dev/asset/68719" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="301637200" enc_asset_id="0Fo4HPOi4X4nMS39-jgv7mQ" name="Office - Boss" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637200.png" itemRef="/alvin-dev/asset/68718" copyable="Y">
+	<char id="301637200" enc_asset_id="0Fo4HPOi4X4nMS39-jgv7mQ" name="Office - Boss" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637200.png" itemRef="/alvin-dev/asset/68718" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="292997769" enc_asset_id="0U3VWxfGa4k0iuQ0JDOFAuw" name="Office - Boss" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292997769.png" itemRef="/alvin-dev/asset/66368" copyable="Y">
+	<char id="292997769" enc_asset_id="0U3VWxfGa4k0iuQ0JDOFAuw" name="Office - Boss" cc_theme_id="whiteboard" thumbnail_url="thumbs/292997769.png" itemRef="/alvin-dev/asset/66368" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="292997757" enc_asset_id="07bHLLgAZOn-ybOqn9az0aQ" name="Office - Boss" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292997757.png" itemRef="/alvin-dev/asset/66335" copyable="Y">
+	<char id="292997757" enc_asset_id="07bHLLgAZOn-ybOqn9az0aQ" name="Office - Boss" cc_theme_id="whiteboard" thumbnail_url="thumbs/292997757.png" itemRef="/alvin-dev/asset/66335" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="301637202" enc_asset_id="0Fo4HPOi4X4m5Z_k8TyB-CA" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637202.png" itemRef="/alvin-dev/asset/68720" copyable="Y">
+	<char id="301637202" enc_asset_id="0Fo4HPOi4X4m5Z_k8TyB-CA" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637202.png" itemRef="/alvin-dev/asset/68720" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="301637199" enc_asset_id="0rGeYbISuxtYiuQ0JDOFAuw" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637199.png" itemRef="/alvin-dev/asset/68717" copyable="Y">
+	<char id="301637199" enc_asset_id="0rGeYbISuxtYiuQ0JDOFAuw" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637199.png" itemRef="/alvin-dev/asset/68717" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="301637193" enc_asset_id="0rGeYbISuxtbTEEJSpuZAGA" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637193.png" itemRef="/alvin-dev/asset/68713" copyable="Y">
+	<char id="301637193" enc_asset_id="0rGeYbISuxtbTEEJSpuZAGA" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637193.png" itemRef="/alvin-dev/asset/68713" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="301637191" enc_asset_id="0rGeYbISuxtYtNdXDmM8OWQ" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637191.png" itemRef="/alvin-dev/asset/68711" copyable="Y">
+	<char id="301637191" enc_asset_id="0rGeYbISuxtYtNdXDmM8OWQ" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637191.png" itemRef="/alvin-dev/asset/68711" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="295843161" enc_asset_id="043czQ9XliuAtNdXDmM8OWQ" name="Office - Worker " cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295843161.png" itemRef="/alvin-dev/asset/67296" copyable="Y">
+	<char id="295843161" enc_asset_id="043czQ9XliuAtNdXDmM8OWQ" name="Office - Worker " cc_theme_id="whiteboard" thumbnail_url="thumbs/295843161.png" itemRef="/alvin-dev/asset/67296" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_public,_sticky_filter_guy</tags>
 	</char>
-	<char id="295041508" enc_asset_id="039Sk8r-HNRhrwxStLYRCSg" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295041508.png" itemRef="/alvin-dev/asset/66877" copyable="Y">
+	<char id="295041508" enc_asset_id="039Sk8r-HNRhrwxStLYRCSg" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/295041508.png" itemRef="/alvin-dev/asset/66877" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="295041507" enc_asset_id="039Sk8r-HNRiybOqn9az0aQ" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295041507.png" itemRef="/alvin-dev/asset/66876" copyable="Y">
+	<char id="295041507" enc_asset_id="039Sk8r-HNRiybOqn9az0aQ" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/295041507.png" itemRef="/alvin-dev/asset/66876" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="295041505" enc_asset_id="039Sk8r-HNRjGbLd1u6tbAw" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295041505.png" itemRef="/alvin-dev/asset/66874" copyable="Y">
+	<char id="295041505" enc_asset_id="039Sk8r-HNRjGbLd1u6tbAw" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/295041505.png" itemRef="/alvin-dev/asset/66874" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="295041504" enc_asset_id="039Sk8r-HNRhqxVOBTmUCag" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295041504.png" itemRef="/alvin-dev/asset/66872" copyable="Y">
+	<char id="295041504" enc_asset_id="039Sk8r-HNRhqxVOBTmUCag" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/295041504.png" itemRef="/alvin-dev/asset/66872" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="295041503" enc_asset_id="039Sk8r-HNRjTEEJSpuZAGA" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295041503.png" itemRef="/alvin-dev/asset/66871" copyable="Y">
+	<char id="295041503" enc_asset_id="039Sk8r-HNRjTEEJSpuZAGA" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/295041503.png" itemRef="/alvin-dev/asset/66871" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="295041502" enc_asset_id="039Sk8r-HNRi5Z_k8TyB-CA" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295041502.png" itemRef="/alvin-dev/asset/66870" copyable="Y">
+	<char id="295041502" enc_asset_id="039Sk8r-HNRi5Z_k8TyB-CA" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/295041502.png" itemRef="/alvin-dev/asset/66870" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="292997750" enc_asset_id="07bHLLgAZOn_MS39-jgv7mQ" name="Office - Worker " cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292997750.png" itemRef="/alvin-dev/asset/66329" copyable="Y">
+	<char id="292997750" enc_asset_id="07bHLLgAZOn_MS39-jgv7mQ" name="Office - Worker " cc_theme_id="whiteboard" thumbnail_url="thumbs/292997750.png" itemRef="/alvin-dev/asset/66329" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="292997749" enc_asset_id="08JeFK_2BKKYiuQ0JDOFAuw" name="Office - Worker " cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292997749.png" itemRef="/alvin-dev/asset/66328" copyable="Y">
+	<char id="292997749" enc_asset_id="08JeFK_2BKKYiuQ0JDOFAuw" name="Office - Worker " cc_theme_id="whiteboard" thumbnail_url="thumbs/292997749.png" itemRef="/alvin-dev/asset/66328" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="292137560" enc_asset_id="0IaVF-5lqHsnMS39-jgv7mQ" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292137560.png" itemRef="/alvin-dev/asset/65996" copyable="Y">
+	<char id="292137560" enc_asset_id="0IaVF-5lqHsnMS39-jgv7mQ" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/292137560.png" itemRef="/alvin-dev/asset/65996" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_public,_sticky_filter_guy</tags>
 	</char>
-	<char id="292137558" enc_asset_id="0l-uQL7ThZPJrwxStLYRCSg" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292137558.png" itemRef="/alvin-dev/asset/65994" copyable="Y">
+	<char id="292137558" enc_asset_id="0l-uQL7ThZPJrwxStLYRCSg" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/292137558.png" itemRef="/alvin-dev/asset/65994" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_public,_sticky_filter_guy</tags>
 	</char>
-	<char id="290231240" enc_asset_id="0dx9vHG7Saz7MS39-jgv7mQ" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231240.png" itemRef="/alvin-dev/asset/65474" copyable="Y">
+	<char id="290231240" enc_asset_id="0dx9vHG7Saz7MS39-jgv7mQ" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231240.png" itemRef="/alvin-dev/asset/65474" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="290231237" enc_asset_id="0eBv_Eqpfb-2ybOqn9az0aQ" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231237.png" itemRef="/alvin-dev/asset/65471" copyable="Y">
+	<char id="290231237" enc_asset_id="0eBv_Eqpfb-2ybOqn9az0aQ" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231237.png" itemRef="/alvin-dev/asset/65471" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257901962" enc_asset_id="0sty9qdWR6Py5Z_k8TyB-CA" name="Office - Worker " cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901962.png" itemRef="/go-prod/asset/257901962" copyable="Y">
+	<char id="257901962" enc_asset_id="0sty9qdWR6Py5Z_k8TyB-CA" name="Office - Worker " cc_theme_id="whiteboard" thumbnail_url="thumbs/257901962.png" itemRef="/go-prod/asset/257901962" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="257901923" enc_asset_id="0QUs5m1EF3inTEEJSpuZAGA" name="Office - Worker " cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901923.png" itemRef="/go-prod/asset/257901923" copyable="Y">
+	<char id="257901923" enc_asset_id="0QUs5m1EF3inTEEJSpuZAGA" name="Office - Worker " cc_theme_id="whiteboard" thumbnail_url="thumbs/257901923.png" itemRef="/go-prod/asset/257901923" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257899323" enc_asset_id="0dfubhNQh6r_TEEJSpuZAGA" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257899323.png" itemRef="/go-prod/asset/257899323" copyable="Y">
+	<char id="257899323" enc_asset_id="0dfubhNQh6r_TEEJSpuZAGA" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/257899323.png" itemRef="/go-prod/asset/257899323" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257897994" enc_asset_id="0m31klnuBf5pqxVOBTmUCag" name="Office - Worker " cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257897994.png" itemRef="/go-prod/asset/257897994" copyable="Y">
+	<char id="257897994" enc_asset_id="0m31klnuBf5pqxVOBTmUCag" name="Office - Worker " cc_theme_id="whiteboard" thumbnail_url="thumbs/257897994.png" itemRef="/go-prod/asset/257897994" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257897921" enc_asset_id="0Qtzgux6gwaotNdXDmM8OWQ" name="Office - Worker " cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257897921.png" itemRef="/go-prod/asset/257897921" copyable="Y">
+	<char id="257897921" enc_asset_id="0Qtzgux6gwaotNdXDmM8OWQ" name="Office - Worker " cc_theme_id="whiteboard" thumbnail_url="thumbs/257897921.png" itemRef="/go-prod/asset/257897921" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257892053" enc_asset_id="0IXazNFFBEdbTEEJSpuZAGA" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257892053.png" itemRef="/go-prod/asset/257892053" copyable="Y">
+	<char id="257892053" enc_asset_id="0IXazNFFBEdbTEEJSpuZAGA" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/257892053.png" itemRef="/go-prod/asset/257892053" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="216791571" enc_asset_id="0aM_WDgCs-OwtNdXDmM8OWQ" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/216791571.png" itemRef="/go-prod/asset/216791571" copyable="Y">
+	<char id="216791571" enc_asset_id="0aM_WDgCs-OwtNdXDmM8OWQ" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/216791571.png" itemRef="/go-prod/asset/216791571" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="216791502" enc_asset_id="0ex_yabEne7a5Z_k8TyB-CA" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/216791502.png" itemRef="/go-prod/asset/216791502" copyable="Y">
+	<char id="216791502" enc_asset_id="0ex_yabEne7a5Z_k8TyB-CA" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/216791502.png" itemRef="/go-prod/asset/216791502" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="216791429" enc_asset_id="0JwUZUIVdqt8iuQ0JDOFAuw" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/216791429.png" itemRef="/go-prod/asset/216791429" copyable="Y">
+	<char id="216791429" enc_asset_id="0JwUZUIVdqt8iuQ0JDOFAuw" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/216791429.png" itemRef="/go-prod/asset/216791429" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="216791310" enc_asset_id="04TvRGYgBSHHMS39-jgv7mQ" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/216791310.png" itemRef="/go-prod/asset/216791310" copyable="Y">
+	<char id="216791310" enc_asset_id="04TvRGYgBSHHMS39-jgv7mQ" name="Office - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/216791310.png" itemRef="/go-prod/asset/216791310" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="292137552" enc_asset_id="0l-uQL7ThZPK5Z_k8TyB-CA" name="Old Man" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292137552.png" itemRef="/alvin-dev/asset/65989" copyable="Y">
+	<char id="292137552" enc_asset_id="0l-uQL7ThZPK5Z_k8TyB-CA" name="Old Man" cc_theme_id="whiteboard" thumbnail_url="thumbs/292137552.png" itemRef="/alvin-dev/asset/65989" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_public,_sticky_filter_guy</tags>
 	</char>
-	<char id="305676160" enc_asset_id="0wvgp5zRpNUDMS39-jgv7mQ" name="Patient" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/305676160.png" itemRef="/alvin-dev/asset/69220" copyable="Y">
+	<char id="305676160" enc_asset_id="0wvgp5zRpNUDMS39-jgv7mQ" name="Patient" cc_theme_id="whiteboard" thumbnail_url="thumbs/305676160.png" itemRef="/alvin-dev/asset/69220" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="305676159" enc_asset_id="0ETYqtT48u-0iuQ0JDOFAuw" name="Patient" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/305676159.png" itemRef="/alvin-dev/asset/69219" copyable="Y">
+	<char id="305676159" enc_asset_id="0ETYqtT48u-0iuQ0JDOFAuw" name="Patient" cc_theme_id="whiteboard" thumbnail_url="thumbs/305676159.png" itemRef="/alvin-dev/asset/69219" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="305676156" enc_asset_id="0ETYqtT48u-3ZBgS1od14mg" name="Patient" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/305676156.png" itemRef="/alvin-dev/asset/69215" copyable="Y">
+	<char id="305676156" enc_asset_id="0ETYqtT48u-3ZBgS1od14mg" name="Patient" cc_theme_id="whiteboard" thumbnail_url="thumbs/305676156.png" itemRef="/alvin-dev/asset/69215" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="305676155" enc_asset_id="0ETYqtT48u-3GbLd1u6tbAw" name="Patient" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/305676155.png" itemRef="/alvin-dev/asset/69214" copyable="Y">
+	<char id="305676155" enc_asset_id="0ETYqtT48u-3GbLd1u6tbAw" name="Patient" cc_theme_id="whiteboard" thumbnail_url="thumbs/305676155.png" itemRef="/alvin-dev/asset/69214" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="290231253" enc_asset_id="0FL9B7ruJ9XzTEEJSpuZAGA" name="Patuxet" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231253.png" itemRef="/alvin-dev/asset/65487" copyable="Y">
+	<char id="290231253" enc_asset_id="0FL9B7ruJ9XzTEEJSpuZAGA" name="Patuxet" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231253.png" itemRef="/alvin-dev/asset/65487" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="292137579" enc_asset_id="0JTbC4ki1A0kiuQ0JDOFAuw" name="Pirate" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292137579.png" itemRef="/alvin-dev/asset/66178" copyable="Y">
+	<char id="292137579" enc_asset_id="0JTbC4ki1A0kiuQ0JDOFAuw" name="Pirate" cc_theme_id="whiteboard" thumbnail_url="thumbs/292137579.png" itemRef="/alvin-dev/asset/66178" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_public,_sticky_filter_guy</tags>
 	</char>
-	<char id="292137578" enc_asset_id="0JTbC4ki1A0lrwxStLYRCSg" name="Pirate" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292137578.png" itemRef="/alvin-dev/asset/66033" copyable="Y">
+	<char id="292137578" enc_asset_id="0JTbC4ki1A0lrwxStLYRCSg" name="Pirate" cc_theme_id="whiteboard" thumbnail_url="thumbs/292137578.png" itemRef="/alvin-dev/asset/66033" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_public,_sticky_filter_girl</tags>
 	</char>
-	<char id="292137577" enc_asset_id="0JTbC4ki1A0mybOqn9az0aQ" name="Pirate" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292137577.png" itemRef="/alvin-dev/asset/66032" copyable="Y">
+	<char id="292137577" enc_asset_id="0JTbC4ki1A0mybOqn9az0aQ" name="Pirate" cc_theme_id="whiteboard" thumbnail_url="thumbs/292137577.png" itemRef="/alvin-dev/asset/66032" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_public,_sticky_filter_guy</tags>
 	</char>
-	<char id="292137576" enc_asset_id="0JTbC4ki1A0nZBgS1od14mg" name="Pirate" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292137576.png" itemRef="/alvin-dev/asset/66022" copyable="Y">
+	<char id="292137576" enc_asset_id="0JTbC4ki1A0nZBgS1od14mg" name="Pirate" cc_theme_id="whiteboard" thumbnail_url="thumbs/292137576.png" itemRef="/alvin-dev/asset/66022" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_public,_sticky_filter_guy</tags>
 	</char>
-	<char id="292137574" enc_asset_id="0JTbC4ki1A0lqxVOBTmUCag" name="Pirate" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292137574.png" itemRef="/alvin-dev/asset/66020" copyable="Y">
+	<char id="292137574" enc_asset_id="0JTbC4ki1A0lqxVOBTmUCag" name="Pirate" cc_theme_id="whiteboard" thumbnail_url="thumbs/292137574.png" itemRef="/alvin-dev/asset/66020" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_public,_sticky_filter_girl</tags>
 	</char>
-	<char id="292137573" enc_asset_id="0JTbC4ki1A0nTEEJSpuZAGA" name="Pirate" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292137573.png" itemRef="/alvin-dev/asset/66018" copyable="Y">
+	<char id="292137573" enc_asset_id="0JTbC4ki1A0nTEEJSpuZAGA" name="Pirate" cc_theme_id="whiteboard" thumbnail_url="thumbs/292137573.png" itemRef="/alvin-dev/asset/66018" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_public,_sticky_filter_girl</tags>
 	</char>
-	<char id="301637229" enc_asset_id="0AOP4wuRFrNciuQ0JDOFAuw" name="Public Safety - Fire Fighter" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637229.png" itemRef="/alvin-dev/asset/68751" copyable="Y">
+	<char id="301637229" enc_asset_id="0AOP4wuRFrNciuQ0JDOFAuw" name="Public Safety - Fire Fighter" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637229.png" itemRef="/alvin-dev/asset/68751" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="225401302" enc_asset_id="0Zj7zWQ5FazW5Z_k8TyB-CA" name="Public Safety - Fire Fighter" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225401302.png" itemRef="/go-prod/asset/225401302" copyable="Y">
+	<char id="225401302" enc_asset_id="0Zj7zWQ5FazW5Z_k8TyB-CA" name="Public Safety - Fire Fighter" cc_theme_id="whiteboard" thumbnail_url="thumbs/225401302.png" itemRef="/go-prod/asset/225401302" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="225400517" enc_asset_id="0vzuovI0Zhg-ybOqn9az0aQ" name="Public Safety - Fire Fighter" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225400517.png" itemRef="/go-prod/asset/225400517" copyable="Y">
+	<char id="225400517" enc_asset_id="0vzuovI0Zhg-ybOqn9az0aQ" name="Public Safety - Fire Fighter" cc_theme_id="whiteboard" thumbnail_url="thumbs/225400517.png" itemRef="/go-prod/asset/225400517" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="290231213" enc_asset_id="0A31lhjWbMhrTEEJSpuZAGA" name="Public Safety - Guard" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231213.png" itemRef="/alvin-dev/asset/65454" copyable="Y">
+	<char id="290231213" enc_asset_id="0A31lhjWbMhrTEEJSpuZAGA" name="Public Safety - Guard" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231213.png" itemRef="/alvin-dev/asset/65454" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="257901816" enc_asset_id="0xvDR5IdyhtPZBgS1od14mg" name="Public Safety - Guard" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901816.png" itemRef="/go-prod/asset/257901816" copyable="Y">
+	<char id="257901816" enc_asset_id="0xvDR5IdyhtPZBgS1od14mg" name="Public Safety - Guard" cc_theme_id="whiteboard" thumbnail_url="thumbs/257901816.png" itemRef="/go-prod/asset/257901816" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="257896367" enc_asset_id="09eleNr4m2o-ybOqn9az0aQ" name="Public Safety - Guard" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257896367.png" itemRef="/go-prod/asset/257896367" copyable="Y">
+	<char id="257896367" enc_asset_id="09eleNr4m2o-ybOqn9az0aQ" name="Public Safety - Guard" cc_theme_id="whiteboard" thumbnail_url="thumbs/257896367.png" itemRef="/go-prod/asset/257896367" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="301637215" enc_asset_id="0luaboA8R5mjGbLd1u6tbAw" name="Public Safety - Police" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637215.png" itemRef="/alvin-dev/asset/68731" copyable="Y">
+	<char id="301637215" enc_asset_id="0luaboA8R5mjGbLd1u6tbAw" name="Public Safety - Police" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637215.png" itemRef="/alvin-dev/asset/68731" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="301637210" enc_asset_id="0luaboA8R5mjMS39-jgv7mQ" name="Public Safety - Police" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637210.png" itemRef="/alvin-dev/asset/68728" copyable="Y">
+	<char id="301637210" enc_asset_id="0luaboA8R5mjMS39-jgv7mQ" name="Public Safety - Police" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637210.png" itemRef="/alvin-dev/asset/68728" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257901220" enc_asset_id="01ydjV66Ig3nMS39-jgv7mQ" name="Public Safety - Police" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901220.png" itemRef="/go-prod/asset/257901220" copyable="Y">
+	<char id="257901220" enc_asset_id="01ydjV66Ig3nMS39-jgv7mQ" name="Public Safety - Police" cc_theme_id="whiteboard" thumbnail_url="thumbs/257901220.png" itemRef="/go-prod/asset/257901220" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257901149" enc_asset_id="0-RU2R9VnDGgiuQ0JDOFAuw" name="Public Safety - Police" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257901149.png" itemRef="/go-prod/asset/257901149" copyable="Y">
+	<char id="257901149" enc_asset_id="0-RU2R9VnDGgiuQ0JDOFAuw" name="Public Safety - Police" cc_theme_id="whiteboard" thumbnail_url="thumbs/257901149.png" itemRef="/go-prod/asset/257901149" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="257900890" enc_asset_id="0RMIVLX6Lq4_MS39-jgv7mQ" name="Public Safety - Police" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257900890.png" itemRef="/go-prod/asset/257900890" copyable="Y">
+	<char id="257900890" enc_asset_id="0RMIVLX6Lq4_MS39-jgv7mQ" name="Public Safety - Police" cc_theme_id="whiteboard" thumbnail_url="thumbs/257900890.png" itemRef="/go-prod/asset/257900890" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257900109" enc_asset_id="0dFKcSKOhWvUiuQ0JDOFAuw" name="Public Safety - Police" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257900109.png" itemRef="/go-prod/asset/257900109" copyable="Y">
+	<char id="257900109" enc_asset_id="0dFKcSKOhWvUiuQ0JDOFAuw" name="Public Safety - Police" cc_theme_id="whiteboard" thumbnail_url="thumbs/257900109.png" itemRef="/go-prod/asset/257900109" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="225401007" enc_asset_id="0oTPNZUU7WTmybOqn9az0aQ" name="Public Safety - Police" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225401007.png" itemRef="/go-prod/asset/225401007" copyable="Y">
+	<char id="225401007" enc_asset_id="0oTPNZUU7WTmybOqn9az0aQ" name="Public Safety - Police" cc_theme_id="whiteboard" thumbnail_url="thumbs/225401007.png" itemRef="/go-prod/asset/225401007" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="225400155" enc_asset_id="01HtZDF6ngtrGbLd1u6tbAw" name="Public Safety - Police" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225400155.png" itemRef="/go-prod/asset/225400155" copyable="Y">
+	<char id="225400155" enc_asset_id="01HtZDF6ngtrGbLd1u6tbAw" name="Public Safety - Police" cc_theme_id="whiteboard" thumbnail_url="thumbs/225400155.png" itemRef="/go-prod/asset/225400155" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="225400649" enc_asset_id="0R1AQmB5gpDEiuQ0JDOFAuw" name="Ranch - Farmer" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225400649.png" itemRef="/go-prod/asset/225400649" copyable="Y">
+	<char id="225400649" enc_asset_id="0R1AQmB5gpDEiuQ0JDOFAuw" name="Ranch - Farmer" cc_theme_id="whiteboard" thumbnail_url="thumbs/225400649.png" itemRef="/go-prod/asset/225400649" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="292137557" enc_asset_id="0l-uQL7ThZPKybOqn9az0aQ" name="Receptionist" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292137557.png" itemRef="/alvin-dev/asset/65993" copyable="Y">
+	<char id="292137557" enc_asset_id="0l-uQL7ThZPKybOqn9az0aQ" name="Receptionist" cc_theme_id="whiteboard" thumbnail_url="thumbs/292137557.png" itemRef="/alvin-dev/asset/65993" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_public,_sticky_filter_girl</tags>
 	</char>
-	<char id="292137551" enc_asset_id="0l-uQL7ThZPItNdXDmM8OWQ" name="Rock Girl" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292137551.png" itemRef="/alvin-dev/asset/65988" copyable="Y">
+	<char id="292137551" enc_asset_id="0l-uQL7ThZPItNdXDmM8OWQ" name="Rock Girl" cc_theme_id="whiteboard" thumbnail_url="thumbs/292137551.png" itemRef="/alvin-dev/asset/65988" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_public,_sticky_filter_girl</tags>
 	</char>
-	<char id="290231225" enc_asset_id="0565J338Ss8_GbLd1u6tbAw" name="Runner" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231225.png" itemRef="/alvin-dev/asset/65463" copyable="Y">
+	<char id="290231225" enc_asset_id="0565J338Ss8_GbLd1u6tbAw" name="Runner" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231225.png" itemRef="/alvin-dev/asset/65463" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="290231223" enc_asset_id="0565J338Ss8_TEEJSpuZAGA" name="Runner" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231223.png" itemRef="/alvin-dev/asset/65462" copyable="Y">
+	<char id="290231223" enc_asset_id="0565J338Ss8_TEEJSpuZAGA" name="Runner" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231223.png" itemRef="/alvin-dev/asset/65462" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="290231222" enc_asset_id="0565J338Ss8-5Z_k8TyB-CA" name="Runner" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231222.png" itemRef="/alvin-dev/asset/65461" copyable="Y">
+	<char id="290231222" enc_asset_id="0565J338Ss8-5Z_k8TyB-CA" name="Runner" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231222.png" itemRef="/alvin-dev/asset/65461" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="257898829" enc_asset_id="07yIbsoWnhZoiuQ0JDOFAuw" name="Runner" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257898829.png" itemRef="/go-prod/asset/257898829" copyable="Y">
+	<char id="257898829" enc_asset_id="07yIbsoWnhZoiuQ0JDOFAuw" name="Runner" cc_theme_id="whiteboard" thumbnail_url="thumbs/257898829.png" itemRef="/go-prod/asset/257898829" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="225401120" enc_asset_id="0z8LYCis3nibMS39-jgv7mQ" name="Runner" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225401120.png" itemRef="/go-prod/asset/225401120" copyable="Y">
+	<char id="225401120" enc_asset_id="0z8LYCis3nibMS39-jgv7mQ" name="Runner" cc_theme_id="whiteboard" thumbnail_url="thumbs/225401120.png" itemRef="/go-prod/asset/225401120" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_girl</tags>
 	</char>
-	<char id="225400422" enc_asset_id="0ZIzDF-POGWi5Z_k8TyB-CA" name="Runner" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225400422.png" itemRef="/go-prod/asset/225400422" copyable="Y">
+	<char id="225400422" enc_asset_id="0ZIzDF-POGWi5Z_k8TyB-CA" name="Runner" cc_theme_id="whiteboard" thumbnail_url="thumbs/225400422.png" itemRef="/go-prod/asset/225400422" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="225402567" enc_asset_id="0g9UHuUE4aUSybOqn9az0aQ" name="Sales" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225402567.png" itemRef="/go-prod/asset/225402567" copyable="Y">
+	<char id="225402567" enc_asset_id="0g9UHuUE4aUSybOqn9az0aQ" name="Sales" cc_theme_id="whiteboard" thumbnail_url="thumbs/225402567.png" itemRef="/go-prod/asset/225402567" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="225400830" enc_asset_id="01DRIV58p0dzMS39-jgv7mQ" name="Sales" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225400830.png" itemRef="/go-prod/asset/225400830" copyable="Y">
+	<char id="225400830" enc_asset_id="01DRIV58p0dzMS39-jgv7mQ" name="Sales" cc_theme_id="whiteboard" thumbnail_url="thumbs/225400830.png" itemRef="/go-prod/asset/225400830" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="301637228" enc_asset_id="0AOP4wuRFrNdrwxStLYRCSg" name="Scientist " cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637228.png" itemRef="/alvin-dev/asset/68750" copyable="Y">
+	<char id="301637228" enc_asset_id="0AOP4wuRFrNdrwxStLYRCSg" name="Scientist " cc_theme_id="whiteboard" thumbnail_url="thumbs/301637228.png" itemRef="/alvin-dev/asset/68750" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="301637226" enc_asset_id="0AOP4wuRFrNfZBgS1od14mg" name="Scientist" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637226.png" itemRef="/alvin-dev/asset/68749" copyable="Y">
+	<char id="301637226" enc_asset_id="0AOP4wuRFrNfZBgS1od14mg" name="Scientist" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637226.png" itemRef="/alvin-dev/asset/68749" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="290231251" enc_asset_id="0FL9B7ruJ9XwtNdXDmM8OWQ" name="Scientist" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231251.png" itemRef="/alvin-dev/asset/65485" copyable="Y">
+	<char id="290231251" enc_asset_id="0FL9B7ruJ9XwtNdXDmM8OWQ" name="Scientist" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231251.png" itemRef="/alvin-dev/asset/65485" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="257899416" enc_asset_id="0bk3L0jiJgZjZBgS1od14mg" name="Shopkeeper" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257899416.png" itemRef="/go-prod/asset/257899416" copyable="Y">
+	<char id="257899416" enc_asset_id="0bk3L0jiJgZjZBgS1od14mg" name="Shopkeeper" cc_theme_id="whiteboard" thumbnail_url="thumbs/257899416.png" itemRef="/go-prod/asset/257899416" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="257899369" enc_asset_id="0sD4KrzAwH-MiuQ0JDOFAuw" name="Shopkeeper" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/257899369.png" itemRef="/go-prod/asset/257899369" copyable="Y">
+	<char id="257899369" enc_asset_id="0sD4KrzAwH-MiuQ0JDOFAuw" name="Shopkeeper" cc_theme_id="whiteboard" thumbnail_url="thumbs/257899369.png" itemRef="/go-prod/asset/257899369" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="301637222" enc_asset_id="0AOP4wuRFrNe5Z_k8TyB-CA" name="Space - Astronaut" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637222.png" itemRef="/alvin-dev/asset/68740" copyable="Y">
+	<char id="301637222" enc_asset_id="0AOP4wuRFrNe5Z_k8TyB-CA" name="Space - Astronaut" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637222.png" itemRef="/alvin-dev/asset/68740" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="295843159" enc_asset_id="0uos2pqxa2f8iuQ0JDOFAuw" name="Space - Astronaut" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295843159.png" itemRef="/alvin-dev/asset/67291" copyable="Y">
+	<char id="295843159" enc_asset_id="0uos2pqxa2f8iuQ0JDOFAuw" name="Space - Astronaut" cc_theme_id="whiteboard" thumbnail_url="thumbs/295843159.png" itemRef="/alvin-dev/asset/67291" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_public,_sticky_filter_guy</tags>
 	</char>
-	<char id="295843157" enc_asset_id="0uos2pqxa2f-ybOqn9az0aQ" name="Space - Astronaut" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295843157.png" itemRef="/alvin-dev/asset/67289" copyable="Y">
+	<char id="295843157" enc_asset_id="0uos2pqxa2f-ybOqn9az0aQ" name="Space - Astronaut" cc_theme_id="whiteboard" thumbnail_url="thumbs/295843157.png" itemRef="/alvin-dev/asset/67289" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_public,_sticky_filter_girl</tags>
 	</char>
-	<char id="290231207" enc_asset_id="09nQgCLQj2euybOqn9az0aQ" name="Space - Astronaut" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231207.png" itemRef="/alvin-dev/asset/65448" copyable="Y">
+	<char id="290231207" enc_asset_id="09nQgCLQj2euybOqn9az0aQ" name="Space - Astronaut" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231207.png" itemRef="/alvin-dev/asset/65448" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="290231204" enc_asset_id="09nQgCLQj2etqxVOBTmUCag" name="Space - Astronaut" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231204.png" itemRef="/alvin-dev/asset/65445" copyable="Y">
+	<char id="290231204" enc_asset_id="09nQgCLQj2etqxVOBTmUCag" name="Space - Astronaut" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231204.png" itemRef="/alvin-dev/asset/65445" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="301637231" enc_asset_id="0kWQJtGkPcXQtNdXDmM8OWQ" name="Superhero" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637231.png" itemRef="/alvin-dev/asset/68753" copyable="Y">
+	<char id="301637231" enc_asset_id="0kWQJtGkPcXQtNdXDmM8OWQ" name="Superhero" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637231.png" itemRef="/alvin-dev/asset/68753" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="301637230" enc_asset_id="0kWQJtGkPcXTMS39-jgv7mQ" name="Superhero" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/301637230.png" itemRef="/alvin-dev/asset/68752" copyable="Y">
+	<char id="301637230" enc_asset_id="0kWQJtGkPcXTMS39-jgv7mQ" name="Superhero" cc_theme_id="whiteboard" thumbnail_url="thumbs/301637230.png" itemRef="/alvin-dev/asset/68752" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="295041529" enc_asset_id="0XEE0RuFPwzYiuQ0JDOFAuw" name="Superhero" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295041529.png" itemRef="/alvin-dev/asset/66977" copyable="Y">
+	<char id="295041529" enc_asset_id="0XEE0RuFPwzYiuQ0JDOFAuw" name="Superhero" cc_theme_id="whiteboard" thumbnail_url="thumbs/295041529.png" itemRef="/alvin-dev/asset/66977" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="295041528" enc_asset_id="0XEE0RuFPwzZrwxStLYRCSg" name="Superhero" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/295041528.png" itemRef="/alvin-dev/asset/66976" copyable="Y">
+	<char id="295041528" enc_asset_id="0XEE0RuFPwzZrwxStLYRCSg" name="Superhero" cc_theme_id="whiteboard" thumbnail_url="thumbs/295041528.png" itemRef="/alvin-dev/asset/66976" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
-	<char id="290231217" enc_asset_id="0A31lhjWbMhqybOqn9az0aQ" name="Superhero" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231217.png" itemRef="/alvin-dev/asset/65458" copyable="Y">
+	<char id="290231217" enc_asset_id="0A31lhjWbMhqybOqn9az0aQ" name="Superhero" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231217.png" itemRef="/alvin-dev/asset/65458" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_guy</tags>
 	</char>
-	<char id="292137550" enc_asset_id="0l-uQL7ThZPLMS39-jgv7mQ" name="Supermarket - Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292137550.png" itemRef="/alvin-dev/asset/65987" copyable="Y">
+	<char id="292137550" enc_asset_id="0l-uQL7ThZPLMS39-jgv7mQ" name="Supermarket - Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/292137550.png" itemRef="/alvin-dev/asset/65987" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_public,_sticky_filter_guy</tags>
 	</char>
-	<char id="292137554" enc_asset_id="0l-uQL7ThZPJqxVOBTmUCag" name="Traveler" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292137554.png" itemRef="/alvin-dev/asset/65991" copyable="Y">
+	<char id="292137554" enc_asset_id="0l-uQL7ThZPJqxVOBTmUCag" name="Traveler" cc_theme_id="whiteboard" thumbnail_url="thumbs/292137554.png" itemRef="/alvin-dev/asset/65991" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_public,_sticky_filter_girl</tags>
 	</char>
-	<char id="292137553" enc_asset_id="0l-uQL7ThZPLTEEJSpuZAGA" name="Traveler" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/292137553.png" itemRef="/alvin-dev/asset/65990" copyable="Y">
+	<char id="292137553" enc_asset_id="0l-uQL7ThZPLTEEJSpuZAGA" name="Traveler" cc_theme_id="whiteboard" thumbnail_url="thumbs/292137553.png" itemRef="/alvin-dev/asset/65990" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_public,_sticky_filter_guy</tags>
 	</char>
-	<char id="290231252" enc_asset_id="0FL9B7ruJ9Xy5Z_k8TyB-CA" name="Winter - Santa" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/290231252.png" itemRef="/alvin-dev/asset/65486" copyable="Y">
+	<char id="290231252" enc_asset_id="0FL9B7ruJ9Xy5Z_k8TyB-CA" name="Winter - Santa" cc_theme_id="whiteboard" thumbnail_url="thumbs/290231252.png" itemRef="/alvin-dev/asset/65486" copyable="Y">
 		<tags>whiteboard,_cat:Casual,_sticky_filter_guy</tags>
 	</char>
-	<char id="225401277" enc_asset_id="0lzzqddfznzCybOqn9az0aQ" name="Worker" cc_theme_id="whiteboard" thumbnail_url="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/ccthumb/1237/394237/225401277.png" itemRef="/go-prod/asset/225401277" copyable="Y">
+	<char id="225401277" enc_asset_id="0lzzqddfznzCybOqn9az0aQ" name="Worker" cc_theme_id="whiteboard" thumbnail_url="thumbs/225401277.png" itemRef="/go-prod/asset/225401277" copyable="Y">
 		<tags>whiteboard,_cat:Jobs and workplace,_sticky_filter_girl</tags>
 	</char>
 	<category key="text" type="template" theme="whiteboard" thumbnail="https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/img/category/cat_text_wb.png">

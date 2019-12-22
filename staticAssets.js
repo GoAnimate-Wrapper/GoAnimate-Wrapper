@@ -1,14 +1,16 @@
 const stuff = require('./staticInfo.json');
-const request = require('./reqGet');
 const fs = require('fs');
 
-function local(req, res, url) {
+module.exports = function (req, res, url) {
 	const methodLinks = stuff[req.method];
-	for (let linkIndex in methodLinks)
-		if (new RegExp(linkIndex).test(url.path)) {
+	for (let linkIndex in methodLinks) {
+		var regex = new RegExp(linkIndex);
+		if (regex.test(url.path)) {
 			const t = methodLinks[linkIndex];
-			const link = t.link || url.path;
+			const link = t.regexLink ? url.path.replace(
+				regex, t.regexLink) : (t.link || url.path);
 			const headers = t.headers;
+
 			try {
 				for (var headerName in headers || {})
 					res.setHeader(headerName, headers[headerName]);
@@ -21,31 +23,6 @@ function local(req, res, url) {
 			}
 			return true;
 		}
+	}
 	return false;
-}
-
-function remote(req, res) {
-	if (req.method != 'GET') return;
-	const match = req.url.match(/\/.+\.([a-z]{2,3})/);
-	if (!match) return;
-
-	const url = process.env.ASSET_BASE_URL + req.url;
-	request(url).then(d => {
-		if (d.includes('404:')) return;
-		switch (match[1]) {
-			case 'mo':
-				res.setHeader('Content-Type', 'binary/octet-stream');
-				break;
-			case 'swf':
-				console.log(url);
-				res.setHeader('Content-Type', 'application/x-shockwave-flash');
-				break;
-		}
-		res.end(d);
-	});
-	return true;
-}
-
-module.exports = function (req, res, url) {
-	return local(req, res, url) || remote(req, res, url);
 }

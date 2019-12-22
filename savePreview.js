@@ -5,7 +5,7 @@ module.exports = function (req, res, url) {
 	const id = req.headers.movieid || req.headers.presaveid;
 	const fn = `previewCaché/${id.padStart(7, '0')}.xml`;
 
-	req.pipe(fs.createWriteStream(fn));
+	req.pipe(fs.createWriteStream(fn, { flags: 'a' }));
 	req.on('end', () => res.end());
 	return true;
 }
