@@ -46,11 +46,10 @@ module.exports = function (req, res, url) {
 			};
 			params = {
 				flashvars: {
-					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>',
-					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'themeId': 'business',
-					'ut': 30, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'go', 'initcb': 'studioLoaded',
-					'isLogin': 'Y', 'isEmbed': '1', 'ctc': 'go', 'tlang': 'en_US', 'retut': '1',
-					'presaveId': query.movieId ? '' : fUtil.getNextFileNum('movie-', '.xml')
+					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>', 'isEmbed': '1', 'ctc': 'go',
+					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'themeId': 'business', 'tlang': 'en_US',
+					'ut': 30, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'go', 'isLogin': 'Y', 'retut': '1',
+					'presaveId': query.movieId ? '' : `m-${fUtil.fillNextFileId('movie-', '.xml')}`
 				},
 				allowScriptAccess: 'always',
 			};

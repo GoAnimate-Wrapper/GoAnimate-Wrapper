@@ -13,20 +13,20 @@ const env = Object.assign(process.env,
 const http = require('http');
 const loadUserAssets = require('./loadUserAssets');
 const saveCharacter = require('./saveCharacter');
-const loadThemeList = require('./loadThemeList');
 const loadCharacter = require('./loadCharacter');
+const getThemeList = require('./getThemeList');
 const staticAssets = require('./staticAssets');
 const premadeChars = require('./premadeChars');
 const displayPages = require('./displayPages');
 const savePreview = require('./savePreview');
 const loadPreview = require('./loadPreview');
-const ttsProcess = require('./ttsProcess');
-const ttsVoices = require('./ttsVoices');
+const getVoices = require('./getVoices');
 const saveMovie = require('./saveMovie');
 const loadAsset = require('./loadAsset');
 const loadMovie = require('./loadMovie');
 const loadTheme = require('./loadTheme');
 const getThumbs = require('./getThumbs');
+const loadTTS = require('./loadTTS');
 const url = require('url');
 
 const functions = [
@@ -34,16 +34,16 @@ const functions = [
 	premadeChars,
 	loadAsset,
 	loadCharacter,
-	loadThemeList,
+	getThemeList,
 	loadTheme,
 	loadPreview,
 	savePreview,
 	saveCharacter,
 	loadUserAssets,
-	ttsProcess,
+	loadTTS,
 	loadMovie,
 	saveMovie,
-	ttsVoices,
+	getVoices,
 	displayPages,
 	staticAssets,
 ];

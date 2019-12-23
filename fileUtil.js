@@ -36,10 +36,21 @@ module.exports = {
 	 * @param {string} ext
 	 * @returns {number}
 	 */
-	getNextFileNum(s, ext = '.xml') {
+	getNextFileId(s, ext = '.xml') {
 		const regex = new RegExp(`${s}[0-9]*${ext}$`);
 		const dir = fs.readdirSync(process.env.FILE_FOLDER).filter(v => v && regex.test(v));
 		return dir.length;
+	},
+	/**
+	 * @param {string} s
+	 * @param {string} ext
+	 * @returns {number}
+	 */
+	fillNextFileId(s, ext = '.xml', l = 7) {
+		const id = this.getNextFileId(s, ext, l);
+		const fn = this.getFileIndex(s, ext, id, l);
+		fs.writeFileSync(fn, '');
+		return id;
 	},
 	/**
 	 * @param {string} s

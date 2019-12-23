@@ -1,4 +1,4 @@
-const char = require('./numberedChars');
+const char = require('./callCharacter');
 const source = process.env.CLIENT_URL;
 const nodezip = require('node-zip');
 const fUtil = require('./fileUtil');
@@ -67,34 +67,42 @@ async function parseMovie(zip, buffer) {
 module.exports = {
 	load(id) {
 		caché[id] = {};
-		if (id.toLowerCase().startsWith('e-')) {
-			var v = fs.readFileSync(`examples/${id.substr(2)}.zip`);
-			if (v[0] != 80) v = v.subarray(1);
-			return Promise.resolve(v);
-		}
-		else if (!isNaN(Number.parseInt(id))) {
-			const zip = nodezip.create();
-			const filePath = fUtil.getFileIndex('movie-', '.xml', id);
-			if (!fs.existsSync(filePath)) return Promise.reject();
-			return parseMovie(zip, fs.readFileSync(filePath));
+		const i = id.indexOf('-');
+		const prefix = id.substr(0, i);
+		const suffix = id.substr(i + 1);
+		switch (prefix) {
+			case 'e':
+				const data = fs.readFileSync(`examples/${suffix}.zip`);
+				if (data[0] != 80) data = data.subarray(1);
+				return Promise.resolve(data);
+			case 'm':
+				const zip = nodezip.create();
+				const filePath = fUtil.getFileIndex('movie-', '.xml', suffix);
+				if (!fs.existsSync(filePath)) return Promise.reject();
+				return parseMovie(zip, fs.readFileSync(filePath));
 		}
 	},
 	saveXmlStream(stream, id) {
 		return new Promise(res => {
-			var ws = fs.createWriteStream(id ?
-				fUtil.getFileIndex('movie-', '.xml', id, 7) :
-				fUtil.getNextFile('movie-', '.xml', 7));
-			var data = '';
+			var writeStream, data = '';
+			if (id) {
+				let i = id.indexOf('-'), prefix = id.substr(0, i), suffix = id.substr(i + 1);
+				switch (prefix) {
+					case 'e': id = `${prefix = 'm'}-${suffix = fUtil.getNextFileId('movie-', '.xml')}`;
+					case 'm': writeStream = fs.createWriteStream(fUtil.getFileIndex('movie-', '.xml', suffix, 7));
+				}
+			} else
+				writeStream = fs.createWriteStream(fUtil.
+					getNextFile('movie-', '.xml', 7));
 
 			stream.on('data', b => {
-				ws.write(b);
+				writeStream.write(b);
 				data += b;
 			});
 			stream.on('end', () => {
+				var finalData = '', t = caché[id];
 				data.substr(0, data.length - 7);
-				const t = caché[id];
 
-				var finalData = '';
 				for (const name in t)
 					if (data.includes(`"${name}"`))
 						finalData += `<asset name="${name}">${t[name]}</asset>`;
@@ -103,18 +111,18 @@ module.exports = {
 				finalData += `</film>`;
 				delete data;
 
-				ws.write(finalData, () => {
-					ws.close();
-					res(finalData);
+				writeStream.write(finalData, () => {
+					writeStream.close();
+					res(id);
 				});
 			});
 		});
 	},
-	save(buffer, id) {
+	async save(id, buffer) {
 		const zip = nodezip.unzip(buffer);
-		saveXmlStream(zip['movie.xml'].toReadStream(), id);
+		return await this.saveXmlStream(zip['movie.xml'].toReadStream(), id);
 	},
-	addAsset(movieId, buffer) {
+	saveAsset(movieId, buffer) {
 		const id = generateId();
 		if (!caché[movieId])
 			caché[movieId] = {};
@@ -122,7 +130,7 @@ module.exports = {
 		t[id] = buffer;
 		return id;
 	},
-	getAsset(movieId, assetId) {
+	loadAsset(movieId, assetId) {
 		return caché[movieId][assetId];
 	}
 }
