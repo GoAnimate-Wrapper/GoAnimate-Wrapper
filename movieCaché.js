@@ -118,7 +118,7 @@ module.exports = {
 			});
 		});
 	},
-	async save(id, buffer) {
+	async save(buffer, id) {
 		const zip = nodezip.unzip(buffer);
 		return await this.saveXmlStream(zip['movie.xml'].toReadStream(), id);
 	},

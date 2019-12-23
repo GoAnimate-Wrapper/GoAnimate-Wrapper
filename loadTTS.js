@@ -96,7 +96,7 @@ module.exports = function (req, res, url) {
 			const id = caché.saveAsset(mId, buffer);
 			mp3Duration(buffer, (e, duration) => {
 				if (e || !duration) res.end(1 + process.env.FAILURE_XML);
-				else res.end(`0<response><asset><id>${id}</id><enc_asset_id>${id}</enc_asset_id><type>sound</type><subtype>tts</subtype><title>[${voices[data.voice].desc}] ${data.text}</title><published>0</published><tags></tags><duration>${1e3 * duration}</duration><downloadtype>progressive</downloadtype><file>${id}</file></asset></response>`)
+				else res.end(`0<response><asset><id>${id}</id><enc_asset_id>${id}</enc_asset_id><type>sound</type><subtype>tts</subtype><title>[${voices[data.voice].desc}] ${data.text}</title><published>0</published><tags></tags><duration>${1e3 * duration}</duration><downloadtype>progressive</downloadtype><file>${id}.mp3</file></asset></response>`)
 			});
 		});
 	});
