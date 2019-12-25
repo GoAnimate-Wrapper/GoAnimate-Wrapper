@@ -26,7 +26,7 @@ const loadAsset = require('./loadAsset');
 const loadMovie = require('./loadMovie');
 const loadTheme = require('./loadTheme');
 const getThumbs = require('./getThumbs');
-const loadTTS = require('./loadTTS');
+const ttsGet = require('./ttsGet');
 const url = require('url');
 
 const functions = [
@@ -40,7 +40,7 @@ const functions = [
 	savePreview,
 	saveCharacter,
 	loadUserAssets,
-	loadTTS,
+	ttsGet,
 	loadMovie,
 	saveMovie,
 	getVoices,

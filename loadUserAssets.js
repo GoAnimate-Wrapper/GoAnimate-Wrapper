@@ -9,8 +9,8 @@ module.exports = function (req, res, url) {
 			case 'prop':
 				res.end(`<?xml version="1.0" encoding="UTF-8"?><ugc more="0"></ugc>`);
 			case 'char':
-				var chars =
-					res.end(`<?xml version="1.0" encoding="UTF-8"?><ugc more="0">${chars}</ugc>`);
+				var chars = '';
+				res.end(`<?xml version="1.0" encoding="UTF-8"?><ugc more="0">${chars}</ugc>`);
 		}
 	})
 	return true;

@@ -1,7 +1,7 @@
 const loadPost = require('./loadPostBody');
 const voices = require('./ttsInfo').voices;
 const mp3Duration = require('mp3-duration');
-const caché = require('./movieCaché');
+const asset = require('./callAsset');
 const qs = require('querystring');
 const get = require('./reqGet');
 const https = require('https');
@@ -91,12 +91,16 @@ function processVoice(voiceName, text) {
 module.exports = function (req, res, url) {
 	if (req.method != 'POST' || url.path != '/goapi/convertTextToSoundAsset/') return;
 	loadPost(req, res).then(data => {
-		const mId = data.movieId || data.presaveId;
+		const mId = caché.getNumId(data.movieId || data.presaveId);
 		processVoice(data.voice, data.text).then(buffer => {
-			const id = caché.saveAsset(mId, buffer);
 			mp3Duration(buffer, (e, duration) => {
-				if (e || !duration) res.end(1 + process.env.FAILURE_XML);
-				else res.end(`0<response><asset><id>${id}</id><enc_asset_id>${id}</enc_asset_id><type>sound</type><subtype>tts</subtype><title>[${voices[data.voice].desc}] ${data.text}</title><published>0</published><tags></tags><duration>${1e3 * duration}</duration><downloadtype>progressive</downloadtype><file>${id}.mp3</file></asset></response>`)
+				if (e || !duration) return res.end(1 + process.env.FAILURE_XML);
+
+				const title = `[${voices[data.voice].desc}] ${data.text}`;
+				const id = asset.save(buffer, mId, meta), meta = {
+					downloadtype: 'progressive', enable: 'Y',
+				};
+				res.end(`0<response><asset><id>${id}</id><enc_asset_id>${id}</enc_asset_id><type>sound</type><subtype>tts</subtype><title>${meta.title = title}</title><published>0</published><tags></tags><duration>${meta.duration = 1e3 * duration}</duration><downloadtype>progressive</downloadtype><file>${meta.id = id}.mp3</file></asset></response>`)
 			});
 		});
 	});

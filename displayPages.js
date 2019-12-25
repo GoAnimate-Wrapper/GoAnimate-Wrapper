@@ -20,9 +20,10 @@ module.exports = function (req, res, url) {
 	if (req.method != 'GET') return;
 	const query = url.query;
 
-	var attrs, params;
+	var attrs, params, title;
 	switch (url.pathname) {
 		case '/cc':
+			title = 'Character Creator';
 			attrs = {
 				data: process.env.SWF_URL + '/cc.swf', // data: 'cc.swf',
 				type: 'application/x-shockwave-flash', id: 'char_creator', width: '100%', height: '100%',
@@ -40,6 +41,7 @@ module.exports = function (req, res, url) {
 			break;
 
 		case '/go_full':
+			title = 'Video Editor';
 			attrs = {
 				data: process.env.SWF_URL + '/go_full.swf',
 				type: 'application/x-shockwave-flash', width: '100%', height: '100%',
@@ -56,6 +58,7 @@ module.exports = function (req, res, url) {
 			break;
 
 		case '/player':
+			title = 'Player';
 			attrs = {
 				data: process.env.SWF_URL + '/player.swf',
 				type: 'application/x-shockwave-flash', width: '100%', height: '100%',
@@ -74,7 +77,7 @@ module.exports = function (req, res, url) {
 	}
 	res.setHeader('Content-Type', 'text/html; charset=UTF-8');
 	Object.assign(params.flashvars, query);
-	res.end(`<script>flashvars=${JSON.stringify(params.flashvars)}</script><body style="margin:0px">${toObjectString(attrs, params)
+	res.end(`<script>document.title='${title}',flashvars=${JSON.stringify(params.flashvars)}</script><body style="margin:0px">${toObjectString(attrs, params)
 		}</body><script>${stuff.pages[url.pathname] || ''}</script>`);
 	return true;
 }
