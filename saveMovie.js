@@ -1,13 +1,16 @@
 const loadPost = require('./loadPostBody');
-const callMovie = require('./callMovie');
+const movie = require('./callMovie');
 
 module.exports = function (req, res, url) {
 	if (req.method != 'POST' || url.path != '/goapi/saveMovie/') return;
 	loadPost(req, res).then(data => {
+		if (data.is_triggered_by_autosave && data.noAutosave)
+			return res.end('0');
 		var id = data.movieId || data.presaveId;
 		var body = Buffer.from(data.body_zip, 'base64');
-		var thumb = Buffer.from(data.thumbnail_large, 'base64');
-		callMovie.save(body, thumb, id).then(() => res.end('0' + id));
+		var thumb = data.thumbnail_large &&
+			Buffer.from(data.thumbnail_large, 'base64');
+		movie.save(body, thumb, id).then(nId => res.end('0' + nId));
 	});
 	return true;
 }

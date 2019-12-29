@@ -4,7 +4,8 @@ const fs = require('fs');
 module.exports = {
 	async save(movieZip, thumbZip, movieId) {
 		const nId = caché.getNumId(movieId);
-		fs.writeFileSync(fUtil.getFileIndex('thumb-', '.png', nId), thumbZip);
+		const thumbFile = fUtil.getFileIndex('thumb-', '.png', nId);
+		thumbZip && fs.writeFileSync(thumbFile, thumbZip);
 		await caché.saveMovie(movieZip, nId);
 		return nId;
 	},

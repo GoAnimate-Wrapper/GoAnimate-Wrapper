@@ -98,7 +98,7 @@ module.exports = function (req, res, url) {
 
 				const title = `[${voices[data.voice].desc}] ${data.text}`;
 				const id = asset.save(buffer, mId, meta), meta = {
-					downloadtype: 'progressive', enable: 'Y',
+					downloadtype: 'progressive', enable: 'Y', type: 'sound',
 				};
 				res.end(`0<response><asset><id>${id}</id><enc_asset_id>${id}</enc_asset_id><type>sound</type><subtype>tts</subtype><title>${meta.title = title}</title><published>0</published><tags></tags><duration>${meta.duration = 1e3 * duration}</duration><downloadtype>progressive</downloadtype><file>${meta.id = id}.mp3</file></asset></response>`)
 			});

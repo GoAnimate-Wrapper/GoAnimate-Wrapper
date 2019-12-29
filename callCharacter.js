@@ -15,7 +15,7 @@ function saveNew(data) {
 
 module.exports = {
 	/**
-	 * @param {number} id
+	 * @param {number} string
 	 * @returns {Promise<string>}
 	 */
 	load(id) {
