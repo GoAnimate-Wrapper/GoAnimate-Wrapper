@@ -4,24 +4,26 @@ const fUtil = require('./fileUtil');
 const fs = require('fs');
 
 /**
- * @typedef {{[k:string]:string}} metaType
- * @typedef {{[aId:string]:{meta:metaType,buffer:Buffer}}} vcType
+ * @typedef {{[aId:string]:Buffer}} vcType
  * @typedef {{[nId:number]:vcType}} cachéType
  * @type cachéType
  */
 var caché = {};
-exports.caché = caché;
 
-function generateId() {
+function generateId(t, ext) {
 	var id;
-	do id = ('' + Math.random()).replace('.', '');
-	while (caché[id]);
+	do id = `${('' + Math.random()).replace('.', '')}.${ext}`;
+	while (t[id]);
 	return id;
 }
 
 module.exports = {
+	/**
+	 * 
+	 * @param {stirng} strId 
+	 * @returns {Promise<Buffer>}
+	 */
 	loadMovieFromStr(strId) {
-		caché[strId] = {};
 		const i = strId.indexOf('-');
 		const prefix = strId.substr(0, i);
 		const suffix = strId.substr(i + 1);
@@ -32,14 +34,25 @@ module.exports = {
 				return Promise.resolve(data);
 			case 'm':
 				return this.loadMovieFromNum(Number.parseInt(suffix));
+			default: Promise.reject();
 		}
 	},
-	loadMovieFromNum(nId) {
-		const zip = nodezip.create();
-		const filePath = fUtil.getFileIndex('movie-', '.xml', nId);
+	/**
+	 *
+	 * @param {number} numId
+	 * @returns {Promise<Buffer>}
+	 */
+	loadMovieFromNum(numId) {
+		const filePath = fUtil.getFileIndex('movie-', '.xml', numId);
 		if (!fs.existsSync(filePath)) return Promise.reject();
-		return parseMovie(zip, fs.readFileSync(filePath), caché);
+
+		const t = caché[numId] || (caché[numId] = {});
+		return parseMovie.xml2zip(fs.readFileSync(filePath), t);
 	},
+	/**
+	 *
+	 * @param {stirng} strId
+	 */
 	getNumId(movieId) {
 		if (!movieId) return fUtil.
 			getNextFileId('movie-', '.xml');
@@ -51,28 +64,16 @@ module.exports = {
 			case 'e': default: return fUtil.fillNextFileId('movie-', '.xml');
 		}
 	},
-	saveXmlStream(stream, numId) {
+	/**
+	 *
+	 * @param {Buffer} buffer
+	 * @param {number} numId
+	 * @returns {Promise<void>}
+	 */
+	saveMovie(buffer, numId) {
 		return new Promise(res => {
-			const writeStream = fs.createWriteStream(
-				fUtil.getFileIndex('movie-', '.xml', numId));
-
-			var buffers = [];
-			stream.on('data', b => buffers.push(b));
-			stream.on('end', () => {
-				var data = Buffer.concat(buffers).slice(0, -7);
-				const t = caché[numId];
-
-				for (const assetId in t)
-					if (data.includes(assetId)) {
-						var asset = t[assetId];
-						var infoStr = Object.keys(asset.meta).map(k => `${k}="${asset.meta[k]}"`);
-						data = Buffer.concat([data, Buffer.from(`<asset ${infoStr} id="${assetId}">${
-							asset.buffer.toString('base64')}</asset>`)]);
-					}
-					else
-						delete t[assetId];
-				data.write(`</film>`);
-
+			const zip = nodezip.unzip(buffer);
+			parseMovie.zip2xml(zip, caché[numId]).then(data => {
 				writeStream.write(data, () => {
 					writeStream.close();
 					res();
@@ -80,15 +81,15 @@ module.exports = {
 			});
 		});
 	},
-	async saveMovie(buffer, meta, id) {
-		const zip = nodezip.unzip(buffer);
-		return await this.saveXmlStream(zip['movie.xml'].toReadStream(), id);
-	},
-	saveAsset(numId, buffer, meta) {
-		const id = generateId();
-		if (!caché[numId])
-			caché[numId] = {};
-		var t = caché[numId];
+	/**
+	 *
+	 * @param {Buffer} buffer
+	 * @param {number} numId
+	 * @param {string} ext
+	 */
+	saveAsset(buffer, numId, ext) {
+		var t = caché[numId] || (caché[numId] = {});
+		const id = generateId(t, ext);
 		t[id] = buffer;
 		return id;
 	},
@@ -98,6 +99,9 @@ module.exports = {
 	 * @param {string} assetId 
 	 */
 	loadAsset(numId, assetId) {
-		return caché[numId][assetId];
+		const a = caché[numId][assetId];
+		return a !== null ?
+			Promise.resolve(a) :
+			Promise.reject();
 	},
 }

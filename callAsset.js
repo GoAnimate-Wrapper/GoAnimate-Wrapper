@@ -5,8 +5,8 @@ module.exports = {
 		const nId = caché.getNumId(mId);
 		return caché.loadAsset(nId, aId);
 	},
-	save(mId, buffer, meta) {
+	save(buffer, mId, ext) {
 		const nId = caché.getNumId(mId);
-		return caché.saveAsset(buffer, nId, meta);
+		return caché.saveAsset(buffer, nId, ext);
 	},
 };

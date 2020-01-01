@@ -4,7 +4,7 @@ const loadPost = require('./loadPostBody');
 module.exports = function (req, res) {
 	switch (req.method) {
 		case 'GET':
-			const match = req.url.match(/\/characters\/(.+)/);
+			const match = req.url.match(/\/characters\/([^.]+)(?:\.xml)?$/);
 			if (!match) return;
 
 			var id = match[1];
@@ -14,7 +14,7 @@ module.exports = function (req, res) {
 			return true;
 
 		case 'POST':
-			if (req.url != '/goapi/getCcCharCompositionXml/' || req.method != 'POST') return;
+			if (req.url != '/goapi/getCcCharCompositionXml/') return;
 			loadPost(req, res).then(async data => {
 				res.setHeader('Content-Type', 'text/html; charset=UTF-8');
 				character.load(data.assetId || data.original_asset_id)

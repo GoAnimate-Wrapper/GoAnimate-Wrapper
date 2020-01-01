@@ -1,5 +1,4 @@
 const info = require('./ttsInfo');
-const fUtil = require('./fileUtil');
 const voices = info.voices, langs = {};
 
 Object.keys(voices).forEach(i => {
