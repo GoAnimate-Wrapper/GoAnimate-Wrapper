@@ -2,10 +2,10 @@ const xNumWidth = process.env.XML_NUM_WIDTH;
 const baseUrl = process.env.CHAR_BASE_URL;
 const xmlH = process.env.XML_HEADER;
 const fXml = process.env.FAILURE_XML;
+const fUtil = require('../fileUtil');
 const fw = process.env.FILE_WIDTH;
+const get = require('../reqGet');
 const fs = require('fs');
-const get = require('./reqGet');
-const fUtil = require('./fileUtil');
 
 function saveNew(data) {
 	const id = fUtil.getNextFileId('char-', '.xml');

@@ -1,5 +1,5 @@
-const loadPost = require('./loadPostBody');
-const movie = require('./callMovie');
+const loadPost = require('../loadPostBody');
+const movie = require('./main');
 
 module.exports = function (req, res, url) {
 	if (req.method != 'POST' || url.path != '/goapi/saveMovie/') return;

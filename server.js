@@ -11,22 +11,22 @@ const env = Object.assign(process.env,
 	require('./config.json'));
 
 const http = require('http');
-const loadUserAssets = require('./loadUserAssets');
-const saveCharacter = require('./saveCharacter');
-const loadCharacter = require('./loadCharacter');
-const getThemeList = require('./getThemeList');
-const staticAssets = require('./staticAssets');
-const premadeChars = require('./premadeChars');
-const displayPages = require('./displayPages');
-const savePreview = require('./savePreview');
-const loadPreview = require('./loadPreview');
-const getVoices = require('./getVoices');
-const saveMovie = require('./saveMovie');
-const loadAsset = require('./loadAsset');
-const loadMovie = require('./loadMovie');
-const loadTheme = require('./loadTheme');
+const premadeChars = require('./character/premade');
+const loadUserAssets = require('./asset/loaduser');
+const saveCharacter = require('./character/save');
+const loadCharacter = require('./character/load');
+const displayPages = require('./static/pages');
+const staticAssets = require('./static/load');
+const savePreview = require('./preview/save');
+const loadPreview = require('./preview/load');
+const getThemeList = require('./theme/list');
+const getVoices = require('./tts/voices');
+const loadAsset = require('./asset/load');
+const loadMovie = require('./movie/load');
+const loadTheme = require('./theme/load');
+const saveMovie = require('./movie/save');
 const getThumbs = require('./getThumbs');
-const ttsGet = require('./ttsGet');
+const ttsGet = require('./tts/load');
 const url = require('url');
 
 const functions = [

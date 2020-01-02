@@ -1,10 +1,9 @@
-const loadPost = require('./loadPostBody');
-const voices = require('./ttsInfo').voices;
+const loadPost = require('../loadPostBody');
+const voices = require('./info').voices;
 const mp3Duration = require('mp3-duration');
-const mCaché = require('./movieCaché');
-const asset = require('./callAsset');
+const asset = require('../asset/main');
 const qs = require('querystring');
-const get = require('./reqGet');
+const get = require('../reqGet');
 const https = require('https');
 
 function processVoice(voiceName, text) {
@@ -85,6 +84,23 @@ function processVoice(voiceName, text) {
 					r.on('error', rej);
 				});
 				break;
+			case 'voicery':
+				var q = qs.encode({
+					text: text,
+					speaker: voice.arg,
+					ssml: text.includes('<'),
+					//style: 'default',
+				});
+				https.get({
+					host: 'www.voicery.com',
+					path: `/api/generate?${q}`,
+				}, r => {
+					var buffers = [];
+					r.on('data', d => buffers.push(d));
+					r.on('end', () => res(Buffer.concat(buffers)));
+					r.on('error', rej);
+				});
+				break;
 		}
 	});
 }
@@ -99,7 +115,7 @@ module.exports = function (req, res, url) {
 
 				const title = `[${voices[data.voice].desc}] ${data.text}`;
 				const id = asset.save(buffer, mId, 'mp3');
-				res.end(`0<response><asset><id>${id}</id><enc_asset_id>${id}</enc_asset_id><type>sound</type><subtype>tts</subtype><title>${title}</title><published>0</published><tags></tags><duration>${1e3 * duration}</duration><downloadtype>progressive</downloadtype><file>${id}.mp3</file></asset></response>`)
+				res.end(`0<response><asset><id>${id}</id><enc_asset_id>${id}</enc_asset_id><type>sound</type><subtype>tts</subtype><title>${title}</title><published>0</published><tags></tags><duration>${1e3 * duration}</duration><downloadtype>progressive</downloadtype><file>${id}</file></asset></response>`)
 			});
 		});
 	});

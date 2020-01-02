@@ -1,5 +1,5 @@
-const loadPost = require('./loadPostBody');
-const fUtil = require('./fileUtil');
+const loadPost = require('../loadPostBody');
+const fUtil = require('../fileUtil');
 
 module.exports = function (req, res, url) {
 	if (req.method != 'POST' || url.path != '/goapi/getTheme/') return;

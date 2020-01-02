@@ -1,4 +1,4 @@
-const movie = require('./callMovie');
+const movie = require('./main');
 const base = Buffer.alloc(1, 0);
 
 module.exports = function (req, res, url) {

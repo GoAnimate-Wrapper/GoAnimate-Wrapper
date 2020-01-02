@@ -31,9 +31,7 @@
 "whiteboard"
 */
 
-const nodezip = require('node-zip');
-const fUtil = require('./fileUtil');
-
+const fUtil = require('../fileUtil');
 module.exports = function (req, res, url) {
 	if (req.method != 'POST' || url.path != '/goapi/getThemeList/') return;
 	res.setHeader('Content-Type', 'application/zip');

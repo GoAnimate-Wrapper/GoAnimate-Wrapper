@@ -1,5 +1,5 @@
-const stuff = require('./staticInfo');
-const fUtil = require('./fileUtil');
+const fUtil = require('../fileUtil');
+const stuff = require('./info');
 
 function toAttrString(table) {
 	return typeof (table) == 'object' ? Object.keys(table).filter(key => table[key] !== null).map(key =>

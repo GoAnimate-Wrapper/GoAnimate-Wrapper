@@ -1,4 +1,4 @@
-const info = require('./ttsInfo');
+const info = require('./info');
 const voices = info.voices, langs = {};
 
 Object.keys(voices).forEach(i => {

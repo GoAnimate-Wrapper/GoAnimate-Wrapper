@@ -1,4 +1,4 @@
-const stuff = require('./staticInfo.json');
+const stuff = require('./info');
 const fs = require('fs');
 
 module.exports = function (req, res, url) {

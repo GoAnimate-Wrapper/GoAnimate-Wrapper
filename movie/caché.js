@@ -1,6 +1,6 @@
-const parseMovie = require("./parseMovie");
+const parseMovie = require("./parse");
+const fUtil = require('../fileUtil');
 const nodezip = require('node-zip');
-const fUtil = require('./fileUtil');
 const fs = require('fs');
 
 /**

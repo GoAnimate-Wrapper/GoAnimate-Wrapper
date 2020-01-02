@@ -1,4 +1,4 @@
-const loadPost = require('./loadPostBody');
+const loadPost = require('../loadPostBody');
 const fs = require('fs');
 
 module.exports = function (req, res, url) {

@@ -1,5 +1,5 @@
-const character = require('./callCharacter');
-const loadPost = require('./loadPostBody');
+const loadPost = require('../loadPostBody');
+const character = require('./main');
 
 module.exports = function (req, res) {
 	switch (req.method) {

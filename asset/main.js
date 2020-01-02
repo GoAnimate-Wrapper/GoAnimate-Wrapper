@@ -1,4 +1,4 @@
-const caché = require('./movieCaché');
+const caché = require('../movie/caché');
 
 module.exports = {
 	load(mId, aId) {

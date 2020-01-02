@@ -43,13 +43,13 @@
 			"arg": 2,
 			"desc": "Brian"
 		},
-		"emma": {
+		"emma_polly": {
 			"country": "GB",
 			"language": "en",
 			"gender": "F",
 			"source": "polly",
 			"arg": 3,
-			"desc": "Emma"
+			"desc": "Emma (Polly)"
 		},
 		"salli": {
 			"country": "US",
@@ -251,13 +251,13 @@
 			"arg": "Callie",
 			"desc": "Callie"
 		},
-		"charlie": {
+		"charlie_cepstral": {
 			"country": "US",
 			"language": "en",
 			"gender": "M",
 			"source": "cepstral",
 			"arg": "Charlie",
-			"desc": "Charlie"
+			"desc": "Charlie (Cepstral)"
 		},
 		"dallas": {
 			"country": "US",
@@ -315,7 +315,7 @@
 			"arg": "Emily",
 			"desc": "Emily"
 		},
-		"linda": {
+		"linda_cepstral": {
 			"country": "US",
 			"language": "en",
 			"gender": "F",
@@ -579,7 +579,7 @@
 			"source": "vocalware",
 			"desc": "Alan"
 		},
-		"allison": {
+		"allison_vocalware": {
 			"country": "US",
 			"language": "en",
 			"gender": "F",
@@ -589,7 +589,7 @@
 				7
 			],
 			"source": "vocalware",
-			"desc": "Allison"
+			"desc": "Allison (Vocalware)"
 		},
 		"catherine": {
 			"country": "GB",
@@ -651,7 +651,7 @@
 			"source": "vocalware",
 			"desc": "Simon"
 		},
-		"steven": {
+		"steven_vocalware": {
 			"country": "US",
 			"language": "en",
 			"gender": "M",
@@ -661,7 +661,7 @@
 				8
 			],
 			"source": "vocalware",
-			"desc": "Steven"
+			"desc": "Steven (Vocalware)"
 		},
 		"susan": {
 			"country": "US",
@@ -1407,7 +1407,7 @@
 			"source": "vocalware",
 			"desc": "Paul"
 		},
-		"chloe": {
+		"chloe_vocalware": {
 			"country": "CA",
 			"language": "fr",
 			"gender": "F",
@@ -1417,7 +1417,7 @@
 				1
 			],
 			"source": "vocalware",
-			"desc": "Chloe"
+			"desc": "Chloe (Vocalware)"
 		},
 		"leo": {
 			"country": "CA",
@@ -1802,6 +1802,166 @@
 			],
 			"source": "vocalware",
 			"desc": "Somsi"
+		},
+		"linda": {
+			"arg": "linda",
+			"desc": "Linda",
+			"gender": "F",
+			"country": "US",
+			"language": "en",
+			"source": "voicery"
+		},
+		"steven_voicery": {
+			"arg": "steven",
+			"desc": "Steven (Voicery)",
+			"gender": "M",
+			"country": "US",
+			"language": "en",
+			"source": "voicery"
+		},
+		"katie": {
+			"arg": "katie",
+			"desc": "Katie",
+			"gender": "F",
+			"country": "US",
+			"language": "en",
+			"source": "voicery"
+		},
+		"luke": {
+			"arg": "luke",
+			"desc": "Luke",
+			"gender": "M",
+			"country": "AU",
+			"language": "en",
+			"source": "voicery"
+		},
+		"jason": {
+			"arg": "jason",
+			"desc": "Jason",
+			"gender": "M",
+			"country": "US",
+			"language": "en",
+			"source": "voicery"
+		},
+		"maya": {
+			"arg": "maya",
+			"desc": "Maya",
+			"gender": "F",
+			"country": "Indian",
+			"language": "en",
+			"source": "voicery"
+		},
+		"richard": {
+			"arg": "richard",
+			"desc": "Richard",
+			"gender": "M",
+			"country": "GB",
+			"language": "en",
+			"source": "voicery"
+		},
+		"samantha": {
+			"arg": "samantha",
+			"desc": "Samantha",
+			"gender": "F",
+			"country": "GB",
+			"language": "en",
+			"source": "voicery"
+		},
+		"matthew": {
+			"arg": "matthew",
+			"desc": "Matthew",
+			"gender": "M",
+			"country": "US",
+			"language": "en",
+			"source": "voicery"
+		},
+		"chloe_voicery": {
+			"arg": "chloe",
+			"desc": "Chloe (Voicery)",
+			"gender": "F",
+			"country": "US",
+			"language": "en",
+			"source": "voicery"
+		},
+		"emma_voicery": {
+			"arg": "emma",
+			"desc": "Emma (Voicery)",
+			"gender": "F",
+			"country": "CA",
+			"language": "en",
+			"source": "voicery"
+		},
+		"arno": {
+			"arg": "arno",
+			"desc": "Arno",
+			"gender": "M",
+			"country": "ZA",
+			"language": "en",
+			"source": "voicery"
+		},
+		"mieke": {
+			"arg": "mieke",
+			"desc": "Mieke",
+			"gender": "F",
+			"country": "ZA",
+			"language": "en",
+			"source": "voicery"
+		},
+		"gavin": {
+			"arg": "gavin",
+			"desc": "Gavin (Scottish)",
+			"gender": "M",
+			"country": "GB",
+			"language": "en",
+			"source": "voicery"
+		},
+		"mairi": {
+			"arg": "mairi",
+			"desc": "Mairi",
+			"gender": "F",
+			"country": "Scottish",
+			"language": "en",
+			"source": "voicery"
+		},
+		"charlie_voicery": {
+			"arg": "charlie",
+			"desc": "Charlie (Voicery)",
+			"gender": "M",
+			"country": "GB",
+			"language": "en",
+			"source": "voicery"
+		},
+		"abigail": {
+			"arg": "abigail",
+			"desc": "Abigail",
+			"gender": "F",
+			"country": "GB",
+			"language": "en",
+			"source": "voicery"
+		},
+		"sean": {
+			"arg": "sean",
+			"desc": "Sean",
+			"gender": "M",
+			"country": "IE",
+			"language": "en",
+			"source": "voicery"
+		},
+		"mona": {
+			"arg": "mona",
+			"desc": "Mona",
+			"gender": "F",
+			"country": "IE",
+			"language": "en",
+			"source": "voicery"
+		},
+		"sebastian": {
+			"arg": "sebastian",
+			"desc": "Sebastian",
+			"gender": "M",
+			"country": "AU",
+			"language": "en",
+			"source": "voicery"
 		}
 	}
 }

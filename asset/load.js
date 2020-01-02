@@ -1,5 +1,5 @@
-const loadPost = require('./loadPostBody');
-const asset = require('./callAsset');
+const loadPost = require('../loadPostBody');
+const asset = require('./main');
 
 module.exports = function (req, res, url) {
 	switch (req.method) {

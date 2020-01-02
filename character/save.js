@@ -1,7 +1,5 @@
-const character = require('./callCharacter');
-const loadPost = require('./loadPostBody')
-const fUtil = require('./fileUtil');
-const fs = require('fs');
+const loadPost = require('../loadPostBody');
+const character = require('./main');
 
 module.exports = function (req, res, url) {
 	if (req.method != 'POST' || url.path != '/goapi/saveCCCharacter/') return;

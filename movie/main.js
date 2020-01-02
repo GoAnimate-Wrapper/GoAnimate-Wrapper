@@ -1,5 +1,5 @@
-const caché = require('./movieCaché');
-const fUtil = require('./fileUtil');
+const fUtil = require('../fileUtil');
+const caché = require('./caché');
 const fs = require('fs');
 module.exports = {
 	async save(movieZip, thumbZip, movieId) {

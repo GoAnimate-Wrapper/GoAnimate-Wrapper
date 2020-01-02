@@ -1,12 +1,12 @@
-const char = require('./callCharacter');
+const char = require('../character/main');
+const ttsInfo = require('../tts/info');
 const source = process.env.CLIENT_URL;
 const header = process.env.XML_HEADER;
-const ttsInfo = require('./ttsInfo');
 const nodezip = require('node-zip');
 const store = process.env.STORE_URL;
-const fUtil = require('./fileUtil');
+const fUtil = require('../fileUtil');
 const xmldoc = require('xmldoc');
-const get = require('./reqGet');
+const get = require('../reqGet');
 const fs = require('fs');
 
 module.exports = {
