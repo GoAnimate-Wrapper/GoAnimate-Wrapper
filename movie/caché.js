@@ -1,3 +1,4 @@
+const exFolder = process.env.EXAMPLE_FOLDER;
 const parseMovie = require("./parse");
 const fUtil = require('../fileUtil');
 const nodezip = require('node-zip');
@@ -5,10 +6,10 @@ const fs = require('fs');
 
 /**
  * @typedef {{[aId:string]:Buffer}} vcType
- * @typedef {{[nId:number]:vcType}} cachéType
+ * @typedef {{[mId:string]:vcType}} cachéType
  * @type cachéType
  */
-var caché = {};
+var caché = {}
 
 function generateId(t, ext) {
 	var id;
@@ -20,60 +21,48 @@ function generateId(t, ext) {
 module.exports = {
 	/**
 	 * 
-	 * @param {stirng} strId 
-	 * @returns {Promise<Buffer>}
+	 * @param {string} mId 
+	 * @param {boolean} justCaché
+	 * @returns {Promise<Buffer|vcType>}
 	 */
-	loadMovieFromStr(strId) {
-		const i = strId.indexOf('-');
-		const prefix = strId.substr(0, i);
-		const suffix = strId.substr(i + 1);
+	loadMovie(mId, justCaché = false) {
+		const i = mId.indexOf('-');
+		const prefix = mId.substr(0, i);
+		const suffix = mId.substr(i + 1);
 		switch (prefix) {
 			case 'e':
-				let data = fs.readFileSync(`examples/${suffix}.zip`);
-				if (data[0] != 80) data = data.subarray(1);
+				if (justCaché)
+					return Promise.resolve(caché[mId] = {});
+				caché[mId] = {};
+				let data = fs.readFileSync(`${exFolder}/${suffix}.zip`);
+				data = data.subarray(data.indexOf(80));
 				return Promise.resolve(data);
+
 			case 'm':
-				return this.loadMovieFromNum(Number.parseInt(suffix));
+				let numId = Number.parseInt(suffix);
+				if (isNaN(numId)) return Promise.reject();
+				let filePath = fUtil.getFileIndex('movie-', '.xml', numId);
+				if (!fs.existsSync(filePath)) return Promise.reject();
+
+				const buffer = fs.readFileSync(filePath);
+				if (justCaché) return Promise.resolve(caché[mId] = parseMovie.xml2caché(buffer));
+				else return parseMovie.xml2zip(buffer, c => caché[numId] = c);
+
 			default: Promise.reject();
 		}
 	},
 	/**
 	 *
-	 * @param {number} numId
-	 * @returns {Promise<Buffer>}
-	 */
-	loadMovieFromNum(numId) {
-		const filePath = fUtil.getFileIndex('movie-', '.xml', numId);
-		if (!fs.existsSync(filePath)) return Promise.reject();
-
-		const t = caché[numId] || (caché[numId] = {});
-		return parseMovie.xml2zip(fs.readFileSync(filePath), t);
-	},
-	/**
-	 *
-	 * @param {stirng} strId
-	 */
-	getNumId(movieId) {
-		if (!movieId) return fUtil.
-			getNextFileId('movie-', '.xml');
-		const i = movieId.indexOf('-');
-		const prefix = movieId.substr(0, i);
-		const suffix = movieId.substr(i + 1);
-		switch (prefix) {
-			case 'm': case '': return Number.parseInt(suffix);
-			case 'e': default: return fUtil.fillNextFileId('movie-', '.xml');
-		}
-	},
-	/**
-	 *
 	 * @param {Buffer} buffer
-	 * @param {number} numId
+	 * @param {string} mId
+	 * @param {string} preId
 	 * @returns {Promise<void>}
 	 */
-	saveMovie(buffer, numId) {
+	saveMovie(buffer, mId, preId = mId) {
+		this.transfer(preId, mId);
 		return new Promise(res => {
 			const zip = nodezip.unzip(buffer);
-			parseMovie.zip2xml(zip, caché[numId]).then(data => {
+			parseMovie.zip2xml(zip, caché[mId]).then(data => {
 				writeStream.write(data, () => {
 					writeStream.close();
 					res();
@@ -84,24 +73,36 @@ module.exports = {
 	/**
 	 *
 	 * @param {Buffer} buffer
-	 * @param {number} numId
+	 * @param {string} mId
 	 * @param {string} ext
 	 */
-	saveAsset(buffer, numId, ext) {
-		var t = caché[numId] || (caché[numId] = {});
-		const id = generateId(t, ext);
-		t[id] = buffer;
-		return id;
+	saveAsset(buffer, mId, ext) {
+		var t = caché[mId] || (caché[mId] = {});
+		const aId = generateId(t, ext);
+		t[aId] = buffer;
+		return aId;
 	},
 	/**
 	 * 
-	 * @param {number} numId 
+	 * @param {string} mId
 	 * @param {string} assetId 
 	 */
-	loadAsset(numId, assetId) {
-		const a = caché[numId][assetId];
-		return a !== null ?
-			Promise.resolve(a) :
-			Promise.reject();
+	loadAsset(mId, assetId) {
+		if (!(mId in caché))
+			this.loadMovie(mId, true);
+		const t = caché[mId];
+		if (assetId in t)
+			return Promise.resolve(t[assetId]);
+		else return Promise.reject();
+	},
+	/**
+	 * 
+	 * @param {string} from
+	 * @param {string} to 
+	 */
+	transfer(from, to) {
+		if (from == to) return;
+		caché[to] = caché[from];
+		delete caché[from];
 	},
 }

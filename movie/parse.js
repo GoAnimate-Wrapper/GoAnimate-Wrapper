@@ -10,13 +10,24 @@ const get = require('../reqGet');
 const fs = require('fs');
 
 module.exports = {
-	async xml2zip(buffer, cachéRef) {
-		const zip = nodezip.create();
+	xml2caché(buffer) {
+		const xml = new xmldoc.XmlDocument(buffer);
+		const cachéRef = {}, elements = xml.children;
+		for (const eK in elements) {
+			var element = elements[eK];
+			if (element.name == 'asset')
+				cachéRef[element.attr.id] =
+					Buffer.from(element.val, 'base64');
+		}
+		return cachéRef;
+	},
+	async xml2zip(buffer, cachéCallback) {
+		const zip = nodezip.create(), cachéRef = {};
 		var ugcString = `${header}<theme id="ugc" name="ugc">`;
 		const chars = {}, themes = { common: true };
 		fUtil.addToZip(zip, 'movie.xml', buffer);
 		const xml = new xmldoc.XmlDocument(buffer);
-		var elements = xml.children;
+		const elements = xml.children;
 		for (const eK in elements) {
 			var element = elements[eK];
 			switch (element.name) {
@@ -92,6 +103,7 @@ module.exports = {
 			}
 		}
 
+		cachéCallback(cachéRef);
 		const themeKs = Object.keys(themes);
 		themeKs.forEach(t => {
 			if (t == 'ugc') return;

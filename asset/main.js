@@ -2,11 +2,9 @@ const caché = require('../movie/caché');
 
 module.exports = {
 	load(mId, aId) {
-		const nId = caché.getNumId(mId);
-		return caché.loadAsset(nId, aId);
+		return caché.loadAsset(mId, aId);
 	},
 	save(buffer, mId, ext) {
-		const nId = caché.getNumId(mId);
-		return caché.saveAsset(buffer, nId, ext);
+		return caché.saveAsset(buffer, mId, ext);
 	},
 };

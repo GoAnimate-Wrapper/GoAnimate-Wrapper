@@ -48,7 +48,7 @@
 		}
 	},
 	"pages": {
-		"/go_full": "interactiveTutorial={neverDisplay:function(){return true}};function exitStudio(){fetch('event/close')};studioLoaded=console.log;function initPreviewPlayer(xml){console.log('Starting preview transfer.');var a=xml.split('');function f(){var s=a.splice(0,5e5);if(s.length)fetch('/savePreview/',{method:'POST',headers:flashvars,body:s.join('')}).then(f);else window.open('player?isInitFromExternal=1&'+obj.firstChild.value,'MsgWindow','width=1280,height=720,left='+(screen.width/2-640)+',top='+(screen.height/2-360))};f()}",
+		"/go_full": "interactiveTutorial={neverDisplay:function(){return true}};function exitStudio(){fetch('event/close')};studioLoaded=console.log;function initPreviewPlayer(xml){console.log('Starting preview transfer.');var a=xml.split('');function f(){var s=a.splice(0,5e5);if(s.length)fetch('/savePreview/',{method:'POST',body:s.join('')}).then(f);else window.open('player?isInitFromExternal=1','MsgWindow','width=1280,height=720,left='+(screen.width/2-640)+',top='+(screen.height/2-360))};f()};exitStudio=window.history.back;",
 		"/player": "function retrievePreviewPlayerData(){var r=new XMLHttpRequest();r.open('GET','/loadPreview'+window.location.search,false);r.send(null);return r.responseText}"
 	}
 }
