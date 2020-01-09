@@ -1,12 +1,13 @@
+const themeFolder = process.env.THEME_FOLDER;
 const char = require('../character/main');
 const ttsInfo = require('../tts/info');
 const source = process.env.CLIENT_URL;
 const header = process.env.XML_HEADER;
+const get = require('../request/get');
+const fUtil = require('../fileUtil');
 const nodezip = require('node-zip');
 const store = process.env.STORE_URL;
-const fUtil = require('../fileUtil');
 const xmldoc = require('xmldoc');
-const get = require('../reqGet');
 const fs = require('fs');
 
 module.exports = {
@@ -107,7 +108,7 @@ module.exports = {
 		const themeKs = Object.keys(themes);
 		themeKs.forEach(t => {
 			if (t == 'ugc') return;
-			const file = fs.readFileSync(`themes/${t}.xml`);
+			const file = fs.readFileSync(`${themeFolder}/${t}.xml`);
 			fUtil.addToZip(zip, `${t}.xml`, file);
 		});
 
@@ -118,19 +119,21 @@ module.exports = {
 	},
 	async zip2xml(zip, refCaché) {
 		return new Promise(res => {
-			var buffers = [];
+			const buffers = [];
 			const stream = zip['movie.xml'].toReadStream();
 			stream.on('data', b => buffers.push(b));
 			stream.on('end', () => {
-				var buffers = [data.slice(0, -7)];
+				var slice = [Buffer.concat(buffers).slice(0, -7)];
 				for (const assetId in refCaché)
-					if (buffers.includes(assetId))
-						buffers.push(Buffer.from(`<asset id="${assetId}">${t[assetId].toString('base64')}</asset>`));
+					if (slice.includes(assetId)) {
+						const assetString = refCaché[assetId].toString('base64');
+						slice.push(Buffer.from(`<asset id="${assetId}">${assetString}</asset>`));
+					}
 					else
 						delete refCaché[assetId];
 
-				buffers.push(`</film>`);
-				res(Buffer.concat(buffers));
+				slice.push(Buffer.from(`</film>`));
+				res(Buffer.concat(slice));
 			});
 		});
 	}

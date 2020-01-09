@@ -1,4 +1,4 @@
-const loadPost = require('../loadPostBody');
+const loadPost = require('../request/post_body');
 const character = require('./main');
 
 module.exports = function (req, res, url) {

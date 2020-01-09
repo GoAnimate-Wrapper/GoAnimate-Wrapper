@@ -1,10 +1,10 @@
-const loadPost = require('../loadPostBody');
+const loadPost = require('../request/post_body');
 const fs = require('fs');
 
 module.exports = function (req, res, url) {
 	if (req.method != 'POST' || url.path != '/goapi/getCCPreMadeCharacters') return;
 	loadPost(req, res).then(data => {
-		const p = './premadeChars/' + data.themeId + '.xml';
+		const p = './premadeChars/' + data.themeId + 'xml';
 		res.setHeader('Content-Type', 'text/html; charset=UTF-8');
 		fs.createReadStream(p).pipe(res);
 	});

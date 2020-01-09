@@ -1,5 +1,5 @@
 const thumbUrl = process.env.THUMB_BASE_URL;
-const get = require('./reqGet');
+const get = require('../request/get');
 
 module.exports = function (req, res, url) {
 	if (req.method != 'GET' || !url.path.startsWith('/thumbs/')) return;

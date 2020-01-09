@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list version="1.0">
+	<fvm_meta theme_code="" is_biz="0" />
+	<theme id="business" name="Business Friendly" seg1="business\business.zip" seg2="business\business2.zip" thumb="" cc_theme_id="business" />
+	<theme id="whiteboard" name="Whiteboard Animation" seg1="whiteboard\whiteboard.zip" seg2="whiteboard\whiteboard2.zip" thumb="" cc_theme_id="whiteboard" />
+	<theme id="infographics" name="Video Infographics" seg1="infographics\infographics.zip" seg2="infographics\infographics2.zip" thumb="" cc_theme_id="infographics" />
+	<theme id="retro" name="Cartoon Classics" seg1="retro\retro.zip" seg2="retro\retro2.zip" thumb="ann-stand.swf" cc_theme_id="retro" />
+	<theme id="vietnam" name="Jungle Warfare" seg1="vietnam\vietnam.zip" seg2="vietnam\vietnam2.zip" thumb="" cc_theme_id="vietnam" />
+	<theme id="monstermsh" name="Monsters Mayhem" seg1="monstermsh\monstermsh.zip" seg2="monstermsh\monstermsh2.zip" thumb="" cc_theme_id="monstermsh" />
+	<theme id="stick" name="Stick Figure" seg1="stick\stick.zip" seg2="stick\stick2.zip" thumb="" cc_theme_id="stick" />
+	<theme id="action" name="Lil' Peepz" seg1="action\action.zip" seg2="action\action2.zip" thumb="" cc_theme_id="action" />
+	<theme id="custom" name="Comedy World" seg1="custom\custom.zip" seg2="custom\custom2.zip" thumb="" cc_theme_id="custom" />
+	<theme id="animal" name="Lil' Petz" seg1="animal\animal.zip" seg2="animal\animal2.zip" thumb="" cc_theme_id="animal" />
+	<theme id="politics2" name="White Houserz" seg1="politics2\politics2.zip" seg2="politics2\politics22.zip" thumb="" cc_theme_id="politics2" />
+	<theme id="chibi" name="Chibi Peepz" seg1="chibi\chibi.zip" seg2="chibi\chibi2.zip" thumb="" cc_theme_id="chibi" />
+	<theme id="space" name="Space Peepz" seg1="space\space.zip" seg2="space\space2.zip" thumb="" cc_theme_id="space" />
+	<theme id="ninja" name="Chibi Ninjas" seg1="ninja\ninja.zip" seg2="ninja\ninja2.zip" thumb="" cc_theme_id="ninja" />
+	<theme id="anime" name="Anime" seg1="anime\anime.zip" seg2="anime\anime2.zip" thumb="" cc_theme_id="anime" />
+	<theme id="ninjaanime" name="Ninja Anime" seg1="ninjaanime\ninjaanime.zip" seg2="ninjaanime\ninjaanime2.zip" thumb="" cc_theme_id="ninjaanime" />
+	<theme id="christmas" name="Holiday &amp; Seasonal" seg1="christmas\christmas.zip" seg2="christmas\christmas2.zip" thumb="santa-stand.swf" cc_theme_id="christmas" />
+	<theme id="spacecitizen" name="Space Citizens" seg1="spacecitizen\spacecitizen.zip" seg2="spacecitizen\spacecitizen2.zip" thumb="" cc_theme_id="spacecitizen" />
+	<theme id="commoncraft" name="Common Craft" seg1="commoncraft\commoncraft.zip" seg2="commoncraft\commoncraft2.zip" thumb="" cc_theme_id="commoncraft" />
+	<theme id="politic" name="Politics &amp; Celebrity" seg1="politic\politic.zip" seg2="politic\politic2.zip" thumb="hilary-stand.swf" cc_theme_id="politic" />
+	<theme id="common" name="Common" seg1="common\common.zip" seg2="common\common2.zip" thumb="matchboy-stand.swf" cc_theme_id="common" />
+	<word>mikiko,vikiko</word>
+	<whiteword />
+	<excludeAssetIDs />
+	<points money="0" sharing="0" />
+</list>

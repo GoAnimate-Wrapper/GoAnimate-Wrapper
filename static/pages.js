@@ -1,3 +1,4 @@
+const sessions = require('../sessions');
 const fUtil = require('../fileUtil');
 const stuff = require('./info');
 
@@ -41,6 +42,9 @@ module.exports = function (req, res, url) {
 			break;
 
 		case '/go_full':
+			let presave = query.movieId && query.movieId.startsWith('m') ? query.movieId :
+				`m-${fUtil[query.noAutosave ? 'getNextFileId' : 'fillNextFileId']('movie-', 'xml')}`;
+			let ip = req.headers['x-forwarded-for'];
 			title = 'Video Editor';
 			attrs = {
 				data: process.env.SWF_URL + '/go_full.swf',
@@ -51,10 +55,11 @@ module.exports = function (req, res, url) {
 					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>', 'isEmbed': '1', 'ctc': 'go',
 					'ut': 30, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'go', 'isLogin': 'Y', 'retut': '1',
 					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'themeId': 'business', 'tlang': 'en_US',
-					'presaveId': query.movieId && query.movieId.startsWith('m') ? '' : `m-${fUtil.fillNextFileId('movie-', '.xml')}`
+					'presaveId': presave,
 				},
 				allowScriptAccess: 'always',
 			};
+			sessions.set(presave, ip);
 			break;
 
 		case '/player':
@@ -78,6 +83,6 @@ module.exports = function (req, res, url) {
 	res.setHeader('Content-Type', 'text/html; charset=UTF-8');
 	Object.assign(params.flashvars, query);
 	res.end(`<script>document.title='${title}',flashvars=${JSON.stringify(params.flashvars)}</script><body style="margin:0px">${toObjectString(attrs, params)
-		}</body><script>${stuff.pages[url.pathname] || ''}</script>`);
+		}</body>${stuff.pages[url.pathname] || ''}`);
 	return true;
 }

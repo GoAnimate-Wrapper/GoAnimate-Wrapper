@@ -48,7 +48,7 @@
 		}
 	},
 	"pages": {
-		"/go_full": "interactiveTutorial={neverDisplay:function(){return true}};function exitStudio(){fetch('event/close')};studioLoaded=console.log;function initPreviewPlayer(xml){console.log('Starting preview transfer.');var a=xml.split('');function f(){var s=a.splice(0,5e5);if(s.length)fetch('/savePreview/',{method:'POST',body:s.join('')}).then(f);else window.open('player?isInitFromExternal=1','MsgWindow','width=1280,height=720,left='+(screen.width/2-640)+',top='+(screen.height/2-360))};f()};exitStudio=window.history.back;",
-		"/player": "function retrievePreviewPlayerData(){var r=new XMLHttpRequest();r.open('GET','/loadPreview'+window.location.search,false);r.send(null);return r.responseText}"
+		"/go_full": "<iframe style='display:none'name='dummy'></iframe><form style='display:none'id='uploadbanner'enctype='multipart/form-data'method='post'action='saveAsset'target='dummy'><input id='fileupload'name='import'type='file'/><input type='submit'value='submit'id='submit'/></form><script>interactiveTutorial={neverDisplay:function(){return true}};function exitStudio(){fetch('event/close')};function studioLoaded(arg){console.log(arg)}function initPreviewPlayer(xml){console.log('Starting preview transfer.');var a=xml.split('');function f(){var s=a.splice(0,5e5);if(s.length)fetch('/savePreview/',{method:'POST',body:s.join('')}).then(f);else window.open('player?isInitFromExternal=1','MsgWindow','width=1280,height=720,left='+(screen.width/2-640)+',top='+(screen.height/2-360))};f()};function exitStudio(){window.history.back()}const fu=document.getElementById('fileupload'),sub=document.getElementById('submit');function showImporter(){fu.click()}fu.addEventListener('change',evt=>(evt.target.files[0]!=undefined)&&sub.click(),false);</script>",
+		"/player": "<script>function retrievePreviewPlayerData(){var r=new XMLHttpRequest();r.open('GET','/loadPreview',false);r.send(null);return r.responseText}</script>"
 	}
 }

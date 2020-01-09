@@ -26,19 +26,19 @@ module.exports = {
 	 * @param {number} l
 	 * @returns {string}
 	 */
-	getNextFile(s, ext = '.xml', l = 7) {
-		const regex = new RegExp(`${s}[0-9]*${ext}$`);
-		const dir = fs.readdirSync(process.env.FILE_FOLDER).filter(v => v && regex.test(v));
-		return `${process.env.FILE_FOLDER}/${s}${this.padZero(dir.length, l)}${ext}`;
+	getNextFile(s, ext = 'xml', l = 7) {
+		const regex = new RegExp(`${s}[0-9]*\.${ext}$`);
+		const dir = fs.readdirSync(process.env.MOVIE_FOLDER).filter(v => v && regex.test(v));
+		return `${process.env.MOVIE_FOLDER}/${s}${this.padZero(dir.length, l)}${ext}`;
 	},
 	/**
 	 * @param {string} s
 	 * @param {string} ext
 	 * @returns {number}
 	 */
-	getNextFileId(s, ext = '.xml') {
-		const regex = new RegExp(`${s}[0-9]*${ext}$`);
-		const dir = fs.readdirSync(process.env.FILE_FOLDER).filter(v => v && regex.test(v));
+	getNextFileId(s, ext = 'xml') {
+		const regex = new RegExp(`${s}[0-9]*\.${ext}$`);
+		const dir = fs.readdirSync(process.env.MOVIE_FOLDER).filter(v => v && regex.test(v));
 		return dir.length;
 	},
 	/**
@@ -46,8 +46,8 @@ module.exports = {
 	 * @param {string} ext
 	 * @returns {number}
 	 */
-	fillNextFileId(s, ext = '.xml', l = 7) {
-		const id = this.getNextFileId(s, ext, l);
+	fillNextFileId(s, ext = 'xml', l = 7) {
+		const id = this.getNextFileId(s, ext);
 		const fn = this.getFileIndex(s, ext, id, l);
 		fs.writeFileSync(fn, '');
 		return id;
@@ -59,8 +59,8 @@ module.exports = {
 	 * @param {number} l
 	 * @returns {string}
 	 */
-	getFileIndex(s, ext = '.xml', n, l = 7) {
-		return `${process.env.FILE_FOLDER}/${s}${this.padZero(n, l)}${ext}`;
+	getFileIndex(s, ext = 'xml', n, l = 7) {
+		return `${process.env.MOVIE_FOLDER}/${s}.${this.padZero(n, l)}${ext}`;
 	},
 	/**
 	 * 
