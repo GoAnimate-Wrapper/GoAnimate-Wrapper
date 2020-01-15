@@ -1,5 +1,5 @@
-const caché = require('../movie/caché');
-const sessions = require('../sessions');
+const sessions = require('../data/sessions');
+const caché = require('../data/caché');
 const info = require('./info');
 
 function getFilter(mId, types) {

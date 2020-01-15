@@ -1,5 +1,5 @@
 const loadPost = require('../request/post_body');
-const sessions = require('../sessions');
+const sessions = require('../data/sessions');
 const asset = require('./main');
 
 module.exports = function (req, res, url) {

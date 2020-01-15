@@ -16,7 +16,7 @@ module.exports = function (req, res, url) {
 					res.setHeader(headerName, headers[headerName]);
 				res.statusCode = t.statusCode || 200;
 				if (t.content !== undefined) res.end(t.content);
-				else fs.createReadStream('.' + link).pipe(res);
+				else fs.createReadStream(`./${link}`).pipe(res);
 			}
 			catch (e) {
 				res.statusCode = t.statusCode || 404, res.end();

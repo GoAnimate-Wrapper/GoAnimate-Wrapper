@@ -1,0 +1,195 @@
+<header><strong>Disclaimer:</strong> this service is not finished yet; some features (such as custom assets and
+	characters) may not be available at this time.</header>
+<table>
+	<thead>
+		<tr>
+			<td></td>
+			<td>Video Title</td>
+			<td>Last Modified</td>
+			<td></td>
+		</tr>
+	</thead>
+	<tbody id="table-body"></tbody>
+</table>
+<script>
+	var id = 0;
+	var tbody = document.getElementById('table-body');
+	const http = new XMLHttpRequest();
+	http.open('GET', '/movieList');
+	http.send();
+
+	http.onreadystatechange = function (e) {
+		if (http.readyState != 4) return;
+		const json = JSON.parse(http.responseText);
+		json.forEach(function (tbl) {
+			tbody.innerHTML +=
+				'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title + '</div><div>' + tbl.durationString + '</div></div></td><td>' + tbl.date + '</td><td><a href="/player?movieId=' + tbl.id + '"></a><a href="/go_full?movieId=' + tbl.id + '"></a></td></tr>';
+		});
+	}
+</script>
+<style>
+	html {
+		font-family: sans-serif;
+		-ms-text-size-adjust: 100%;
+		-webkit-text-size-adjust: 100%;
+	}
+
+	body {
+		margin: 0;
+		background-color: #fff;
+		color: #474747;
+		font-family: 'Sailec', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 1.5;
+		position: relative;
+	}
+
+	header {
+		height: 35px;
+		padding-top: 10px;
+		background-color: #d85e27;
+		color: #fff;
+		text-align: center;
+	}
+
+	table {
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 20px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 127px;
+		background-color: transparent;
+		border-collapse: collapse;
+		border-spacing: 0;
+		font-size: 14px;
+	}
+
+	@media(min-width: 768px) {
+		table {
+			width: 750px;
+		}
+	}
+
+	@media(min-width: 992px) {
+		table {
+			width: 970px;
+		}
+	}
+
+	@media(min-width: 1200px) {
+		table {
+			width: 1170px;
+		}
+	}
+
+	thead {
+		font-weight: 200;
+	}
+
+	td {
+		padding: 8px;
+		vertical-align: middle;
+		line-height: 1.42857143;
+	}
+
+	thead {
+		border-bottom: 2px solid #ddd;
+		border-top: 1px solid #ddd;
+	}
+
+	tr {
+		border-top: 0;
+		border-bottom: 1px solid #ddd;
+	}
+
+	tr:hover {
+		background-color: #f5f5f5;
+	}
+
+	tr>:nth-child(1) {
+		width: 64px;
+	}
+
+	tr>:nth-child(1)>img {
+		height: 36px;
+	}
+
+	tr>:nth-child(2)>:nth-child(1) {
+		word-break: break-word;
+	}
+
+	tr>:nth-child(2)>:nth-child(2) {
+		color: #999;
+	}
+
+	tr>:nth-child(3) {
+		width: 200px;
+	}
+
+	tr>:nth-child(4) {
+		font-family: 'GlyphiconsRegular';
+		text-decoration: none;
+		padding-top: 5px;
+		font-size: 14px;
+		width: 50px;
+	}
+
+	tr>:nth-child(4)>a {
+		display: inline-block;
+		text-decoration: none;
+		padding-right: 10px;
+		color: #474747;
+	}
+
+	tr>:nth-child(4)>a:hover {
+		color: #d85e27;
+	}
+
+	tr>:nth-child(4)>a:nth-child(1):before {
+		content: '\E174';
+	}
+
+	tr>:nth-child(4)>a:nth-child(2):before {
+		content: '\E235';
+	}
+
+	@font-face {
+		font-family: 'Sailec';
+		font-weight: 100;
+		src: url('./Sailec-Thin.woff') format('woff');
+	}
+
+	@font-face {
+		font-family: 'Sailec';
+		font-weight: 200;
+		src: url('./Sailec-Light.woff') format('woff');
+	}
+
+	@font-face {
+		font-family: 'Sailec';
+		font-weight: 400;
+		src: url('./Sailec-Regular.woff') format('woff');
+	}
+
+	@font-face {
+		font-family: 'Sailec';
+		font-weight: 500;
+		src: url('./Sailec-Medium.woff') format('woff');
+	}
+
+	/* font weight 500 and font weight 700 (bold) are the same for better integration support */
+	@font-face {
+		font-family: 'Sailec';
+		font-weight: 700;
+		src: url('./Sailec-Medium.woff') format('woff');
+	}
+
+	@font-face {
+		font-family: 'GlyphiconsRegular';
+		src: url('./glyphicons-regular.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+	}
+</style>

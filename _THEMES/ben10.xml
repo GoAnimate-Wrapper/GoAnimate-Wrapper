@@ -28,12 +28,12 @@
 			<action id="stand_back.swf" name="Back view" loop="Y" totalframe="50" enable="Y" aid="7738"/>
 		</category>
 		<motion id="walk.swf" name="Walk" loop="Y" totalframe="24" enable="Y" aid="7728"/>
-		<action id="disabled_walk.swf" name="Walk" loop="N" totalframe="50" enable="N" aid="7729"/>
+		<action id="disabled_walk.swf" name="Walk" loop="N" totalframe="50" enable="Y" aid="7729"/>
 		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="43" enable="Y" aid="7730"/>
 		<action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="7734"/>
 		<action id="crouch_duck.swf" name="Duck" loop="Y" totalframe="65" enable="Y" aid="7736"/>
 		<action id="point_at.swf" name="Point at" loop="Y" totalframe="61" enable="Y" aid="7737"/>
-		<action id="fly_board.swf" name="Fly in hoverboard" loop="N" totalframe="50" enable="N" aid="7739"/>
+		<action id="fly_board.swf" name="Fly in hoverboard" loop="N" totalframe="50" enable="Y" aid="7739"/>
 		<facial id="head_happy.swf" name="Happy" enable="Y" aid="7740"/>
 		<facial id="head_sad.swf" name="Sad" enable="Y" aid="7741"/>
 		<facial id="head_angry.swf" name="Angry" enable="Y" aid="7742"/>
@@ -198,9 +198,9 @@
 			<action id="block.swf" name="Block" loop="Y" totalframe="50" enable="Y" aid="8003"/>
 		</category>
 		<category name="Fire jet rays">
-			<action id="fire_eye_down.swf" name="From eyes - down" loop="Y" totalframe="61" enable="N" aid="8004"/>
-			<action id="fire_tail.swf" name="From tail" loop="Y" totalframe="67" enable="N" aid="8005"/>
-			<action id="fire_eye_straight.swf" name="From eyes - straight" loop="Y" totalframe="61" enable="N" aid="8006"/>
+			<action id="fire_eye_down.swf" name="From eyes - down" loop="Y" totalframe="61" enable="Y" aid="8004"/>
+			<action id="fire_tail.swf" name="From tail" loop="Y" totalframe="67" enable="Y" aid="8005"/>
+			<action id="fire_eye_straight.swf" name="From eyes - straight" loop="Y" totalframe="61" enable="Y" aid="8006"/>
 			<action id="fire_eye_down02.swf" name="From eyes - down" loop="Y" totalframe="67" enable="Y" aid="8899">
 				<prop id="msp_jetray_eye_beam.msp_jetray_eye_beam_eye_beam_med.swf" aid="8893"/>
 			</action>
@@ -409,16 +409,16 @@
 			<action id="block.swf" name="Block" loop="Y" totalframe="60" enable="Y" aid="7979"/>
 		</category>
 		<category name="Shoot Goop">
-			<action id="shoot_spit.swf" name="Down" loop="Y" totalframe="100" enable="N" aid="7977">
+			<action id="shoot_spit.swf" name="Down" loop="Y" totalframe="100" enable="Y" aid="7977">
 				<prop id="msp_goop.msp_goop_slime_med.swf" aid="8229"/>
 			</action>
-			<action id="shoot_spit_02.swf" name="Straight" loop="Y" totalframe="100" enable="N" aid="8231">
+			<action id="shoot_spit_02.swf" name="Straight" loop="Y" totalframe="100" enable="Y" aid="8231">
 				<prop id="msp_goop.msp_goop_slime_med.swf" aid="8229"/>
 			</action>
-			<action id="shoot_spit_03.swf" name="Up" loop="Y" totalframe="100" enable="N" aid="8232">
+			<action id="shoot_spit_03.swf" name="Up" loop="Y" totalframe="100" enable="Y" aid="8232">
 				<prop id="msp_goop.msp_goop_slime_med.swf" aid="8229"/>
 			</action>
-			<action id="shoot_spit_04.swf" name="Down" loop="Y" totalframe="100" enable="N" aid="8234">
+			<action id="shoot_spit_04.swf" name="Down" loop="Y" totalframe="100" enable="Y" aid="8234">
 				<prop id="msp_goop.msp_goop_slime_med.swf" aid="8229"/>
 			</action>
 			<action id="shoot_spit_05.swf" name="Straight" loop="Y" totalframe="100" enable="Y" aid="8443">
@@ -448,7 +448,7 @@
 		<motion id="run.swf" name="Run" loop="Y" totalframe="16" enable="Y" aid="7988"/>
 		<facial id="head_angry.swf" name="Angry" enable="Y" aid="7989"/>
 		<facial id="head_tenticles.swf" name="Face tentacles wriggling" enable="Y" aid="7990"/>
-		<facial id="head_spit.swf" name="Spit" enable="N" aid="7991"/>
+		<facial id="head_spit.swf" name="Spit" enable="Y" aid="7991"/>
 		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="7992"/>
 	</char>
 	<char id="brainstorm" name="Brainstorm" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="9913" money="0" sharing="0">
@@ -634,27 +634,27 @@
 		<facial id="head_shake_head.swf" name="Shake head" enable="Y" aid="10032"/>
 		<facial id="head_scared.swf" name="Scared" enable="Y" aid="10033"/>
 	</char>
-	<background id="alient_interior.swf" name="alien interior" enable="N" is_premium="N" aid="7748" money="0" sharing="0"/>
-	<background id="car_interior_bg.swf" name="car" enable="N" is_premium="N" aid="8065" money="0" sharing="0"/>
-	<background id="station_bg.swf" name="subway station" enable="N" is_premium="N" aid="8066" money="0" sharing="0"/>
+	<background id="alient_interior.swf" name="alien interior" enable="Y" is_premium="N" aid="7748" money="0" sharing="0"/>
+	<background id="car_interior_bg.swf" name="car" enable="Y" is_premium="N" aid="8065" money="0" sharing="0"/>
+	<background id="station_bg.swf" name="subway station" enable="Y" is_premium="N" aid="8066" money="0" sharing="0"/>
 	<background id="opbg.swf" name="opening" enable="Y" is_premium="N" aid="8067" money="0" sharing="0"/>
-	<background id="castle_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10034" money="0" sharing="0"/>
-	<background id="bedroom_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10035" money="0" sharing="0"/>
-	<background id="garage_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10036" money="0" sharing="0"/>
-	<background id="inside_trailer_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10037" money="0" sharing="0"/>
-	<background id="ice_factory_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10038" money="0" sharing="0"/>
-	<background id="alien_lab_bg.swf" name="alien lab" enable="N" is_premium="N" aid="8064" money="0" sharing="0"/>
-	<background id="trailer_at_night_bg.swf" name="trailer at night" enable="N" is_premium="N" aid="8063" money="0" sharing="0"/>
-	<background id="farm_yard_bg.swf" name="farm yard" enable="N" is_premium="N" aid="8062" money="0" sharing="0"/>
-	<background id="alient_ship_exterior.swf" name="alien ship exterior" enable="N" is_premium="N" aid="7749" money="0" sharing="0"/>
-	<background id="desert.swf" name="desert" enable="N" is_premium="N" aid="7750" money="0" sharing="0"/>
-	<background id="farm_yard.swf" name="farm yard" enable="N" is_premium="N" aid="7751" money="0" sharing="0"/>
-	<background id="sports_field.swf" name="sports field" enable="N" is_premium="N" aid="7752" money="0" sharing="0"/>
-	<background id="trailer_at_night.swf" name="trailer at night" enable="N" is_premium="N" aid="7753" money="0" sharing="0"/>
-	<background id="alien_interior_bg.swf" name="alien interior" enable="N" is_premium="N" aid="8059" money="0" sharing="0"/>
-	<background id="alient_ship_exterior_bg.swf" name="alien ship exterior" enable="N" is_premium="N" aid="8060" money="0" sharing="0"/>
-	<background id="desert_bg.swf" name="desert" enable="N" is_premium="N" aid="8061" money="0" sharing="0"/>
-	<background id="outside_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10039" money="0" sharing="0"/>
+	<background id="castle_bg.swf" name="" enable="Y" default="N" is_premium="N" aid="10034" money="0" sharing="0"/>
+	<background id="bedroom_bg.swf" name="" enable="Y" default="N" is_premium="N" aid="10035" money="0" sharing="0"/>
+	<background id="garage_bg.swf" name="" enable="Y" default="N" is_premium="N" aid="10036" money="0" sharing="0"/>
+	<background id="inside_trailer_bg.swf" name="" enable="Y" default="N" is_premium="N" aid="10037" money="0" sharing="0"/>
+	<background id="ice_factory_bg.swf" name="" enable="Y" default="N" is_premium="N" aid="10038" money="0" sharing="0"/>
+	<background id="alien_lab_bg.swf" name="alien lab" enable="Y" is_premium="N" aid="8064" money="0" sharing="0"/>
+	<background id="trailer_at_night_bg.swf" name="trailer at night" enable="Y" is_premium="N" aid="8063" money="0" sharing="0"/>
+	<background id="farm_yard_bg.swf" name="farm yard" enable="Y" is_premium="N" aid="8062" money="0" sharing="0"/>
+	<background id="alient_ship_exterior.swf" name="alien ship exterior" enable="Y" is_premium="N" aid="7749" money="0" sharing="0"/>
+	<background id="desert.swf" name="desert" enable="Y" is_premium="N" aid="7750" money="0" sharing="0"/>
+	<background id="farm_yard.swf" name="farm yard" enable="Y" is_premium="N" aid="7751" money="0" sharing="0"/>
+	<background id="sports_field.swf" name="sports field" enable="Y" is_premium="N" aid="7752" money="0" sharing="0"/>
+	<background id="trailer_at_night.swf" name="trailer at night" enable="Y" is_premium="N" aid="7753" money="0" sharing="0"/>
+	<background id="alien_interior_bg.swf" name="alien interior" enable="Y" is_premium="N" aid="8059" money="0" sharing="0"/>
+	<background id="alient_ship_exterior_bg.swf" name="alien ship exterior" enable="Y" is_premium="N" aid="8060" money="0" sharing="0"/>
+	<background id="desert_bg.swf" name="desert" enable="Y" is_premium="N" aid="8061" money="0" sharing="0"/>
+	<background id="outside_bg.swf" name="" enable="Y" default="N" is_premium="N" aid="10039" money="0" sharing="0"/>
 	<compositebg id="cbg_ai" name="alien interior" enable="Y" default="N" thumb="alien_interior.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="8068">
 		<bg id="cbg_ai_BG1" index="0">
 			<file>ben10.alien_interior_bg.swf</file>
@@ -1170,12 +1170,12 @@
 		<state id="msp_goop_slime_med.swf" name="medium" enable="Y"/>
 		<state id="msp_goop_slime_long.swf" name="long" enable="Y"/>
 	</prop>
-	<prop id="msp_jetray_eye_beam" name="eye beam" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_jetray_eye_beam_eye_beam_med.swf" enable="N" is_premium="N" aid="8891" money="0" sharing="0">
+	<prop id="msp_jetray_eye_beam" name="eye beam" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_jetray_eye_beam_eye_beam_med.swf" enable="Y" is_premium="N" aid="8891" money="0" sharing="0">
 		<state id="msp_jetray_eye_beam_eye_beam_long.swf" name="Long" enable="Y"/>
 		<state id="msp_jetray_eye_beam_eye_beam_med.swf" name="Medium" enable="Y" default="Y"/>
 		<state id="msp_jetray_eye_beam_eye_beam_short.swf" name="Short" enable="Y"/>
 	</prop>
-	<prop id="msp_jetray_tail_beam" name="tail beam" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_jetray_tail_beam_tail_beam_med.swf" enable="N" is_premium="N" aid="8895" money="0" sharing="0">
+	<prop id="msp_jetray_tail_beam" name="tail beam" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_jetray_tail_beam_tail_beam_med.swf" enable="Y" is_premium="N" aid="8895" money="0" sharing="0">
 		<state id="msp_jetray_tail_beam_tail_beam_long.swf" name="Long" enable="Y"/>
 		<state id="msp_jetray_tail_beam_tail_beam_med.swf" name="Medium" enable="Y" default="Y"/>
 		<state id="msp_jetray_tail_beam_tail_beam_short.swf" name="Short" enable="Y"/>
@@ -1219,21 +1219,21 @@
 	</prop>
 	<prop id="ice_01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9839" money="0" sharing="0"/>
 	<prop id="ice_02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9840" money="0" sharing="0"/>
-	<prop id="garage_prop03.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9861" money="0" sharing="0"/>
-	<prop id="garage_prop04.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9862" money="0" sharing="0"/>
-	<prop id="garage_prop01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9863" money="0" sharing="0"/>
-	<prop id="garage_prop02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9864" money="0" sharing="0"/>
-	<prop id="inside_trailer_table.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9865" money="0" sharing="0"/>
-	<prop id="inside_trailer_chair.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9866" money="0" sharing="0"/>
-	<prop id="ice_grass01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9867" money="0" sharing="0"/>
-	<prop id="ice_grass02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9868" money="0" sharing="0"/>
-	<prop id="ice_building.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9869" money="0" sharing="0"/>
-	<prop id="outside_fence.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9870" money="0" sharing="0"/>
-	<prop id="msp_bd_door" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_bd_door_bedroom_door_open.swf" enable="N" is_premium="N" aid="9858" money="0" sharing="0">
+	<prop id="garage_prop03.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9861" money="0" sharing="0"/>
+	<prop id="garage_prop04.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9862" money="0" sharing="0"/>
+	<prop id="garage_prop01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9863" money="0" sharing="0"/>
+	<prop id="garage_prop02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9864" money="0" sharing="0"/>
+	<prop id="inside_trailer_table.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9865" money="0" sharing="0"/>
+	<prop id="inside_trailer_chair.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9866" money="0" sharing="0"/>
+	<prop id="ice_grass01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9867" money="0" sharing="0"/>
+	<prop id="ice_grass02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9868" money="0" sharing="0"/>
+	<prop id="ice_building.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9869" money="0" sharing="0"/>
+	<prop id="outside_fence.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9870" money="0" sharing="0"/>
+	<prop id="msp_bd_door" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_bd_door_bedroom_door_open.swf" enable="Y" is_premium="N" aid="9858" money="0" sharing="0">
 		<state id="msp_bd_door_bedroom_door_closed.swf" name="closed" enable="Y"/>
 		<state id="msp_bd_door_bedroom_door_open.swf" name="open" enable="Y" default="Y"/>
 	</prop>
-	<prop id="castle_chair.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9857" money="0" sharing="0"/>
+	<prop id="castle_chair.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9857" money="0" sharing="0"/>
 	<prop id="ice_03.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9841" money="0" sharing="0"/>
 	<prop id="ice_slide.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9842" money="0" sharing="0"/>
 	<prop id="msp_sm" name="hb" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_sm_shoot_med.swf" enable="Y" is_premium="N" aid="9843" money="0" sharing="0">
@@ -1250,32 +1250,32 @@
 		<state id="msp_ch_split_med.swf" name="medium" enable="Y" default="Y"/>
 		<state id="msp_ch_split_short.swf" name="short" enable="Y"/>
 	</prop>
-	<prop id="castle_prop01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9855" money="0" sharing="0"/>
-	<prop id="castle_prop02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9856" money="0" sharing="0"/>
-	<prop id="bedroom_chair.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9871" money="0" sharing="0"/>
-	<prop id="car_01.swf" name="car" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7754" money="0" sharing="0"/>
-	<prop id="desert_rock04.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7844" money="0" sharing="0"/>
-	<prop id="desert_rock05.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7845" money="0" sharing="0"/>
-	<prop id="farm_yard_p01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7846" money="0" sharing="0"/>
-	<prop id="farm_yard_p02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7847" money="0" sharing="0"/>
-	<prop id="farm_yard_p03.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7848" money="0" sharing="0"/>
+	<prop id="castle_prop01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9855" money="0" sharing="0"/>
+	<prop id="castle_prop02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9856" money="0" sharing="0"/>
+	<prop id="bedroom_chair.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9871" money="0" sharing="0"/>
+	<prop id="car_01.swf" name="car" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7754" money="0" sharing="0"/>
+	<prop id="desert_rock04.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7844" money="0" sharing="0"/>
+	<prop id="desert_rock05.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7845" money="0" sharing="0"/>
+	<prop id="farm_yard_p01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7846" money="0" sharing="0"/>
+	<prop id="farm_yard_p02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7847" money="0" sharing="0"/>
+	<prop id="farm_yard_p03.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7848" money="0" sharing="0"/>
 	<prop id="trailer_at_night_p01.swf" name="bush" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7849" money="0" sharing="0"/>
-	<prop id="trailer_at_night_p02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7850" money="0" sharing="0"/>
+	<prop id="trailer_at_night_p02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7850" money="0" sharing="0"/>
 	<prop id="trailer_at_night_p03.swf" name="tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7851" money="0" sharing="0"/>
-	<prop id="trailer_at_night_p04.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7852" money="0" sharing="0"/>
-	<prop id="trailer_at_night_p05.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7853" money="0" sharing="0"/>
-	<prop id="desert_rock03.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7843" money="0" sharing="0"/>
-	<prop id="desert_rock02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7842" money="0" sharing="0"/>
+	<prop id="trailer_at_night_p04.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7852" money="0" sharing="0"/>
+	<prop id="trailer_at_night_p05.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7853" money="0" sharing="0"/>
+	<prop id="desert_rock03.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7843" money="0" sharing="0"/>
+	<prop id="desert_rock02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7842" money="0" sharing="0"/>
 	<prop id="hologram_echo.swf" name="Hologram - Echo Echo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7755" money="0" sharing="0"/>
 	<prop id="hologram_jetray.swf" name="Hologram - Jetray" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7756" money="0" sharing="0"/>
 	<prop id="hologram_humongousaur.swf" name="Hologram - Humungousaur" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7757" money="0" sharing="0"/>
-	<prop id="alien_interior_staircase01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7835" money="0" sharing="0"/>
-	<prop id="alien_interior_staircase02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7836" money="0" sharing="0"/>
-	<prop id="alien_interior_tube.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7837" money="0" sharing="0"/>
-	<prop id="alient_ship_exterior_base.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7838" money="0" sharing="0"/>
-	<prop id="alient_ship_exterior_ramp.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7839" money="0" sharing="0"/>
-	<prop id="desert_lake.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7840" money="0" sharing="0"/>
-	<prop id="desert_rock01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7841" money="0" sharing="0"/>
+	<prop id="alien_interior_staircase01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7835" money="0" sharing="0"/>
+	<prop id="alien_interior_staircase02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7836" money="0" sharing="0"/>
+	<prop id="alien_interior_tube.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7837" money="0" sharing="0"/>
+	<prop id="alient_ship_exterior_base.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7838" money="0" sharing="0"/>
+	<prop id="alient_ship_exterior_ramp.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7839" money="0" sharing="0"/>
+	<prop id="desert_lake.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7840" money="0" sharing="0"/>
+	<prop id="desert_rock01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7841" money="0" sharing="0"/>
 	<prop id="trailer_at_night_trailer.swf" name="camper" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7854" money="0" sharing="0"/>
 	<prop id="msp_ben10_create" name="shield" holdable="1" placeable="1" wearable="0" facing="left" thumb="create_energy01.swf" enable="Y" is_premium="N" aid="7855" money="0" sharing="0">
 		<state id="create_energy01.swf" name="square" enable="Y" default="Y"/>
@@ -1287,7 +1287,7 @@
 		<state id="beam_energy02.swf" name="medium" enable="Y"/>
 		<state id="beam_energy03.swf" name="long" enable="Y"/>
 	</prop>
-	<prop id="msp_door" name="door" holdable="0" placeable="0" wearable="0" facing="left" thumb="farm_yard_house_close.swf" enable="N" is_premium="N" aid="7875" money="0" sharing="0">
+	<prop id="msp_door" name="door" holdable="0" placeable="0" wearable="0" facing="left" thumb="farm_yard_house_close.swf" enable="Y" is_premium="N" aid="7875" money="0" sharing="0">
 		<state id="farm_yard_house_close.swf" name="closed" enable="Y" default="Y"/>
 		<state id="farm_yard_house_open.swf" name="open" enable="Y"/>
 	</prop>
@@ -1300,17 +1300,17 @@
 	<prop id="mobile.swf" name="Mobile phone" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7884" money="0" sharing="0"/>
 	<prop id="alienspaceship01.swf" name="Alien spaceship" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7885" money="0" sharing="0"/>
 	<prop id="softdrink.swf" name="Soft drink" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7886" money="0" sharing="0"/>
-	<prop id="station_p05.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7874" money="0" sharing="0"/>
-	<prop id="station_p04.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7873" money="0" sharing="0"/>
-	<prop id="alien_lab_p01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7863" money="0" sharing="0"/>
-	<prop id="alien_lab_p02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7864" money="0" sharing="0"/>
-	<prop id="car_interior_p01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7865" money="0" sharing="0"/>
-	<prop id="car_interior_p02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7866" money="0" sharing="0"/>
-	<prop id="car_interior_p03.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7867" money="0" sharing="0"/>
-	<prop id="car_interior_p04.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7868" money="0" sharing="0"/>
-	<prop id="car_interior_p05.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7869" money="0" sharing="0"/>
-	<prop id="station_p01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7870" money="0" sharing="0"/>
-	<prop id="station_p02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7871" money="0" sharing="0"/>
-	<prop id="station_p03.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="7872" money="0" sharing="0"/>
+	<prop id="station_p05.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7874" money="0" sharing="0"/>
+	<prop id="station_p04.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7873" money="0" sharing="0"/>
+	<prop id="alien_lab_p01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7863" money="0" sharing="0"/>
+	<prop id="alien_lab_p02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7864" money="0" sharing="0"/>
+	<prop id="car_interior_p01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7865" money="0" sharing="0"/>
+	<prop id="car_interior_p02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7866" money="0" sharing="0"/>
+	<prop id="car_interior_p03.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7867" money="0" sharing="0"/>
+	<prop id="car_interior_p04.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7868" money="0" sharing="0"/>
+	<prop id="car_interior_p05.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7869" money="0" sharing="0"/>
+	<prop id="station_p01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7870" money="0" sharing="0"/>
+	<prop id="station_p02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7871" money="0" sharing="0"/>
+	<prop id="station_p03.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7872" money="0" sharing="0"/>
 	<prop id="flame.swf" name="Flame" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7887" money="0" sharing="0"/>
 </theme>

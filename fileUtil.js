@@ -1,3 +1,4 @@
+const folder = process.env.SAVED_FOLDER;
 const nodezip = require('node-zip');
 const fs = require('fs');
 
@@ -28,22 +29,24 @@ module.exports = {
 	 */
 	getNextFile(s, ext = 'xml', l = 7) {
 		const regex = new RegExp(`${s}[0-9]*\.${ext}$`);
-		const dir = fs.readdirSync(process.env.MOVIE_FOLDER).filter(v => v && regex.test(v));
-		return `${process.env.MOVIE_FOLDER}/${s}${this.padZero(dir.length, l)}${ext}`;
+		const dir = fs.readdirSync(folder).filter(v => v && regex.test(v));
+		return `${folder}/${s}${this.padZero(dir.length, l)}${ext}`;
 	},
 	/**
 	 * @param {string} s
 	 * @param {string} ext
+	 * @param {number} l
 	 * @returns {number}
 	 */
-	getNextFileId(s, ext = 'xml') {
-		const regex = new RegExp(`${s}[0-9]*\.${ext}$`);
-		const dir = fs.readdirSync(process.env.MOVIE_FOLDER).filter(v => v && regex.test(v));
-		return dir.length;
+	getNextFileId(s, ext = 'xml', l = 7) {
+		const regex = new RegExp(`${s}[0-9]{${l}}\.${ext}$`);
+		const indicies = this.getValidFileIndicies(s, ext, l);
+		return indicies.length ? indicies[indicies.length - 1] + 1 : 0;
 	},
 	/**
 	 * @param {string} s
 	 * @param {string} ext
+	 * @param {number} l
 	 * @returns {number}
 	 */
 	fillNextFileId(s, ext = 'xml', l = 7) {
@@ -60,7 +63,27 @@ module.exports = {
 	 * @returns {string}
 	 */
 	getFileIndex(s, ext = 'xml', n, l = 7) {
-		return `${process.env.MOVIE_FOLDER}/${s}.${this.padZero(n, l)}${ext}`;
+		return `${folder}/${s}${this.padZero(n, l)}.${ext}`;
+	},
+	/**
+	 * @param {string} s
+	 * @param {string} ext
+	 * @param {number} l
+	 * @returns {number[]}
+	 */
+	getValidFileIndicies(s, ext = 'xml', l = 7) {
+		const files = this.getValidFileNames(s, ext, l);
+		return files.map(v => Number.parseInt(v.substr(s.length, l)));
+	},
+	/**
+	 * @param {string} s
+	 * @param {string} ext
+	 * @param {number} l
+	 * @returns {number[]}
+	 */
+	getValidFileNames(s, ext = 'xml', l = 7) {
+		const regex = new RegExp(`${s}[0-9]{${l}}\.${ext}$`);
+		return fs.readdirSync(folder).filter(v => v && regex.test(v));
 	},
 	/**
 	 * 

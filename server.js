@@ -11,43 +11,49 @@ const env = Object.assign(process.env,
 	require('./config.json'));
 
 const http = require('http');
-const premadeChars = require('./character/premade');
-const loadUserAssets = require('./asset_user/load');
-const loadCharacter = require('./character/load');
-const saveCharacter = require('./character/save');
-const displayPages = require('./static/pages');
-const staticAssets = require('./static/load');
-const loadPreview = require('./preview/load');
-const savePreview = require('./preview/save');
-const getThemeList = require('./theme/list');
-const getThumbs = require('./movie/thumbs');
-const getVoices = require('./tts/voices');
-const loadAsset = require('./asset/load');
-const loadMovie = require('./movie/load');
-const loadTheme = require('./theme/load');
-const saveAsset = require('./asset/save');
-const saveMovie = require('./movie/save');
-const ttsGet = require('./tts/load');
+const pmc = require('./character/premade');
+const aul = require('./asset_user/load');
+const chl = require('./character/load');
+const chs = require('./character/save');
+const prl = require('./preview/load');
+const pls = require('./preview/save');
+const stl = require('./static/load');
+const stp = require('./static/page');
+const asl = require('./asset/load');
+const ass = require('./asset/save');
+const ast = require('./asset/thmb');
+const mvl = require('./movie/load');
+const mvL = require('./movie/list');
+const mvm = require('./movie/meta');
+const mvs = require('./movie/save');
+const mvt = require('./movie/thmb');
+const thL = require('./theme/list');
+const thl = require('./theme/load');
+const tsv = require('./tts/voices');
+const tsl = require('./tts/load');
 const url = require('url');
 
 const functions = [
-	getThumbs,
-	premadeChars,
-	loadAsset,
-	loadCharacter,
-	getThemeList,
-	loadTheme,
-	loadPreview,
-	savePreview,
-	saveCharacter,
-	loadUserAssets,
-	ttsGet,
-	loadMovie,
-	saveMovie,
-	getVoices,
-	saveAsset,
-	displayPages,
-	staticAssets,
+	mvL,
+	pmc,
+	asl,
+	chl,
+	thl,
+	thL,
+	prl,
+	pls,
+	chs,
+	aul,
+	tsl,
+	ast,
+	mvm,
+	mvl,
+	mvs,
+	mvt,
+	tsv,
+	ass,
+	stp,
+	stl,
 ];
 
 http.createServer((req, res) => {
