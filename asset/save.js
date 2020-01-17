@@ -11,8 +11,8 @@ module.exports = function (req, res, url) {
 		const mId = sessions.get(ip);
 
 		const name = files.import.name;
-		const ext = name.substr(name.lastIndexOf('.') + 1);
-		asset.save(buffer, mId, ext);
+		const suffix = name.substr(name.lastIndexOf('.'));
+		asset.save(buffer, mId, suffix);
 		fs.unlinkSync(path);
 		res.end();
 	});

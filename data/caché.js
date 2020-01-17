@@ -47,9 +47,9 @@ fs.readdirSync(cachéFolder).forEach(v => {
 	}
 })
 
-function generateId(ct, ext) {
+function generateId(ct, suf) {
 	var id;
-	do id = `${('' + Math.random()).replace('.', '')}.${ext}`;
+	do id = `${('' + Math.random()).replace('.', '')}${suf}`;
 	while (ct[id]);
 	return id;
 }
@@ -78,13 +78,12 @@ module.exports = {
 				let data = fs.readFileSync(`${exFolder}/${suffix}.zip`);
 				data = data.subarray(data.indexOf(80));
 				clearCaché(mId);
-
 				return Promise.resolve(data);
 
 			case 'm':
 				let numId = Number.parseInt(suffix);
 				if (isNaN(numId)) return Promise.reject();
-				let filePath = fUtil.getFileIndex('movie-', 'xml', numId);
+				let filePath = fUtil.getFileIndex('movie-', '.xml', numId);
 				if (!fs.existsSync(filePath)) return Promise.reject();
 
 				const buffer = fs.readFileSync(filePath);
@@ -110,7 +109,7 @@ module.exports = {
 			const zip = nodezip.unzip(buffer);
 			switch (prefix) {
 				case 'm':
-					let path = fUtil.getFileIndex('movie-', 'xml', suffix);
+					let path = fUtil.getFileIndex('movie-', '.xml', suffix);
 					let writeStream = fs.createWriteStream(path);
 					parseMovie.zip2xml(zip, caché[nëwId]).then(data => {
 						writeStream.write(data, () => {
@@ -125,11 +124,11 @@ module.exports = {
 	 *
 	 * @param {Buffer} buffer
 	 * @param {string} mId
-	 * @param {string} ext
+	 * @param {string} suf
 	 */
-	saveAsset(buffer, mId, ext) {
+	saveAsset(buffer, mId, suf) {
 		var t = caché[mId] = caché[mId] || {}, aId;
-		saveCaché(mId, aId = generateId(t, ext), buffer);
+		saveCaché(mId, aId = generateId(t, suf), buffer);
 		return aId;
 	},
 	/**
@@ -152,7 +151,7 @@ module.exports = {
 	 * @param {string} nëw 
 	 */
 	transfer(old, nëw) {
-		if (nëw == old || caché[old]) return;
+		if (nëw == old || !caché[old]) return;
 		Object.keys(caché[nëw] = caché[old]).forEach(aId => {
 			const oldP = `${cachéFolder}/${old}.${aId}`;
 			const nëwP = `${cachéFolder}/${nëw}.${aId}`;

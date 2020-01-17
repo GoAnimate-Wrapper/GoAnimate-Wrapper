@@ -23,66 +23,66 @@ module.exports = {
 	},
 	/**
 	 * @param {string} s
-	 * @param {string} ext
+	 * @param {string} suf
 	 * @param {number} l
 	 * @returns {string}
 	 */
-	getNextFile(s, ext = 'xml', l = 7) {
-		const regex = new RegExp(`${s}[0-9]*\.${ext}$`);
+	getNextFile(s, suf = '.xml', l = 7) {
+		const regex = new RegExp(`${s}[0-9]*${suf}$`);
 		const dir = fs.readdirSync(folder).filter(v => v && regex.test(v));
-		return `${folder}/${s}${this.padZero(dir.length, l)}.${ext}`;
+		return `${folder}/${s}${this.padZero(dir.length, l)}${suf}`;
 	},
 	/**
 	 * @param {string} s
-	 * @param {string} ext
+	 * @param {string} suf
 	 * @param {number} l
 	 * @returns {number}
 	 */
-	getNextFileId(s, ext = 'xml', l = 7) {
-		const regex = new RegExp(`${s}[0-9]{${l}}\.${ext}$`);
-		const indicies = this.getValidFileIndicies(s, ext, l);
+	getNextFileId(s, suf = '.xml', l = 7) {
+		const regex = new RegExp(`${s}[0-9]{${l}}${suf}$`);
+		const indicies = this.getValidFileIndicies(s, suf, l);
 		return indicies.length ? indicies[indicies.length - 1] + 1 : 0;
 	},
 	/**
 	 * @param {string} s
-	 * @param {string} ext
+	 * @param {string} suf
 	 * @param {number} l
 	 * @returns {number}
 	 */
-	fillNextFileId(s, ext = 'xml', l = 7) {
-		const id = this.getNextFileId(s, ext);
-		const fn = this.getFileIndex(s, ext, id, l);
+	fillNextFileId(s, suf = '.xml', l = 7) {
+		const id = this.getNextFileId(s, suf);
+		const fn = this.getFileIndex(s, suf, id, l);
 		fs.writeFileSync(fn, '');
 		return id;
 	},
 	/**
 	 * @param {string} s
-	 * @param {string} ext
+	 * @param {string} suf
 	 * @param {number} n
 	 * @param {number} l
 	 * @returns {string}
 	 */
-	getFileIndex(s, ext = 'xml', n, l = 7) {
-		return `${folder}/${s}${this.padZero(n, l)}.${ext}`;
+	getFileIndex(s, suf = '.xml', n, l = 7) {
+		return `${folder}/${s}${this.padZero(n, l)}${suf}`;
 	},
 	/**
 	 * @param {string} s
-	 * @param {string} ext
+	 * @param {string} suf
 	 * @param {number} l
 	 * @returns {number[]}
 	 */
-	getValidFileIndicies(s, ext = 'xml', l = 7) {
-		const files = this.getValidFileNames(s, ext, l);
+	getValidFileIndicies(s, suf = '.xml', l = 7) {
+		const files = this.getValidFileNames(s, suf, l);
 		return files.map(v => Number.parseInt(v.substr(s.length, l)));
 	},
 	/**
 	 * @param {string} s
-	 * @param {string} ext
+	 * @param {string} suf
 	 * @param {number} l
 	 * @returns {number[]}
 	 */
-	getValidFileNames(s, ext = 'xml', l = 7) {
-		const regex = new RegExp(`${s}[0-9]{${l}}\.${ext}$`);
+	getValidFileNames(s, suf = '.xml', l = 7) {
+		const regex = new RegExp(`${s}[0-9]{${l}}${suf}$`);
 		return fs.readdirSync(folder).filter(v => v && regex.test(v));
 	},
 	/**

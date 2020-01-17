@@ -17,7 +17,7 @@ function getFilter(mId, types) {
 
 module.exports = {
 	load(mId, aId) { return caché.loadAsset(mId, aId); },
-	save(buffer, mId, ext) { return caché.saveAsset(buffer, mId, ext); },
+	save(buffer, mId, suff) { return caché.saveAsset(buffer, mId, suff); },
 	getBackgrounds(mId) { return getFilter(mId, info.bg.filetypes); },
 	getProps(mId) { return getFilter(mId, info.prop.filetypes); },
 	getSounds(mId) { return getFilter(mId, info.sound.filetypes); },

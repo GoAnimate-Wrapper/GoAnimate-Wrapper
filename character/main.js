@@ -8,8 +8,8 @@ const get = require('../request/get');
 const fs = require('fs');
 
 function saveNew(data) {
-	const id = fUtil.getNextFileId('char-', 'xml');
-	fs.writeFileSync(fUtil.getFileIndex('char-', 'xml', id), data);
+	const id = fUtil.getNextFileId('char-', '.xml');
+	fs.writeFileSync(fUtil.getFileIndex('char-', '.xml', id), data);
 	return id;
 }
 
@@ -20,13 +20,13 @@ module.exports = {
 	 */
 	load(id) {
 		return new Promise((res, rej) => {
-			let i = id.indexOf('-');
-			let prefix = id.substr(0, i);
-			let suffix = id.substr(i + 1);
+			const i = id.indexOf('-');
+			const prefix = id.substr(0, i);
+			const suffix = id.substr(i + 1);
 
 			switch (prefix) {
 				case 'c':
-					fs.readFile(fUtil.getFileIndex('char-', 'xml', id),
+					fs.readFile(fUtil.getFileIndex('char-', '.xml', id),
 						{ encoding: "utf-8" }, (e, s) => e ? rej(e) : res(s));
 					break;
 
@@ -48,9 +48,9 @@ module.exports = {
 	save(data, id) {
 		return new Promise((res, rej) => {
 			if (id) {
-				let i = id.indexOf('-'), prefix = id.substr(0, i), suffix = id.substr(i + 1);
+				const i = id.indexOf('-'), prefix = id.substr(0, i), suffix = id.substr(i + 1);
 				if (prefix == 'c')
-					return fs.writeFile(fUtil.getFileIndex('char-', 'xml', suffix), data, e => e ? rej() : res(id));
+					return fs.writeFile(fUtil.getFileIndex('char-', '.xml', suffix), data, e => e ? rej() : res(id));
 				else res(saveNew(data));
 			}
 			else res(saveNew(data));

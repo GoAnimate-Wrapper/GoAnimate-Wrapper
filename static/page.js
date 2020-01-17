@@ -23,7 +23,7 @@ module.exports = function (req, res, url) {
 
 	var attrs, params, title;
 	switch (url.pathname) {
-		case '/cc':
+		case '/cc': {
 			title = 'Character Creator';
 			attrs = {
 				data: process.env.SWF_URL + '/cc.swf', // data: 'cc.swf',
@@ -40,10 +40,11 @@ module.exports = function (req, res, url) {
 				movie: process.env.SWF_URL + '/cc.swf', // 'http://localhost/cc.swf'
 			};
 			break;
+		}
 
-		case '/go_full':
+		case '/go_full': {
 			let presave = query.movieId && query.movieId.startsWith('m') ? query.movieId :
-				`m-${fUtil[query.noAutosave ? 'getNextFileId' : 'fillNextFileId']('movie-', 'xml')}`;
+				`m-${fUtil[query.noAutosave ? 'getNextFileId' : 'fillNextFileId']('movie-', '.xml')}`;
 			let ip = req.headers['x-forwarded-for'];
 			title = 'Video Editor';
 			attrs = {
@@ -61,8 +62,9 @@ module.exports = function (req, res, url) {
 			};
 			sessions.set(presave, ip);
 			break;
+		}
 
-		case '/player':
+		case '/player': {
 			title = 'Player';
 			attrs = {
 				data: process.env.SWF_URL + '/player.swf',
@@ -76,6 +78,7 @@ module.exports = function (req, res, url) {
 				allowScriptAccess: 'always',
 			};
 			break;
+		}
 
 		default:
 			return;

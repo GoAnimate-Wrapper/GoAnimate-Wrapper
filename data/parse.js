@@ -33,34 +33,41 @@ module.exports = {
 			var element = elements[eK];
 			switch (element.name) {
 
-				case 'asset':
-					let v = Buffer.from(element.val, 'base64');
+				case 'asset': {
+					const v = Buffer.from(element.val, 'base64');
 					cachéRef[element.attr.id] = v;
 					break;
+				}
 
-				case 'sound':
+				case 'sound': {
+					const sfile = element.childNamed('sfile').val;
+					const file = sfile.substr(sfile.indexOf('.') + 1);
+					var xmlStr;
+
 					var ttsData = element.childNamed('ttsdata');
-					var text = ttsData.childNamed('text').val;
-					var voice = ttsInfo.voices[ttsData.childNamed('voice').val].desc;
-					var name = `[${voice}] ${text.replace(/"/g, '\\"')}`;
-					var sfile = element.childNamed('sfile').val;
-					var file = sfile.substr(sfile.indexOf('.') + 1);
-					var xmlStr = `subtype="tts" id="${file}" name="${name}" downloadtype="progressive"`;
+					if (ttsData) {
+						var text = ttsData.childNamed('text').val;
+						var voice = ttsInfo.voices[ttsData.childNamed('voice').val].desc;
+						var name = `[${voice}] ${text.replace(/"/g, '\\"')}`;
+						xmlStr = `subtype="tts" id="${file}" name="${name}" downloadtype="progressive"`;
+					}
+					else
+						xmlStr = `subtype="sound" id="${file}" name="${id}" downloadtype="progressive"`;
 					ugcString += `<sound ${xmlStr}/>`;
 					break;
+				}
 
 				case 'scene':
 					for (const pK in element.children) {
 						var piece = element.children[pK];
 					/** @type string */ var val;
 					/** @type [string] */ var pieces;
-
 						switch (piece.name) {
 							case 'durationSetting':
 							case 'trans':
 								break;
 							case 'bg':
-							case 'prop':
+							case 'prop': {
 								val = piece.childNamed('file').val;
 								pieces = val.split('.');
 
@@ -73,7 +80,8 @@ module.exports = {
 								fUtil.addToZip(zip, name, buff);
 								themes[pieces[0]] = true;
 								break;
-							case 'char':
+							}
+							case 'char': {
 								val = piece.childNamed('action').val;
 								pieces = val.split('.');
 								let id = pieces[1];
@@ -92,12 +100,14 @@ module.exports = {
 								}
 								ugcString += `<char id="${id}" cc_theme_id="${theme}"><tags/></char>`;
 								break;
-							case 'bubbleAsset':
+							}
+							case 'bubbleAsset': {
 								var bubble = piece.childNamed('bubble');
 								var text = bubble.childNamed('text');
 								const fontSrc = `${source}/go/font/FontFile${text.attr.font}.swf`;
 								fUtil.addToZip(zip, `FontFile${text.attr.font}.swf`, await get(fontSrc));
 								break;
+							}
 						}
 					}
 					break;
@@ -117,7 +127,7 @@ module.exports = {
 		fUtil.addToZip(zip, 'ugc.xml', Buffer.from(ugcString + `</theme>`));
 		return await zip.zip();
 	},
-	async zip2xml(zip, refCaché) {
+	async zip2xml(zip, refCaché = {}) {
 		return new Promise(res => {
 			const buffers = [];
 			const stream = zip['movie.xml'].toReadStream();
