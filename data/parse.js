@@ -123,17 +123,17 @@ module.exports = {
 			const stream = zip['movie.xml'].toReadStream();
 			stream.on('data', b => buffers.push(b));
 			stream.on('end', () => {
-				var slice = [Buffer.concat(buffers).slice(0, -7)];
+				var xmlBuffers = [Buffer.concat(buffers).slice(0, -7)];
 				for (const assetId in refCaché)
-					if (slice.includes(assetId)) {
+					if (xmlBuffers[0].includes(assetId)) {
 						const assetString = refCaché[assetId].toString('base64');
-						slice.push(Buffer.from(`<asset id="${assetId}">${assetString}</asset>`));
+						xmlBuffers.push(Buffer.from(`<asset id="${assetId}">${assetString}</asset>`));
 					}
 					else
 						delete refCaché[assetId];
 
-				slice.push(Buffer.from(`</film>`));
-				res(Buffer.concat(slice));
+				xmlBuffers.push(Buffer.from(`</film>`));
+				res(Buffer.concat(xmlBuffers));
 			});
 		});
 	}

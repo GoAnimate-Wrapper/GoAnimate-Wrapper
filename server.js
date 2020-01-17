@@ -15,8 +15,6 @@ const pmc = require('./character/premade');
 const aul = require('./asset_user/load');
 const chl = require('./character/load');
 const chs = require('./character/save');
-const prl = require('./preview/load');
-const pls = require('./preview/save');
 const stl = require('./static/load');
 const stp = require('./static/page');
 const asl = require('./asset/load');
@@ -40,8 +38,6 @@ const functions = [
 	chl,
 	thl,
 	thL,
-	prl,
-	pls,
 	chs,
 	aul,
 	tsl,

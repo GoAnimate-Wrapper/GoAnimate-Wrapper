@@ -22,7 +22,9 @@ function saveCaché(mId, aId, buffer) {
 }
 
 function saveCachéTable(mId, buffers) {
-	Object.keys(buffers).forEach(aId =>
+	const keys = Object.keys(buffers);
+	if (!keys.length) caché[mId] = {};
+	keys.forEach(aId =>
 		saveCaché(mId, aId, buffers[aId]));
 	caché[mId].time = new Date();
 	return buffers;
@@ -89,28 +91,28 @@ module.exports = {
 				if (justCaché) return Promise.resolve(saveCachéTable(mId, parseMovie.xml2caché(buffer)));
 				else return parseMovie.xml2zip(buffer, c => saveCachéTable(mId, c));
 
-			default: Promise.reject();
+			default: return Promise.reject();
 		}
 	},
 	/**
 	 *
 	 * @param {Buffer} buffer
-	 * @param {string} mId
-	 * @param {string} preId
+	 * @param {string} nëwId
+	 * @param {string} oldId
 	 * @returns {Promise<void>}
 	 */
-	saveMovie(buffer, preId, mId = preId) {
+	saveMovie(buffer, oldId, nëwId = oldId) {
 		return new Promise(res => {
-			this.transfer(preId, mId);
-			const i = mId.indexOf('-');
-			const prefix = mId.substr(0, i);
-			const suffix = mId.substr(i + 1);
+			this.transfer(oldId, nëwId);
+			const i = nëwId.indexOf('-');
+			const prefix = nëwId.substr(0, i);
+			const suffix = nëwId.substr(i + 1);
 			const zip = nodezip.unzip(buffer);
 			switch (prefix) {
 				case 'm':
 					let path = fUtil.getFileIndex('movie-', 'xml', suffix);
 					let writeStream = fs.createWriteStream(path);
-					parseMovie.zip2xml(zip, caché[mId]).then(data => {
+					parseMovie.zip2xml(zip, caché[nëwId]).then(data => {
 						writeStream.write(data, () => {
 							writeStream.close();
 							res();

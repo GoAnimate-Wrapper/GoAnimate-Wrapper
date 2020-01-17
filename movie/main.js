@@ -3,29 +3,32 @@ const fUtil = require('../fileUtil');
 const fs = require('fs');
 
 module.exports = {
-	async save(movieZip, thumbZip, mId, preId = mId) {
-		const thumbFile = fUtil.getNextFile('thumb-', 'png');
-		thumbZip && fs.writeFileSync(thumbFile, thumbZip);
-		await caché.saveMovie(movieZip, preId, mId);
-		return mId;
+	async save(movieZip, thumbZip, oldId, nëwId = oldId) {
+		if (thumbZip && nëwId.startsWith('m-')) {
+			const n = Number.parseInt(nëwId.substr(2));
+			const thumbFile = fUtil.getFileIndex('thumb-', 'png', n);
+			fs.writeFileSync(thumbFile, thumbZip);
+		}
+		await caché.saveMovie(movieZip, oldId, nëwId);
+		return nëwId;
 	},
 	load(movieId) {
 		return caché.loadMovie(movieId);
 	},
 	thumb(movieId) {
 		return new Promise((res, rej) => {
-			if (!movieId.toLowerCase().startsWith('m-')) return;
+			if (!movieId.startsWith('m-')) return;
 			const n = Number.parseInt(movieId.substr(2));
 			const fn = fUtil.getFileIndex('thumb-', 'png', n);
 			isNaN(n) ? rej() : res(fs.readFileSync(fn));
 		});
 	},
 	list() {
-		return fUtil.getValidFileIndicies('movie-', 'xml').map(v => `m-${v}`);
+		return fUtil.getValidFileIndicies('thumb-', 'png').map(v => `m-${v}`);
 	},
 	meta(movieId) {
 		return new Promise((res, rej) => {
-			if (!movieId.toLowerCase().startsWith('m-')) return;
+			if (!movieId.startsWith('m-')) return;
 			const n = Number.parseInt(movieId.substr(2));
 			const fn = fUtil.getFileIndex('movie-', 'xml', n);
 

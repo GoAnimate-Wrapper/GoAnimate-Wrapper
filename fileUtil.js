@@ -30,7 +30,7 @@ module.exports = {
 	getNextFile(s, ext = 'xml', l = 7) {
 		const regex = new RegExp(`${s}[0-9]*\.${ext}$`);
 		const dir = fs.readdirSync(folder).filter(v => v && regex.test(v));
-		return `${folder}/${s}${this.padZero(dir.length, l)}${ext}`;
+		return `${folder}/${s}${this.padZero(dir.length, l)}.${ext}`;
 	},
 	/**
 	 * @param {string} s
