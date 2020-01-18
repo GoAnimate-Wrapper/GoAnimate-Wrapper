@@ -14,6 +14,20 @@
 			"statusCode": 302,
 			"content": ""
 		},
+		"/go/character_creator/family": {
+			"headers": {
+				"Location": "/cc?themeId=family&bs=adam"
+			},
+			"statusCode": 302,
+			"content": ""
+		},
+		"/go/character_creator/business": {
+			"headers": {
+				"Location": "/cc?themeId=business"
+			},
+			"statusCode": 302,
+			"content": ""
+		},
 		"/crossdomain.xml": {
 			"headers": {
 				"Content-Type": "text/html; charset=UTF-8"

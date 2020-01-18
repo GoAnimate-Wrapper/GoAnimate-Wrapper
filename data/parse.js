@@ -52,7 +52,7 @@ module.exports = {
 						xmlStr = `subtype="tts" id="${file}" name="${name}" downloadtype="progressive"`;
 					}
 					else
-						xmlStr = `subtype="sound" id="${file}" name="${id}" downloadtype="progressive"`;
+						xmlStr = `subtype="sound" id="${file}" name="${file}" downloadtype="progressive"`;
 					ugcString += `<sound ${xmlStr}/>`;
 					break;
 				}

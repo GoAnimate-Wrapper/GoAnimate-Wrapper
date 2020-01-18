@@ -1,0 +1,172 @@
+<film copyable="0" duration="26.9" published="1" pshare="0">
+  <meta>
+    <title><![CDATA[Britney Spears Is Not Allowed]]></title>
+    <tag><![CDATA[]]></tag>
+    <hiddenTag><![CDATA[politic,britneySpear]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="0"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+      <color value="d3d3d3"/>
+      <color value="522ff"/>
+      <color value="27ff01"/>
+      <color value="312b27"/>
+      <color value="fb6501"/>
+    </palette>
+  </meta>
+  <scene id="SCENE1" adelay="645" lock="Y" index="0" color="16777215" guid="C00F4ADC-B729-C9E5-346B-D1B7CA3C0881">
+    <char id="AVATOR45" index="1" raceCode="1">
+      <action face="1" motionface="1">ugc.327764148.stand.xml</action>
+      <head id="PROP4" raceCode="1">
+        <file>ugc.327764148.head.head_laugh.xml</file>
+      </head>
+      <x>480.1</x>
+      <y>191.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR46" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.327764650.stand.xml</action>
+      <head id="PROP6" raceCode="1">
+        <file>ugc.327764650.head.head_laugh.xml</file>
+      </head>
+      <x>544.25</x>
+      <y>241.65</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR51" index="4" raceCode="1">
+      <action face="-1" motionface="1">ugc.327764372.pt_at.xml</action>
+      <head id="PROP8" raceCode="1">
+        <file>ugc.327764372.head.head_laugh.xml</file>
+      </head>
+      <x>127.45</x>
+      <y>194.125</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR52" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.327764259.stand.xml</action>
+      <head id="PROP10" raceCode="1">
+        <file>ugc.327764259.head.head_laugh.xml</file>
+      </head>
+      <x>222.825</x>
+      <y>204</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR57" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.327764594.stand.xml</action>
+      <head id="PROP12" raceCode="1">
+        <file>ugc.327764594.head.head_laugh.xml</file>
+      </head>
+      <x>590.6062331</x>
+      <y>265.025</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR60" index="6" raceCode="1">
+      <action face="-1" motionface="1">ugc.329767001.pt_at.xml</action>
+      <head id="PROP14" raceCode="1">
+        <file>ugc.329767001.head.head_laugh.xml</file>
+      </head>
+      <x>82.9670732</x>
+      <y>277.6775068</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR63" index="7" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.angry01.swf</action>
+      <x>324.8522378</x>
+      <y>307.8135209</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>88.9090453</rotation>
+    </char>
+    <char id="AVATOR68" index="10" raceCode="1">
+      <action face="-1" motionface="1">ugc.327764590.stand.xml</action>
+      <head id="PROP18" raceCode="1">
+        <file>ugc.327764590.head.head_laugh.xml</file>
+      </head>
+      <x>199.225</x>
+      <y>304.35</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR74" index="11" raceCode="1">
+      <action face="1" motionface="1">ugc.328120182.stand.xml</action>
+      <head id="PROP26" raceCode="1">
+        <file>ugc.328120182.head.head_laugh.xml</file>
+      </head>
+      <x>511.2</x>
+      <y>306.4</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <bubbleAsset id="BUBBLE64" index="8">
+      <x>330.8062331</x>
+      <y>225.6775068</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-90" y="-45" w="180" h="90" rotate="0" type="RECTANGULAR" hasTail="0" colorStyle="2" autoTextResize="true">
+        <body rgb="16777215" shadow="0" bgAlpha="1" linergb="6710886" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="Coming Soon" size="28" align="center" bold="true" italic="false" embed="true"><![CDATA[Double-click to input text]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <bubbleAsset id="BUBBLE65" index="9">
+      <x>356.3170732</x>
+      <y>92.1775068</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-90" y="-45" w="180" h="90" rotate="0" type="RECTANGULAR" hasTail="0" colorStyle="2" autoTextResize="true">
+        <body rgb="16777215" shadow="0" bgAlpha="1" linergb="6710886" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="Coming Soon" size="28" align="center" bold="true" italic="false" embed="true"><![CDATA[No Britney Spears]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <effectAsset id="EFFECT2" themecode="common" index="12">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <sound id="SOUND0" index="0" track="0" vol="8" tts="0">
+    <sfile>common.approved_weird_crowdlau.swf</sfile>
+    <start>1</start>
+    <stop>645</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+  </sound>
+</film>

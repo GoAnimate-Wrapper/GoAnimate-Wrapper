@@ -17,24 +17,32 @@ module.exports = function (req, res, url) {
 	loadPost(req, res).then(async data => {
 		var xmlString;
 		switch (data.type) {
-			case 'char':
+			case 'char': {
 				var chars = '';
 				xmlString = `${header}<ugc more="0">${chars}</ugc>`;
 				break;
-			case 'bg':
+			}
+			case 'bg': {
 				xmlString = `${header}<ugc more="0"><bg id="666.jpg"/></ugc>`;
 				break;
+			}
 			case 'prop':
-			default:
+			default: {
 				xmlString = `${header}<ugc more="0"><prop id="666"/></ugc>`;
 				break;
+			}
 		};
 
 		if (makeZip) {
 			const zip = nodezip.create();
-
 			fUtil.addToZip(zip, 'desc.xml', Buffer.from(xmlString));
-			fUtil.addToZip(zip, 'bg/666.jpg', fs.readFileSync(`../ga-th/thumbnails/296516493.jpg`));
+
+			switch (data.type) {
+				case 'bg': {
+					fUtil.addToZip(zip, 'bg/666.jpg', fs.readFileSync(`file:http://2.bp.blogspot.com/-hegG5mMd9kE/T9Y4CWZ6udI/AAAAAAAAA2I/nm-9Wlrh6a4/s1600/full-hd-wallpapers-1080p-1.jpg`));
+					break;
+				}
+			};
 			res.setHeader('Content-Type', 'application/zip');
 			res.end(Buffer.concat([base, await zip.zip()]));
 		}

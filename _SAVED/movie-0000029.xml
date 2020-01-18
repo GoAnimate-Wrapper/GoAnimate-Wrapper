@@ -1,0 +1,1321 @@
+<film copyable="0" duration="90.3" published="1" pshare="0">
+  <meta>
+    <title><![CDATA[grgherhethrthrthrthr]]></title>
+    <tag><![CDATA[]]></tag>
+    <hiddenTag><![CDATA[politic,britneySpear,stick,stickgirl,stickguy,stickGirl3000,Stickkidgirl3000,Stickfat3000,fullenergy,dave_char,politics2,rush_limbaugh,barack_obama02,john_boehner02,katie_couric,christmas,boy,sexy_girl,santa,snowman,monstermsh,posessed_doll,grannie,kim,cliff,kan,mac_girl,lindsay]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="6"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+      <color value="ffb2df"/>
+      <color value="fb9ea4"/>
+    </palette>
+  </meta>
+  <scene id="SCENE3" adelay="351" lock="Y" index="0" color="16777215" guid="AD7F921D-6841-7A1D-B7ED-A14CA4CAE66C">
+    <bg id="cbg_084_BG50" index="0">
+      <file>business.g4b_bg007.swf</file>
+    </bg>
+    <char id="AVATOR11701" index="2" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.angry01.swf</action>
+      <x>338.7180553</x>
+      <y>273.8941943</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>92.7404639</rotation>
+    </char>
+    <char id="AVATOR11735" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.327765082.pt_at.xml</action>
+      <head id="PROP22" raceCode="1">
+        <file>ugc.327765082.head.head_laugh.xml</file>
+      </head>
+      <x>503</x>
+      <y>243.075</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11736" index="6" raceCode="1">
+      <action face="1" motionface="1">ugc.327764594.pt_at.xml</action>
+      <head id="PROP24" raceCode="1">
+        <file>ugc.327764594.head.head_laugh.xml</file>
+      </head>
+      <x>570.1</x>
+      <y>251.475</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11745" index="8" raceCode="1">
+      <action face="-1" motionface="1">ugc.328120158.pt_at.xml</action>
+      <head id="PROP38" raceCode="1">
+        <file>ugc.328120158.head.head_laugh.xml</file>
+      </head>
+      <x>103.725</x>
+      <y>253.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11747" index="7" raceCode="1">
+      <action face="-1" motionface="1">ugc.327764650.pt_at.xml</action>
+      <head id="PROP32" raceCode="1">
+        <file>ugc.327764650.head.head_laugh.xml</file>
+      </head>
+      <x>188.25</x>
+      <y>248.525</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_084_PROP20" index="1" attached="Y">
+      <file>business.g4b_935.swf</file>
+      <x>322.1</x>
+      <y>201</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_084_PROP23" index="3" attached="Y">
+      <file>business.msp_bathroombasin.msp_bathroombasin_g4b_799.swf</file>
+      <x>198</x>
+      <y>225</y>
+      <xscale>0.87</xscale>
+      <yscale>0.87</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP8" index="4" attached="Y">
+      <file>business.g4b_936.swf</file>
+      <x>322</x>
+      <y>205.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT2" themecode="common" index="9">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE4" adelay="237" lock="Y" index="1" color="16777215" guid="A091F36C-0BD9-672B-E8DB-973361280C90" combgId="custom.cbg_school_locker">
+    <bg id="BG2" index="0">
+      <file>custom.school_locker_bg.swf</file>
+      <dcsn>9536</dcsn>
+      <color r="ccColorA" oc="0x0">8623449</color>
+    </bg>
+    <char id="AVATOR11777" index="3" raceCode="0">
+      <action face="1" motionface="1">stick.stickgirl.happy.swf</action>
+      <head id="PROP52">
+        <file>stick.stickgirl.head.laugh.swf</file>
+      </head>
+      <x>479.0547638</x>
+      <y>238.1856032</y>
+      <xscale>1.6169916</xscale>
+      <yscale>1.6169916</yscale>
+      <rotation>-0.3623594</rotation>
+      <dcsn>7493</dcsn>
+      <color r="sfSkin">0</color>
+      <color r="sfMouth">16777215</color>
+      <color r="sfEye">16777215</color>
+    </char>
+    <char id="AVATOR11778" index="4" raceCode="0">
+      <action face="-1" motionface="1">stick.stickguy.happy.swf</action>
+      <head id="PROP59">
+        <file>stick.stickguy.head.laugh.swf</file>
+      </head>
+      <x>178.9860779</x>
+      <y>251.5340797</y>
+      <xscale>1.6947664</xscale>
+      <yscale>1.6947664</yscale>
+      <rotation>0</rotation>
+      <dcsn>7463</dcsn>
+      <color r="sfSkin">0</color>
+      <color r="sfMouth">16777215</color>
+      <color r="sfEye">16777215</color>
+    </char>
+    <char id="AVATOR11794" index="5" raceCode="0">
+      <action face="1" motionface="1">stick.stickGirl3000.happy.swf</action>
+      <head id="PROP64">
+        <file>stick.stickGirl3000.head.laugh.swf</file>
+      </head>
+      <x>546.3547638</x>
+      <y>252.2343248</y>
+      <xscale>1.6169916</xscale>
+      <yscale>1.6169916</yscale>
+      <rotation>-0.3623594</rotation>
+      <color r="sfSkin">0</color>
+      <color r="sfMouth">16777215</color>
+      <color r="sfEye">16777215</color>
+    </char>
+    <char id="AVATOR11806" index="6" raceCode="0">
+      <action face="1" motionface="1">stick.stickgirl.happy.swf</action>
+      <head id="PROP70">
+        <file>stick.stickgirl.head.laugh.swf</file>
+      </head>
+      <x>383.1047638</x>
+      <y>234.3356031</y>
+      <xscale>1.6169916</xscale>
+      <yscale>1.6169916</yscale>
+      <rotation>-0.3623594</rotation>
+      <color r="sfSkin">0</color>
+      <color r="sfMouth">16777215</color>
+      <color r="sfEye">16777215</color>
+    </char>
+    <char id="AVATOR11808" index="7" raceCode="0">
+      <action face="-1" motionface="1">stick.stickGirl3000.happy.swf</action>
+      <head id="PROP71">
+        <file>stick.stickGirl3000.head.laugh.swf</file>
+      </head>
+      <x>216.6818837</x>
+      <y>230.5450625</y>
+      <xscale>1.6169916</xscale>
+      <yscale>1.6169916</yscale>
+      <rotation>-0.3623594</rotation>
+      <color r="sfSkin">0</color>
+      <color r="sfMouth">16777215</color>
+      <color r="sfEye">16777215</color>
+    </char>
+    <char id="AVATOR11814" index="8" raceCode="0">
+      <action face="-1" motionface="1">stick.stickguy.happy.swf</action>
+      <head id="PROP74">
+        <file>stick.stickguy.head.laugh.swf</file>
+      </head>
+      <x>134.5860779</x>
+      <y>267.5417105</y>
+      <xscale>1.6947664</xscale>
+      <yscale>1.6947664</yscale>
+      <rotation>0</rotation>
+      <color r="sfSkin">0</color>
+      <color r="sfMouth">16777215</color>
+      <color r="sfEye">16777215</color>
+    </char>
+    <char id="AVATOR11816" index="9" raceCode="0">
+      <action face="-1" motionface="1">stick.Stickkidgirl3000.happy.swf</action>
+      <head id="PROP90">
+        <file>stick.Stickkidgirl3000.head.laugh.swf</file>
+      </head>
+      <x>262.0231823</x>
+      <y>253.5489201</y>
+      <xscale>1.6947664</xscale>
+      <yscale>1.6947664</yscale>
+      <rotation>0</rotation>
+      <color r="sfSkin">0</color>
+      <color r="sfMouth">16777215</color>
+      <color r="sfEye">16777215</color>
+    </char>
+    <char id="AVATOR11818" index="10" raceCode="0">
+      <action face="-1" motionface="1">stick.stickguy.happy.swf</action>
+      <head id="PROP76">
+        <file>stick.stickguy.head.laugh.swf</file>
+      </head>
+      <x>99.4360779</x>
+      <y>261.5167105</y>
+      <xscale>1.6947664</xscale>
+      <yscale>1.6947664</yscale>
+      <rotation>0</rotation>
+      <color r="sfSkin">0</color>
+      <color r="sfMouth">16777215</color>
+      <color r="sfEye">16777215</color>
+    </char>
+    <char id="AVATOR11834" index="11" raceCode="0">
+      <action face="-1" motionface="1">stick.Stickfat3000.happy.swf</action>
+      <head id="PROP98">
+        <file>stick.Stickfat3000.head.laugh.swf</file>
+      </head>
+      <x>189.5944064</x>
+      <y>273.4343694</y>
+      <xscale>1.6947664</xscale>
+      <yscale>1.6947664</yscale>
+      <rotation>0</rotation>
+      <color r="sfSkin">0</color>
+      <color r="sfMouth">16777215</color>
+      <color r="sfEye">16777215</color>
+    </char>
+    <char id="AVATOR11701" index="12" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.angry01.swf</action>
+      <x>346.5122021</x>
+      <y>348.5682129</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>84.9477504</rotation>
+    </char>
+    <prop id="PROP1" index="2" attached="Y">
+      <file>custom.school_locker_open.swf</file>
+      <x>503.05</x>
+      <y>196.825</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP0" index="1" attached="Y">
+      <file>custom.school_locker.swf</file>
+      <x>460</x>
+      <y>197</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT2" themecode="common" index="13">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE5" adelay="63" lock="N" index="2" color="16777215" guid="CFEE4C55-F69B-FF49-CC00-318250020FC5">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG2" index="0">
+      <file>custom.school_locker_bg.swf</file>
+      <color r="ccColorA" oc="0x0">8623449</color>
+    </bg>
+    <char id="AVATOR11777" index="3" raceCode="0">
+      <action face="1" motionface="1">stick.stickgirl.happy.swf</action>
+      <head id="PROP101">
+        <file>stick.stickgirl.head.laugh.swf</file>
+      </head>
+      <x>479.0547638</x>
+      <y>238.1856032</y>
+      <xscale>1.6169916</xscale>
+      <yscale>1.6169916</yscale>
+      <rotation>-0.3623594</rotation>
+      <color r="sfSkin" oc="0x0">0</color>
+      <color r="sfMouth" oc="0x0">16777215</color>
+      <color r="sfEye" oc="0x0">16777215</color>
+    </char>
+    <char id="AVATOR11778" index="4" raceCode="0">
+      <action face="-1" motionface="1">stick.stickguy.happy.swf</action>
+      <head id="PROP102">
+        <file>stick.stickguy.head.laugh.swf</file>
+      </head>
+      <x>178.9860779</x>
+      <y>251.5340797</y>
+      <xscale>1.6947664</xscale>
+      <yscale>1.6947664</yscale>
+      <rotation>0</rotation>
+      <color r="sfSkin" oc="0x0">0</color>
+      <color r="sfMouth" oc="0x0">16777215</color>
+      <color r="sfEye" oc="0x0">16777215</color>
+    </char>
+    <char id="AVATOR11794" index="5" raceCode="0">
+      <action face="1" motionface="1">stick.stickGirl3000.happy.swf</action>
+      <head id="PROP103">
+        <file>stick.stickGirl3000.head.laugh.swf</file>
+      </head>
+      <x>546.3547638</x>
+      <y>252.2343248</y>
+      <xscale>1.6169916</xscale>
+      <yscale>1.6169916</yscale>
+      <rotation>-0.3623594</rotation>
+      <color r="sfSkin">0</color>
+      <color r="sfMouth" oc="0x0">16777215</color>
+      <color r="sfEye" oc="0x0">16777215</color>
+    </char>
+    <char id="AVATOR11806" index="6" raceCode="0">
+      <action face="1" motionface="1">stick.stickgirl.happy.swf</action>
+      <head id="PROP106">
+        <file>stick.stickgirl.head.laugh.swf</file>
+      </head>
+      <x>383.1047638</x>
+      <y>234.3356031</y>
+      <xscale>1.6169916</xscale>
+      <yscale>1.6169916</yscale>
+      <rotation>-0.3623594</rotation>
+      <color r="sfSkin" oc="0x0">0</color>
+      <color r="sfMouth" oc="0x0">16777215</color>
+      <color r="sfEye" oc="0x0">16777215</color>
+    </char>
+    <char id="AVATOR11808" index="7" raceCode="0">
+      <action face="-1" motionface="1">stick.stickGirl3000.angry.swf</action>
+      <head id="PROP121">
+        <file>stick.stickGirl3000.head.talk_angry.swf</file>
+      </head>
+      <x>229.5174098</x>
+      <y>226.8200625</y>
+      <xscale>1.6169916</xscale>
+      <yscale>1.6169916</yscale>
+      <rotation>-0.3623594</rotation>
+      <color r="sfSkin">0</color>
+      <color r="sfMouth" oc="0x0">16777215</color>
+      <color r="sfEye" oc="0x0">16777215</color>
+    </char>
+    <char id="AVATOR11814" index="8" raceCode="0">
+      <action face="-1" motionface="1">stick.stickguy.happy.swf</action>
+      <head id="PROP110">
+        <file>stick.stickguy.head.laugh.swf</file>
+      </head>
+      <x>134.5860779</x>
+      <y>267.5417105</y>
+      <xscale>1.6947664</xscale>
+      <yscale>1.6947664</yscale>
+      <rotation>0</rotation>
+      <color r="sfSkin" oc="0x0">0</color>
+      <color r="sfMouth" oc="0x0">16777215</color>
+      <color r="sfEye" oc="0x0">16777215</color>
+    </char>
+    <char id="AVATOR11816" index="9" raceCode="0">
+      <action face="-1" motionface="1">stick.Stickkidgirl3000.happy.swf</action>
+      <head id="PROP111">
+        <file>stick.Stickkidgirl3000.head.laugh.swf</file>
+      </head>
+      <x>262.0231823</x>
+      <y>253.5489201</y>
+      <xscale>1.6947664</xscale>
+      <yscale>1.6947664</yscale>
+      <rotation>0</rotation>
+      <color r="sfSkin">0</color>
+      <color r="sfMouth" oc="0x0">16777215</color>
+      <color r="sfEye" oc="0x0">16777215</color>
+    </char>
+    <char id="AVATOR11818" index="10" raceCode="0">
+      <action face="-1" motionface="1">stick.stickguy.happy.swf</action>
+      <head id="PROP114">
+        <file>stick.stickguy.head.laugh.swf</file>
+      </head>
+      <x>99.4360779</x>
+      <y>261.5167105</y>
+      <xscale>1.6947664</xscale>
+      <yscale>1.6947664</yscale>
+      <rotation>0</rotation>
+      <color r="sfSkin" oc="0x0">0</color>
+      <color r="sfMouth" oc="0x0">16777215</color>
+      <color r="sfEye" oc="0x0">16777215</color>
+    </char>
+    <char id="AVATOR11834" index="11" raceCode="0">
+      <action face="-1" motionface="1">stick.Stickfat3000.happy.swf</action>
+      <head id="PROP115">
+        <file>stick.Stickfat3000.head.laugh.swf</file>
+      </head>
+      <x>189.5944064</x>
+      <y>273.4343694</y>
+      <xscale>1.6947664</xscale>
+      <yscale>1.6947664</yscale>
+      <rotation>0</rotation>
+      <color r="sfSkin">0</color>
+      <color r="sfMouth" oc="0x0">16777215</color>
+      <color r="sfEye" oc="0x0">16777215</color>
+    </char>
+    <char id="AVATOR11701" index="12" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.angry01.swf</action>
+      <x>346.5122021</x>
+      <y>348.5682129</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>84.9477504</rotation>
+    </char>
+    <prop id="PROP0" index="1" attached="Y">
+      <file>custom.school_locker.swf</file>
+      <x>460</x>
+      <y>197</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP1" index="2" attached="Y">
+      <file>custom.school_locker_open.swf</file>
+      <x>503.05</x>
+      <y>196.825</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT2" themecode="common" index="13">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE6" adelay="315" lock="Y" index="3" color="16777215" guid="74B60B68-463C-1EF5-2303-A5C5CB05B530">
+    <bg id="BG11928" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16490148</color>
+    </bg>
+    <char id="AVATOR11929" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.angry01.swf</action>
+      <x>322.4014903</x>
+      <y>277.5948154</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-0.3239724</rotation>
+    </char>
+    <char id="AVATOR11930" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.1293816.laugh.xml</action>
+      <x>537.7622694</x>
+      <y>149.075</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11931" index="3" raceCode="1">
+      <action face="1" motionface="1">ugc.53773026.laugh.xml</action>
+      <x>441.9693419</x>
+      <y>147.425</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11932" index="5" raceCode="1">
+      <action face="-1" motionface="1">ugc.53767560.laugh.xml</action>
+      <x>111.425</x>
+      <y>180.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11934" index="6" raceCode="1">
+      <action face="-1" motionface="1">ugc.327764148.laugh.xml</action>
+      <x>90.175</x>
+      <y>264</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11936" index="7" raceCode="1">
+      <action face="-1" motionface="1">ugc.327764259.laugh.xml</action>
+      <x>168.375</x>
+      <y>276.675</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11938" index="4" raceCode="1">
+      <action face="-1" motionface="1">ugc.327764590.laugh.xml</action>
+      <x>183.5</x>
+      <y>176.3</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11941" index="8" raceCode="1">
+      <action face="1" motionface="1">ugc.924223.laugh.xml</action>
+      <x>532.5622694</x>
+      <y>268.625</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11942" index="9" raceCode="1">
+      <action face="1" motionface="1">ugc.327764453.laugh.xml</action>
+      <x>436.7693419</x>
+      <y>266.975</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11965" index="10" raceCode="0">
+      <action face="1" motionface="1">fullenergy.dave_char.stand.swf</action>
+      <head id="PROP156">
+        <file>fullenergy.dave_char.head.head_sad.swf</file>
+      </head>
+      <x>563.65</x>
+      <y>346.875</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT8" themecode="common" index="11">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE7" adelay="99" lock="N" index="4" color="16777215" guid="CC5CC688-B09B-05B1-0D34-62FEA9BEBDDD" combgId="politics2.cbg_stage02">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_stage02_BG46" index="0">
+      <file>politics2.stage02_bg.swf</file>
+    </bg>
+    <char id="AVATOR11929" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.angry01.swf</action>
+      <x>369.7666672</x>
+      <y>334.5863697</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>83.6610617</rotation>
+    </char>
+    <char id="AVATOR11954" index="5" raceCode="2">
+      <action face="-1" motionface="1">politics2.rush_limbaugh.happy.swf</action>
+      <x>80.1</x>
+      <y>215.325</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <dcsn>12988</dcsn>
+      <color r="ccSkinColor">14862253</color>
+    </char>
+    <char id="AVATOR11955" index="2" raceCode="2">
+      <action face="-1" motionface="1">politics2.barack_obama02.happy_side.swf</action>
+      <x>297.175</x>
+      <y>190.775</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <dcsn>14334</dcsn>
+      <color r="ccSkinColor">6706500</color>
+    </char>
+    <char id="AVATOR11956" index="3" raceCode="2">
+      <action face="-1" motionface="1">politics2.john_boehner02.happy_side.swf</action>
+      <x>197.0514145</x>
+      <y>199.95</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <dcsn>14295</dcsn>
+      <color r="ccSkinColor">14656100</color>
+    </char>
+    <char id="AVATOR11957" index="4" raceCode="2">
+      <action face="-1" motionface="1">politics2.katie_couric.happy.swf</action>
+      <x>134.625</x>
+      <y>204.075</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <dcsn>13498</dcsn>
+      <color r="ccSkinColor">16642536</color>
+    </char>
+    <effectAsset id="EFFECT8" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE8" adelay="60" lock="N" index="5" color="16777215" guid="0EE6B2A7-36C4-0EC2-94E6-F878E5A67AEF">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="rw_checkpoint_BG4" index="0">
+      <file>christmas.toy_workshop_bg.swf</file>
+    </bg>
+    <char id="AVATOR11985" index="1" raceCode="0">
+      <action face="1" motionface="1">christmas.boy.stand.swf</action>
+      <x>445.2014145</x>
+      <y>225.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11986" index="4" raceCode="0">
+      <action face="-1" motionface="1">christmas.sexy_girl.fairy06-laugh.swf</action>
+      <x>119.309187</x>
+      <y>261.0919625</y>
+      <xscale>0.557851</xscale>
+      <yscale>0.557851</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11987" index="2" raceCode="0">
+      <action face="-1" motionface="1">christmas.santa.laugh03.swf</action>
+      <x>124.4943419</x>
+      <y>181.0611316</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11988" index="3" raceCode="0">
+      <action face="-1" motionface="1">christmas.snowman.laugh01.swf</action>
+      <x>529.35</x>
+      <y>247.125</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11990" index="5" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.angry01.swf</action>
+      <x>262.3166672</x>
+      <y>301.8863697</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>83.6610617</rotation>
+    </char>
+    <effectAsset id="EFFECT8" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE9" adelay="120" lock="N" index="6" color="16777215" guid="C453D395-289E-C659-D735-F8DC6C8A39BD" combgId="common.aboxingbg">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BOXINGBG0" index="0">
+      <file>common.boxing_bg.swf</file>
+    </bg>
+    <char id="AVATOR11990" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.angry01.swf</action>
+      <x>262.3166672</x>
+      <y>301.8863697</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>83.6610617</rotation>
+    </char>
+    <char id="AVATOR12006" index="4" raceCode="0">
+      <action face="1" motionface="1">monstermsh.posessed_doll.snigger.swf</action>
+      <x>469.6943419</x>
+      <y>253.825</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12007" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.grannie.laugh.swf</action>
+      <x>418.3553739</x>
+      <y>203.832156</y>
+      <xscale>1.1975775</xscale>
+      <yscale>1.1975775</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12008" index="7" raceCode="0">
+      <action face="-1" motionface="1">politic.kim.laugh.swf</action>
+      <x>108.8881002</x>
+      <y>254.7249245</y>
+      <xscale>1.2628399</xscale>
+      <yscale>1.2628399</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12009" index="5" raceCode="0">
+      <action face="-1" motionface="1">politic.cliff.laugh.swf</action>
+      <x>184.8083333</x>
+      <y>202.1111316</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12010" index="6" raceCode="0">
+      <action face="1" motionface="1">politic.kan.stand.swf</action>
+      <x>539.2304843</x>
+      <y>308.8354651</y>
+      <xscale>1.5581395</xscale>
+      <yscale>1.5581395</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12013" index="8" raceCode="0">
+      <action face="1" motionface="1">politic.mac_girl.hi5_B.swf</action>
+      <x>443.1</x>
+      <y>280.35</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12014" index="9" raceCode="0">
+      <action face="-1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>115.75</x>
+      <y>268.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="BOXINGPROP1" index="2" attached="Y">
+      <file>common.boxing_flag.swf</file>
+      <x>290.3</x>
+      <y>74.5</y>
+      <xscale>0.78</xscale>
+      <yscale>0.78</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT8" themecode="common" index="10">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE10" adelay="60" lock="N" index="7" color="16777215" guid="FBF49F69-9351-7F8C-C96A-1BD66C3AB32A" combgId="common.cbg_news_room">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_news_room_BG18" index="0">
+      <file>common.ncc_low.swf</file>
+      <color r="colorB">1779506</color>
+      <color r="colorA">9672351</color>
+    </bg>
+    <char id="AVATOR11990" index="9" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.angry01.swf</action>
+      <x>388.5423266</x>
+      <y>126.520604</y>
+      <xscale>0.41566</xscale>
+      <yscale>0.41566</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12038" index="4" raceCode="1">
+      <action face="-1" motionface="1">ugc.274508546.ot_ridicule.xml</action>
+      <head id="PROP165" raceCode="1">
+        <file>ugc.274508546.head.head_happy_side.xml</file>
+      </head>
+      <x>236.2031387</x>
+      <y>210.7221602</y>
+      <xscale>1.4421907</xscale>
+      <yscale>1.4421907</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12041" index="10" raceCode="1">
+      <action face="1" motionface="1">ugc.248089025.ot_ridicule.xml</action>
+      <x>547.2705972</x>
+      <y>246.9543854</y>
+      <xscale>1.4111111</xscale>
+      <yscale>1.4111111</yscale>
+      <rotation>16.7299952</rotation>
+    </char>
+    <prop id="PROP79" index="8" attached="Y">
+      <file>common.msp_laptop.msp_laptop_laptop_back.swf</file>
+      <x>231.7</x>
+      <y>213</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP78" index="7" attached="Y">
+      <file>common.ncc_tv_table02.swf</file>
+      <x>325</x>
+      <y>288</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP77" index="6" attached="Y">
+      <file>common.msp_spotlight.msp_spotlight_ncc_spotlight01_still.swf</file>
+      <x>163</x>
+      <y>77</y>
+      <xscale>1.18</xscale>
+      <yscale>1.18</yscale>
+      <face>1</face>
+      <rotation>-18.4</rotation>
+    </prop>
+    <prop id="PROP76" index="5" attached="Y">
+      <file>common.msp_spotlight.msp_spotlight_ncc_spotlight01_still.swf</file>
+      <x>462</x>
+      <y>80</y>
+      <xscale>1.18</xscale>
+      <yscale>1.18</yscale>
+      <face>1</face>
+      <rotation>17.8</rotation>
+    </prop>
+    <prop id="PROP75" index="3" attached="Y">
+      <file>common.ncc_tv_screen.swf</file>
+      <x>318</x>
+      <y>113</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="PROP74" index="2" attached="Y">
+      <file>common.square01.swf</file>
+      <x>319</x>
+      <y>110</y>
+      <xscale>4.27</xscale>
+      <yscale>2.57</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">2236962</color>
+    </prop>
+    <prop id="PROP73" index="1" attached="Y">
+      <file>common.ncc_tv_backdrop.swf</file>
+      <x>316</x>
+      <y>158</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT14" themecode="common" index="11">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE11" adelay="333" lock="Y" index="8" color="16777215" guid="AE8083D4-7FCD-EBD4-65D3-ACA2E2CEFA6D" combgId="custom.cbg_reception_hall">
+    <bg id="cbg_reception_hall_BG4" index="0">
+      <file>custom.dining_room.swf</file>
+    </bg>
+    <char id="AVATOR12064" index="3" raceCode="1">
+      <action face="1" motionface="1">ugc.328120151.laugh.xml</action>
+      <x>492.3872694</x>
+      <y>221.075</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12065" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.328120077.laugh.xml</action>
+      <x>570.85</x>
+      <y>251.55</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12066" index="5" raceCode="1">
+      <action face="-1" motionface="1">ugc.328120076.laugh.xml</action>
+      <x>148.4014145</x>
+      <y>235.5111316</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12067" index="6" raceCode="1">
+      <action face="1" motionface="1">ugc.328120191.laugh.xml</action>
+      <x>342.95</x>
+      <y>210.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12068" index="7" raceCode="1">
+      <action face="1" motionface="1">ugc.327779960.laugh.xml</action>
+      <x>486.5943419</x>
+      <y>286.2611316</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12069" index="8" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.stand.xml</action>
+      <head id="PROP177" raceCode="1">
+        <file>ugc.327779829.head.head_shocked.xml</file>
+      </head>
+      <x>555.5514145</x>
+      <y>279.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12072" index="9" raceCode="1">
+      <action face="-1" motionface="1">ugc.327779856.laugh.xml</action>
+      <x>109.2372694</x>
+      <y>313.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12073" index="10" raceCode="1">
+      <action face="-1" motionface="1">ugc.328120116.pt_at.xml</action>
+      <head id="PROP179" raceCode="1">
+        <file>ugc.328120116.head.head_laugh.xml</file>
+      </head>
+      <x>220.9943419</x>
+      <y>286.55</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12077" index="11" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.angry01.swf</action>
+      <x>330.6456109</x>
+      <y>327.9560576</y>
+      <xscale>1.1120197</xscale>
+      <yscale>1.1120197</yscale>
+      <rotation>98.051856</rotation>
+    </char>
+    <prop id="cbg_reception_hall_PROP1" index="2" attached="Y">
+      <file>custom.dining_room_table.swf</file>
+      <x>346</x>
+      <y>260.025</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_reception_hall_PROP2" index="1" attached="Y">
+      <file>custom.dining_room_table.swf</file>
+      <x>438</x>
+      <y>208</y>
+      <xscale>0.47</xscale>
+      <yscale>0.52</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT16" themecode="common" index="12">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE12" adelay="297" lock="Y" index="9" color="16777215" guid="374E325B-A707-2680-F391-5309CE654226">
+    <char id="AVATOR12096" index="1" raceCode="1">
+      <action face="1" motionface="1">ugc.310723153.ot_ridicule.xml</action>
+      <x>517.5916667</x>
+      <y>195.4072917</y>
+      <xscale>1.3958333</xscale>
+      <yscale>1.3958333</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12098" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.309710216.ot_ridicule.xml</action>
+      <x>121.1416667</x>
+      <y>225.96875</y>
+      <xscale>1.3958333</xscale>
+      <yscale>1.3958333</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12100" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.angry01.swf</action>
+      <x>330.6456109</x>
+      <y>327.9560576</y>
+      <xscale>1.1120197</xscale>
+      <yscale>1.1120197</yscale>
+      <rotation>98.051856</rotation>
+    </char>
+    <char id="AVATOR12102" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.310723154.ot_ridicule.xml</action>
+      <x>543.5416667</x>
+      <y>295.4072917</y>
+      <xscale>1.3958333</xscale>
+      <yscale>1.3958333</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12104" index="5" raceCode="1">
+      <action face="-1" motionface="1">ugc.299307410.ot_ridicule.xml</action>
+      <x>129.4182299</x>
+      <y>319.1916667</y>
+      <xscale>1.3958333</xscale>
+      <yscale>1.3958333</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT18" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE13" adelay="57" lock="Y" index="10" color="16777215" guid="EC856F76-3B94-40BF-C40D-2C20FB7BC968" combgId="common.cbg_ncc_changing_rm">
+    <bg id="cbg_ncc_changing_rm_BG7" index="0">
+      <file>common.wall15.swf</file>
+      <color r="ccColorA">16757471</color>
+      <color r="ccColorB">16757471</color>
+    </bg>
+    <char id="AVATOR12100" index="11" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.angry01.swf</action>
+      <x>330.6456109</x>
+      <y>327.9560576</y>
+      <xscale>1.1120197</xscale>
+      <yscale>1.1120197</yscale>
+      <rotation>98.051856</rotation>
+    </char>
+    <char id="AVATOR12129" index="12" raceCode="1">
+      <action face="-1" motionface="1">ugc.930614.laugh.xml</action>
+      <x>222.425</x>
+      <y>178.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12130" index="13" raceCode="1">
+      <action face="1" motionface="1">ugc.1313447.laugh.xml</action>
+      <x>456.675</x>
+      <y>189.05</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12131" index="14" raceCode="1">
+      <action face="1" motionface="1">ugc.1313367.laugh.xml</action>
+      <x>527.975</x>
+      <y>247.175</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12132" index="15" raceCode="1">
+      <action face="-1" motionface="1">ugc.1026072.laugh.xml</action>
+      <x>131.6872694</x>
+      <y>216.75</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12134" index="16" raceCode="1">
+      <action face="1" motionface="1">ugc.1347770.laugh.xml</action>
+      <x>355.875</x>
+      <y>165</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12135" index="17" raceCode="1">
+      <action face="-1" motionface="1">ugc.1411185.laugh.xml</action>
+      <x>199.9443419</x>
+      <y>273.9611316</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12149" index="18" raceCode="1">
+      <action face="1" motionface="1">ugc.881353.laugh.xml</action>
+      <x>578.45</x>
+      <y>277.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12151" index="19" raceCode="1">
+      <action face="-1" motionface="1">ugc.930636.laugh.xml</action>
+      <x>91.425</x>
+      <y>258.7</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_ncc_changing_rm_PROP17" index="10" attached="Y">
+      <file>common.msp_chrmbag.msp_chrmbag_ncc_change_bagside.swf</file>
+      <x>546</x>
+      <y>265.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_ncc_changing_rm_PROP18" index="9" attached="Y">
+      <file>common.ncc_basketball.swf</file>
+      <x>478.2</x>
+      <y>282.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_ncc_changing_rm_PROP9" index="8" attached="Y">
+      <file>common.msp_chrm_stand.msp_chrm_stand_ncc_change_stand01.swf</file>
+      <x>487.2</x>
+      <y>210.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_ncc_changing_rm_PROP16" index="7" attached="Y">
+      <file>common.msp_chrm_stand.msp_chrm_stand_ncc_change_stand02.swf</file>
+      <x>301.2</x>
+      <y>305.3</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_ncc_changing_rm_PROP15" index="6" attached="Y">
+      <file>common.msp_ncc_spchange.msp_ncc_spchange_ncc_spchange01.swf</file>
+      <x>622.2</x>
+      <y>133.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_ncc_changing_rm_PROP11" index="5" attached="Y">
+      <file>common.msp_exit.msp_exit_ncc_sign_exit_side.swf</file>
+      <x>145.2</x>
+      <y>34.8</y>
+      <xscale>0.7</xscale>
+      <yscale>0.7</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_ncc_changing_rm_PROP8" index="4" attached="Y">
+      <file>common.ncc_change_locker.swf</file>
+      <x>-17.9</x>
+      <y>242.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_ncc_changing_rm_PROP12" index="3" attached="Y">
+      <file>common.msp_chrm_door.msp_chrm_door_ncc_change_door01.swf</file>
+      <x>151.2</x>
+      <y>157.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_ncc_changing_rm_PROP10" index="2" attached="Y">
+      <file>common.ncc_change_glass.swf</file>
+      <x>287.7</x>
+      <y>115.7</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_ncc_changing_rm_PROP14" index="1" attached="Y">
+      <file>common.ncc_change_glass.swf</file>
+      <x>404.7</x>
+      <y>116.7</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT18" themecode="common" index="20">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE14" adelay="174" lock="Y" index="11" color="16777215" guid="781C4D09-D784-C7E8-7099-1308F004D9AF" combgId="common.adirtytoilet">
+    <bg id="TOILETDIRTYBG0" index="0">
+      <file>common.toilet_dirty.swf</file>
+    </bg>
+    <char id="AVATOR12100" index="2" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.angry01.swf</action>
+      <x>330.6456109</x>
+      <y>327.9560576</y>
+      <xscale>1.1120197</xscale>
+      <yscale>1.1120197</yscale>
+      <rotation>98.051856</rotation>
+    </char>
+    <char id="AVATOR12129" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.930614.laugh.xml</action>
+      <x>222.425</x>
+      <y>178.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12130" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.1313447.laugh.xml</action>
+      <x>456.675</x>
+      <y>189.05</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12131" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.1313367.laugh.xml</action>
+      <x>527.975</x>
+      <y>247.175</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12132" index="6" raceCode="1">
+      <action face="-1" motionface="1">ugc.1026072.laugh.xml</action>
+      <x>131.6872694</x>
+      <y>216.75</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12134" index="7" raceCode="1">
+      <action face="1" motionface="1">ugc.1347770.laugh.xml</action>
+      <x>355.875</x>
+      <y>165</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12135" index="8" raceCode="1">
+      <action face="-1" motionface="1">ugc.1411185.laugh.xml</action>
+      <x>199.9443419</x>
+      <y>273.9611316</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12149" index="9" raceCode="1">
+      <action face="1" motionface="1">ugc.881353.laugh.xml</action>
+      <x>578.45</x>
+      <y>277.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12151" index="10" raceCode="1">
+      <action face="-1" motionface="1">ugc.930636.laugh.xml</action>
+      <x>91.425</x>
+      <y>258.7</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="TOILETDIRTYPROP1" index="1" attached="Y">
+      <file>common.fly.swf</file>
+      <x>313.2</x>
+      <y>240.9</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT18" themecode="common" index="11">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <sound id="SOUND29" index="0" track="0" vol="1" tts="0">
+    <sfile>common.La_Fete_Foraine.mp3</sfile>
+    <start>1</start>
+    <stop>2169</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+  </sound>
+  <sound id="SOUND30" index="1" track="1" vol="4" tts="0">
+    <sfile>common.approved_weird_crowdlau.swf</sfile>
+    <start>1</start>
+    <stop>2172</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+  </sound>
+  <sound id="SOUND38" index="0" track="0" vol="1" tts="1">
+    <sfile>ugc.040279225661403184-tts.mp3</sfile>
+    <start>589</start>
+    <stop>651</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[BRITNEY SPEARS! GET OUT OF MY SIGHT]]></text>
+      <voice><![CDATA[nicole]]></voice>
+    </ttsdata>
+  </sound>
+  <linkage>SOUND38,~~~AVATOR11808,SCENE5~~~</linkage>
+<asset id="040279225661403184-tts.mp3">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dF8nXEk67j8pyH8OM7Mf2NWy6TbR1/jVv7/eZSqUUmoCUAnCoKpMdCiqJh7znNI5QkJOS//zYsTxJFOmplhgzVvr4+VX/8ts1X8ts5r1ObSTydL/+UCpoSWbUKYo34IV1Kp4TCkgEssGxZOkqVCTsXpem7S8SREGEgQELIJhgoicWWZcbn8zTtebNU7Xm5UzUnGlFlFllFxebNVNGnFlHmGXC0TjSiywQdDI///lkpGrLAYUMDBOjof//+RqwUMDBAgYQWMKAQwMGjjClDA5HI3/82DE7x/bYmG4WM2tWoIGFBAwVR0ez//ZWWA46IZMsst//+yyyy2VDJlaVHEigoYGDBOg4kMFBUxBTUUzLjk5LjVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/82LE/iZ8FSQCYYbcVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTMuOTkuNVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV//NixG8AAANIAAAAAFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVUxBTUUzLjk5LjVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/zYsRvAAADSAAAAABVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVUxBTUUzLjk5LjVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/82DEcAAAA0gAAAAAVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy45OS41VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/82LEbwAAA0gAAAAAVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTMuOTkuNVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV//NixG8AAANIAAAAAFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVUxBTUUzLjk5LjVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/zYsRvAAADSAAAAABVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVUxBTUUzLjk5LjVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/82DEcAAAA0gAAAAAVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy45OS41VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/82LEbwAAA0gAAAAAVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTMuOTkuNVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV//NixG8AAANIAAAAAFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTMuOTkuNVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/zYMRwAAADSAAAAABVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVQtWpiqSh1FwbBmEAYjIYjMWDuTDM4SJVx6fGpuaG6CgG54frG4GVp8pRqFZ4+44+w20teUo1R6qNUFQfnh+/FHF9Lo5qyihhxAscjI0dL//qwpCTEo8LD44JxcWFzBOgRqJoUTLRk+YNmDx9zbE4f/zYsRvAAADSAAAAAB1/tXUWmUKIlJh0XCANgwLC44TkiNRNYiFJMJR4WCYkE4+OGyRGomshFImEoSDgTEgnEgsLmCdAukrKUWnPYbYb3Nydf/////+rlFpx88SiYSjwsPiQTiQcFzBOgRqKrIiUmEo8HAmEAmqAGAIAMBYF2h87yJfTGr3OA8ruAr3+Kavh48kgQJisVitGjQQggT/82LE/zYMFPgKYNOECCECAEw2sFAw5dvYIEGEYrJ6QPKAgAAEBQgQIBWjnMjFYrRzUIBQKEGLo53PahDPaAUBgkh1CAUE9Q850oKATBMNvIAQDCCCMVitHNcjFZOxk5z9kYJgYEkUewhc89QxcVhsnJECCJGCYbJ0YoBAMEmXOfRisVt1a6OguCYbbtcVisnYhc0be+0CBAxCCiBA//NixLY1TA3hQU9IAY50ogQMedrisExW37XYtGj2HXbyc/10eqCtHvXI0YfVEw0GQ0ue63X53OxuIo/8pYd8uHHv+QMHTAGAX/DE2uyKf9fdwBJBcDw3+LgyQydsSxW+7gLIBWdSXfyRjQze9qASYxkOSIAbQiXUOPEvS+ImRMT+V4BWLmEbL+/neO04yNX1v0/9CqJo6RS7HRHYx//zYMRwOqwGsl+aeAMagqrG1RnBRkOvN4+9a3Smvuhf0wHWaYmZzjAVMWdQE8PlzwwMmnksfV6TwP6ap//u/+v3IWMl5/mCm6kcS8QgbyUmLAyofEpV/V/t/PEneU9b//////////84HFzc2qqPbULVhvu4b9Vpxtnmjw87+8UgU9M7vvEf4KpYppi2JRACZH1h1wk1DJWs5ltMxf/zYsQUJFnKuv3bQAAQ3hYJSUZMTaXk2s9BTMYEEAQIDhR/GkX5U7E53LCU0/cDhUVVRsNEO9tDu7ZBCQiBwECLIhi4oig3EeYveqmDDLaCiGYWceUrFktVdW30k+ikjRo0LjS4WLAIiMPGz3b/ZsLLdEoawVOzwiBNJ1wdJotEoTWaqUg5X6P5s3WiBqX6cBdP6q3En4usC0BrsEj/82LEEiNKQr5Uw9C4K5bhLSW7Eq3zvVP8Ot1FuSAasXbKpwL5orMJeHAyxctzbveIhd32sPCefOUQQhHV6LL2PHwcs7z5hjTl5B8Gx2IgKA6vMDgb6mF/HtfA5mxDGEteKGmvCrvZLfRZHoj+lX/iryA4Tm9X//3sSxgbDT3kDydWZDyX/9zEquKALtLR0nFjeyobk8qCKHY+Geyy//NixBQlElKyJMvE/LQWvM8QHm+2z9PPLukGIj+t1Ir5bCYPYt5y+NNtUsjrYo1OOMTmw7fU4UMvLLqGi1mv8x5PtdvQ7dWAzK5eOB6R319p9yfb9nH/ECuvh/N7RlGqXslFYtYtQBFVUEVGQE23+6gDKOaHHxRTk2f/9VOgUEqRYOD3RUCBUVfT/uIlKiKtDzP8BgFd7yQlYhJaE//zYMQPH7K2vOZ6SrzB+B/gbC3IZMJQBEzuAgqb50kJm1mCaKSTBEKqmiihSVWyPSXtBw8ZCEZCQ45X/tJS971WQ0YJS3E64KGgHGmEH/SZtRF9CrGFDXMgcMhCIzvfmb/jHGkqNQUZimRzpz/kF//79jGuLErA8tw7//c2QgXPmHebVhzRmLLacN0aYZMc0BimUqwuky5439ijQv/zYsQfJUpunETD0rhiZqyvaeK+nhMUWmYT6Nh8rosXwn1rNSiipESUNSeL03UrjEbOoaGq0z0JFsQqAoZWB0CoUKiZslVIUSLf//7jn/8c8iJFwGA0TBYERSeXMxl/dujl+4/////6hZjFVVKD7Cvzz//qH2ljJURFgo8tUwqxn/8NVQZUqYKpigkEBo7AAGSg4wA14OwxJMSfRlb/82LEGSD6FmwEyZbM5pgxJd0DYykZwUFUaiiSJf/e1y2tW2cl8k3Mzx8EECEhceQ1W3rLmpqa1LnWSg9F62YlZgbXJqdO/8Tf///+1qR6yUqST01NSid5NTukbWWd1nREDRI8YI4l1O//rcJTvpkrgDW7/kIKljQxQiBRqIjBU5okJJycguRb3A/mldqScfJPCXwY9a1mgxW2ZVWx//NixCUgGxZsf08oAI6SFiTo7UOWri44PB4aKuMGMkec53N5jCosUwqxSzGRE+b9ZCE5SC4cQzOgqiIn/s7shxxm+2ox0LQow+4o/OPAASZvI2oeHEJ6IyKNPeAgUyj5nKA4wwK3/u01RMStdulG1/1TzntbaIEKqBFfEhC2G1Be2sEqbFzZ9nIWJiO5Bbpq716nf+4MisP8/jmZmv/zYMQ0LFq6jl+MeADvnW1OHtSJB4QkZWUgbkCaakJDy3nGdB/qMlmYKYL6aMWu8Yp986HR1oWnyCFsShx0vmDjVVKf2fenpryvkAGGdavVnguc8ryKLkcT6NCg6+PLC3uD9Yrfevmjz7z6U1r/Of/8fWKeDhQarFQ/wOUCAIC15iBxwYxKIq9MWSqVXDQaD4+CsYiseK3AM+kxC//zYsQRI6Iyrl+MYABZBeV5uoPgyf44UFht79OB7PiyBMPzs/8jnlGS2eXtKArpRafnDpg++THKGERZS4QwH/ewjoMPRLCfO6+vzocLBgofo/nHb55f6N9lL//3p3TSyyjF7sVXuUjq3z943vmbZeKa955zgnC1BwSKIOFO534PkAwF3bv///2x4UqEUJBP/uKxRkiP6JKpcDcvmK3/82LEEiGBurGNz3gASbQh6wqRFDwuTowW0DOGi/PBaC7Vipjq9PmQ4p5+u0e+iwW8h6sG6nEQLtOnEKc+uYOmTs9VS2UkZ0OVK1z3V6UbLNjxYhMEJ5HVstJYzr/vXds4pGr8xqRch0MpNPaOeR7qiIlTuZVQr0///113rJ4iPCKKokKkt8k3B9lhMUR4gYshebeKMMuuBRDnXFZj//NixBwdw7LN7npEf3FxOzG1FVrhFGwkwKDxDjiAyinbcdlpiPkW+x1Mh5wodrnPcjF39kwkodA4cykUqI7Iynq6cnuj/zoQGpqlY5O6uiMc9Uf///////XS9ISrWcpmDEMGUpF195pmFWgEpyX5myGytqiOc439f5GoLwSAhJsAUZIzETVpeyYMPyYkH9sYFr6wgPMemA7E4Mj9iv/zYMQ1HovOyi57BOuGKl4lpndWg0MqmQznH6P6tZzGMEEtIEE7M5jMU1QZjT+plWf0q7hJGYyLIvWuub//////9uW9/Z0uupVQvwsmMjkG791VirkaShXBb+VnJNBs7yRd5AYxxMLEFISY1xvqyvJzlZMp/JRspAu+3aA+WdgPATJ/7Q/fzLOU1KivM1poGtQzf7pKVXqh0VX6tf/zYsRJH5JW0jbDBO5N99wol0IlCXECwc1zDxnDl2ZjNRuEEqECIYeKpOqf///r3HxXYQDzkGhojIEiDBOaIjIPhxXNJImlr2r1QqGi7O5FAyGShEYZGAgG6HWXwHOmr5MIY7RAivS8v9SqktrnWx3jCZZLtp7O80AYXTQd69WsluImUpQixTMIC6qUcu5hzVR2mF6IHh1SlHf1L0P/82LEWh7r/rFmw8p5f/6atlMZX//+v/8nJU5//9f/Qzt+nulaXudCqpEsg4MY2kSM3WMWrADuULNIkiArqd+uUyzTSsU72tIWYOte33iFG1BlguOvqsX/2ja9/i2+fyERh+rmGREJveYV1RCYZE3sQmszmf+VZrEwxTRpiURZ3ylOSrCyCTps6kgstEiJUY6RiMkBU44TEgbZYVqC//NgxG4c4xq4NnhTdsIs2t9BegCBeQBE0K//ajUmrZ2LY0l78spMWYmWIUD0Qd/6kkm/WUtv7zqTmf6j0r7lWj0CfnqWV96q0n91cx6NznnNjRMOCcROYXzCgHucTFm2fKL51Rjz9Gr/90Ir/8knT////////+tv/p59nIKSAeLmhwW/JiaEOlKHBlLYqcWQUHiVBHpCgpQF/i4g//NixIkf3BayHsFRfPEk7KOqSzcZgXJJlpxA0vtV8VoGW8SuykC8gJqOK5IlCcgnR6+j921ON7+c+c/T/v1OaVDwjJDR6RbIXLZILRN6EI9C4BqKgFQNCDJx8NRUJzSEmG4WDSE53PSeh9P////////////NOOO/3dqPZyh5tCcsIYQOM4arMzNDk83chTNkcnljTogAa/C1QFg9PP/zYsSZHzwWxZZ7FKqkB89+8yYxZLR18Jy5bx6AkPzNUx9cBSoBGSbk2sJnI8mtItAIMKUy1E/zP6FLrqVCjLsQMvM/wx/9+MfGFMSyoRCbh96Nn/1UVu1tvYlT1CdUltPWclER4WDqg9VBlxYZbA5VUeokr9PQeN0vpktahNJ7VnAEJRrEhxRGVVMwTmbKxIoAJjmJOWEh0/5TQh//82LErB4aHpC2wwaUEPKsno/kXKfmf+ZaNp2NdjvCMvLiz7aZ5roebG5C5P/LP37ZtDelDDhBgRlxU5SGEseRqFPbHGi6yJOBQFSdSLlXDp4Zst7cYgoQQE0SmXMCwAw+dcJwtpFMxCCEG0u5l4bpAYDYTVAD0x3bwLuiOo0lyFeIIm6mbqVVXNv+cg4xMiXF/zjZ85i0MIHGhTeV//NgxMMe6xqBlHmGiKTR2MqJq7lU6KU3XR2v+NYWZhI7TFI51erut6m+HTR4KuET8Oz4LT/QBg5+wcwRKaC4LnnZKR6iNSE43En3yUkqQPGI+KsXzAJIHAiQaYniZAE9CLYyXBQaQyt01G2pzL7pOobMdhxwQifLiMLhoIZSa25SR9DfUaZhNNxdqEU0goWdVEBqCBxwO5yJ9E/n//NixNYf2rJ41MmKnER6EI/cyadG/JvqhG8r3K5yHQirQXbmt////7//0//t7ujGEA+sSD4cGgyDWoHdlQCaSChqX+yg6UTRosyooaegEmw0lCI+mBuJdUrtSjyQw5CEIpldJ0P9lisjCNBV1gqdCZq0YMfEC297r5Lpc57LAgAKpEK7r///yIPSweBYRqc3M+F8nmf5MQ0FVQQeX//zYsTmIXO+plbSSus5P+3l5Fcr+R//////xMrCeSjgcotK8yulNKbwnMv0R4RgkUnR6IN1OPiaoLI6nZTyVb0qAGhAKNxx8nXHAxhcJEZCoYQmTGOTtph0qYgIbEyZoOYU4BHINSGiTGTDCw1sJrYMNxj05D8ZIyTCozq01EUId92FuLsir/w+oe1cV4i6Wy2fpCY5T9YW9jl2VeH/82LE8CTLzpG208Z5w90E2mCnvNna5ZqxlXdOZ2cTxNlxkAc2cTk80Zk7P3+jb7ZvNJm3ze9qTLmwY9mSucbg3OprjkD54OkZPK5SEOK01Za6ZmZmZmZmZmcOmyyVTwnFVQWsEkVGAuAaHQ/gdLxuTWYnvPTqT149I0KAR2jQ/J6pYHhk6pI9SwHZkqKBUtFRUbMrcjMUJoqrURSQ//NgxOw+BBaFbtYYytk6bSnSxcXZN0sCbhCu+0JnANHTu0BLJkTXzAJdEx6miCMvY/H4Uh4YIHrLcNSwBNiexfBnpgpCPJKYkNEISJPLqr6fgxF3BS6vELAyiZk4moc3WAgcMROWRSHEzaOK+n72U7g31ZC9ueUak2y2zMaLez5ATzjgYGIkZZKFZ2epYmCAuxa0Uc5PwaDEdlAo//NixIM1y/p4otvLVWtIQuzfGMb8rKyx37+C5+8GLqK9WKz3X677b22BDbf5ovg70wsYaIGDilIPLT//////nf/5WOaDi7iguH7ghFFhUxTHUXOIUG3WLikQTF0PFhd6DlVAVAkFHLQ16z6hMJD3ALEL6tOpSqOBp7DNWvDPJS6i5WTJhMsxwXTq92IRfOtacavVvLLilnG4DCBkPv/zYsQ7JNv2pg7CRUw+3+SQ/Sx/trfS/9lIbeARDXlc3Sl5dy3oi8c6QCJIFCEPEFehO/BvW1WdVRpSSnuqlQ4NpbkWYi9f////7f2+QGUOcM44gdmIViFHV7FMiQhnDuqNhzUw6hwwuXVlGLTD0zBAFUKH+U5YFaxyXo3lpJ+BYBCwMg/N9VOKxVMN6LmQnx9urQXFtxphVW3rgdr/82LENyj7OpQEy8T/4JJTj5VRzt0KCt6ajnXW7Xv+3pKJlba2TxzRH5NhdJbOVwrnCva4ntIpMYq5a+VCqI6+xPnCPC7qeTcB7o8FYWxSihJak5eY7IhJ2IVVZlUqf////7+lgb+FmgVEDWP+KTE3hbfFYOjHI5M354FSUJMkKw9gEzACn00gMsZzGuCAnjQyAoItKpRUQo2WxVtW//NgxCMdymKtFnpGiGGAiOMehrmCPLqkCFBhZkHGR7PqoX/BIMYQdgKYURCL38sv9rcjLDQUSmTjGeTwUWaBU+lFOayvIogEEGXsfqKeXKfGvxGrbRutwC+reBmkYHMiZapAfVjKD+XASAWJpOEp89K6y6K0c3t026mXndveFUIqeem3xMIj8qmVeb+XdEl4uzl6RD+6Ef+VP9PP//NixDos3A6xhmDfHXhAzL9FNxaH9cObwWaABWwULgMinV6HFgJWTsy2IeglBiQ7N79/uJMn0LYJYzwetuocj1JI050+oUPVysYdnOc5lqxjOwcDC7FsTRb63vir/eHivnp6Q9sDgxwkMZHlKQWdkea0/3Dc/amb5hv90j7/+6U1ingVtEj1jQC69glSNry5G5bo4dkuM9btC0E4Bv/zYsQWI8wOviIZUx1BZRtCLYWUykUVu7ymRGnebs3oyxTpI6+7PrpkPqYioiov8j5/S+ik9K2Pb7e09FMqV/8Y+kcfIijzMY2ciSaNy3Vh34CAwwEJHBaQ/W1W8R8BHQ5xmZGUGRcSwJwNuoaWwlQB8oiLGyAVTIP/0Fqy3/r7HqKTv73qKszYiKdnX7aSA+MTlYausqSRzVl1tZn/82DEFh67rtscYYS9ouESGbXq7mb8ISxTwSqr3w1SldotzNycjl1FW8s+//yUKRgzWY4IlBaoRzrzV+zp7k0/+7mXdr6e2SpO3st0SSSnZ2RKnOyle1TvLzIhTQQh6IpSzNcFDOqZYJkfN5w3/+K70ivLqXiXZU+lgoFdUGkvNirY5OwXOujJiWLbZbK9Vky/p3eM+GiE/MNbxd7/82LEKh7LwtMYSYR9GbYw60y2UMxTER4I7IhvKhtHV5VI6kHcIrr/9W07d32yqzol5jZj0eFsYzq42jZlBVIhntU6Kn0QzTFCgLVU4lcgsbaDkdLMHIFibG4//DtYqq3KmNG1IUoMHdtkYULRt6UG9Csb3abcwdSwb1GDQBkCAwBMWNAx9R4HBGoK2IAIFn60MTnc8aetSUmExYqU//NixD4eqUrG+uaGPG7D8WQOAABlXfSn2+eW5fEr8f65pDEHFBifl34f1qBFoJkPfS+KB2r87Ervy1biQMur/w0t4dU+6p884NUZVGEABq1aVN08a8shalgEQOIcuLHlHCEkHAurKWBBiVau5atkDVm4O68L6xCHX6d1sLO2EN0XVB7zkBxIIJupASdZ7oztNv9s922duzQrZsmQRP/zYsRTH2HishLWTDzzyRlZltGT339taKMKT56JGzT5MdFdIiA2KjVvUMInE1mf////////Y9KVwgoAra6nmI2SbN10FuaNj3HqZqyC7hgqp6IWCdOFPCuHEorsoLZmjrQxUJQlzQCusBjqwIFmAxLxitV9jmDR2pqz7jClDENBiUIB6SkCziSJwG2kyRIiIg2oKhVa1KHjh7v//9T/82DEZR6JWrFWe8Q8eYEyIlGilh4od0lgxrroJOQ21sVHKg6l+eirVmmVh4x90d9R8eLCPiaa1umVlSQlNIwoaXBkqVTOImh7T2Ow3VijwjQXJ1QgMH4lDcNjDok5vGNfd8kHXutRDXIuK0wmDkzG3ORyhhR0oTWHEXyatJrA/4lTSdm/h04wI6ZHduKEQLlv//89Le3RetFrelP/82LEeR8iRpgGwgc0RuRiWpd42s5pPWADtMS/NkEeXVwMEjtVEHJtrcwrJvDMbFVKcFYLUPONa4sblqAFREfFLqA1fh58GplAjcIAjLs1/PGKc4np83DvQ3B8W2F4frwS8fBXkeQIIeC0kBkDEQIdaDBOj//8pqHtuJLDA8HoECJ9kVBuaPgd6HgcQIPuiWW4F77//avCjGpfY0w9//NixIwfQlK5dnoFLitSpIDV1xslJFqYBwwJj1OSDGkIbTUp/V+Cttt+QpAboYaEV2Fn/k9/Sz8m2WDF1ye9hSs4De2CVPwneKusR5HI4W+QeQiv30NkH6cw+hCri9I5BqbkHColeUqf//6XqWtY5xhwPEwsC5tyAOUmX7UzQXNkFyhNIEgeYX/Moyw3GTJ7yObgTARVbeyFLA8g8//zYsSfIPpaujZ5i0hv3Q8fs4T1qIVyImE85zQoRxziAL0yD4UCjwaA1lCUXnZpfkmrUljGKkBiHEiVILIc+z511NL5Ss18por6dHPSee6P3PPQ+hp2Y8+/dbJ//////X++Y/sczpOo7PeQTqOeQdXY4w+T8dnkAAgAmxAhRciclAOjGitaj6xi8qagohYIAlLVFC060u8Ee0JgFwL/82DEqyE77r43T1ABqcAJYSDZDDyOkFIbBVMRxooto/T+KQNAFkhrBHNhTM0NKwStGASlWqRjOI2W48DuO+xeS9p+rieaLUqwpMqhBnCfrwx3pdCwKqY0UWu6V0rFU5KRC2DesxlxRWn9LiskBbdLt5iSSFvEks0LOlWdjZBWn8TMucYqusuorPGg4tjNba385////9qwb6r9////82LEtTlcFqGPmHgA/9Z7z6pJ/////j/Vvm1da9va1awvrXxLNnEfU/x/9z41W9PjObbvq0ldXjVrFzG8lbwg0o5nM2COm9v9iVLJVCEjxGZgwXM8KQ7DYw6SDSu0q1hxkgGMGELKhIjBzuXOKGaJqmEh63AhvTdTpfmcgxp2iKOGhqlSKWO1JklHVAORiRByOKKgnKmlM5r60W0k//NixF8368Klt5h4ABdVxlwq2yZbbXVlyrW3CHO8R4OoqmfPoGXJu25vHNrcZZmHuMkE2zllUK6cZIO76rRHxELY9ubfvcsK+1SwwXrbarD/L+qn0+Zdf////xa4g1/////8Xcr23/////96wYFn0eaHFaoiiXcKaumFTfNdb3XPtu2M/fvmfEWpdVKgqhpRaMLAb2SZBfE/JSztBP/zYsQPHwm6cAXPSAK6ZJxWeMcytWGxXRn83gMqsRfrsVrZ3LM2b9pEk1JVKC7BswPIsZSIWU7hyG1DTQatZ4pZRJNRKmUOf+OeqrSrqaWaln6pVwSDoFDIPERQ8LXc2DxgXNKOHdWESAWDBUMfLqd/c9eIBhqJevX1VQJ/f4XbbTLTMHGhLqOKA4khk02pCFZjU51UMz7NdhztcWH/82DEIigUCpmOSJM13ctNTu/VZ91VXde7qqyEc5/z6EbId+nnc5wghpGpRBFtRA2uj2EF9theSC0bc27bnNdGjR0T05GsSZC2C5PKHXFbROIBIRvY//+qRFbagoRAg6a4rbXejnP2Ro5qNqMeozUQNo5EBJGaSBG37qFz///89mxOSCKPc2fUJItwFQnBwRif2VhYeym0S+lVVpP/82LEECRbRpgAQVK9K1rKpWamuNOOVEaXo7y2+s6gcwuLMRTVstra9NSVQS3H7lL9A603jYBgGAVIZYiSGwwAowaJBo6MHzhc8bLlTJEjQkhoo4dRMT/zolvMkE0YtMsoZIrq1GkUlXIvv/+arCS0yKbNRhuSzf1fVSW+oMI+N1grldK7nP/5tm0yJotoqngsyigk2BY5rUYqipup//NixA4fAo6BqEGRxK1kmwLXKwLQzM1/LMzWqxcrEwDYesV/8M1FNc1GsqohALALAuFharWm/Zdv/kqyKPciRw4GASQKi5GSW9ygpIkApBQmZ9aCpPPw5IoFRs1+qrtMMzYtRqWBoFQ0In4lDShFiI9hoj8r5GDT4iKrCgAIibZJrKCBOlI9ZLH81kMvNY55N6hgb9alsFBhHGZZZP/zYMQiHYJN8OJIxgX81DA0LlJjWSz9rJUPVnLWOTWW/kwUMFCgg6HFDAwYIOhqys1llgMEGDotMEzf/1//af/99pVREqZUUzyqKYrVM/EotxLLKSSyzghVFruUw0mi/KZMQU1FMy45OS41qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqgA=</asset></film>
