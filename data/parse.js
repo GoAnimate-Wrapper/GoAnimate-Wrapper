@@ -25,7 +25,7 @@ module.exports = {
 	async xml2zip(buffer, cachéCallback) {
 		const zip = nodezip.create(), cachéRef = {};
 		var ugcString = `${header}<theme id="ugc" name="ugc">`;
-		const chars = {}, themes = { common: true };
+		const themes = { common: true };
 		fUtil.addToZip(zip, 'movie.xml', buffer);
 		const xml = new xmldoc.XmlDocument(buffer);
 		const elements = xml.children;
@@ -60,16 +60,14 @@ module.exports = {
 				case 'scene':
 					for (const pK in element.children) {
 						var piece = element.children[pK];
-					/** @type string */ var val;
-					/** @type [string] */ var pieces;
 						switch (piece.name) {
 							case 'durationSetting':
 							case 'trans':
 								break;
 							case 'bg':
 							case 'prop': {
-								val = piece.childNamed('file').val;
-								pieces = val.split('.');
+								var val = piece.childNamed('file').val;
+								var pieces = val.split('.');
 
 								pieces.splice(1, 0, piece.name);
 								var ext = pieces.pop();
@@ -82,28 +80,40 @@ module.exports = {
 								break;
 							}
 							case 'char': {
-								val = piece.childNamed('action').val;
-								pieces = val.split('.');
-								let id = pieces[1];
+								var val = piece.childNamed('action').val;
+								var pieces = val.split('.');
 
-								pieces.splice(1, 0, piece.name);
-								themes[pieces[0]] = true;
-								chars[id] = true;
-
-								var theme;
+								var theme, fileName, buffer;
 								switch (pieces[pieces.length - 1]) {
-									case 'xml':
-										let c = await char.load(id), n = `${pieces[0]}.char.${pieces[2]}.xml`;
-										theme = /theme_id="([^"]+)/.exec(c)[1];
-										fUtil.addToZip(zip, n, Buffer.from(c));
+									case 'xml': {
+										theme = pieces[0];
+										const id = pieces[1];
+
+										buffer = Buffer.from(await char.load(id));
+										fileName = `${theme}.char.${id}.xml`;
+										var charTheme = /theme_id="([^"]+)/.exec(buffer)[1];
+										if (theme == 'ugc')
+											ugcString += `<char id="${id}"cc_theme_id="${charTheme}"><tags/></char>`;
 										break;
+									}
+									case 'swf': {
+										//https://d3v4eglovri8yt.cloudfront.net/store/3a981f5cb2739137/politic/char/britneySpear/model02-stand.swf
+										theme = pieces[0];
+										const char = pieces[1];
+										const model = pieces[2];
+										let url = `${store}/${theme}/char/${char}/${model}.swf`;
+										fileName = `${theme}.char.${char}.${model}.swf`;
+										buffer = await get(url);
+										break;
+									}
 								}
-								ugcString += `<char id="${id}" cc_theme_id="${theme}"><tags/></char>`;
+								themes[theme] = true;
+								fUtil.addToZip(zip, fileName, buffer);
 								break;
 							}
 							case 'bubbleAsset': {
-								var bubble = piece.childNamed('bubble');
-								var text = bubble.childNamed('text');
+								const bubble = piece.childNamed('bubble');
+								const text = bubble.childNamed('text');
 								const fontSrc = `${source}/go/font/FontFile${text.attr.font}.swf`;
 								fUtil.addToZip(zip, `FontFile${text.attr.font}.swf`, await get(fontSrc));
 								break;
@@ -112,6 +122,11 @@ module.exports = {
 					}
 					break;
 			}
+		}
+
+		if (themes.family) {
+			delete themes.family;
+			themes.custom = true;
 		}
 
 		cachéCallback(cachéRef);

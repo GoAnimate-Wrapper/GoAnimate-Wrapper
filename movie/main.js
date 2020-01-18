@@ -57,8 +57,8 @@ module.exports = {
 			const fn = fUtil.getFileIndex('movie-', '.xml', n);
 
 			const fd = fs.openSync(fn, 'r');
-			const buffer = Buffer.alloc(127);
-			fs.readSync(fd, buffer, 0, 127, 0);
+			const buffer = Buffer.alloc(256);
+			fs.readSync(fd, buffer, 0, 256, 0);
 			const begTitle = buffer.indexOf('<title>') + 16;
 			const endTitle = buffer.indexOf(']]></title>');
 			const title = buffer.slice(begTitle, endTitle).toString().trim();

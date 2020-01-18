@@ -2,7 +2,7 @@ const https = require('https');
 /**
  * @param {string} url
  * @param {CredentialRequestOptions} [options]
- * @returns {Promise}
+ * @returns {Promise<Buffer>}
  */
 module.exports = function (url, options = {}) {
 	var data = [];

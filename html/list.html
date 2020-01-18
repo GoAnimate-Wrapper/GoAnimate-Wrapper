@@ -27,8 +27,12 @@
 		const json = JSON.parse(http.responseText);
 		json.forEach(function (tbl) {
 			tbody.innerHTML +=
-				'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title + '</div><div>' + tbl.durationString + '</div></div></td><td>' + tbl.date + '</td><td><a href="/player?movieId=' + tbl.id + '"></a><a href="/go_full?movieId=' + tbl.id + '"></a></td></tr>';
+				'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title + '</div><div>' + tbl.durationString + '</div></div></td><td>' + tbl.date + '</td><td><a href="#" onclick="popup(\'' + tbl.id + '\')"></a><a href=" / go_full ? movieId = ' + tbl.id + '"></a></td></tr>';
 		});
+	}
+
+	function popup(id) {
+		window.open('/player?movieId=' + id, 'MsgWindow', 'width=1280,height=720,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
 	}
 </script>
 <style>
