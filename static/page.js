@@ -73,7 +73,7 @@ module.exports = function (req, res, url) {
 			params = {
 				flashvars: {
 					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>', 'ut': 60,
-					'autostart': 1, 'clientThemePath': process.env.CLIENT_URL + '/<client_theme>',
+					'autostart': 1,'isWide': 1,  'clientThemePath': process.env.CLIENT_URL + '/<client_theme>',
 				},
 				allowScriptAccess: 'always',
 			};
