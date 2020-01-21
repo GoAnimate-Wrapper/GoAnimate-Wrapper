@@ -1,0 +1,1396 @@
+<film copyable="0" duration="134.9" published="0" pshare="0">
+  <meta>
+    <title><![CDATA[gg]]></title>
+    <tag><![CDATA[]]></tag>
+    <hiddenTag><![CDATA[politic,osama,mac_girl,lindsay,styleA_Paris,kim,johnMcCain,britneySpear,parisHilton,sarah_palin,michelle_obama,obama,mac_girl02,mac_boy,kim jong il,retro,Pamela,Kate,Rockstar,christmas,sexy_girl,boy,elf,monstermsh,Frank,posessed_doll,Bride,Dracula,ghost_pirate,Bitchy_Witchy,hillary,Bill Clinton,wilson,MikeHuckabee,Saul,anthone]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="0"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+      <color value="fdbae0"/>
+    </palette>
+  </meta>
+  <scene id="SCENE1" adelay="72" lock="Y" index="0" color="5618602" guid="C00F4ADC-B729-C9E5-346B-D1B7CA3C0881">
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11694" index="1" raceCode="0">
+      <action face="1" motionface="-1">politic.osama.cry.swf</action>
+      <x>532.4140018</x>
+      <y>263.3223447</y>
+      <xscale>0.9896284</xscale>
+      <yscale>0.9896284</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11722" index="2" raceCode="1">
+      <action face="-1" motionface="-1">ugc.1347769.taunt.xml</action>
+      <x>394.0361124</x>
+      <y>225.6432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP20" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>320.6280936</x>
+      <y>240.3008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE2" adelay="105" lock="N" index="1" color="5618602" guid="0FAF8E57-D00D-4696-9573-A46EC59CE17B">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11694" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.mac_girl.14_cry.swf</action>
+      <x>532.4140018</x>
+      <y>263.3223447</y>
+      <xscale>0.9896284</xscale>
+      <yscale>0.9896284</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11722" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>394.0361124</x>
+      <y>225.6432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP27" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>320.6280936</x>
+      <y>240.3008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE3" adelay="105" lock="N" index="2" color="5618602" guid="84BD652F-1A07-DDD3-A5C6-F4F0D9B1D7FC">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11694" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.model06-cry.swf</action>
+      <x>523.1959573</x>
+      <y>303.5827585</y>
+      <xscale>0.9896284</xscale>
+      <yscale>0.9896284</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11722" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>394.0361124</x>
+      <y>225.6432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP28" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>320.6280936</x>
+      <y>240.3008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE4" adelay="105" lock="N" index="3" color="5618602" guid="236925E0-BBBA-B9F7-221A-6EA222EAB004">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11694" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.styleA_Paris.cry01.swf</action>
+      <x>521.4</x>
+      <y>264.5540431</y>
+      <xscale>1.2734234</xscale>
+      <yscale>1.2734234</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11722" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>394.0361124</x>
+      <y>225.6432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP29" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>320.6280936</x>
+      <y>240.3008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE5" adelay="105" lock="N" index="4" color="5618602" guid="E2F6D2DD-E42F-A45D-17E1-7987ABA08A72">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11694" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.kim.cry.swf</action>
+      <x>510.1062613</x>
+      <y>255.6787838</y>
+      <xscale>1.2734234</xscale>
+      <yscale>1.2734234</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11722" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>394.0361124</x>
+      <y>225.6432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP30" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>320.6280936</x>
+      <y>240.3008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE6" adelay="105" lock="N" index="5" color="5618602" guid="5A328251-4FAE-06A9-7DF9-AE79C5F2F155">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11694" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.johnMcCain.cry.swf</action>
+      <x>538.769223</x>
+      <y>236.8984572</y>
+      <xscale>1.2734234</xscale>
+      <yscale>1.2734234</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11722" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>394.0361124</x>
+      <y>225.6432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP31" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>320.6280936</x>
+      <y>240.3008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE7" adelay="105" lock="N" index="6" color="5618602" guid="BFA10627-F89B-E5B9-C580-C197F5B82721">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11694" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model06-cry.swf</action>
+      <x>525.5302887</x>
+      <y>306.9712424</y>
+      <xscale>1.1079503</xscale>
+      <yscale>1.1079503</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11722" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP32" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE8" adelay="105" lock="N" index="7" color="5618602" guid="AF0CC73B-4782-BC1B-8826-641A8D657EE2">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11694" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.parisHilton.model06-cry.swf</action>
+      <x>525.5153354</x>
+      <y>306.9805593</y>
+      <xscale>1.1079503</xscale>
+      <yscale>1.1079503</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11722" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP33" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE9" adelay="54" lock="Y" index="8" color="5618602" guid="540154BD-504D-E504-C0E8-42DED2622520">
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11694" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.sarah_palin.dancing.swf</action>
+      <head id="PROP38">
+        <file>politic.sarah_palin.head.head_cry.swf</file>
+      </head>
+      <x>491.7653354</x>
+      <y>244.49741</y>
+      <xscale>1.1079503</xscale>
+      <yscale>1.1079503</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11722" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP34" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE10" adelay="105" lock="N" index="9" color="5618602" guid="103E6C67-C722-8612-F253-75C401785295">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11694" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.michelle_obama.sad.swf</action>
+      <x>491.7451863</x>
+      <y>244.4288106</y>
+      <xscale>1.1079503</xscale>
+      <yscale>1.1079503</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11722" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP40" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE11" adelay="105" lock="N" index="10" color="5618602" guid="A8A5C30C-1255-B335-CC99-043D72157EF2">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11694" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.obama.cry.swf</action>
+      <x>507.6576584</x>
+      <y>243.596062</y>
+      <xscale>1.1079503</xscale>
+      <yscale>1.1079503</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11722" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP45" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE12" adelay="105" lock="N" index="11" color="5618602" guid="109ED27B-826E-CFB7-DFC3-8E02856859CB">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11694" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.mac_girl02.14_cry.swf</action>
+      <x>507.6684534</x>
+      <y>244.928938</y>
+      <xscale>1.1079503</xscale>
+      <yscale>1.1079503</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11722" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP46" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE13" adelay="105" lock="N" index="12" color="5618602" guid="BD4C4EC3-A906-A63E-98C6-579CB8DA8327">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11694" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.mac_boy.14_cry.swf</action>
+      <x>507.6228851</x>
+      <y>244.8833324</y>
+      <xscale>1.1079503</xscale>
+      <yscale>1.1079503</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11722" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP47" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE14" adelay="105" lock="N" index="13" color="5618602" guid="011956DB-4C68-1059-DC97-F24BA0F685D0">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11694" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.kim jong il.cry.swf</action>
+      <x>494.7728851</x>
+      <y>289.2498885</y>
+      <xscale>1.1079503</xscale>
+      <yscale>1.1079503</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11722" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP48" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE15" adelay="105" lock="N" index="14" color="5618602" guid="FAC7F674-CB27-CC01-5FBD-AD5416F36D35">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11722" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP53" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11832" index="3" raceCode="0">
+      <action face="1" motionface="-1">retro.Pamela.sad.swf</action>
+      <x>479.5498296</x>
+      <y>226.475</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE16" adelay="105" lock="N" index="15" color="5618602" guid="95687655-9EB0-46A4-5485-CD770593812F">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11722" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP54" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11832" index="3" raceCode="0">
+      <action face="1" motionface="1">retro.Kate.sad.swf</action>
+      <x>479.5498296</x>
+      <y>226.475</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE17" adelay="105" lock="N" index="16" color="5618602" guid="EB5A7D44-2DCA-A335-E83A-B1A07D665E02">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11722" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP55" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11846" index="3" raceCode="0">
+      <action face="1" motionface="1">retro.Rockstar.stand.swf</action>
+      <head id="PROP59">
+        <file>retro.Rockstar.head.head_cry.swf</file>
+      </head>
+      <x>511.8375767</x>
+      <y>290.65</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE18" adelay="105" lock="N" index="17" color="5618602" guid="8CC524B3-2099-10D6-1738-0BC7D9EAB9E1">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11722" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP60" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11858" index="3" raceCode="0">
+      <action face="1" motionface="1">christmas.sexy_girl.fairy18-cry.swf</action>
+      <x>477.6062031</x>
+      <y>258.8818337</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE19" adelay="105" lock="N" index="18" color="5618602" guid="F93B01F1-C563-D8A2-D1E6-488399E60224">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11722" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP62" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11858" index="3" raceCode="0">
+      <action face="1" motionface="1">christmas.boy.sad.swf</action>
+      <x>471.9562031</x>
+      <y>317</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE20" adelay="105" lock="N" index="19" color="5618602" guid="141B60AA-1999-8BDE-B6A5-AE9DA32BA0FC">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11722" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP63" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11858" index="3" raceCode="0">
+      <action face="1" motionface="1">christmas.elf.cry.swf</action>
+      <x>463.1062031</x>
+      <y>304.95</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE21" adelay="105" lock="N" index="20" color="5618602" guid="178A78AF-6992-22FE-4307-CDB0534DECDE">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11722" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP64" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11877" index="3" raceCode="0">
+      <action face="1" motionface="1">monstermsh.Frank.nervious.swf</action>
+      <head id="PROP66">
+        <file>monstermsh.Frank.head.head_cry.swf</file>
+      </head>
+      <x>505.15</x>
+      <y>217.15</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE22" adelay="105" lock="N" index="21" color="5618602" guid="688B9620-272A-B6BB-C1F4-220DF32967C9">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11722" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP67" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11877" index="3" raceCode="0">
+      <action face="1" motionface="1">monstermsh.posessed_doll.cry.swf</action>
+      <x>496.65</x>
+      <y>304.075</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE23" adelay="105" lock="N" index="22" color="5618602" guid="AD759D71-AAFD-AB26-A8C1-E4F1208BF17D">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11722" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP71" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11877" index="3" raceCode="0">
+      <action face="1" motionface="1">monstermsh.Bride.drinking.swf</action>
+      <head id="PROP73">
+        <file>monstermsh.Bride.head.head_cry.swf</file>
+      </head>
+      <x>463.2583006</x>
+      <y>230.4745279</y>
+      <xscale>0.8985051</xscale>
+      <yscale>0.8985051</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE24" adelay="105" lock="N" index="23" color="5618602" guid="C6D243BE-4906-632B-93D8-9FB7119C03EE">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11722" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP74" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11877" index="3" raceCode="0">
+      <action face="1" motionface="1">monstermsh.Dracula.shocked.swf</action>
+      <x>482.5583006</x>
+      <y>267.8676829</y>
+      <xscale>0.8985051</xscale>
+      <yscale>0.8985051</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE25" adelay="105" lock="N" index="24" color="5618602" guid="A82AE46B-7C1F-53F9-3A8C-ACC323F513AA">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11722" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP78" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11877" index="3" raceCode="0">
+      <action face="1" motionface="1">monstermsh.ghost_pirate.dance.swf</action>
+      <head id="PROP84">
+        <file>monstermsh.ghost_pirate.head.head_cry.swf</file>
+      </head>
+      <x>482.5214398</x>
+      <y>267.7870181</y>
+      <xscale>0.8985051</xscale>
+      <yscale>0.8985051</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE26" adelay="105" lock="N" index="25" color="5618602" guid="EE04FDBB-FFC8-8ABD-A87D-DE8D2132CF01">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11722" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP85" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11877" index="3" raceCode="0">
+      <action face="1" motionface="1">monstermsh.Bitchy_Witchy.standing.swf</action>
+      <head id="PROP88">
+        <file>monstermsh.Bitchy_Witchy.head.head_cry.swf</file>
+      </head>
+      <x>482.4708301</x>
+      <y>267.7354445</y>
+      <xscale>0.8985051</xscale>
+      <yscale>0.8985051</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE27" adelay="105" lock="N" index="26" color="5618602" guid="28A8F865-5A16-C23D-EE91-1E751FBD2F46">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11722" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP89" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11932" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.hillary.cry.swf</action>
+      <x>510.2</x>
+      <y>275.05</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE28" adelay="105" lock="N" index="27" color="5618602" guid="2347AA76-C340-CE5D-FD2E-DC8B074E449D">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11722" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP91" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11932" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.Bill Clinton.cry.swf</action>
+      <x>511.025</x>
+      <y>256.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE29" adelay="105" lock="N" index="28" color="5618602" guid="8CF88D48-0659-BA71-00C4-DA1F334C58A1">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11722" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP92" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11932" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.wilson.14_cry.swf</action>
+      <x>511.025</x>
+      <y>256.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE30" adelay="105" lock="N" index="29" color="5618602" guid="2AB929E1-7D70-F413-A14F-FD0546939485">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11722" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP93" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11932" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.MikeHuckabee.shock01.swf</action>
+      <x>511.025</x>
+      <y>256.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE31" adelay="105" lock="N" index="30" color="5618602" guid="D3B9280F-DA08-8332-B5CD-16B80EBB382B">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11722" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP94" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11957" index="3" raceCode="0">
+      <action face="1" motionface="1">retro.Saul.shocked.swf</action>
+      <x>493.2562031</x>
+      <y>264</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE32" adelay="66" lock="Y" index="31" color="5618602" guid="EC1540A4-D207-618E-CB54-5A9F6937E19A">
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">16628448</color>
+    </bg>
+    <char id="AVATOR11722" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347769.taunt.xml</action>
+      <x>334.4861124</x>
+      <y>230.4432115</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11723" index="2" raceCode="1">
+      <action face="-1" motionface="1">ugc.1347770.taunt.xml</action>
+      <head id="PROP95" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>261.0780936</x>
+      <y>245.1008943</y>
+      <xscale>1.0140696</xscale>
+      <yscale>1.0140696</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11957" index="3" raceCode="0">
+      <action face="1" motionface="1">retro.anthone.standing.swf</action>
+      <head id="PROP99">
+        <file>retro.anthone.head.head_cry.swf</file>
+      </head>
+      <x>478.75</x>
+      <y>317.675</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <sound id="SOUND7" index="0" track="0" vol="1" tts="0">
+    <sfile>common.acoustica_full.mp3</sfile>
+    <start>1</start>
+    <stop>3243</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+  </sound>
+</film>

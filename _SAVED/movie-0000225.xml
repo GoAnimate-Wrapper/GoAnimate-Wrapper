@@ -1,0 +1,59 @@
+<film copyable="0" duration="5.0" published="1" pshare="0">
+  <meta>
+    <title><![CDATA[TheVideoEditorGuy6579 is a baby]]></title>
+    <tag><![CDATA[]]></tag>
+    <hiddenTag><![CDATA[politic,britneySpear]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="0"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+    </palette>
+  </meta>
+  <scene id="SCENE1" adelay="120" lock="Y" index="0" color="5618602" guid="C00F4ADC-B729-C9E5-346B-D1B7CA3C0881">
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">15131603</color>
+    </bg>
+    <char id="AVATOR11694" index="1" raceCode="1" faceCamera="true">
+      <action face="-1" motionface="1">ugc.328120182.stand.xml</action>
+      <head id="PROP3" raceCode="1">
+        <file>ugc.328120182.head.head_cry.xml</file>
+      </head>
+      <x>216.7959509</x>
+      <y>288.9736029</y>
+      <xscale>0.5405357</xscale>
+      <yscale>0.5405357</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11697" index="2" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>462.2540378</x>
+      <y>252.95</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="3">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+</film>

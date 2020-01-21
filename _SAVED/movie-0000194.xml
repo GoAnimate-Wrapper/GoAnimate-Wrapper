@@ -1,0 +1,128 @@
+<film copyable="0" duration="27.0" published="1" pshare="0">
+  <meta>
+    <title><![CDATA[TheVideoEditorGuy6579 Is A Crybaby]]></title>
+    <tag><![CDATA[]]></tag>
+    <hiddenTag><![CDATA[politic,britneySpear,lindsay,hillary,osama,matchBoy,mac_boy]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="0"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+    </palette>
+  </meta>
+  <scene id="SCENE1" adelay="648" lock="Y" index="0" color="16777215" guid="C00F4ADC-B729-C9E5-346B-D1B7CA3C0881" combgId="common.aboxingbg">
+    <bg id="BOXINGBG0" index="0">
+      <file>common.boxing_bg.swf</file>
+    </bg>
+    <char id="AVATOR11728" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.328120182.dance.xml</action>
+      <head id="PROP31" raceCode="1">
+        <file>ugc.328120182.head.head_cry.xml</file>
+      </head>
+      <x>247.7804672</x>
+      <y>234.5655323</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-92.3361651</rotation>
+    </char>
+    <char id="AVATOR11731" index="5" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>514.8040378</x>
+      <y>163.6424399</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11732" index="6" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>576.8091065</x>
+      <y>268.6424399</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11733" index="7" raceCode="0">
+      <action face="1" motionface="1">politic.hillary.laugh03.swf</action>
+      <x>425.9690722</x>
+      <y>296.95</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11734" index="3" raceCode="0">
+      <action face="-1" motionface="1">politic.osama.sitdown01_laugh.swf</action>
+      <x>106.4290378</x>
+      <y>135.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11735" index="8" raceCode="0">
+      <action face="-1" motionface="1">politic.matchBoy.laugh.swf</action>
+      <x>119.4</x>
+      <y>301.825</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11736" index="2" raceCode="0">
+      <action face="1" motionface="1">politic.mac_boy.kickA.swf</action>
+      <x>312.825</x>
+      <y>163.1924399</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="BOXINGPROP1" index="1" attached="Y">
+      <file>common.boxing_flag.swf</file>
+      <x>290.3</x>
+      <y>74.5</y>
+      <xscale>0.78</xscale>
+      <yscale>0.78</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT11" themecode="common" index="9">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <sound id="SOUND0" index="0" track="0" vol="1" tts="0">
+    <sfile>common.baby_boy_cry_many_08.mp3</sfile>
+    <start>1</start>
+    <stop>645</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+  </sound>
+  <sound id="SOUND2" index="1" track="1" vol="1" tts="0">
+    <sfile>common.theater_audience_laughter_01.mp3</sfile>
+    <start>1</start>
+    <stop>648</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+  </sound>
+  <sound id="SOUND3" index="2" track="2" vol="8" tts="0">
+    <sfile>common.approved_weird_crowdlau.swf</sfile>
+    <start>1</start>
+    <stop>651</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+  </sound>
+</film>

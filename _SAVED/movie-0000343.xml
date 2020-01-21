@@ -1,0 +1,71 @@
+<film copyable="0" duration="7.0" published="0" pshare="0">
+  <meta>
+    <title><![CDATA[In response to my last video]]></title>
+    <tag><![CDATA[]]></tag>
+    <hiddenTag><![CDATA[retro,matt]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="0"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+    </palette>
+  </meta>
+  <scene id="SCENE0" adelay="168" lock="N" index="0" color="16777215" guid="32600689-F6D2-F7CE-7EBF-BAC09CC29E6E" combgId="retro.cbg_bigisland">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_bigisland_BG66" index="0">
+      <file>retro.island_sea.swf</file>
+    </bg>
+    <char id="AVATOR67" index="2" raceCode="0">
+      <action face="-1" motionface="-1">retro.matt.sitting.swf</action>
+      <x>227.2277745</x>
+      <y>196.9747005</y>
+      <xscale>5.5257671</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <bubbleAsset id="BUBBLE69" index="3">
+      <x>327.9527837</x>
+      <y>192.8247005</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-260.0717044" y="-122.239479" w="520.1434087" h="244.4789579" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="Telex Regular" size="49" align="center" bold="false" italic="false" embed="true"><![CDATA[On second thought, fixing that bug where videos with cc don't play would be cool.]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <prop id="cbg_bigisland_PROP49" index="1" attached="Y">
+      <file>retro.island04.swf</file>
+      <x>134.1</x>
+      <y>297.35</y>
+      <xscale>0.9</xscale>
+      <yscale>0.9</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT0" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+</film>

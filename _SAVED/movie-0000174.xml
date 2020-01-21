@@ -1,0 +1,1219 @@
+<film copyable="0" duration="54.6" published="1" pshare="0">
+  <meta>
+    <title><![CDATA[Fucking Good Users]]></title>
+    <tag><![CDATA[]]></tag>
+    <hiddenTag><![CDATA[politic,britneySpear,lindsay,styleA_Paris,mac_boy,osama,hillary]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="10"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+      <color value="e19ee5"/>
+    </palette>
+  </meta>
+  <scene id="SCENE1" adelay="63" lock="Y" index="0" color="14786277" guid="C00F4ADC-B729-C9E5-346B-D1B7CA3C0881">
+    <char id="AVATOR11695" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>510.0217125</x>
+      <y>261.4845566</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11696" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.327764259.dance.xml</action>
+      <head id="PROP9" raceCode="1">
+        <file>ugc.327764259.head.head_cry.xml</file>
+      </head>
+      <x>192.5764587</x>
+      <y>298.7936409</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>87.5573431</rotation>
+    </char>
+    <char id="AVATOR11700" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>399.1217125</x>
+      <y>261.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11795" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP54" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11797" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP55" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT3" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE2" adelay="75" lock="Y" index="1" color="14786277" guid="902F6624-C224-87D0-E9A1-AD3AB4E93E9D">
+    <char id="AVATOR11695" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>510.0217125</x>
+      <y>261.4845566</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11696" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.327765082.dance.xml</action>
+      <head id="PROP14" raceCode="1">
+        <file>ugc.327765082.head.head_cry.xml</file>
+      </head>
+      <x>192.4291507</x>
+      <y>300.4723472</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>87.5573431</rotation>
+    </char>
+    <char id="AVATOR11700" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>399.1217125</x>
+      <y>261.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11799" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP56" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11801" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP57" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT3" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE3" adelay="72" lock="Y" index="2" color="14786277" guid="A6C2D36B-0E62-B9EB-7AC5-55F1E4AD2AD7">
+    <char id="AVATOR11695" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>510.0217125</x>
+      <y>261.4845566</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11696" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.327764594.dance.xml</action>
+      <head id="PROP19" raceCode="1">
+        <file>ugc.327764594.head.head_cry.xml</file>
+      </head>
+      <x>192.4291507</x>
+      <y>300.4723472</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>87.5573431</rotation>
+    </char>
+    <char id="AVATOR11700" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>399.1217125</x>
+      <y>261.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11803" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP58" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11805" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP59" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT3" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE4" adelay="108" lock="Y" index="3" color="14786277" guid="2D9C3A62-B416-64E9-2C7C-CFEBC4D58BF3">
+    <char id="AVATOR11695" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>510.0217125</x>
+      <y>261.4845566</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11696" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.327764516.dance.xml</action>
+      <head id="PROP24" raceCode="1">
+        <file>ugc.327764516.head.head_cry.xml</file>
+      </head>
+      <x>192.4363361</x>
+      <y>302.2867447</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>87.5573431</rotation>
+    </char>
+    <char id="AVATOR11700" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>399.1217125</x>
+      <y>261.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11807" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP60" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11809" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP61" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT3" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE5" adelay="60" lock="N" index="4" color="14786277" guid="58B22171-7AFC-7A85-64EA-3FACFAA1E675">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <char id="AVATOR11695" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>510.0217125</x>
+      <y>261.4845566</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11696" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.328120191.dance.xml</action>
+      <head id="PROP27" raceCode="1">
+        <file>ugc.328120191.head.head_cry.xml</file>
+      </head>
+      <x>192.4363361</x>
+      <y>302.2867447</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>87.5573431</rotation>
+    </char>
+    <char id="AVATOR11700" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>399.1217125</x>
+      <y>261.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11811" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP62" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11813" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP63" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT3" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE6" adelay="60" lock="N" index="5" color="14786277" guid="BDAA7C97-AC99-98CA-036A-CFF1E73B5F32">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <char id="AVATOR11695" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>510.0217125</x>
+      <y>261.4845566</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11696" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.328120041.dance.xml</action>
+      <head id="PROP30" raceCode="1">
+        <file>ugc.328120041.head.head_cry.xml</file>
+      </head>
+      <x>192.3462338</x>
+      <y>301.3557211</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>87.5573431</rotation>
+    </char>
+    <char id="AVATOR11700" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>399.1217125</x>
+      <y>261.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11815" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP64" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11817" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP65" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT3" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE7" adelay="87" lock="Y" index="6" color="14786277" guid="5DBB6699-C494-25D4-1D89-7D60A1137FE3">
+    <char id="AVATOR11695" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>510.0217125</x>
+      <y>261.4845566</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11696" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.327764713.dance.xml</action>
+      <head id="PROP35" raceCode="1">
+        <file>ugc.327764713.head.head_cry.xml</file>
+      </head>
+      <x>192.2228478</x>
+      <y>302.4767042</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>87.5573431</rotation>
+    </char>
+    <char id="AVATOR11700" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>399.1217125</x>
+      <y>261.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11819" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP66" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11821" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP67" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT3" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE8" adelay="60" lock="N" index="7" color="14786277" guid="81EF6FE9-44AE-32E3-700A-5DB825D24CB8">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <char id="AVATOR11695" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>510.0217125</x>
+      <y>261.4845566</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11696" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.327764308.dance.xml</action>
+      <head id="PROP38" raceCode="1">
+        <file>ugc.327764308.head.head_cry.xml</file>
+      </head>
+      <x>193.991859</x>
+      <y>303.7981603</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>87.5573431</rotation>
+    </char>
+    <char id="AVATOR11700" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>399.1217125</x>
+      <y>261.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11823" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP68" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11825" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP69" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT3" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE9" adelay="66" lock="N" index="8" color="14786277" guid="3C340E2C-0349-C171-9FF5-AF15E1A130A5">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <char id="AVATOR11695" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>510.0217125</x>
+      <y>261.4845566</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11696" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.327764372.dance.xml</action>
+      <head id="PROP41" raceCode="1">
+        <file>ugc.327764372.head.head_cry.xml</file>
+      </head>
+      <x>193.991859</x>
+      <y>303.7981603</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>87.5573431</rotation>
+    </char>
+    <char id="AVATOR11700" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>399.1217125</x>
+      <y>261.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11827" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP70" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11829" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP71" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT3" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE10" adelay="60" lock="N" index="9" color="14786277" guid="D1CE83EA-C62A-4A6B-66C6-6BBB3138A39E">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <char id="AVATOR11695" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>510.0217125</x>
+      <y>261.4845566</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11696" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.327764579.dance.xml</action>
+      <head id="PROP44" raceCode="1">
+        <file>ugc.327764579.head.head_cry.xml</file>
+      </head>
+      <x>193.9131353</x>
+      <y>301.8344557</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>87.5573431</rotation>
+    </char>
+    <char id="AVATOR11700" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>399.1217125</x>
+      <y>261.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11831" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP72" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11833" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP73" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT3" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE11" adelay="60" lock="N" index="10" color="14786277" guid="F134E5F3-8DCB-1ED2-B677-F544BEF6924F">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <char id="AVATOR11695" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>510.0217125</x>
+      <y>261.4845566</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11696" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.327412169.dance.xml</action>
+      <head id="PROP47" raceCode="1">
+        <file>ugc.327412169.head.head_cry.xml</file>
+      </head>
+      <x>193.9131353</x>
+      <y>301.8344557</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>87.5573431</rotation>
+    </char>
+    <char id="AVATOR11700" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>399.1217125</x>
+      <y>261.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11785" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP49" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11788" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP51" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11835" index="6" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP74" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11837" index="7" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP75" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT3" themecode="common" index="8">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE12" adelay="60" lock="N" index="11" color="14786277" guid="7136FC00-04DA-1119-60D3-3241C21B92D8">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <char id="AVATOR11695" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>510.0217125</x>
+      <y>261.4845566</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11696" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.327269881.dance.xml</action>
+      <head id="PROP84" raceCode="1">
+        <file>ugc.327269881.head.head_cry.xml</file>
+      </head>
+      <x>193.1480175</x>
+      <y>302.6346657</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>87.5573431</rotation>
+    </char>
+    <char id="AVATOR11700" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>399.1217125</x>
+      <y>261.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11785" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP77" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11788" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP78" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11835" index="6" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP79" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11837" index="7" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP80" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT3" themecode="common" index="8">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE13" adelay="60" lock="N" index="12" color="14786277" guid="F67A3330-E58A-5E8F-49AD-4ABE6F6943F8">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <char id="AVATOR11695" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>510.0217125</x>
+      <y>261.4845566</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11696" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.327764522.dance.xml</action>
+      <head id="PROP91" raceCode="1">
+        <file>ugc.327764522.head.head_cry.xml</file>
+      </head>
+      <x>191.8873695</x>
+      <y>303.2578524</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>87.5573431</rotation>
+    </char>
+    <char id="AVATOR11700" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>399.1217125</x>
+      <y>261.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11785" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP86" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11788" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP87" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11835" index="6" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP88" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11837" index="7" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP89" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11869" index="8" raceCode="0">
+      <action face="1" motionface="1">politic.styleA_Paris.laugh01.swf</action>
+      <x>375.6332564</x>
+      <y>336.8051386</y>
+      <xscale>1.4896074</xscale>
+      <yscale>1.4896074</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT3" themecode="common" index="9">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE14" adelay="81" lock="Y" index="13" color="14786277" guid="4F26B3DE-45FD-CD9D-3425-87039E899073">
+    <char id="AVATOR11695" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>510.0217125</x>
+      <y>261.4845566</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11696" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.329767001.dance.xml</action>
+      <head id="PROP98" raceCode="1">
+        <file>ugc.329767001.head.head_cry.xml</file>
+      </head>
+      <x>191.8873695</x>
+      <y>303.2578524</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>87.5573431</rotation>
+    </char>
+    <char id="AVATOR11700" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>399.1217125</x>
+      <y>261.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11785" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP93" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11788" index="6" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP94" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11835" index="7" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP95" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11837" index="8" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP96" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11869" index="9" raceCode="0">
+      <action face="1" motionface="1">politic.styleA_Paris.laugh01.swf</action>
+      <x>375.6332564</x>
+      <y>336.8051386</y>
+      <xscale>1.4896074</xscale>
+      <yscale>1.4896074</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11886" index="4" raceCode="0">
+      <action face="1" motionface="1">politic.mac_boy.hi5_A.swf</action>
+      <x>565.825</x>
+      <y>250.875</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT3" themecode="common" index="10">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE15" adelay="120" lock="N" index="14" color="14786277" guid="E3892278-BB87-88E7-8C6E-08A630F18B56">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <char id="AVATOR11695" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>510.0217125</x>
+      <y>261.4845566</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11696" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.328079567.dance.xml</action>
+      <head id="PROP105" raceCode="1">
+        <file>ugc.328079567.head.head_cry.xml</file>
+      </head>
+      <x>191.8873695</x>
+      <y>303.2578524</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>87.5573431</rotation>
+    </char>
+    <char id="AVATOR11700" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>399.1217125</x>
+      <y>261.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11886" index="4" raceCode="0">
+      <action face="1" motionface="1">politic.mac_boy.hi5_A.swf</action>
+      <x>565.825</x>
+      <y>250.875</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11785" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP100" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11788" index="6" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP101" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11835" index="7" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP102" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11837" index="8" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP103" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11869" index="9" raceCode="0">
+      <action face="1" motionface="1">politic.styleA_Paris.laugh01.swf</action>
+      <x>375.6332564</x>
+      <y>336.8051386</y>
+      <xscale>1.4896074</xscale>
+      <yscale>1.4896074</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11904" index="10" raceCode="0">
+      <action face="1" motionface="1">politic.osama.stand.swf</action>
+      <head id="PROP107">
+        <file>politic.osama.head.head_laugh03.swf</file>
+      </head>
+      <x>430.6717125</x>
+      <y>391.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT3" themecode="common" index="11">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE16" adelay="219" lock="Y" index="15" color="14786277" guid="3B91306C-A038-D7E0-727B-81BF728E351C">
+    <char id="AVATOR11695" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>510.0217125</x>
+      <y>261.4845566</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11696" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.327764590.dance.xml</action>
+      <head id="PROP115" raceCode="1">
+        <file>ugc.327764590.head.head_cry.xml</file>
+      </head>
+      <x>191.8873695</x>
+      <y>303.2578524</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>87.5573431</rotation>
+    </char>
+    <char id="AVATOR11700" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>399.1217125</x>
+      <y>261.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11886" index="4" raceCode="0">
+      <action face="1" motionface="1">politic.mac_boy.hi5_A.swf</action>
+      <x>565.825</x>
+      <y>250.875</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11785" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP109" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11788" index="6" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP110" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11835" index="7" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.pt_at.xml</action>
+      <head id="PROP111" raceCode="1">
+        <file>ugc.327779829.head.head_laugh.xml</file>
+      </head>
+      <x>560.975</x>
+      <y>313.6</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11837" index="8" raceCode="1">
+      <action face="1" motionface="1">ugc.832054.stand.xml</action>
+      <head id="PROP112" raceCode="1">
+        <file>ugc.832054.head.head_laugh.xml</file>
+      </head>
+      <x>482.7</x>
+      <y>310.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11869" index="9" raceCode="0">
+      <action face="1" motionface="1">politic.styleA_Paris.laugh01.swf</action>
+      <x>375.6332564</x>
+      <y>336.8051386</y>
+      <xscale>1.4896074</xscale>
+      <yscale>1.4896074</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11904" index="10" raceCode="0">
+      <action face="1" motionface="1">politic.osama.stand.swf</action>
+      <head id="PROP113">
+        <file>politic.osama.head.head_laugh03.swf</file>
+      </head>
+      <x>430.6717125</x>
+      <y>391.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11926" index="11" raceCode="0">
+      <action face="1" motionface="1">politic.hillary.laugh03.swf</action>
+      <x>520.875</x>
+      <y>395.0345566</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT3" themecode="common" index="12">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <sound id="SOUND0" index="0" track="0" vol="8" tts="0">
+    <sfile>common.theater_audience_laughter_01.mp3</sfile>
+    <start>1</start>
+    <stop>1311</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+  </sound>
+  <sound id="SOUND1" index="1" track="1" vol="8" tts="0">
+    <sfile>common.baby_boy_cry_many_08.mp3</sfile>
+    <start>1</start>
+    <stop>1311</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+  </sound>
+  <sound id="SOUND2" index="2" track="2" vol="1" tts="0">
+    <sfile>common.action_2.mp3</sfile>
+    <start>1</start>
+    <stop>1311</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+  </sound>
+</film>

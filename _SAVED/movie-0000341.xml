@@ -1,0 +1,85 @@
+<film copyable="0" duration="31.5" published="0" pshare="0">
+  <meta>
+    <title><![CDATA[dance]]></title>
+    <tag><![CDATA[]]></tag>
+    <hiddenTag><![CDATA[monstermsh,Frank,retro,george]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="0"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+    </palette>
+  </meta>
+  <scene id="SCENE1" adelay="756" lock="Y" index="0" color="16777215" guid="C00F4ADC-B729-C9E5-346B-D1B7CA3C0881" combgId="custom.cbg_basketball_int">
+    <bg id="cbg_basketball_int_BG2" index="0">
+      <file>custom.basketball_court01_bg.swf</file>
+      <dcsn>9607</dcsn>
+      <color r="ccColorA" oc="0x0">15450736</color>
+    </bg>
+    <char id="AVATOR11694" index="3" raceCode="0">
+      <action face="1" motionface="-1">monstermsh.Frank.dancing.swf</action>
+      <head id="PROP3">
+        <file>monstermsh.Frank.head.head_happy.swf</file>
+      </head>
+      <x>384.2666667</x>
+      <y>204.7385057</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11695" index="4" raceCode="0">
+      <action face="-1" motionface="1">retro.george.excited.swf</action>
+      <x>215.25</x>
+      <y>252.025</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_basketball_int_PROP0" index="2" attached="Y">
+      <file>custom.basketball_court01_goal.swf</file>
+      <x>102</x>
+      <y>203</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_basketball_int_PROP1" index="1" attached="Y">
+      <file>custom.basketball_court01_people.swf</file>
+      <x>445</x>
+      <y>159</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT11" themecode="common" index="5">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <sound id="SOUND0" index="0" track="0" vol="1" tts="0">
+    <sfile>common.action_2.mp3</sfile>
+    <start>1</start>
+    <stop>756</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+  </sound>
+</film>

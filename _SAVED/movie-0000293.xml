@@ -1,0 +1,103 @@
+<film copyable="0" duration="5.0" published="0" pshare="1">
+  <meta>
+    <title><![CDATA[testt]]></title>
+    <tag><![CDATA[]]></tag>
+    <hiddenTag><![CDATA[]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="0"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+    </palette>
+  </meta>
+  <scene id="SCENE1" adelay="120" lock="Y" index="0" color="5618602" guid="C00F4ADC-B729-C9E5-346B-D1B7CA3C0881">
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">15131603</color>
+    </bg>
+    <char id="AVATOR11687" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.274508546.bf_s29_hugfront.xml</action>
+      <x>337</x>
+      <y>212</y>
+      <xscale>1.34</xscale>
+      <yscale>1.34</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11688" index="3" raceCode="1">
+      <action face="-1" motionface="1">ugc.248089025.hand_up.xml</action>
+      <x>267</x>
+      <y>207</y>
+      <xscale>1.34</xscale>
+      <yscale>1.34</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11689" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.248088518.both_hand_up_front.xml</action>
+      <x>405</x>
+      <y>210</y>
+      <xscale>1.34</xscale>
+      <yscale>1.34</yscale>
+      <rotation>0</rotation>
+    </char>
+    <bubbleAsset id="BUBBLE11692" index="6">
+      <x>331.7</x>
+      <y>300.9</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-64.3" y="-17.6" w="128.5" h="35.1" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="16514043" alpha="100" font="Raleway" size="24" align="center" bold="true" italic="false" embed="true"><![CDATA[Teamwork]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <prop id="PROP83" index="1">
+      <file>business.g4b_2841.swf</file>
+      <x>326.2</x>
+      <y>171.5</y>
+      <xscale>0.54</xscale>
+      <yscale>0.54</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="colorA">15649857</color>
+      <color r="colorB">2672321</color>
+    </prop>
+    <prop id="PROP82" index="5">
+      <file>business.g4b_2788.swf</file>
+      <x>331.7</x>
+      <y>308.2</y>
+      <xscale>0.79</xscale>
+      <yscale>0.71</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="colorA">15354185</color>
+    </prop>
+    <effectAsset id="EFFECT11" themecode="common" index="7">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="702" target="PROP82" type="SpritePopSingleRing" atype="Prop" direction="0" section="5" timing="0" duration="24" delay="12">null</aTran>
+      <aTran id="703" target="BUBBLE11692" type="SpritePopSingleRing" atype="BubbleAsset" direction="0" section="5" timing="3" duration="24" delay="12">null</aTran>
+    </aTranList>
+  </scene>
+</film>

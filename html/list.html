@@ -1,8 +1,18 @@
 <header>
-	<div><strong>Disclaimer:</strong> this service is not finished yet; some features (such as custom assets and
-		characters) may not be available at this time.</div><a
-		href='https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper'>Link
-		to the source code on GitHub</a>
+	<div>
+		<div>
+			<a href="./"><img src="logo.png" /></a>
+		</div>
+		<div>
+			<a href="/go_full">MAKE A VIDEO</a>
+		</div>
+	</div>
+	<div>
+		This service is not finished yet; some features (such as custom assets and
+		characters) may not be available at this time.<br><a
+			href='https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper'>Link
+			to the source code on GitHub</a>
+	</div>
 </header>
 <table>
 	<thead>
@@ -26,8 +36,9 @@
 		if (http.readyState != 4) return;
 		const json = JSON.parse(http.responseText);
 		json.forEach(function (tbl) {
+			var date = tbl.date.substr(0, 10) + ' ' + tbl.date.substr(11);
 			tbody.innerHTML +=
-				'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title + '</div><div>' + tbl.durationString + '</div></div></td><td>' + tbl.date + '</td><td><a href="#" onclick="popup(\'' + tbl.id + '\')"></a><a href=" / go_full ? movieId = ' + tbl.id + '"></a></td></tr>';
+				'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date.match(/./g).join('</span><span>') + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a href="/go_full?movieId=' + tbl.id + '"></a></td></tr>';
 		});
 	}
 
@@ -37,7 +48,7 @@
 </script>
 <style>
 	html {
-		font-family: sans-serif;
+		font-family: 'Sailec', Arial, sans-serif;
 		-ms-text-size-adjust: 100%;
 		-webkit-text-size-adjust: 100%;
 	}
@@ -46,22 +57,64 @@
 		margin: 0;
 		background-color: #fff;
 		color: #474747;
-		font-family: 'Sailec', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 1.5;
 		position: relative;
 	}
 
-	header {
-		padding: 10px 0;
-		background-color: #d85e27;
+	header>:nth-child(1) {
+		height: 44px;
+		align-content: center;
+		background-color: #111;
 		color: #fff;
 		text-align: center;
 	}
 
-	header a {
+	header>:nth-child(1)>:nth-child(1) {
+		float: left;
+	}
+
+	header>:nth-child(1)>:nth-child(1)>:nth-child(1)>* {
+		margin-left: 10px;
+		margin-top: 7px;
+		height: 30px;
+	}
+
+	header>:nth-child(1)>:nth-child(2) {
+		float: right;
+	}
+
+	header>:nth-child(1)>:nth-child(2)>:nth-child(1) {
+		margin-top: 7px;
+		margin-right: 20px;
+		display: block;
+		width: 160px;
+		padding-top: 4px;
+		padding-bottom: 3px;
+		border-radius: 3px;
+		background-color: #d85e27;
+		font-size: 14px;
+		text-decoration: none;
 		color: #fff;
+	}
+
+	header>:nth-child(2) {
+		font-size: 14px;
+		padding: 10px 0;
+		background-color: #fd7;
+		text-align: center;
+	}
+
+	header>:nth-child(2)::before {
+		font-family: 'GlyphiconsRegular';
+		padding-right: 4px;
+		content: "\E079";
+		font-size: 12px;
+	}
+
+	header>:nth-child(2)>a {
+		color: #5596e6;
 	}
 
 	table {
@@ -127,16 +180,23 @@
 		height: 36px;
 	}
 
-	tr>:nth-child(2)>:nth-child(1) {
+	tr>:nth-child(1) {
 		word-break: break-word;
 	}
 
-	tr>:nth-child(2)>:nth-child(2) {
+	tr>:nth-child(2) {
 		color: #999;
 	}
 
 	tr>:nth-child(3) {
-		width: 200px;
+		width: 250px;
+	}
+
+	tr>:nth-child(3)>* {
+		display: inline-block;
+		text-align: center;
+		font-size: 12px;
+		width: 8.5px;
 	}
 
 	tr>:nth-child(4) {
@@ -158,11 +218,11 @@
 		color: #d85e27;
 	}
 
-	tr>:nth-child(4)>a:nth-child(1):before {
+	tr>:nth-child(4)>:nth-child(1)::before {
 		content: '\E174';
 	}
 
-	tr>:nth-child(4)>a:nth-child(2):before {
+	tr>:nth-child(4)>:nth-child(2)::before {
 		content: '\E235';
 	}
 
