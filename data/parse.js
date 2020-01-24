@@ -175,12 +175,11 @@ module.exports = {
 			stream.on('end', () => {
 				var xmlBuffers = [Buffer.concat(pieces).slice(0, -7)];
 				for (const aId in buffers) {
-					if (useBase64(aId))
-						xmlBuffers.push(Buffer.from(`<asset id="${aId}">${buffers[aId]}</asset>`));
-					else {
+					if (useBase64(aId)) {
 						const assetString = buffers[aId].toString('base64');
 						xmlBuffers.push(Buffer.from(`<asset id="${aId}">${assetString}</asset>`));
-					}
+					} else
+						xmlBuffers.push(Buffer.from(`<asset id="${aId}">${buffers[aId]}</asset>`));
 				}
 
 				xmlBuffers.push(Buffer.from(`</film>`));
