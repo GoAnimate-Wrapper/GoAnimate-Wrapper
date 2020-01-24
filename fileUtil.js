@@ -72,18 +72,22 @@ module.exports = {
 	 * @returns {number[]}
 	 */
 	getValidFileIndicies(s, suf = '.xml', l = 7) {
-		const files = this.getValidFileNames(s, suf, l);
-		return files.map(v => Number.parseInt(v.substr(s.length, l)));
+		const regex = new RegExp(`${s}[0-9]{${l}}${suf}$`);
+		return fs.readdirSync(folder).
+			filter(v => v && regex.test(v)).
+			map(v => Number.parseInt(v.substr(s.length, l)));;
 	},
 	/**
 	 * @param {string} s
 	 * @param {string} suf
 	 * @param {number} l
-	 * @returns {number[]}
+	 * @returns {string[]}
 	 */
 	getValidFileNames(s, suf = '.xml', l = 7) {
 		const regex = new RegExp(`${s}[0-9]{${l}}${suf}$`);
-		return fs.readdirSync(folder).filter(v => v && regex.test(v));
+		return fs.readdirSync(folder).
+			filter(v => v && regex.test(v)).
+			map(v => `${folder}/${v}`);
 	},
 	/**
 	 * 

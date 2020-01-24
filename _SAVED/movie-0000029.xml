@@ -1,12 +1,12 @@
-<film copyable="0" duration="90.3" published="1" pshare="0">
+<film copyable="0" duration="90.3" published="1" pshare="0" isWide="1">
   <meta>
     <title><![CDATA[grgherhethrthrthrthr]]></title>
     <tag><![CDATA[]]></tag>
-    <hiddenTag><![CDATA[politic,britneySpear,stick,stickgirl,stickguy,stickGirl3000,Stickkidgirl3000,Stickfat3000,fullenergy,dave_char,politics2,rush_limbaugh,barack_obama02,john_boehner02,katie_couric,christmas,boy,sexy_girl,santa,snowman,monstermsh,posessed_doll,grannie,kim,cliff,kan,mac_girl,lindsay]]></hiddenTag>
+    <hiddenTag><![CDATA[politic,britneySpear,stick,stickgirl,stickguy,stickGirl3000,Stickkidgirl3000,Stickfat3000,fullenergy,dave_char,politics2,barack_obama02,john_boehner02,katie_couric,rush_limbaugh,christmas,boy,santa,snowman,sexy_girl,grannie,monstermsh,posessed_doll,cliff,kan,kim,mac_girl,lindsay]]></hiddenTag>
     <desc><![CDATA[]]></desc>
     <mver><![CDATA[4]]></mver>
     <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
-    <thumbnail index="6"/>
+    <thumbnail index="11"/>
     <palette>
       <color value="333333"/>
       <color value="999999"/>
@@ -39,7 +39,7 @@
     </char>
     <char id="AVATOR11735" index="5" raceCode="1">
       <action face="1" motionface="1">ugc.327765082.pt_at.xml</action>
-      <head id="PROP22" raceCode="1">
+      <head id="PROP51" raceCode="1">
         <file>ugc.327765082.head.head_laugh.xml</file>
       </head>
       <x>503</x>
@@ -50,7 +50,7 @@
     </char>
     <char id="AVATOR11736" index="6" raceCode="1">
       <action face="1" motionface="1">ugc.327764594.pt_at.xml</action>
-      <head id="PROP24" raceCode="1">
+      <head id="PROP55" raceCode="1">
         <file>ugc.327764594.head.head_laugh.xml</file>
       </head>
       <x>570.1</x>
@@ -59,24 +59,24 @@
       <yscale>1</yscale>
       <rotation>0</rotation>
     </char>
-    <char id="AVATOR11745" index="8" raceCode="1">
-      <action face="-1" motionface="1">ugc.328120158.pt_at.xml</action>
-      <head id="PROP38" raceCode="1">
-        <file>ugc.328120158.head.head_laugh.xml</file>
+    <char id="AVATOR11747" index="7" raceCode="1">
+      <action face="-1" motionface="1">ugc.327764308.pt_at.xml</action>
+      <head id="PROP84" raceCode="1">
+        <file>ugc.327764308.head.head_laugh.xml</file>
       </head>
-      <x>103.725</x>
-      <y>253.225</y>
+      <x>188.25</x>
+      <y>248.525</y>
       <xscale>1</xscale>
       <yscale>1</yscale>
       <rotation>0</rotation>
     </char>
-    <char id="AVATOR11747" index="7" raceCode="1">
-      <action face="-1" motionface="1">ugc.327764650.pt_at.xml</action>
-      <head id="PROP32" raceCode="1">
-        <file>ugc.327764650.head.head_laugh.xml</file>
+    <char id="AVATOR11745" index="8" raceCode="1">
+      <action face="-1" motionface="1">ugc.328120158.pt_at.xml</action>
+      <head id="PROP54" raceCode="1">
+        <file>ugc.328120158.head.head_laugh.xml</file>
       </head>
-      <x>188.25</x>
-      <y>248.525</y>
+      <x>103.725</x>
+      <y>253.225</y>
       <xscale>1</xscale>
       <yscale>1</yscale>
       <rotation>0</rotation>
@@ -109,7 +109,7 @@
       <rotation>0</rotation>
     </prop>
     <effectAsset id="EFFECT2" themecode="common" index="9">
-      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
       <x>47</x>
       <y>24</y>
       <width>550</width>
@@ -259,15 +259,6 @@
       <yscale>1</yscale>
       <rotation>84.9477504</rotation>
     </char>
-    <prop id="PROP1" index="2" attached="Y">
-      <file>custom.school_locker_open.swf</file>
-      <x>503.05</x>
-      <y>196.825</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
     <prop id="PROP0" index="1" attached="Y">
       <file>custom.school_locker.swf</file>
       <x>460</x>
@@ -277,8 +268,17 @@
       <face>1</face>
       <rotation>0</rotation>
     </prop>
+    <prop id="PROP1" index="2" attached="Y">
+      <file>custom.school_locker_open.swf</file>
+      <x>503.05</x>
+      <y>196.825</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
     <effectAsset id="EFFECT2" themecode="common" index="13">
-      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
       <x>47</x>
       <y>24</y>
       <width>550</width>
@@ -445,7 +445,7 @@
       <rotation>0</rotation>
     </prop>
     <effectAsset id="EFFECT2" themecode="common" index="13">
-      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
       <x>47</x>
       <y>24</y>
       <width>550</width>
@@ -482,6 +482,14 @@
       <yscale>1</yscale>
       <rotation>0</rotation>
     </char>
+    <char id="AVATOR11938" index="4" raceCode="1">
+      <action face="-1" motionface="1">ugc.327764590.laugh.xml</action>
+      <x>183.5</x>
+      <y>176.3</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
     <char id="AVATOR11932" index="5" raceCode="1">
       <action face="-1" motionface="1">ugc.53767560.laugh.xml</action>
       <x>111.425</x>
@@ -502,14 +510,6 @@
       <action face="-1" motionface="1">ugc.327764259.laugh.xml</action>
       <x>168.375</x>
       <y>276.675</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <rotation>0</rotation>
-    </char>
-    <char id="AVATOR11938" index="4" raceCode="1">
-      <action face="-1" motionface="1">ugc.327764590.laugh.xml</action>
-      <x>183.5</x>
-      <y>176.3</y>
       <xscale>1</xscale>
       <yscale>1</yscale>
       <rotation>0</rotation>
@@ -542,7 +542,7 @@
       <rotation>0</rotation>
     </char>
     <effectAsset id="EFFECT8" themecode="common" index="11">
-      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
       <x>47</x>
       <y>24</y>
       <width>550</width>
@@ -562,16 +562,6 @@
       <xscale>1</xscale>
       <yscale>1</yscale>
       <rotation>83.6610617</rotation>
-    </char>
-    <char id="AVATOR11954" index="5" raceCode="2">
-      <action face="-1" motionface="1">politics2.rush_limbaugh.happy.swf</action>
-      <x>80.1</x>
-      <y>215.325</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <rotation>0</rotation>
-      <dcsn>12988</dcsn>
-      <color r="ccSkinColor">14862253</color>
     </char>
     <char id="AVATOR11955" index="2" raceCode="2">
       <action face="-1" motionface="1">politics2.barack_obama02.happy_side.swf</action>
@@ -603,8 +593,18 @@
       <dcsn>13498</dcsn>
       <color r="ccSkinColor">16642536</color>
     </char>
+    <char id="AVATOR11954" index="5" raceCode="2">
+      <action face="-1" motionface="1">politics2.rush_limbaugh.happy.swf</action>
+      <x>80.1</x>
+      <y>215.325</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <dcsn>12988</dcsn>
+      <color r="ccSkinColor">14862253</color>
+    </char>
     <effectAsset id="EFFECT8" themecode="common" index="6">
-      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
       <x>47</x>
       <y>24</y>
       <width>550</width>
@@ -625,14 +625,6 @@
       <yscale>1</yscale>
       <rotation>0</rotation>
     </char>
-    <char id="AVATOR11986" index="4" raceCode="0">
-      <action face="-1" motionface="1">christmas.sexy_girl.fairy06-laugh.swf</action>
-      <x>119.309187</x>
-      <y>261.0919625</y>
-      <xscale>0.557851</xscale>
-      <yscale>0.557851</yscale>
-      <rotation>0</rotation>
-    </char>
     <char id="AVATOR11987" index="2" raceCode="0">
       <action face="-1" motionface="1">christmas.santa.laugh03.swf</action>
       <x>124.4943419</x>
@@ -649,6 +641,14 @@
       <yscale>1</yscale>
       <rotation>0</rotation>
     </char>
+    <char id="AVATOR11986" index="4" raceCode="0">
+      <action face="-1" motionface="1">christmas.sexy_girl.fairy06-laugh.swf</action>
+      <x>119.309187</x>
+      <y>261.0919625</y>
+      <xscale>0.557851</xscale>
+      <yscale>0.557851</yscale>
+      <rotation>0</rotation>
+    </char>
     <char id="AVATOR11990" index="5" raceCode="0">
       <action face="1" motionface="1">politic.britneySpear.angry01.swf</action>
       <x>262.3166672</x>
@@ -658,7 +658,7 @@
       <rotation>83.6610617</rotation>
     </char>
     <effectAsset id="EFFECT8" themecode="common" index="6">
-      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
       <x>47</x>
       <y>24</y>
       <width>550</width>
@@ -671,6 +671,14 @@
     <bg id="BOXINGBG0" index="0">
       <file>common.boxing_bg.swf</file>
     </bg>
+    <char id="AVATOR12007" index="1" raceCode="0">
+      <action face="1" motionface="1">politic.grannie.laugh.swf</action>
+      <x>418.3553739</x>
+      <y>203.832156</y>
+      <xscale>1.1975775</xscale>
+      <yscale>1.1975775</yscale>
+      <rotation>0</rotation>
+    </char>
     <char id="AVATOR11990" index="3" raceCode="0">
       <action face="1" motionface="1">politic.britneySpear.angry01.swf</action>
       <x>262.3166672</x>
@@ -687,22 +695,6 @@
       <yscale>1</yscale>
       <rotation>0</rotation>
     </char>
-    <char id="AVATOR12007" index="1" raceCode="0">
-      <action face="1" motionface="1">politic.grannie.laugh.swf</action>
-      <x>418.3553739</x>
-      <y>203.832156</y>
-      <xscale>1.1975775</xscale>
-      <yscale>1.1975775</yscale>
-      <rotation>0</rotation>
-    </char>
-    <char id="AVATOR12008" index="7" raceCode="0">
-      <action face="-1" motionface="1">politic.kim.laugh.swf</action>
-      <x>108.8881002</x>
-      <y>254.7249245</y>
-      <xscale>1.2628399</xscale>
-      <yscale>1.2628399</yscale>
-      <rotation>0</rotation>
-    </char>
     <char id="AVATOR12009" index="5" raceCode="0">
       <action face="-1" motionface="1">politic.cliff.laugh.swf</action>
       <x>184.8083333</x>
@@ -717,6 +709,14 @@
       <y>308.8354651</y>
       <xscale>1.5581395</xscale>
       <yscale>1.5581395</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR12008" index="7" raceCode="0">
+      <action face="-1" motionface="1">politic.kim.laugh.swf</action>
+      <x>108.8881002</x>
+      <y>254.7249245</y>
+      <xscale>1.2628399</xscale>
+      <yscale>1.2628399</yscale>
       <rotation>0</rotation>
     </char>
     <char id="AVATOR12013" index="8" raceCode="0">
@@ -745,7 +745,7 @@
       <rotation>0</rotation>
     </prop>
     <effectAsset id="EFFECT8" themecode="common" index="10">
-      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
       <x>47</x>
       <y>24</y>
       <width>550</width>
@@ -760,23 +760,23 @@
       <color r="colorB">1779506</color>
       <color r="colorA">9672351</color>
     </bg>
-    <char id="AVATOR11990" index="9" raceCode="0">
-      <action face="1" motionface="1">politic.britneySpear.angry01.swf</action>
-      <x>388.5423266</x>
-      <y>126.520604</y>
-      <xscale>0.41566</xscale>
-      <yscale>0.41566</yscale>
-      <rotation>0</rotation>
-    </char>
     <char id="AVATOR12038" index="4" raceCode="1">
       <action face="-1" motionface="1">ugc.274508546.ot_ridicule.xml</action>
-      <head id="PROP165" raceCode="1">
+      <head id="PROP80" raceCode="1">
         <file>ugc.274508546.head.head_happy_side.xml</file>
       </head>
       <x>236.2031387</x>
       <y>210.7221602</y>
       <xscale>1.4421907</xscale>
       <yscale>1.4421907</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11990" index="9" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.angry01.swf</action>
+      <x>388.5423266</x>
+      <y>126.520604</y>
+      <xscale>0.41566</xscale>
+      <yscale>0.41566</yscale>
       <rotation>0</rotation>
     </char>
     <char id="AVATOR12041" index="10" raceCode="1">
@@ -787,51 +787,14 @@
       <yscale>1.4111111</yscale>
       <rotation>16.7299952</rotation>
     </char>
-    <prop id="PROP79" index="8" attached="Y">
-      <file>common.msp_laptop.msp_laptop_laptop_back.swf</file>
-      <x>231.7</x>
-      <y>213</y>
+    <prop id="PROP73" index="1" attached="Y">
+      <file>common.ncc_tv_backdrop.swf</file>
+      <x>316</x>
+      <y>158</y>
       <xscale>1</xscale>
       <yscale>1</yscale>
       <face>1</face>
       <rotation>0</rotation>
-    </prop>
-    <prop id="PROP78" index="7" attached="Y">
-      <file>common.ncc_tv_table02.swf</file>
-      <x>325</x>
-      <y>288</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="PROP77" index="6" attached="Y">
-      <file>common.msp_spotlight.msp_spotlight_ncc_spotlight01_still.swf</file>
-      <x>163</x>
-      <y>77</y>
-      <xscale>1.18</xscale>
-      <yscale>1.18</yscale>
-      <face>1</face>
-      <rotation>-18.4</rotation>
-    </prop>
-    <prop id="PROP76" index="5" attached="Y">
-      <file>common.msp_spotlight.msp_spotlight_ncc_spotlight01_still.swf</file>
-      <x>462</x>
-      <y>80</y>
-      <xscale>1.18</xscale>
-      <yscale>1.18</yscale>
-      <face>1</face>
-      <rotation>17.8</rotation>
-    </prop>
-    <prop id="PROP75" index="3" attached="Y">
-      <file>common.ncc_tv_screen.swf</file>
-      <x>318</x>
-      <y>113</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-      <color r="ccColorA">3355443</color>
     </prop>
     <prop id="PROP74" index="2" attached="Y">
       <file>common.square01.swf</file>
@@ -843,17 +806,54 @@
       <rotation>0</rotation>
       <color r="ccColorA">2236962</color>
     </prop>
-    <prop id="PROP73" index="1" attached="Y">
-      <file>common.ncc_tv_backdrop.swf</file>
-      <x>316</x>
-      <y>158</y>
+    <prop id="PROP75" index="3" attached="Y">
+      <file>common.ncc_tv_screen.swf</file>
+      <x>318</x>
+      <y>113</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="PROP76" index="5" attached="Y">
+      <file>common.msp_spotlight.msp_spotlight_ncc_spotlight01_still.swf</file>
+      <x>462</x>
+      <y>80</y>
+      <xscale>1.18</xscale>
+      <yscale>1.18</yscale>
+      <face>1</face>
+      <rotation>17.8</rotation>
+    </prop>
+    <prop id="PROP77" index="6" attached="Y">
+      <file>common.msp_spotlight.msp_spotlight_ncc_spotlight01_still.swf</file>
+      <x>163</x>
+      <y>77</y>
+      <xscale>1.18</xscale>
+      <yscale>1.18</yscale>
+      <face>1</face>
+      <rotation>-18.4</rotation>
+    </prop>
+    <prop id="PROP78" index="7" attached="Y">
+      <file>common.ncc_tv_table02.swf</file>
+      <x>325</x>
+      <y>288</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP79" index="8" attached="Y">
+      <file>common.msp_laptop.msp_laptop_laptop_back.swf</file>
+      <x>231.7</x>
+      <y>213</y>
       <xscale>1</xscale>
       <yscale>1</yscale>
       <face>1</face>
       <rotation>0</rotation>
     </prop>
     <effectAsset id="EFFECT14" themecode="common" index="11">
-      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
       <x>47</x>
       <y>24</y>
       <width>550</width>
@@ -907,7 +907,7 @@
     </char>
     <char id="AVATOR12069" index="8" raceCode="1">
       <action face="1" motionface="1">ugc.327779829.stand.xml</action>
-      <head id="PROP177" raceCode="1">
+      <head id="PROP81" raceCode="1">
         <file>ugc.327779829.head.head_shocked.xml</file>
       </head>
       <x>555.5514145</x>
@@ -926,7 +926,7 @@
     </char>
     <char id="AVATOR12073" index="10" raceCode="1">
       <action face="-1" motionface="1">ugc.328120116.pt_at.xml</action>
-      <head id="PROP179" raceCode="1">
+      <head id="PROP82" raceCode="1">
         <file>ugc.328120116.head.head_laugh.xml</file>
       </head>
       <x>220.9943419</x>
@@ -943,15 +943,6 @@
       <yscale>1.1120197</yscale>
       <rotation>98.051856</rotation>
     </char>
-    <prop id="cbg_reception_hall_PROP1" index="2" attached="Y">
-      <file>custom.dining_room_table.swf</file>
-      <x>346</x>
-      <y>260.025</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
     <prop id="cbg_reception_hall_PROP2" index="1" attached="Y">
       <file>custom.dining_room_table.swf</file>
       <x>438</x>
@@ -961,8 +952,17 @@
       <face>1</face>
       <rotation>0</rotation>
     </prop>
+    <prop id="cbg_reception_hall_PROP1" index="2" attached="Y">
+      <file>custom.dining_room_table.swf</file>
+      <x>346</x>
+      <y>260.025</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
     <effectAsset id="EFFECT16" themecode="common" index="12">
-      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
       <x>47</x>
       <y>24</y>
       <width>550</width>
@@ -1012,7 +1012,7 @@
       <rotation>0</rotation>
     </char>
     <effectAsset id="EFFECT18" themecode="common" index="6">
-      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
       <x>47</x>
       <y>24</y>
       <width>550</width>
@@ -1098,73 +1098,10 @@
       <yscale>1</yscale>
       <rotation>0</rotation>
     </char>
-    <prop id="cbg_ncc_changing_rm_PROP17" index="10" attached="Y">
-      <file>common.msp_chrmbag.msp_chrmbag_ncc_change_bagside.swf</file>
-      <x>546</x>
-      <y>265.1</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_ncc_changing_rm_PROP18" index="9" attached="Y">
-      <file>common.ncc_basketball.swf</file>
-      <x>478.2</x>
-      <y>282.1</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_ncc_changing_rm_PROP9" index="8" attached="Y">
-      <file>common.msp_chrm_stand.msp_chrm_stand_ncc_change_stand01.swf</file>
-      <x>487.2</x>
-      <y>210.2</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_ncc_changing_rm_PROP16" index="7" attached="Y">
-      <file>common.msp_chrm_stand.msp_chrm_stand_ncc_change_stand02.swf</file>
-      <x>301.2</x>
-      <y>305.3</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_ncc_changing_rm_PROP15" index="6" attached="Y">
-      <file>common.msp_ncc_spchange.msp_ncc_spchange_ncc_spchange01.swf</file>
-      <x>622.2</x>
-      <y>133.2</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_ncc_changing_rm_PROP11" index="5" attached="Y">
-      <file>common.msp_exit.msp_exit_ncc_sign_exit_side.swf</file>
-      <x>145.2</x>
-      <y>34.8</y>
-      <xscale>0.7</xscale>
-      <yscale>0.7</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_ncc_changing_rm_PROP8" index="4" attached="Y">
-      <file>common.ncc_change_locker.swf</file>
-      <x>-17.9</x>
-      <y>242.2</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_ncc_changing_rm_PROP12" index="3" attached="Y">
-      <file>common.msp_chrm_door.msp_chrm_door_ncc_change_door01.swf</file>
-      <x>151.2</x>
-      <y>157.2</y>
+    <prop id="cbg_ncc_changing_rm_PROP14" index="1" attached="Y">
+      <file>common.ncc_change_glass.swf</file>
+      <x>404.7</x>
+      <y>116.7</y>
       <xscale>1</xscale>
       <yscale>1</yscale>
       <face>1</face>
@@ -1179,17 +1116,80 @@
       <face>1</face>
       <rotation>0</rotation>
     </prop>
-    <prop id="cbg_ncc_changing_rm_PROP14" index="1" attached="Y">
-      <file>common.ncc_change_glass.swf</file>
-      <x>404.7</x>
-      <y>116.7</y>
+    <prop id="cbg_ncc_changing_rm_PROP12" index="3" attached="Y">
+      <file>common.msp_chrm_door.msp_chrm_door_ncc_change_door01.swf</file>
+      <x>151.2</x>
+      <y>157.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_ncc_changing_rm_PROP8" index="4" attached="Y">
+      <file>common.ncc_change_locker.swf</file>
+      <x>-17.9</x>
+      <y>242.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_ncc_changing_rm_PROP11" index="5" attached="Y">
+      <file>common.msp_exit.msp_exit_ncc_sign_exit_side.swf</file>
+      <x>145.2</x>
+      <y>34.8</y>
+      <xscale>0.7</xscale>
+      <yscale>0.7</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_ncc_changing_rm_PROP15" index="6" attached="Y">
+      <file>common.msp_ncc_spchange.msp_ncc_spchange_ncc_spchange01.swf</file>
+      <x>622.2</x>
+      <y>133.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_ncc_changing_rm_PROP16" index="7" attached="Y">
+      <file>common.msp_chrm_stand.msp_chrm_stand_ncc_change_stand02.swf</file>
+      <x>301.2</x>
+      <y>305.3</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_ncc_changing_rm_PROP9" index="8" attached="Y">
+      <file>common.msp_chrm_stand.msp_chrm_stand_ncc_change_stand01.swf</file>
+      <x>487.2</x>
+      <y>210.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_ncc_changing_rm_PROP18" index="9" attached="Y">
+      <file>common.ncc_basketball.swf</file>
+      <x>478.2</x>
+      <y>282.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_ncc_changing_rm_PROP17" index="10" attached="Y">
+      <file>common.msp_chrmbag.msp_chrmbag_ncc_change_bagside.swf</file>
+      <x>546</x>
+      <y>265.1</y>
       <xscale>1</xscale>
       <yscale>1</yscale>
       <face>1</face>
       <rotation>0</rotation>
     </prop>
     <effectAsset id="EFFECT18" themecode="common" index="20">
-      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
       <x>47</x>
       <y>24</y>
       <width>550</width>
@@ -1201,15 +1201,15 @@
     <bg id="TOILETDIRTYBG0" index="0">
       <file>common.toilet_dirty.swf</file>
     </bg>
-    <char id="AVATOR12100" index="2" raceCode="0">
-      <action face="1" motionface="1">politic.britneySpear.angry01.swf</action>
+    <char id="AVATOR12100" index="3" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.model06-cry.swf</action>
       <x>330.6456109</x>
       <y>327.9560576</y>
       <xscale>1.1120197</xscale>
       <yscale>1.1120197</yscale>
       <rotation>98.051856</rotation>
     </char>
-    <char id="AVATOR12129" index="3" raceCode="1">
+    <char id="AVATOR12129" index="4" raceCode="1">
       <action face="-1" motionface="1">ugc.930614.laugh.xml</action>
       <x>222.425</x>
       <y>178.2</y>
@@ -1217,7 +1217,7 @@
       <yscale>1</yscale>
       <rotation>0</rotation>
     </char>
-    <char id="AVATOR12130" index="4" raceCode="1">
+    <char id="AVATOR12130" index="1" raceCode="1">
       <action face="1" motionface="1">ugc.1313447.laugh.xml</action>
       <x>456.675</x>
       <y>189.05</y>
@@ -1273,7 +1273,7 @@
       <yscale>1</yscale>
       <rotation>0</rotation>
     </char>
-    <prop id="TOILETDIRTYPROP1" index="1" attached="Y">
+    <prop id="TOILETDIRTYPROP1" index="2" attached="Y">
       <file>common.fly.swf</file>
       <x>313.2</x>
       <y>240.9</y>
@@ -1283,7 +1283,7 @@
       <rotation>0</rotation>
     </prop>
     <effectAsset id="EFFECT18" themecode="common" index="11">
-      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
       <x>47</x>
       <y>24</y>
       <width>550</width>
@@ -1308,7 +1308,7 @@
   <sound id="SOUND38" index="0" track="0" vol="1" tts="1">
     <sfile>ugc.040279225661403184-tts.mp3</sfile>
     <start>589</start>
-    <stop>651</stop>
+    <stop>594</stop>
     <fadein duration="0" vol="0"/>
     <fadeout duration="0" vol="0"/>
     <ttsdata>

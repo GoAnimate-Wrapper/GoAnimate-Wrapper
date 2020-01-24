@@ -2,7 +2,7 @@
 	"name": "grounded",
 	"version": "0.0.1",
 	"scripts": {
-		"start": "node server.js"
+		"start": "node main.js"
 	},
 	"main": "index.js",
 	"dependencies": {

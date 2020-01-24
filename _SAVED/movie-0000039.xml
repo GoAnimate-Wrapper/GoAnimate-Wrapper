@@ -1,4 +1,4 @@
-<film copyable="0" duration="35.8" published="1" pshare="0">
+<film copyable="0" duration="35.8" published="1" pshare="0" isWide="1">
   <meta>
     <title><![CDATA[Dances!]]></title>
     <tag><![CDATA[]]></tag>
@@ -35,28 +35,18 @@
       <yscale>1.5429553</yscale>
       <rotation>0</rotation>
     </char>
-    <prop id="cbg_050_PROP1" index="5" attached="Y">
-      <file>business.g4b_594.swf</file>
-      <x>390</x>
-      <y>255</y>
+    <char id="AVATOR11723" index="7" raceCode="1">
+      <action face="1" motionface="1">ugc.327412169.dance.xml</action>
+      <x>502.5272727</x>
+      <y>253.55</y>
       <xscale>1</xscale>
       <yscale>1</yscale>
-      <face>1</face>
       <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_050_PROP3" index="4" attached="Y">
-      <file>business.g4b_604.swf</file>
-      <x>441</x>
-      <y>227</y>
-      <xscale>1</xscale>
-      <yscale>1</yscale>
-      <face>1</face>
-      <rotation>0</rotation>
-    </prop>
-    <prop id="cbg_050_PROP2" index="3" attached="Y">
-      <file>business.g4b_593.swf</file>
-      <x>198</x>
-      <y>204</y>
+    </char>
+    <prop id="cbg_050_PROP4" index="1" attached="Y">
+      <file>business.g4b_592.swf</file>
+      <x>386</x>
+      <y>179</y>
       <xscale>1</xscale>
       <yscale>1</yscale>
       <face>1</face>
@@ -71,17 +61,35 @@
       <face>1</face>
       <rotation>0</rotation>
     </prop>
-    <prop id="cbg_050_PROP4" index="1" attached="Y">
-      <file>business.g4b_592.swf</file>
-      <x>386</x>
-      <y>179</y>
+    <prop id="cbg_050_PROP2" index="3" attached="Y">
+      <file>business.g4b_593.swf</file>
+      <x>198</x>
+      <y>204</y>
       <xscale>1</xscale>
       <yscale>1</yscale>
       <face>1</face>
       <rotation>0</rotation>
     </prop>
-    <effectAsset id="EFFECT3" themecode="common" index="7">
-      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+    <prop id="cbg_050_PROP3" index="4" attached="Y">
+      <file>business.g4b_604.swf</file>
+      <x>441</x>
+      <y>227</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_050_PROP1" index="5" attached="Y">
+      <file>business.g4b_594.swf</file>
+      <x>390</x>
+      <y>255</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="8">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
       <x>47</x>
       <y>24</y>
       <width>550</width>
@@ -147,7 +155,7 @@
       <rotation>0</rotation>
     </prop>
     <effectAsset id="EFFECT3" themecode="common" index="7">
-      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
       <x>47</x>
       <y>24</y>
       <width>550</width>
@@ -213,7 +221,7 @@
       <rotation>0</rotation>
     </prop>
     <effectAsset id="EFFECT3" themecode="common" index="7">
-      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
       <x>47</x>
       <y>24</y>
       <width>550</width>

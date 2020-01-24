@@ -1,4 +1,4 @@
-<film copyable="0" duration="5.0" published="0" pshare="1">
+<film copyable="0" duration="5.0" published="0" pshare="0" isWide="1">
   <meta>
     <title><![CDATA[testt]]></title>
     <tag><![CDATA[]]></tag>
@@ -88,7 +88,7 @@
       <color r="colorA">15354185</color>
     </prop>
     <effectAsset id="EFFECT11" themecode="common" index="7">
-      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
       <x>47</x>
       <y>24</y>
       <width>550</width>

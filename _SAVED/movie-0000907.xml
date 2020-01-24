@@ -1,0 +1,132 @@
+<film copyable="0" duration="2.5" published="1" pshare="0" isWide="1">
+  <meta>
+    <title><![CDATA[Longest Behavior Integer Day Part 1 ]]></title>
+    <tag><![CDATA[]]></tag>
+    <hiddenTag><![CDATA[]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="0"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+    </palette>
+  </meta>
+  <scene id="SCENE3" adelay="60" lock="N" index="0" color="8566582" guid="3E089004-FBAB-89AD-EBDA-7F70D6D72B46">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG1647" index="0">
+      <file>politic.toilet_clean.swf</file>
+      <color r="Sky">12442077</color>
+      <color r="Wall">11382406</color>
+    </bg>
+    <prop id="PROP38" index="1">
+      <file>common.jail_crocroach.swf</file>
+      <x>322.6978691</x>
+      <y>218.8926941</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP39" index="2">
+      <file>common.jail_crocroach.swf</file>
+      <x>328.5958904</x>
+      <y>218.8926941</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP40" index="3">
+      <file>common.jail_crocroach.swf</file>
+      <x>316.7998478</x>
+      <y>218.8926941</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP41" index="4">
+      <file>common.jail_crocroach.swf</file>
+      <x>322.6978691</x>
+      <y>218.8926941</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP42" index="5">
+      <file>common.jail_crocroach.swf</file>
+      <x>328.5958904</x>
+      <y>218.8926941</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP44" index="6">
+      <file>common.cock.swf</file>
+      <x>322.6978691</x>
+      <y>218.8926941</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP45" index="7">
+      <file>common.cock.swf</file>
+      <x>328.5958904</x>
+      <y>218.8926941</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP46" index="8">
+      <file>common.cock.swf</file>
+      <x>316.7998478</x>
+      <y>218.8926941</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP47" index="9">
+      <file>common.cock.swf</file>
+      <x>344.95</x>
+      <y>279.55</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP50" index="10">
+      <file>business.g4b_170.swf</file>
+      <x>316.7998478</x>
+      <y>218.8926941</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT4" themecode="common" index="11">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+</film>

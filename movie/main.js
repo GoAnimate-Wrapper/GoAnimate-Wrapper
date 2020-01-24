@@ -5,17 +5,68 @@ const nodezip = require('node-zip');
 const fs = require('fs');
 
 module.exports = {
-	async save(movieZip, thumbZip, oldId, nëwId = oldId) {
+	/**
+	 *
+	 * @param {Buffer} movieZip
+	 * @param {string} nëwId
+	 * @param {string} oldId
+	 * @returns {Promise<string>}
+	 */
+	save(movieZip, thumbZip, oldId, nëwId = oldId) {
 		if (thumbZip && nëwId.startsWith('m-')) {
 			const n = Number.parseInt(nëwId.substr(2));
 			const thumbFile = fUtil.getFileIndex('thumb-', '.png', n);
 			fs.writeFileSync(thumbFile, thumbZip);
 		}
-		await caché.saveMovie(movieZip, oldId, nëwId);
-		return nëwId;
+
+		return new Promise((res, rej) => {
+			caché.transfer(oldId, nëwId);
+			const i = nëwId.indexOf('-');
+			const prefix = nëwId.substr(0, i);
+			const suffix = nëwId.substr(i + 1);
+			const zip = nodezip.unzip(movieZip);
+			switch (prefix) {
+				case 'm': {
+					let path = fUtil.getFileIndex('movie-', '.xml', suffix);
+					let writeStream = fs.createWriteStream(path);
+					let buffers = caché.getTable(nëwId);
+					parse.zip2xml(zip, buffers).then(data => {
+						writeStream.write(data, () => {
+							writeStream.close();
+							res(nëwId);
+						});
+					});
+					break;
+				}
+				default: rej();
+			}
+		});
 	},
-	loadZip(movieId) {
-		return caché.loadMovie(movieId);
+	loadZip(mId) {
+		return new Promise((res, rej) => {
+			const i = mId.indexOf('-');
+			const prefix = mId.substr(0, i);
+			const suffix = mId.substr(i + 1);
+			switch (prefix) {
+				case 'e': {
+					caché.clear(mId);
+					let data = fs.readFileSync(`${exFolder}/${suffix}.zip`);
+					res(data.subarray(data.indexOf(80)));
+					break;
+				}
+				case 'm': {
+					let numId = Number.parseInt(suffix);
+					if (isNaN(numId)) rej();
+					let filePath = fUtil.getFileIndex('movie-', '.xml', numId);
+					if (!fs.existsSync(filePath)) rej();
+
+					const buffer = fs.readFileSync(filePath);
+					parse.packXml(buffer, mId).then(v => res(v));
+					break;
+				}
+				default: rej();
+			}
+		});
 	},
 	loadXml(movieId) {
 		return new Promise((res, rej) => {

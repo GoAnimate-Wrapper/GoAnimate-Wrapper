@@ -1,0 +1,171 @@
+<film copyable="0" duration="2.5" published="0" pshare="0" isWide="1">
+  <meta>
+    <title><![CDATA[crybaby]]></title>
+    <tag><![CDATA[]]></tag>
+    <hiddenTag><![CDATA[politic,britneySpear]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="0"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+    </palette>
+  </meta>
+  <scene id="SCENE3" adelay="60" lock="N" index="0" color="5618602" guid="FA48D0C2-2E66-2246-77B6-AC35FDF79780">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="BG6066" index="0">
+      <file>business.g4b_bg241.swf</file>
+      <color r="Sky">7583710</color>
+    </bg>
+    <char id="AVATOR11745" index="10" raceCode="1">
+      <action face="-1" motionface="1">ugc.245217262.tantrum.xml</action>
+      <head id="PROP26" raceCode="1">
+        <file>ugc.245217262.head.head_cry02_side.xml</file>
+      </head>
+      <x>179.315164</x>
+      <y>239.4060109</y>
+      <xscale>1.287796</xscale>
+      <yscale>1.287796</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11747" index="11" raceCode="1">
+      <action face="-1" motionface="1">ugc.245215033.tantrum.xml</action>
+      <head id="PROP27" raceCode="1">
+        <file>ugc.245215033.head.head_cry02_side.xml</file>
+      </head>
+      <x>298.8766155</x>
+      <y>227.0711187</y>
+      <xscale>1.287796</xscale>
+      <yscale>1.287796</yscale>
+      <rotation>-7.1126166</rotation>
+    </char>
+    <char id="AVATOR11749" index="12" raceCode="0">
+      <action face="1" motionface="1">politic.britneySpear.angry01.swf</action>
+      <x>461.55</x>
+      <y>250</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11750" index="5" raceCode="1">
+      <action face="1,1" motionface="1">ugc.1347770.run.xml</action>
+      <head id="PROP34" raceCode="1">
+        <file>ugc.1347770.head.head_angry.xml</file>
+      </head>
+      <x>681.0537307,-190.0375701</x>
+      <y>229.2624744,220.125</y>
+      <xscale>0.5149774,0.5149774</xscale>
+      <yscale>0.5149774,0.5149774</yscale>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <prop id="PROP417" index="1">
+      <file>business.g4b_1423.swf</file>
+      <x>545.9</x>
+      <y>165.1</y>
+      <xscale>1.12</xscale>
+      <yscale>1.12</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP412" index="2">
+      <file>business.g4b_1423.swf</file>
+      <x>143.1</x>
+      <y>161.3</y>
+      <xscale>1.12</xscale>
+      <yscale>1.12</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP410" index="3">
+      <file>business.g4b_1423.swf</file>
+      <x>71.6</x>
+      <y>158.5</y>
+      <xscale>1.12</xscale>
+      <yscale>1.12</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP413" index="4">
+      <file>business.g4b_928.swf</file>
+      <x>82.2</x>
+      <y>255.9</y>
+      <xscale>0.62</xscale>
+      <yscale>0.62</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP415" index="6">
+      <file>business.g4b_928.swf</file>
+      <x>131.3</x>
+      <y>255.9</y>
+      <xscale>0.62</xscale>
+      <yscale>0.62</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP534" index="7">
+      <file>business.g4b_1863.swf</file>
+      <x>200</x>
+      <y>243.2</y>
+      <xscale>1.03</xscale>
+      <yscale>1.03</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP536" index="8">
+      <file>business.g4b_1866.swf</file>
+      <x>435.3</x>
+      <y>206.3</y>
+      <xscale>1.16</xscale>
+      <yscale>1.16</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP535" index="9">
+      <file>business.g4b_1867.swf</file>
+      <x>110.9</x>
+      <y>282.8</y>
+      <xscale>1.25</xscale>
+      <yscale>1.25</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT11" themecode="common" index="13">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="704" target="AVATOR11750" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <sound id="SOUND2" index="0" track="0" vol="8" tts="1">
+    <sfile>ugc.043183240676890633-tts.mp3</sfile>
+    <start>1</start>
+    <stop>51</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[stop crying like a fucking babies]]></text>
+      <voice><![CDATA[amy_polly]]></voice>
+    </ttsdata>
+  </sound>
+  <linkage>SOUND2,~~~AVATOR11749,SCENE3~~~</linkage>
+</film>

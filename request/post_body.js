@@ -13,6 +13,7 @@ module.exports = function (req, res) {
 				res.writeHead(413);
 				res.end();
 				req.connection.destroy();
+				rej();
 			}
 		});
 

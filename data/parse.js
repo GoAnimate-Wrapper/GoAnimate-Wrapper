@@ -1,6 +1,7 @@
 const themeFolder = process.env.THEME_FOLDER;
 const char = require('../character/main');
 const ttsInfo = require('../tts/info');
+const caché = require('../data/caché');
 const source = process.env.CLIENT_URL;
 const header = process.env.XML_HEADER;
 const get = require('../request/get');
@@ -9,6 +10,15 @@ const nodezip = require('node-zip');
 const store = process.env.STORE_URL;
 const xmldoc = require('xmldoc');
 const fs = require('fs');
+
+function useBase64(aId) {
+	switch (aId.substr(aId.lastIndexOf('.') + 1)) {
+		case 'xml':
+			return false;
+		default:
+			return true;
+	}
+}
 
 module.exports = {
 	xml2caché(buffer) {
@@ -22,10 +32,17 @@ module.exports = {
 		}
 		return cachéRef;
 	},
-	async xml2zip(buffer, cachéCallback) {
-		const zip = nodezip.create(), cachéRef = {};
-		var ugcString = `${header}<theme id="ugc" name="ugc">`;
+	/**
+	 * 
+	 * @param {Buffer} buffer 
+	 * @param {string} mId
+	 * @returns {Promise<Buffer>}
+	 */
+	async packXml(buffer, mId = null) {
+		const zip = nodezip.create();
+		mId && caché.saveTable(mId);
 		const themes = { common: true };
+		var ugcString = `${header}<theme id="ugc" name="ugc">`;
 		fUtil.addToZip(zip, 'movie.xml', buffer);
 		const xml = new xmldoc.XmlDocument(buffer);
 		const elements = xml.children;
@@ -34,8 +51,12 @@ module.exports = {
 			switch (element.name) {
 
 				case 'asset': {
-					const v = Buffer.from(element.val, 'base64');
-					cachéRef[element.attr.id] = v;
+					if (mId) {
+						const aId = element.attr.id;
+						const m = useBase64(aId) ? 'base64' : 'utf8';
+						const v = Buffer.from(element.val, m);
+						caché.save(mId, aId, v);
+					}
 					break;
 				}
 
@@ -65,6 +86,7 @@ module.exports = {
 							case 'trans':
 								break;
 							case 'bg':
+							//case 'effect':
 							case 'prop': {
 								var val = piece.childNamed('file').val;
 								var pieces = val.split('.');
@@ -97,7 +119,6 @@ module.exports = {
 										break;
 									}
 									case 'swf': {
-										//https://d3v4eglovri8yt.cloudfront.net/store/3a981f5cb2739137/politic/char/britneySpear/model02-stand.swf
 										theme = pieces[0];
 										const char = pieces[1];
 										const model = pieces[2];
@@ -129,7 +150,6 @@ module.exports = {
 			themes.custom = true;
 		}
 
-		cachéCallback(cachéRef);
 		const themeKs = Object.keys(themes);
 		themeKs.forEach(t => {
 			if (t == 'ugc') return;
@@ -142,20 +162,26 @@ module.exports = {
 		fUtil.addToZip(zip, 'ugc.xml', Buffer.from(ugcString + `</theme>`));
 		return await zip.zip();
 	},
-	async zip2xml(zip, refCaché = {}) {
+	/**
+	 * 
+	 * @param {{[aId:string]:Buffer}} buffers
+	 * @returns {Promise<Buffer>}
+	 */
+	async zip2xml(zip, buffers = []) {
 		return new Promise(res => {
-			const buffers = [];
+			const pieces = [];
 			const stream = zip['movie.xml'].toReadStream();
-			stream.on('data', b => buffers.push(b));
+			stream.on('data', b => pieces.push(b));
 			stream.on('end', () => {
-				var xmlBuffers = [Buffer.concat(buffers).slice(0, -7)];
-				for (const assetId in refCaché)
-					if (xmlBuffers[0].includes(assetId)) {
-						const assetString = refCaché[assetId].toString('base64');
-						xmlBuffers.push(Buffer.from(`<asset id="${assetId}">${assetString}</asset>`));
+				var xmlBuffers = [Buffer.concat(pieces).slice(0, -7)];
+				for (const aId in buffers) {
+					if (useBase64(aId))
+						xmlBuffers.push(Buffer.from(`<asset id="${aId}">${buffers[aId]}</asset>`));
+					else {
+						const assetString = buffers[aId].toString('base64');
+						xmlBuffers.push(Buffer.from(`<asset id="${aId}">${assetString}</asset>`));
 					}
-					else
-						delete refCaché[assetId];
+				}
 
 				xmlBuffers.push(Buffer.from(`</film>`));
 				res(Buffer.concat(xmlBuffers));

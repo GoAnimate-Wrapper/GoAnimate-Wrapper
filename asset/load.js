@@ -17,12 +17,11 @@ module.exports = function (req, res, url) {
 		case 'POST':
 			if (url.path != '/goapi/getAsset/' && url.path != '/goapi/getAssetEx/') return;
 			loadPost(req, res).then(data => {
-				const ip = req.headers['x-forwarded-for'];
-				const mId = data.movieId || data.presaveId || sessions.get(ip);
+				const mId = data.movieId || data.presaveId || sessions.get(req);
 				const aId = data.assetId || data.enc_asset_id;
 
-				sessions.set(mId, ip);
 				const b = asset.load(mId, aId);
+				sessions.set({ movieId: mId }, req);
 				b ? res.end(b) : (res.statusCode = 404, res.end());
 			});
 			return true;

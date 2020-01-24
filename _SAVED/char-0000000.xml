@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cc_char xscale='0.7' yscale='0.7' hxscale='1.4' hyscale='1.4' headdx='0' headdy='0'>
+	<color r="ccSkinColor">0xE2C294</color>
+	<color r="ccEyeLib">0xBD8764</color>
+	<color r="ccMouthLip">0xB7796A</color>
+	<color r="ccBackMajor">0x996600</color>
+	<color r="ccLowerMinor">0x4F5157</color>
+	<color r="ccUpperMinor">0x0078D7</color>
+	<component type="bodyshape" component_id="heavy" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/>
+	<component type="freeaction" component_id="default" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/>
+	<component type="ear" component_id="1001" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/>
+	<component type="nose" component_id="1001" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/>
+	<component type="faceshape" component_id="1001" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N"/>
+	<component type="eyebrow" component_id="2001" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N"/>
+	<component type="hair" component_id="1001" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/>
+	<component type="eye" component_id="1001" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N"/>
+	<component type="mouth" component_id="1001" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/>
+	<library type="GoHands" component_id="1001" theme_id="business"/>
+	<library type="GoLower" component_id="1001" theme_id="business"/>
+	<library type="GoFeet" component_id="1001" theme_id="business"/>
+	<library type="GoBehindBody" component_id="1001" theme_id="business"/>
+	<library type="GoUpper" component_id="3017" theme_id="business"/>
+</cc_char>

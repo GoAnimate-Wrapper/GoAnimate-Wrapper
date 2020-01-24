@@ -1,266 +1,339 @@
-<header>
-	<div>
+<body>
+	<header>
 		<div>
-			<a href="./"><img src="logo.png" /></a>
+			<div>
+				<a href="./"><img src="logo.png" /></a>
+			</div>
+			<div>
+				<div>
+					<div>CREATE A CHARACTER</div>
+					<menu>
+						<a href="/cc?themeId=family&bs=adam">Adam</a>
+						<a href="/cc?themeId=family&bs=eve">Eve</a>
+						<a href="/cc?themeId=family&bs=bob">Bob</a>
+						<a href="/cc?themeId=family&bs=rocky">Rocky</a>
+						<div></div>
+						<a href="/cc?themeId=business&bs=default">Business</a>
+						<a href="/cc?themeId=business&bs=heavy">Heavy</a>
+					</menu>
+				</div>
+				<a href="/go_full">MAKE A VIDEO</a>
+			</div>
 		</div>
 		<div>
-			<a href="/go_full">MAKE A VIDEO</a>
+			This service is not finished yet; some features may not be available at this time. Any and all videos may be
+			deleted at this stage of development. Record your videos if possible.<br><a
+				href='https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper'>Link
+				to the source code on GitHub</a>
 		</div>
-	</div>
-	<div>
-		This service is not finished yet; some features (such as custom assets and
-		characters) may not be available at this time.<br><a
-			href='https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper'>Link
-			to the source code on GitHub</a>
-	</div>
-</header>
-<table>
-	<thead>
-		<tr>
-			<td></td>
-			<td>Video Title</td>
-			<td>Last Modified</td>
-			<td></td>
-		</tr>
-	</thead>
-	<tbody id="table-body"></tbody>
-</table>
-<script>
-	var id = 0;
-	var tbody = document.getElementById('table-body');
-	const http = new XMLHttpRequest();
-	http.open('GET', '/movieList');
-	http.send();
+	</header>
+	<table>
+		<thead>
+			<tr>
+				<td></td>
+				<td>Video Title</td>
+				<td>Last Modified</td>
+				<td></td>
+			</tr>
+		</thead>
+		<tbody></tbody>
+	</table>
+	<script>
+		var id = 0;
+		var tbody = document.getElementsByTagName('tbody')[0];
+		const http = new XMLHttpRequest();
+		http.open('GET', '/movieList');
+		http.send();
 
-	http.onreadystatechange = function (e) {
-		if (http.readyState != 4) return;
-		const json = JSON.parse(http.responseText);
-		json.forEach(function (tbl) {
-			var date = tbl.date.substr(0, 10) + ' ' + tbl.date.substr(11);
-			tbody.innerHTML +=
-				'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date.match(/./g).join('</span><span>') + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a href="/go_full?movieId=' + tbl.id + '"></a></td></tr>';
-		});
-	}
-
-	function popup(id) {
-		window.open('/player?movieId=' + id, 'MsgWindow', 'width=1280,height=720,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
-	}
-</script>
-<style>
-	html {
-		font-family: 'Sailec', Arial, sans-serif;
-		-ms-text-size-adjust: 100%;
-		-webkit-text-size-adjust: 100%;
-	}
-
-	body {
-		margin: 0;
-		background-color: #fff;
-		color: #474747;
-		font-size: 16px;
-		font-weight: 400;
-		line-height: 1.5;
-		position: relative;
-	}
-
-	header>:nth-child(1) {
-		height: 44px;
-		align-content: center;
-		background-color: #111;
-		color: #fff;
-		text-align: center;
-	}
-
-	header>:nth-child(1)>:nth-child(1) {
-		float: left;
-	}
-
-	header>:nth-child(1)>:nth-child(1)>:nth-child(1)>* {
-		margin-left: 10px;
-		margin-top: 7px;
-		height: 30px;
-	}
-
-	header>:nth-child(1)>:nth-child(2) {
-		float: right;
-	}
-
-	header>:nth-child(1)>:nth-child(2)>:nth-child(1) {
-		margin-top: 7px;
-		margin-right: 20px;
-		display: block;
-		width: 160px;
-		padding-top: 4px;
-		padding-bottom: 3px;
-		border-radius: 3px;
-		background-color: #d85e27;
-		font-size: 14px;
-		text-decoration: none;
-		color: #fff;
-	}
-
-	header>:nth-child(2) {
-		font-size: 14px;
-		padding: 10px 0;
-		background-color: #fd7;
-		text-align: center;
-	}
-
-	header>:nth-child(2)::before {
-		font-family: 'GlyphiconsRegular';
-		padding-right: 4px;
-		content: "\E079";
-		font-size: 12px;
-	}
-
-	header>:nth-child(2)>a {
-		color: #5596e6;
-	}
-
-	table {
-		width: 100%;
-		max-width: 100%;
-		margin-bottom: 20px;
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 127px;
-		background-color: transparent;
-		border-collapse: collapse;
-		border-spacing: 0;
-		font-size: 14px;
-	}
-
-	@media(min-width: 768px) {
-		table {
-			width: 750px;
+		http.onreadystatechange = function (e) {
+			if (http.readyState != 4) return;
+			const json = JSON.parse(http.responseText);
+			json.forEach(function (tbl) {
+				var date = tbl.date.substr(0, 10) + ' ' + tbl.date.substr(11);
+				tbody.innerHTML +=
+					'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date.match(/./g).join('</span><span>') + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a href="/go_full?movieId=' + tbl.id + '"></a></td></tr>';
+			});
 		}
-	}
 
-	@media(min-width: 992px) {
-		table {
-			width: 970px;
+		function popup(id) {
+			window.open('/player?movieId=' + id, 'MsgWindow', 'width=1280,height=720,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
 		}
-	}
-
-	@media(min-width: 1200px) {
-		table {
-			width: 1170px;
+	</script>
+	<style>
+		html {
+			font-family: 'Sailec', Arial, sans-serif;
+			-ms-text-size-adjust: 100%;
+			-webkit-text-size-adjust: 100%;
 		}
-	}
 
-	thead {
-		font-weight: 200;
-	}
+		body {
+			margin: 0;
+			background-color: #fff;
+			color: #474747;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 1.5;
+			position: relative;
+		}
 
-	td {
-		padding: 8px;
-		vertical-align: middle;
-		line-height: 1.42857143;
-	}
+		header>:nth-child(1) {
+			height: 44px;
+			align-content: center;
+			background-color: #1e1e1e;
+			color: #fff;
+			text-align: center;
+		}
 
-	thead {
-		border-bottom: 2px solid #ddd;
-		border-top: 1px solid #ddd;
-	}
+		header>:nth-child(1)>:nth-child(1) {
+			float: left;
+		}
 
-	tr {
-		border-top: 0;
-		border-bottom: 1px solid #ddd;
-	}
+		header>:nth-child(1)>:nth-child(1)>:nth-child(1)>* {
+			margin-left: 10px;
+			margin-top: 7px;
+			height: 30px;
+		}
 
-	tr:hover {
-		background-color: #f5f5f5;
-	}
+		header>:nth-child(1)>:nth-child(2) {
+			float: right;
+			margin-right: 20px;
+		}
 
-	tr>:nth-child(1) {
-		width: 64px;
-	}
+		header>:nth-child(1)>:nth-child(2)>* {
+			margin-left: 10px;
+			margin-top: 7px;
+			display: inline-block;
+			padding-top: 5px;
+			padding-bottom: 3px;
+			border-radius: 3px;
+			font-size: 14px;
+			text-decoration: none;
+			color: #fff;
+		}
 
-	tr>:nth-child(1)>img {
-		height: 36px;
-	}
+		header>:nth-child(1)>:nth-child(2)>:nth-child(1) {
+			width: 200px;
+		}
 
-	tr>:nth-child(1) {
-		word-break: break-word;
-	}
+		header>:nth-child(1)>:nth-child(2)>:nth-child(1)>:nth-child(1):hover {
+			cursor: pointer;
+			color: #d85e27;
+		}
 
-	tr>:nth-child(2) {
-		color: #999;
-	}
+		header>:nth-child(1)>:nth-child(2)>:nth-child(1)>:nth-child(2) {
+			display: block;
+			top: 100%;
+			left: 0;
+			z-index: 1000;
+			float: left;
+			width: 190px;
+			padding: 10px 0;
+			margin: 9px 0 0;
+			list-style: none;
+			font-size: 14px;
+			text-align: left;
+			background-color: #fff;
+			border: 1px solid #ccc;
+			border: 1px solid rgba(0, 0, 0, 0.15);
+			border-radius: 4px;
+			-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+			box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+			-webkit-background-clip: padding-box;
+			background-clip: padding-box;
+		}
 
-	tr>:nth-child(3) {
-		width: 250px;
-	}
+		header>:nth-child(1)>:nth-child(2)>:nth-child(1)>:nth-child(2)>a {
+			display: block;
+			padding: 2px 20px;
+			clear: both;
+			font-weight: normal;
+			color: #333;
+			text-decoration: none;
+		}
 
-	tr>:nth-child(3)>* {
-		display: inline-block;
-		text-align: center;
-		font-size: 12px;
-		width: 8.5px;
-	}
+		header>:nth-child(1)>:nth-child(2)>:nth-child(1)>:nth-child(2)>a:hover {
+			color: #d85e27;
+			background-color: #f5f5f5;
+		}
 
-	tr>:nth-child(4) {
-		font-family: 'GlyphiconsRegular';
-		text-decoration: none;
-		padding-top: 5px;
-		font-size: 14px;
-		width: 50px;
-	}
+		header>:nth-child(1)>:nth-child(2)>:nth-child(1)>:nth-child(2)>div {
+			height: 1px;
+			margin: 10px 0;
+			background-color: #e5e5e5;
+		}
 
-	tr>:nth-child(4)>a {
-		display: inline-block;
-		text-decoration: none;
-		padding-right: 10px;
-		color: #474747;
-	}
+		header>:nth-child(1)>:nth-child(2)>:nth-child(2) {
+			background-color: #d85e27;
+			width: 160px;
+		}
 
-	tr>:nth-child(4)>a:hover {
-		color: #d85e27;
-	}
+		header>:nth-child(1)>:nth-child(2)>:nth-child(2):hover {
+			text-decoration: underline;
+		}
 
-	tr>:nth-child(4)>:nth-child(1)::before {
-		content: '\E174';
-	}
+		header>:nth-child(2) {
+			font-size: 14px;
+			padding: 10px 0;
+			background-color: #fd7;
+			text-align: center;
+		}
 
-	tr>:nth-child(4)>:nth-child(2)::before {
-		content: '\E235';
-	}
+		header>:nth-child(2)::before {
+			font-family: 'GlyphiconsRegular';
+			padding-right: 4px;
+			content: "\E079";
+			font-size: 12px;
+		}
 
-	@font-face {
-		font-family: 'Sailec';
-		font-weight: 100;
-		src: url('./Sailec-Thin.woff') format('woff');
-	}
+		header>:nth-child(2)>a {
+			color: #5596e6;
+		}
 
-	@font-face {
-		font-family: 'Sailec';
-		font-weight: 200;
-		src: url('./Sailec-Light.woff') format('woff');
-	}
+		table {
+			width: 100%;
+			max-width: 100%;
+			margin-bottom: 20px;
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: 127px;
+			background-color: transparent;
+			border-collapse: collapse;
+			border-spacing: 0;
+			font-size: 14px;
+		}
 
-	@font-face {
-		font-family: 'Sailec';
-		font-weight: 400;
-		src: url('./Sailec-Regular.woff') format('woff');
-	}
+		@media(min-width: 768px) {
+			table {
+				width: 750px;
+			}
+		}
 
-	@font-face {
-		font-family: 'Sailec';
-		font-weight: 500;
-		src: url('./Sailec-Medium.woff') format('woff');
-	}
+		@media(min-width: 992px) {
+			table {
+				width: 970px;
+			}
+		}
 
-	/* font weight 500 and font weight 700 (bold) are the same for better integration support */
-	@font-face {
-		font-family: 'Sailec';
-		font-weight: 700;
-		src: url('./Sailec-Medium.woff') format('woff');
-	}
+		@media(min-width: 1200px) {
+			table {
+				width: 1170px;
+			}
+		}
 
-	@font-face {
-		font-family: 'GlyphiconsRegular';
-		src: url('./glyphicons-regular.woff') format('woff');
-		font-weight: normal;
-		font-style: normal;
-	}
-</style>
+		thead {
+			font-weight: 200;
+		}
+
+		td {
+			padding: 8px;
+			vertical-align: middle;
+			line-height: 1.42857143;
+		}
+
+		thead {
+			border-bottom: 2px solid #ddd;
+			border-top: 1px solid #ddd;
+		}
+
+		tr {
+			border-top: 0;
+			border-bottom: 1px solid #ddd;
+		}
+
+		tbody>tr:hover {
+			background-color: #f5f5f5;
+		}
+
+		tr>:nth-child(1) {
+			width: 64px;
+		}
+
+		tr>:nth-child(1)>img {
+			height: 36px;
+		}
+
+		tr>:nth-child(1) {
+			word-break: break-word;
+		}
+
+		tr>:nth-child(2) {
+			color: #999;
+		}
+
+		tr>:nth-child(3) {
+			width: 250px;
+		}
+
+		tr>:nth-child(3)>* {
+			display: inline-block;
+			text-align: center;
+			font-size: 12px;
+			width: 8.5px;
+		}
+
+		tr>:nth-child(4) {
+			font-family: 'GlyphiconsRegular';
+			text-decoration: none;
+			padding-top: 5px;
+			font-size: 14px;
+			width: 50px;
+		}
+
+		tr>:nth-child(4)>a {
+			display: inline-block;
+			text-decoration: none;
+			padding-right: 10px;
+			color: #474747;
+		}
+
+		tr>:nth-child(4)>a:hover {
+			color: #d85e27;
+		}
+
+		tr>:nth-child(4)>:nth-child(1)::before {
+			content: '\E174';
+		}
+
+		tr>:nth-child(4)>:nth-child(2)::before {
+			content: '\E235';
+		}
+
+		@font-face {
+			font-family: 'Sailec';
+			font-weight: 100;
+			src: url('./Sailec-Thin.woff') format('woff');
+		}
+
+		@font-face {
+			font-family: 'Sailec';
+			font-weight: 200;
+			src: url('./Sailec-Light.woff') format('woff');
+		}
+
+		@font-face {
+			font-family: 'Sailec';
+			font-weight: 400;
+			src: url('./Sailec-Regular.woff') format('woff');
+		}
+
+		@font-face {
+			font-family: 'Sailec';
+			font-weight: 500;
+			src: url('./Sailec-Medium.woff') format('woff');
+		}
+
+		/* font weight 500 and font weight 700 (bold) are the same for better integration support */
+		@font-face {
+			font-family: 'Sailec';
+			font-weight: 700;
+			src: url('./Sailec-Medium.woff') format('woff');
+		}
+
+		@font-face {
+			font-family: 'GlyphiconsRegular';
+			src: url('./glyphicons-regular.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+		}
+	</style>
+</body>
