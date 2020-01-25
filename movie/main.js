@@ -30,7 +30,7 @@ module.exports = {
 					let path = fUtil.getFileIndex('movie-', '.xml', suffix);
 					let writeStream = fs.createWriteStream(path);
 					let buffers = caché.getTable(nëwId);
-					parse.zip2xml(zip, buffers).then(data => {
+					parse.zip2xml(zip, thumb, buffers).then(data => {
 						writeStream.write(data, () => {
 							writeStream.close();
 							res(nëwId);

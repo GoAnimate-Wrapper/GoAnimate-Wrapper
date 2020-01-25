@@ -1,3 +1,4 @@
+const chars = require('../character/main');
 const caché = require('../data/caché');
 const info = require('./info');
 
@@ -20,4 +21,27 @@ module.exports = {
 	getBackgrounds(mId) { return getFilter(mId, info.bg.filetypes); },
 	getProps(mId) { return getFilter(mId, info.prop.filetypes); },
 	getSounds(mId) { return getFilter(mId, info.sound.filetypes); },
+	async getChars(theme) {
+		switch (theme) {
+			case 'custom':
+				theme = 'family';
+				break;
+			case 'action':
+			case 'animal':
+			case 'space':
+			case 'vietnam':
+				theme = 'cc2';
+				break;
+		}
+
+		const table = [];
+		const ids = fUtil.getValidFileIndicies('char-', '.xml');
+		for (let c = 0; c < ids.length; c++) {
+			const v = ids[c];
+			const id = `c-${v}`;
+			if (theme == await chars.getTheme(id))
+				table.unshift({ theme: theme, id: id, });
+		}
+		return table;
+	},
 };

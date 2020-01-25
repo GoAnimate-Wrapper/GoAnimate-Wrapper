@@ -1985,7 +1985,7 @@
 			"gender": "M",
 			"source": "voiceforge",
 			"arg": "DesignerDave",
-			"desc": "DesignerDave"
+			"desc": "Designer Dave"
 		},
 		"diesel": {
 			"country": "US",
@@ -2009,7 +2009,7 @@
 			"gender": "F",
 			"source": "voiceforge",
 			"arg": "EvilGenius",
-			"desc": "EvilGenius"
+			"desc": "Evil Genius"
 		},
 		"frank": {
 			"country": "US",
@@ -2041,7 +2041,7 @@
 			"gender": "M",
 			"source": "voiceforge",
 			"arg": "JerkFace",
-			"desc": "JerkFace"
+			"desc": "Jerkface"
 		},
 		"jerseygirl": {
 			"country": "US",
@@ -2049,7 +2049,7 @@
 			"gender": "F",
 			"source": "voiceforge",
 			"arg": "JerseyGirl",
-			"desc": "JerseyGirl"
+			"desc": "Jersey Girl"
 		},
 		"kayla": {
 			"country": "US",
@@ -2097,7 +2097,7 @@
 			"gender": "M",
 			"source": "voiceforge",
 			"arg": "RansomNote",
-			"desc": "RansomNote"
+			"desc": "Ransom Note"
 		},
 		"robot": {
 			"country": "US",
@@ -2113,7 +2113,7 @@
 			"gender": "F",
 			"source": "voiceforge",
 			"arg": "ShyGirl",
-			"desc": "ShyGirl"
+			"desc": "Shy Girl"
 		},
 		"susan_voiceforge": {
 			"country": "US",
@@ -2137,7 +2137,7 @@
 			"gender": "M",
 			"source": "voiceforge",
 			"arg": "TopHat",
-			"desc": "TopHat"
+			"desc": "Top-Hat"
 		},
 		"vixen": {
 			"country": "US",
@@ -2161,7 +2161,7 @@
 			"gender": "M",
 			"source": "voiceforge",
 			"arg": "WarrenPeas",
-			"desc": "WarrenPeas"
+			"desc": "Warren Peas"
 		},
 		"wiseguy": {
 			"country": "US",

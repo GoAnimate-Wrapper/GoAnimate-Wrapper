@@ -39,6 +39,8 @@ module.exports = {
 	 * @returns {Promise<Buffer>}
 	 */
 	async packXml(buffer, mId = null) {
+		if (buffer.length == 0) throw null;
+
 		const zip = nodezip.create();
 		mId && caché.saveTable(mId);
 		const themes = { common: true };
@@ -165,9 +167,10 @@ module.exports = {
 	/**
 	 * 
 	 * @param {{[aId:string]:Buffer}} buffers
+	 * @param {Buffer} thumb
 	 * @returns {Promise<Buffer>}
 	 */
-	async zip2xml(zip, buffers = []) {
+	async unpackZip(zip, thumb = null, buffers = []) {
 		return new Promise(res => {
 			const pieces = [];
 			const stream = zip['movie.xml'].toReadStream();
@@ -182,9 +185,28 @@ module.exports = {
 						xmlBuffers.push(Buffer.from(`<asset id="${aId}">${buffers[aId]}</asset>`));
 				}
 
+				if (thumb) {
+					const thumbString = thumb.toString('base64');
+					xmlBuffers.push(Buffer.from(`<thumb>${thumbString}</thumb>`));
+				}
+
 				xmlBuffers.push(Buffer.from(`</film>`));
 				res(Buffer.concat(xmlBuffers));
 			});
 		});
-	}
+	},
+	/**
+	 * 
+	 * @param {Buffer} xml 
+	 * @param {number} id 
+	 */
+	async unpackXml(xml, id) {
+		const beg = xml.lastIndexOf('<thumb>');
+		const end = xml.lastIndexOf('</thumb>');
+		if (beg > -1 && end > -1) {
+			const sub = Buffer.from(xml.subarray(beg + 7, end).toString(), 'base64');
+			fs.writeFileSync(fUtil.getFileIndex('thumb-', '.png', id), sub);
+		}
+		fs.writeFileSync(fUtil.getFileIndex('movie-', '.xml', id), xml);
+	},
 }

@@ -51,7 +51,7 @@
 			json.forEach(function (tbl) {
 				var date = tbl.date.substr(0, 10) + ' ' + tbl.date.substr(11);
 				tbody.innerHTML +=
-					'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date.match(/./g).join('</span><span>') + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a href="/go_full?movieId=' + tbl.id + '"></a></td></tr>';
+					'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date.match(/./g).join('</span><span>') + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a href="/go_full?movieId=' + tbl.id + '"></a><a href="/movies/' + tbl.id + '.xml" download="' + tbl.title + '"></a></td></tr>';
 			});
 		}
 
@@ -76,12 +76,20 @@
 			position: relative;
 		}
 
+		header {
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+
 		header>:nth-child(1) {
 			height: 44px;
 			align-content: center;
 			background-color: #1e1e1e;
 			color: #fff;
 			text-align: center;
+			display: inline-block;
+			width: 100%;
 		}
 
 		header>:nth-child(1)>:nth-child(1) {
@@ -95,8 +103,8 @@
 		}
 
 		header>:nth-child(1)>:nth-child(2) {
-			float: right;
 			margin-right: 20px;
+			float: right;
 		}
 
 		header>:nth-child(1)>:nth-child(2)>* {
@@ -121,6 +129,7 @@
 		}
 
 		header>:nth-child(1)>:nth-child(2)>:nth-child(1)>:nth-child(2) {
+			position: relative;
 			display: block;
 			top: 100%;
 			left: 0;
@@ -181,7 +190,7 @@
 		header>:nth-child(2)::before {
 			font-family: 'GlyphiconsRegular';
 			padding-right: 4px;
-			content: "\E079";
+			content: '\E079';
 			font-size: 12px;
 		}
 
@@ -276,7 +285,7 @@
 			text-decoration: none;
 			padding-top: 5px;
 			font-size: 14px;
-			width: 50px;
+			width: 80px;
 		}
 
 		tr>:nth-child(4)>a {
@@ -296,6 +305,10 @@
 
 		tr>:nth-child(4)>:nth-child(2)::before {
 			content: '\E235';
+		}
+
+		tr>:nth-child(4)>:nth-child(3)::before {
+			content: '\E182';
 		}
 
 		@font-face {
