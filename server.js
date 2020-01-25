@@ -1,6 +1,6 @@
 const env = Object.assign(process.env,
-	require('./env.json'),
-	require('./config.json'));
+	require('./env'),
+	require('./config'));
 
 const http = require('http');
 const pmc = require('./character/premade');

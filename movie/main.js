@@ -12,11 +12,11 @@ module.exports = {
 	 * @param {string} oldId
 	 * @returns {Promise<string>}
 	 */
-	save(movieZip, thumbZip, oldId, nëwId = oldId) {
-		if (thumbZip && nëwId.startsWith('m-')) {
+	save(movieZip, thumb, oldId, nëwId = oldId) {
+		if (thumb && nëwId.startsWith('m-')) {
 			const n = Number.parseInt(nëwId.substr(2));
 			const thumbFile = fUtil.getFileIndex('thumb-', '.png', n);
-			fs.writeFileSync(thumbFile, thumbZip);
+			fs.writeFileSync(thumbFile, thumb);
 		}
 
 		return new Promise((res, rej) => {
@@ -30,7 +30,7 @@ module.exports = {
 					let path = fUtil.getFileIndex('movie-', '.xml', suffix);
 					let writeStream = fs.createWriteStream(path);
 					let buffers = caché.getTable(nëwId);
-					parse.zip2xml(zip, thumb, buffers).then(data => {
+					parse.unpackZip(zip, thumb, buffers).then(data => {
 						writeStream.write(data, () => {
 							writeStream.close();
 							res(nëwId);
@@ -82,7 +82,7 @@ module.exports = {
 				case 'e': {
 					const fn = `${exFolder}/${suffix}.zip`;
 					if (!fs.existsSync(fn)) return rej();
-					parse.zip2xml(nodezip.unzip(fn))
+					parse.unpackZip(nodezip.unzip(fn))
 						.then(v => res(v)).catch(e => rej(e));
 					break;
 				}
@@ -99,7 +99,14 @@ module.exports = {
 		});
 	},
 	list() {
-		return fUtil.getValidFileIndicies('thumb-', '.png').map(v => `m-${v}`);
+		const array = [];
+		const last = fUtil.getLastFileIndex('movie-', '.xml');
+		for (let c = 0; c <= last; c++) {
+			const movie = fs.existsSync(fUtil.getFileIndex('movie-', '.xml', c));
+			const thumb = fs.existsSync(fUtil.getFileIndex('thumb-', '.png', c));
+			if (movie && thumb) array.push(`m-${c}`);
+		}
+		return array;
 	},
 	meta(movieId) {
 		return new Promise((res, rej) => {

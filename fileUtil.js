@@ -75,7 +75,7 @@ module.exports = {
 		const regex = new RegExp(`${s}[0-9]{${l}}${suf}$`);
 		return fs.readdirSync(folder).
 			filter(v => v && regex.test(v)).
-			map(v => Number.parseInt(v.substr(s.length, l)));;
+			map(v => Number.parseInt(v.substr(s.length, l)));
 	},
 	/**
 	 * @param {string} s
@@ -88,6 +88,17 @@ module.exports = {
 		return fs.readdirSync(folder).
 			filter(v => v && regex.test(v)).
 			map(v => `${folder}/${v}`);
+	},
+	/**
+	 * @param {string} s
+	 * @param {string} suf
+	 * @param {number} l
+	 * @returns {string[]}
+	 */
+	getLastFileIndex(s, suf = '.xml', l = 7) {
+		const regex = new RegExp(`${s}[0-9]{${l}}${suf}$`);
+		const list = fs.readdirSync(folder).filter(v => v && regex.test(v));
+		return Number.parseInt(list.pop().substr(s.length, l));
 	},
 	/**
 	 * 

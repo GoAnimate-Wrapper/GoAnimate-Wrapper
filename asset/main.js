@@ -1,5 +1,6 @@
 const chars = require('../character/main');
 const caché = require('../data/caché');
+const fUtil = require('../fileUtil');
 const info = require('./info');
 
 function getFilter(mId, types) {
@@ -21,7 +22,7 @@ module.exports = {
 	getBackgrounds(mId) { return getFilter(mId, info.bg.filetypes); },
 	getProps(mId) { return getFilter(mId, info.prop.filetypes); },
 	getSounds(mId) { return getFilter(mId, info.sound.filetypes); },
-	async getChars(theme) {
+	async chars(theme) {
 		switch (theme) {
 			case 'custom':
 				theme = 'family';
