@@ -656,507 +656,507 @@
 	<background id="desert_bg.swf" name="desert" enable="Y" is_premium="N" aid="8061" money="0" sharing="0"/>
 	<background id="outside_bg.swf" name="" enable="Y" default="N" is_premium="N" aid="10039" money="0" sharing="0"/>
 	<compositebg id="cbg_ai" name="alien interior" enable="Y" default="N" thumb="alien_interior.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="8068">
-		<bg id="cbg_ai_BG1" index="0">
-			<file>ben10.alien_interior_bg.swf</file>
-		</bg>
-		<prop id="cbg_ai_PROP0" index="2">
-			<file>ben10.alien_interior_tube.swf</file>
-			<x>206.2</x>
-			<y>173</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_ai_PROP1" index="3">
-			<file>ben10.alien_interior_staircase02.swf</file>
-			<x>626</x>
-			<y>401</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_ai_PROP2" index="4">
-			<file>ben10.alien_interior_staircase01.swf</file>
-			<x>63</x>
-			<y>433</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-	</compositebg>
+	<bg id="cbg_ai_BG1" index="0">
+		<file>ben10.alien_interior_bg.swf</file>
+	</bg>
+	<prop id="cbg_ai_PROP0" index="2">
+		<file>ben10.alien_interior_tube.swf</file>
+		<x>206.2</x>
+		<y>173</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_ai_PROP1" index="3">
+		<file>ben10.alien_interior_staircase02.swf</file>
+		<x>626</x>
+		<y>401</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_ai_PROP2" index="4">
+		<file>ben10.alien_interior_staircase01.swf</file>
+		<x>63</x>
+		<y>433</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
 	<compositebg id="cbg_ice_factory" name="" enable="Y" default="N" thumb="ice_factory.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10044">
-		<bg id="cbg_ice_factory_BG17" index="0">
-			<file>ben10.ice_factory_bg.swf</file>
-		</bg>
-		<prop id="cbg_ice_factory_PROP9" index="2">
-			<file>ben10.ice_building.swf</file>
-			<x>346.2</x>
-			<y>173.9</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_ice_factory_PROP10" index="3">
-			<file>ben10.ice_grass02.swf</file>
-			<x>347.8</x>
-			<y>348.6</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_ice_factory_PROP11" index="4">
-			<file>ben10.ice_grass01.swf</file>
-			<x>347</x>
-			<y>347.4</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-	</compositebg>
+	<bg id="cbg_ice_factory_BG17" index="0">
+		<file>ben10.ice_factory_bg.swf</file>
+	</bg>
+	<prop id="cbg_ice_factory_PROP9" index="2">
+		<file>ben10.ice_building.swf</file>
+		<x>346.2</x>
+		<y>173.9</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_ice_factory_PROP10" index="3">
+		<file>ben10.ice_grass02.swf</file>
+		<x>347.8</x>
+		<y>348.6</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_ice_factory_PROP11" index="4">
+		<file>ben10.ice_grass01.swf</file>
+		<x>347</x>
+		<y>347.4</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
 	<compositebg id="cbg_inside_trailer" name="" enable="Y" default="N" thumb="inside_trailer.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10043">
-		<bg id="cbg_inside_trailer_BG17" index="0">
-			<file>ben10.inside_trailer_bg.swf</file>
-		</bg>
-		<prop id="cbg_inside_trailer_PROP19" index="2">
-			<file>ben10.inside_trailer_chair.swf</file>
-			<x>151</x>
-			<y>323</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_inside_trailer_PROP18" index="3">
-			<file>ben10.inside_trailer_table.swf</file>
-			<x>174</x>
-			<y>401</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-	</compositebg>
+	<bg id="cbg_inside_trailer_BG17" index="0">
+		<file>ben10.inside_trailer_bg.swf</file>
+	</bg>
+	<prop id="cbg_inside_trailer_PROP19" index="2">
+		<file>ben10.inside_trailer_chair.swf</file>
+		<x>151</x>
+		<y>323</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_inside_trailer_PROP18" index="3">
+		<file>ben10.inside_trailer_table.swf</file>
+		<x>174</x>
+		<y>401</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
 	<compositebg id="cbg_garage" name="" enable="Y" default="N" thumb="garage.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10042">
-		<bg id="cbg_garage_BG17" index="0">
-			<file>ben10.garage_bg.swf</file>
-		</bg>
-		<prop id="cbg_garage_PROP12" index="2">
-			<file>ben10.garage_prop02.swf</file>
-			<x>220.8</x>
-			<y>198.5</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_garage_PROP13" index="3">
-			<file>ben10.garage_prop03.swf</file>
-			<x>580</x>
-			<y>168</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_garage_PROP14" index="4">
-			<file>ben10.garage_prop04.swf</file>
-			<x>561</x>
-			<y>309</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_garage_PROP15" index="5">
-			<file>ben10.garage_prop01.swf</file>
-			<x>163</x>
-			<y>179</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-	</compositebg>
+	<bg id="cbg_garage_BG17" index="0">
+		<file>ben10.garage_bg.swf</file>
+	</bg>
+	<prop id="cbg_garage_PROP12" index="2">
+		<file>ben10.garage_prop02.swf</file>
+		<x>220.8</x>
+		<y>198.5</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_garage_PROP13" index="3">
+		<file>ben10.garage_prop03.swf</file>
+		<x>580</x>
+		<y>168</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_garage_PROP14" index="4">
+		<file>ben10.garage_prop04.swf</file>
+		<x>561</x>
+		<y>309</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_garage_PROP15" index="5">
+		<file>ben10.garage_prop01.swf</file>
+		<x>163</x>
+		<y>179</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
 	<compositebg id="cbg_bedroom" name="" enable="Y" default="N" thumb="bedroom.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10041">
-		<bg id="cbg_bedroom_BG17" index="0">
-			<file>ben10.bedroom_bg.swf</file>
-		</bg>
-		<prop id="cbg_bedroom_PROP6" index="2">
-			<file>ben10.msp_bd_door.msp_bd_door_bedroom_door_open.swf</file>
-			<x>574</x>
-			<y>163</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_bedroom_PROP7" index="3">
-			<file>ben10.bedroom_chair.swf</file>
-			<x>450</x>
-			<y>232</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-	</compositebg>
+	<bg id="cbg_bedroom_BG17" index="0">
+		<file>ben10.bedroom_bg.swf</file>
+	</bg>
+	<prop id="cbg_bedroom_PROP6" index="2">
+		<file>ben10.msp_bd_door.msp_bd_door_bedroom_door_open.swf</file>
+		<x>574</x>
+		<y>163</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_bedroom_PROP7" index="3">
+		<file>ben10.bedroom_chair.swf</file>
+		<x>450</x>
+		<y>232</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
 	<compositebg id="cbg_castle" name="" enable="Y" default="N" thumb="castle.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10040">
-		<bg id="cbg_castle_BG17" index="0">
-			<file>ben10.castle_bg.swf</file>
-		</bg>
-		<prop id="cbg_castle_PROP21" index="2">
-			<file>ben10.castle_chair.swf</file>
-			<x>389.9</x>
-			<y>251.9</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_castle_PROP22" index="3">
-			<file>ben10.castle_prop01.swf</file>
-			<x>138</x>
-			<y>174</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_castle_PROP23" index="4">
-			<file>ben10.castle_prop02.swf</file>
-			<x>564</x>
-			<y>172</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-	</compositebg>
+	<bg id="cbg_castle_BG17" index="0">
+		<file>ben10.castle_bg.swf</file>
+	</bg>
+	<prop id="cbg_castle_PROP21" index="2">
+		<file>ben10.castle_chair.swf</file>
+		<x>389.9</x>
+		<y>251.9</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_castle_PROP22" index="3">
+		<file>ben10.castle_prop01.swf</file>
+		<x>138</x>
+		<y>174</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_castle_PROP23" index="4">
+		<file>ben10.castle_prop02.swf</file>
+		<x>564</x>
+		<y>172</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
 	<compositebg id="cbg_subway" name="subway station" enable="Y" default="N" thumb="station.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="8075">
-		<bg id="cbg_subway_BG1" index="0">
-			<file>ben10.station_bg.swf</file>
-		</bg>
-		<prop id="cbg_subway_PROP2" index="2">
-			<file>ben10.station_p03.swf</file>
-			<x>507.2</x>
-			<y>167</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_subway_PROP3" index="3">
-			<file>ben10.station_p04.swf</file>
-			<x>117.1</x>
-			<y>233</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_subway_PROP4" index="4">
-			<file>ben10.station_p05.swf</file>
-			<x>270.2</x>
-			<y>233</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_subway_PROP5" index="5">
-			<file>ben10.station_p02.swf</file>
-			<x>334.2</x>
-			<y>279</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_subway_PROP6" index="6">
-			<file>ben10.station_p01.swf</file>
-			<x>205</x>
-			<y>182.4</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-	</compositebg>
+	<bg id="cbg_subway_BG1" index="0">
+		<file>ben10.station_bg.swf</file>
+	</bg>
+	<prop id="cbg_subway_PROP2" index="2">
+		<file>ben10.station_p03.swf</file>
+		<x>507.2</x>
+		<y>167</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_subway_PROP3" index="3">
+		<file>ben10.station_p04.swf</file>
+		<x>117.1</x>
+		<y>233</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_subway_PROP4" index="4">
+		<file>ben10.station_p05.swf</file>
+		<x>270.2</x>
+		<y>233</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_subway_PROP5" index="5">
+		<file>ben10.station_p02.swf</file>
+		<x>334.2</x>
+		<y>279</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_subway_PROP6" index="6">
+		<file>ben10.station_p01.swf</file>
+		<x>205</x>
+		<y>182.4</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
 	<compositebg id="cbg_car" name="car" enable="Y" default="N" thumb="car_interior.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="8074">
-		<bg id="cbg_car_BG1" index="0">
-			<file>ben10.car_interior_bg.swf</file>
-		</bg>
-		<prop id="cbg_car_PROP0" index="2">
-			<file>ben10.car_interior_p05.swf</file>
-			<x>398.6</x>
-			<y>265.2</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_car_PROP5" index="3">
-			<file>ben10.car_interior_p04.swf</file>
-			<x>323.2</x>
-			<y>254</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_car_PROP6" index="4">
-			<file>ben10.car_interior_p03.swf</file>
-			<x>506</x>
-			<y>256</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_car_PROP7" index="5">
-			<file>ben10.car_interior_p02.swf</file>
-			<x>199.2</x>
-			<y>280</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_car_PROP9" index="6">
-			<file>ben10.car_interior_p01.swf</file>
-			<x>402.2</x>
-			<y>386</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-	</compositebg>
+	<bg id="cbg_car_BG1" index="0">
+		<file>ben10.car_interior_bg.swf</file>
+	</bg>
+	<prop id="cbg_car_PROP0" index="2">
+		<file>ben10.car_interior_p05.swf</file>
+		<x>398.6</x>
+		<y>265.2</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_car_PROP5" index="3">
+		<file>ben10.car_interior_p04.swf</file>
+		<x>323.2</x>
+		<y>254</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_car_PROP6" index="4">
+		<file>ben10.car_interior_p03.swf</file>
+		<x>506</x>
+		<y>256</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_car_PROP7" index="5">
+		<file>ben10.car_interior_p02.swf</file>
+		<x>199.2</x>
+		<y>280</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_car_PROP9" index="6">
+		<file>ben10.car_interior_p01.swf</file>
+		<x>402.2</x>
+		<y>386</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
 	<compositebg id="cbg_al" name="alien lab" enable="Y" default="N" thumb="alien_lab.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="8073">
-		<bg id="cbg_al_BG3" index="0">
-			<file>ben10.alien_lab_bg.swf</file>
-		</bg>
-		<prop id="cbg_al_PROP0" index="2">
-			<file>ben10.alien_lab_p01.swf</file>
-			<x>318.2</x>
-			<y>152</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_al_PROP1" index="3">
-			<file>ben10.alien_lab_p02.swf</file>
-			<x>492.1</x>
-			<y>301</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-	</compositebg>
+	<bg id="cbg_al_BG3" index="0">
+		<file>ben10.alien_lab_bg.swf</file>
+	</bg>
+	<prop id="cbg_al_PROP0" index="2">
+		<file>ben10.alien_lab_p01.swf</file>
+		<x>318.2</x>
+		<y>152</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_al_PROP1" index="3">
+		<file>ben10.alien_lab_p02.swf</file>
+		<x>492.1</x>
+		<y>301</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
 	<compositebg id="cbg_tn" name="trailer at night" enable="Y" default="Y" thumb="trailer_at_night.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="8072">
-		<bg id="cbg_tn_BG1" index="0">
-			<file>ben10.trailer_at_night_bg.swf</file>
-		</bg>
-		<prop id="cbg_tn_PROP0" index="2">
-			<file>ben10.trailer_at_night_p05.swf</file>
-			<x>355</x>
-			<y>239</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_tn_PROP1" index="3">
-			<file>ben10.trailer_at_night_p03.swf</file>
-			<x>193</x>
-			<y>153.7</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_tn_PROP2" index="4">
-			<file>ben10.trailer_at_night_trailer.swf</file>
-			<x>372</x>
-			<y>214</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_tn_PROP3" index="5">
-			<file>ben10.trailer_at_night_p02.swf</file>
-			<x>97</x>
-			<y>178</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_tn_PROP4" index="6">
-			<file>ben10.trailer_at_night_p04.swf</file>
-			<x>611.2</x>
-			<y>234</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_tn_PROP5" index="7">
-			<file>ben10.trailer_at_night_p01.swf</file>
-			<x>112.2</x>
-			<y>347</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-	</compositebg>
+	<bg id="cbg_tn_BG1" index="0">
+		<file>ben10.trailer_at_night_bg.swf</file>
+	</bg>
+	<prop id="cbg_tn_PROP0" index="2">
+		<file>ben10.trailer_at_night_p05.swf</file>
+		<x>355</x>
+		<y>239</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_tn_PROP1" index="3">
+		<file>ben10.trailer_at_night_p03.swf</file>
+		<x>193</x>
+		<y>153.7</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_tn_PROP2" index="4">
+		<file>ben10.trailer_at_night_trailer.swf</file>
+		<x>372</x>
+		<y>214</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_tn_PROP3" index="5">
+		<file>ben10.trailer_at_night_p02.swf</file>
+		<x>97</x>
+		<y>178</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_tn_PROP4" index="6">
+		<file>ben10.trailer_at_night_p04.swf</file>
+		<x>611.2</x>
+		<y>234</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_tn_PROP5" index="7">
+		<file>ben10.trailer_at_night_p01.swf</file>
+		<x>112.2</x>
+		<y>347</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
 	<compositebg id="cbg_fy" name="farm yard" enable="Y" default="N" thumb="farm_yard.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="8071">
-		<bg id="cbg_fy_BG3" index="0">
-			<file>ben10.farm_yard_bg.swf</file>
-		</bg>
-		<prop id="cbg_fy_PROP2" index="2">
-			<file>ben10.farm_yard_p02.swf</file>
-			<x>241</x>
-			<y>196</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_fy_PROP3" index="3">
-			<file>ben10.farm_yard_p01.swf</file>
-			<x>319</x>
-			<y>233</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_fy_PROP4" index="4">
-			<file>ben10.msp_door.farm_yard_house_close.swf</file>
-			<x>622</x>
-			<y>120</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_fy_PROP5" index="5">
-			<file>ben10.farm_yard_p03.swf</file>
-			<x>621</x>
-			<y>268</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-	</compositebg>
+	<bg id="cbg_fy_BG3" index="0">
+		<file>ben10.farm_yard_bg.swf</file>
+	</bg>
+	<prop id="cbg_fy_PROP2" index="2">
+		<file>ben10.farm_yard_p02.swf</file>
+		<x>241</x>
+		<y>196</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_fy_PROP3" index="3">
+		<file>ben10.farm_yard_p01.swf</file>
+		<x>319</x>
+		<y>233</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_fy_PROP4" index="4">
+		<file>ben10.msp_door.farm_yard_house_close.swf</file>
+		<x>622</x>
+		<y>120</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_fy_PROP5" index="5">
+		<file>ben10.farm_yard_p03.swf</file>
+		<x>621</x>
+		<y>268</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
 	<compositebg id="cbg_desert" name="desert" enable="Y" default="N" thumb="desert.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="8070">
-		<bg id="cbg_desert_BG1" index="0">
-			<file>ben10.desert_bg.swf</file>
-		</bg>
-		<prop id="cbg_desert_PROP0" index="2">
-			<file>ben10.desert_rock05.swf</file>
-			<x>475</x>
-			<y>119</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_desert_PROP1" index="3">
-			<file>ben10.desert_rock04.swf</file>
-			<x>300</x>
-			<y>205</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_desert_PROP2" index="4">
-			<file>ben10.desert_lake.swf</file>
-			<x>329</x>
-			<y>315</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_desert_PROP4" index="5">
-			<file>ben10.desert_rock03.swf</file>
-			<x>301</x>
-			<y>359</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_desert_PROP5" index="6">
-			<file>ben10.desert_rock01.swf</file>
-			<x>88.2</x>
-			<y>244</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_desert_PROP6" index="7">
-			<file>ben10.desert_rock02.swf</file>
-			<x>528.2</x>
-			<y>286</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-	</compositebg>
+	<bg id="cbg_desert_BG1" index="0">
+		<file>ben10.desert_bg.swf</file>
+	</bg>
+	<prop id="cbg_desert_PROP0" index="2">
+		<file>ben10.desert_rock05.swf</file>
+		<x>475</x>
+		<y>119</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_desert_PROP1" index="3">
+		<file>ben10.desert_rock04.swf</file>
+		<x>300</x>
+		<y>205</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_desert_PROP2" index="4">
+		<file>ben10.desert_lake.swf</file>
+		<x>329</x>
+		<y>315</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_desert_PROP4" index="5">
+		<file>ben10.desert_rock03.swf</file>
+		<x>301</x>
+		<y>359</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_desert_PROP5" index="6">
+		<file>ben10.desert_rock01.swf</file>
+		<x>88.2</x>
+		<y>244</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_desert_PROP6" index="7">
+		<file>ben10.desert_rock02.swf</file>
+		<x>528.2</x>
+		<y>286</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
 	<compositebg id="cbg_ax" name="alien ship exterior" enable="Y" default="N" thumb="alient_ship_exterior.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="8069">
-		<bg id="cbg_ax_BG1" index="0">
-			<file>ben10.alient_ship_exterior_bg.swf</file>
-		</bg>
-		<prop id="cbg_ax_PROP0" index="2">
-			<file>ben10.alient_ship_exterior_base.swf</file>
-			<x>292.2</x>
-			<y>284</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-		<prop id="cbg_ax_PROP1" index="3">
-			<file>ben10.alient_ship_exterior_ramp.swf</file>
-			<x>124.2</x>
-			<y>334</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-	</compositebg>
+	<bg id="cbg_ax_BG1" index="0">
+		<file>ben10.alient_ship_exterior_bg.swf</file>
+	</bg>
+	<prop id="cbg_ax_PROP0" index="2">
+		<file>ben10.alient_ship_exterior_base.swf</file>
+		<x>292.2</x>
+		<y>284</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_ax_PROP1" index="3">
+		<file>ben10.alient_ship_exterior_ramp.swf</file>
+		<x>124.2</x>
+		<y>334</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
 	<compositebg id="cbg_outside" name="" enable="Y" default="N" thumb="outside_trailer.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10045">
-		<bg id="cbg_outside_BG17" index="0">
-			<file>ben10.outside_bg.swf</file>
-		</bg>
-		<prop id="cbg_outside_PROP18" index="2">
-			<file>ben10.outside_fence.swf</file>
-			<x>359</x>
-			<y>183</y>
-			<xscale>1</xscale>
-			<yscale>1</yscale>
-			<face>1</face>
-			<rotation>0</rotation>
-		</prop>
-	</compositebg>
+	<bg id="cbg_outside_BG17" index="0">
+		<file>ben10.outside_bg.swf</file>
+	</bg>
+	<prop id="cbg_outside_PROP18" index="2">
+		<file>ben10.outside_fence.swf</file>
+		<x>359</x>
+		<y>183</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
 	<prop id="explosion.swf" name="Explosion" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="7888" money="0" sharing="0"/>
 	<prop id="rock.swf" name="Rock" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8084" money="0" sharing="0"/>
 	<prop id="alienspaceship02.swf" name="Alien spaceship" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8085" money="0" sharing="0"/>

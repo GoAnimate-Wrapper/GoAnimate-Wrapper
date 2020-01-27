@@ -59,7 +59,7 @@ module.exports = function (req, res, url) {
 				},
 				allowScriptAccess: 'always',
 			};
-			sessions.set(presave, req);
+			sessions.set({ movieId: presave }, req);
 			break;
 		}
 

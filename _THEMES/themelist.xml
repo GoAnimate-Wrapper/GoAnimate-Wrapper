@@ -22,6 +22,19 @@
 	<theme id="commoncraft" name="Common Craft" thumb="" cc_theme_id="commoncraft" />
 	<theme id="politic" name="Politics &amp; Celebrity" thumb="hilary-stand.swf" cc_theme_id="politic" />
 	<theme id="fullenergy" name="Full Energy" thumb="" cc_theme_id="fullenergy"/>
+	<theme id="akon" name="Akon" cc_theme_id="akon" />
+	<theme id="ben10" name="Ben 10" cc_theme_id="ben10" />
+	<theme id="bizmodels" name="Business Models" cc_theme_id="bizmodels" />
+	<theme id="botdf" name="Blood on the Dance Floor" cc_theme_id="botdf" />
+	<theme id="bunny" name="It's Happy Bunny" cc_theme_id="bunny" />
+	<theme id="chowder" name="Chowder" cc_theme_id="chowder" />
+	<theme id="domo" name="Domo" cc_theme_id="domo" />
+	<theme id="monkeytalk" name="SuperRica &amp; Rashy" cc_theme_id="monkeytalk" />
+	<theme id="sf" name="Street Fighter" cc_theme_id="sf" />
+	<theme id="startrek" name="Star Trek" cc_theme_id="startrek" />
+	<theme id="street" name="Street" cc_theme_id="street" />
+	<theme id="underdog" name="Underdog" cc_theme_id="underdog" />
+	<theme id="willie" name="Willie Nelson" cc_theme_id="willie" />
 	<theme id="common" name="Common" thumb="matchboy-stand.swf" cc_theme_id="common" />
 	<word>mikiko,vikiko</word>
 	<whiteword />

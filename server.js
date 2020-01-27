@@ -21,12 +21,14 @@ const thL = require('./theme/list');
 const thl = require('./theme/load');
 const tsv = require('./tts/voices');
 const tsl = require('./tts/load');
+const evt = require('./events');
 const url = require('url');
 
 const functions = [
 	mvL,
 	pmc,
 	asl,
+	evt,
 	chl,
 	thl,
 	thL,

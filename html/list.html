@@ -39,15 +39,19 @@
 		<tbody></tbody>
 	</table>
 	<script>
+		const closeReq = new XMLHttpRequest();
+		closeReq.open('GET', '/events/close');
+		closeReq.send();
+
 		var id = 0;
 		var tbody = document.getElementsByTagName('tbody')[0];
-		const http = new XMLHttpRequest();
-		http.open('GET', '/movieList');
-		http.send();
+		const listReq = new XMLHttpRequest();
+		listReq.open('GET', '/movieList');
+		listReq.send();
 
-		http.onreadystatechange = function (e) {
-			if (http.readyState != 4) return;
-			const json = JSON.parse(http.responseText);
+		listReq.onreadystatechange = function (e) {
+			if (listReq.readyState != 4) return;
+			const json = JSON.parse(listReq.responseText);
 			json.forEach(function (tbl) {
 				var date = tbl.date.substr(0, 10) + ' ' + tbl.date.substr(11);
 				tbody.innerHTML +=
