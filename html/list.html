@@ -5,7 +5,8 @@
 				<a href="./"><img src="logo.png" /></a>
 			</div>
 			<div>
-				<div>
+				<a class="button_small" onclick="document.getElementById('file').click()">UPLOAD A MOVIE</a>
+				<div class="char_dropdown button_small">
 					<div>CREATE A CHARACTER</div>
 					<menu>
 						<a href="/cc?themeId=family&bs=adam">Adam</a>
@@ -17,10 +18,10 @@
 						<a href="/cc?themeId=business&bs=heavy">Heavy</a>
 					</menu>
 				</div>
-				<a href="/go_full">MAKE A VIDEO</a>
+				<a href="/go_full" class="button_big">MAKE A VIDEO</a>
 			</div>
 		</div>
-		<div>
+		<div class="warning">
 			This service is not finished yet; some features may not be available at this time. Any and all videos may be
 			deleted at this stage of development. Record your videos if possible.<br><a
 				href='https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper'>Link
@@ -38,31 +39,9 @@
 		</thead>
 		<tbody></tbody>
 	</table>
-	<script>
-		const closeReq = new XMLHttpRequest();
-		closeReq.open('GET', '/events/close');
-		closeReq.send();
-
-		var id = 0;
-		var tbody = document.getElementsByTagName('tbody')[0];
-		const listReq = new XMLHttpRequest();
-		listReq.open('GET', '/movieList');
-		listReq.send();
-
-		listReq.onreadystatechange = function (e) {
-			if (listReq.readyState != 4) return;
-			const json = JSON.parse(listReq.responseText);
-			json.forEach(function (tbl) {
-				var date = tbl.date.substr(0, 10) + ' ' + tbl.date.substr(11);
-				tbody.innerHTML +=
-					'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date.match(/./g).join('</span><span>') + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a href="/go_full?movieId=' + tbl.id + '"></a><a href="/movies/' + tbl.id + '.xml" download="' + tbl.title + '"></a></td></tr>';
-			});
-		}
-
-		function popup(id) {
-			window.open('/player?movieId=' + id, 'MsgWindow', 'width=1280,height=720,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
-		}
-	</script>
+	<form enctype="multipart/form-data" action="/upload_video" method="post">
+		<input id="file" type="file" onchange="this.form.submit()" />
+	</form>
 	<style>
 		html {
 			font-family: 'Sailec', Arial, sans-serif;
@@ -111,7 +90,8 @@
 			float: right;
 		}
 
-		header>:nth-child(1)>:nth-child(2)>* {
+		.button_big,
+		.button_small {
 			margin-left: 10px;
 			margin-top: 7px;
 			display: inline-block;
@@ -123,18 +103,36 @@
 			color: #fff;
 		}
 
-		header>:nth-child(1)>:nth-child(2)>:nth-child(1) {
-			width: 200px;
+		.button_big {
+			background-color: #d85e27;
+			width: 160px;
 		}
 
-		header>:nth-child(1)>:nth-child(2)>:nth-child(1)>:nth-child(1):hover {
-			cursor: pointer;
+		.button_big:hover {
+			text-decoration: underline;
+		}
+
+		.button_small:hover {
 			color: #d85e27;
 		}
 
-		header>:nth-child(1)>:nth-child(2)>:nth-child(1)>:nth-child(2) {
+		.button_big:hover,
+		.button_small:hover {
+			cursor: pointer;
+		}
+
+		.char_dropdown {
+			width: 200px;
+		}
+
+		.char_dropdown:hover>:nth-child(1) {
+			cursor: context-menu;
+			color: #d85e27;
+		}
+
+		.char_dropdown>menu {
 			position: relative;
-			display: block;
+			display: none;
 			top: 100%;
 			left: 0;
 			z-index: 1000;
@@ -155,7 +153,11 @@
 			background-clip: padding-box;
 		}
 
-		header>:nth-child(1)>:nth-child(2)>:nth-child(1)>:nth-child(2)>a {
+		.char_dropdown:hover>menu {
+			display: block;
+		}
+
+		.char_dropdown>menu>a {
 			display: block;
 			padding: 2px 20px;
 			clear: both;
@@ -164,41 +166,32 @@
 			text-decoration: none;
 		}
 
-		header>:nth-child(1)>:nth-child(2)>:nth-child(1)>:nth-child(2)>a:hover {
+		.char_dropdown>menu>a:hover {
 			color: #d85e27;
 			background-color: #f5f5f5;
 		}
 
-		header>:nth-child(1)>:nth-child(2)>:nth-child(1)>:nth-child(2)>div {
+		.char_dropdown>menu>div {
 			height: 1px;
 			margin: 10px 0;
 			background-color: #e5e5e5;
 		}
 
-		header>:nth-child(1)>:nth-child(2)>:nth-child(2) {
-			background-color: #d85e27;
-			width: 160px;
-		}
-
-		header>:nth-child(1)>:nth-child(2)>:nth-child(2):hover {
-			text-decoration: underline;
-		}
-
-		header>:nth-child(2) {
+		.warning {
 			font-size: 14px;
 			padding: 10px 0;
 			background-color: #fd7;
 			text-align: center;
 		}
 
-		header>:nth-child(2)::before {
+		.warning::before {
 			font-family: 'GlyphiconsRegular';
 			padding-right: 4px;
 			content: '\E079';
 			font-size: 12px;
 		}
 
-		header>:nth-child(2)>a {
+		.warning>a {
 			color: #5596e6;
 		}
 
@@ -315,6 +308,10 @@
 			content: '\E182';
 		}
 
+		form {
+			display: none;
+		}
+
 		@font-face {
 			font-family: 'Sailec';
 			font-weight: 100;
@@ -353,4 +350,29 @@
 			font-style: normal;
 		}
 	</style>
+	<script>
+		const closeReq = new XMLHttpRequest();
+		closeReq.open('GET', '/events/close');
+		closeReq.send();
+
+		var id = 0;
+		var tbody = document.getElementsByTagName('tbody')[0];
+		const listReq = new XMLHttpRequest();
+		listReq.open('GET', '/movieList');
+		listReq.send();
+
+		listReq.onreadystatechange = function (e) {
+			if (listReq.readyState != 4) return;
+			const json = JSON.parse(listReq.responseText);
+			json.forEach(function (tbl) {
+				var date = tbl.date.substr(0, 10) + ' ' + tbl.date.substr(11);
+				tbody.innerHTML +=
+					'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date.match(/./g).join('</span><span>') + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a href="/go_full?movieId=' + tbl.id + '"></a><a href="/movies/' + tbl.id + '.xml" download="' + tbl.title + '"></a></td></tr>';
+			});
+		}
+
+		function popup(id) {
+			window.open('/player?movieId=' + id, 'MsgWindow', 'width=1280,height=720,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
+		}
+	</script>
 </body>

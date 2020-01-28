@@ -723,6 +723,18 @@
 			"source": "vocalware",
 			"desc": "Steven (Oddcast)"
 		},
+		"kenneth": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"arg": [
+				2,
+				1,
+				3
+			],
+			"source": "vocalware",
+			"desc": "Kenneth"
+		},
 		"susan": {
 			"country": "US",
 			"language": "en",
