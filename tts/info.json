@@ -459,6 +459,18 @@
 			"source": "vocalware",
 			"desc": "Tarik"
 		},
+		"maged": {
+			"country": "SA",
+			"language": "ar",
+			"gender": "M",
+			"arg": [
+				4,
+				27,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Maged"
+		},
 		"empar": {
 			"country": "ES",
 			"language": "va",
@@ -589,7 +601,7 @@
 				7
 			],
 			"source": "vocalware",
-			"desc": "Allison (Vocalware)"
+			"desc": "Allison (Oddcast)"
 		},
 		"catherine": {
 			"country": "GB",
@@ -661,7 +673,7 @@
 				8
 			],
 			"source": "vocalware",
-			"desc": "Steven (Vocalware)"
+			"desc": "Steven (Oddcast)"
 		},
 		"susan": {
 			"country": "US",
@@ -686,6 +698,186 @@
 			],
 			"source": "vocalware",
 			"desc": "Veena"
+		},
+		"daniel": {
+			"country": "GB",
+			"language": "en",
+			"gender": "M",
+			"arg": [
+				4,
+				1,
+				5
+			],
+			"source": "vocalware",
+			"desc": "Daniel"
+		},
+		"fiona": {
+			"country": "GB",
+			"language": "en",
+			"gender": "F",
+			"arg": [
+				4,
+				1,
+				12
+			],
+			"source": "vocalware",
+			"desc": "Fiona"
+		},
+		"jackson": {
+			"country": "AU",
+			"language": "en",
+			"gender": "M",
+			"arg": [
+				7,
+				1,
+				4
+			],
+			"source": "vocalware",
+			"desc": "Jackson"
+		},
+		"jill": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"arg": [
+				4,
+				1,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Jill"
+		},
+		"karen": {
+			"country": "AU",
+			"language": "en",
+			"gender": "F",
+			"arg": [
+				4,
+				1,
+				4
+			],
+			"source": "vocalware",
+			"desc": "Karen"
+		},
+		"lee": {
+			"country": "AU",
+			"language": "en",
+			"gender": "M",
+			"arg": [
+				4,
+				1,
+				10
+			],
+			"source": "vocalware",
+			"desc": "Karen"
+		},
+		"matilda": {
+			"country": "AU",
+			"language": "en",
+			"gender": "F",
+			"arg": [
+				7,
+				1,
+				3
+			],
+			"source": "vocalware",
+			"desc": "Matilda"
+		},
+		"moira": {
+			"country": "IE",
+			"language": "en",
+			"gender": "F",
+			"arg": [
+				4,
+				1,
+				8
+			],
+			"source": "vocalware",
+			"desc": "Moira"
+		},
+		"oliver_vocalware": {
+			"country": "GB",
+			"language": "en",
+			"gender": "M",
+			"arg": [
+				7,
+				1,
+				2
+			],
+			"source": "vocalware",
+			"desc": "Oliver (Oddcast)"
+		},
+		"olivia": {
+			"country": "GB",
+			"language": "en",
+			"gender": "F",
+			"arg": [
+				7,
+				1,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Olivia"
+		},
+		"samantha": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"arg": [
+				7,
+				1,
+				1
+			],
+			"source": "vocalware",
+			"desc": "Samantha"
+		},
+		"sangeeta": {
+			"country": "IN",
+			"language": "en",
+			"gender": "F",
+			"arg": [
+				4,
+				1,
+				9
+			],
+			"source": "vocalware",
+			"desc": "Sangeeta"
+		},
+		"serena": {
+			"country": "GB",
+			"language": "en",
+			"gender": "F",
+			"arg": [
+				4,
+				1,
+				7
+			],
+			"source": "vocalware",
+			"desc": "Serena"
+		},
+		"tessa": {
+			"country": "ZA",
+			"language": "en",
+			"gender": "F",
+			"arg": [
+				4,
+				1,
+				13
+			],
+			"source": "vocalware",
+			"desc": "Tessa"
+		},
+		"tom": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"arg": [
+				4,
+				1,
+				3
+			],
+			"source": "vocalware",
+			"desc": "Tom"
 		},
 		"ludoviko": {
 			"country": "EO",
