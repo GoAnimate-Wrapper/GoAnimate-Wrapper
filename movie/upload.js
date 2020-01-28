@@ -10,6 +10,9 @@ module.exports = function (req, res, url) {
 		const numId = fUtil.getNextFileId('movie-', '.xml');
 		parse.unpackXml(buffer, numId);
 		fs.unlinkSync(path);
+
+		res.statusCode = 302;
+		res.setHeader('Location', '/');
 		res.end();
 	});
 	return true;

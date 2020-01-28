@@ -38,10 +38,50 @@
 			</tr>
 		</thead>
 		<tbody></tbody>
+		<tfoot>
+			<tr>
+				<td colspan="127"><a onclick="loadRows()" href="javascript:;">LOAD MORE...</a></td>
+			</tr>
+		</tfoot>
 	</table>
-	<form enctype="multipart/form-data" action="/upload_video" method="post">
-		<input id="file" type="file" onchange="this.form.submit()" />
+	<form enctype='multipart/form-data' action='/upload_movie' method='post'>
+		<input id='file' type="file" onchange="this.form.submit()" name='import' />
 	</form>
+	<script>
+		const closeReq = new XMLHttpRequest();
+		closeReq.open('GET', '/events/close');
+		closeReq.send();
+
+		var json;
+		var tbody = document.getElementsByTagName('tbody')[0];
+		const listReq = new XMLHttpRequest();
+		listReq.open('GET', '/movieList');
+		listReq.send();
+
+		listReq.onreadystatechange = function (e) {
+			if (listReq.readyState != 4) return;
+			json = JSON.parse(listReq.responseText);
+			loadRows();
+		}
+
+		var C = 0;
+		function loadRows() {
+			let c = C; C += 69;
+			for (; c < C; c++) {
+				if (c > json.length - 1)
+					break;
+
+				const tbl = json[c];
+				const date = tbl.date.substr(0, 10) + ' ' + tbl.date.substr(11);
+				tbody.insertAdjacentHTML('beforeend',
+					'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date.match(/./g).join('</span><span>') + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a href="/go_full?movieId=' + tbl.id + '"></a><a href="/movies/' + tbl.id + '.xml" download="' + tbl.title + '"></a></td></tr>');
+			}
+		}
+
+		function popup(id) {
+			window.open('/player?movieId=' + id, 'MsgWindow', 'width=1280,height=720,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
+		}
+	</script>
 	<style>
 		html {
 			font-family: 'Sailec', Arial, sans-serif;
@@ -198,7 +238,7 @@
 		table {
 			width: 100%;
 			max-width: 100%;
-			margin-bottom: 20px;
+			margin-bottom: 127px;
 			margin-right: auto;
 			margin-left: auto;
 			margin-top: 127px;
@@ -241,7 +281,7 @@
 			border-top: 1px solid #ddd;
 		}
 
-		tr {
+		tbody>tr {
 			border-top: 0;
 			border-bottom: 1px solid #ddd;
 		}
@@ -308,6 +348,17 @@
 			content: '\E182';
 		}
 
+		tfoot>tr>td {
+			text-align: center;
+			border: none;
+		}
+
+		tfoot>tr>td>a {
+			text-decoration: none;
+			color: #474747;
+			font-size: 14px;
+		}
+
 		form {
 			display: none;
 		}
@@ -350,29 +401,4 @@
 			font-style: normal;
 		}
 	</style>
-	<script>
-		const closeReq = new XMLHttpRequest();
-		closeReq.open('GET', '/events/close');
-		closeReq.send();
-
-		var id = 0;
-		var tbody = document.getElementsByTagName('tbody')[0];
-		const listReq = new XMLHttpRequest();
-		listReq.open('GET', '/movieList');
-		listReq.send();
-
-		listReq.onreadystatechange = function (e) {
-			if (listReq.readyState != 4) return;
-			const json = JSON.parse(listReq.responseText);
-			json.forEach(function (tbl) {
-				var date = tbl.date.substr(0, 10) + ' ' + tbl.date.substr(11);
-				tbody.innerHTML +=
-					'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date.match(/./g).join('</span><span>') + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a href="/go_full?movieId=' + tbl.id + '"></a><a href="/movies/' + tbl.id + '.xml" download="' + tbl.title + '"></a></td></tr>';
-			});
-		}
-
-		function popup(id) {
-			window.open('/player?movieId=' + id, 'MsgWindow', 'width=1280,height=720,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
-		}
-	</script>
 </body>

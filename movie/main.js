@@ -101,42 +101,40 @@ module.exports = {
 	list() {
 		const array = [];
 		const last = fUtil.getLastFileIndex('movie-', '.xml');
-		for (let c = 0; c <= last; c++) {
+		for (let c = last; c >= 0; c--) {
 			const movie = fs.existsSync(fUtil.getFileIndex('movie-', '.xml', c));
 			const thumb = fs.existsSync(fUtil.getFileIndex('thumb-', '.png', c));
 			if (movie && thumb) array.push(`m-${c}`);
 		}
 		return array;
 	},
-	meta(movieId) {
-		return new Promise((res, rej) => {
-			if (!movieId.startsWith('m-')) return;
-			const n = Number.parseInt(movieId.substr(2));
-			const fn = fUtil.getFileIndex('movie-', '.xml', n);
+	async meta(movieId) {
+		if (!movieId.startsWith('m-')) return;
+		const n = Number.parseInt(movieId.substr(2));
+		const fn = fUtil.getFileIndex('movie-', '.xml', n);
 
-			const fd = fs.openSync(fn, 'r');
-			const buffer = Buffer.alloc(256);
-			fs.readSync(fd, buffer, 0, 256, 0);
-			const begTitle = buffer.indexOf('<title>') + 16;
-			const endTitle = buffer.indexOf(']]></title>');
-			const title = buffer.slice(begTitle, endTitle).toString().trim();
+		const fd = fs.openSync(fn, 'r');
+		const buffer = Buffer.alloc(256);
+		fs.readSync(fd, buffer, 0, 256, 0);
+		const begTitle = buffer.indexOf('<title>') + 16;
+		const endTitle = buffer.indexOf(']]></title>');
+		const title = buffer.slice(begTitle, endTitle).toString().trim();
 
-			const begDuration = buffer.indexOf('duration="') + 10;
-			const endDuration = buffer.indexOf('"', begDuration);
-			const duration = Number.parseFloat(
-				buffer.slice(begDuration, endDuration));
-			const min = ('' + ~~(duration / 60)).padStart(2, '0');
-			const sec = ('' + ~~(duration % 60)).padStart(2, '0');
-			const durationStr = `${min}:${sec}`;
+		const begDuration = buffer.indexOf('duration="') + 10;
+		const endDuration = buffer.indexOf('"', begDuration);
+		const duration = Number.parseFloat(
+			buffer.slice(begDuration, endDuration));
+		const min = ('' + ~~(duration / 60)).padStart(2, '0');
+		const sec = ('' + ~~(duration % 60)).padStart(2, '0');
+		const durationStr = `${min}:${sec}`;
 
-			fs.closeSync(fd);
-			res({
-				date: fs.statSync(fn).mtime,
-				durationString: durationStr,
-				duration: duration,
-				title: title,
-				id: movieId,
-			});
-		});
+		fs.closeSync(fd);
+		return {
+			date: fs.statSync(fn).mtime,
+			durationString: durationStr,
+			duration: duration,
+			title: title,
+			id: movieId,
+		};
 	},
 }
