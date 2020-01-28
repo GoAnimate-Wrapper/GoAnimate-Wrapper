@@ -1,0 +1,1340 @@
+<film copyable="0" duration="74.4" published="1" pshare="0" isWide="1">
+  <meta>
+    <title><![CDATA[Ariel: Trapped in the Void - NathanTDA's Video]]></title>
+    <tag><![CDATA[]]></tag>
+    <hiddenTag><![CDATA[]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="16"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+      <color value="0"/>
+      <color value="ffffff"/>
+      <color value="a3163c"/>
+      <color value="efefd4"/>
+      <color value="919499"/>
+      <color value="666666"/>
+      <color value="2c7122"/>
+      <color value="409b33"/>
+    </palette>
+  </meta>
+  <scene id="SCENE3" adelay="84" lock="Y" index="0" color="0" guid="634E7D9B-ADB2-FBC0-666C-E16954C3984B">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="1" motionface="1">ugc.c-259.stand.xml</action>
+      <head id="PROP9" raceCode="1">
+        <file>ugc.c-259.head.head_asleep.xml</file>
+      </head>
+      <x>314.8948252</x>
+      <y>205.9848763</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>26.758137</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="39.1" h="22.0381818" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>325.1</x>
+      <y>112.6669091</y>
+      <width>39.1</width>
+      <height>25.1661818</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE4" adelay="18" lock="Y" index="1" color="0" guid="F9EF10D5-2531-E39D-25F6-92655D546646">
+    <char id="AVATOR11711" index="1" raceCode="1" faceCamera="true">
+      <action face="1" motionface="1">ugc.c-259.stand.xml</action>
+      <head id="PROP10" raceCode="1">
+        <file>ugc.c-259.head.head_yawn.xml</file>
+      </head>
+      <x>314.8948252</x>
+      <y>205.9848763</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>26.758137</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="39.1" h="22.0381818" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>325.1</x>
+      <y>112.6669091</y>
+      <width>39.1</width>
+      <height>25.1661818</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE5" adelay="12" lock="Y" index="2" color="0" guid="3A524F46-107E-FFB7-A9A6-792E4BE00155">
+    <char id="AVATOR11711" index="1" raceCode="1" faceCamera="true">
+      <action face="1" motionface="1">ugc.c-259.stand.xml</action>
+      <head id="PROP7" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>314.8948252</x>
+      <y>205.9848763</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>26.758137</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="39.1" h="22.0381818" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>325.1</x>
+      <y>112.6669091</y>
+      <width>39.1</width>
+      <height>25.1661818</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE6" adelay="60" lock="N" index="3" color="0" guid="1E109D3C-46BA-8E54-E649-89C33C70719A">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <char id="AVATOR11711" index="1" raceCode="1" faceCamera="true">
+      <action face="1,1" motionface="1">ugc.c-259.stand.xml</action>
+      <head id="PROP8" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>314.8948252,297.6948252</x>
+      <y>205.9848763,203.6348763</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>26.758137,19.5140881</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="39.1" h="22.0381818" rotate="0" id="cut" type="ZOOM" isCut="false" isPan="true"/>
+      <x>325.1,47</x>
+      <y>112.6669091,24</y>
+      <width>39.1,550</width>
+      <height>25.1661818,354</height>
+      <speech>0</speech>
+      <st dur="6">1</st>
+      <et dur="0">60</et>
+    </effectAsset>
+    <aTranList>
+      <aTran id="0" target="AVATOR11711" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE7" adelay="27" lock="Y" index="4" color="0" guid="380C73DE-5D17-2B9F-4D4B-A15177ADFAF4">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="1,1" motionface="-1">ugc.c-259.talk.xml</action>
+      <head id="PROP15" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>297.6948252,297.6948252</x>
+      <y>203.6348763,201</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>19.5140881,10.8721574</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="1" target="AVATOR11711" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE8" adelay="30" lock="Y" index="5" color="0" guid="524EB3A4-051E-03F3-4D9D-D56823686098">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.c-259.talk.xml</action>
+      <head id="PROP14" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>297.6948252</x>
+      <y>201</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>10.8721574</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE9" adelay="27" lock="Y" index="6" color="0" guid="E8395543-3732-1D21-30D0-786070490BE2">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="-1,-1" motionface="1">ugc.c-259.chuckle.xml</action>
+      <x>297.6948252,289.1948252</x>
+      <y>201,207.25</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>10.8721574,-2.3323432</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="false" isPan="true"/>
+      <x>47,223.9</x>
+      <y>24,84.0398182</y>
+      <width>550,145.3</width>
+      <height>354,93.5203636</height>
+      <speech>0</speech>
+      <st dur="3">1</st>
+      <et dur="0">27</et>
+    </effectAsset>
+    <aTranList>
+      <aTran id="2" target="AVATOR11711" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE11" adelay="126" lock="Y" index="7" color="0" guid="12CA25BE-8FB4-FDD4-ADE1-69EA65478C8E">
+    <char id="AVATOR11711" index="1" raceCode="1" faceCamera="true">
+      <action face="-1" motionface="1">ugc.c-259.chuckle.xml</action>
+      <x>289.1948252</x>
+      <y>207.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-2.3323432</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="145.3" h="81.8963636" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>223.9</x>
+      <y>84.0398182</y>
+      <width>145.3</width>
+      <height>93.5203636</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE10" adelay="21" lock="Y" index="8" color="0" guid="238BEB4E-5F3E-9E33-D027-E793D612BE63">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.c-259.chuckle.xml</action>
+      <head id="PROP19" raceCode="1">
+        <file>ugc.c-259.head.head_thinking.xml</file>
+      </head>
+      <x>289.1948252</x>
+      <y>207.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-2.3323432</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="145.3" h="81.8963636" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>223.9</x>
+      <y>84.0398182</y>
+      <width>145.3</width>
+      <height>93.5203636</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE12" adelay="24" lock="Y" index="9" color="0" guid="253424C7-746D-8CE6-0634-F25B763463A2">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.c-259.sad.xml</action>
+      <head id="PROP23" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>289.1948252</x>
+      <y>207.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-2.3323432</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="145.3" h="81.8963636" rotate="0" id="cut" type="ZOOM" isCut="false" isPan="true"/>
+      <x>223.9,124.12</x>
+      <y>84.0398182,81.256</y>
+      <width>145.3,368.6</width>
+      <height>93.5203636,237.2443636</height>
+      <speech>0</speech>
+      <st dur="12">13</st>
+      <et dur="0">24</et>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE13" adelay="126" lock="Y" index="10" color="0" guid="EA51B704-AA0B-233F-8A11-8F0FB9D689B4">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.c-259.sad.xml</action>
+      <head id="PROP25" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>289.1948252</x>
+      <y>207.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-2.3323432</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="368.6" h="207.7563636" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>124.12</x>
+      <y>81.256</y>
+      <width>368.6</width>
+      <height>237.2443636</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE14" adelay="36" lock="Y" index="11" color="0" guid="167F5FAC-4D6A-8BD3-C359-1BEB88D69B1E">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.c-259.talk.xml</action>
+      <head id="PROP26" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>289.1948252</x>
+      <y>207.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-2.3323432</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="368.6" h="207.7563636" rotate="0" id="cut" type="ZOOM" isCut="false" isPan="true"/>
+      <x>125.67,217.7277419</x>
+      <y>81.256,85.5199648</y>
+      <width>368.6,149.5645161</width>
+      <height>237.2443636,96.2651613</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE15" adelay="42" lock="Y" index="12" color="0" guid="B4A5D3EE-1987-5377-B222-A12A24A183B3">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="-1,-1" motionface="-1">ugc.c-259.xarms.xml</action>
+      <head id="PROP31" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>289.1948252,292.51</x>
+      <y>207.25,206.45</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>-2.3323432,5.2446789</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="149.5645161" h="84.3" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>217.7277419</x>
+      <y>85.5199648</y>
+      <width>149.5645161</width>
+      <height>96.2651613</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="3" target="AVATOR11711" type="MotionPath" atype="Character" direction="2" section="5" timing="3" duration="6" delay="24">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE17" adelay="24" lock="Y" index="13" color="0" guid="F3C6A225-92C5-7B5F-0511-E29C2EF0CB19">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.c-259.xarms.xml</action>
+      <head id="PROP32" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>289.1948252</x>
+      <y>207.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-2.3323432</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="149.5645161" h="84.3" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>217.7277419</x>
+      <y>85.5199648</y>
+      <width>149.5645161</width>
+      <height>96.2651613</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE18" adelay="24" lock="Y" index="14" color="0" guid="E4F20BE0-935D-F5CB-C40F-512B297D9DC3">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="1" motionface="1">ugc.c-259.chuckle.xml</action>
+      <head id="PROP37" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>295.7214714</x>
+      <y>206.8069479</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0.2608725</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="149.5645161" h="84.3" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>217.7277419</x>
+      <y>85.5199648</y>
+      <width>149.5645161</width>
+      <height>96.2651613</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE19" adelay="84" lock="Y" index="15" color="0" guid="06E32341-C7CE-769E-6375-FD66CCB4F7B7">
+    <char id="AVATOR11711" index="1" raceCode="1" faceCamera="true">
+      <action face="1,1" motionface="-1">ugc.c-259.chuckle.xml</action>
+      <head id="PROP38" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>295.7214714,322.2214714</x>
+      <y>206.8069479,199.125</y>
+      <xscale>1,0.4022796</xscale>
+      <yscale>1,0.4022796</yscale>
+      <rotation>0.2608725,0.2608725</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="149.5645161" h="84.3" rotate="0" id="cut" type="ZOOM" isCut="false" isPan="true"/>
+      <x>217.7277419,47</x>
+      <y>85.5199648,24</y>
+      <width>149.5645161,550</width>
+      <height>96.2651613,354</height>
+      <speech>0</speech>
+      <st dur="48">25</st>
+      <et dur="0">84</et>
+    </effectAsset>
+    <aTranList>
+      <aTran id="5" target="AVATOR11711" type="MotionPath" atype="Character" direction="2" section="5" timing="3" duration="48" delay="24">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE20" adelay="36" lock="Y" index="16" color="0" guid="4D05E2CB-5E1A-1D55-EB2B-B1DA75F175E6">
+    <char id="AVATOR11711" index="1" raceCode="1" faceCamera="true">
+      <action face="1" motionface="1">ugc.c-259.excited.xml</action>
+      <head id="PROP35" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>322.2214714</x>
+      <y>199.125</y>
+      <xscale>0.4022796</xscale>
+      <yscale>0.4022796</yscale>
+      <rotation>0.2608725</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE21" adelay="15" lock="Y" index="17" color="0" guid="21ED12A7-9810-F9AB-71AF-68F013A20268">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="1" motionface="-1">ugc.c-259.chuckle.xml</action>
+      <head id="PROP36" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>294.8783639</x>
+      <y>208.0301236</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>6.0630009</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="149.5645161" h="84.3" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>217.7277419</x>
+      <y>83.9199648</y>
+      <width>149.5645161</width>
+      <height>96.2651613</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE23" adelay="39" lock="Y" index="18" color="0" guid="58091E2B-D7CE-F551-4786-D9FAC8F73811">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.c-259.chuckle.xml</action>
+      <head id="PROP41" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>296.2501904</x>
+      <y>205.8756962</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-3.9206736</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="149.5645161" h="84.3" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>217.7277419</x>
+      <y>83.9199648</y>
+      <width>149.5645161</width>
+      <height>96.2651613</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE24" adelay="30" lock="Y" index="19" color="0" guid="CA1B54B9-1517-8E6E-0C08-0E6BA04F1F96">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="1" motionface="1">ugc.c-259.fearful.xml</action>
+      <head id="PROP42" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>291.1899718</x>
+      <y>205.8008761</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-3.9206736</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="149.5645161" h="84.3" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>217.7277419</x>
+      <y>83.9199648</y>
+      <width>149.5645161</width>
+      <height>96.2651613</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE26" adelay="60" lock="N" index="20" color="0" guid="AE859999-6C08-CECF-D578-135799B9039A">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <effectAsset id="EFFECT33" themecode="common" index="1">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE25" adelay="36" lock="Y" index="21" color="0" guid="77C4DE46-867A-8709-627E-B4224C99A220">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="1,1" motionface="-1">ugc.c-259.fearful.xml</action>
+      <head id="PROP43" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>291.1899718,299.7899718</x>
+      <y>205.8008761,208.1008761</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>-3.9206736,4.0541718</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="435.2096774" h="245.3" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>95.2051612</x>
+      <y>49.7916129</y>
+      <width>435.2096774</width>
+      <height>280.1167742</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="7" target="AVATOR11711" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE27" adelay="24" lock="Y" index="22" color="0" guid="2CEB3FC9-6ADD-D074-7EDF-C6E503A45B80">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="-1" motionface="-1">ugc.c-259.chuckle.xml</action>
+      <head id="PROP45" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>299.7899718</x>
+      <y>208.1008761</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>4.0541718</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="435.2096774" h="245.3" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>95.2051612</x>
+      <y>49.7916129</y>
+      <width>435.2096774</width>
+      <height>280.1167742</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE28" adelay="45" lock="Y" index="23" color="0" guid="66854601-C264-DA49-60A1-F031DA82E451">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="1,1" motionface="1">ugc.c-259.chuckle.xml</action>
+      <head id="PROP48" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>299.7899718,279.4399718</x>
+      <y>208.1008761,208.9008761</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>4.0541718,-9.189362</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="435.2096774" h="245.3" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>95.2051612</x>
+      <y>49.7916129</y>
+      <width>435.2096774</width>
+      <height>280.1167742</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="8" target="AVATOR11711" type="MotionPath" atype="Character" direction="2" section="5" timing="3" duration="6" delay="24">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE29" adelay="33" lock="Y" index="24" color="0" guid="4647E010-90A0-68F4-ACB8-265BA138B433">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="1" motionface="-1">ugc.c-259.chuckle.xml</action>
+      <head id="PROP54" raceCode="1">
+        <file>ugc.c-259.head.head_sad.xml</file>
+      </head>
+      <x>279.4399718</x>
+      <y>208.9008761</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-9.189362</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="198.3" h="111.7690909" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>159.7099999</x>
+      <y>77.3834545</y>
+      <width>198.3</width>
+      <height>127.6330909</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE30" adelay="21" lock="Y" index="25" color="0" guid="E02824E0-2503-7B46-A7DB-00B74E65068B">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="1" motionface="1">ugc.c-259.excited.xml</action>
+      <head id="PROP57" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>279.4399718</x>
+      <y>208.9008761</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-9.189362</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="198.3" h="111.7690909" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>159.7099999</x>
+      <y>77.3834545</y>
+      <width>198.3</width>
+      <height>127.6330909</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE31" adelay="48" lock="Y" index="26" color="0" guid="FF7A27C0-275D-FAAE-A05C-011032A694C3">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="1,1" motionface="1">ugc.c-259.excited.xml</action>
+      <head id="PROP58" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>433.6716858,407.0716858</x>
+      <y>203.6823137,201</y>
+      <xscale>0.2856205,0.2856205</xscale>
+      <yscale>0.2856205,0.2856205</yscale>
+      <rotation>-9.189362,-9.189362</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="9" target="AVATOR11711" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE32" adelay="60" lock="Y" index="27" color="0" guid="14C39415-B7F4-AB4A-6784-FB94A2D3072C">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="1" motionface="1">ugc.c-259.chuckle.xml</action>
+      <head id="PROP60" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>278.6644644</x>
+      <y>210.5110383</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-2.2080002</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="198.3" h="111.7690909" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>159.7099999</x>
+      <y>77.3834545</y>
+      <width>198.3</width>
+      <height>127.6330909</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE33" adelay="21" lock="Y" index="28" color="0" guid="78DA9AF6-E11F-EA39-09B1-8B683925FE38">
+    <char id="AVATOR11711" index="1" raceCode="1" faceCamera="true">
+      <action face="1" motionface="1">ugc.c-259.chuckle.xml</action>
+      <head id="PROP63" raceCode="1">
+        <file>ugc.c-259.head.head_sad.xml</file>
+      </head>
+      <x>278.6644644</x>
+      <y>210.5110383</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-2.2080002</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="130.2258065" h="73.4" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>199.1970967</x>
+      <y>97.7409677</y>
+      <width>130.2258065</width>
+      <height>83.8180645</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE34" adelay="42" lock="Y" index="29" color="0" guid="61121255-16CD-892D-694C-FE4C28A23DB7">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="1,1" motionface="1">ugc.c-259.run.xml</action>
+      <head id="PROP66" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>278.6644644,1.3644644</x>
+      <y>210.5110383,209.7110383</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>-2.2080002,-2.2080002</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="10" target="AVATOR11711" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE35" adelay="96" lock="Y" index="30" color="0" guid="CD7D38CD-828B-487C-5402-60EA972570B2">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="1,1" motionface="1">ugc.c-259.run.xml</action>
+      <head id="PROP68" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>562.9144644,468.4144644</x>
+      <y>208.6563035,208.4</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>-2.2080002,-2.2080002</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="11" target="AVATOR11711" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE36" adelay="36" lock="Y" index="31" color="0" guid="26DC3EDA-FAC6-5D0E-C10C-E8C8E0EF6BC2">
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="1,1" motionface="1">ugc.c-259.run.xml</action>
+      <head id="PROP72" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>468.4144644,121.5644644</x>
+      <y>208.4,208.4</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>-2.2080002,-2.2080002</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="12" target="AVATOR11711" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE37" adelay="60" lock="N" index="32" color="0" guid="6548370A-17BA-C0DE-ABC2-4F2E6454A28A">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <char id="AVATOR11711" index="21" raceCode="1">
+      <action face="1" motionface="-1">ugc.c-259.stand.xml</action>
+      <head id="PROP76" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>583.1992098</x>
+      <y>206.1317025</y>
+      <xscale>0.6577181</xscale>
+      <yscale>0.6577181</yscale>
+      <rotation>-2.2080002</rotation>
+    </char>
+    <prop id="PROP79" index="10">
+      <file>common.ncc_hhouse01.swf</file>
+      <x>222.6291361</x>
+      <y>168.254495</y>
+      <xscale>0.4681631</xscale>
+      <yscale>0.4681631</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">15724500</color>
+      <color r="ccColorB">0</color>
+      <color r="ccColorC">9540761</color>
+      <color r="ccColorD">16777215</color>
+      <color r="ccColorE">9540761</color>
+    </prop>
+    <prop id="PROP80" index="12">
+      <file>common.ncc_hhouse04.swf</file>
+      <x>187.5358773</x>
+      <y>121.119923</y>
+      <xscale>0.1846863</xscale>
+      <yscale>0.1846863</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP82" index="14">
+      <file>common.ncc_hhouse04.swf</file>
+      <x>255.5344831</x>
+      <y>119.3024896</y>
+      <xscale>0.2045275</xscale>
+      <yscale>0.2045275</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">10688060</color>
+      <color r="ccColorB">15724500</color>
+    </prop>
+    <prop id="PROP84" index="13">
+      <file>common.ncc_trapeziform.swf</file>
+      <x>207.1727154</x>
+      <y>123.8590026</y>
+      <xscale>1.7066047</xscale>
+      <yscale>1.010929</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">10688060</color>
+    </prop>
+    <prop id="PROP86" index="11">
+      <file>common.ncc_trapeziform.swf</file>
+      <x>237.5223756</x>
+      <y>123.8590026</y>
+      <xscale>1.7066047</xscale>
+      <yscale>1.010929</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">10688060</color>
+    </prop>
+    <prop id="PROP88" index="15">
+      <file>common.ncc_hhouse04.swf</file>
+      <x>190.7565234</x>
+      <y>119.3182576</y>
+      <xscale>0.2045275</xscale>
+      <yscale>0.2045275</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">10688060</color>
+      <color r="ccColorB">15724500</color>
+    </prop>
+    <prop id="PROP89" index="20">
+      <file>common.msp_ncc_hdoor.msp_ncc_hdoor_ncc_hdoor01.swf</file>
+      <x>223.2214924</x>
+      <y>189.0184693</y>
+      <xscale>0.281828</xscale>
+      <yscale>0.281828</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">9540761</color>
+      <color r="ccColorB">9540761</color>
+    </prop>
+    <prop id="PROP92" index="5">
+      <file>common.ncc_hhouse04.swf</file>
+      <x>296.9352544</x>
+      <y>170.882143</y>
+      <xscale>0.5534374</xscale>
+      <yscale>0.4212382</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">10688060</color>
+      <color r="ccColorB">15724500</color>
+    </prop>
+    <prop id="PROP94" index="6">
+      <file>common.ncc_hhouse04.swf</file>
+      <x>151.5129105</x>
+      <y>170.8082636</y>
+      <xscale>0.5534374</xscale>
+      <yscale>0.4212382</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">10688060</color>
+      <color r="ccColorB">15724500</color>
+    </prop>
+    <prop id="PROP95" index="8">
+      <file>common.msp_hdoor04.msp_hdoor04_ncc_hdoor04_front_closed.swf</file>
+      <x>115.4955294</x>
+      <y>188.8433286</y>
+      <xscale>0.2863003</xscale>
+      <yscale>0.2863003</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">6710886</color>
+    </prop>
+    <prop id="PROP97" index="7">
+      <file>common.square01.swf</file>
+      <x>113.6887155</x>
+      <y>185.6562044</y>
+      <xscale>0.6849552</xscale>
+      <yscale>0.8743883</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">15724500</color>
+    </prop>
+    <prop id="PROP98" index="4">
+      <file>common.ncc_sniper_grasscover.swf</file>
+      <x>223.2000486</x>
+      <y>216.0723593</y>
+      <xscale>0.362166</xscale>
+      <yscale>0.2157824</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">4234035</color>
+    </prop>
+    <prop id="PROP99" index="3">
+      <file>common.ncc_sniper_mud.swf</file>
+      <x>211.3919391</x>
+      <y>252.3741788</y>
+      <xscale>0.3620026</xscale>
+      <yscale>1.0127711</yscale>
+      <face>1</face>
+      <rotation>180</rotation>
+    </prop>
+    <prop id="PROP101" index="1">
+      <file>common.ncc_sniper_mud.swf</file>
+      <x>296.89966</x>
+      <y>253.1695303</y>
+      <xscale>0.2487798</xscale>
+      <yscale>0.4062183</yscale>
+      <face>1</face>
+      <rotation>166.469915</rotation>
+      <color r="ccColorB">4234035</color>
+    </prop>
+    <prop id="PROP103" index="2">
+      <file>common.ncc_sniper_mud.swf</file>
+      <x>154.2979643</x>
+      <y>253.1505695</y>
+      <xscale>0.2487797</xscale>
+      <yscale>0.4062184</yscale>
+      <face>-1</face>
+      <rotation>-170.9188696</rotation>
+      <color r="ccColorB">4234035</color>
+    </prop>
+    <prop id="PROP104" index="16">
+      <file>chibi.msp_jp_road01.msp_jp_road01_ncc_jp_road01_front.swf</file>
+      <x>211.3610924</x>
+      <y>228.3897959</y>
+      <xscale>0.2218487</xscale>
+      <yscale>0.2218487</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP106" index="9">
+      <file>chibi.msp_jp_road01.msp_jp_road01_ncc_jp_road01_front.swf</file>
+      <x>105.7571545</x>
+      <y>218.0785772</y>
+      <xscale>0.1430896</xscale>
+      <yscale>0.1430896</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP107" index="17">
+      <file>common.bushes.swf</file>
+      <x>268.1628757</x>
+      <y>215.3621243</y>
+      <xscale>0.4849736</xscale>
+      <yscale>0.4849736</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">2912546</color>
+    </prop>
+    <prop id="PROP109" index="18">
+      <file>common.bushes.swf</file>
+      <x>337.5628757</x>
+      <y>207.7871243</y>
+      <xscale>0.4849736</xscale>
+      <yscale>0.4849736</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">2912546</color>
+    </prop>
+    <prop id="PROP111" index="19">
+      <file>common.bushes.swf</file>
+      <x>174.4628757</x>
+      <y>215.0871243</y>
+      <xscale>0.4849736</xscale>
+      <yscale>0.4849736</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">2912546</color>
+    </prop>
+    <prop id="PROP112" index="22">
+      <file>common.ncc_stone01.swf</file>
+      <x>406.4394822</x>
+      <y>193.6572531</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>20.8190989</rotation>
+      <color r="ccColorA">9540761</color>
+    </prop>
+    <prop id="PROP113" index="23">
+      <file>common.ncc_stone02.swf</file>
+      <x>438.1224994</x>
+      <y>231.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP115" index="24">
+      <file>common.ncc_stone01.swf</file>
+      <x>94.6394822</x>
+      <y>264.6322531</y>
+      <xscale>1.3530341</xscale>
+      <yscale>1.3530341</yscale>
+      <face>-1</face>
+      <rotation>20.8190989</rotation>
+      <color r="ccColorA">9540761</color>
+    </prop>
+    <prop id="PROP116" index="25">
+      <file>common.ncc_stone03.swf</file>
+      <x>356.9014361</x>
+      <y>253.15</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP117" index="26">
+      <file>common.ncc_stone01.swf</file>
+      <x>283.4619678</x>
+      <y>271.375</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>-41.7873677</rotation>
+    </prop>
+    <prop id="PROP119" index="27">
+      <file>common.ncc_stone03.swf</file>
+      <x>487.6040853</x>
+      <y>207.4</y>
+      <xscale>0.7217234</xscale>
+      <yscale>0.7217234</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT4" themecode="common" index="28">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE22" adelay="78" lock="N" index="33" color="0" guid="D52E7C32-65A0-B6E7-C5E6-5823A68D4FFA">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <char id="AVATOR11711" index="1" raceCode="1">
+      <action face="1" motionface="1">ugc.c-259.chuckle.xml</action>
+      <head id="PROP39" raceCode="1">
+        <file>ugc.c-259.head.head_shocked.xml</file>
+      </head>
+      <x>294.8783639</x>
+      <y>208.0301236</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>6.0630009</rotation>
+    </char>
+    <effectAsset id="EFFECT4" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE2" adelay="120" lock="Y" index="34" color="16777215" guid="BED38002-F3BE-C085-088D-8DCD4C653BBD">
+    <char id="AVATOR11695" index="1" raceCode="1">
+      <action face="1" motionface="1">ugc.c-259.stand.xml</action>
+      <x>235.0939153</x>
+      <y>208.675</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11697" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.c-283.stand.xml</action>
+      <x>299.85</x>
+      <y>207.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11700" index="3" raceCode="1">
+      <action face="1" motionface="1">ugc.c-286.stand.xml</action>
+      <x>371.7224994</x>
+      <y>203.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT3" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE1" adelay="120" lock="Y" index="35" color="16777215" guid="C00F4ADC-B729-C9E5-346B-D1B7CA3C0881">
+    <char id="AVATOR11695" index="1" raceCode="1">
+      <action face="1" motionface="1">ugc.c-259.stand.xml</action>
+      <x>235.0939153</x>
+      <y>208.675</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11697" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.c-283.stand.xml</action>
+      <x>299.85</x>
+      <y>207.45</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11700" index="3" raceCode="1">
+      <action face="1" motionface="1">ugc.c-286.stand.xml</action>
+      <x>371.7224994</x>
+      <y>203.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT3" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <sound id="SOUND41" index="0" track="0" vol="4" tts="1">
+    <sfile>ugc.04843739387995927-tts.mp3</sfile>
+    <start>1234</start>
+    <stop>1269</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[hello? anyone]]></text>
+      <voice><![CDATA[salli]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND39" index="1" track="0" vol="1" tts="1">
+    <sfile>ugc.06935067906142951-tts.mp3</sfile>
+    <start>1153</start>
+    <stop>1227</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[oh my gosh, no one else is here! but me]]></text>
+      <voice><![CDATA[salli]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND37" index="2" track="0" vol="1" tts="1">
+    <sfile>ugc.08135474012512427-tts.mp3</sfile>
+    <start>1099</start>
+    <stop>1146</stop>
+    <trimStart>16</trimStart>
+    <trimEnd>64</trimEnd>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[hello? anyone? please help me]]></text>
+      <voice><![CDATA[salli]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND36" index="3" track="0" vol="4" tts="1">
+    <sfile>ugc.08135474012512427-tts.mp3</sfile>
+    <start>1084</start>
+    <stop>1098</stop>
+    <trimEnd>15</trimEnd>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[hello? anyone? please help me]]></text>
+      <voice><![CDATA[salli]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND34" index="4" track="0" vol="1" tts="1">
+    <sfile>ugc.007568028067194144-tts.mp3</sfile>
+    <start>1051</start>
+    <stop>1080</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[i think i need help]]></text>
+      <voice><![CDATA[salli]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND32" index="5" track="0" vol="1" tts="1">
+    <sfile>ugc.08455130234600623-tts.mp3</sfile>
+    <start>1006</start>
+    <stop>1047</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[i think i am trapped in the void]]></text>
+      <voice><![CDATA[salli]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND30" index="6" track="0" vol="1" tts="1">
+    <sfile>ugc.035231445255910065-tts.mp3</sfile>
+    <start>982</start>
+    <stop>999</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[holy crap]]></text>
+      <voice><![CDATA[salli]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND28" index="7" track="0" vol="2" tts="1">
+    <sfile>ugc.05799063046609974-tts.mp3</sfile>
+    <start>946</start>
+    <stop>975</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[is this, the void?]]></text>
+      <voice><![CDATA[salli]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND26" index="8" track="0" vol="2" tts="1">
+    <sfile>ugc.030605539377951296-tts.mp3</sfile>
+    <start>856</start>
+    <stop>876</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[wait a minute?]]></text>
+      <voice><![CDATA[salli]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND24" index="9" track="0" vol="2" tts="1">
+    <sfile>ugc.013704661273252428-tts.mp3</sfile>
+    <start>802</start>
+    <stop>846</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[hello? is anyone here?]]></text>
+      <voice><![CDATA[salli]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND17" index="10" track="0" vol="4" tts="1">
+    <sfile>ugc.027509522702243205-tts.mp3</sfile>
+    <start>766</start>
+    <stop>792</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[where the heck am i?]]></text>
+      <voice><![CDATA[salli]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND14" index="11" track="0" vol="1" tts="1">
+    <sfile>ugc.009298089932398401-tts.mp3</sfile>
+    <start>658</start>
+    <stop>675</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[wait a minute]]></text>
+      <voice><![CDATA[salli]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND12" index="12" track="0" vol="1" tts="1">
+    <sfile>ugc.03221700065429005-tts.mp3</sfile>
+    <start>556</start>
+    <stop>651</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[something weird must be going on in whatever this place is, today]]></text>
+      <voice><![CDATA[salli]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND9" index="13" track="0" vol="4" tts="1">
+    <sfile>ugc.08387065716782729-tts.mp3</sfile>
+    <start>430</start>
+    <stop>549</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[hey what just happened to my clothes? and my shoes? and my special skirt?]]></text>
+      <voice><![CDATA[salli]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND3" index="14" track="0" vol="1" tts="1">
+    <sfile>ugc.03471142814749777-tts.mp3</sfile>
+    <start>232</start>
+    <stop>381</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[well, i'm glad i'm still alive after the shutdown of the legacy video maker, and now in the new one]]></text>
+      <voice><![CDATA[salli]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND6" index="15" track="0" vol="1" tts="1">
+    <sfile>ugc.038329648607451583-tts.mp3</sfile>
+    <start>385</start>
+    <stop>399</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[i mean]]></text>
+      <voice><![CDATA[salli]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND1" index="16" track="0" vol="1" tts="1">
+    <sfile>ugc.022438583975685278-tts.mp3</sfile>
+    <start>175</start>
+    <stop>219</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[huh? what just happened?]]></text>
+      <voice><![CDATA[salli]]></voice>
+    </ttsdata>
+  </sound>
+  <linkage>SOUND1,~~~AVATOR11711</linkage>
+  <linkage>SOUND3,~~~AVATOR11711</linkage>
+  <linkage>SOUND6,~~~AVATOR11711</linkage>
+  <linkage>SOUND9,~~~AVATOR11711</linkage>
+  <linkage>SOUND12,~~~AVATOR11711</linkage>
+  <linkage>SOUND14,~~~AVATOR11711</linkage>
+  <linkage>SOUND17,~~~AVATOR11711</linkage>
+  <linkage>SOUND24,~~~AVATOR11711</linkage>
+  <linkage>SOUND26,~~~AVATOR11711</linkage>
+  <linkage>SOUND28,~~~AVATOR11711</linkage>
+  <linkage>SOUND30,~~~AVATOR11711</linkage>
+  <linkage>SOUND32,~~~AVATOR11711</linkage>
+  <linkage>SOUND34,~~~AVATOR11711</linkage>
+  <linkage>SOUND36,~~~AVATOR11711</linkage>
+  <linkage>SOUND37,~~~AVATOR11711</linkage>
+  <linkage>SOUND39,~~~AVATOR11711</linkage>
+  <linkage>SOUND41,~~~AVATOR11711,SCENE34~~~</linkage>
+<thumb>/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx4BBQUFBwYHDggIDh4UERQeHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHv/AABEIAWgCgAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/APjKgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAmitrmWWGKK3lkkn/1KKhJk5I+UDryCOPSolUhFNt6LfyGot2SImBVirAgg4IParTuISgAoAKACgAoAKACg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oUmnyKVwzXFqDFImB0y8TL+NecpKnjFJ7Xv8nr+p3OLnhuVb2t9x8AV9YfOBQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAdx8CdDm8T/FPRvDlv4lufDcupO8CahArM0bbGKrhXQkMQF+8Pvd6mcFNWkioTcHdH074V/Zv8Z3eo+JNFi+OevWEWm6j5E0EdtN5dyJYIpvNI+1D73mlTnJyp5rN4ek9XFfcjT29RbN29WfG2t2sdjrV9YwzCeK3uJIkkAxvCsQG/HGa2MSnQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAdD8NdRn0b4g+H9atxIW07Ure7JRSxCxyKxOB2wOaAP0Ri8eeG5dd+I2qeGfFGi6jcHw9Be2sNtfRvK8kUE7MwQHdgKYcnGBn1zSA/M2mAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAKpAYEjIzyPWgDooNQ0W8lVLvTxZW8aYC223dIf8AaY4OPb9aANS28QeHrSOe3l05r6MIPshm2nym5yMDIHQHOMnkHjBGM4Tc04vQ7aFehGjOFSF5PZ9v6dvldddOKlYPK7qoUMxIA6D2rY4htABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAH/9k=</thumb></film>

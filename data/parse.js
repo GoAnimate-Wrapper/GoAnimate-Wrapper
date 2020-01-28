@@ -104,8 +104,8 @@ module.exports = {
 								break;
 							}
 							case 'char': {
-								var val = piece.childNamed('action').val;
-								var pieces = val.split('.');
+								const val = piece.childNamed('action').val;
+								const pieces = val.split('.');
 
 								var theme, fileName, buffer;
 								switch (pieces[pieces.length - 1]) {
@@ -124,9 +124,21 @@ module.exports = {
 										theme = pieces[0];
 										const char = pieces[1];
 										const model = pieces[2];
-										let url = `${store}/${theme}/char/${char}/${model}.swf`;
+										const url = `${store}/${theme}/char/${char}/${model}.swf`;
 										fileName = `${theme}.char.${char}.${model}.swf`;
 										buffer = await get(url);
+
+										const head = piece.childNamed('head');
+										if (head) {
+											const piecesHead = head.childNamed('file').val.split('.');
+											piecesHead.pop();
+
+											piecesHead.splice(1, 0, 'char');
+											const urlHead = `${store}/${piecesHead.join('/')}.swf`;
+											piecesHead.splice(1, 1, 'prop');
+											const fileNameHead = `${piecesHead.join('.')}.swf`;
+											fUtil.addToZip(zip, fileNameHead, await get(urlHead));
+										}
 										break;
 									}
 								}
@@ -178,6 +190,7 @@ module.exports = {
 			stream.on('end', () => {
 				var xmlBuffers = [Buffer.concat(pieces).slice(0, -7)];
 				for (const aId in buffers) {
+					if (!buffers[aId]) continue;
 					if (useBase64(aId)) {
 						const assetString = buffers[aId].toString('base64');
 						xmlBuffers.push(Buffer.from(`<asset id="${aId}">${assetString}</asset>`));

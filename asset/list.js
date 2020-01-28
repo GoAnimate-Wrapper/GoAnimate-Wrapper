@@ -1,4 +1,5 @@
 const loadPost = require('../request/post_body');
+const get = require('../request/get');
 const header = process.env.XML_HEADER;
 const fUtil = require('../fileUtil');
 const nodezip = require('node-zip');
@@ -25,12 +26,12 @@ module.exports = function (req, res, url) {
 				break;
 			}
 			case 'bg': {
-				xmlString = `${header} <ugc more="0"><bg id="666.jpg" /></ugc>`;
+				xmlString = `${header}<ugc more="0"><bg id="666.jpg"/></ugc>`;
 				break;
 			}
 			case 'prop':
 			default: {
-				xmlString = `${header} <ugc more="0"><prop id="666" /></ugc>`;
+				xmlString = `${header}<ugc more="0"></ugc>`;
 				break;
 			}
 		};
@@ -41,7 +42,7 @@ module.exports = function (req, res, url) {
 
 			switch (data.type) {
 				case 'bg': {
-					fUtil.addToZip(zip, 'bg/666.jpg', fs.readFileSync(`file: http://2.bp.blogspot.com/-hegG5mMd9kE/T9Y4CWZ6udI/AAAAAAAAA2I/nm-9Wlrh6a4/s1600/full-hd-wallpapers-1080p-1.jpg`));
+					fUtil.addToZip(zip, 'bg/666.jpg', await get(`https://2.bp.blogspot.com/-hegG5mMd9kE/T9Y4CWZ6udI/AAAAAAAAA2I/nm-9Wlrh6a4/s1600/full-hd-wallpapers-1080p-1.jpg`));
 					break;
 				}
 			};

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<title>EvenNode - Node.js and io.js hosting</title>
+	
+	<meta name="Robots" content="index,follow" />
+	<meta name="Author" content="evennode.com" />
+	<meta name="viewport" content="width=890">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin,latin-ext&d=201508311014" />
+
+	<style>
+		body {
+			font: normal 14px "Open Sans", sans-serif;
+			line-height: 2em;
+			padding: 0;
+			margin: 0;
+			color: #333;
+			text-align: center;
+		}
+		
+		img {
+			border: 0;
+		}
+		
+		h1 {
+			font-weight: normal;
+		}
+		
+		.content {
+			width: 890px;
+			margin: 20px auto;
+		}
+		
+		.hero {
+			height: 360px;
+			background: #fff url(http://www.evennode.com/images/hero-image.jpg) no-repeat scroll center 10%;
+			margin-bottom: 20px;
+			border-top: 1px solid #e0e0e0;
+			border-bottom: 1px solid #e0e0e0;
+		}
+		
+		.hero .copy {
+			color: #fff;
+			margin: 80px auto;
+			width: 620px;
+			background-color: rgba(0, 0, 0, 0.4);
+			padding: 20px 25px 25px;
+			border-radius: 6px;
+			font-size: 17px;
+		}
+		
+		li {
+			margin-bottom: 6px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="content">
+		<div><a href="http://www.evennode.com"><img src="http://www.evennode.com/images/logo.png" alt="EvenNode - Node.js hosting" /></a></div>
+		<div style="clear:both"></div>
+	</div>	
+		
+	<div class="hero">
+		<div class="content">
+			<div class="copy">
+				<h1>502 Bad Gateway</h1>
+				<p>Cannot connect to application</p>
+			</div>
+		</div>
+	</div>
+	
+	<div style="font-size: 1.4em; margin: 60px 0 80px;">
+		<h2>How to fix?</h2>
+    <div style="text-align: left; width: 750px; margin: 0 auto;">
+      <div style="float: left; width: 375px;">
+        <h3>Python</h3>
+        <ul>
+          <li>Your app should listen on IP 0.0.0.0 and port defined in <code>os.getenv('PORT')</code></li>
+        </ul>
+      </div>
+      <div style="float: left; width: 375px;">
+        <h3>Node.js</h3>
+        <ul>
+          <li>Make sure your package.json defines the <a href="https://docs.npmjs.com/misc/scripts" target="_blank">start script</a> or the file <b>app.js</b> is your main script</li>
+          <li>Your app should listen on IP 0.0.0.0 and port defined in <code>process.env.PORT</code></li>
+        </ul>
+      </div>
+      <div style="clear:both"></div>
+    </div>
+    <div style="text-align: left; width: 600px; margin: 0 auto;">
+      <br />
+			<ul>
+				<li>Try restarting your app through our <a href="https://admin.evennode.com" target="_blank">web console</a></li>
+				<li>Check the <a href="https://admin.evennode.com" target="_blank">logs</a> from your app to see if there are any errors</li>
+				<li>If you can't resolve the issue, feel free to contact us at support@evennode.com</li>
+			</ul>
+		</div>
+	</div> 
+	
+	For more information visit our <a href="http://www.evennode.com/docs/">documentation</a>
+</body>
+</html>
