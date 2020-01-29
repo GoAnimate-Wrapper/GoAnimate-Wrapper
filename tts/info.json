@@ -163,13 +163,13 @@
 			"arg": 24,
 			"desc": "Conchita"
 		},
-		"enrique": {
+		"enrique_polly": {
 			"country": "ES",
 			"language": "es",
 			"gender": "M",
 			"source": "polly",
 			"arg": 25,
-			"desc": "Enrique"
+			"desc": "Enrique (Polly)"
 		},
 		"penélope": {
 			"country": "US",
@@ -226,6 +226,78 @@
 			"source": "cepstral",
 			"arg": "Allison",
 			"desc": "Allison (Cepstral)"
+		},
+		"allison_watson": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "watson",
+			"arg": "en-US_AllisonVoice",
+			"desc": "Allison (Watson)"
+		},
+		"allisonv3_watson": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "watson",
+			"arg": "en-US_AllisonV3Voice",
+			"desc": "AllisonV3 (Watson)"
+		},
+		"lisa": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "watson",
+			"arg": "en-US_LisaVoice",
+			"desc": "Lisa"
+		},
+		"lisav3": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "watson",
+			"arg": "en-US_LisaV3Voice",
+			"desc": "LisaV3"
+		},
+		"michael": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "watson",
+			"arg": "en-US_MichaelVoice",
+			"desc": "Michael"
+		},
+		"michaelv3": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "watson",
+			"arg": "en-US_MichaelV3Voice",
+			"desc": "MichaelV3"
+		},
+		"kate_watson": {
+			"country": "GB",
+			"language": "en",
+			"gender": "F",
+			"source": "watson",
+			"arg": "en-GB_KateVoice",
+			"desc": "Kate (Watson)"
+		},
+		"katev3_watson": {
+			"country": "GB",
+			"language": "en",
+			"gender": "F",
+			"source": "watson",
+			"arg": "en-GB_KateV3Voice",
+			"desc": "KateV3 (Watson)"
+		},
+		"katev3_watson": {
+			"country": "GB",
+			"language": "en",
+			"gender": "F",
+			"source": "watson",
+			"arg": "en-GB_KateV3Voice",
+			"desc": "KateV3 (Watson)"
 		},
 		"amy_cepstral": {
 			"country": "US",
@@ -402,6 +474,54 @@
 			"source": "cepstral",
 			"arg": "Matthias",
 			"desc": "Matthias"
+		},
+		"dieter": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+			"source": "watson",
+			"arg": "de-DE_DieterVoice",
+			"desc": "Dieter"
+		},
+		"dieterv3": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+			"source": "watson",
+			"arg": "de-DE-DieterV3Voice",
+			"desc": "DieterV3"
+		},
+		"enrique_watson": {
+			"country": "ES",
+			"language": "es",
+			"gender": "M",
+			"source": "watson",
+			"arg": "es-ES_EnriqueVoice",
+			"desc": "Enrique (Watson)"
+		},
+		"enriquev3_watson": {
+			"country": "ES",
+			"language": "es",
+			"gender": "M",
+			"source": "watson",
+			"arg": "es-ES_EnriqueV3Voice",
+			"desc": "EnriqueV3 (Watson)"
+		},
+		"renee": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+			"source": "watson",
+			"arg": "fr-FR_ReneeVoice",
+			"desc": "Renee"
+		},
+		"reneev3": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+			"source": "watson",
+			"arg": "fr-FR_ReneeV3Voice",
+			"desc": "ReneeV3"
 		},
 		"isabelle": {
 			"country": "CA",
@@ -1743,7 +1863,7 @@
 			"source": "vocalware",
 			"desc": "Julie"
 		},
-		"kate": {
+		"kate_vocalware": {
 			"country": "US",
 			"language": "en",
 			"gender": "F",
@@ -1753,7 +1873,7 @@
 				1
 			],
 			"source": "vocalware",
-			"desc": "Kate"
+			"desc": "Kate (Oddcast)"
 		},
 		"paul": {
 			"country": "US",

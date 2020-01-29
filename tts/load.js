@@ -10,7 +10,7 @@ function processVoice(voiceName, text) {
 	return new Promise((res, rej) => {
 		const voice = voices[voiceName];
 		switch (voice.source) {
-			case 'polly':
+			case 'polly': {
 				var buffers = [];
 				var req = https.request({
 					hostname: 'pollyvoices.com',
@@ -30,8 +30,9 @@ function processVoice(voiceName, text) {
 				req.write(qs.encode({ text: text, voice: voice.arg }));
 				req.end();
 				break;
+			}
 			case 'cepstral':
-			case 'voiceforge':
+			case 'voiceforge': {
 				https.get('https://www.voiceforge.com/demo', r => {
 					const cookie = r.headers['set-cookie'];
 					var q = qs.encode({
@@ -56,7 +57,8 @@ function processVoice(voiceName, text) {
 					});
 				});
 				break;
-			case 'vocalware':
+			}
+			case 'vocalware': {
 				var q = qs.encode({
 					EID: voice.arg[0],
 					LID: voice.arg[1],
@@ -76,7 +78,7 @@ function processVoice(voiceName, text) {
 					headers: {
 						Referer: 'https://www.vocalware.com/index/demo',
 						Origin: 'https://www.vocalware.com',
-						'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+						'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
 					},
 				}, r => {
 					var buffers = [];
@@ -85,7 +87,8 @@ function processVoice(voiceName, text) {
 					r.on('error', rej);
 				});
 				break;
-			case 'voicery':
+			}
+			case 'voicery': {
 				var q = qs.encode({
 					text: text,
 					speaker: voice.arg,
@@ -102,28 +105,30 @@ function processVoice(voiceName, text) {
 					r.on('error', rej);
 				});
 				break;
-			case 'watson':
+			}
+			case 'watson': {
 				var q = qs.encode({
 					text: text,
 					voice: voice.arg,
 					download: true,
 					accept: "audio/mp3",
-					//style: 'default',
 				});
-				https.get({
+				console.log(https.get({
 					host: 'text-to-speech-demo.ng.bluemix.net',
 					path: `/api/v1/synthesize?${q}`,
 					headers: {
-						'Content-Type': 'application/x-www-form-urlencoded',
-						'Content-Type': 'audio/mp3',
+						Referer: 'https://www.vocalware.com/index/demo',
+						Origin: 'https://www.vocalware.com',
+						'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
 					},
 				}, r => {
 					var buffers = [];
 					r.on('data', d => buffers.push(d));
 					r.on('end', () => res(Buffer.concat(buffers)));
 					r.on('error', rej);
-				});
+				}));
 				break;
+			}
 		}
 	});
 }
