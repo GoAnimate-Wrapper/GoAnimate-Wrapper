@@ -102,6 +102,28 @@ function processVoice(voiceName, text) {
 					r.on('error', rej);
 				});
 				break;
+			case 'watson':
+				var q = qs.encode({
+					text: text,
+					voice: voice.arg,
+					download: true,
+					accept: "audio/mp3",
+					//style: 'default',
+				});
+				https.get({
+					host: 'text-to-speech-demo.ng.bluemix.net',
+					path: `/api/v1/synthesize?${q}`,
+					headers: {
+						'Content-Type': 'application/x-www-form-urlencoded',
+						'Content-Type': 'audio/mp3',
+					},
+				}, r => {
+					var buffers = [];
+					r.on('data', d => buffers.push(d));
+					r.on('end', () => res(Buffer.concat(buffers)));
+					r.on('error', rej);
+				});
+				break;
 		}
 	});
 }
