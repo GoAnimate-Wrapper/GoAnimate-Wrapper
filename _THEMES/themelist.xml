@@ -28,6 +28,7 @@
 	<theme id="bizmodels" name="Business Models" cc_theme_id="bizmodels" />
 	<theme id="botdf" name="Blood on the Dance Floor (Unused)" cc_theme_id="botdf" />
 	<!-- I planned to disable botdf, but i'm gonna ask you guys first -->
+	<!-- What's botdf? ~CLarramore -->
 	<theme id="bunny" name="It's Happy Bunny" cc_theme_id="bunny" />
 	<theme id="chowder" name="Chowder" cc_theme_id="chowder" />
 	<theme id="domo" name="Domo" cc_theme_id="domo" />
