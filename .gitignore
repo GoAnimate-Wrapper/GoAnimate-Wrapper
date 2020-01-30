@@ -1,5 +1,6 @@
 node_modules/*/node_modules
 node_modules/*
-!node_modules/node-zip
 _CACHÉ/*
-!*/_NO_REMÖVE
+_SAVED/*
+!node_modules/node-zip
+!_*/_NO_REMÖVE

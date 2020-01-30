@@ -13,8 +13,7 @@ function addTheme(id, buffer) {
 	const beg = buffer.indexOf(`theme_id="`) + 10;
 	const end = buffer.indexOf(`"`, beg);
 	const theme = buffer.subarray(beg, end).toString();
-	themes[id] = theme;
-	return themes;
+	return themes[id] = theme;
 }
 
 function save(id, data) {
@@ -54,35 +53,51 @@ module.exports = {
 						(e, b) => e ? rej(Buffer.from(fXml)) : res(b));
 					break;
 
+				case 'C':
+					fs.readFile(fUtil.getFileString('char-', '.xml', suffix),
+						(e, b) => e ? rej(Buffer.from(fXml)) : res(b));
+					break;
+
 				case 'a':
 				case '': // Blank prefix is left for compatibility purposes.
-					const nId = Number.parseInt(suffix);
-					const xmlSubId = nId % fw, fileId = nId - xmlSubId;
-					const lnNum = fUtil.padZero(xmlSubId, xNumWidth);
-					const url = `${baseUrl}/${fUtil.padZero(fileId)}.txt`;
+					{
+						const nId = Number.parseInt(suffix);
+						const xmlSubId = nId % fw, fileId = nId - xmlSubId;
+						const lnNum = fUtil.padZero(xmlSubId, xNumWidth);
+						const url = `${baseUrl}/${fUtil.padZero(fileId)}.txt`;
 
-					get(url).then(b => {
-						var line = b.toString('utf8').split('\n').
-							find(v => v.substr(0, xNumWidth) == lnNum);
-						line ? res(header + line.substr(xNumWidth)) : rej(Buffer.from(fXml));
-					}).catch(e => rej(Buffer.from(fXml)));
+						get(url).then(b => {
+							var line = b.toString('utf8').split('\n').find(v => v.substr(0, xNumWidth) == lnNum);
+							line ? res(Buffer.from(line.substr(xNumWidth))) : rej(Buffer.from(fXml));
+						}).catch(e => rej(Buffer.from(fXml)));
+					}
 			}
 		});
 	},
 	/**
 	 * @param {Buffer} data
 	 * @param {string} id
-	 * @returns {Promise<number>}
+	 * @returns {Promise<string>}
 	 */
 	save(data, id) {
 		return new Promise((res, rej) => {
 			if (id) {
-				const i = id.indexOf('-'), prefix = id.substr(0, i), suffix = id.substr(i + 1);
-				if (prefix == 'c')
-					return fs.writeFile(fUtil.getFileIndex('char-', '.xml', suffix), data, e => e ? rej() : res(id));
-				else res(save(id, data));
+				const i = id.indexOf('-');
+				const prefix = id.substr(0, i);
+				const suffix = id.substr(i + 1);
+				switch (prefix) {
+					case 'c':
+						return fs.writeFile(fUtil.getFileIndex('char-', '.xml', suffix), data, e => e ? rej() : res(id));
+					case 'C':
+						return fs.writeFile(fUtil.getFileString('char-', '.xml', suffix), data, e => e ? rej() : res(id));
+					default:
+						return res(save(id, data));
+				}
 			}
-			else res(save(fUtil.getNextFileId('char-', '.xml'), data));
+			else {
+				saveId = fUtil.getNextFileId('char-', '.xml');
+				res(save(saveId, data));
+			};
 		});
 	},
 }

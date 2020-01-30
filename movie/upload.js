@@ -12,7 +12,8 @@ module.exports = function (req, res, url) {
 		fs.unlinkSync(path);
 
 		res.statusCode = 302;
-		res.setHeader('Location', '/');
+		const url = `/go_full?movieId=m-${numId}`;
+		res.setHeader('Location', url);
 		res.end();
 	});
 	return true;

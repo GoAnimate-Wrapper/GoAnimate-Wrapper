@@ -1,7 +1,4 @@
 const cachéFolder = process.env.CACHÉ_FOLDER;
-const exFolder = process.env.EXAMPLE_FOLDER;
-const fUtil = require('../fileUtil');
-const nodezip = require('node-zip');
 const fs = require('fs');
 
 /**
@@ -29,9 +26,9 @@ fs.readdirSync(cachéFolder).forEach(v => {
 })
 
 module.exports = {
-	generateId(ct, suf) {
+	generateId(pre = '', suf = '', ct = {}) {
 		var id;
-		do id = `${('' + Math.random()).replace('.', '')}${suf}`;
+		do id = `${pre}${('' + Math.random()).replace('.', '')}${suf}`;
 		while (ct[id]);
 		return id;
 	},
@@ -69,6 +66,8 @@ module.exports = {
 	 * @returns {{[aId:string]:Buffer}}
 	 */
 	getTable(mId) {
+		if (!caché[mId]) return {};
+
 		const stored = {};
 		for (let aId in caché[mId])
 			stored[aId] = this.load(mId, aId);
@@ -82,7 +81,7 @@ module.exports = {
 	 */
 	saveNew(buffer, mId, suf) {
 		var t = caché[mId] = caché[mId] || {}, aId;
-		this.save(mId, aId = this.generateId(t, suf), buffer);
+		this.save(mId, aId = this.generateId('', suf, t), buffer);
 		return aId;
 	},
 	/**

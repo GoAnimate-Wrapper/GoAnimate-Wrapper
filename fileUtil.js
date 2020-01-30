@@ -39,7 +39,6 @@ module.exports = {
 	 * @returns {number}
 	 */
 	getNextFileId(s, suf = '.xml', l = 7) {
-		const regex = new RegExp(`${s}[0-9]{${l}}${suf}$`);
 		const indicies = this.getValidFileIndicies(s, suf, l);
 		return indicies.length ? indicies[indicies.length - 1] + 1 : 0;
 	},
@@ -63,7 +62,16 @@ module.exports = {
 	 * @returns {string}
 	 */
 	getFileIndex(s, suf = '.xml', n, l = 7) {
-		return `${folder}/${s}${this.padZero(n, l)}${suf}`;
+		return this.getFileString(s, suf, this.padZero(n, l));
+	},
+	/**
+	 * @param {string} s
+	 * @param {string} suf
+	 * @param {string} name
+	 * @returns {string}
+	 */
+	getFileString(s, suf = '.xml', name) {
+		return `${folder}/${s}${name}${suf}`;
 	},
 	/**
 	 * @param {string} s
