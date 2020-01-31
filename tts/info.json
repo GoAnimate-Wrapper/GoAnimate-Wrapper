@@ -1071,7 +1071,7 @@
 			"source": "vocalware",
 			"desc": "Olivia"
 		},
-		"samantha": {
+		"samantha_vocalware": {
 			"country": "US",
 			"language": "en",
 			"gender": "F",
@@ -1081,7 +1081,7 @@
 				11
 			],
 			"source": "vocalware",
-			"desc": "Samantha"
+			"desc": "Samantha (Oddcast)"
 		},
 		"sangeeta": {
 			"country": "IN",
@@ -2339,9 +2339,9 @@
 			"language": "en",
 			"source": "voicery"
 		},
-		"samantha": {
+		"samantha_voicery": {
 			"arg": "samantha",
-			"desc": "Samantha",
+			"desc": "Samantha (Voicery)",
 			"gender": "F",
 			"country": "GB",
 			"language": "en",
