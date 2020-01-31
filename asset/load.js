@@ -9,7 +9,7 @@ module.exports = function (req, res, url) {
 			if (!match) return;
 
 			const mId = match[1], aId = match[2];
-			const b = asset.load(mId, aId);
+			const b = asset.loadLocal(mId, aId);
 			b ? (res.statusCode = 200, res.end(v)) :
 				(res.statusCode = 404, res.end(e));
 			return true;
@@ -21,7 +21,7 @@ module.exports = function (req, res, url) {
 				const mId = data.movieId || data.presaveId || sessions.get(req);
 				const aId = data.assetId || data.enc_asset_id;
 
-				const b = asset.load(mId, aId);
+				const b = asset.loadLocal(mId, aId);
 				sessions.set({ movieId: mId }, req);
 				if (b) {
 					res.setHeader('Content-Length', b.length);

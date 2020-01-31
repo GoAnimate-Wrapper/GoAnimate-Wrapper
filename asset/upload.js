@@ -11,7 +11,7 @@ module.exports = function (req, res, url) {
 
 		const name = files.import.name;
 		const suffix = name.substr(name.lastIndexOf('.'));
-		asset.save(buffer, mId, suffix);
+		asset.saveLocal(buffer, mId, suffix);
 		fs.unlinkSync(path);
 		res.end();
 	});

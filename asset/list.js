@@ -34,7 +34,7 @@ async function listAssets(data, makeZip) {
 			case 'bg': {
 				for (let c = 0; c < files.length; c++) {
 					const file = files[c];
-					fUtil.addToZip(zip, `bg/${file.id}`, asset.load(file.id));
+					fUtil.addToZip(zip, `bg/${file.id}`, asset.loadLocal(file.id));
 				}
 				break;
 			}

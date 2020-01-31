@@ -1,4 +1,5 @@
 const themeFolder = process.env.THEME_FOLDER;
+const mp3Duration = require('mp3-duration');
 const char = require('../character/main');
 const ttsInfo = require('../tts/info');
 const caché = require('../data/caché');
@@ -43,7 +44,7 @@ module.exports = {
 
 		const zip = nodezip.create();
 		mId && caché.saveTable(mId);
-		const themes = { common: true };
+		const themes = { common: true }, assetTypes = {};
 		var ugcString = `${header}<theme id="ugc" name="ugc">`;
 		fUtil.addToZip(zip, 'movie.xml', xmlBuffer);
 		const xml = new xmldoc.XmlDocument(xmlBuffer);
@@ -55,9 +56,14 @@ module.exports = {
 				case 'asset': {
 					if (mId) {
 						const aId = element.attr.id;
-						const m = useBase64(aId) ? 'base64' : 'utf8';
-						const v = Buffer.from(element.val, m);
-						caché.save(mId, aId, v);
+						const m = useBase64(aId) ? 'base64' : 'utf8', b = Buffer.from(element.val, m);
+						const d = await new Promise(res => mp3Duration(b, (e, d) => e || res(Math.floor(1e3 * d))));
+						const t = assetTypes[aId];
+						//const n = `ugc.${t}.${aId}`;
+						//fUtil.addToZip(zip, n, b);
+						ugcString += `<sound subtype="${t.subtype}" id="${aId
+							}" name="${t.name}" downloadtype="progressive" duration="${d}"/>`;
+						caché.save(mId, aId, b);
 					}
 					break;
 				}
@@ -80,19 +86,34 @@ module.exports = {
 				case 'sound': {
 					const sfile = element.childNamed('sfile').val;
 					const file = sfile.substr(sfile.indexOf('.') + 1);
-					var xmlStr;
 
 					var ttsData = element.childNamed('ttsdata');
-					if (ttsData) {
-						var text = ttsData.childNamed('text').val;
-						var voice = ttsInfo.voices[ttsData.childNamed('voice').val].desc;
-						var name = `[${voice}] ${text.replace(/"/g, '\\"')}`;
-						xmlStr = `subtype="tts" id="${file}" name="${name}" downloadtype="progressive"`;
+					if (sfile.endsWith('.swf')) {
+						const pieces = sFile.split('.');
+						const theme = pieces[0], name = pieces[1];
+						const url = `${store}/${theme}/sound/${name}.swf`;
+						const fileName = `${theme}.sound.${name}.swf`;
+						const buffer = await get(url);
+						fUtil.addToZip(zip, fileName, buffer);
 					}
-					else
-						xmlStr = `subtype="sound" id="${file}" name="${file}" downloadtype="progressive"`;
-					ugcString += `<sound ${xmlStr}/>`;
-					break; //we need to add something to the sound parsing a part that will check if it is a swf, and add it to the zip if it is a swf. I'm too scared of ruining everything to do it :P
+					else if (sfile.startsWith('ugc.')) {
+						var subtype, name;
+						if (ttsData) {
+							const text = ttsData.childNamed('text').val;
+							const voice = ttsInfo.voices[ttsData.childNamed('voice').val].desc;
+							name = `[${voice}] ${text.replace(/"/g, '\\"')}`;
+							subtype = 'tts';
+						} else {
+							subtype = 'sound';
+							name = file;
+						}
+
+						assetTypes[file] = {
+							subtype: subtype,
+							name: name,
+						};
+					}
+					break;
 				}
 
 				case 'scene': {
@@ -151,21 +172,38 @@ module.exports = {
 										const url = `${store}/${theme}/char/${char}/${model}.swf`;
 										fileName = `${theme}.char.${char}.${model}.swf`;
 										buffer = await get(url);
-
-										const head = piece.childNamed('head');
-										if (head) {
-											const piecesHead = head.childNamed('file').val.split('.');
-											piecesHead.pop();
-
-											piecesHead.splice(1, 0, 'char');
-											const urlHead = `${store}/${piecesHead.join('/')}.swf`;
-											piecesHead.splice(1, 1, 'prop');
-											const fileNameHead = `${piecesHead.join('.')}.swf`;
-											fUtil.addToZip(zip, fileNameHead, await get(urlHead));
-										}
 										break;
 									}
 								}
+
+								for (const ptK in piece.children) {
+									const part = piece.children[ptK];
+									if (!part.children) continue;
+
+									var urlF, fileF;
+									switch (part.name) {
+										case 'head':
+											urlF = 'char';
+											fileF = 'prop';
+											break;
+										case 'prop':
+											urlF = 'prop';
+											fileF = 'prop';
+											break;
+										default:
+											continue;
+									}
+
+									const file = part.childNamed('file');
+									const slicesP = file.val.split('.');
+									slicesP.pop(), slicesP.splice(1, 0, urlF);
+									const urlP = `${store}/${slicesP.join('/')}.swf`;
+
+									slicesP.splice(1, 1, fileF);
+									const fileP = `${slicesP.join('.')}.swf`;
+									fUtil.addToZip(zip, fileP, await get(urlP));
+								}
+
 								if (buffer) {
 									themes[theme] = true;
 									fUtil.addToZip(zip, fileName, buffer);

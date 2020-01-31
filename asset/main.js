@@ -22,7 +22,7 @@ function getFilter(prefix, idPrefix, types) {
 }
 
 module.exports = {
-	load(aId) {
+	loadGlobal(aId) {
 		const dot = aId.indexOf('.');
 		const dash = aId.indexOf('-');
 		const prefix = aId.substr(0, dash);
@@ -31,8 +31,8 @@ module.exports = {
 		const path = fUtil.getFileIndex(prefix, suffix, num);
 		return fs.readFileSync(path);
 	},
-	//load(mId, aId) { return caché.load(mId, aId); },
-	//save(buffer, mId, suff) { return caché.saveNew(buffer, mId, suff); },
+	loadLocal(mId, aId) { return caché.load(mId, aId); },
+	saveLocal(buffer, mId, suff) { return caché.saveNew(buffer, mId, suff); },
 	getBackgrounds() { return getFilter('bg-', 'b', info.bg.filetypes); },
 	getProps() { return getFilter('prop-', 'p', info.prop.filetypes); },
 	getSounds() { return getFilter('sound-', 's', info.sound.filetypes); },
