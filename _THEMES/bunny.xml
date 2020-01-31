@@ -458,10 +458,11 @@
 		<state id="msp_see_saw_see_saw_still.swf" name="still" enable="Y" default="Y"/>
 		<state id="msp_see_saw_see_saw_move.swf" name="move" enable="Y"/>
 	</prop>
-	<sound id="cute_stupid.swf" name="It's cute How stupid you are" downloadtype="embed" subtype="voiceover" duration="1912" enable="Y" is_premium="N" aid="6204" money="0" sharing="0"/>
-	<sound id="hi_loser.swf" name="Hi, Loser" downloadtype="embed" subtype="voiceover" duration="1416" enable="Y" is_premium="N" aid="6205" money="0" sharing="0"/>
-	<sound id="focus_on_me.swf" name="Let's Focus on Me" downloadtype="embed" subtype="voiceover" duration="1599" enable="Y" is_premium="N" aid="6206" money="0" sharing="0"/>
-	<sound id="suck_sad.swf" name="You Suck and That's Sad." downloadtype="embed" subtype="voiceover" duration="2304" enable="Y" is_premium="N" aid="6207" money="0" sharing="0"/>
+	<!-- These four were originally under 'voiceover' but I decided to make them 'soundeffect's because I require these for a video. -->
+	<sound id="cute_stupid.swf" name="It's cute How stupid you are" downloadtype="embed" subtype="soundeffect" duration="1912" enable="Y" is_premium="N" aid="6204" money="0" sharing="0"/>
+	<sound id="hi_loser.swf" name="Hi, Loser" downloadtype="embed" subtype="soundeffect" duration="1416" enable="Y" is_premium="N" aid="6205" money="0" sharing="0"/>
+	<sound id="focus_on_me.swf" name="Let's Focus on Me" downloadtype="embed" subtype="soundeffect" duration="1599" enable="Y" is_premium="N" aid="6206" money="0" sharing="0"/>
+	<sound id="suck_sad.swf" name="You Suck and That's Sad." downloadtype="embed" subtype="soundeffect" duration="2304" enable="Y" is_premium="N" aid="6207" money="0" sharing="0"/>
 	<bubble id="bunnyQuote" x="0" y="0" w="180" h="90" rotate="0" isShowMsg="Y" thumb="bunny_quote.swf" type="BLANK" enable="Y" aid="6208" is_premium="N" money="0" sharing="0">
 	<body rgb="0xFFFFFF" linergb="0" tailx="180" taily="110"/>
 	<text rgb="0" font="Accidental Presidency" size="20" align="center" bold="false" italic="false">Click here to edit</text>
