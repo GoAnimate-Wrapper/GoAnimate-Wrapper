@@ -92,7 +92,7 @@ module.exports = {
 					else
 						xmlStr = `subtype="sound" id="${file}" name="${file}" downloadtype="progressive"`;
 					ugcString += `<sound ${xmlStr}/>`;
-					break;
+					break; //we need to add something to the sound parsing a part that will check if it is a swf, and add it to the zip if it is a swf. I'm too scared of ruining everything to do it :P
 				}
 
 				case 'scene': {
