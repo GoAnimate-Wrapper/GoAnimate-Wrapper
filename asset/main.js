@@ -2,26 +2,40 @@ const chars = require('../character/main');
 const caché = require('../data/caché');
 const fUtil = require('../fileUtil');
 const info = require('./info');
+const fs = require('fs');
 
-function getFilter(mId, types) {
-	const typeSet = {}, files = caché.getTable(mId), ret = [];
-	types.forEach(v => typeSet[v] = true);
-	for (const id in files) {
-		const dot = id.lastIndexOf('.');
-		const name = id.substr(0, dot);
-		const ext = id.substr(dot + 1);
-		if (!name.includes('.') && typeSet[ext])
-			ret.push({ name: name, id: id, });
+function getFilter(prefix, idPrefix, types) {
+	const typeSet = {}, files = [], ret = [];
+	types.forEach(v => {
+		const names = fUtil.getValidFileNames(prefix, `.${v}`);
+		typeSet[v] = true, files.concat(names);
+	});
+	for (let c = 0; c < files.length; c++) {
+		const path = files[c];
+		const dot = path.lastIndexOf('.');
+		const dash = path.lastIndexOf('-');
+		const num = Number.parseInt(path.substr(dash + 1, dot));
+		const ext = path.substr(dot + 1), id = `${idPrefix}-${num}.${ext}`;
+		ret.push({ id: id, path: path, ext: ext, });
 	}
 	return ret;
 }
 
 module.exports = {
-	load(mId, aId) { return caché.load(mId, aId); },
-	save(buffer, mId, suff) { return caché.saveNew(buffer, mId, suff); },
-	getBackgrounds(mId) { return getFilter(mId, info.bg.filetypes); },
-	getProps(mId) { return getFilter(mId, info.prop.filetypes); },
-	getSounds(mId) { return getFilter(mId, info.sound.filetypes); },
+	load(aId) {
+		const dot = aId.indexOf('.');
+		const dash = aId.indexOf('-');
+		const prefix = aId.substr(0, dash);
+		const num = aId.substr(dash + 1, dot);
+		const suffix = aId.substr(dot);
+		const path = fUtil.getFileIndex(prefix, suffix, num);
+		return fs.readFileSync(path);
+	},
+	//load(mId, aId) { return caché.load(mId, aId); },
+	//save(buffer, mId, suff) { return caché.saveNew(buffer, mId, suff); },
+	getBackgrounds() { return getFilter('bg-', 'b', info.bg.filetypes); },
+	getProps() { return getFilter('prop-', 'p', info.prop.filetypes); },
+	getSounds() { return getFilter('sound-', 's', info.sound.filetypes); },
 	async chars(theme) {
 		switch (theme) {
 			case 'custom':

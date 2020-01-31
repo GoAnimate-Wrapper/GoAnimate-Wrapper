@@ -1608,7 +1608,7 @@
 	<sound id="tension builds up.swf" name="Build up tension" enable="Y" downloadtype="embed" subtype="bgmusic" />
 	<sound id="laugh_4.swf" name="Laugh" enable="Y" downloadtype="embed" subtype="soundeffect" />
 	<sound id="shot.swf" name="Gun Shot" enable="Y" downloadtype="embed" subtype="soundeffect" />
-	<sound id="bushism_internets.swf" name="Bushism, the Internet" enable="Y" downloadtype="embed" subtype="voiceover" />
+	<sound id="bushism_internets.swf" name="Bushism, the Internet" enable="Y" downloadtype="embed" subtype="soundeffect" />
 	<sound id="12_Days_of_Christmas.swf" name="12 Days of Christmas" enable="Y" downloadtype="embed" subtype="bgmusic" />
 	<sound id="Christmas_Tree.swf" name="Christmas Tree" enable="Y" downloadtype="embed" subtype="bgmusic" />
 	<sound id="Deck_the_Halls.swf" name="Deck The Halls" enable="Y" downloadtype="embed" subtype="bgmusic" />

@@ -4,7 +4,7 @@ const asset = require('./main');
 
 module.exports = function (req, res, url) {
 	switch (req.method) {
-		case 'GET':
+		case 'GET': {
 			const match = req.url.match(/\/assets\/([^/]+)\/([^.]+)(?:\.xml)?$/);
 			if (!match) return;
 
@@ -13,8 +13,9 @@ module.exports = function (req, res, url) {
 			b ? (res.statusCode = 200, res.end(v)) :
 				(res.statusCode = 404, res.end(e));
 			return true;
+		}
 
-		case 'POST':
+		case 'POST': {
 			if (url.path != '/goapi/getAsset/' && url.path != '/goapi/getAssetEx/') return;
 			loadPost(req, res).then(data => {
 				const mId = data.movieId || data.presaveId || sessions.get(req);
@@ -22,8 +23,17 @@ module.exports = function (req, res, url) {
 
 				const b = asset.load(mId, aId);
 				sessions.set({ movieId: mId }, req);
-				b ? res.end(b) : (res.statusCode = 404, res.end());
+				if (b) {
+					res.setHeader('Content-Length', b.length);
+					res.end(b);
+				}
+				else {
+					res.statusCode = 404;
+					res.end();
+				};
 			});
 			return true;
+		}
+		default: return;
 	}
 }

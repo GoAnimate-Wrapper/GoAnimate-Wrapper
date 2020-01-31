@@ -180,13 +180,13 @@
 	<background id="big_tree_bg.swf" name="Big Tree" enable="Y" is_premium="N" aid="6811" money="0" sharing="0"/>
 	<background id="rotation_bg.swf" name="Swirl" enable="Y" is_premium="N" aid="6809" money="0" sharing="0">
 		<colorset aid="6810" enable="Y">
-	<color r="color1">0x5B564A</color>
-	<color r="color2">0xCCCCCC</color>
-</colorset>
+			<color r="color1">0x5B564A</color>
+			<color r="color2">0xCCCCCC</color>
+		</colorset>
 		<c_parts>
-	<c_area>color1</c_area>
-	<c_area>color2</c_area>
-</c_parts>
+			<c_area>color1</c_area>
+			<c_area>color2</c_area>
+		</c_parts>
 	</background>
 	<background id="weather_report_bg.swf" name="Weather Report" enable="Y" is_premium="N" aid="6808" money="0" sharing="0"/>
 	<background id="domo_pattern.swf" name="Domo Pattern" enable="Y" is_premium="N" aid="6807" money="0" sharing="0"/>
@@ -199,280 +199,280 @@
 	<background id="domo_home_bg.swf" name="Domo's Home" enable="Y" is_premium="N" aid="6628" money="0" sharing="0"/>
 	<background id="foot_print_bg.swf" name="Footprint" enable="Y" is_premium="N" aid="6812" money="0" sharing="0"/>
 	<compositebg id="cbg_domo_home" name="Domo's Home" thumb="domo_home.png" enable="Y" default="Y" is_premium="N" aid="6635" money="0" sharing="0">
-	<bg id="cbg_domo_home_BG1" index="0">
-		<file>domo.domo_home_bg.swf</file>
-	</bg>
-	<prop id="cbg_domo_home_PROP1" index="2">
-		<file>domo.domo_home_tv.swf</file>
-		<x>125.1</x>
-		<y>269</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-	<prop id="cbg_domo_home_PROP2" index="3">
-		<file>domo.domo_home_table.swf</file>
-		<x>293.2</x>
-		<y>314</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-	<prop id="cbg_domo_home_PROP0" index="4">
-		<file>domo.domo_home_frame.swf</file>
-		<x>322.5</x>
-		<y>198.5</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-</compositebg>
+		<bg id="cbg_domo_home_BG1" index="0">
+			<file>domo.domo_home_bg.swf</file>
+		</bg>
+		<prop id="cbg_domo_home_PROP1" index="2">
+			<file>domo.domo_home_tv.swf</file>
+			<x>125.1</x>
+			<y>269</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="cbg_domo_home_PROP2" index="3">
+			<file>domo.domo_home_table.swf</file>
+			<x>293.2</x>
+			<y>314</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="cbg_domo_home_PROP0" index="4">
+			<file>domo.domo_home_frame.swf</file>
+			<x>322.5</x>
+			<y>198.5</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+	</compositebg>
 	<compositebg id="cbg_bigtree" name="Big Tree" thumb="big_tree.png" enable="Y" is_premium="N" money="0" sharing="0" aid="6813">
-	<bg id="cbg_bigtree_BG3" index="0">
-		<file>domo.big_tree_bg.swf</file>
-	</bg>
-	<prop id="cbg_bigtree_PROP0" index="2">
-		<file>domo.big_tree_tree.swf</file>
-		<x>310.2</x>
-		<y>18</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-</compositebg>
+		<bg id="cbg_bigtree_BG3" index="0">
+			<file>domo.big_tree_bg.swf</file>
+		</bg>
+		<prop id="cbg_bigtree_PROP0" index="2">
+			<file>domo.big_tree_tree.swf</file>
+			<x>310.2</x>
+			<y>18</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+	</compositebg>
 	<compositebg id="cbg_space" name="Space" thumb="space.png" enable="Y" is_premium="N" aid="6642" money="0" sharing="0">
-	<bg id="cbg_space_BG1" index="0">
-		<file>domo.space_bg.swf</file>
-	</bg>
-	<prop id="cbg_space_PROP0" index="2">
-		<file>domo.space_planet1.swf</file>
-		<x>106.4</x>
-		<y>188.5</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-	<prop id="cbg_space_PROP1" index="3">
-		<file>domo.space_planet.swf</file>
-		<x>360.9</x>
-		<y>229.4</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-	<prop id="cbg_space_PROP2" index="4">
-		<file>domo.space_planet2.swf</file>
-		<x>485.9</x>
-		<y>80.4</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-</compositebg>
+		<bg id="cbg_space_BG1" index="0">
+			<file>domo.space_bg.swf</file>
+		</bg>
+		<prop id="cbg_space_PROP0" index="2">
+			<file>domo.space_planet1.swf</file>
+			<x>106.4</x>
+			<y>188.5</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="cbg_space_PROP1" index="3">
+			<file>domo.space_planet.swf</file>
+			<x>360.9</x>
+			<y>229.4</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="cbg_space_PROP2" index="4">
+			<file>domo.space_planet2.swf</file>
+			<x>485.9</x>
+			<y>80.4</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+	</compositebg>
 	<compositebg id="cbg_tashanna_home" name="Tashanna's Home" thumb="tashanna_home.png" enable="Y" is_premium="N" aid="6641" money="0" sharing="0">
-	<bg id="cbg_tashanna_home_BG8" index="0">
-		<file>domo.tashanna_home_bg.swf</file>
-	</bg>
-	<prop id="cbg_tashanna_home_PROP4" index="2">
-		<file>domo.tashanna_home_chairback.swf</file>
-		<x>218.2</x>
-		<y>290</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-	<prop id="cbg_tashanna_home_PROP5" index="3">
-		<file>domo.tashanna_home_chairfront.swf</file>
-		<x>253.2</x>
-		<y>304</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>-1</face>
-		<rotation>0</rotation>
-	</prop>
-	<prop id="cbg_tashanna_home_PROP3" index="4">
-		<file>domo.tashanna_home_table.swf</file>
-		<x>320.2</x>
-		<y>310</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-	<prop id="cbg_tashanna_home_PROP6" index="5">
-		<file>domo.tashanna_home_table.swf</file>
-		<x>84.2</x>
-		<y>337</y>
-		<xscale>0.6</xscale>
-		<yscale>0.44</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-	<prop id="cbg_tashanna_home_PROP2" index="6">
-		<file>domo.tashanna_home_frame.swf</file>
-		<x>317.6</x>
-		<y>197.3</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-</compositebg>
+		<bg id="cbg_tashanna_home_BG8" index="0">
+			<file>domo.tashanna_home_bg.swf</file>
+		</bg>
+		<prop id="cbg_tashanna_home_PROP4" index="2">
+			<file>domo.tashanna_home_chairback.swf</file>
+			<x>218.2</x>
+			<y>290</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="cbg_tashanna_home_PROP5" index="3">
+			<file>domo.tashanna_home_chairfront.swf</file>
+			<x>253.2</x>
+			<y>304</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>-1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="cbg_tashanna_home_PROP3" index="4">
+			<file>domo.tashanna_home_table.swf</file>
+			<x>320.2</x>
+			<y>310</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="cbg_tashanna_home_PROP6" index="5">
+			<file>domo.tashanna_home_table.swf</file>
+			<x>84.2</x>
+			<y>337</y>
+			<xscale>0.6</xscale>
+			<yscale>0.44</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="cbg_tashanna_home_PROP2" index="6">
+			<file>domo.tashanna_home_frame.swf</file>
+			<x>317.6</x>
+			<y>197.3</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+	</compositebg>
 	<compositebg id="cbg_outdoor_night" name="Outdoor Nighttime" thumb="outside_home_night.png" enable="Y" is_premium="N" aid="6640" money="0" sharing="0">
-	<bg id="cbg_outdoor_night_BG24" index="0">
-		<file>domo.outside_home_night_bg.swf</file>
-	</bg>
-	<prop id="cbg_outdoor_night_PROP12" index="2">
-		<file>domo.outside_home_night_tree.swf</file>
-		<x>484</x>
-		<y>207</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-	<prop id="cbg_outdoor_night_PROP14" index="3">
-		<file>domo.outside_home_night_back.swf</file>
-		<x>208.1</x>
-		<y>367.7</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-	<prop id="cbg_outdoor_night_PROP22" index="4">
-		<file>domo.outside_home_night_cover.swf</file>
-		<x>325.2</x>
-		<y>385</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-</compositebg>
+		<bg id="cbg_outdoor_night_BG24" index="0">
+			<file>domo.outside_home_night_bg.swf</file>
+		</bg>
+		<prop id="cbg_outdoor_night_PROP12" index="2">
+			<file>domo.outside_home_night_tree.swf</file>
+			<x>484</x>
+			<y>207</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="cbg_outdoor_night_PROP14" index="3">
+			<file>domo.outside_home_night_back.swf</file>
+			<x>208.1</x>
+			<y>367.7</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="cbg_outdoor_night_PROP22" index="4">
+			<file>domo.outside_home_night_cover.swf</file>
+			<x>325.2</x>
+			<y>385</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+	</compositebg>
 	<compositebg id="cbg_outdoor_daytime" name="Outdoor Daytime" thumb="outside_home.png" enable="Y" is_premium="N" aid="6639" money="0" sharing="0">
-	<bg id="cbg_outdoor_daytime_BG22" index="0">
-		<file>domo.outside_home_bg.swf</file>
-	</bg>
-	<prop id="cbg_outdoor_daytime_PROP8" index="2">
-		<file>domo.outside_home_tree.swf</file>
-		<x>484.6</x>
-		<y>206</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-	<prop id="cbg_outdoor_daytime_PROP20" index="3">
-		<file>domo.outside_home_back.swf</file>
-		<x>204.9</x>
-		<y>362.8</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-	<prop id="cbg_outdoor_daytime_PROP21" index="4">
-		<file>domo.outside_home_cover.swf</file>
-		<x>322.2</x>
-		<y>380.4</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-</compositebg>
+		<bg id="cbg_outdoor_daytime_BG22" index="0">
+			<file>domo.outside_home_bg.swf</file>
+		</bg>
+		<prop id="cbg_outdoor_daytime_PROP8" index="2">
+			<file>domo.outside_home_tree.swf</file>
+			<x>484.6</x>
+			<y>206</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="cbg_outdoor_daytime_PROP20" index="3">
+			<file>domo.outside_home_back.swf</file>
+			<x>204.9</x>
+			<y>362.8</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="cbg_outdoor_daytime_PROP21" index="4">
+			<file>domo.outside_home_cover.swf</file>
+			<x>322.2</x>
+			<y>380.4</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+	</compositebg>
 	<compositebg id="cbg_watch_tv" name="Watching TV" thumb="home_watchingtv.png" enable="Y" is_premium="N" aid="6638" money="0" sharing="0">
-	<bg id="cbg_watch_tv_BG1" index="0">
-		<file>domo.home_watchingtv_bg.swf</file>
-	</bg>
-	<prop id="cbg_watch_tv_PROP0" index="2">
-		<file>domo.home_watchingtv_tv.swf</file>
-		<x>277.2</x>
-		<y>203</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-	<prop id="cbg_watch_tv_PROP1" index="3">
-		<file>domo.domo_home_table.swf</file>
-		<x>295.2</x>
-		<y>358</y>
-		<xscale>2.3</xscale>
-		<yscale>2</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-</compositebg>
+		<bg id="cbg_watch_tv_BG1" index="0">
+			<file>domo.home_watchingtv_bg.swf</file>
+		</bg>
+		<prop id="cbg_watch_tv_PROP0" index="2">
+			<file>domo.home_watchingtv_tv.swf</file>
+			<x>277.2</x>
+			<y>203</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="cbg_watch_tv_PROP1" index="3">
+			<file>domo.domo_home_table.swf</file>
+			<x>295.2</x>
+			<y>358</y>
+			<xscale>2.3</xscale>
+			<yscale>2</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+	</compositebg>
 	<compositebg id="cbg_forest_night" name="Forest Night Time" thumb="forest_night.png" enable="Y" is_premium="N" aid="6637" money="0" sharing="0">
-	<bg id="cbg_forest_night_BG1" index="0">
-		<file>domo.forest_night_bg.swf</file>
-	</bg>
-	<prop id="cbg_forest_night_PROP0" index="2">
-		<file>domo.forest_night_tree1.swf</file>
-		<x>599.2</x>
-		<y>58</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-	<prop id="cbg_forest_night_PROP1" index="1">
-		<file>domo.forest_night_tree2.swf</file>
-		<x>101.2</x>
-		<y>112</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-</compositebg>
+		<bg id="cbg_forest_night_BG1" index="0">
+			<file>domo.forest_night_bg.swf</file>
+		</bg>
+		<prop id="cbg_forest_night_PROP0" index="2">
+			<file>domo.forest_night_tree1.swf</file>
+			<x>599.2</x>
+			<y>58</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="cbg_forest_night_PROP1" index="1">
+			<file>domo.forest_night_tree2.swf</file>
+			<x>101.2</x>
+			<y>112</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+	</compositebg>
 	<compositebg id="cbg_forest_daytime" name="Forest Daytime" thumb="forest.png" enable="Y" is_premium="N" aid="6636" money="0" sharing="0">
-	<bg id="cbg_forest_daytime_BG1" index="0">
-		<file>domo.forest_bg.swf</file>
-	</bg>
-	<prop id="cbg_forest_daytime_PROP1" index="2">
-		<file>domo.forest_tree2.swf</file>
-		<x>81.2</x>
-		<y>105</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-	<prop id="cbg_forest_daytime_PROP0" index="3">
-		<file>domo.forest_tree1.swf</file>
-		<x>585.3</x>
-		<y>55</y>
-		<xscale>1</xscale>
-		<yscale>1</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-</compositebg>
+		<bg id="cbg_forest_daytime_BG1" index="0">
+			<file>domo.forest_bg.swf</file>
+		</bg>
+		<prop id="cbg_forest_daytime_PROP1" index="2">
+			<file>domo.forest_tree2.swf</file>
+			<x>81.2</x>
+			<y>105</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="cbg_forest_daytime_PROP0" index="3">
+			<file>domo.forest_tree1.swf</file>
+			<x>585.3</x>
+			<y>55</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+	</compositebg>
 	<compositebg id="cbg_footprint" name="Foot Print" thumb="foot_print.png" enable="Y" is_premium="N" money="0" sharing="0" aid="6814">
-	<bg id="cbg_footprint_BG1" index="0">
-		<file>domo.foot_print_bg.swf</file>
-	</bg>
-	<prop id="cbg_footprint_PROP0" index="2">
-		<file>domo.foot_print_monster_footprint.swf</file>
-		<x>332.2</x>
-		<y>241</y>
-		<xscale>0.62</xscale>
-		<yscale>0.62</yscale>
-		<face>1</face>
-		<rotation>0</rotation>
-	</prop>
-</compositebg>
+		<bg id="cbg_footprint_BG1" index="0">
+			<file>domo.foot_print_bg.swf</file>
+		</bg>
+		<prop id="cbg_footprint_PROP0" index="2">
+			<file>domo.foot_print_monster_footprint.swf</file>
+			<x>332.2</x>
+			<y>241</y>
+			<xscale>0.62</xscale>
+			<yscale>0.62</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+	</compositebg>
 	<prop id="msp_pot" name="Pot" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_pot_pot_still.swf" enable="Y" is_premium="N" aid="6854" money="0" sharing="0">
 		<state id="msp_pot_pot_still.swf" name="normal" enable="Y" default="Y"/>
 		<state id="msp_pot_pot_heat.swf" name="overheating" enable="Y"/>
@@ -558,17 +558,17 @@
 	<prop id="domo_home_table.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="6663" money="0" sharing="0"/>
 	<prop id="domo_home_frame.swf" name="TV" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="6662" money="0" sharing="0"/>
 	<prop id="bonzai.swf" name="Bonsai" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="6643" money="0" sharing="0"/>
-	<sound id="DOMO_1.swf" name="Domo 1" downloadtype="embed" subtype="voiceover" duration="1726" enable="Y" is_premium="N" aid="6858" money="0" sharing="0"/>
-	<sound id="DOMO_2.swf" name="Domo 2" downloadtype="embed" subtype="voiceover" duration="1543" enable="Y" is_premium="N" aid="6859" money="0" sharing="0"/>
-	<sound id="DOMO_3.swf" name="Domo 3" downloadtype="embed" subtype="voiceover" duration="1674" enable="Y" is_premium="N" aid="6860" money="0" sharing="0"/>
-	<sound id="DOMO_4.swf" name="Domo 4" downloadtype="embed" subtype="voiceover" duration="2013" enable="Y" is_premium="N" aid="6861" money="0" sharing="0"/>
-	<sound id="DOMO_5.swf" name="Domo 5" downloadtype="embed" subtype="voiceover" duration="1622" enable="Y" is_premium="N" aid="6862" money="0" sharing="0"/>
-	<sound id="USAJI_chuckle.swf" name="Mr. Usaji - Chuckle" downloadtype="embed" subtype="voiceover" duration="2484" enable="Y" is_premium="N" aid="6863" money="0" sharing="0"/>
-	<sound id="USAJI_hello_domo.swf" name="Mr. Usaji - Hello Domo" downloadtype="embed" subtype="voiceover" duration="1935" enable="Y" is_premium="N" aid="6864" money="0" sharing="0"/>
-	<sound id="USAJI_here_we_go.swf" name="Mr. Usaji - Here we go" downloadtype="embed" subtype="voiceover" duration="1726" enable="Y" is_premium="N" aid="6865" money="0" sharing="0"/>
-	<sound id="USAJI_not_funny.swf" name="Mr. Usaji - Not funny" downloadtype="embed" subtype="voiceover" duration="1778" enable="Y" is_premium="N" aid="6866" money="0" sharing="0"/>
-	<sound id="USAJI_stop.swf" name="Mr. Usaji - Stop Domo" downloadtype="embed" subtype="voiceover" duration="1439" enable="Y" is_premium="N" aid="6867" money="0" sharing="0"/>
-	<sound id="USAJI_whats_matter.swf" name="Mr. Usaji - What's the matter" downloadtype="embed" subtype="voiceover" duration="1413" enable="Y" is_premium="N" aid="6868" money="0" sharing="0"/>
+	<sound id="DOMO_1.swf" name="Domo 1" downloadtype="embed" subtype="soundeffect" duration="1726" enable="Y" is_premium="N" aid="6858" money="0" sharing="0"/>
+	<sound id="DOMO_2.swf" name="Domo 2" downloadtype="embed" subtype="soundeffect" duration="1543" enable="Y" is_premium="N" aid="6859" money="0" sharing="0"/>
+	<sound id="DOMO_3.swf" name="Domo 3" downloadtype="embed" subtype="soundeffect" duration="1674" enable="Y" is_premium="N" aid="6860" money="0" sharing="0"/>
+	<sound id="DOMO_4.swf" name="Domo 4" downloadtype="embed" subtype="soundeffect" duration="2013" enable="Y" is_premium="N" aid="6861" money="0" sharing="0"/>
+	<sound id="DOMO_5.swf" name="Domo 5" downloadtype="embed" subtype="soundeffect" duration="1622" enable="Y" is_premium="N" aid="6862" money="0" sharing="0"/>
+	<sound id="USAJI_chuckle.swf" name="Mr. Usaji - Chuckle" downloadtype="embed" subtype="soundeffect" duration="2484" enable="Y" is_premium="N" aid="6863" money="0" sharing="0"/>
+	<sound id="USAJI_hello_domo.swf" name="Mr. Usaji - Hello Domo" downloadtype="embed" subtype="soundeffect" duration="1935" enable="Y" is_premium="N" aid="6864" money="0" sharing="0"/>
+	<sound id="USAJI_here_we_go.swf" name="Mr. Usaji - Here we go" downloadtype="embed" subtype="soundeffect" duration="1726" enable="Y" is_premium="N" aid="6865" money="0" sharing="0"/>
+	<sound id="USAJI_not_funny.swf" name="Mr. Usaji - Not funny" downloadtype="embed" subtype="soundeffect" duration="1778" enable="Y" is_premium="N" aid="6866" money="0" sharing="0"/>
+	<sound id="USAJI_stop.swf" name="Mr. Usaji - Stop Domo" downloadtype="embed" subtype="soundeffect" duration="1439" enable="Y" is_premium="N" aid="6867" money="0" sharing="0"/>
+	<sound id="USAJI_whats_matter.swf" name="Mr. Usaji - What's the matter" downloadtype="embed" subtype="soundeffect" duration="1413" enable="Y" is_premium="N" aid="6868" money="0" sharing="0"/>
 	<effect id="dim.swf" type="ANIME" resize="0" move="0" name="Dim" enable="Y" is_premium="N" aid="6869" money="0" sharing="0"/>
 	<effect id="raining.swf" type="ANIME" resize="0" move="0" name="Raining" enable="Y" is_premium="N" aid="6870" money="0" sharing="0"/>
 </theme>

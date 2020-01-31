@@ -1754,14 +1754,14 @@
 	<sound id="Buttons_on_the_Bridge.mp3" name="Buttons on the Bridge" downloadtype="progressive" subtype="soundeffect" duration="14423" enable="Y" is_premium="N" aid="5315" money="0" sharing="0"/>
 	<sound id="Comedy_Background_FX.mp3" name="Comedy Background FX" downloadtype="progressive" subtype="soundeffect" duration="23932" enable="Y" is_premium="N" aid="5316" money="0" sharing="0"/>
 	<sound id="Communicator.swf" name="Communicator" downloadtype="embed" subtype="soundeffect" duration="1334" enable="Y" is_premium="N" aid="5317" money="0" sharing="0"/>
-	<sound id="Computer_DIA_Accomplished.swf" name="Computer DIA Accomplished" downloadtype="embed" subtype="voiceover" duration="1950" enable="Y" is_premium="N" aid="5318" money="0" sharing="0"/>
-	<sound id="Computer_DIA_Affirmative.swf" name="Computer DIA Affirmative" downloadtype="embed" subtype="voiceover" duration="653" enable="Y" is_premium="N" aid="5319" money="0" sharing="0"/>
-	<sound id="Computer_DIA_Computer_Working.swf" name="Computer DIA Computer Working" downloadtype="embed" subtype="voiceover" duration="1133" enable="Y" is_premium="N" aid="5320" money="0" sharing="0"/>
-	<sound id="Computer_DIA_Data_being_received.swf" name="Computer DIA Data being received" downloadtype="embed" subtype="voiceover" duration="1608" enable="Y" is_premium="N" aid="5321" money="0" sharing="0"/>
-	<sound id="Computer_DIA_Insufficient.swf" name="Computer DIA Insufficient" downloadtype="embed" subtype="voiceover" duration="3246" enable="Y" is_premium="N" aid="5322" money="0" sharing="0"/>
-	<sound id="Computer_DIA_Library_computer.swf" name="Computer DIA Library computer" downloadtype="embed" subtype="voiceover" duration="1230" enable="Y" is_premium="N" aid="5323" money="0" sharing="0"/>
-	<sound id="Computer_DIA_Type_unknown.swf" name="Computer DIA Type unknown" downloadtype="embed" subtype="voiceover" duration="1349" enable="Y" is_premium="N" aid="5324" money="0" sharing="0"/>
-	<sound id="Computer_DIA_Working.swf" name="Computer DIA Working" downloadtype="embed" subtype="voiceover" duration="484" enable="Y" is_premium="N" aid="5325" money="0" sharing="0"/>
+	<sound id="Computer_DIA_Accomplished.swf" name="Computer DIA Accomplished" downloadtype="embed" subtype="soundeffect" duration="1950" enable="Y" is_premium="N" aid="5318" money="0" sharing="0"/>
+	<sound id="Computer_DIA_Affirmative.swf" name="Computer DIA Affirmative" downloadtype="embed" subtype="soundeffect" duration="653" enable="Y" is_premium="N" aid="5319" money="0" sharing="0"/>
+	<sound id="Computer_DIA_Computer_Working.swf" name="Computer DIA Computer Working" downloadtype="embed" subtype="soundeffect" duration="1133" enable="Y" is_premium="N" aid="5320" money="0" sharing="0"/>
+	<sound id="Computer_DIA_Data_being_received.swf" name="Computer DIA Data being received" downloadtype="embed" subtype="soundeffect" duration="1608" enable="Y" is_premium="N" aid="5321" money="0" sharing="0"/>
+	<sound id="Computer_DIA_Insufficient.swf" name="Computer DIA Insufficient" downloadtype="embed" subtype="soundeffect" duration="3246" enable="Y" is_premium="N" aid="5322" money="0" sharing="0"/>
+	<sound id="Computer_DIA_Library_computer.swf" name="Computer DIA Library computer" downloadtype="embed" subtype="soundeffect" duration="1230" enable="Y" is_premium="N" aid="5323" money="0" sharing="0"/>
+	<sound id="Computer_DIA_Type_unknown.swf" name="Computer DIA Type unknown" downloadtype="embed" subtype="soundeffect" duration="1349" enable="Y" is_premium="N" aid="5324" money="0" sharing="0"/>
+	<sound id="Computer_DIA_Working.swf" name="Computer DIA Working" downloadtype="embed" subtype="soundeffect" duration="484" enable="Y" is_premium="N" aid="5325" money="0" sharing="0"/>
 	<sound id="Corridor.mp3" name="Corridor" downloadtype="progressive" subtype="soundeffect" duration="30567" enable="Y" is_premium="N" aid="5326" money="0" sharing="0"/>
 	<sound id="Eminar_7_Battle_Computer.mp3" name="Eminar 7 Battle Computer" downloadtype="progressive" subtype="soundeffect" duration="17166" enable="Y" is_premium="N" aid="5327" money="0" sharing="0"/>
 	<sound id="Engineering_Room.mp3" name="Engineering Room" downloadtype="progressive" subtype="soundeffect" duration="28059" enable="Y" is_premium="N" aid="5328" money="0" sharing="0"/>

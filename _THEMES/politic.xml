@@ -1925,7 +1925,7 @@
 	<sound id="tension builds up.swf" name="Build up tension" downloadtype="progressive" subtype="bgmusic" duration="59000" enable="Y" is_premium="N" aid="2855" money="0" sharing="0"/>
 	<sound id="laugh_4.swf" name="Laugh" downloadtype="embed" subtype="soundeffect" duration="4700" enable="Y" is_premium="N" aid="2856" money="0" sharing="0"/>
 	<sound id="shot.swf" name="Gun Shot" downloadtype="embed" subtype="soundeffect" duration="500" enable="Y" is_premium="N" aid="2857" money="0" sharing="0"/>
-	<sound id="bushism_internets.swf" name="Bushism, the Internet" downloadtype="embed" subtype="voiceover" duration="9000" enable="Y" is_premium="N" aid="2858" money="0" sharing="0"/>
+	<sound id="bushism_internets.swf" name="Bushism, the Internet" downloadtype="embed" subtype="soundeffect" duration="9000" enable="Y" is_premium="N" aid="2858" money="0" sharing="0"/>
 	<sound id="The_First_Noel.swf" name="The First Noel" downloadtype="progressive" subtype="bgmusic" duration="59400" enable="Y" is_premium="N" aid="2859" money="0" sharing="0"/>
 	<sound id="Action.swf" name="Action" downloadtype="progressive" subtype="bgmusic" duration="14500" enable="Y" is_premium="N" aid="2860" money="0" sharing="0"/>
 	<sound id="Suspense.swf" name="Suspense" downloadtype="progressive" subtype="bgmusic" duration="128500" enable="Y" is_premium="N" aid="2861" money="0" sharing="0"/>

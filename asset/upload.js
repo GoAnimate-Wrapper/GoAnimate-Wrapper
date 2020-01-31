@@ -4,7 +4,7 @@ const asset = require('./main');
 const fs = require('fs');
 
 module.exports = function (req, res, url) {
-	if (req.method != 'POST' || url.path != '/upload_asset') return;
+	if (req.method != 'POST' || url.path != '/upload_asset/') return;
 	new formidable.IncomingForm().parse(req, (e, f, files) => {
 		const path = files.import.path, buffer = fs.readFileSync(path);
 		const mId = sessions.get(req).movieId;

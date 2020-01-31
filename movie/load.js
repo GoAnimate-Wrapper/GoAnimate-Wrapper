@@ -3,7 +3,7 @@ const base = Buffer.alloc(1, 0);
 
 module.exports = function (req, res, url) {
 	switch (req.method) {
-		case 'GET':
+		case 'GET': {
 			const match = req.url.match(/\/movies\/([^.]+)(?:\.(zip|xml))?$/);
 			if (!match) return;
 
@@ -20,8 +20,9 @@ module.exports = function (req, res, url) {
 						.catch(e => { res.statusCode = 404, res.end() })
 			}
 			return true;
+		}
 
-		case 'POST':
+		case 'POST': {
 			if (!url.path.startsWith('/goapi/getMovie/')) return;
 			res.setHeader('Content-Type', 'application/zip');
 
@@ -29,5 +30,7 @@ module.exports = function (req, res, url) {
 				res.end(Buffer.concat([base, b]))
 			).catch(e => res.end('1'));
 			return true;
+		}
+		default: return;
 	}
 }

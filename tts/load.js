@@ -24,7 +24,8 @@ function processVoice(voiceName, text) {
 					r.on('data', b => buffers.push(b));
 					r.on('end', () => {
 						var json = JSON.parse(Buffer.concat(buffers));
-						get(`https://pollyvoices.com${json.file}`).then(res);
+						if (json) get(`https://pollyvoices.com${json.file}`).then(res);
+						else rej();
 					});
 				});
 				req.write(qs.encode({ text: text, voice: voice.arg }));

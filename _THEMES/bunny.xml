@@ -55,16 +55,16 @@
 		<facial id="head_talk_happy.swf" name="talk happy" enable="Y" aid="6922"/>
 		<facial id="head_neutral.swf" name="neutral" enable="Y" aid="8495"/>
 		<colorset enable="Y" aid="6923">
-	<color r="hbskin">0xFFFFFF</color>
-	<color r="hbeye">0x006AB6</color>
-	<color r="hbnose">0xF175AD</color>
-	<color r="hbgown">0xEE3338</color>
-</colorset>
+			<color r="hbskin">0xFFFFFF</color>
+			<color r="hbeye">0x006AB6</color>
+			<color r="hbnose">0xF175AD</color>
+			<color r="hbgown">0xEE3338</color>
+		</colorset>
 		<c_parts>
-	<c_area>hbskin</c_area>
-	<c_area>hbeye</c_area>
-	<c_area>hbnose</c_area>
-</c_parts>
+			<c_area>hbskin</c_area>
+			<c_area>hbeye</c_area>
+			<c_area>hbnose</c_area>
+		</c_parts>
 	</char>
 	<char id="devil_bunny" name="Devil Bunny" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="6112" money="0" sharing="100">
 		<category name="cover">
@@ -186,61 +186,61 @@
 		<action id="falling.swf" name="falling" loop="Y" totalframe="19" enable="Y" aid="6928"/>
 		<facial id="head_neutral.swf" name="neutral" enable="Y" aid="8493"/>
 		<colorset enable="Y" aid="6105">
-	<color r="hbskin">0xFFFFFF</color>
-	<color r="hbeye">0x006AB6</color>
-	<color r="hbnose">0xF175AD</color>
-	<color r="hbthumb">0xF175AD</color>
-	<color r="hbbelly">0xF8BDD7</color>
-</colorset>
+			<color r="hbskin">0xFFFFFF</color>
+			<color r="hbeye">0x006AB6</color>
+			<color r="hbnose">0xF175AD</color>
+			<color r="hbthumb">0xF175AD</color>
+			<color r="hbbelly">0xF8BDD7</color>
+		</colorset>
 		<colorset enable="Y" aid="6106">
-	<color r="hbskin">0xED1A29</color>
-	<color r="hbeye">0x000000</color>
-	<color r="hbnose">0x000000</color>
-	<color r="hbthumb">0xF176AD</color>
-	<color r="hbbelly">0xFFFFFF</color>
-</colorset>
+			<color r="hbskin">0xED1A29</color>
+			<color r="hbeye">0x000000</color>
+			<color r="hbnose">0x000000</color>
+			<color r="hbthumb">0xF176AD</color>
+			<color r="hbbelly">0xFFFFFF</color>
+		</colorset>
 		<colorset enable="Y" aid="6107">
-	<color r="hbskin">0xFFF200</color>
-	<color r="hbeye">0x000000</color>
-	<color r="hbnose">0xF175AD</color>
-	<color r="hbthumb">0xF176AD</color>
-	<color r="hbbelly">0xFFFFFF</color>
-</colorset>
+			<color r="hbskin">0xFFF200</color>
+			<color r="hbeye">0x000000</color>
+			<color r="hbnose">0xF175AD</color>
+			<color r="hbthumb">0xF176AD</color>
+			<color r="hbbelly">0xFFFFFF</color>
+		</colorset>
 		<colorset enable="Y" aid="6108">
-	<color r="hbskin">0x000000</color>
-	<color r="hbeye">0xEE1A24</color>
-	<color r="hbnose">0xF275AC</color>
-	<color r="hbthumb">0x000000</color>
-	<color r="hbbelly">0xEE1A24</color>
-</colorset>
+			<color r="hbskin">0x000000</color>
+			<color r="hbeye">0xEE1A24</color>
+			<color r="hbnose">0xF275AC</color>
+			<color r="hbthumb">0x000000</color>
+			<color r="hbbelly">0xEE1A24</color>
+		</colorset>
 		<colorset enable="Y" aid="6109">
-	<color r="hbskin">0xC39FCA</color>
-	<color r="hbeye">0x000000</color>
-	<color r="hbnose">0xE4028C</color>
-	<color r="hbthumb">0xE4028C</color>
-	<color r="hbbelly">0xFFFFFF</color>
-</colorset>
+			<color r="hbskin">0xC39FCA</color>
+			<color r="hbeye">0x000000</color>
+			<color r="hbnose">0xE4028C</color>
+			<color r="hbthumb">0xE4028C</color>
+			<color r="hbbelly">0xFFFFFF</color>
+		</colorset>
 		<colorset enable="Y" aid="6110">
-	<color r="hbskin">0x00ADEF</color>
-	<color r="hbeye">0x000000</color>
-	<color r="hbnose">0xF173AD</color>
-	<color r="hbthumb">0xF176AD</color>
-	<color r="hbbelly">0xFFFFFF</color>
-</colorset>
+			<color r="hbskin">0x00ADEF</color>
+			<color r="hbeye">0x000000</color>
+			<color r="hbnose">0xF173AD</color>
+			<color r="hbthumb">0xF176AD</color>
+			<color r="hbbelly">0xFFFFFF</color>
+		</colorset>
 		<colorset enable="Y" aid="6111">
-	<color r="hbskin">0xFAD1E3</color>
-	<color r="hbeye">0x000000</color>
-	<color r="hbnose">0xF173AD</color>
-	<color r="hbthumb">0xF176AD</color>
-	<color r="hbbelly">0xFFFFFF</color>
-</colorset>
+			<color r="hbskin">0xFAD1E3</color>
+			<color r="hbeye">0x000000</color>
+			<color r="hbnose">0xF173AD</color>
+			<color r="hbthumb">0xF176AD</color>
+			<color r="hbbelly">0xFFFFFF</color>
+		</colorset>
 		<c_parts>
-	<c_area>hbskin</c_area>
-	<c_area>hbeye</c_area>
-	<c_area>hbnose</c_area>
-	<c_area>hbthumb</c_area>
-	<c_area>hbbelly</c_area>
-</c_parts>
+			<c_area>hbskin</c_area>
+			<c_area>hbeye</c_area>
+			<c_area>hbnose</c_area>
+			<c_area>hbthumb</c_area>
+			<c_area>hbbelly</c_area>
+		</c_parts>
 	</char>
 	<char id="chick" name="chick" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="6929" money="0" sharing="40">
 		<action id="standing.swf" name="standing" loop="Y" totalframe="2" enable="Y" aid="6930"/>
@@ -317,84 +317,84 @@
 	</char>
 	<background id="split_bg.swf" name="split bg" enable="Y" is_premium="N" aid="6159" money="0" sharing="0">
 		<colorset enable="Y" aid="6160">
-	<color r="hbleft">0xFF9999</color>
-	<color r="hbright">0xFFCCCC</color>
-</colorset>
+			<color r="hbleft">0xFF9999</color>
+			<color r="hbright">0xFFCCCC</color>
+		</colorset>
 		<c_parts>
-	<c_area>hbleft</c_area>
-	<c_area>hbright</c_area>
-</c_parts>
+			<c_area>hbleft</c_area>
+			<c_area>hbright</c_area>
+		</c_parts>
 	</background>
 	<background id="dotted_background.swf" name="dots" enable="Y" is_premium="N" aid="6992" money="0" sharing="0"/>
 	<background id="underground.swf" name="underground" enable="Y" is_premium="N" aid="6991" money="0" sharing="0"/>
 	<background id="path.swf" name="path" enable="Y" is_premium="N" aid="6990" money="0" sharing="0"/>
 	<background id="low.swf" name="Low Horizon" enable="Y" is_premium="N" aid="6173" money="0" sharing="0">
 		<colorset enable="Y" aid="6174">
-	<color r="hbtop">0xF6F1A2</color>
-	<color r="hbbottom">0xCBDF7E</color>
-</colorset>
+			<color r="hbtop">0xF6F1A2</color>
+			<color r="hbbottom">0xCBDF7E</color>
+		</colorset>
 		<c_parts>
-	<c_area>hbtop</c_area>
-	<c_area>hbbottom</c_area>
-</c_parts>
+			<c_area>hbtop</c_area>
+			<c_area>hbbottom</c_area>
+		</c_parts>
 	</background>
 	<background id="medium.swf" name="Medium Horizon" enable="Y" is_premium="N" aid="6171" money="0" sharing="0">
 		<colorset enable="Y" aid="6172">
-	<color r="hbtop">0xD99177</color>
-	<color r="hbbottom">0xC56347</color>
-</colorset>
+			<color r="hbtop">0xD99177</color>
+			<color r="hbbottom">0xC56347</color>
+		</colorset>
 		<c_parts>
-	<c_area>hbtop</c_area>
-	<c_area>hbbottom</c_area>
-</c_parts>
+			<c_area>hbtop</c_area>
+			<c_area>hbbottom</c_area>
+		</c_parts>
 	</background>
 	<background id="high.swf" name="High Horizon" enable="Y" default="Y" is_premium="N" aid="6169" money="0" sharing="0">
 		<colorset enable="Y" aid="6170">
-	<color r="hbtop">0x66ACDC</color>
-	<color r="hbbottom">0x78C583</color>
-</colorset>
+			<color r="hbtop">0x66ACDC</color>
+			<color r="hbbottom">0x78C583</color>
+		</colorset>
 		<c_parts>
-	<c_area>hbtop</c_area>
-	<c_area>hbbottom</c_area>
-</c_parts>
+			<c_area>hbtop</c_area>
+			<c_area>hbbottom</c_area>
+		</c_parts>
 	</background>
 	<background id="uniform.swf" name="Single Uniform" enable="Y" is_premium="N" aid="6165" money="0" sharing="0">
 		<colorset enable="Y" aid="6166">
-	<color r="hbuniform">0x7FC31C</color>
-</colorset>
+			<color r="hbuniform">0x7FC31C</color>
+		</colorset>
 		<colorset enable="Y" aid="6167">
-	<color r="hbuniform">0x41B1C9</color>
-</colorset>
+			<color r="hbuniform">0x41B1C9</color>
+		</colorset>
 		<colorset enable="Y" aid="6168">
-	<color r="hbuniform">0xF668B2</color>
-</colorset>
+			<color r="hbuniform">0xF668B2</color>
+		</colorset>
 		<c_parts>
-	<c_area>hbuniform</c_area>
-</c_parts>
+			<c_area>hbuniform</c_area>
+		</c_parts>
 	</background>
 	<background id="interior_right.swf" name="interior right" enable="Y" is_premium="N" aid="6163" money="0" sharing="0">
 		<colorset enable="Y" aid="6164">
-	<color r="hbsidewall">0xCF715A</color>
-	<color r="hbwall">0xD99177</color>
-	<color r="hbfloor">0xC56347</color>
-</colorset>
+			<color r="hbsidewall">0xCF715A</color>
+			<color r="hbwall">0xD99177</color>
+			<color r="hbfloor">0xC56347</color>
+		</colorset>
 		<c_parts>
-	<c_area>hbsidewall</c_area>
-	<c_area>hbwall</c_area>
-	<c_area>hbfloor</c_area>
-</c_parts>
+			<c_area>hbsidewall</c_area>
+			<c_area>hbwall</c_area>
+			<c_area>hbfloor</c_area>
+		</c_parts>
 	</background>
 	<background id="interior_left.swf" name="interior left" enable="Y" is_premium="N" aid="6161" money="0" sharing="0">
 		<colorset enable="Y" aid="6162">
-	<color r="hbsidewall">0xCF715A</color>
-	<color r="hbwall">0xD99177</color>
-	<color r="hbfloor">0xC56347</color>
-</colorset>
+			<color r="hbsidewall">0xCF715A</color>
+			<color r="hbwall">0xD99177</color>
+			<color r="hbfloor">0xC56347</color>
+		</colorset>
 		<c_parts>
-	<c_area>hbsidewall</c_area>
-	<c_area>hbwall</c_area>
-	<c_area>hbfloor</c_area>
-</c_parts>
+			<c_area>hbsidewall</c_area>
+			<c_area>hbwall</c_area>
+			<c_area>hbfloor</c_area>
+		</c_parts>
 	</background>
 	<background id="cool_circle.swf" name="ripples" enable="Y" is_premium="N" aid="6993" money="0" sharing="0"/>
 	<prop id="msp_vampire_mask" name="vampire mask" holdable="0" placeable="0" wearable="1" facing="left" thumb="msp_vampire_mask_default.swf" enable="Y" is_premium="N" aid="6175" money="0" sharing="0">
@@ -464,9 +464,9 @@
 	<sound id="focus_on_me.swf" name="Let's Focus on Me" downloadtype="embed" subtype="soundeffect" duration="1599" enable="Y" is_premium="N" aid="6206" money="0" sharing="0"/>
 	<sound id="suck_sad.swf" name="You Suck and That's Sad." downloadtype="embed" subtype="soundeffect" duration="2304" enable="Y" is_premium="N" aid="6207" money="0" sharing="0"/>
 	<bubble id="bunnyQuote" x="0" y="0" w="180" h="90" rotate="0" isShowMsg="Y" thumb="bunny_quote.swf" type="BLANK" enable="Y" aid="6208" is_premium="N" money="0" sharing="0">
-	<body rgb="0xFFFFFF" linergb="0" tailx="180" taily="110"/>
-	<text rgb="0" font="Accidental Presidency" size="20" align="center" bold="false" italic="false">Click here to edit</text>
-</bubble>
+		<body rgb="0xFFFFFF" linergb="0" tailx="180" taily="110"/>
+		<text rgb="0" font="Accidental Presidency" size="20" align="center" bold="false" italic="false">Click here to edit</text>
+	</bubble>
 	<effect id="spray.swf" type="ANIME" resize="0" move="0" name="spray" enable="Y" is_premium="N" aid="7019" money="0" sharing="0"/>
 	<presetMsg id="bunny_pm1" quote="2cute 2talk 2u" enable="Y" aid="6209" is_premium="N" money="0" sharing="0"/>
 	<presetMsg id="bunny_pm2" quote="Bite It Sideways Pal" enable="Y" aid="6210" is_premium="N" money="0" sharing="0"/>

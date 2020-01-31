@@ -3,7 +3,7 @@ const character = require('./main');
 
 module.exports = function (req, res) {
 	switch (req.method) {
-		case 'GET':
+		case 'GET': {
 			const match = req.url.match(/\/characters\/([^.]+)(?:\.xml)?$/);
 			if (!match) return;
 
@@ -12,8 +12,9 @@ module.exports = function (req, res) {
 			character.load(id).then(v => { res.statusCode = 200, res.end(v) })
 				.catch(e => { res.statusCode = 404, res.end(e) })
 			return true;
+		}
 
-		case 'POST':
+		case 'POST': {
 			if (req.url != '/goapi/getCcCharCompositionXml/') return;
 			loadPost(req, res).then(async data => {
 				res.setHeader('Content-Type', 'text/html; charset=UTF-8');
@@ -25,6 +26,7 @@ module.exports = function (req, res) {
 					.catch(() => character.load('a-306687427').then(v => { res.statusCode = 200, res.end(0 + v) }))
 			});
 			return true;
+		}
 		default: return;
 	}
 }

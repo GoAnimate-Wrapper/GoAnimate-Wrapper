@@ -1013,20 +1013,20 @@
 	<sound id="sound_Balrog_Stage.mp3" name="Balrog stage" downloadtype="progressive" subtype="bgmusic" duration="103738" enable="Y" is_premium="N" aid="4605" money="0" sharing="0"/>
 	<sound id="sound_Balrog.swf" name="Balrog" downloadtype="embed" subtype="soundeffect" duration="920" enable="Y" is_premium="N" aid="4606" money="0" sharing="0"/>
 	<sound id="sound_Bison.swf" name="M. Bison" downloadtype="embed" subtype="soundeffect" duration="920" enable="Y" is_premium="N" aid="4607" money="0" sharing="0"/>
-	<sound id="sound_Blanka_Roar.swf" name="Blanka roar" downloadtype="embed" subtype="voiceover" duration="2513" enable="Y" is_premium="N" aid="4608" money="0" sharing="0"/>
+	<sound id="sound_Blanka_Roar.swf" name="Blanka roar" downloadtype="embed" subtype="soundeffect" duration="2513" enable="Y" is_premium="N" aid="4608" money="0" sharing="0"/>
 	<sound id="sound_Blanka_Stage.mp3" name="Blanka stage" downloadtype="progressive" subtype="bgmusic" duration="88143" enable="Y" is_premium="N" aid="4609" money="0" sharing="0"/>
 	<sound id="sound_Blanka.swf" name="Blanka" downloadtype="embed" subtype="soundeffect" duration="920" enable="Y" is_premium="N" aid="4610" money="0" sharing="0"/>
 	<sound id="sound_Bonus_Stage.mp3" name="bonus stage" downloadtype="progressive" subtype="bgmusic" duration="40991" enable="Y" is_premium="N" aid="4611" money="0" sharing="0"/>
-	<sound id="sound_ChunLi_SpinningBirdKick.swf" name="Chun Li Spinning Bird Kick" downloadtype="embed" subtype="voiceover" duration="1416" enable="Y" is_premium="N" aid="4612" money="0" sharing="0"/>
+	<sound id="sound_ChunLi_SpinningBirdKick.swf" name="Chun Li Spinning Bird Kick" downloadtype="embed" subtype="soundeffect" duration="1416" enable="Y" is_premium="N" aid="4612" money="0" sharing="0"/>
 	<sound id="sound_ChunLi_Stage.mp3" name="Chun Li stage" downloadtype="progressive" subtype="bgmusic" duration="92583" enable="Y" is_premium="N" aid="4613" money="0" sharing="0"/>
 	<sound id="sound_ChunLi.swf" name="Chun Li" downloadtype="embed" subtype="soundeffect" duration="1050" enable="Y" is_premium="N" aid="4614" money="0" sharing="0"/>
 	<sound id="sound_Congratulations.mp3" name="Congrats" downloadtype="progressive" subtype="bgmusic" duration="51571" enable="Y" is_premium="N" aid="4615" money="0" sharing="0"/>
 	<sound id="sound_Dhalsim_Stage.mp3" name="Dhalsim stage" downloadtype="progressive" subtype="bgmusic" duration="88848" enable="Y" is_premium="N" aid="4616" money="0" sharing="0"/>
-	<sound id="sound_Dhalsim_YogaFire.swf" name="Dhalsim Yoga Fire" downloadtype="embed" subtype="voiceover" duration="1129" enable="Y" is_premium="N" aid="4617" money="0" sharing="0"/>
-	<sound id="sound_Dhalsim_YogaFlame.swf" name="Dhalsim Yoga Flame" downloadtype="embed" subtype="voiceover" duration="1416" enable="Y" is_premium="N" aid="4618" money="0" sharing="0"/>
+	<sound id="sound_Dhalsim_YogaFire.swf" name="Dhalsim Yoga Fire" downloadtype="embed" subtype="soundeffect" duration="1129" enable="Y" is_premium="N" aid="4617" money="0" sharing="0"/>
+	<sound id="sound_Dhalsim_YogaFlame.swf" name="Dhalsim Yoga Flame" downloadtype="embed" subtype="soundeffect" duration="1416" enable="Y" is_premium="N" aid="4618" money="0" sharing="0"/>
 	<sound id="sound_Dhalsim.swf" name="Dhalsim" downloadtype="embed" subtype="soundeffect" duration="920" enable="Y" is_premium="N" aid="4619" money="0" sharing="0"/>
 	<sound id="sound_EHonda_Stage.mp3" name="E. Honda stage" downloadtype="progressive" subtype="bgmusic" duration="105305" enable="Y" is_premium="N" aid="4620" money="0" sharing="0"/>
-	<sound id="sound_EHonda_SuperZutsuki.swf" name="E. Honda Super Zutsuki" downloadtype="embed" subtype="voiceover" duration="737" enable="Y" is_premium="N" aid="4621" money="0" sharing="0"/>
+	<sound id="sound_EHonda_SuperZutsuki.swf" name="E. Honda Super Zutsuki" downloadtype="embed" subtype="soundeffect" duration="737" enable="Y" is_premium="N" aid="4621" money="0" sharing="0"/>
 	<sound id="sound_EHonda.swf" name="E. Honda" downloadtype="embed" subtype="soundeffect" duration="1181" enable="Y" is_premium="N" aid="4622" money="0" sharing="0"/>
 	<sound id="sound_Evil_Laugh.swf" name="evil laugh" downloadtype="embed" subtype="soundeffect" duration="2069" enable="Y" is_premium="N" aid="4623" money="0" sharing="0"/>
 	<sound id="sound_Female_Hit.swf" name="female voice hit" downloadtype="embed" subtype="soundeffect" duration="632" enable="Y" is_premium="N" aid="4624" money="0" sharing="0"/>
@@ -1034,14 +1034,14 @@
 	<sound id="sound_Female_Laugh.swf" name="female voice laugh" downloadtype="embed" subtype="soundeffect" duration="1338" enable="Y" is_premium="N" aid="4626" money="0" sharing="0"/>
 	<sound id="sound_FinalRound.swf" name="final round fight" downloadtype="embed" subtype="soundeffect" duration="2487" enable="Y" is_premium="N" aid="4627" money="0" sharing="0"/>
 	<sound id="sound_GameOver.swf" name="game over" downloadtype="embed" subtype="soundeffect" duration="6092" enable="Y" is_premium="N" aid="4628" money="0" sharing="0"/>
-	<sound id="sound_Guile_SonicBoom.swf" name="Guile Sonic Boom" downloadtype="embed" subtype="voiceover" duration="1076" enable="Y" is_premium="N" aid="4629" money="0" sharing="0"/>
+	<sound id="sound_Guile_SonicBoom.swf" name="Guile Sonic Boom" downloadtype="embed" subtype="soundeffect" duration="1076" enable="Y" is_premium="N" aid="4629" money="0" sharing="0"/>
 	<sound id="sound_Guile_Stage.mp3" name="Guile stage" downloadtype="progressive" subtype="bgmusic" duration="126386" enable="Y" is_premium="N" aid="4630" money="0" sharing="0"/>
 	<sound id="sound_Guile.swf" name="Guile" downloadtype="embed" subtype="soundeffect" duration="920" enable="Y" is_premium="N" aid="4631" money="0" sharing="0"/>
 	<sound id="sound_HereComesNewChallenger.swf" name="here comes a new challenger" downloadtype="embed" subtype="soundeffect" duration="6118" enable="Y" is_premium="N" aid="4632" money="0" sharing="0"/>
-	<sound id="sound_Ken_Hadouken.swf" name="Ken Hadouken.mp3" downloadtype="embed" subtype="voiceover" duration="1024" enable="Y" is_premium="N" aid="4633" money="0" sharing="0"/>
-	<sound id="sound_Ken_Shoryuken.swf" name="Ken Shoryuken" downloadtype="embed" subtype="voiceover" duration="1076" enable="Y" is_premium="N" aid="4634" money="0" sharing="0"/>
+	<sound id="sound_Ken_Hadouken.swf" name="Ken Hadouken.mp3" downloadtype="embed" subtype="soundeffect" duration="1024" enable="Y" is_premium="N" aid="4633" money="0" sharing="0"/>
+	<sound id="sound_Ken_Shoryuken.swf" name="Ken Shoryuken" downloadtype="embed" subtype="soundeffect" duration="1076" enable="Y" is_premium="N" aid="4634" money="0" sharing="0"/>
 	<sound id="sound_Ken_Stage.mp3" name="Ken stage" downloadtype="progressive" subtype="bgmusic" duration="95013" enable="Y" is_premium="N" aid="4635" money="0" sharing="0"/>
-	<sound id="sound_Ken_TatsumakiSenpuukyaku.swf" name="Ken Tatsumaki Senpuukyaku" downloadtype="embed" subtype="voiceover" duration="1181" enable="Y" is_premium="N" aid="4636" money="0" sharing="0"/>
+	<sound id="sound_Ken_TatsumakiSenpuukyaku.swf" name="Ken Tatsumaki Senpuukyaku" downloadtype="embed" subtype="soundeffect" duration="1181" enable="Y" is_premium="N" aid="4636" money="0" sharing="0"/>
 	<sound id="sound_Ken.swf" name="Ken" downloadtype="embed" subtype="soundeffect" duration="737" enable="Y" is_premium="N" aid="4637" money="0" sharing="0"/>
 	<sound id="sound_Male_Hit1.swf" name="male hit 1" downloadtype="embed" subtype="soundeffect" duration="476" enable="Y" is_premium="N" aid="4638" money="0" sharing="0"/>
 	<sound id="sound_Male_Hit2.swf" name="male hit 2" downloadtype="embed" subtype="soundeffect" duration="554" enable="Y" is_premium="N" aid="4639" money="0" sharing="0"/>
@@ -1053,23 +1053,23 @@
 	<sound id="sound_PlayerSelect.mp3" name="player selection screen" downloadtype="progressive" subtype="bgmusic" duration="50761" enable="Y" is_premium="N" aid="4645" money="0" sharing="0"/>
 	<sound id="sound_Round1.swf" name="round 1 fight" downloadtype="embed" subtype="soundeffect" duration="2539" enable="Y" is_premium="N" aid="4646" money="0" sharing="0"/>
 	<sound id="sound_Round2.swf" name="round 2 fight" downloadtype="embed" subtype="soundeffect" duration="2670" enable="Y" is_premium="N" aid="4647" money="0" sharing="0"/>
-	<sound id="sound_Ryu_Hadouken.swf" name="Ryu Hadouken" downloadtype="embed" subtype="voiceover" duration="1181" enable="Y" is_premium="N" aid="4648" money="0" sharing="0"/>
-	<sound id="sound_Ryu_Shoryuken.swf" name="Ryu Shoryuken" downloadtype="embed" subtype="voiceover" duration="1259" enable="Y" is_premium="N" aid="4649" money="0" sharing="0"/>
+	<sound id="sound_Ryu_Hadouken.swf" name="Ryu Hadouken" downloadtype="embed" subtype="soundeffect" duration="1181" enable="Y" is_premium="N" aid="4648" money="0" sharing="0"/>
+	<sound id="sound_Ryu_Shoryuken.swf" name="Ryu Shoryuken" downloadtype="embed" subtype="soundeffect" duration="1259" enable="Y" is_premium="N" aid="4649" money="0" sharing="0"/>
 	<sound id="sound_Ryu_Stage.mp3" name="Ryu stage" downloadtype="progressive" subtype="bgmusic" duration="100838" enable="Y" is_premium="N" aid="4650" money="0" sharing="0"/>
-	<sound id="sound_Ryu_TatsumakiSenpuukyaku.swf" name="Ryu Tatsumaki Senpuukyaku" downloadtype="embed" subtype="voiceover" duration="1233" enable="Y" is_premium="N" aid="4651" money="0" sharing="0"/>
+	<sound id="sound_Ryu_TatsumakiSenpuukyaku.swf" name="Ryu Tatsumaki Senpuukyaku" downloadtype="embed" subtype="soundeffect" duration="1233" enable="Y" is_premium="N" aid="4651" money="0" sharing="0"/>
 	<sound id="sound_Ryu.swf" name="Ryu" downloadtype="embed" subtype="soundeffect" duration="815" enable="Y" is_premium="N" aid="4652" money="0" sharing="0"/>
 	<sound id="sound_Sagat_Stage.mp3" name="Sagat stage" downloadtype="progressive" subtype="bgmusic" duration="82866" enable="Y" is_premium="N" aid="4653" money="0" sharing="0"/>
-	<sound id="sound_Sagat_Tiger.swf" name="Sagat Tiger" downloadtype="embed" subtype="voiceover" duration="1651" enable="Y" is_premium="N" aid="4654" money="0" sharing="0"/>
-	<sound id="sound_Sagat_TigerUppercut.swf" name="Sagat Tiger Uppercut" downloadtype="embed" subtype="voiceover" duration="1338" enable="Y" is_premium="N" aid="4655" money="0" sharing="0"/>
+	<sound id="sound_Sagat_Tiger.swf" name="Sagat Tiger" downloadtype="embed" subtype="soundeffect" duration="1651" enable="Y" is_premium="N" aid="4654" money="0" sharing="0"/>
+	<sound id="sound_Sagat_TigerUppercut.swf" name="Sagat Tiger Uppercut" downloadtype="embed" subtype="soundeffect" duration="1338" enable="Y" is_premium="N" aid="4655" money="0" sharing="0"/>
 	<sound id="sound_Sagat.swf" name="Sagat" downloadtype="embed" subtype="soundeffect" duration="894" enable="Y" is_premium="N" aid="4656" money="0" sharing="0"/>
-	<sound id="sound_Vega_FlyingBarcelonaAttack.swf" name="Vega Flying Barcelona Attack" downloadtype="embed" subtype="voiceover" duration="1364" enable="Y" is_premium="N" aid="4657" money="0" sharing="0"/>
+	<sound id="sound_Vega_FlyingBarcelonaAttack.swf" name="Vega Flying Barcelona Attack" downloadtype="embed" subtype="soundeffect" duration="1364" enable="Y" is_premium="N" aid="4657" money="0" sharing="0"/>
 	<sound id="sound_Vega_Stage.mp3" name="Vega stage" downloadtype="progressive" subtype="bgmusic" duration="91878" enable="Y" is_premium="N" aid="4658" money="0" sharing="0"/>
-	<sound id="sound_Vega_Victory.swf" name="Vega victory shout" downloadtype="embed" subtype="voiceover" duration="1494" enable="Y" is_premium="N" aid="4659" money="0" sharing="0"/>
+	<sound id="sound_Vega_Victory.swf" name="Vega victory shout" downloadtype="embed" subtype="soundeffect" duration="1494" enable="Y" is_premium="N" aid="4659" money="0" sharing="0"/>
 	<sound id="sound_Vega.swf" name="Vega" downloadtype="embed" subtype="soundeffect" duration="920" enable="Y" is_premium="N" aid="4660" money="0" sharing="0"/>
 	<sound id="sound_Versus.swf" name="versus" downloadtype="embed" subtype="soundeffect" duration="1076" enable="Y" is_premium="N" aid="4661" money="0" sharing="0"/>
 	<sound id="sound_VersusScreen.swf" name="Versus" downloadtype="embed" subtype="bgmusic" duration="7555" enable="Y" is_premium="N" aid="4662" money="0" sharing="0"/>
 	<sound id="sound_You_Win.swf" name="you win" downloadtype="embed" subtype="soundeffect" duration="1181" enable="Y" is_premium="N" aid="4663" money="0" sharing="0"/>
-	<sound id="sound_Zangief_Lariat.swf" name="Zangief Lariat" downloadtype="embed" subtype="voiceover" duration="1259" enable="Y" is_premium="N" aid="4664" money="0" sharing="0"/>
+	<sound id="sound_Zangief_Lariat.swf" name="Zangief Lariat" downloadtype="embed" subtype="soundeffect" duration="1259" enable="Y" is_premium="N" aid="4664" money="0" sharing="0"/>
 	<sound id="sound_Zangief_Stage.mp3" name="Zangief stage" downloadtype="progressive" subtype="bgmusic" duration="94725" enable="Y" is_premium="N" aid="4665" money="0" sharing="0"/>
 	<sound id="sound_Zangief.swf" name="Zangief" downloadtype="embed" subtype="soundeffect" duration="867" enable="Y" is_premium="N" aid="4666" money="0" sharing="0"/>
 	<sound id="sound_combo_hit.swf" name="combo hi" downloadtype="embed" subtype="soundeffect" duration="2223" enable="Y" is_premium="N" aid="4771" money="0" sharing="0"/>

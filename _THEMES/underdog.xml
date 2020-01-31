@@ -609,12 +609,12 @@
 	<prop id="take_off_speed_line.swf" name="Take Off Speed Line" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3937" money="0" sharing="0"/>
 	<prop id="test_tube.swf" name="Test Tube" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3938" money="0" sharing="0"/>
 	<prop id="christmas_hat2.swf" name="Christmas Hat" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="4770" money="0" sharing="0"/>
-	<sound id="polly_where_underdog.swf" name="Sweet Polly Purebred-where is underdog" downloadtype="embed" subtype="voiceover" duration="13272" enable="Y" is_premium="N" aid="4033" money="0" sharing="0"/>
-	<sound id="riff_great_leader.swf" name="Riff Raff-Greatest Leader" downloadtype="embed" subtype="voiceover" duration="4704" enable="Y" is_premium="N" aid="4034" money="0" sharing="0"/>
-	<sound id="shoeshine_hip_hip.swf" name="Shoeshine-Hip hip Hip" downloadtype="embed" subtype="voiceover" duration="8400" enable="Y" is_premium="N" aid="4035" money="0" sharing="0"/>
-	<sound id="simon_ill_conquer_world.swf" name="Simon-ill conquer the world" downloadtype="embed" subtype="voiceover" duration="9576" enable="Y" is_premium="N" aid="4036" money="0" sharing="0"/>
-	<sound id="ud_no_need_fear.swf" name="Underdog-No Need to Fear" downloadtype="embed" subtype="voiceover" duration="4560" enable="Y" is_premium="N" aid="4037" money="0" sharing="0"/>
-	<sound id="ud_not_plane.swf" name="Underdog-Not Plane" downloadtype="embed" subtype="voiceover" duration="9528" enable="Y" is_premium="N" aid="4038" money="0" sharing="0"/>
+	<sound id="polly_where_underdog.swf" name="Sweet Polly Purebred-where is underdog" downloadtype="embed" subtype="soundeffect" duration="13272" enable="Y" is_premium="N" aid="4033" money="0" sharing="0"/>
+	<sound id="riff_great_leader.swf" name="Riff Raff-Greatest Leader" downloadtype="embed" subtype="soundeffect" duration="4704" enable="Y" is_premium="N" aid="4034" money="0" sharing="0"/>
+	<sound id="shoeshine_hip_hip.swf" name="Shoeshine-Hip hip Hip" downloadtype="embed" subtype="soundeffect" duration="8400" enable="Y" is_premium="N" aid="4035" money="0" sharing="0"/>
+	<sound id="simon_ill_conquer_world.swf" name="Simon-ill conquer the world" downloadtype="embed" subtype="soundeffect" duration="9576" enable="Y" is_premium="N" aid="4036" money="0" sharing="0"/>
+	<sound id="ud_no_need_fear.swf" name="Underdog-No Need to Fear" downloadtype="embed" subtype="soundeffect" duration="4560" enable="Y" is_premium="N" aid="4037" money="0" sharing="0"/>
+	<sound id="ud_not_plane.swf" name="Underdog-Not Plane" downloadtype="embed" subtype="soundeffect" duration="9528" enable="Y" is_premium="N" aid="4038" money="0" sharing="0"/>
 	<sound id="ud_open.swf" name="Underdog-Open" downloadtype="progressive" subtype="bgmusic" duration="38713" enable="Y" is_premium="N" aid="4039" money="0" sharing="0"/>
 	<sound id="ud_open.mp3" name="Underdog-Open" downloadtype="progressive" subtype="bgmusic" duration="38713" enable="Y" is_premium="N" aid="6054" money="0" sharing="0"/>
 	<presetMsg id="underdogpm1" quote="There's no need to fear! Underdog is here!" aid="3946" enable="Y" is_premium="N" money="0" sharing="0"/>
