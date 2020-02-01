@@ -12,6 +12,128 @@ const store = process.env.STORE_URL;
 const xmldoc = require('xmldoc');
 const fs = require('fs');
 
+function getCffFontFile(font) {
+	switch (font) {
+		case "Arial":
+			return "arial";
+		case "Blambot Casual":
+			return "causal";
+		case "BadaBoom BB":
+			return "boom";
+		case "Entrails BB":
+			return "entrails";
+		case "Tokyo Robot Intl BB":
+			return "tokyo";
+		case "Accidental Presidency":
+			return "accidental";
+		case "BodoniXT":
+			return "bodoni_xt";
+		case "Budmo Jiggler":
+			return "bjiggler";
+		case "Budmo Jigglish":
+			return "bjigglish";
+		case "Existence Light":
+			return "existence";
+		case "HeartlandRegular":
+			return "heartland";
+		case "Honey Script":
+			return "honey";
+		case "I hate Comic Sans":
+			return "ihate";
+		case "Impact Label":
+			return "impact_label";
+		case "loco tv":
+			return "locotv";
+		case "Mail Ray Stuff":
+			return "mail_ray";
+		case "Mia\'s Scribblings ~":
+			return "mia";
+		case "Shanghai":
+			return "shanghai";
+		case "Comic Book":
+			return "comic_book";
+		case "Wood Stamp":
+			return "wood_stamp";
+		case "Brawler":
+			return "brawler";
+		case "Coming Soon":
+			return "coming_soon";
+		case "Glegoo":
+			return "glegoo";
+		case "Lilita One":
+			return "lilita_one";
+		case "Telex Regular":
+			return "telex";
+		case "Claire Hand":
+			return "claire_hand";
+		case "Oswald":
+			return "oswald";
+		case "Poiret One":
+			return "poiretone";
+		case "Raleway":
+			return "raleway";
+		case "Bangers":
+			return "bangers";
+		case "Creepster":
+			return "creepster";
+		case "BlackoutMidnight":
+			return "blackoutmidnight";
+		case "BlackoutSunrise":
+			return "backoutsunrise";
+		case "Junction":
+			return "junction";
+		case "LeagueGothic":
+			return "leaguegothic";
+		case "LeagueSpartan":
+			return "leaguespartan";
+		case "OstrichSansMedium":
+			return "ostrichsansmedium";
+		case "Prociono":
+			return "prociono";
+		case "Lato":
+			return "lato";
+		case "Alegreya Sans SC":
+			return "alegreyasanssc";
+		case "Barrio":
+			return "barrio";
+		case "Bungee Inline":
+			return "bungeeinline";
+		case "Bungee Shade":
+			return "bungeeshade";
+		case "Gochi Hand":
+			return "gochihand";
+		case "IM Fell English SC":
+			return "imfellenglishsc";
+		case "Josefin":
+			return "josefin";
+		case "Kaushan":
+			return "kaushan";
+		case "Lobster":
+			return "lobster";
+		case "Montserrat":
+			return "montserrat";
+		case "Mouse Memoirs":
+			return "mousememoirs";
+		case "Patrick Hand":
+			return "patrickhand";
+		case "Permanent Marker":
+			return "permanentmarker";
+		case "Satisfy":
+			return "satisfy";
+		case "Sriracha":
+			return "sriracha";
+		case "Teko":
+			return "teko";
+		case "Vidaloka":
+			return "vidaloka";
+		case '':
+		case null:
+			return '';
+		default:
+			return `CffFontFile${font}`;
+	}
+}
+
 function useBase64(aId) {
 	switch (aId.substr(aId.lastIndexOf('.') + 1)) {
 		case 'xml':
@@ -89,7 +211,7 @@ module.exports = {
 
 					var ttsData = element.childNamed('ttsdata');
 					if (sfile.endsWith('.swf')) {
-						const pieces = sFile.split('.');
+						const pieces = sfile.split('.');
 						const theme = pieces[0], name = pieces[1];
 						const url = `${store}/${theme}/sound/${name}.swf`;
 						const fileName = `${theme}.sound.${name}.swf`;
@@ -213,7 +335,8 @@ module.exports = {
 							case 'bubbleAsset': {
 								const bubble = piece.childNamed('bubble');
 								const text = bubble.childNamed('text');
-								const fontSrc = `${source}/go/font/FontFile${text.attr.font}.swf`;
+								const font = getCffFontFile(text.attr.font);
+								const fontSrc = `${source}/go/font2/FontFile${font}.swf`;
 								fUtil.addToZip(zip, `FontFile${text.attr.font}.swf`, await get(fontSrc));
 								break;
 							}

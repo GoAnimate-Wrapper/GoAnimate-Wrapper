@@ -24,7 +24,7 @@ function processVoice(voiceName, text) {
 					r.on('data', b => buffers.push(b));
 					r.on('end', () => {
 						var json = JSON.parse(Buffer.concat(buffers));
-						if (json) get(`https://pollyvoices.com${json.file}`).then(res);
+						if (json.file) get(`https://pollyvoices.com${json.file}`).then(res);
 						else rej();
 					});
 				});

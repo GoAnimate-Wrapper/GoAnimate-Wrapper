@@ -33,7 +33,7 @@
 						<div></div>
 						<a href="/cc?themeId=ninja&bs=default">Chibi Ninjas</a>
 						<div></div>
-						
+
 					</menu>
 				</div>
 				<a href="/go_full" class="button_big">MAKE A VIDEO</a>
@@ -41,7 +41,7 @@
 		</div>
 		<div class="warning">
 			This service is not finished yet; some features may not be available at this time. Any and all videos may be
-			deleted at this stage of development.  It is recomended you download your videos to back them up.<br><a
+			deleted at this stage of development. It is recomended you download your videos to back them up.<br><a
 				href='https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper'>Link
 				to the source code on GitHub</a>
 		</div>
@@ -58,7 +58,7 @@
 		<tbody></tbody>
 		<tfoot>
 			<tr>
-				<td colspan="127"><a onclick="loadRows()" href="javascript:;">LOAD MORE...</a></td>
+				<td colspan="127"><a id="load_more" href="javascript:;">LOAD MORE...</a></td>
 			</tr>
 		</tfoot>
 	</table>
@@ -72,28 +72,32 @@
 
 		var json;
 		var tbody = document.getElementsByTagName('tbody')[0];
+		var loadMore = document.getElementById('load_more');
 		const listReq = new XMLHttpRequest();
 		listReq.open('GET', '/movieList');
 		listReq.send();
-
-		listReq.onreadystatechange = function (e) {
-			if (listReq.readyState != 4) return;
-			json = JSON.parse(listReq.responseText);
-			loadRows();
-		}
 
 		var C = 0;
 		function loadRows() {
 			let c = C; C += 69;
 			for (; c < C; c++) {
-				if (c > json.length - 1)
+				if (c > json.length - 1) {
+					loadMore.remove();
 					break;
+				}
 
 				const tbl = json[c];
 				const date = tbl.date.substr(0, 10) + ' ' + tbl.date.substr(11);
 				tbody.insertAdjacentHTML('beforeend',
 					'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date.match(/./g).join('</span><span>') + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a href="/go_full?movieId=' + tbl.id + '"></a><a href="/movies/' + tbl.id + '.xml" download="' + tbl.title + '"></a></td></tr>');
 			}
+		}
+
+		loadMore.onclick = loadRows;
+		listReq.onreadystatechange = function (e) {
+			if (listReq.readyState != 4) return;
+			json = JSON.parse(listReq.responseText);
+			loadRows();
 		}
 
 		function popup(id) {
