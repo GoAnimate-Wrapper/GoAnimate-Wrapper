@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <theme id="sf" name="Street Fighter">
-	<char id="blue_ken" name="Blue Ken" thumb="standing.swf" facing="left" default="standing.swf" motion="walking02.swf" enable="Y" is_premium="Y" aid="6338" money="250" sharing="0">
+	<char id="blue_ken" name="Blue Ken" thumb="standing.swf" facing="left" default="standing.swf" motion="walking02.swf" enable="Y" is_premium="N" aid="6338" money="250" sharing="0">
 		<category name="attack">
 			<action id="combo.swf" name="combo" loop="Y" totalframe="43" enable="Y" aid="6341"/>
 			<action id="jumping_attack.swf" name="jump attack" loop="N" totalframe="30" enable="Y" aid="6342"/>
@@ -50,7 +50,7 @@
 		<facial id="head_knocked_out.swf" name="knocked out" enable="Y" aid="6379"/>
 		<facial id="head_neutral.swf" name="neutral" enable="Y" aid="8531"/>
 	</char>
-	<char id="akuma" name="Akuma" thumb="standing.swf" facing="left" default="standing.swf" motion="walking02.swf" enable="Y" is_premium="Y" aid="6380" money="0" sharing="400">
+	<char id="akuma" name="Akuma" thumb="standing.swf" facing="left" default="standing.swf" motion="walking02.swf" enable="Y" is_premium="N" aid="6380" money="0" sharing="400">
 		<category name="attack">
 			<action id="combo.swf" name="combo" loop="Y" totalframe="58" enable="Y" aid="6383"/>
 			<action id="jumping_attack.swf" name="jump attack" loop="N" totalframe="30" enable="Y" aid="6384"/>
@@ -102,7 +102,7 @@
 		<facial id="head_knocked_out.swf" name="knocked out" enable="Y" aid="6423"/>
 		<facial id="head_neutral.swf" name="neutral" enable="Y" aid="8532"/>
 	</char>
-	<char id="sakura" name="Sakura" thumb="standing.swf" facing="left" default="standing.swf" motion="walking02.swf" enable="Y" is_premium="Y" aid="6424" money="250" sharing="0">
+	<char id="sakura" name="Sakura" thumb="standing.swf" facing="left" default="standing.swf" motion="walking02.swf" enable="Y" is_premium="N" aid="6424" money="250" sharing="0">
 		<category name="attack">
 			<action id="combo.swf" name="combo" loop="Y" totalframe="62" enable="Y" aid="6427"/>
 			<action id="jumping_attack.swf" name="jump attack" loop="N" totalframe="52" enable="Y" aid="6428"/>
@@ -293,7 +293,7 @@
 		<facial id="head_wounded.swf" name="wounded" enable="Y" aid="5355"/>
 		<facial id="head_neutral.swf" name="neutral" enable="Y" aid="8520"/>
 	</char>
-	<char id="dhalsim" name="Dhalsim" thumb="standing.swf" facing="left" default="standing.swf" motion="walking.swf" enable="Y" is_premium="Y" aid="4149" money="0" sharing="100">
+	<char id="dhalsim" name="Dhalsim" thumb="standing.swf" facing="left" default="standing.swf" motion="walking.swf" enable="Y" is_premium="N" aid="4149" money="0" sharing="100">
 		<category name="attack">
 			<action id="combo.swf" name="combo" loop="Y" totalframe="30" enable="Y" aid="4158"/>
 			<action id="jumping_attack.swf" name="jump attack" loop="N" totalframe="42" enable="Y" aid="4159"/>
@@ -483,7 +483,7 @@
 		<facial id="head_wounded.swf" name="wounded" enable="Y" aid="6476"/>
 		<facial id="head_neutral.swf" name="neutral" enable="Y" aid="8524"/>
 	</char>
-	<char id="mbison" name="M. Bison" thumb="standing.swf" facing="left" default="standing.swf" motion="walking.swf" enable="Y" is_premium="Y" aid="4293" money="400" sharing="0">
+	<char id="mbison" name="M. Bison" thumb="standing.swf" facing="left" default="standing.swf" motion="walking.swf" enable="Y" is_premium="N" aid="4293" money="400" sharing="0">
 		<category name="attack">
 			<action id="combo.swf" name="combo" loop="Y" totalframe="38" enable="Y" aid="4302"/>
 			<action id="jumping_attack.swf" name="jump attack" loop="N" totalframe="34" enable="Y" aid="4303"/>
@@ -578,7 +578,7 @@
 		<facial id="head_wounded.swf" name="wounded" enable="Y" aid="6480"/>
 		<facial id="head_neutral.swf" name="neutral" enable="Y" aid="8526"/>
 	</char>
-	<char id="vega" name="Vega" thumb="standing.swf" facing="left" default="standing.swf" motion="walking02.swf" enable="Y" is_premium="Y" aid="4403" money="250" sharing="0">
+	<char id="vega" name="Vega" thumb="standing.swf" facing="left" default="standing.swf" motion="walking02.swf" enable="Y" is_premium="N" aid="4403" money="250" sharing="0">
 		<category name="attack">
 			<action id="combo.swf" name="combo" loop="Y" totalframe="30" enable="Y" aid="4412"/>
 			<action id="jumping_attack.swf" name="jump attack" loop="N" totalframe="38" enable="Y" aid="4413"/>
@@ -671,7 +671,7 @@
 		<facial id="head_wounded.swf" name="wounded" enable="Y" aid="6487"/>
 		<facial id="head_neutral.swf" name="neutral" enable="Y" aid="8529"/>
 	</char>
-	<char id="sagat" name="Sagat" thumb="standing.swf" facing="left" default="standing.swf" motion="walking02.swf" enable="Y" is_premium="Y" aid="4366" money="0" sharing="100">
+	<char id="sagat" name="Sagat" thumb="standing.swf" facing="left" default="standing.swf" motion="walking02.swf" enable="Y" is_premium="N" aid="4366" money="0" sharing="100">
 		<category name="attack">
 			<action id="combo.swf" name="combo" loop="Y" totalframe="35" enable="Y" aid="4375"/>
 			<action id="jumping_attack.swf" name="jump attack" loop="N" totalframe="30" enable="Y" aid="4376"/>
@@ -722,7 +722,7 @@
 		<facial id="head_wound.swf" name="wounded" enable="Y" aid="6485"/>
 		<facial id="head_neutral.swf" name="neutral" enable="Y" aid="8527"/>
 	</char>
-	<char id="evil_ryu" name="Evil Ryu" thumb="standing.swf" facing="left" default="standing.swf" motion="walking02.swf" enable="Y" is_premium="Y" aid="6296" money="0" sharing="400">
+	<char id="evil_ryu" name="Evil Ryu" thumb="standing.swf" facing="left" default="standing.swf" motion="walking02.swf" enable="Y" is_premium="N" aid="6296" money="0" sharing="400">
 		<category name="attack">
 			<action id="combo.swf" name="combo" loop="Y" totalframe="58" enable="Y" aid="6299"/>
 			<action id="jumping_attack.swf" name="jump attack" loop="N" totalframe="30" enable="Y" aid="6300"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <theme id="fullenergy" name="Full Energy">
-	<char id="boss_char" name="Boss" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8259" money="0" sharing="0">
+	<char id="boss_char" name="Boss" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="8259" money="0" sharing="0">
 		<action id="guitar.swf" name="Play guitar" loop="Y" totalframe="76" enable="Y" aid="8260"/>
 		<action id="leak.swf" name="Leak energy" loop="Y" totalframe="100" enable="Y" aid="8261"/>
 		<action id="sit.swf" name="Sitting" loop="Y" totalframe="34" enable="Y" aid="8262"/>
@@ -17,7 +17,7 @@
 		<facial id="head_talk_happy.swf" name="Talk Happy" enable="Y" aid="8273"/>
 		<facial id="head_talk_angry.swf" name="Talk Angry" enable="Y" aid="8274"/>
 	</char>
-	<char id="dave_char" name="Dave" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8275" money="0" sharing="0">
+	<char id="dave_char" name="Dave" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="8275" money="0" sharing="0">
 		<action id="stand.swf" name="Standing" loop="Y" totalframe="1" enable="Y" aid="8276"/>
 		<action id="sit.swf" name="Sitting" loop="Y" totalframe="1" enable="Y" aid="8277"/>
 		<action id="talk.swf" name="Talk" loop="Y" totalframe="150" enable="Y" aid="8278"/>
@@ -33,7 +33,7 @@
 		<facial id="head_talk_happy.swf" name="Talk Happy" enable="Y" aid="8288"/>
 		<facial id="head_talk_angry.swf" name="Talk Angry" enable="Y" aid="8289"/>
 	</char>
-	<char id="clyde_char" name="Clyde" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8290" money="0" sharing="0">
+	<char id="clyde_char" name="Clyde" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="8290" money="0" sharing="0">
 		<action id="stand.swf" name="Standing" loop="Y" totalframe="40" enable="Y" aid="8291"/>
 		<action id="sit.swf" name="Sitting" loop="Y" totalframe="40" enable="Y" aid="8292"/>
 		<action id="talk.swf" name="Talk" loop="Y" totalframe="106" enable="Y" aid="8293"/>
@@ -53,30 +53,30 @@
 	<background id="bg02.swf" name="Inside trailer" enable="Y" default="N" is_premium="N" aid="8306" money="0" sharing="0"/>
 	<background id="bg03.swf" name="Basketball court" enable="Y" default="N" is_premium="N" aid="8307" money="0" sharing="0"/>
 	<background id="bg04.swf" name="Inside Trailer" enable="Y" default="N" is_premium="N" aid="8308" money="0" sharing="0"/>
-	<prop id="acoustic_guitar.swf" name="Acoustic guitar" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8235" money="0" sharing="0"/>
-	<prop id="boombox.swf" name="Boombox" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8236" money="0" sharing="0"/>
-	<prop id="boss_sunglasses.swf" name="Boss Sunglasses" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="Y" aid="8237" money="0" sharing="0"/>
-	<prop id="burger.swf" name="Burger" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8238" money="0" sharing="0"/>
-	<prop id="car.swf" name="Car" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8239" money="0" sharing="0"/>
-	<prop id="chair.swf" name="outdoor chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8240" money="0" sharing="0"/>
-	<prop id="chair02.swf" name="old chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8241" money="0" sharing="0"/>
-	<prop id="drink.swf" name="Energy drink" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8242" money="0" sharing="0"/>
-	<prop id="dumbell.swf" name="Dumbell" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8243" money="0" sharing="0"/>
-	<prop id="fastfood.swf" name="Fast food combo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8244" money="0" sharing="0"/>
-	<prop id="guitar.swf" name="Electric guitar" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8245" money="0" sharing="0"/>
-	<prop id="msp_bbq" name="BBQ" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_bbq_grill.swf" enable="Y" is_premium="Y" aid="8246" money="0" sharing="0">
+	<prop id="acoustic_guitar.swf" name="Acoustic guitar" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8235" money="0" sharing="0"/>
+	<prop id="boombox.swf" name="Boombox" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8236" money="0" sharing="0"/>
+	<prop id="boss_sunglasses.swf" name="Boss Sunglasses" holdable="0" placeable="1" wearable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="8237" money="0" sharing="0"/>
+	<prop id="burger.swf" name="Burger" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8238" money="0" sharing="0"/>
+	<prop id="car.swf" name="Car" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8239" money="0" sharing="0"/>
+	<prop id="chair.swf" name="outdoor chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8240" money="0" sharing="0"/>
+	<prop id="chair02.swf" name="old chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8241" money="0" sharing="0"/>
+	<prop id="drink.swf" name="Energy drink" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8242" money="0" sharing="0"/>
+	<prop id="dumbell.swf" name="Dumbell" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8243" money="0" sharing="0"/>
+	<prop id="fastfood.swf" name="Fast food combo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8244" money="0" sharing="0"/>
+	<prop id="guitar.swf" name="Electric guitar" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8245" money="0" sharing="0"/>
+	<prop id="msp_bbq" name="BBQ" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_bbq_grill.swf" enable="Y" is_premium="N" aid="8246" money="0" sharing="0">
 		<state id="msp_bbq_grill.swf" name="BBQ" enable="Y" default="Y"/>
 		<state id="msp_bbq_grill_food.swf" name="BBQ Food" enable="Y"/>
 	</prop>
-	<prop id="msp_fridge" name="Fridge" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_fridge_frigerator_close.swf" enable="Y" is_premium="Y" aid="8249" money="0" sharing="0">
+	<prop id="msp_fridge" name="Fridge" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_fridge_frigerator_close.swf" enable="Y" is_premium="N" aid="8249" money="0" sharing="0">
 		<state id="msp_fridge_frigerator_close.swf" name="Closed" enable="Y" default="Y"/>
 		<state id="msp_fridge_frigerator_open.swf" name="Opened" enable="Y"/>
 	</prop>
-	<prop id="sofa01.swf" name="Sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8252" money="0" sharing="0"/>
-	<prop id="sofa02.swf" name="Sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8253" money="0" sharing="0"/>
-	<prop id="spatula.swf" name="Spatula" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8254" money="0" sharing="0"/>
-	<prop id="speaker.swf" name="Speaker" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8255" money="0" sharing="0"/>
-	<prop id="stove.swf" name="Stove" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8256" money="0" sharing="0"/>
-	<prop id="tv.swf" name="TV" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8257" money="0" sharing="0"/>
-	<prop id="water_gun.swf" name="Water gun" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="8258" money="0" sharing="0"/>
+	<prop id="sofa01.swf" name="Sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8252" money="0" sharing="0"/>
+	<prop id="sofa02.swf" name="Sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8253" money="0" sharing="0"/>
+	<prop id="spatula.swf" name="Spatula" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8254" money="0" sharing="0"/>
+	<prop id="speaker.swf" name="Speaker" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8255" money="0" sharing="0"/>
+	<prop id="stove.swf" name="Stove" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8256" money="0" sharing="0"/>
+	<prop id="tv.swf" name="TV" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8257" money="0" sharing="0"/>
+	<prop id="water_gun.swf" name="Water gun" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="8258" money="0" sharing="0"/>
 </theme>

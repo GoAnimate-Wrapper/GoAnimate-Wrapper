@@ -25,6 +25,7 @@ module.exports = function (req, res, url) {
 				sessions.set({ movieId: mId }, req);
 				if (b) {
 					res.setHeader('Content-Length', b.length);
+					res.setHeader('Content-Type', 'audio/mp3');
 					res.end(b);
 				}
 				else {

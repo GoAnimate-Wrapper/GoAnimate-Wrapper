@@ -106,7 +106,7 @@ module.exports = {
 	getLastFileIndex(s, suf = '.xml', l = 7) {
 		const regex = new RegExp(`${s}[0-9]{${l}}${suf}$`);
 		const list = fs.readdirSync(folder).filter(v => v && regex.test(v));
-		return Number.parseInt(list.pop().substr(s.length, l));
+		return list.length ? Number.parseInt(list.pop().substr(s.length, l)) : -1;
 	},
 	/**
 	 * 

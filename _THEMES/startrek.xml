@@ -513,7 +513,7 @@
 		<facial id="head_sad.swf" name="sad" enable="Y" aid="5469"/>
 		<facial id="head_neutral.swf" name="neutral" enable="Y" aid="8483"/>
 	</char>
-	<char id="khan" name="Khan" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="5470" money="0" sharing="400">
+	<char id="khan" name="Khan" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="5470" money="0" sharing="400">
 		<category name="beamed">
 			<action id="materialized.swf" name="materialize" loop="Y" totalframe="1" enable="Y" aid="5473"/>
 			<action id="dematerialized.swf" name="de-materialize" loop="Y" totalframe="1" enable="Y" aid="5474"/>
@@ -569,7 +569,7 @@
 		<facial id="head_sad.swf" name="sad" enable="Y" aid="5510"/>
 		<facial id="head_neutral.swf" name="neutral" enable="Y" aid="8484"/>
 	</char>
-	<char id="kang" name="Kang" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="5511" money="0" sharing="400">
+	<char id="kang" name="Kang" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="5511" money="0" sharing="400">
 		<category name="beamed">
 			<action id="materialized.swf" name="materialize" loop="Y" totalframe="1" enable="Y" aid="5514"/>
 			<action id="dematerialized.swf" name="de-materialize" loop="Y" totalframe="1" enable="Y" aid="5515"/>
@@ -630,7 +630,7 @@
 		<facial id="head_sad.swf" name="sad" enable="Y" aid="5554"/>
 		<facial id="head_neutral.swf" name="neutral" enable="Y" aid="8485"/>
 	</char>
-	<char id="orion" name="Orion" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="5555" money="400" sharing="0">
+	<char id="orion" name="Orion" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="5555" money="400" sharing="0">
 		<category name="beamed">
 			<action id="materialized.swf" name="materialize" loop="Y" totalframe="1" enable="Y" aid="5558"/>
 			<action id="dematerialized.swf" name="de-materialize" loop="Y" totalframe="1" enable="Y" aid="5559"/>
@@ -674,7 +674,7 @@
 		<action id="lying_down2.swf" name="lying down" loop="Y" totalframe="94" enable="Y" aid="7286"/>
 		<facial id="head_neutral.swf" name="neutral" enable="Y" aid="8486"/>
 	</char>
-	<char id="mirror_spock" name="Mirror Spock" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="5590" money="400" sharing="0">
+	<char id="mirror_spock" name="Mirror Spock" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="5590" money="400" sharing="0">
 		<category name="beamed">
 			<action id="materialized.swf" name="materialize" loop="Y" totalframe="1" enable="Y" aid="5593"/>
 			<action id="dematerialized.swf" name="de-materialize" loop="Y" totalframe="1" enable="Y" aid="5594"/>
@@ -800,7 +800,7 @@
 		<facial id="head_laugh.swf" name="laugh" enable="Y" aid="7068"/>
 		<facial id="head_neutral.swf" name="neutral" enable="Y" aid="8488"/>
 	</char>
-	<char id="crewman2" name="Crewman 2" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="7069" money="0" sharing="40">
+	<char id="crewman2" name="Crewman 2" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="7069" money="0" sharing="40">
 		<category name="beamed">
 			<action id="materialized.swf" name="materialize" loop="Y" totalframe="40" enable="Y" aid="7072"/>
 			<action id="dematerialized.swf" name="de-materialize" loop="Y" totalframe="40" enable="Y" aid="7073"/>
@@ -925,7 +925,7 @@
 		<facial id="head_in_love.swf" name="in love" enable="Y" aid="7165"/>
 		<facial id="head_neutral.swf" name="neutral" enable="Y" aid="8490"/>
 	</char>
-	<char id="crewman1" name="Crewman 1" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="7166" money="0" sharing="40">
+	<char id="crewman1" name="Crewman 1" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="7166" money="0" sharing="40">
 		<category name="beamed">
 			<action id="materialized.swf" name="materialize" loop="Y" totalframe="40" enable="Y" aid="7169"/>
 			<action id="dematerialized.swf" name="de-materialized" loop="Y" totalframe="40" enable="Y" aid="7170"/>

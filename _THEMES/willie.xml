@@ -82,7 +82,7 @@
 		<facial id="head_sing_close_eye.swf" name="sing with closed eyes" enable="Y" aid="5807"/>
 		<facial id="head_neutral.swf" name="neutral" enable="Y" aid="8508"/>
 	</char>
-	<char id="super_willie" name="Super Willie" thumb="standing.swf" facing="left" default="standing.swf" motion="walking.swf" enable="Y" is_premium="Y" aid="5808" money="0" sharing="40">
+	<char id="super_willie" name="Super Willie" thumb="standing.swf" facing="left" default="standing.swf" motion="walking.swf" enable="Y" is_premium="N" aid="5808" money="0" sharing="40">
 		<category name="Emotion">
 			<action id="happy.swf" name="happy" loop="Y" totalframe="85" enable="Y" aid="5811"/>
 			<action id="sad.swf" name="sad" loop="Y" totalframe="83" enable="Y" aid="5812"/>

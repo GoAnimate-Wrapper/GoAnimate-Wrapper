@@ -182,7 +182,7 @@
 		<state id="msp_old_tv_old_tv_side_back.swf" name="side back" enable="Y"/>
 	</prop>
 	<prop id="carpet.swf" name="Carpet" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10711" money="0" sharing="0"/>
-	<prop id="msp_vending_drink" name="Vending machine" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_vending_drink_vending_drink.swf" enable="Y" is_premium="Y" aid="12172" money="0" sharing="0">
+	<prop id="msp_vending_drink" name="Vending machine" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_vending_drink_vending_drink.swf" enable="Y" is_premium="N" aid="12172" money="0" sharing="0">
 		<state id="msp_vending_drink_vending_drink.swf" name="front" enable="Y" default="Y"/>
 		<state id="msp_vending_drink_ncc_vending_drink_side.swf" name="side" enable="Y"/>
 	</prop>

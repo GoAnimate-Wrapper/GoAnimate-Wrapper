@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <theme id="bunny" name="It's Happy Bunny">
-	<char id="graduation_bunny" name="graduation bunny" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="6878" money="0" sharing="40">
+	<char id="graduation_bunny" name="graduation bunny" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="6878" money="0" sharing="40">
 		<category name="cover">
 			<action id="hands_to_ear.swf" name="ears" loop="Y" totalframe="24" enable="Y" aid="6881"/>
 			<action id="hands_to_nose.swf" name="nose" loop="Y" totalframe="70" enable="Y" aid="6882"/>
@@ -66,7 +66,7 @@
 			<c_area>hbnose</c_area>
 		</c_parts>
 	</char>
-	<char id="devil_bunny" name="Devil Bunny" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="6112" money="0" sharing="100">
+	<char id="devil_bunny" name="Devil Bunny" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="6112" money="0" sharing="100">
 		<category name="cover">
 			<action id="hands_to_ear.swf" name="ears" loop="Y" totalframe="24" enable="Y" aid="6115"/>
 			<action id="hands_to_nose.swf" name="nose" loop="Y" totalframe="70" enable="Y" aid="6116"/>
@@ -242,20 +242,20 @@
 			<c_area>hbbelly</c_area>
 		</c_parts>
 	</char>
-	<char id="chick" name="chick" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="6929" money="0" sharing="40">
+	<char id="chick" name="chick" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="6929" money="0" sharing="40">
 		<action id="standing.swf" name="standing" loop="Y" totalframe="2" enable="Y" aid="6930"/>
 		<motion id="walk.swf" name="walk" loop="Y" totalframe="12" enable="Y" aid="6931"/>
 		<action id="jump.swf" name="jumping" loop="Y" totalframe="31" enable="Y" aid="6932"/>
 		<action id="desperate.swf" name="desperate" loop="Y" totalframe="2" enable="Y" aid="6933"/>
 		<action id="run_away.swf" name="run away" loop="Y" totalframe="95" enable="Y" aid="6934"/>
 	</char>
-	<char id="dog" name="dog" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="6935" money="0" sharing="40">
+	<char id="dog" name="dog" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="6935" money="0" sharing="40">
 		<action id="standing.swf" name="standing" loop="Y" totalframe="2" enable="Y" aid="6936"/>
 		<motion id="walk.swf" name="walk" loop="Y" totalframe="14" enable="Y" aid="6937"/>
 		<action id="desperate.swf" name="desperate" loop="Y" totalframe="4" enable="Y" aid="6938"/>
 		<action id="sitting.swf" name="sitting" loop="Y" totalframe="2" enable="Y" aid="6939"/>
 	</char>
-	<char id="skeleton_bunny" name="skeleton bunny" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="6940" money="0" sharing="400">
+	<char id="skeleton_bunny" name="skeleton bunny" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="6940" money="0" sharing="400">
 		<category name="cover">
 			<action id="hands_to_ear.swf" name="ears" loop="Y" totalframe="24" enable="Y" aid="6943"/>
 			<action id="hands_to_nose.swf" name="nose" loop="Y" totalframe="70" enable="Y" aid="6944"/>

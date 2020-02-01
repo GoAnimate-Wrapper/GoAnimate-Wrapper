@@ -12,125 +12,123 @@ const store = process.env.STORE_URL;
 const xmldoc = require('xmldoc');
 const fs = require('fs');
 
-function getCffFontFile(font) {
+function name2Font(font) {
 	switch (font) {
-		case "Arial":
-			return "arial";
 		case "Blambot Casual":
-			return "causal";
+			return "FontFileCasual";
 		case "BadaBoom BB":
-			return "boom";
+			return "FontFileBoom";
 		case "Entrails BB":
-			return "entrails";
+			return "FontFileEntrails";
 		case "Tokyo Robot Intl BB":
-			return "tokyo";
+			return "FontFileTokyo";
 		case "Accidental Presidency":
-			return "accidental";
+			return "FontFileAccidental";
 		case "BodoniXT":
-			return "bodoni_xt";
+			return "FontFileBodoniXT";
 		case "Budmo Jiggler":
-			return "bjiggler";
+			return "FontFileBJiggler";
 		case "Budmo Jigglish":
-			return "bjigglish";
+			return "FontFileBJigglish";
 		case "Existence Light":
-			return "existence";
+			return "FontFileExistence";
 		case "HeartlandRegular":
-			return "heartland";
+			return "FontFileHeartland";
 		case "Honey Script":
-			return "honey";
+			return "FontFileHoney";
 		case "I hate Comic Sans":
-			return "ihate";
+			return "FontFileIHate";
 		case "Impact Label":
-			return "impact_label";
+			return "FontFileImpactLabel";
 		case "loco tv":
-			return "locotv";
+			return "FontFileLocotv";
 		case "Mail Ray Stuff":
-			return "mail_ray";
+			return "FontFileMailRay";
 		case "Mia\'s Scribblings ~":
-			return "mia";
+			return "FontFileMia";
 		case "Shanghai":
-			return "shanghai";
+			return "FontFileShanghai";
 		case "Comic Book":
-			return "comic_book";
+			return "FontFileComicBook";
 		case "Wood Stamp":
-			return "wood_stamp";
+			return "FontFileWoodStamp";
 		case "Brawler":
-			return "brawler";
+			return "FontFileBrawler";
 		case "Coming Soon":
-			return "coming_soon";
+			return "FontFileCSoon";
 		case "Glegoo":
-			return "glegoo";
+			return "FontFileGlegoo";
 		case "Lilita One":
-			return "lilita_one";
+			return "FontFileLOne";
 		case "Telex Regular":
-			return "telex";
+			return "FontFileTelex";
 		case "Claire Hand":
-			return "claire_hand";
+			return "FontFileClaireHand";
 		case "Oswald":
-			return "oswald";
+			return "FontFileOswald";
 		case "Poiret One":
-			return "poiretone";
+			return "FontFilePoiretOne";
 		case "Raleway":
-			return "raleway";
+			return "FontFileRaleway";
 		case "Bangers":
-			return "bangers";
+			return "FontFileBangers";
 		case "Creepster":
-			return "creepster";
+			return "FontFileCreepster";
 		case "BlackoutMidnight":
-			return "blackoutmidnight";
+			return "FontFileBlackoutMidnight";
 		case "BlackoutSunrise":
-			return "backoutsunrise";
+			return "FontFileBlackoutSunrise";
 		case "Junction":
-			return "junction";
+			return "FontFileJunction";
 		case "LeagueGothic":
-			return "leaguegothic";
+			return "FontFileLeagueGothic";
 		case "LeagueSpartan":
-			return "leaguespartan";
+			return "FontFileLeagueSpartan";
 		case "OstrichSansMedium":
-			return "ostrichsansmedium";
+			return "FontFileOstrichSansMedium";
 		case "Prociono":
-			return "prociono";
+			return "FontFileProciono";
 		case "Lato":
-			return "lato";
+			return "FontFileLato";
 		case "Alegreya Sans SC":
-			return "alegreyasanssc";
+			return "FontFileAlegreyaSansSC";
 		case "Barrio":
-			return "barrio";
+			return "FontFileBarrio";
 		case "Bungee Inline":
-			return "bungeeinline";
+			return "FontFileBungeeInline";
 		case "Bungee Shade":
-			return "bungeeshade";
+			return "FontFileBungeeShade";
 		case "Gochi Hand":
-			return "gochihand";
+			return "FontFileGochiHand";
 		case "IM Fell English SC":
-			return "imfellenglishsc";
+			return "FontFileIMFellEnglishSC";
 		case "Josefin":
-			return "josefin";
+			return "FontFileJosefin";
 		case "Kaushan":
-			return "kaushan";
+			return "FontFileKaushan";
 		case "Lobster":
-			return "lobster";
+			return "FontFileLobster";
 		case "Montserrat":
-			return "montserrat";
+			return "FontFileMontserrat";
 		case "Mouse Memoirs":
-			return "mousememoirs";
+			return "FontFileMouseMemoirs";
 		case "Patrick Hand":
-			return "patrickhand";
+			return "FontFilePatrickHand";
 		case "Permanent Marker":
-			return "permanentmarker";
+			return "FontFilePermanentMarker";
 		case "Satisfy":
-			return "satisfy";
+			return "FontFileSatisfy";
 		case "Sriracha":
-			return "sriracha";
+			return "FontFileSriracha";
 		case "Teko":
-			return "teko";
+			return "FontFileTeko";
 		case "Vidaloka":
-			return "vidaloka";
+			return "FontFileVidaloka";
 		case '':
 		case null:
 			return '';
 		default:
-			return `CffFontFile${font}`;
+			return `FontFile${font}`;
 	}
 }
 
@@ -183,7 +181,7 @@ module.exports = {
 						const t = assetTypes[aId];
 						//const n = `ugc.${t}.${aId}`;
 						//fUtil.addToZip(zip, n, b);
-						ugcString += `<sound subtype="${t.subtype}" id="${aId
+						ugcString += `<sound subtype="${t.subtype}" id="${aId}" enc_asset_id="${aId
 							}" name="${t.name}" downloadtype="progressive" duration="${d}"/>`;
 						caché.save(mId, aId, b);
 					}
@@ -335,9 +333,9 @@ module.exports = {
 							case 'bubbleAsset': {
 								const bubble = piece.childNamed('bubble');
 								const text = bubble.childNamed('text');
-								const font = getCffFontFile(text.attr.font);
-								const fontSrc = `${source}/go/font2/FontFile${font}.swf`;
-								fUtil.addToZip(zip, `FontFile${text.attr.font}.swf`, await get(fontSrc));
+								const font = `${name2Font(text.attr.font)}.swf`;
+								const fontSrc = `${source}/go/font/${font}`;
+								fUtil.addToZip(zip, font, await get(fontSrc));
 								break;
 							}
 						}

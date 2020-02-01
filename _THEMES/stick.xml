@@ -204,7 +204,7 @@
 			<c_area oc="">sfSkin</c_area>
 		</c_parts>
 	</char>
-	<char id="StickGuy3000" name="StickGuy 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8309" money="0" sharing="0">
+	<char id="StickGuy3000" name="StickGuy 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="8309" money="0" sharing="0">
 		<category name="Daily Life">
 			<action id="happy.swf" name="Laugh" loop="Y" totalframe="58" enable="Y" aid="8310"/>
 			<action id="sad.swf" name="Sad" loop="Y" totalframe="50" enable="Y" aid="8311"/>
@@ -332,7 +332,7 @@
 			<c_area oc="">sfSkinLegs</c_area>
 		</c_parts>
 	</char>
-	<char id="stickGirl3000" name="StickBabe 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="8383" money="0" sharing="0">
+	<char id="stickGirl3000" name="StickBabe 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="8383" money="0" sharing="0">
 		<category name="Daily Life">
 			<action id="happy.swf" name="Laugh" loop="Y" totalframe="58" enable="Y" aid="8384"/>
 			<action id="sad.swf" name="Sad" loop="Y" totalframe="50" enable="Y" aid="8385"/>
@@ -457,7 +457,7 @@
 			<c_area oc="">sfSkinLegs</c_area>
 		</c_parts>
 	</char>
-	<char id="Stickboy3000" name="StickBoy 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="9228" money="0" sharing="0">
+	<char id="Stickboy3000" name="StickBoy 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="9228" money="0" sharing="0">
 		<category name="Daily Life">
 			<action id="happy.swf" name="Laugh" loop="Y" totalframe="58" enable="Y" aid="9229"/>
 			<action id="sad.swf" name="Sad" loop="Y" totalframe="50" enable="Y" aid="9230"/>
@@ -581,7 +581,7 @@
 			<c_area oc="">sfSkinLegs</c_area>
 		</c_parts>
 	</char>
-	<char id="Stickkidgirl3000" name="StickGirl 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="9298" money="0" sharing="0">
+	<char id="Stickkidgirl3000" name="StickGirl 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="9298" money="0" sharing="0">
 		<category name="Daily Life">
 			<action id="happy.swf" name="Laugh" loop="Y" totalframe="58" enable="Y" aid="9299"/>
 			<action id="sad.swf" name="Sad" loop="Y" totalframe="50" enable="Y" aid="9300"/>
@@ -705,7 +705,7 @@
 			<c_area oc="">sfSkinLegs</c_area>
 		</c_parts>
 	</char>
-	<char id="Stickfat3000" name="FatStick 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="9368" money="0" sharing="0">
+	<char id="Stickfat3000" name="FatStick 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="9368" money="0" sharing="0">
 		<category name="Daily Life">
 			<action id="happy.swf" name="Laugh" loop="Y" totalframe="58" enable="Y" aid="9369"/>
 			<action id="sad.swf" name="Sad" loop="Y" totalframe="50" enable="Y" aid="9370"/>
@@ -829,7 +829,7 @@
 			<c_area oc="">sfSkinLegs</c_area>
 		</c_parts>
 	</char>
-	<char id="Stickmuscle3000" name="MuscleStick 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="9438" money="0" sharing="0">
+	<char id="Stickmuscle3000" name="MuscleStick 3000" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="9438" money="0" sharing="0">
 		<category name="Daily Life">
 			<action id="happy.swf" name="Laugh" loop="Y" totalframe="58" enable="Y" aid="9439"/>
 			<action id="sad.swf" name="Sad" loop="Y" totalframe="50" enable="Y" aid="9440"/>

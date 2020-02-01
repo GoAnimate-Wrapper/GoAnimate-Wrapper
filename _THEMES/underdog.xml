@@ -197,7 +197,7 @@
 		<facial id="head_talk_cry.swf" name="talk cry" enable="Y" aid="3859"/>
 		<facial id="head_neutral.swf" name="neutral" enable="Y" aid="8515"/>
 	</char>
-	<char id="simon" name="Simon Bar Sinister" thumb="standing.swf" facing="left" default="standing.swf" motion="walking.swf" enable="Y" is_premium="Y" aid="3860" money="0" sharing="100">
+	<char id="simon" name="Simon Bar Sinister" thumb="standing.swf" facing="left" default="standing.swf" motion="walking.swf" enable="Y" is_premium="N" aid="3860" money="0" sharing="100">
 		<category name="emotion">
 			<action id="angry.swf" name="angry" loop="Y" totalframe="70" enable="Y" aid="3863"/>
 			<action id="confused.swf" name="confused" loop="Y" totalframe="100" enable="Y" aid="3864"/>
@@ -250,7 +250,7 @@
 		<facial id="head_talk_angry.swf" name="talk angry" enable="Y" aid="3908"/>
 		<facial id="head_neutral.swf" name="neutral" enable="Y" aid="8516"/>
 	</char>
-	<char id="cad" name="Cad" thumb="standing.swf" facing="left" default="standing.swf" motion="walking.swf" enable="Y" is_premium="Y" aid="3954" money="250" sharing="0">
+	<char id="cad" name="Cad" thumb="standing.swf" facing="left" default="standing.swf" motion="walking.swf" enable="Y" is_premium="N" aid="3954" money="250" sharing="0">
 		<category name="emotion">
 			<action id="angry.swf" name="angry" loop="Y" totalframe="61" enable="Y" aid="3957"/>
 			<action id="cry.swf" name="cry" loop="Y" totalframe="58" enable="Y" aid="3958"/>

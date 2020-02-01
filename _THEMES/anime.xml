@@ -72,7 +72,7 @@
 	<background id="train06_bg.swf" name="Train inside" enable="Y" default="N" is_premium="N" aid="17460" money="0" sharing="0"/>
 	<background id="train02_bg.swf" name="Train track" enable="Y" default="N" is_premium="N" aid="17456" money="0" sharing="0"/>
 	<background id="train07_bg.swf" name="Train entrance" enable="Y" default="N" is_premium="N" aid="17461" money="0" sharing="0"/>
-	<compositebg id="cbg_dining06" name="Home - Residential building" enable="Y" default="N" thumb="dining06.jpg" display_order="11" is_premium="Y" money="0" sharing="0" aid="17467">
+	<compositebg id="cbg_dining06" name="Home - Residential building" enable="Y" default="N" thumb="dining06.jpg" display_order="11" is_premium="N" money="0" sharing="0" aid="17467">
 	<bg id="cbg_dining06_BG40" index="0">
 		<file>anime.dining06_bg.swf</file>
 	</bg>
@@ -201,7 +201,7 @@
 		<file>anime.dining07_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_dining05" name="Home - Entrance door" enable="Y" default="N" thumb="dining05.jpg" display_order="18" is_premium="Y" money="0" sharing="0" aid="17466">
+	<compositebg id="cbg_dining05" name="Home - Entrance door" enable="Y" default="N" thumb="dining05.jpg" display_order="18" is_premium="N" money="0" sharing="0" aid="17466">
 	<bg id="cbg_dining05_BG64" index="0">
 		<file>anime.dining05_bg.swf</file>
 	</bg>
@@ -220,7 +220,7 @@
 		<file>anime.dining08_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_street01" name="City - street" enable="Y" default="N" thumb="street01.jpg" display_order="51" is_premium="Y" money="0" sharing="0" aid="17470">
+	<compositebg id="cbg_street01" name="City - street" enable="Y" default="N" thumb="street01.jpg" display_order="51" is_premium="N" money="0" sharing="0" aid="17470">
 	<bg id="cbg_street01_BG78" index="0">
 		<file>anime.street01_bg.swf</file>
 	</bg>
@@ -281,7 +281,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_street06" name="City - street" enable="Y" default="N" thumb="street06.jpg" display_order="56" is_premium="Y" money="0" sharing="0" aid="17475">
+	<compositebg id="cbg_street06" name="City - street" enable="Y" default="N" thumb="street06.jpg" display_order="56" is_premium="N" money="0" sharing="0" aid="17475">
 	<bg id="cbg_street06_BG80" index="0">
 		<file>anime.street06_bg.swf</file>
 	</bg>
@@ -305,12 +305,12 @@
 		<file>anime.street08_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_city09" name="Food stall" enable="Y" default="N" thumb="city09.jpg" display_order="59" is_premium="Y" money="0" sharing="0" aid="17614">
+	<compositebg id="cbg_city09" name="Food stall" enable="Y" default="N" thumb="city09.jpg" display_order="59" is_premium="N" money="0" sharing="0" aid="17614">
 	<bg id="cbg_city09_BG5" index="0">
 		<file>anime.city09_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_city10" name="Food stall" enable="Y" default="N" thumb="city10.jpg" display_order="60" is_premium="Y" money="0" sharing="0" aid="17615">
+	<compositebg id="cbg_city10" name="Food stall" enable="Y" default="N" thumb="city10.jpg" display_order="60" is_premium="N" money="0" sharing="0" aid="17615">
 	<bg id="cbg_city10_BG6" index="0">
 		<file>anime.city10_bg.swf</file>
 	</bg>
@@ -351,17 +351,17 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_city11" name="Food stall" enable="Y" default="N" thumb="city11.jpg" display_order="61" is_premium="Y" money="0" sharing="0" aid="17616">
+	<compositebg id="cbg_city11" name="Food stall" enable="Y" default="N" thumb="city11.jpg" display_order="61" is_premium="N" money="0" sharing="0" aid="17616">
 	<bg id="cbg_city11_BG19" index="0">
 		<file>anime.city11_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_city12" name="Food stall" enable="Y" default="N" thumb="city12.jpg" display_order="62" is_premium="Y" money="0" sharing="0" aid="17617">
+	<compositebg id="cbg_city12" name="Food stall" enable="Y" default="N" thumb="city12.jpg" display_order="62" is_premium="N" money="0" sharing="0" aid="17617">
 	<bg id="cbg_city12_BG20" index="0">
 		<file>anime.city12_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_city13" name="City - street" enable="Y" default="N" thumb="city13.jpg" display_order="63" is_premium="Y" money="0" sharing="0" aid="17618">
+	<compositebg id="cbg_city13" name="City - street" enable="Y" default="N" thumb="city13.jpg" display_order="63" is_premium="N" money="0" sharing="0" aid="17618">
 	<bg id="cbg_city13_BG21" index="0">
 		<file>anime.city13_bg.swf</file>
 	</bg>
@@ -375,7 +375,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_city14" name="City - street" enable="Y" default="N" thumb="city14.jpg" display_order="64" is_premium="Y" money="0" sharing="0" aid="17619">
+	<compositebg id="cbg_city14" name="City - street" enable="Y" default="N" thumb="city14.jpg" display_order="64" is_premium="N" money="0" sharing="0" aid="17619">
 	<bg id="cbg_city14_BG30" index="0">
 		<file>anime.city14_bg.swf</file>
 	</bg>
@@ -389,7 +389,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_city15" name="Convenience store" enable="Y" default="N" thumb="city15.jpg" display_order="65" is_premium="Y" money="0" sharing="0" aid="17620">
+	<compositebg id="cbg_city15" name="Convenience store" enable="Y" default="N" thumb="city15.jpg" display_order="65" is_premium="N" money="0" sharing="0" aid="17620">
 	<bg id="cbg_city15_BG23" index="0">
 		<file>anime.city15_bg.swf</file>
 	</bg>
@@ -412,7 +412,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_city16" name="Convenience store" enable="Y" default="N" thumb="city16.jpg" display_order="66" is_premium="Y" money="0" sharing="0" aid="17621">
+	<compositebg id="cbg_city16" name="Convenience store" enable="Y" default="N" thumb="city16.jpg" display_order="66" is_premium="N" money="0" sharing="0" aid="17621">
 	<bg id="cbg_city16_BG25" index="0">
 		<file>anime.city16_bg.swf</file>
 	</bg>
@@ -426,22 +426,22 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_city17" name="Convenience store" enable="Y" default="N" thumb="city17.jpg" display_order="67" is_premium="Y" money="0" sharing="0" aid="17622">
+	<compositebg id="cbg_city17" name="Convenience store" enable="Y" default="N" thumb="city17.jpg" display_order="67" is_premium="N" money="0" sharing="0" aid="17622">
 	<bg id="cbg_city17_BG28" index="0">
 		<file>anime.city17_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_ninja15" name="City - street" enable="Y" default="N" thumb="ninja15.jpg" display_order="68" is_premium="Y" money="0" sharing="0" aid="17623">
+	<compositebg id="cbg_ninja15" name="City - street" enable="Y" default="N" thumb="ninja15.jpg" display_order="68" is_premium="N" money="0" sharing="0" aid="17623">
 	<bg id="cbg_ninja15_BG29" index="0">
 		<file>anime.ninja15_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_city19" name="City - fast food" enable="Y" default="N" thumb="city19.jpg" display_order="69" is_premium="Y" money="0" sharing="0" aid="17625">
+	<compositebg id="cbg_city19" name="City - fast food" enable="Y" default="N" thumb="city19.jpg" display_order="69" is_premium="N" money="0" sharing="0" aid="17625">
 	<bg id="cbg_city19_BG12" index="0">
 		<file>anime.city19_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_city21" name="City - park" enable="Y" default="N" thumb="city21.jpg" display_order="70" is_premium="Y" money="0" sharing="0" aid="17626">
+	<compositebg id="cbg_city21" name="City - park" enable="Y" default="N" thumb="city21.jpg" display_order="70" is_premium="N" money="0" sharing="0" aid="17626">
 	<bg id="cbg_city21_BG13" index="0">
 		<file>anime.city21_bg.swf</file>
 	</bg>
@@ -455,17 +455,17 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_city22" name="Convenience store" enable="Y" default="N" thumb="city22.jpg" display_order="71" is_premium="Y" money="0" sharing="0" aid="17627">
+	<compositebg id="cbg_city22" name="Convenience store" enable="Y" default="N" thumb="city22.jpg" display_order="71" is_premium="N" money="0" sharing="0" aid="17627">
 	<bg id="cbg_city22_BG14" index="0">
 		<file>anime.city22_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_city23" name="City - bus stop" enable="Y" default="N" thumb="city23.jpg" display_order="72" is_premium="Y" money="0" sharing="0" aid="17628">
+	<compositebg id="cbg_city23" name="City - bus stop" enable="Y" default="N" thumb="city23.jpg" display_order="72" is_premium="N" money="0" sharing="0" aid="17628">
 	<bg id="cbg_city23_BG15" index="0">
 		<file>anime.city23_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_city24" name="City - park - temple" enable="Y" default="N" thumb="city24.jpg" display_order="73" is_premium="Y" money="0" sharing="0" aid="17629">
+	<compositebg id="cbg_city24" name="City - park - temple" enable="Y" default="N" thumb="city24.jpg" display_order="73" is_premium="N" money="0" sharing="0" aid="17629">
 	<bg id="cbg_city24_BG16" index="0">
 		<file>anime.city24_bg.swf</file>
 	</bg>
@@ -475,7 +475,7 @@
 		<file>anime.city18_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_city29" name="City - street" enable="Y" default="N" thumb="city29.jpg" display_order="75" is_premium="Y" money="0" sharing="0" aid="17671">
+	<compositebg id="cbg_city29" name="City - street" enable="Y" default="N" thumb="city29.jpg" display_order="75" is_premium="N" money="0" sharing="0" aid="17671">
 	<bg id="cbg_city29_BG5" index="0">
 		<file>anime.city29_bg.swf</file>
 	</bg>
@@ -489,7 +489,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_city30" name="City - fast food" enable="Y" default="N" thumb="city30.jpg" display_order="76" is_premium="Y" money="0" sharing="0" aid="17672">
+	<compositebg id="cbg_city30" name="City - fast food" enable="Y" default="N" thumb="city30.jpg" display_order="76" is_premium="N" money="0" sharing="0" aid="17672">
 	<bg id="cbg_city30_BG10" index="0">
 		<file>anime.city30_bg.swf</file>
 	</bg>
@@ -521,7 +521,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_city31" name="City - fast food" enable="Y" default="N" thumb="city31.jpg" display_order="77" is_premium="Y" money="0" sharing="0" aid="17673">
+	<compositebg id="cbg_city31" name="City - fast food" enable="Y" default="N" thumb="city31.jpg" display_order="77" is_premium="N" money="0" sharing="0" aid="17673">
 	<bg id="cbg_city31_BG14" index="0">
 		<file>anime.city31_bg.swf</file>
 	</bg>
@@ -562,12 +562,12 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_city32" name="City - game center" enable="Y" default="N" thumb="city32.jpg" display_order="78" is_premium="Y" money="0" sharing="0" aid="17674">
+	<compositebg id="cbg_city32" name="City - game center" enable="Y" default="N" thumb="city32.jpg" display_order="78" is_premium="N" money="0" sharing="0" aid="17674">
 	<bg id="cbg_city32_BG21" index="0">
 		<file>anime.city32_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_city33" name="City - game center" enable="Y" default="N" thumb="city33.jpg" display_order="79" is_premium="Y" money="0" sharing="0" aid="17675">
+	<compositebg id="cbg_city33" name="City - game center" enable="Y" default="N" thumb="city33.jpg" display_order="79" is_premium="N" money="0" sharing="0" aid="17675">
 	<bg id="cbg_city33_BG23" index="0">
 		<file>anime.city33_bg.swf</file>
 	</bg>
@@ -599,7 +599,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_city34" name="City - game center" enable="Y" default="N" thumb="city34.jpg" display_order="80" is_premium="Y" money="0" sharing="0" aid="17676">
+	<compositebg id="cbg_city34" name="City - game center" enable="Y" default="N" thumb="city34.jpg" display_order="80" is_premium="N" money="0" sharing="0" aid="17676">
 	<bg id="cbg_city34_BG27" index="0">
 		<file>anime.city34_bg.swf</file>
 	</bg>
@@ -613,7 +613,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_city35" name="City - residential - street" enable="Y" default="N" thumb="city35.jpg" display_order="81" is_premium="Y" money="0" sharing="0" aid="17677">
+	<compositebg id="cbg_city35" name="City - residential - street" enable="Y" default="N" thumb="city35.jpg" display_order="81" is_premium="N" money="0" sharing="0" aid="17677">
 	<bg id="cbg_city35_BG29" index="0">
 		<file>anime.city35_bg.swf</file>
 	</bg>
@@ -627,7 +627,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_city36" name="City - residential - street" enable="Y" default="N" thumb="city36.jpg" display_order="82" is_premium="Y" money="0" sharing="0" aid="17678">
+	<compositebg id="cbg_city36" name="City - residential - street" enable="Y" default="N" thumb="city36.jpg" display_order="82" is_premium="N" money="0" sharing="0" aid="17678">
 	<bg id="cbg_city36_BG31" index="0">
 		<file>anime.city36_bg.swf</file>
 	</bg>
@@ -641,7 +641,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_city37" name="City - residential - street" enable="Y" default="N" thumb="city37.jpg" display_order="83" is_premium="Y" money="0" sharing="0" aid="17679">
+	<compositebg id="cbg_city37" name="City - residential - street" enable="Y" default="N" thumb="city37.jpg" display_order="83" is_premium="N" money="0" sharing="0" aid="17679">
 	<bg id="cbg_city37_BG33" index="0">
 		<file>anime.city37_bg.swf</file>
 	</bg>
@@ -655,22 +655,22 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_city38" name="City - street" enable="Y" default="N" thumb="city38.jpg" display_order="84" is_premium="Y" money="0" sharing="0" aid="17680">
+	<compositebg id="cbg_city38" name="City - street" enable="Y" default="N" thumb="city38.jpg" display_order="84" is_premium="N" money="0" sharing="0" aid="17680">
 	<bg id="cbg_city38_BG35" index="0">
 		<file>anime.city38_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_city49" name="City - street" enable="Y" default="N" thumb="city49.jpg" display_order="85" is_premium="Y" money="0" sharing="0" aid="17682">
+	<compositebg id="cbg_city49" name="City - street" enable="Y" default="N" thumb="city49.jpg" display_order="85" is_premium="N" money="0" sharing="0" aid="17682">
 	<bg id="cbg_city49_BG36" index="0">
 		<file>anime.city49_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_city39" name="City - clock" enable="Y" default="N" thumb="city39.jpg" display_order="86" is_premium="Y" money="0" sharing="0" aid="17681">
+	<compositebg id="cbg_city39" name="City - clock" enable="Y" default="N" thumb="city39.jpg" display_order="86" is_premium="N" money="0" sharing="0" aid="17681">
 	<bg id="cbg_city39_BG37" index="0">
 		<file>anime.city39_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_school01" name="School" enable="Y" default="N" thumb="school01.jpg" display_order="101" is_premium="Y" money="0" sharing="0" aid="17478">
+	<compositebg id="cbg_school01" name="School" enable="Y" default="N" thumb="school01.jpg" display_order="101" is_premium="N" money="0" sharing="0" aid="17478">
 	<bg id="cbg_school01_BG86" index="0">
 		<file>anime.school01_bg.swf</file>
 	</bg>
@@ -936,12 +936,12 @@
 		<file>anime.school07_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_school11" name="School - track" enable="Y" default="N" thumb="school11.jpg" display_order="111" is_premium="Y" money="0" sharing="0" aid="17630">
+	<compositebg id="cbg_school11" name="School - track" enable="Y" default="N" thumb="school11.jpg" display_order="111" is_premium="N" money="0" sharing="0" aid="17630">
 	<bg id="cbg_school11_BG17" index="0">
 		<file>anime.school11_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_school13" name="Office - computers" enable="Y" default="N" thumb="school13.jpg" display_order="112" is_premium="Y" money="0" sharing="0" aid="17683">
+	<compositebg id="cbg_school13" name="Office - computers" enable="Y" default="N" thumb="school13.jpg" display_order="112" is_premium="N" money="0" sharing="0" aid="17683">
 	<bg id="cbg_school13_BG38" index="0">
 		<file>anime.school13_bg.swf</file>
 	</bg>
@@ -982,12 +982,12 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_shop02" name="Restaurant" enable="Y" default="N" thumb="shop02.jpg" display_order="151" is_premium="Y" money="0" sharing="0" aid="17489">
+	<compositebg id="cbg_shop02" name="Restaurant" enable="Y" default="N" thumb="shop02.jpg" display_order="151" is_premium="N" money="0" sharing="0" aid="17489">
 	<bg id="cbg_shop02_BG177" index="0">
 		<file>anime.shop02_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_shop04" name="Restaurant" enable="Y" default="N" thumb="shop04.jpg" display_order="152" is_premium="Y" money="0" sharing="0" aid="17491">
+	<compositebg id="cbg_shop04" name="Restaurant" enable="Y" default="N" thumb="shop04.jpg" display_order="152" is_premium="N" money="0" sharing="0" aid="17491">
 	<bg id="cbg_shop04_BG178" index="0">
 		<file>anime.shop04_bg.swf</file>
 	</bg>
@@ -1010,7 +1010,7 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_shop01" name="Restaurant" enable="Y" default="N" thumb="shop01.jpg" display_order="153" is_premium="Y" money="0" sharing="0" aid="17488">
+	<compositebg id="cbg_shop01" name="Restaurant" enable="Y" default="N" thumb="shop01.jpg" display_order="153" is_premium="N" money="0" sharing="0" aid="17488">
 	<bg id="cbg_shop01_BG184" index="0">
 		<file>anime.shop01_bg.swf</file>
 	</bg>
@@ -1051,27 +1051,27 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_shop03" name="Restaurant" enable="Y" default="N" thumb="shop03.jpg" display_order="154" is_premium="Y" money="0" sharing="0" aid="17490">
+	<compositebg id="cbg_shop03" name="Restaurant" enable="Y" default="N" thumb="shop03.jpg" display_order="154" is_premium="N" money="0" sharing="0" aid="17490">
 	<bg id="cbg_shop03_BG189" index="0">
 		<file>anime.shop03_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_shop05" name="Shop" enable="Y" default="N" thumb="shop05.jpg" display_order="155" is_premium="Y" money="0" sharing="0" aid="17492">
+	<compositebg id="cbg_shop05" name="Shop" enable="Y" default="N" thumb="shop05.jpg" display_order="155" is_premium="N" money="0" sharing="0" aid="17492">
 	<bg id="cbg_shop05_BG191" index="0">
 		<file>anime.shop05_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_shop06" name="Shop" enable="Y" default="N" thumb="shop06.jpg" display_order="156" is_premium="Y" money="0" sharing="0" aid="17493">
+	<compositebg id="cbg_shop06" name="Shop" enable="Y" default="N" thumb="shop06.jpg" display_order="156" is_premium="N" money="0" sharing="0" aid="17493">
 	<bg id="cbg_shop06_BG192" index="0">
 		<file>anime.shop06_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_shop07" name="Shop" enable="Y" default="N" thumb="shop07.jpg" display_order="157" is_premium="Y" money="0" sharing="0" aid="17494">
+	<compositebg id="cbg_shop07" name="Shop" enable="Y" default="N" thumb="shop07.jpg" display_order="157" is_premium="N" money="0" sharing="0" aid="17494">
 	<bg id="cbg_shop07_BG193" index="0">
 		<file>anime.shop07_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_shop08" name="Convenience store" enable="Y" default="N" thumb="shop08.jpg" display_order="158" is_premium="Y" money="0" sharing="0" aid="17495">
+	<compositebg id="cbg_shop08" name="Convenience store" enable="Y" default="N" thumb="shop08.jpg" display_order="158" is_premium="N" money="0" sharing="0" aid="17495">
 	<bg id="cbg_shop08_BG194" index="0">
 		<file>anime.shop08_bg.swf</file>
 	</bg>
@@ -1085,42 +1085,42 @@
 		<rotation>0</rotation>
 	</prop>
 </compositebg>
-	<compositebg id="cbg_shop09" name="Convenience store" enable="Y" default="N" thumb="shop09.jpg" display_order="159" is_premium="Y" money="0" sharing="0" aid="17496">
+	<compositebg id="cbg_shop09" name="Convenience store" enable="Y" default="N" thumb="shop09.jpg" display_order="159" is_premium="N" money="0" sharing="0" aid="17496">
 	<bg id="cbg_shop09_BG197" index="0">
 		<file>anime.shop09_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_train01" name="Train - station" enable="Y" default="N" thumb="train01.jpg" display_order="201" is_premium="Y" money="0" sharing="0" aid="17497">
+	<compositebg id="cbg_train01" name="Train - station" enable="Y" default="N" thumb="train01.jpg" display_order="201" is_premium="N" money="0" sharing="0" aid="17497">
 	<bg id="cbg_train01_BG198" index="0">
 		<file>anime.train01_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_train03" name="Train platform" enable="Y" default="N" thumb="train03.jpg" display_order="202" is_premium="Y" money="0" sharing="0" aid="17499">
+	<compositebg id="cbg_train03" name="Train platform" enable="Y" default="N" thumb="train03.jpg" display_order="202" is_premium="N" money="0" sharing="0" aid="17499">
 	<bg id="cbg_train03_BG199" index="0">
 		<file>anime.train03_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_train04" name="Train platform" enable="Y" default="N" thumb="train04.jpg" display_order="203" is_premium="Y" money="0" sharing="0" aid="17500">
+	<compositebg id="cbg_train04" name="Train platform" enable="Y" default="N" thumb="train04.jpg" display_order="203" is_premium="N" money="0" sharing="0" aid="17500">
 	<bg id="cbg_train04_BG200" index="0">
 		<file>anime.train04_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_train05" name="Train inside" enable="Y" default="N" thumb="train05.jpg" display_order="204" is_premium="Y" money="0" sharing="0" aid="17501">
+	<compositebg id="cbg_train05" name="Train inside" enable="Y" default="N" thumb="train05.jpg" display_order="204" is_premium="N" money="0" sharing="0" aid="17501">
 	<bg id="cbg_train05_BG201" index="0">
 		<file>anime.train05_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_train06" name="Train inside" enable="Y" default="N" thumb="train06.jpg" display_order="205" is_premium="Y" money="0" sharing="0" aid="17502">
+	<compositebg id="cbg_train06" name="Train inside" enable="Y" default="N" thumb="train06.jpg" display_order="205" is_premium="N" money="0" sharing="0" aid="17502">
 	<bg id="cbg_train06_BG202" index="0">
 		<file>anime.train06_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_train02" name="Train - countryside" enable="Y" default="N" thumb="train02.jpg" display_order="206" is_premium="Y" money="0" sharing="0" aid="17498">
+	<compositebg id="cbg_train02" name="Train - countryside" enable="Y" default="N" thumb="train02.jpg" display_order="206" is_premium="N" money="0" sharing="0" aid="17498">
 	<bg id="cbg_train02_BG203" index="0">
 		<file>anime.train02_bg.swf</file>
 	</bg>
 </compositebg>
-	<compositebg id="cbg_train07" name="Train - station platform" enable="Y" default="N" thumb="train07.jpg" display_order="207" is_premium="Y" money="0" sharing="0" aid="17503">
+	<compositebg id="cbg_train07" name="Train - station platform" enable="Y" default="N" thumb="train07.jpg" display_order="207" is_premium="N" money="0" sharing="0" aid="17503">
 	<bg id="cbg_train07_BG204" index="0">
 		<file>anime.train07_bg.swf</file>
 	</bg>
