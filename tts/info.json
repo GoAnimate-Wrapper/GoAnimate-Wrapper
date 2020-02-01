@@ -2674,6 +2674,14 @@
 			"source": "voiceforge",
 			"arg": "Marta",
 			"desc": "Marta"
+		},
+		"danielPT": {
+			"country": "BR",
+			"language": "pt",
+			"gender": "M",
+			"source": "unknown",
+			"arg": "Daniel",
+			"desc": "Daniel (Brazillian)"
 		}
 	}
 }
