@@ -1,3 +1,4 @@
+const http = require('http');
 const loadPost = require('../request/post_body');
 const mp3Duration = require('mp3-duration');
 const voices = require('./info').voices;
@@ -117,15 +118,37 @@ function processVoice(voiceName, text) {
 				console.log(https.get({
 					host: 'text-to-speech-demo.ng.bluemix.net',
 					path: `/api/v1/synthesize?${q}`,
-					headers: {
-						Referer: 'https://www.vocalware.com/index/demo',
-						Origin: 'https://www.vocalware.com',
-						'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
-					},
 				}, r => {
 					var buffers = [];
 					r.on('data', d => buffers.push(d));
 					r.on('end', () => res(Buffer.concat(buffers)));
+					r.on('error', rej);
+				}));
+				break;
+			}
+			case 'acapela': {
+				var q = qs.encode({
+					cl_login: "VAAS_MKT",
+					req_snd_type: "",
+					req_voice: voice.arg,
+					cl_app: "seriousbusiness",
+					req_text: text,
+					cl_pwd: "M5Awq9xu",
+				});
+				console.log(http.get({
+					host: 'vaassl3.acapela-group.com',
+					path: `/Services/AcapelaTV/Synthesizer?${q}`,
+					method: 'GET',
+				}, r => {
+					var buffers = [];
+					r.on('data', d => buffers.push(d));
+					r.on('end', () => {
+							const html = Buffer.concat(buffers);
+							const beg = html.indexOf('&snd_url=') + 9;
+							const end = html.indexOf('&', beg);
+                            const loc = `https${html.subarray(beg+4, end).toString()}`;
+                            get(loc).then(res).catch(rej);
+						})
 					r.on('error', rej);
 				}));
 				break;
