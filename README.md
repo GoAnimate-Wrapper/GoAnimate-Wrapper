@@ -9,4 +9,6 @@ npm start
 ```
 **When done, go to your web browser and navigate to `localhost`.**
 
-Due to copyright issues, the EvenNode server has been shut down.
+There totally wasnt a evennode server here.
+
+Also goanimate wrapper has been used multiple times for different projects to revive goanimate (sometimes for archiving). the latest being (redacted)
