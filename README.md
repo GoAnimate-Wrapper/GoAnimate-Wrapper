@@ -9,6 +9,6 @@ npm start
 ```
 **When done, go to your web browser and navigate to `localhost`.**
 
-There totally wasnt a evennode server here.
+There totally wasnt an evennode server here.
 
-Also goanimate wrapper has been used multiple times for different projects to revive goanimate (sometimes for archiving). the latest being (redacted)
+Also GoAnimate Wrapper has been used multiple times for different projects to revive goanimate (sometimes for archiving) with the latest being unknown.
