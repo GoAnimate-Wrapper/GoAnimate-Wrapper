@@ -1,9 +1,10 @@
-const voices = require('./info').voices;
+const http = require('http');
+const https = require('https');
+const voices = require('./info');
 const get = require('../request/get');
 const qs = require('querystring');
-const https = require('https');
 
-module.exports = function (voiceName, text) {
+module.exports = function () {
 	return new Promise((res, rej) => {
 		const voice = voices[voiceName];
 		switch (voice.source) {
@@ -21,10 +22,8 @@ module.exports = function (voiceName, text) {
 					r.on('data', b => buffers.push(b));
 					r.on('end', () => {
 						var json = JSON.parse(Buffer.concat(buffers));
-						if (json.file)
-							get(`https://pollyvoices.com${json.file}`).then(res);
-						else
-							rej();
+						if (json.file) get(`https://pollyvoices.com${json.file}`).then(res);
+						else rej();
 					});
 				});
 				req.write(qs.encode({ text: text, voice: voice.arg }));
@@ -53,7 +52,7 @@ module.exports = function (voiceName, text) {
 							const end = html.indexOf('"', beg);
 							const loc = html.subarray(beg, end).toString();
 							get(`https://www.voiceforge.com${loc}`).then(res).catch(rej);
-						});
+						})
 					});
 				});
 				break;
@@ -93,6 +92,7 @@ module.exports = function (voiceName, text) {
 					text: text,
 					speaker: voice.arg,
 					ssml: text.includes('<'),
+					//style: 'default',
 				});
 				https.get({
 					host: 'www.voicery.com',
@@ -115,17 +115,68 @@ module.exports = function (voiceName, text) {
 				console.log(https.get({
 					host: 'text-to-speech-demo.ng.bluemix.net',
 					path: `/api/v1/synthesize?${q}`,
-					headers: {
-						Referer: 'https://www.vocalware.com/index/demo',
-						Origin: 'https://www.vocalware.com',
-						'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
-					},
 				}, r => {
 					var buffers = [];
 					r.on('data', d => buffers.push(d));
 					r.on('end', () => res(Buffer.concat(buffers)));
 					r.on('error', rej);
 				}));
+				break;
+			}
+			case 'acapela': {
+				var q = qs.encode({
+					cl_login: "VAAS_MKT",
+					req_snd_type: "",
+					req_voice: voice.arg,
+					cl_app: "seriousbusiness",
+					req_text: text,
+					cl_pwd: "M5Awq9xu",
+				});
+				console.log(http.get({
+					host: 'vaassl3.acapela-group.com',
+					path: `/Services/AcapelaTV/Synthesizer?${q}`,
+					method: 'GET',
+				}, r => {
+					var buffers = [];
+					r.on('data', d => buffers.push(d));
+					r.on('end', () => {
+						const html = Buffer.concat(buffers);
+						const beg = html.indexOf('&snd_url=') + 9;
+						const end = html.indexOf('&', beg);
+						const loc = `https${html.subarray(beg + 4, end).toString()}`;
+						get(loc).then(res).catch(rej);
+					})
+					r.on('error', rej);
+				}));
+				break;
+			}
+			case 'readloud': {
+				const req = https.request({
+					host: 'readloud.net',
+					path: voice.arg,
+					method: 'POST',
+					port: '443',
+					headers: {
+						'Content-Type': 'application/x-www-form-urlencoded',
+					},
+				}, r => {
+					var buffers = [];
+					r.on('data', d => buffers.push(d));
+					r.on('end', () => {
+						const html = Buffer.concat(buffers);
+						const beg = html.indexOf('/tmp/');
+						const end = html.indexOf('.mp3', beg) + 4;
+						const sub = html.subarray(beg, end).toString();
+						const loc = `https://readloud.net${sub}`;
+						get(loc).then(res).catch(rej);
+					});
+					r.on('error', rej);
+				});
+				req.write(qs.encode({
+					but1: text,
+					but: 'Enviar',
+				}));
+				req.end();
 				break;
 			}
 		}

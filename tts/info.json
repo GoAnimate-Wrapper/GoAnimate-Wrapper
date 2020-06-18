@@ -35,21 +35,13 @@
 			"arg": "ella22k",
 			"desc": "Ella"
 		},
-		"emilio": {
+		"emilio_en": {
 			"country": "US",
 			"language": "en",
 			"gender": "M",
 			"source": "acapela",
 			"arg": "emilioenglish22k",
 			"desc": "Emilio (English)"
-		},
-		"josh": {
-			"country": "US",
-			"language": "en",
-			"gender": "M",
-			"source": "acapela",
-			"arg": "josh22k",
-			"desc": "Josh"
 		},
 		"karen_acapela": {
 			"country": "US",
@@ -371,7 +363,7 @@
 			"arg": "maria22k",
 			"desc": "Maria"
 		},
-		"emilio": {
+		"emilio_es": {
 			"country": "US",
 			"language": "es",
 			"gender": "M",
@@ -658,14 +650,6 @@
 			"source": "watson",
 			"arg": "en-GB_KateVoice",
 			"desc": "Kate (Watson)"
-		},
-		"katev3_watson": {
-			"country": "GB",
-			"language": "en",
-			"gender": "F",
-			"source": "watson",
-			"arg": "en-GB_KateV3Voice",
-			"desc": "KateV3 (Watson)"
 		},
 		"katev3_watson": {
 			"country": "GB",
@@ -3086,6 +3070,38 @@
 			"source": "voiceforge",
 			"arg": "Marta",
 			"desc": "Marta"
+		},
+		"eric": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "readloud",
+			"arg": "/english/american/3-male-voice-eric.html",
+			"desc": "Eric"
+		},
+		"jennifer": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "readloud",
+			"arg": "/english/american/28-female-voice-jennifer.html",
+			"desc": "Jennifer"
+		},
+		"skippy": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "readloud",
+			"arg": "/english/american/49-funny-toy-voice-skippy-the-chipmunk.html",
+			"desc": "Skippy"
+		},
+		"filiz": {
+			"country": "TR",
+			"language": "tr",
+			"gender": "F",
+			"source": "readloud",
+			"arg": "/turkish/20-kadın-sesi-filiz.html",
+			"desc": "Filiz"
 		}
 	}
 }

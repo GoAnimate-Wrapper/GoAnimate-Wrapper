@@ -3,6 +3,7 @@ const parse = require('../data/parse');
 const fUtil = require('../fileUtil');
 const nodezip = require('node-zip');
 const fs = require('fs');
+const { timeLog } = require('console');
 
 module.exports = {
 	/**
@@ -117,7 +118,7 @@ module.exports = {
 		fs.readSync(fd, buffer, 0, 256, 0);
 		const begTitle = buffer.indexOf('<title>') + 16;
 		const endTitle = buffer.indexOf(']]></title>');
-		const title = buffer.slice(begTitle, endTitle).toString().trim();
+		const title = buffer.slice(begTitle, endTitle).toString().trim().replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
 		const begDuration = buffer.indexOf('duration="') + 10;
 		const endDuration = buffer.indexOf('"', begDuration);
