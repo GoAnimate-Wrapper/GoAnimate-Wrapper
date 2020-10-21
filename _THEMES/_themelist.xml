@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list version="1.0">
 	<fvm_meta theme_code="" is_biz="0" />
-	<theme id="business" name="Business Friendly" thumb="" cc_theme_id="business" />
-	<theme id="whiteboard" name="Whiteboard Animation" thumb="" cc_theme_id="whiteboard" />
-	<theme id="infographics" name="Video Infographics" thumb="" cc_theme_id="infographics" />
-	<theme id="sticklybiz" name="Stickly Business" thumb="" cc_theme_id="infographics" />
+	<!--theme id="business" name="Business Friendly" thumb="" cc_theme_id="business" /-->
+	<!--theme id="whiteboard" name="Whiteboard Animation" thumb="" cc_theme_id="whiteboard" /-->
+	<!--theme id="infographics" name="Video Infographics" thumb="" cc_theme_id="infographics" /-->
+	<theme id="custom" name="Comedy World" thumb="" cc_theme_id="custom" />
+	<theme id="action" name="Lil' Peepz" thumb="" cc_theme_id="action" />
+	<theme id="common" name="Common" thumb="matchboy-stand.swf" cc_theme_id="common" />
 	<theme id="retro" name="Cartoon Classics" thumb="ann-stand.swf" cc_theme_id="retro" />
+	<theme id="sticklybiz" name="Stickly Business" thumb="" cc_theme_id="infographics" />
 	<theme id="vietnam" name="Jungle Warfare" thumb="" cc_theme_id="vietnam" />
 	<theme id="monstermsh" name="Monsters Mayhem" thumb="" cc_theme_id="monstermsh" />
 	<theme id="stick" name="Stick Figure" thumb="" cc_theme_id="stick" />
-	<theme id="action" name="Lil' Peepz" thumb="" cc_theme_id="action" />
-	<theme id="custom" name="Comedy World" thumb="" cc_theme_id="custom" />
 	<theme id="animal" name="Lil' Petz" thumb="" cc_theme_id="animal" />
 	<theme id="politics2" name="White Houserz" thumb="" cc_theme_id="politics2" />
 	<theme id="chibi" name="Chibi Peepz" thumb="" cc_theme_id="chibi" />
@@ -41,8 +42,7 @@
 	<theme id="willie" name="Willie Nelson" cc_theme_id="willie" enable="N" />
 	<theme id="toonadv" name="Toon Adventure" cc_theme_id="willie" enable="N" />
 	<theme id="commondupe" name="Common" thumb="matchboy-stand.swf" cc_theme_id="commondupe" />
-	<theme id="common" name="Common" thumb="matchboy-stand.swf" cc_theme_id="common" />
-	<word>mikiko,vikiko</word>
+	<word></word>
 	<whiteword />
 	<excludeAssetIDs />
 	<points money="0" sharing="0" />
