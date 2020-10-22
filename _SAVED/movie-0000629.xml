@@ -1,0 +1,422 @@
+<film copyable="0" duration="39.3" published="0" pshare="0" isWide="1">
+  <meta>
+    <title><![CDATA[IDEAS FOR GA WRAPPER]]></title>
+    <tag><![CDATA[]]></tag>
+    <hiddenTag><![CDATA[]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="0"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+    </palette>
+  </meta>
+  <scene id="SCENE2" adelay="60" lock="N" index="0" color="16514043" guid="50D4ABE9-B829-7584-DE89-85FD71B2281E">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bubbleAsset id="BUBBLE11708" index="1">
+      <x>322.0299726</x>
+      <y>201.0105624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-213.2082867" y="-128.9358289" w="426.4165733" h="257.8716578" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="OstrichSansMedium" size="105" align="center" bold="false" italic="false" embed="true"><![CDATA[IDEA 1
+Comments]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <effectAsset id="EFFECT11" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE1" adelay="120" lock="Y" index="1" color="16514043" guid="C00F4ADC-B729-C9E5-346B-D1B7CA3C0881">
+    <bubbleAsset id="BUBBLE11695" index="2">
+      <x>362.3419753</x>
+      <y>308.2772291</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <bubble x="-171.4333707" y="-45" w="342.8667413" h="90" rotate="0" type="ROUNDRECTANGULAR" hasTail="1" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="1" linergb="0" tailx="-187.1" taily="6.4" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="Coming Soon" size="28" align="center" bold="true" italic="false" embed="true"><![CDATA[Great video! Love what you did!]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <bubbleAsset id="BUBBLE11699" index="4">
+      <x>362.3419753</x>
+      <y>197.0772291</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <bubble x="-171.4333707" y="-45" w="342.8667413" h="90" rotate="0" type="ROUNDRECTANGULAR" hasTail="1" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="1" linergb="0" tailx="-187.1" taily="6.4" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="Coming Soon" size="56" align="center" bold="true" italic="false" embed="true"><![CDATA[Thanks!]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <bubbleAsset id="BUBBLE11703" index="6">
+      <x>359.2919753</x>
+      <y>91.0105624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <bubble x="-171.4333707" y="-45" w="342.8667413" h="90" rotate="0" type="ROUNDRECTANGULAR" hasTail="1" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="1" linergb="0" tailx="-187.1" taily="6.4" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="Coming Soon" size="56" align="center" bold="true" italic="false" embed="true"><![CDATA[No problem!]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <prop id="PROP2" index="1">
+      <file>business.g4b_2824.swf</file>
+      <x>134.8609739</x>
+      <y>299.6105624</y>
+      <xscale>0.4749484</xscale>
+      <yscale>0.4749484</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="colorA">10066329</color>
+    </prop>
+    <prop id="PROP4" index="3">
+      <file>business.g4b_2824.swf</file>
+      <x>134.8609739</x>
+      <y>201.3272291</y>
+      <xscale>0.4749484</xscale>
+      <yscale>0.4749484</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="colorA">10066329</color>
+    </prop>
+    <prop id="PROP6" index="5">
+      <file>business.g4b_2824.swf</file>
+      <x>131.8109739</x>
+      <y>95.2605624</y>
+      <xscale>0.4749484</xscale>
+      <yscale>0.4749484</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="colorA">10066329</color>
+    </prop>
+    <effectAsset id="EFFECT11" themecode="common" index="7">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE3" adelay="60" lock="N" index="2" color="16514043" guid="3209B6C6-1B7E-2C0B-5E58-B598CAAC8370">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bubbleAsset id="BUBBLE11708" index="1">
+      <x>322.0299726</x>
+      <y>201.0105624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-213.2082867" y="-128.9358289" w="426.4165733" h="257.8716578" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="OstrichSansMedium" size="105" align="center" bold="false" italic="false" embed="true"><![CDATA[IDEA 2
+PROFILES]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <effectAsset id="EFFECT11" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE4" adelay="102" lock="N" index="3" color="16514043" guid="BC981874-AA22-B3DD-E7ED-C021C4174626">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bubbleAsset id="BUBBLE11714" index="2">
+      <x>365.5669753</x>
+      <y>115.2105624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-176.7365439" y="-77.535" w="353.4730878" h="155.07" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="OstrichSansMedium" size="56" align="center" bold="false" italic="false" embed="true"><![CDATA[JAKE THE GOANIMATOR
+NEW USEr]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <bubbleAsset id="BUBBLE11716" index="4">
+      <x>108.3359739</x>
+      <y>227.3605624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-61.3340228" y="-32.535" w="122.6680455" h="65.07" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="16514043" alpha="100" font="OstrichSansMedium" size="50" align="center" bold="false" italic="false" embed="true"><![CDATA[VIDEOS]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <prop id="PROP10" index="1">
+      <file>business.g4b_2824.swf</file>
+      <x>124.2</x>
+      <y>129.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="colorA">10066329</color>
+    </prop>
+    <prop id="PROP11" index="3">
+      <file>business.g4b_1684.swf</file>
+      <x>286.8799726</x>
+      <y>276.225</y>
+      <xscale>4.296061</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">10066329</color>
+    </prop>
+    <prop id="PROP12" index="5">
+      <file>business.g4b_1684.swf</file>
+      <x>143.3419753</x>
+      <y>298.9105624</y>
+      <xscale>1</xscale>
+      <yscale>0.5583423</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="PROP14" index="6">
+      <file>business.g4b_1684.swf</file>
+      <x>322</x>
+      <y>298.8889586</y>
+      <xscale>1</xscale>
+      <yscale>0.5583423</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="PROP16" index="7">
+      <file>business.g4b_1684.swf</file>
+      <x>500.7</x>
+      <y>298.8889586</y>
+      <xscale>1</xscale>
+      <yscale>0.5583423</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <effectAsset id="EFFECT11" themecode="common" index="8">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE5" adelay="60" lock="N" index="4" color="16514043" guid="9656A398-61CD-2D02-7DC0-899A3753E4D0">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bubbleAsset id="BUBBLE11708" index="1">
+      <x>322.0299726</x>
+      <y>201.0105624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-213.2082867" y="-128.9358289" w="426.4165733" h="257.8716578" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="OstrichSansMedium" size="102" align="center" bold="false" italic="false" embed="true"><![CDATA[IDEA 3
+Shared videos]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <effectAsset id="EFFECT11" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE6" adelay="168" lock="N" index="5" color="16514043" guid="61B7267A-7C27-005B-C9E2-1A4677669148">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bubbleAsset id="BUBBLE11708" index="1">
+      <x>322.0299726</x>
+      <y>201.0105624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-213.2082867" y="-128.9358289" w="426.4165733" h="257.8716578" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="OstrichSansMedium" size="52" align="center" bold="false" italic="false" embed="true"><![CDATA[BASICALLY, WITH SHARED VIDEOS, YOU CAN ALLOW CERTAIN USERS, OR ANY USER TO EDIT YOUR VIDEOS.]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <effectAsset id="EFFECT11" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE7" adelay="69" lock="N" index="6" color="16514043" guid="69099121-CE2A-4288-AF9B-EB5BDDB44887">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bubbleAsset id="BUBBLE11708" index="1">
+      <x>322.0299726</x>
+      <y>201.0105624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-213.2082867" y="-128.9358289" w="426.4165733" h="257.8716578" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="OstrichSansMedium" size="70" align="center" bold="false" italic="false" embed="true"><![CDATA[IDEA 4
+WORKING CHARACTER CREATOR]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <effectAsset id="EFFECT11" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE8" adelay="69" lock="N" index="7" color="16514043" guid="484E301A-8749-685F-BC77-3798011A3914">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bubbleAsset id="BUBBLE11708" index="1">
+      <x>322.0299726</x>
+      <y>201.0105624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-213.2082867" y="-128.9358289" w="426.4165733" h="257.8716578" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="OstrichSansMedium" size="105" align="center" bold="false" italic="false" embed="true"><![CDATA[YOU KNOW WHAT THIS IS.]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <effectAsset id="EFFECT11" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE9" adelay="69" lock="N" index="8" color="16514043" guid="E20AB19A-A7CC-6EF0-7370-E4B93F76713C">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bubbleAsset id="BUBBLE11708" index="1">
+      <x>322.0299726</x>
+      <y>201.0105624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-213.2082867" y="-128.9358289" w="426.4165733" h="257.8716578" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="OstrichSansMedium" size="105" align="center" bold="false" italic="false" embed="true"><![CDATA[YOU KNOW WHAT THIS IS.]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <effectAsset id="EFFECT11" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE10" adelay="60" lock="N" index="9" color="16514043" guid="12EEFFE2-FAD9-85DB-82F6-73C5B2F5A823">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bubbleAsset id="BUBBLE11708" index="1">
+      <x>322.0299726</x>
+      <y>201.0105624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-213.2082867" y="-128.9358289" w="426.4165733" h="257.8716578" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="OstrichSansMedium" size="87" align="center" bold="false" italic="false" embed="true"><![CDATA[IDEA 5
+ACCOUNT SYSTEM]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <effectAsset id="EFFECT11" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE11" adelay="105" lock="N" index="10" color="16514043" guid="290ACA68-B688-379A-F3F7-CE9B6DF86818">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bubbleAsset id="BUBBLE11708" index="1">
+      <x>322.0299726</x>
+      <y>201.0105624</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-213.2082867" y="-128.9358289" w="426.4165733" h="257.8716578" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="OstrichSansMedium" size="70" align="center" bold="false" italic="false" embed="true"><![CDATA[I THINK THESE ARE GOOD IDEAS. WHAT ABOUT YOU?]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <effectAsset id="EFFECT11" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+</film>

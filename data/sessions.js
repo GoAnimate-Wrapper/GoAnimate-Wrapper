@@ -1,23 +1,20 @@
 /**
+ * @summary Holds a lookup map for session data.
  * @typedef {{movieId:string}} sessionType
  * @type {{[ip:string]:sessionType}}
  */
 var caché = {};
 module.exports = {
 	getKey(req) {
-		return req.headers['x-forwarded-for'];
+		return req.headers["x-forwarded-for"] || "localhost";
 	},
-	/**
-	 * 
-	 * @param {sessionType} data 
-	 */
 	set(data, req) {
-		const ip = this.getKey(req);
-		caché[ip] = caché[ip] || {};
-		Object.assign(caché[ip], data);
+		const key = this.getKey(req);
+		caché[key] = caché[key] || {};
+		Object.assign(caché[key], data);
 
-		console.log('Session Adding.');
-		console.log(ip);
+		console.log("Session Adding.");
+		console.log(key);
 		console.log(data);
 	},
 	get(req) {
@@ -26,9 +23,9 @@ module.exports = {
 	},
 	remove(req) {
 		const ip = this.getKey(req);
-		console.log('Session Removing.');
+		console.log("Session Removing.");
 		console.log(ip);
 		console.log(caché[ip]);
 		delete caché[ip];
 	},
-}
+};

@@ -1,5 +1,6 @@
 const voices = require("./info").voices;
 const qs = require("querystring");
+const brotli = require("brotli");
 const https = require("https");
 const http = require("http");
 
@@ -185,6 +186,7 @@ module.exports = function (voiceName, text) {
 							const beg = html.indexOf("&snd_url=") + 9;
 							const end = html.indexOf("&", beg);
 							const sub = html.subarray(beg + 4, end).toString();
+							if (!sub.startsWith("://")) rej();
 							get(`https${sub}`).then(res).catch(rej);
 						});
 						r.on("error", rej);

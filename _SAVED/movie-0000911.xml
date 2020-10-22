@@ -1,0 +1,62 @@
+<film copyable="0" duration="0.9" published="0" pshare="0" isWide="1">
+  <meta>
+    <title><![CDATA[test2]]></title>
+    <tag><![CDATA[]]></tag>
+    <hiddenTag><![CDATA[]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="0"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+    </palette>
+  </meta>
+  <scene id="SCENE1" adelay="21" lock="N" index="0" color="5618602" guid="C00F4ADC-B729-C9E5-346B-D1B7CA3C0881">
+    <durationSetting countMinimum="0" countTransition="0" countAction="0" countBubble="0" countSpeech="1"/>
+    <bg id="BG5095" index="0">
+      <file>business.g4b_bg191.swf</file>
+      <color r="Color_A">15131603</color>
+    </bg>
+    <char id="AVATOR11694" index="1" raceCode="1">
+      <action face="1" motionface="1">ugc.327779829.stand.xml</action>
+      <x>313.9666667</x>
+      <y>213.55</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT11" themecode="common" index="2">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <sound id="SOUND1" index="0" track="0" vol="1" tts="1">
+    <sfile>ugc.09860456971950304-tts.mp3</sfile>
+    <start>1</start>
+    <stop>21</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[test]]></text>
+      <voice><![CDATA[david]]></voice>
+    </ttsdata>
+  </sound>
+  <linkage>SOUND1,~~~AVATOR11694,SCENE1~~~</linkage>
+<asset id="09860456971950304-tts.mp3">//NAxAAAAANIAAAAAExBTUUzLjk5LjVVVVVVVVVVVVVMQU1FMy45OS41VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/80LEWwAAA0gAAAAAVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy45OS41VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/80DEpAAAA0gAAAAAVVVVVVVVVVVVVVVVVVVVVVVVVUxBTUUzLjk5LjVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/zQsSjAAADSAAAAABVVVVVVVVVVVVVVVVVVVVVVVVVVUxBTUUzLjk5LjVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVUSh0aC0DDwDC0UC0SDWLOm5S+9H3Vmt//zQMSkAAADSAAAAAB6KfzHd93//6HfR//R/R//o/0qBHRYNIBYRXVWu112EwlAY0z61oS+AbaAuVpJxt/LxLaSDJjoDoRylJKL6RogRAniLju3oSoZuN4ZcM7FqFaexPmBogs3L4wg//NCxKMAAANIAUAAAMHBQCQgs0UIAYAqep0jdAnzYuMTZXK4NggLPhZQBEGDYsAIYAUMIEHwf9Bm/2gZFCBmwoAzwCokBQ2DYwFkAtgggVRW4GNEhv///+y3TtQl8sk8RALIBNoWzAYA//NAxM4KWAa+X4AQhguEYpBB7MSqOWQL/////+SxFyufXQVZZMBHa7ZemwWDCoUv/CUYgty5ISg1z/E7f/8MZzTXPYcNPJBjEEGIpZEgRjN8jsQLuDrQHxPHUTCe0sH5ssTYmaFltVX/80LE/y4rgw8fkqJCsdpb2iVOUfCI7UASaUrq6nys1ZFSxgOUzAhjrW207T2213cf/5kcXiola7WNXUlTqHo8w1bCNJWr98QlP188wrB7Ppn29beUHG2//Ao1f+gCBDQBCDbhBvGpNJ//80DEoiWDJqZfiVgATqQIl3KJ3UH0Opa9h8P1CRSzRsAGmSBfKAGaJFEbRgBzskeJpeJMbh6jManC4XR9GMSobomwjxDAG8bVFxYb5KLNiwKqMYSYcYnjoFzuSo5xwE4zQSHYJeOBR//zQsRnJesGpY2YaADNG1v6SazZqB0+fNjQ1S6zEvonV3drc0TRVb+ZOyq7q/69L/9roLRf+/omyTLP//9ShAWRFuW3C4hGSQdwPsQZooiKDpYQEy5Omv22osvl5eu9RJjUqTH65Fnpjv/zQMQrE/Da0Z/JMALQyKx00mEmjnnXqnWJS7uRe8mmp4Dt//+g0ejBYWLrYhXU3T+msck3NbhMx4CltVXbqrcYf03WjChfjQHYObSQzXsiNTBeF4V8ut2vXM1kdAz3Q6Ns2X2+czJT//NCxDYTiVrQ3mDMsmiBRy3l4HHK0Higsc//9F2yYKrv6ecS1FX6lRttyb/8eVyIAO1Gs1mGzLmeRQOTHRrfT5UqHOWrNVkVdN252EdJFFJBRA8Pgx9zc/vs25S8aDUwYs75uz+r6RFC//NAxEMcixbhvnmE9qI6DI7t8E6i4CciCRhQOS7Ishjzp/////e6s7rWygQMAAiDCzOHe30UPBNASHeKqqBoSu6QdfsNgr0TVMK5qmg3TDE4Qz/OB9YD4teAwPrQ57VWkyKkYI1j1DX/80LEKxlS1rj2egS+NzWndQ2sK1k01GppE8TUU0MMKdgUiqjl/o5RgpEq+2FW9mZVp///6zSqazEMrGTnUOiNFBAq7nk0Raoj+GU5rAOnoDH2CZNtOJFqEpK0Q8uMoUm+hJiKa9c7uaL/80DEIRQSyrj+SgTvv7peAygjRrbTzctSOpSMoJ/22M6sZDOxv9OhS1qxeyXRa0fVf///5aU666nKCQKqlmzIdH2Yta5tzolTVSIzS/l12h3DMCZjXT1PbSrIaXf//IT////9GXWhFP/zQsQrE8M2mABgRK3nO/oxzkBizhBCoACGyfCNOii0Y7yNU/p/1eyMgupzgZ+H952HiP5KLr///8K///////Z////wDGiOIDFnwxxaL/N0xNR9jOSGtAobxEk2eP2+lD8ggssQCDVUmf/zQMQ4EtsmsAIITPwxCkI9s3mH35839rr6yaoCUJ7ytRLdNfZY46k/ouSm9CAuo1ac0YtTTbniGPKqcw34f5EGv9+RP/nsKCwRsS/zP/44OqNRxBQssvHz/l2aqDurcdnVfn977E2Q//NCxEcUEs7aXEBHFo0McNxwZa0d+lWTSW22WRG37I4FDvX2nCknWRRIWqpiRxS7cJw2cBrWGRP9UhE2aa8jPWDs8yuZjCW7vIXd//7WV0p5Oq/+5MGTR//+/q7MSMUcKdeiWCi8inRr//NAxFIT6sLGWjDE0r362RG2kAf3HCiyCgFFl8KzRmEKPdYRPp+1e1ZhRFaWpOjlQsNoqnf0UiiYHGIOVWDhBciOcY5N09nM3X7X/0ZPV09CCZ7O3b+j0WogitV0b7//eVD2gEjepw3/80LEXRQLKs5aEErfQ3IFbOonT3WMAb3SJdlaIqLTVUClZ6Kn9SlKUpUMZ+YxfmMblL/+k0pSt0DxlLc7q+hOdPQ4elTuDRX+eioaCCkkAw3YEzQXHL9gXF00b9Dv/73qrf/lVm1hSkH/80DEaBLB5sJaEspqFyXRbzt5TGvRDfp6SzIjsjkBhS1WuySGYr2LYlXVuR3KajqUqIqeyWSs37UM3XKWMOJJIUoADMbC0bDYa6vQyK1hv/MwsG4+cBjLYWhFjqRJdGOXgUAYA0C8if/zQsR4FGsugl1HEAAoKT49BwDkPlw3GFb6jQvifjzksUx6kt7UEEGLh5MSt0CxJFQn0zSrHOeMEy4xfdnOm7Ox56kXKfNW1rfrNzdV1MaM6B0ojLLaZ+tz2icXR3+p83L5vN3dJlqa9P/zQMSCJYvOzl+QaAMLxtdK5eMVJI6k////W7///WiXitUCBpAguSSuKAFd4D8oR8rCkO5m0zMzszO3/emZPryVw/YxDBgv7pgU12gd3mtt42MhJLBcHtMchMPENMJeiSSH3oDktFwy//NCxEYl8xadvYVgAAOtpiQDIG8TXRxwtRHLLKU1rLHj0MGYyzBftOnbR8P6x16nb2N39YUXIes1OYu7fVPbDda3Jy6dX/ku67jPKlq06HXf62MzM/m52bb5mEyz/60CCaIQAAfwXm/r//NAxAoW+opsNYJQAP2b9zAJyLX85Zxx3+C6C4JgqCJEYQeRTjiH+C4FAFyJ4Xg1FoKMTzSKayOQr/xkIAOCsLh6Qkg1HosiocxF0OOzv/+zWuaWc4mOWFWZ4r/8u5ZMQU1FMy45OS7/80LECQAAA0gBwAAANaqqqqqqqqqqqqqqqqqqqqqqqqpMQU1FMy45OS41qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/80DEZQAAA0gAAAAAqqqqqqqqqqqqqqqqqqqqqqqqqkxBTUUzLjk5LjWqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqv/zQsSjAAADSAAAAACqqqqqqqqqqqqqqqqqqqqqqqqqqkxBTUUzLjk5LjWqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqv/zQMSkAAADSAAAAACqqqqqqqqqqqqqqqqqqqqqqqqqTEFNRTMuOTkuNaqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq//NCxKMAAANIAAAAAKqqqqqqqqqqqqqqqqqqqqqqqqqqTEFNRTMuOTkuNaqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq//NAxKQAAANIAAAAAKqqqqqqqqqqqqqqqqqqqqqqqqpMQU1FMy45OS41qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/80LEowAAA0gAAAAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/80DEpAAAA0gAAAAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqg==</asset></film>

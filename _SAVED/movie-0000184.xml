@@ -1,0 +1,948 @@
+<film copyable="0" duration="21.4" published="1" pshare="0" isWide="1">
+  <meta>
+    <title><![CDATA[thevideoeditorguy6579 got blood shit on his pants]]></title>
+    <tag><![CDATA[]]></tag>
+    <hiddenTag><![CDATA[politic,britneySpear,lindsay]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="8"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+      <color value="9f0f11"/>
+    </palette>
+  </meta>
+  <scene id="SCENE1" adelay="120" lock="Y" index="0" color="16777215" guid="C00F4ADC-B729-C9E5-346B-D1B7CA3C0881" combgId="custom.cbg_frontyard">
+    <bg id="cbg_frontyard_BG52" index="0">
+      <file>custom.front_yard_bg.swf</file>
+    </bg>
+    <char id="AVATOR11724" index="5" raceCode="0">
+      <action face="-1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>266.15</x>
+      <y>260.375</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11725" index="6" raceCode="0">
+      <action face="-1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>92.6091065</x>
+      <y>268.575</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11727" index="7" raceCode="1">
+      <action face="1" motionface="1">ugc.328120182.sit.xml</action>
+      <head id="PROP9" raceCode="1">
+        <file>ugc.328120182.head.head_sick.xml</file>
+      </head>
+      <x>470.1314309</x>
+      <y>235.7030254</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-23.8031105</rotation>
+    </char>
+    <prop id="PROP27" index="8">
+      <file>custom.cc_mosaic.swf</file>
+      <x>479.15</x>
+      <y>294.85</y>
+      <xscale>2.9302582</xscale>
+      <yscale>2.9302582</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP37" index="4" attached="Y">
+      <file>custom.front_yard_sign.swf</file>
+      <x>353</x>
+      <y>212</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP36" index="3" attached="Y">
+      <file>custom.front_yard_tree.swf</file>
+      <x>486</x>
+      <y>82</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP35" index="2" attached="Y">
+      <file>custom.front_yard_house.swf</file>
+      <x>146</x>
+      <y>96</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP34" index="1" attached="Y">
+      <file>custom.msp_door.msp_door_front_yard_house_door_opened.swf</file>
+      <x>192</x>
+      <y>148</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT4" themecode="common" index="9">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE2" adelay="60" lock="N" index="1" color="16777215" guid="02EB7797-E550-457B-F4B9-2F0B4B490898" combgId="custom.cbg_frontyard">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_frontyard_BG52" index="0">
+      <file>custom.front_yard_bg.swf</file>
+    </bg>
+    <char id="AVATOR11724" index="5" raceCode="0">
+      <action face="-1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>266.1790378</x>
+      <y>260.425</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11725" index="7" raceCode="0">
+      <action face="-1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>92.6091065</x>
+      <y>268.575</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11727" index="8" raceCode="1">
+      <action face="1" motionface="1">ugc.328120182.sit.xml</action>
+      <head id="PROP17" raceCode="1">
+        <file>ugc.328120182.head.head_sick.xml</file>
+      </head>
+      <x>470.1314309</x>
+      <y>235.7030254</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-23.8031105</rotation>
+    </char>
+    <prop id="PROP30" index="6">
+      <file>politic.shit.swf</file>
+      <x>522.25,535.8</x>
+      <y>289.45,352.725</y>
+      <xscale>1,1.9139791</xscale>
+      <yscale>1,1.9139791</yscale>
+      <face>1,1</face>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </prop>
+    <prop id="PROP27" index="9">
+      <file>custom.cc_mosaic.swf</file>
+      <x>479.15</x>
+      <y>294.85</y>
+      <xscale>2.9302582</xscale>
+      <yscale>2.9302582</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP37" index="4" attached="Y">
+      <file>custom.front_yard_sign.swf</file>
+      <x>353</x>
+      <y>212</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP36" index="3" attached="Y">
+      <file>custom.front_yard_tree.swf</file>
+      <x>486</x>
+      <y>82</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP35" index="2" attached="Y">
+      <file>custom.front_yard_house.swf</file>
+      <x>146</x>
+      <y>96</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP34" index="1" attached="Y">
+      <file>custom.msp_door.msp_door_front_yard_house_door_opened.swf</file>
+      <x>192</x>
+      <y>148</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT4" themecode="common" index="10">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="704" target="PROP30" type="MotionPath" atype="Prop" direction="2" section="5" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE3" adelay="60" lock="N" index="2" color="16777215" guid="A602C2AA-9C3C-E73F-65EA-93A1E5CA3C0C" combgId="custom.cbg_frontyard">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_frontyard_BG52" index="0">
+      <file>custom.front_yard_bg.swf</file>
+    </bg>
+    <char id="AVATOR11724" index="5" raceCode="0">
+      <action face="-1" motionface="1">politic.britneySpear.angry01.swf</action>
+      <x>266.1790378</x>
+      <y>260.425</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11725" index="7" raceCode="0">
+      <action face="-1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>92.6091065</x>
+      <y>268.575</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11727" index="8" raceCode="1">
+      <action face="1" motionface="1">ugc.328120182.sit.xml</action>
+      <head id="PROP18" raceCode="1">
+        <file>ugc.328120182.head.head_sick.xml</file>
+      </head>
+      <x>470.1314309</x>
+      <y>235.7030254</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-23.8031105</rotation>
+    </char>
+    <prop id="PROP30" index="6">
+      <file>politic.shit.swf</file>
+      <x>535.745699</x>
+      <y>347.875</y>
+      <xscale>1.9139791</xscale>
+      <yscale>1.9139791</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP27" index="9">
+      <file>custom.cc_mosaic.swf</file>
+      <x>479.15</x>
+      <y>294.85</y>
+      <xscale>2.9302582</xscale>
+      <yscale>2.9302582</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP37" index="4" attached="Y">
+      <file>custom.front_yard_sign.swf</file>
+      <x>353</x>
+      <y>212</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP36" index="3" attached="Y">
+      <file>custom.front_yard_tree.swf</file>
+      <x>486</x>
+      <y>82</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP35" index="2" attached="Y">
+      <file>custom.front_yard_house.swf</file>
+      <x>146</x>
+      <y>96</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP34" index="1" attached="Y">
+      <file>custom.msp_door.msp_door_front_yard_house_door_opened.swf</file>
+      <x>192</x>
+      <y>148</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT4" themecode="common" index="10">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE4" adelay="60" lock="N" index="3" color="16777215" guid="43E05C4C-7E9F-CD09-40B8-6B05F985A621" combgId="custom.cbg_frontyard">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_frontyard_BG52" index="0">
+      <file>custom.front_yard_bg.swf</file>
+    </bg>
+    <char id="AVATOR11724" index="5" raceCode="0">
+      <action face="-1" motionface="1">politic.britneySpear.angry01.swf</action>
+      <x>266.1790378</x>
+      <y>260.425</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11725" index="8" raceCode="0">
+      <action face="-1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>92.6091065</x>
+      <y>268.575</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11727" index="9" raceCode="1">
+      <action face="1" motionface="1">ugc.328120182.sit.xml</action>
+      <head id="PROP38" raceCode="1">
+        <file>ugc.328120182.head.head_sick.xml</file>
+      </head>
+      <x>470.1314309</x>
+      <y>235.7030254</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-23.8031105</rotation>
+    </char>
+    <prop id="PROP41" index="6">
+      <file>politic.shit.swf</file>
+      <x>491.395699,500.975</x>
+      <y>271.125,347.9</y>
+      <xscale>1.9139791,1.9139791</xscale>
+      <yscale>1.9139791,1.9139791</yscale>
+      <face>1,1</face>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </prop>
+    <prop id="PROP30" index="7">
+      <file>politic.shit.swf</file>
+      <x>535.745699</x>
+      <y>347.875</y>
+      <xscale>1.9139791</xscale>
+      <yscale>1.9139791</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP27" index="10">
+      <file>custom.cc_mosaic.swf</file>
+      <x>479.15</x>
+      <y>294.85</y>
+      <xscale>2.9302582</xscale>
+      <yscale>2.9302582</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP37" index="4" attached="Y">
+      <file>custom.front_yard_sign.swf</file>
+      <x>353</x>
+      <y>212</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP36" index="3" attached="Y">
+      <file>custom.front_yard_tree.swf</file>
+      <x>486</x>
+      <y>82</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP35" index="2" attached="Y">
+      <file>custom.front_yard_house.swf</file>
+      <x>146</x>
+      <y>96</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP34" index="1" attached="Y">
+      <file>custom.msp_door.msp_door_front_yard_house_door_opened.swf</file>
+      <x>192</x>
+      <y>148</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT4" themecode="common" index="11">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="705" target="PROP41" type="MotionPath" atype="Prop" direction="2" section="5" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE5" adelay="24" lock="Y" index="4" color="16777215" guid="D888A774-89B5-8F5D-8B7C-5AD7AC97ADF9" combgId="custom.cbg_frontyard">
+    <bg id="cbg_frontyard_BG52" index="0">
+      <file>custom.front_yard_bg.swf</file>
+    </bg>
+    <char id="AVATOR11724" index="5" raceCode="0">
+      <action face="-1" motionface="1">politic.britneySpear.model05-laugh.swf</action>
+      <x>266.15</x>
+      <y>260.375</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11725" index="9" raceCode="0">
+      <action face="-1" motionface="1">politic.lindsay.model05-laugh.swf</action>
+      <x>92.6091065</x>
+      <y>268.575</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11727" index="10" raceCode="1">
+      <action face="1" motionface="1">ugc.328120182.sit.xml</action>
+      <head id="PROP47" raceCode="1">
+        <file>ugc.328120182.head.head_sick.xml</file>
+      </head>
+      <x>462.0314309</x>
+      <y>228.7030254</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-23.8031105</rotation>
+    </char>
+    <prop id="PROP49" index="6">
+      <file>politic.pumping_shit.swf</file>
+      <x>517.6290378</x>
+      <y>271.8494845</y>
+      <xscale>1.6766527</xscale>
+      <yscale>1.6766527</yscale>
+      <face>-1</face>
+      <rotation>-154.5734505</rotation>
+    </prop>
+    <prop id="PROP41" index="7">
+      <file>politic.shit.swf</file>
+      <x>500.975</x>
+      <y>347.9</y>
+      <xscale>1.9139791</xscale>
+      <yscale>1.9139791</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP30" index="8">
+      <file>politic.shit.swf</file>
+      <x>535.745699</x>
+      <y>347.875</y>
+      <xscale>1.9139791</xscale>
+      <yscale>1.9139791</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP27" index="11">
+      <file>custom.cc_mosaic.swf</file>
+      <x>482.5017435</x>
+      <y>286.7</y>
+      <xscale>2.9302582</xscale>
+      <yscale>2.9302582</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP37" index="4" attached="Y">
+      <file>custom.front_yard_sign.swf</file>
+      <x>353</x>
+      <y>212</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP36" index="3" attached="Y">
+      <file>custom.front_yard_tree.swf</file>
+      <x>486</x>
+      <y>82</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP35" index="2" attached="Y">
+      <file>custom.front_yard_house.swf</file>
+      <x>146</x>
+      <y>96</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP34" index="1" attached="Y">
+      <file>custom.msp_door.msp_door_front_yard_house_door_opened.swf</file>
+      <x>192</x>
+      <y>148</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT4" themecode="common" index="12">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE7" adelay="60" lock="N" index="5" color="16777215" guid="337EC722-EC47-30B3-1E7D-57490FE6B52D" combgId="custom.cbg_frontyard">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_frontyard_BG52" index="0">
+      <file>custom.front_yard_bg.swf</file>
+    </bg>
+    <char id="AVATOR11724" index="5" raceCode="0">
+      <action face="1,1" motionface="1">politic.britneySpear.shock.swf</action>
+      <x>266.15,-223.35</x>
+      <y>260.35,253</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <char id="AVATOR11725" index="6" raceCode="0">
+      <action face="1,1" motionface="1">politic.lindsay.shock.swf</action>
+      <x>92.6091065,-396.8908935</x>
+      <y>268.575,261.225</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <char id="AVATOR11727" index="7" raceCode="1">
+      <action face="1" motionface="1">ugc.328120182.laugh.xml</action>
+      <head id="PROP28" raceCode="1">
+        <file>ugc.328120182.head.head_angry.xml</file>
+      </head>
+      <x>458.2386948</x>
+      <y>229.0187074</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-0.9611759</rotation>
+    </char>
+    <prop id="PROP29" index="8">
+      <file>business.g4b_815.swf</file>
+      <x>418.6916667</x>
+      <y>132.4345934</y>
+      <xscale>0.5182414</xscale>
+      <yscale>0.5182414</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP32" index="9">
+      <file>business.g4b_815.swf</file>
+      <x>441.912956</x>
+      <y>135.3345934</y>
+      <xscale>0.5182414</xscale>
+      <yscale>0.5182414</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP37" index="4" attached="Y">
+      <file>custom.front_yard_sign.swf</file>
+      <x>353</x>
+      <y>212</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP36" index="3" attached="Y">
+      <file>custom.front_yard_tree.swf</file>
+      <x>486</x>
+      <y>82</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP35" index="2" attached="Y">
+      <file>custom.front_yard_house.swf</file>
+      <x>146</x>
+      <y>96</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP34" index="1" attached="Y">
+      <file>custom.msp_door.msp_door_front_yard_house_door_opened.swf</file>
+      <x>192</x>
+      <y>148</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT4" themecode="common" index="10">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="706" target="AVATOR11724" type="MotionPath" atype="Character" direction="2" section="6" timing="0" duration="24" delay="0">null</aTran>
+      <aTran id="707" target="AVATOR11725" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE8" adelay="60" lock="N" index="6" color="16777215" guid="ACD9E7AC-9872-B235-3774-224A03D83650" combgId="custom.cbg_frontyard">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_frontyard_BG52" index="0">
+      <file>custom.front_yard_bg.swf</file>
+    </bg>
+    <char id="AVATOR11725" index="5" raceCode="0">
+      <action face="1" motionface="-1">politic.lindsay.shock.swf</action>
+      <x>-396.8908935</x>
+      <y>261.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11727" index="6" raceCode="1">
+      <action face="1,1" motionface="1">ugc.328120182.run.xml</action>
+      <head id="PROP33" raceCode="1">
+        <file>ugc.328120182.head.head_angry.xml</file>
+      </head>
+      <x>458.1874278,-112.6113052</x>
+      <y>229.1087852,219.0687074</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>-0.9611759,-0.9611759</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <prop id="PROP29" index="7">
+      <file>business.g4b_815.swf</file>
+      <x>418.6916667,-152.1583333</x>
+      <y>132.4345934,122.4845934</y>
+      <xscale>0.5182414,0.5182414</xscale>
+      <yscale>0.5182414,0.5182414</yscale>
+      <face>1,1</face>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </prop>
+    <prop id="PROP32" index="8">
+      <file>business.g4b_815.swf</file>
+      <x>441.912956,-128.937044</x>
+      <y>135.3345934,125.3845934</y>
+      <xscale>0.5182414,0.5182414</xscale>
+      <yscale>0.5182414,0.5182414</yscale>
+      <face>1,1</face>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </prop>
+    <prop id="cbg_frontyard_PROP37" index="4" attached="Y">
+      <file>custom.front_yard_sign.swf</file>
+      <x>353</x>
+      <y>212</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP36" index="3" attached="Y">
+      <file>custom.front_yard_tree.swf</file>
+      <x>486</x>
+      <y>82</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP35" index="2" attached="Y">
+      <file>custom.front_yard_house.swf</file>
+      <x>146</x>
+      <y>96</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_frontyard_PROP34" index="1" attached="Y">
+      <file>custom.msp_door.msp_door_front_yard_house_door_opened.swf</file>
+      <x>192</x>
+      <y>148</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT4" themecode="common" index="9">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="708" target="AVATOR11727" type="MotionPath" atype="Character" direction="2" section="6" timing="0" duration="24" delay="0">null</aTran>
+      <aTran id="709" target="PROP29" type="MotionPath" atype="Prop" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+      <aTran id="710" target="PROP32" type="MotionPath" atype="Prop" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE9" adelay="9" lock="Y" index="7" color="16777215" guid="936B2ACF-98FD-65F0-0639-475FFFC170A9" combgId="custom.cbg_girl_rm">
+    <bg id="cbg_girl_rm_BG2" index="0">
+      <file>custom.girl_rm_bg.swf</file>
+    </bg>
+    <char id="AVATOR11725" index="5" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.shock.swf</action>
+      <x>-396.8908935</x>
+      <y>261.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11832" index="6" raceCode="0">
+      <action face="-1" motionface="1">politic.lindsay.model03-sit.swf</action>
+      <x>221.1614387</x>
+      <y>215.1998886</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>33.6199421</rotation>
+    </char>
+    <char id="AVATOR11833" index="7" raceCode="0">
+      <action face="-1" motionface="1">politic.britneySpear.model03-sit.swf</action>
+      <x>321.4993939</x>
+      <y>210.1423378</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>27.4958016</rotation>
+    </char>
+    <prop id="cbg_girl_rm_PROP7" index="4" attached="Y">
+      <file>custom.girl_rm_chair01.swf</file>
+      <x>429</x>
+      <y>303.4</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_girl_rm_PROP6" index="3" attached="Y">
+      <file>custom.girl_rm_chair02.swf</file>
+      <x>125.4</x>
+      <y>261.4</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_girl_rm_PROP0" index="2" attached="Y">
+      <file>custom.girl_rm_table.swf</file>
+      <x>498.5</x>
+      <y>218.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_girl_rm_PROP5" index="1" attached="Y">
+      <file>custom.msp_girl_rm_blanket.msp_girl_rm_blanket_girl_rm_blanket01.swf</file>
+      <x>256.6</x>
+      <y>255.4</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP66" index="8">
+      <file>common.msp_door01.msp_door01_door01_front_close.swf</file>
+      <x>680.95,373.6</x>
+      <y>227.75,280.3</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <face>1,1</face>
+      <rotation>0,-92.2119838</rotation>
+      <assetMotion ver="2"/>
+    </prop>
+    <effectAsset id="EFFECT4" themecode="common" index="9">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="714" target="PROP66" type="MotionPath" atype="Prop" direction="2" section="5" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE10" adelay="60" lock="N" index="8" color="16777215" guid="81790C69-508C-CD76-03DC-311CD233F9EA">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_girl_rm_BG2" index="0">
+      <file>custom.girl_rm_bg.swf</file>
+    </bg>
+    <char id="AVATOR11725" index="5" raceCode="0">
+      <action face="1" motionface="1">politic.lindsay.shock.swf</action>
+      <x>-396.8908935</x>
+      <y>261.225</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR11832" index="6" raceCode="0">
+      <action face="-1" motionface="1">politic.lindsay.shock.swf</action>
+      <x>229.4263661</x>
+      <y>211.4284145</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-4.1340061</rotation>
+    </char>
+    <char id="AVATOR11833" index="7" raceCode="0">
+      <action face="-1" motionface="1">politic.britneySpear.shock.swf</action>
+      <x>326.5655151</x>
+      <y>206.5476463</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>-3.5038459</rotation>
+    </char>
+    <char id="AVATOR11843" index="8" raceCode="1">
+      <action face="1,1" motionface="1">ugc.328120182.run.xml</action>
+      <head id="PROP60" raceCode="1">
+        <file>ugc.328120182.head.head_angry.xml</file>
+      </head>
+      <x>738.0849251,501.1386948</x>
+      <y>236.340854,213.0687074</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>-0.9611759,-0.9611759</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <prop id="cbg_girl_rm_PROP5" index="1" attached="Y">
+      <file>custom.msp_girl_rm_blanket.msp_girl_rm_blanket_girl_rm_blanket01.swf</file>
+      <x>256.6</x>
+      <y>255.4</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_girl_rm_PROP0" index="2" attached="Y">
+      <file>custom.girl_rm_table.swf</file>
+      <x>498.5</x>
+      <y>218.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_girl_rm_PROP6" index="3" attached="Y">
+      <file>custom.girl_rm_chair02.swf</file>
+      <x>125.4</x>
+      <y>261.4</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_girl_rm_PROP7" index="4" attached="Y">
+      <file>custom.girl_rm_chair01.swf</file>
+      <x>429</x>
+      <y>303.4</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP61" index="9">
+      <file>business.g4b_815.swf</file>
+      <x>698.6416667,461.5916667</x>
+      <y>139.5345934,116.4845934</y>
+      <xscale>0.5182414,0.5182414</xscale>
+      <yscale>0.5182414,0.5182414</yscale>
+      <face>1,1</face>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </prop>
+    <prop id="PROP62" index="10">
+      <file>business.g4b_815.swf</file>
+      <x>721.862956,484.812956</x>
+      <y>142.4345934,119.3845934</y>
+      <xscale>0.5182414,0.5182414</xscale>
+      <yscale>0.5182414,0.5182414</yscale>
+      <face>1,1</face>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </prop>
+    <prop id="PROP71" index="11">
+      <file>common.msp_door01.msp_door01_door01_front_close.swf</file>
+      <x>375</x>
+      <y>321.425</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>-93.8112903</rotation>
+    </prop>
+    <effectAsset id="EFFECT4" themecode="common" index="12">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="711" target="AVATOR11843" type="MotionPath" atype="Character" direction="2" section="6" timing="0" duration="24" delay="0">null</aTran>
+      <aTran id="712" target="PROP61" type="MotionPath" atype="Prop" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+      <aTran id="713" target="PROP62" type="MotionPath" atype="Prop" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <sound id="SOUND4" index="0" track="0" vol="8" tts="0">
+    <sfile>common.blood_splat_05.mp3</sfile>
+    <start>301</start>
+    <stop>324</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+  </sound>
+  <sound id="SOUND3" index="0" track="0" vol="8" tts="1">
+    <sfile>ugc.0847306189856144-tts.mp3</sfile>
+    <start>181</start>
+    <stop>186</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[stop shit on your anus]]></text>
+      <voice><![CDATA[amy_polly]]></voice>
+    </ttsdata>
+  </sound>
+  <linkage>SOUND3,~~~AVATOR11724,SCENE3~~~</linkage>
+<asset id="0847306189856144-tts.mp3">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</asset></film>

@@ -1178,7 +1178,7 @@
 		},
 		"carmela": {
 			"country": "ES",
-			"language": "ga",
+			"language": "gl",
 			"gender": "F",
 			"arg": [2, 15, 1],
 			"source": "vocalware",
@@ -2318,7 +2318,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Ada-CereWave",
-			"desc": "Ada-CereWave"
+			"desc": "Ada (CereWave)"
 		},
 		"adam1": {
 			"country": "US",
@@ -2334,7 +2334,7 @@
 			"gender": "M",
 			"source": "cereproc",
 			"arg": "Adam-CereWave",
-			"desc": "Adam-CereWave"
+			"desc": "Adam (CereWave)"
 		},
 		"alex1": {
 			"country": "DE",
@@ -2350,7 +2350,7 @@
 			"gender": "M",
 			"source": "cereproc",
 			"arg": "Alex-CereWave",
-			"desc": "Alex-CereWave"
+			"desc": "Alex (CereWave)"
 		},
 		"amy1": {
 			"country": "GB",
@@ -2366,7 +2366,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Amy-CereWave",
-			"desc": "Amy-CereWave"
+			"desc": "Amy (CereWave)"
 		},
 		"ana1": {
 			"country": "US",
@@ -2382,7 +2382,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Ana-CereWave",
-			"desc": "Ana-CereWave"
+			"desc": "Ana (CereWave)"
 		},
 		"andrew1": {
 			"country": "GB",
@@ -2398,7 +2398,7 @@
 			"gender": "M",
 			"source": "cereproc",
 			"arg": "Andrew-CereWave",
-			"desc": "Andrew-CereWave"
+			"desc": "Andrew (CereWave)"
 		},
 		"andy1": {
 			"country": "US",
@@ -2414,7 +2414,7 @@
 			"gender": "M",
 			"source": "cereproc",
 			"arg": "Andy-CereWave",
-			"desc": "Andy-CereWave"
+			"desc": "Andy (CereWave)"
 		},
 		"avrora1": {
 			"country": "RU",
@@ -2430,7 +2430,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Avrora-CereWave",
-			"desc": "Avrora-CereWave"
+			"desc": "Avrora (CereWave)"
 		},
 		"caitlin1": {
 			"country": "IE",
@@ -2446,7 +2446,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Caitlin-CereWave",
-			"desc": "Caitlin-CereWave"
+			"desc": "Caitlin (CereWave)"
 		},
 		"carolyn1": {
 			"country": "US",
@@ -2462,7 +2462,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Carolyn-CereWave",
-			"desc": "Carolyn-CereWave"
+			"desc": "Carolyn (CereWave)"
 		},
 		"ceitidh1": {
 			"country": "GB",
@@ -2478,7 +2478,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Ceitidh-CereWave",
-			"desc": "Ceitidh-CereWave"
+			"desc": "Ceitidh (CereWave)"
 		},
 		"claire": {
 			"country": "GB",
@@ -2502,7 +2502,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Daria-CereWave",
-			"desc": "Daria-CereWave"
+			"desc": "Daria (CereWave)"
 		},
 		"demon": {
 			"country": "GB",
@@ -2534,7 +2534,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Florence-CereWave",
-			"desc": "Florence-CereWave"
+			"desc": "Florence (CereWave)"
 		},
 		"gabriel": {
 			"country": "BR",
@@ -2550,7 +2550,7 @@
 			"gender": "M",
 			"source": "cereproc",
 			"arg": "Gabriel-CereWave",
-			"desc": "Gabriel-CereWave"
+			"desc": "Gabriel (CereWave)"
 		},
 		"ghost": {
 			"country": "US",
@@ -2574,7 +2574,7 @@
 			"gender": "M",
 			"source": "cereproc",
 			"arg": "Giles-CereWave",
-			"desc": "Giles-CereWave"
+			"desc": "Giles (CereWave)"
 		},
 		"goblin": {
 			"country": "GB",
@@ -2598,7 +2598,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Gudrun-CereWave",
-			"desc": "Gudrun-CereWave"
+			"desc": "Gudrun (CereWave)"
 		},
 		"hannah1": {
 			"country": "US",
@@ -2614,7 +2614,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Hannah-CereWave",
-			"desc": "Hannah-CereWave"
+			"desc": "Hannah (CereWave)"
 		},
 		"heather1": {
 			"country": "GB",
@@ -2630,7 +2630,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Heather-CereWave",
-			"desc": "Heather-CereWave"
+			"desc": "Heather (CereWave)"
 		},
 		"isabella1": {
 			"country": "US",
@@ -2646,7 +2646,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Isabella-CereWave",
-			"desc": "Isabella-CereWave"
+			"desc": "Isabella (CereWave)"
 		},
 		"jack1": {
 			"country": "GB",
@@ -2662,7 +2662,7 @@
 			"gender": "M",
 			"source": "cereproc",
 			"arg": "Jack-CereWave",
-			"desc": "Jack-CereWave"
+			"desc": "Jack (CereWave)"
 		},
 		"jess1": {
 			"country": "GB",
@@ -2678,7 +2678,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Jess-CereWave",
-			"desc": "Jess-CereWave"
+			"desc": "Jess (CereWave)"
 		},
 		"jordan1": {
 			"country": "US",
@@ -2694,7 +2694,7 @@
 			"gender": "M",
 			"source": "cereproc",
 			"arg": "Jordan-CereWave",
-			"desc": "Jordan-CereWave"
+			"desc": "Jordan (CereWave)"
 		},
 		"katherine1": {
 			"country": "US",
@@ -2710,7 +2710,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Katherine-CereWave",
-			"desc": "Katherine-CereWave"
+			"desc": "Katherine (CereWave)"
 		},
 		"kirsty1": {
 			"country": "GB",
@@ -2726,7 +2726,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Kirsty-CereWave",
-			"desc": "Kirsty-CereWave"
+			"desc": "Kirsty (CereWave)"
 		},
 		"laura1": {
 			"country": "IT",
@@ -2742,7 +2742,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Laura-CereWave",
-			"desc": "Laura-CereWave"
+			"desc": "Laura (CereWave)"
 		},
 		"lauren1": {
 			"country": "GB",
@@ -2758,7 +2758,7 @@
 			"gender": "M",
 			"source": "cereproc",
 			"arg": "Lauren-CereWave",
-			"desc": "Lauren-CereWave"
+			"desc": "Lauren (CereWave)"
 		},
 		"laurent1": {
 			"country": "FR",
@@ -2774,7 +2774,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Laurent-CereWave",
-			"desc": "Laurent-CereWave"
+			"desc": "Laurent (CereWave)"
 		},
 		"leopold1": {
 			"country": "AT",
@@ -2790,7 +2790,7 @@
 			"gender": "M",
 			"source": "cereproc",
 			"arg": "Leopold-CereWave",
-			"desc": "Leopold-CereWave"
+			"desc": "Leopold (CereWave)"
 		},
 		"lucia1": {
 			"country": "PT",
@@ -2806,7 +2806,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Lucia-CereWave",
-			"desc": "Lucia-CereWave"
+			"desc": "Lucia (CereWave)"
 		},
 		"mailin": {
 			"country": "CN",
@@ -2814,7 +2814,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Mailin-CereWave",
-			"desc": "Mailin-CereWave"
+			"desc": "Mailin (CereWave)"
 		},
 		"mairi1": {
 			"country": "GB",
@@ -2830,7 +2830,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Mairi-CereWave",
-			"desc": "Mairi-CereWave"
+			"desc": "Mairi (CereWave)"
 		},
 		"megan1": {
 			"country": "US",
@@ -2846,7 +2846,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Megan-CereWave",
-			"desc": "Megan-CereWave"
+			"desc": "Megan (CereWave)"
 		},
 		"nathan1": {
 			"country": "US",
@@ -2862,7 +2862,7 @@
 			"gender": "M",
 			"source": "cereproc",
 			"arg": "Nathan-CereWave",
-			"desc": "Nathan-CereWave"
+			"desc": "Nathan (CereWave)"
 		},
 		"nicole1": {
 			"country": "FR",
@@ -2878,11 +2878,11 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Nicole-CereWave",
-			"desc": "Nicole-CereWave"
+			"desc": "Nicole (CereWave)"
 		},
 		"peig1": {
 			"country": "IE",
-			"language": "ga",
+			"language": "gl",
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Peig",
@@ -2890,11 +2890,11 @@
 		},
 		"peig": {
 			"country": "IE",
-			"language": "ga",
+			"language": "gl",
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Peig-CereWave",
-			"desc": "Peig-CereWave"
+			"desc": "Peig (CereWave)"
 		},
 		"pixie": {
 			"country": "GB",
@@ -2918,7 +2918,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Pola-CereWave",
-			"desc": "Pola-CereWave"
+			"desc": "Pola (CereWave)"
 		},
 		"rita1": {
 			"country": "ES",
@@ -2934,7 +2934,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Rita-CereWave",
-			"desc": "Rita-CereWave"
+			"desc": "Rita (CereWave)"
 		},
 		"robot": {
 			"country": "GB",
@@ -2958,7 +2958,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Sara-CereWave",
-			"desc": "Sara-CereWave"
+			"desc": "Sara (CereWave)"
 		},
 		"sarah1": {
 			"country": "GB",
@@ -2974,7 +2974,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Sarah-CereWave",
-			"desc": "Sarah-CereWave"
+			"desc": "Sarah (CereWave)"
 		},
 		"stuart1": {
 			"country": "GB",
@@ -2990,7 +2990,7 @@
 			"gender": "M",
 			"source": "cereproc",
 			"arg": "Stuart-CereWave",
-			"desc": "Stuart-CereWave"
+			"desc": "Stuart (CereWave)"
 		},
 		"sue1": {
 			"country": "GB",
@@ -3006,7 +3006,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Sue-CereWave",
-			"desc": "Sue-CereWave"
+			"desc": "Sue (CereWave)"
 		},
 		"suzanne1": {
 			"country": "FR",
@@ -3022,7 +3022,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Suzanne-CereWave",
-			"desc": "Suzanne-CereWave"
+			"desc": "Suzanne (CereWave)"
 		},
 		"william1": {
 			"country": "GB",
@@ -3038,7 +3038,7 @@
 			"gender": "M",
 			"source": "cereproc",
 			"arg": "William-CereWave",
-			"desc": "William-CereWave"
+			"desc": "William (CereWave)"
 		},
 		"ylva1": {
 			"country": "SE",
@@ -3054,7 +3054,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Ylva-CereWave",
-			"desc": "Ylva-CereWave"
+			"desc": "Ylva (CereWave)"
 		},
 		"yuki1": {
 			"country": "JP",
@@ -3070,7 +3070,7 @@
 			"gender": "F",
 			"source": "cereproc",
 			"arg": "Yuki-CereWave",
-			"desc": "Yuki-CereWave"
+			"desc": "Yuki (CereWave)"
 		},
 		"matthew": {
 			"country": "US",
@@ -3462,7 +3462,7 @@
 		"va": "Valencian",
 		"pt": "Portuguese",
 		"eo": "Esparanto",
-		"ga": "Galician",
+		"gl": "Galician",
 		"sv": "Swedish",
 		"ko": "Korean",
 		"pl": "Polish",

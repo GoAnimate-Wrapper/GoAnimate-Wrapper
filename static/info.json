@@ -40,7 +40,8 @@
 		"char_default.png": {
 			"content": "{\"message\":\"REQUEST_HAS_EXPIRED\"}"
 		},
-		"html/(.*)": {
+		"html/([^?]+).*": {
+			"regexLink": "html/$1",
 			"headers": {
 				"Content-Type": "text/html; charset=UTF-8"
 			}

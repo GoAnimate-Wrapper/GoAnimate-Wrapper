@@ -1,46 +1,53 @@
 const cachéFolder = process.env.CACHÉ_FOLDER;
-const fs = require('fs');
+const fs = require("fs");
 
 /**
- * @typedef {{[aId:string]:true,time:DataTransferItem}} vcType
+ * @summary Dictionary of hashmaps of saved assets, respective to each movie ID loaded.
+ * @typedef {{[aId:string]:true,time:Date}} vcType
  * @typedef {{[mId:string]:vcType}} cachéType
  * @type cachéType
  */
-var caché = {}, size = 0;
+const caché = {};
+var size = 0;
 
-fs.readdirSync(cachéFolder).forEach(v => {
-	const index = v.indexOf('.');
+fs.readdirSync(cachéFolder).forEach((v) => {
+	const index = v.indexOf(".");
 	const mId = v.substr(0, index);
 	const aId = v.substr(index + 1);
 
-	const stored = caché[mId]
-		|| (caché[mId] = {});
+	const stored = caché[mId] || (caché[mId] = {});
 	switch (aId) {
-		case 'time':
+		case "time":
 			stored.time = new Date();
 			break;
 		default:
 			let path = `${cachéFolder}/${v}`;
 			stored[aId] = fs.readFileSync(path);
 	}
-})
+});
 
 module.exports = {
-	generateId(pre = '', suf = '', ct = {}) {
+	generateId(pre = "", suf = "", ct = {}) {
 		var id;
-		do id = `${pre}${('' + Math.random()).replace('.', '')}${suf}`;
+		do id = `${pre}${("" + Math.random()).replace(".", "")}${suf}`;
 		while (ct[id]);
 		return id;
 	},
 	validAssetId(aId) {
 		switch (aId) {
-			case 'id':
-			case 'time':
+			case "id":
+			case "time":
 				return false;
 			default:
 				return true;
 		}
 	},
+	/**
+	 *
+	 * @param {string} mId
+	 * @param {string} aId
+	 * @param {Buffer} buffer
+	 */
 	save(mId, aId, buffer) {
 		if (!this.validAssetId(aId)) return;
 		/** @type {vcType} */
@@ -52,11 +59,18 @@ module.exports = {
 		fs.writeFileSync(`${cachéFolder}/${mId}.${aId}`, buffer);
 		return buffer;
 	},
+	/**
+	 *
+	 * @param {string} mId
+	 * @param {[aId:string]:Buffer} buffers
+	 */
 	saveTable(mId, buffers = {}) {
-		const keys = Object.keys(buffers);
-		if (!keys.length) caché[mId] = {};
-		keys.forEach(aId =>
-			this.save(mId, aId, buffers[aId]));
+		var empty = true;
+		for (const aId in buffers) {
+			this.save(mId, aId, buffers[aId]);
+			empty = false;
+		}
+		if (empty) caché[mId] = {};
 		caché[mId].time = new Date();
 		return buffers;
 	},
@@ -68,26 +82,31 @@ module.exports = {
 	getTable(mId) {
 		if (!caché[mId]) return {};
 
-		const stored = {};
-		for (let aId in caché[mId])
+		var stored = {};
+		for (let aId in caché[mId]) {
 			stored[aId] = this.load(mId, aId);
+		}
 		return stored;
 	},
 	/**
 	 *
+	 * @summary
 	 * @param {Buffer} buffer
 	 * @param {string} mId
-	 * @param {string} suf
+	 * @param {string} suffix
 	 */
-	saveNew(buffer, mId, suf) {
-		var t = caché[mId] = caché[mId] || {}, aId;
-		this.save(mId, aId = this.generateId('', suf, t), buffer);
+	saveNew(buffer, mId, suffix) {
+		var stored = (caché[mId] = caché[mId] || {});
+		var aId = this.generateId("", suffix, stored);
+		this.save(mId, aId, buffer);
 		return aId;
 	},
 	/**
-	 * 
+	 *
+	 * @summary Loads caché table from a previous server session.
 	 * @param {string} mId
-	 * @param {string} aId 
+	 * @param {string} aId
+	 * @returns {Buffer}
 	 */
 	load(mId, aId) {
 		if (!this.validAssetId(aId)) return;
@@ -101,13 +120,15 @@ module.exports = {
 		return stored[aId] ? fs.readFileSync(path) : null;
 	},
 	/**
-	 * 
+	 *
+	 * @summary Transfers all caché data as if 'old' had never existed.
 	 * @param {string} old
-	 * @param {string} nëw 
+	 * @param {string} nëw
+	 * @returns {void}
 	 */
 	transfer(old, nëw) {
 		if (nëw == old || !caché[old]) return;
-		Object.keys(caché[nëw] = caché[old]).forEach(aId => {
+		Object.keys((caché[nëw] = caché[old])).forEach((aId) => {
 			const oldP = `${cachéFolder}/${old}.${aId}`;
 			const nëwP = `${cachéFolder}/${nëw}.${aId}`;
 			fs.renameSync(oldP, nëwP);
@@ -117,11 +138,18 @@ module.exports = {
 	/**
 	 *
 	 * @param {string} mId
-	 * @param {boolean} removeMovie
+	 * @param {boolean} setToEmpty
+	 * @returns {void}
 	 */
-	clear(mId, removeMovie = false) {
+	clear(mId, setToEmpty = true) {
 		const stored = caché[mId];
-		Object.keys(stored).forEach(aId => size -= aId != 'time' ? stored[aId].length : 0);
-		return removeMovie ? delete caché[mId] : caché[mId] = {};
+		for (let aId in stored) {
+			if (aId != "time") {
+				fs.unlink(`${cachéFolder}/${mId}.${aId}`);
+				size -= stored[aId].length;
+			}
+		}
+		if (setToEmpty) caché[mId] = {};
+		else delete caché[mId];
 	},
-}
+};

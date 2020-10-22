@@ -35,7 +35,7 @@ module.exports = http
 				res.statusCode = 404;
 				res.end();
 			}
-		} catch {
+		} catch (x) {
 			res.statusCode = 404;
 			res.end();
 		}

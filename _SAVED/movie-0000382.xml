@@ -1,0 +1,347 @@
+<film copyable="0" duration="5.0" published="0" pshare="0" isWide="1">
+  <meta>
+    <title><![CDATA[Kani shape art]]></title>
+    <tag><![CDATA[]]></tag>
+    <hiddenTag><![CDATA[]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="0"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+      <color value="ff0059"/>
+      <color value="ffbcd8"/>
+      <color value="0"/>
+      <color value="ff87b9"/>
+      <color value="a3083e"/>
+    </palette>
+  </meta>
+  <scene id="SCENE1" adelay="120" lock="Y" index="0" color="10684478" guid="C00F4ADC-B729-C9E5-346B-D1B7CA3C0881">
+    <bubbleAsset id="BUBBLE11743" index="28">
+      <x>186.9388889</x>
+      <y>297.2444444</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+      <fx>easeNone</fx>
+      <fxdur>0</fxdur>
+      <bubble x="-21.5249589" y="-10" w="43.0499177" h="20" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+        <body rgb="16777215" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0"/>
+        <text rgb="0" alpha="100" font="I hate Comic Sans" size="7" align="center" bold="false" italic="false" embed="true"><![CDATA[kani was here]]></text>
+        <url target="top"><![CDATA[]]></url>
+      </bubble>
+    </bubbleAsset>
+    <prop id="PROP2" index="4">
+      <file>stick.circle.swf</file>
+      <x>321.5099277</x>
+      <y>203.2858702</y>
+      <xscale>1.7958014</xscale>
+      <yscale>1.7958014</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <dcsn>7571</dcsn>
+      <color r="sfOtherProp">0</color>
+    </prop>
+    <prop id="PROP4" index="5">
+      <file>stick.circle.swf</file>
+      <x>321.5099277</x>
+      <y>203.2519895</y>
+      <xscale>1.7370831</xscale>
+      <yscale>1.7370831</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="sfOtherProp">16711769</color>
+    </prop>
+    <prop id="PROP6" index="6">
+      <file>stick.circle.swf</file>
+      <x>327.3366961</x>
+      <y>227.9741359</y>
+      <xscale>1.4941123</xscale>
+      <yscale>1.241817</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="sfOtherProp">16760024</color>
+    </prop>
+    <prop id="PROP7" index="7">
+      <file>stick.triangle.swf</file>
+      <x>321.5099277</x>
+      <y>193.2354971</y>
+      <xscale>0.1787251</xscale>
+      <yscale>1.2661252</yscale>
+      <face>1</face>
+      <rotation>-118.6980191</rotation>
+      <dcsn>7593</dcsn>
+      <color r="sfOtherProp">16711769</color>
+    </prop>
+    <prop id="PROP9" index="8">
+      <file>stick.triangle.swf</file>
+      <x>297.2039791</x>
+      <y>186.0214027</y>
+      <xscale>0.1787251</xscale>
+      <yscale>1.2661253</yscale>
+      <face>1</face>
+      <rotation>50.1847143</rotation>
+      <color r="sfOtherProp">16760024</color>
+    </prop>
+    <prop id="PROP11" index="9">
+      <file>stick.triangle.swf</file>
+      <x>269.8181672</x>
+      <y>193.2354971</y>
+      <xscale>0.1787251</xscale>
+      <yscale>1.2661253</yscale>
+      <face>1</face>
+      <rotation>-135.8505992</rotation>
+      <color r="sfOtherProp">16711769</color>
+    </prop>
+    <prop id="PROP13" index="10">
+      <file>stick.circle.swf</file>
+      <x>242.8485531</x>
+      <y>142.3206391</y>
+      <xscale>0.5761616</xscale>
+      <yscale>0.8381466</yscale>
+      <face>1</face>
+      <rotation>-17.2081492</rotation>
+      <dcsn>7571</dcsn>
+      <color r="sfOtherProp">0</color>
+    </prop>
+    <prop id="PROP15" index="11">
+      <file>stick.circle.swf</file>
+      <x>242.7653135</x>
+      <y>142.3206391</y>
+      <xscale>0.5184299</xscale>
+      <yscale>0.7541639</yscale>
+      <face>1</face>
+      <rotation>-17.2081492</rotation>
+      <color r="sfOtherProp">16711769</color>
+    </prop>
+    <prop id="PROP18" index="1">
+      <file>stick.circle.swf</file>
+      <x>401.3366559</x>
+      <y>136.6603497</y>
+      <xscale>0.5761615</xscale>
+      <yscale>0.8381465</yscale>
+      <face>1</face>
+      <rotation>20.7106354</rotation>
+      <color r="sfOtherProp">0</color>
+    </prop>
+    <prop id="PROP19" index="2">
+      <file>stick.circle.swf</file>
+      <x>401.2709897</x>
+      <y>136.6091953</y>
+      <xscale>0.5184299</xscale>
+      <yscale>0.754164</yscale>
+      <face>1</face>
+      <rotation>20.7106354</rotation>
+      <color r="sfOtherProp">16711769</color>
+    </prop>
+    <prop id="PROP20" index="12">
+      <file>stick.ladder02.swf</file>
+      <x>242.7655909</x>
+      <y>136.5718296</y>
+      <xscale>0.2115142</xscale>
+      <yscale>0.2115142</yscale>
+      <face>1</face>
+      <rotation>-69.199221</rotation>
+      <dcsn>7602</dcsn>
+      <color r="sfOtherProp">0</color>
+    </prop>
+    <prop id="PROP22" index="3">
+      <file>stick.ladder02.swf</file>
+      <x>401.2552942</x>
+      <y>129.8297634</y>
+      <xscale>0.2115142</xscale>
+      <yscale>0.2115142</yscale>
+      <face>-1</face>
+      <rotation>-102.7501861</rotation>
+      <color r="sfOtherProp">0</color>
+    </prop>
+    <prop id="PROP23" index="13">
+      <file>stick.circle.swf</file>
+      <x>286.5493167</x>
+      <y>214.822287</y>
+      <xscale>0.2123234</xscale>
+      <yscale>0.1607359</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <dcsn>7571</dcsn>
+      <color r="sfOtherProp">0</color>
+    </prop>
+    <prop id="PROP26" index="14">
+      <file>stick.circle.swf</file>
+      <x>278.2253617</x>
+      <y>219.067504</y>
+      <xscale>0.2913346</xscale>
+      <yscale>0.0974663</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <dcsn>7571</dcsn>
+      <color r="sfOtherProp">0</color>
+    </prop>
+    <prop id="PROP28" index="15">
+      <file>stick.circle.swf</file>
+      <x>265.9891479</x>
+      <y>214.822287</y>
+      <xscale>0.2002459</xscale>
+      <yscale>0.1167786</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="sfOtherProp">16760024</color>
+    </prop>
+    <prop id="PROP32" index="16">
+      <file>stick.circle.swf</file>
+      <x>362.2973071</x>
+      <y>214.822287</y>
+      <xscale>0.2123234</xscale>
+      <yscale>0.1607359</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="sfOtherProp">0</color>
+    </prop>
+    <prop id="PROP33" index="17">
+      <file>stick.circle.swf</file>
+      <x>368.9564711</x>
+      <y>219.067504</y>
+      <xscale>0.2913346</xscale>
+      <yscale>0.0974664</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="sfOtherProp">0</color>
+    </prop>
+    <prop id="PROP34" index="19">
+      <file>stick.circle.swf</file>
+      <x>382.3580386</x>
+      <y>214.822287</y>
+      <xscale>0.2002459</xscale>
+      <yscale>0.1167786</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="sfOtherProp">16760024</color>
+    </prop>
+    <prop id="PROP35" index="20">
+      <file>stick.circle.swf</file>
+      <x>288.0476286</x>
+      <y>213.6569333</y>
+      <xscale>0.0499437</xscale>
+      <yscale>0.0499437</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <dcsn>7571</dcsn>
+      <color r="sfOtherProp">16514043</color>
+    </prop>
+    <prop id="PROP37" index="21">
+      <file>stick.circle.swf</file>
+      <x>360.0498392</x>
+      <y>213.6569333</y>
+      <xscale>0.0499437</xscale>
+      <yscale>0.0499437</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="sfOtherProp">16514043</color>
+    </prop>
+    <prop id="PROP38" index="22">
+      <file>stick.circle.swf</file>
+      <x>269.1522508</x>
+      <y>237.2137259</y>
+      <xscale>0.2637293</xscale>
+      <yscale>0.1008964</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <dcsn>7571</dcsn>
+      <color r="sfOtherProp">16746425</color>
+    </prop>
+    <prop id="PROP40" index="23">
+      <file>stick.circle.swf</file>
+      <x>379.1949357</x>
+      <y>237.2137259</y>
+      <xscale>0.2637292</xscale>
+      <yscale>0.1008965</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="sfOtherProp">16746425</color>
+    </prop>
+    <prop id="PROP41" index="26">
+      <file>stick.circle.swf</file>
+      <x>324.1979667</x>
+      <y>249.9408349</y>
+      <xscale>0.449675</xscale>
+      <yscale>0.242569</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <dcsn>7571</dcsn>
+      <color r="sfOtherProp">0</color>
+    </prop>
+    <prop id="PROP43" index="27">
+      <file>stick.circle.swf</file>
+      <x>324.1979667</x>
+      <y>247.6274203</y>
+      <xscale>0.4662044</xscale>
+      <yscale>0.2514855</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="sfOtherProp">16760024</color>
+    </prop>
+    <prop id="PROP44" index="18">
+      <file>stick.circle.swf</file>
+      <x>324.1735932</x>
+      <y>264.8492564</y>
+      <xscale>0.1730723</xscale>
+      <yscale>0.2379745</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <dcsn>7571</dcsn>
+      <color r="sfOtherProp">0</color>
+    </prop>
+    <prop id="PROP46" index="24">
+      <file>stick.circle.swf</file>
+      <x>324.1735932</x>
+      <y>264.8492564</y>
+      <xscale>0.1459018</xscale>
+      <yscale>0.200615</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="sfOtherProp">14295073</color>
+    </prop>
+    <prop id="PROP48" index="25">
+      <file>stick.ladder02.swf</file>
+      <x>324.5073103</x>
+      <y>263.1836842</y>
+      <xscale>0.0435669</xscale>
+      <yscale>0.0435669</yscale>
+      <face>1</face>
+      <rotation>-45.83271</rotation>
+      <dcsn>7602</dcsn>
+      <color r="sfOtherProp">0</color>
+    </prop>
+    <prop id="PROP50" index="29">
+      <file>stick.heart.swf</file>
+      <x>454.875</x>
+      <y>121.8</y>
+      <xscale>0.4569536</xscale>
+      <yscale>0.4569536</yscale>
+      <face>1</face>
+      <rotation>26.9900077</rotation>
+      <dcsn>7579</dcsn>
+      <color r="sfOtherProp">14295073</color>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="30">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+</film>

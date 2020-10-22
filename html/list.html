@@ -3,6 +3,7 @@
 		<div>
 			<div>
 				<a href="./"><img src="logo.png" /></a>
+				<span>1.2.7</span>
 			</div>
 			<div>
 				<a class="button_small" onclick="document.getElementById('file').click()">UPLOAD A MOVIE</a>
@@ -40,9 +41,8 @@
 			</div>
 		</div>
 		<div class="warning">
-			This service has been mostly discontinued, though GoAnimate Wrapper may periodically undergo security
-			updates.<br><a href='https://github.com/Windows81/GoAnimate-Wrapper'>Link
-				to the source code on GitHub (private)</a>
+			Wrapper is back.<br><a href='https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper'>Link
+				to the source code on GitHub</a>
 		</div>
 	</header>
 	<table>
@@ -88,7 +88,7 @@
 				const tbl = json[c];
 				const date = tbl.date.substr(0, 10) + ' ' + tbl.date.substr(11);
 				tbody.insertAdjacentHTML('beforeend',
-					'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date.match(/./g).join('</span><span>') + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a href="/go_full?movieId=' + tbl.id + '"></a><a href="/movies/' + tbl.id + '.xml" download="' + tbl.title + '"></a></td></tr>');
+					'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;") + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a href="/go_full?movieId=' + tbl.id + '"></a><a href="/movies/' + tbl.id + '.xml" download="' + tbl.title + '"></a></td></tr>');
 			}
 		}
 
@@ -144,6 +144,12 @@
 			margin-left: 10px;
 			margin-top: 7px;
 			height: 30px;
+		}
+
+		header>:nth-child(1)>:nth-child(1)>:nth-child(2) {
+			color: #666;
+			padding-left: 4px;
+			font-weight: 700;
 		}
 
 		header>:nth-child(1)>:nth-child(2) {
@@ -327,15 +333,19 @@
 			color: #999;
 		}
 
+		tr>:nth-child(2)>:nth-child(2) {
+			font-family: monospace;
+		}
+
 		tr>:nth-child(3) {
 			width: 250px;
 		}
 
 		tr>:nth-child(3)>* {
+			font-family: monospace;
 			display: inline-block;
 			text-align: center;
-			font-size: 12px;
-			width: 8.5px;
+			font-size: 14px;
 		}
 
 		tr>:nth-child(4) {
