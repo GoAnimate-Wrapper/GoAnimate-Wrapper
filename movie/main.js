@@ -21,7 +21,7 @@ module.exports = {
 		}
 
 		return new Promise((res, rej) => {
-			caché.transfer(oldId, nëwId);
+			caché.transferLocal(oldId, nëwId);
 			var i = nëwId.indexOf("-");
 			var prefix = nëwId.substr(0, i);
 			var suffix = nëwId.substr(i + 1);
@@ -30,7 +30,7 @@ module.exports = {
 				case "m": {
 					var path = fUtil.getFileIndex("movie-", ".xml", suffix);
 					var writeStream = fs.createWriteStream(path);
-					var assetBuffers = caché.getTable(movieId);
+					var assetBuffers = caché.loadLocalTable(nëwId);
 					parse.unpackMovie(zip, thumb, assetBuffers).then((data) => {
 						writeStream.write(data, () => {
 							writeStream.close();
@@ -51,7 +51,7 @@ module.exports = {
 			const suffix = mId.substr(i + 1);
 			switch (prefix) {
 				case "e": {
-					caché.clear(mId);
+					caché.clearLocalTable(mId);
 					let data = fs.readFileSync(`${exFolder}/${suffix}.zip`);
 					res(data.subarray(data.indexOf(80)));
 					break;
@@ -63,10 +63,16 @@ module.exports = {
 					if (!fs.existsSync(filePath)) rej();
 
 					const buffer = fs.readFileSync(filePath);
-					var pack = await parse.packMovie(buffer, mId);
-					caché.saveTable(mId, pack.caché);
-					res(pack.zipBuf);
-					break;
+					if (!buffer || buffer.length == 0) rej();
+
+					try {
+						var pack = await parse.packMovie(buffer, mId);
+						caché.saveLocalTable(mId, pack.caché);
+						res(pack.zipBuf);
+						break;
+					} catch {
+						rej();
+					}
 				}
 				default:
 					rej();

@@ -11,16 +11,15 @@ const fs = require("fs");
  * @returns {boolean}
  */
 module.exports = function (req, res, url) {
-	if (req.method != "POST" || url.path != "/upload_asset/") return;
-	new formidable.IncomingForm().parse(req, (e, f, files) => {
-		const path = files.import.path,
-			buffer = fs.readFileSync(path);
-		const mId = sessions.get(req).movieId;
-
-		const name = files.import.name;
-		const suffix = name.substr(name.lastIndexOf("."));
-		asset.saveLocal(buffer, mId, suffix);
+	if (req.method != "POST" || url.path != "/upload_asset") return;
+	formidable().parse(req, (_, fields, files) => {
+		var [library, mode, ext] = fields.params.split(".");
+		var path = files.import.path;
+		var buffer = fs.readFileSync(path);
+		var mId = sessions.get(req).movieId;
+		asset.save(buffer, mId, library, mode, ext);
 		fs.unlinkSync(path);
+		delete buffer;
 		res.end();
 	});
 	return true;

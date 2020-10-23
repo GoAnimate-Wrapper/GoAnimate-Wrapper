@@ -141,19 +141,6 @@ function useBase64(aId) {
 }
 
 module.exports = {
-	xml2caché(buffer) {
-		var xml = new xmldoc.XmlDocument(buffer);
-		var cachéRef = {},
-			elements = xml.children;
-		for (var eK in elements) {
-			var element = elements[eK];
-			if (element.name == "asset") {
-				var asset = Buffer.from(element.val, "base64");
-				cachéRef[element.attr.id] = asset;
-			}
-		}
-		return cachéRef;
-	},
 	/**
 	 * @summary Reads an XML buffer, decodes the elements, and returns a PK stream the LVM can parse.
 	 * @param {Buffer} xmlBuffer
@@ -162,7 +149,6 @@ module.exports = {
 	 */
 	async packMovie(xmlBuffer, mId = null) {
 		if (xmlBuffer.length == 0) throw null;
-
 		var zip = nodezip.create();
 		var themes = { common: true };
 		var assetTypes = {};

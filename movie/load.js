@@ -14,8 +14,8 @@ module.exports = function (req, res, url) {
 			const match = req.url.match(/\/movies\/([^.]+)(?:\.(zip|xml))?$/);
 			if (!match) return;
 
-			var id = match[1],
-				ext = match[2];
+			var id = match[1];
+			var ext = match[2];
 			switch (ext) {
 				case "zip":
 					res.setHeader("Content-Type", "application/zip");

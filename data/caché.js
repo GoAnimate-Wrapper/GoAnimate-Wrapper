@@ -3,34 +3,47 @@ const fs = require("fs");
 
 /**
  * @summary Dictionary of hashmaps of saved assets, respective to each movie ID loaded.
- * @typedef {{[aId:string]:true,time:Date}} vcType
- * @typedef {{[mId:string]:vcType}} cachéType
- * @type cachéType
+ * @typedef {string[]} cTableType
+ * @typedef {{[mId:string]:cTableType}} lcType
+ * @type lcType
  */
-const caché = {};
+const localCaché = {};
+
+/**
+ * @summary Dictionary of hashmaps of saved assets for use irrespective of videos.
+ * @type cTableType
+ */
+const globalCaché = [];
 var size = 0;
 
+// IMPORTANT: serialises the cachéd files into the dictionaries.
 fs.readdirSync(cachéFolder).forEach((v) => {
 	const index = v.indexOf(".");
-	const mId = v.substr(0, index);
-	const aId = v.substr(index + 1);
+	const prefix = v.substr(0, index);
+	const suffix = v.substr(index + 1);
 
-	const stored = caché[mId] || (caché[mId] = {});
-	switch (aId) {
-		case "time":
-			stored.time = new Date();
+	switch (prefix) {
+		case "global":
+			globalCaché.push(suffix);
 			break;
 		default:
-			let path = `${cachéFolder}/${v}`;
-			stored[aId] = fs.readFileSync(path);
+			localCaché[prefix] = localCaché[prefix] ?? [];
+			localCaché[prefix].push(suffix);
+			break;
 	}
 });
 
 module.exports = {
-	generateId(pre = "", suf = "", ct = {}) {
+	/**
+	 * @summary Generates a random ID with a given prefix and suffix that is unique to the given table.
+	 * @param {string} pre
+	 * @param {string} suf
+	 * @param {cTableType} table
+	 */
+	generateId(pre = "", suf = "", table = []) {
 		var id;
 		do id = `${pre}${("" + Math.random()).replace(".", "")}${suf}`;
-		while (ct[id]);
+		while (table.includes(id));
 		return id;
 	},
 	validAssetId(aId) {
@@ -44,80 +57,162 @@ module.exports = {
 	},
 	/**
 	 *
+	 * @summary Saves a given buffer in movie caché, with a given local ID.
 	 * @param {string} mId
 	 * @param {string} aId
 	 * @param {Buffer} buffer
 	 */
-	save(mId, aId, buffer) {
+	saveLocal(mId, aId, buffer) {
 		if (!this.validAssetId(aId)) return;
-		/** @type {vcType} */
-		const stored = (caché[mId] = caché[mId] || {});
+		localCaché[mId] = localCaché[mId] ?? [];
+		var stored = localCaché[mId];
 		const path = `${cachéFolder}/${mId}.${aId}`;
-		const oldSize = stored[aId] ? fs.readFileSync(path).length : 0;
-		size += buffer.size - oldSize;
-		stored[aId] = true;
-		fs.writeFileSync(`${cachéFolder}/${mId}.${aId}`, buffer);
+
+		if (stored.includes(aId)) {
+			const oldSize = fs.statSync(path).size;
+			fs.writeFileSync(path, buffer);
+			size += buffer.size - oldSize;
+		} else {
+			fs.writeFileSync(path, buffer);
+			size += buffer.size;
+			stored.push(aId);
+		}
 		return buffer;
 	},
 	/**
 	 *
+	 * @summary Saves a given buffer in global caché, with a given ID.
 	 * @param {string} mId
-	 * @param {[aId:string]:Buffer} buffers
+	 * @param {string} aId
+	 * @param {Buffer} buffer
 	 */
-	saveTable(mId, buffers = {}) {
-		var empty = true;
-		for (const aId in buffers) {
-			this.save(mId, aId, buffers[aId]);
-			empty = false;
+	saveGlobal(aId, buffer) {
+		if (!this.validAssetId(aId)) return;
+		/** @type {cTableType} */
+		const path = `${cachéFolder}/global.${aId}`;
+		if (globalCaché.includes(aId)) {
+			const oldSize = fs.statSync(path).size;
+			fs.writeFileSync(path, buffer);
+			size += buffer.size - oldSize;
+		} else {
+			fs.writeFileSync(path, buffer);
+			size += buffer.size;
+			globalCaché.push(aId);
 		}
-		if (empty) caché[mId] = {};
-		caché[mId].time = new Date();
+		return buffer;
+	},
+	/**
+	 *
+	 * @summary Saves a given dictionary of buffers to movie-wide caché.
+	 * @param {string} mId
+	 * @param {{[aId:string]:Buffer}} buffers
+	 * @returns {{[aId:string]:Buffer}}
+	 */
+	saveLocalTable(mId, buffers = {}) {
+		for (const aId in buffers) {
+			this.saveLocal(mId, aId, buffers[aId]);
+		}
 		return buffers;
 	},
 	/**
 	 *
+	 * @summary Retrieves an array of buffers from a given video's caché.
 	 * @param {string} mId
 	 * @returns {{[aId:string]:Buffer}}
 	 */
-	getTable(mId) {
-		if (!caché[mId]) return {};
-
-		var stored = {};
-		for (let aId in caché[mId]) {
-			stored[aId] = this.load(mId, aId);
-		}
-		return stored;
+	loadLocalTable(mId) {
+		const buffers = {};
+		this.listLocal().forEach((aId) => {
+			buffers[aId] = fs.readFileSync(`${cachéFolder}/${mId}.${aId}`);
+		});
+		return buffers;
 	},
 	/**
 	 *
-	 * @summary
+	 * @summary Retrieves an array of buffers from the global caché.
+	 * @returns {{[aId:string]:Buffer}}
+	 */
+	loadGlobalTable() {
+		const buffers = {};
+		this.listGlobal().forEach((aId) => {
+			buffers[aId] = fs.readFileSync(`${cachéFolder}/global.${aId}`);
+		});
+		return buffers;
+	},
+	/**
+	 *
+	 * @summary Retrieves the array of asset IDs for the given video.
+	 * @param {string} mId
+	 * @returns {cTableType}
+	 */
+	listLocal(mId) {
+		return localCaché[mId] ?? [];
+	},
+	/**
+	 *
+	 * @summary Retrieves an array of asset IDs from the global caché.
+	 * @returns {cTableType}
+	 */
+	listGlobal() {
+		return globalCaché;
+	},
+	/**
+	 *
+	 * @summary Allocates a new video-wide ID for a given buffer in the caché.
 	 * @param {Buffer} buffer
 	 * @param {string} mId
+	 * @param {string} prefix
 	 * @param {string} suffix
 	 */
-	saveNew(buffer, mId, suffix) {
-		var stored = (caché[mId] = caché[mId] || {});
-		var aId = this.generateId("", suffix, stored);
-		this.save(mId, aId, buffer);
+	newLocal(buffer, mId, prefix = "", suffix = "") {
+		localCaché[mId] = localCaché[mId] ?? [];
+		var stored = localCaché[mId];
+		var aId = this.generateId(prefix, suffix, stored);
+		this.saveLocal(mId, aId, buffer);
 		return aId;
 	},
 	/**
 	 *
-	 * @summary Loads caché table from a previous server session.
+	 * @summary Allocates a new global ID for a given buffer in the caché.
+	 * @param {Buffer} buffer
+	 * @param {string} mId
+	 * @param {string} suffix
+	 */
+	newGlobal(buffer, prefix = "", suffix = "") {
+		var aId = this.generateId(prefix, suffix, globalCaché);
+		this.saveGlobal(aId, buffer);
+		return aId;
+	},
+	/**
+	 *
 	 * @param {string} mId
 	 * @param {string} aId
 	 * @returns {Buffer}
 	 */
-	load(mId, aId) {
+	loadLocal(mId, aId) {
 		if (!this.validAssetId(aId)) return;
-
-		/** @type {vcType} */
-		const stored = caché[mId];
+		const stored = localCaché[mId];
 		if (!stored) return null;
 
 		const path = `${cachéFolder}/${mId}.${aId}`;
 		stored.time = new Date();
-		return stored[aId] ? fs.readFileSync(path) : null;
+		if (stored.includes(aId)) {
+			return fs.readFileSync(path);
+		}
+	},
+	/**
+	 *
+	 * @param {string} aId
+	 * @returns {Buffer}
+	 */
+	loadGlobal(aId) {
+		if (!this.validAssetId(aId)) return;
+		const path = `${cachéFolder}/global.${aId}`;
+		var stored = globalCaché[aId];
+		if (stored) {
+			stored.time = new Date();
+			return fs.readFileSync(path);
+		}
 	},
 	/**
 	 *
@@ -126,14 +221,14 @@ module.exports = {
 	 * @param {string} nëw
 	 * @returns {void}
 	 */
-	transfer(old, nëw) {
-		if (nëw == old || !caché[old]) return;
-		Object.keys((caché[nëw] = caché[old])).forEach((aId) => {
+	transferLocal(old, nëw) {
+		if (nëw == old || !localCaché[old]) return;
+		Object.keys((localCaché[nëw] = localCaché[old])).forEach((aId) => {
 			const oldP = `${cachéFolder}/${old}.${aId}`;
 			const nëwP = `${cachéFolder}/${nëw}.${aId}`;
 			fs.renameSync(oldP, nëwP);
 		});
-		delete caché[old];
+		delete localCaché[old];
 	},
 	/**
 	 *
@@ -141,15 +236,17 @@ module.exports = {
 	 * @param {boolean} setToEmpty
 	 * @returns {void}
 	 */
-	clear(mId, setToEmpty = true) {
-		const stored = caché[mId];
-		for (let aId in stored) {
+	clearLocalTable(mId, setToEmpty = true) {
+		const stored = localCaché[mId];
+		if (!stored) return;
+		stored.forEach((aId) => {
 			if (aId != "time") {
-				fs.unlink(`${cachéFolder}/${mId}.${aId}`);
-				size -= stored[aId].length;
+				var path = `${cachéFolder}/${mId}.${aId}`;
+				size -= fs.statSync(path).size;
+				fs.unlink(path);
 			}
-		}
-		if (setToEmpty) caché[mId] = {};
-		else delete caché[mId];
+		});
+		if (setToEmpty) localCaché[mId] = {};
+		else delete localCaché[mId];
 	},
 };

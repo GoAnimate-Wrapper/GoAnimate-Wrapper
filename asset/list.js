@@ -1,4 +1,5 @@
 const loadPost = require("../request/post_body");
+const sessions = require("../data/sessions");
 const header = process.env.XML_HEADER;
 const fUtil = require("../fileUtil");
 const nodezip = require("node-zip");
@@ -20,13 +21,14 @@ async function listAssets(data, makeZip) {
 			break;
 		}
 		case "bg": {
-			files = asset.getBackgrounds();
+			files = asset.list("local", data.movieId, "bg");
 			xmlString = `${header}<ugc more="0">${files.map((v) => `<bg id="${v.id}"/>`)}</ugc>`;
 			break;
 		}
 		case "prop":
 		default: {
-			xmlString = `${header}<ugc more="0"></ugc>`;
+			files = asset.list("local", data.movieId, "prop");
+			xmlString = `${header}<ugc more="0">${files.map((v) => `<prop id="${v.id}"/>`)}</ugc>`;
 			break;
 		}
 	}
@@ -39,7 +41,8 @@ async function listAssets(data, makeZip) {
 			case "bg": {
 				for (let c = 0; c < files.length; c++) {
 					const file = files[c];
-					fUtil.addToZip(zip, `bg/${file.id}`, asset.loadLocal(file.id));
+					const buffer = asset.loadLocal(data.movieId, file.id);
+					fUtil.addToZip(zip, `bg/${file.id}`, buffer);
 				}
 				break;
 			}
