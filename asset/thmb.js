@@ -1,5 +1,5 @@
 const thumbUrl = process.env.THUMB_BASE_URL;
-const get = require("../request/get");
+const get = require("../misc/get");
 const http = require("http");
 
 /**

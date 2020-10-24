@@ -4,8 +4,8 @@ var char = require("../character/main");
 var ttsInfo = require("../tts/info");
 var source = process.env.CLIENT_URL;
 var header = process.env.XML_HEADER;
-var get = require("../request/get");
-var fUtil = require("../fileUtil");
+var get = require("../misc/get");
+var fUtil = require("../misc/file");
 var nodezip = require("node-zip");
 var store = process.env.STORE_URL;
 var xmldoc = require("xmldoc");
@@ -165,8 +165,8 @@ module.exports = {
 				case "asset": {
 					if (mId) {
 						var aId = element.attr.id;
-						var m = useBase64(aId) ? "base64" : "utf8",
-							b = Buffer.from(element.val, m);
+						var m = useBase64(aId) ? "base64" : "utf8";
+						var b = Buffer.from(element.val, m);
 						var d = await new Promise((res) => mp3Duration(b, (e, d) => e || res(Math.floor(1e3 * d))));
 						var t = assetTypes[aId];
 						if (t) {
@@ -423,7 +423,7 @@ module.exports = {
 				// Appends base-64 encoded assets into XML.
 				if (assetBuffers)
 					for (let aId in assetBuffers) {
-						if (!assetHash[aId]) continue;
+						//if (!assetHash[aId]) continue;
 						if (useBase64(aId)) {
 							var assetString = assetBuffers[aId].toString("base64");
 							xmlBuffers.push(Buffer.from(`<asset id="${aId}">${assetString}</asset>`));

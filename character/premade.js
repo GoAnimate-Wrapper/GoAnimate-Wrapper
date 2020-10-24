@@ -1,4 +1,4 @@
-const loadPost = require("../request/post_body");
+const loadPost = require("../misc/post_body");
 const folder = process.env.PREMADE_FOLDER;
 const fs = require("fs");
 const http = require("http");

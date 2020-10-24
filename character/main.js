@@ -1,11 +1,9 @@
 const xNumWidth = process.env.XML_NUM_WIDTH;
 const baseUrl = process.env.CHAR_BASE_URL;
-const folder = process.env.SAVED_FOLDER;
-const header = process.env.XML_HEADER;
-const fXml = process.env.FAILURE_XML;
-const fUtil = require("../fileUtil");
+const fUtil = require("../misc/file");
+const util = require("../misc/util");
+const get = require("../misc/get");
 const fw = process.env.FILE_WIDTH;
-const get = require("../request/get");
 const fs = require("fs");
 const themes = {};
 
@@ -51,15 +49,30 @@ module.exports = {
 
 			switch (prefix) {
 				case "c":
-					fs.readFile(fUtil.getFileIndex("char-", ".xml", suffix), (e, b) => (e ? rej(Buffer.from(fXml)) : res(b)));
+					fs.readFile(fUtil.getFileIndex("char-", ".xml", suffix), (e, b) => {
+						if (e) {
+							var fXml = util.xmlFail();
+							rej(Buffer.from(fXml));
+						} else {
+							res(b);
+						}
+					});
 					break;
 
 				case "C":
-					fs.readFile(fUtil.getFileString("char-", ".xml", suffix), (e, b) => (e ? rej(Buffer.from(fXml)) : res(b)));
+					fs.readFile(fUtil.getFileString("char-", ".xml", suffix), (e, b) => {
+						if (e) {
+							var fXml = util.xmlFail();
+							rej(Buffer.from(fXml));
+						} else {
+							res(b);
+						}
+					});
 					break;
 
 				case "a":
-				case "": { // Blank prefix is left for backwards-compatibility purposes.
+				case "": {
+					// Blank prefix is left here for backwards-compatibility purposes.
 					const nId = Number.parseInt(suffix);
 					const xmlSubId = nId % fw,
 						fileId = nId - xmlSubId;

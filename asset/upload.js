@@ -13,7 +13,7 @@ const fs = require("fs");
 module.exports = function (req, res, url) {
 	if (req.method != "POST" || url.path != "/upload_asset") return;
 	formidable().parse(req, (_, fields, files) => {
-		var [library, mode, ext] = fields.params.split(".");
+		var [mode, ext] = fields.params.split(".");
 		var path = files.import.path;
 		var buffer = fs.readFileSync(path);
 		var mId = sessions.get(req).movieId;

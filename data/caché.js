@@ -8,12 +8,6 @@ const fs = require("fs");
  * @type lcType
  */
 const localCaché = {};
-
-/**
- * @summary Dictionary of hashmaps of saved assets for use irrespective of videos.
- * @type cTableType
- */
-const globalCaché = [];
 var size = 0;
 
 // IMPORTANT: serialises the cachéd files into the dictionaries.
@@ -22,15 +16,8 @@ fs.readdirSync(cachéFolder).forEach((v) => {
 	const prefix = v.substr(0, index);
 	const suffix = v.substr(index + 1);
 
-	switch (prefix) {
-		case "global":
-			globalCaché.push(suffix);
-			break;
-		default:
-			localCaché[prefix] = localCaché[prefix] ?? [];
-			localCaché[prefix].push(suffix);
-			break;
-	}
+	localCaché[prefix] = localCaché[prefix] ?? [];
+	localCaché[prefix].push(suffix);
 });
 
 module.exports = {
@@ -62,7 +49,7 @@ module.exports = {
 	 * @param {string} aId
 	 * @param {Buffer} buffer
 	 */
-	saveLocal(mId, aId, buffer) {
+	save(mId, aId, buffer) {
 		if (!this.validAssetId(aId)) return;
 		localCaché[mId] = localCaché[mId] ?? [];
 		var stored = localCaché[mId];
@@ -81,36 +68,14 @@ module.exports = {
 	},
 	/**
 	 *
-	 * @summary Saves a given buffer in global caché, with a given ID.
-	 * @param {string} mId
-	 * @param {string} aId
-	 * @param {Buffer} buffer
-	 */
-	saveGlobal(aId, buffer) {
-		if (!this.validAssetId(aId)) return;
-		/** @type {cTableType} */
-		const path = `${cachéFolder}/global.${aId}`;
-		if (globalCaché.includes(aId)) {
-			const oldSize = fs.statSync(path).size;
-			fs.writeFileSync(path, buffer);
-			size += buffer.size - oldSize;
-		} else {
-			fs.writeFileSync(path, buffer);
-			size += buffer.size;
-			globalCaché.push(aId);
-		}
-		return buffer;
-	},
-	/**
-	 *
 	 * @summary Saves a given dictionary of buffers to movie-wide caché.
 	 * @param {string} mId
 	 * @param {{[aId:string]:Buffer}} buffers
 	 * @returns {{[aId:string]:Buffer}}
 	 */
-	saveLocalTable(mId, buffers = {}) {
+	saveTable(mId, buffers = {}) {
 		for (const aId in buffers) {
-			this.saveLocal(mId, aId, buffers[aId]);
+			this.save(mId, aId, buffers[aId]);
 		}
 		return buffers;
 	},
@@ -120,22 +85,10 @@ module.exports = {
 	 * @param {string} mId
 	 * @returns {{[aId:string]:Buffer}}
 	 */
-	loadLocalTable(mId) {
+	loadTable(mId) {
 		const buffers = {};
-		this.listLocal().forEach((aId) => {
+		this.list(mId).forEach((aId) => {
 			buffers[aId] = fs.readFileSync(`${cachéFolder}/${mId}.${aId}`);
-		});
-		return buffers;
-	},
-	/**
-	 *
-	 * @summary Retrieves an array of buffers from the global caché.
-	 * @returns {{[aId:string]:Buffer}}
-	 */
-	loadGlobalTable() {
-		const buffers = {};
-		this.listGlobal().forEach((aId) => {
-			buffers[aId] = fs.readFileSync(`${cachéFolder}/global.${aId}`);
 		});
 		return buffers;
 	},
@@ -145,16 +98,8 @@ module.exports = {
 	 * @param {string} mId
 	 * @returns {cTableType}
 	 */
-	listLocal(mId) {
+	list(mId) {
 		return localCaché[mId] ?? [];
-	},
-	/**
-	 *
-	 * @summary Retrieves an array of asset IDs from the global caché.
-	 * @returns {cTableType}
-	 */
-	listGlobal() {
-		return globalCaché;
 	},
 	/**
 	 *
@@ -164,23 +109,11 @@ module.exports = {
 	 * @param {string} prefix
 	 * @param {string} suffix
 	 */
-	newLocal(buffer, mId, prefix = "", suffix = "") {
+	newItem(buffer, mId, prefix = "", suffix = "") {
 		localCaché[mId] = localCaché[mId] ?? [];
 		var stored = localCaché[mId];
 		var aId = this.generateId(prefix, suffix, stored);
-		this.saveLocal(mId, aId, buffer);
-		return aId;
-	},
-	/**
-	 *
-	 * @summary Allocates a new global ID for a given buffer in the caché.
-	 * @param {Buffer} buffer
-	 * @param {string} mId
-	 * @param {string} suffix
-	 */
-	newGlobal(buffer, prefix = "", suffix = "") {
-		var aId = this.generateId(prefix, suffix, globalCaché);
-		this.saveGlobal(aId, buffer);
+		this.save(mId, aId, buffer);
 		return aId;
 	},
 	/**
@@ -189,7 +122,7 @@ module.exports = {
 	 * @param {string} aId
 	 * @returns {Buffer}
 	 */
-	loadLocal(mId, aId) {
+	load(mId, aId) {
 		if (!this.validAssetId(aId)) return;
 		const stored = localCaché[mId];
 		if (!stored) return null;
@@ -202,26 +135,12 @@ module.exports = {
 	},
 	/**
 	 *
-	 * @param {string} aId
-	 * @returns {Buffer}
-	 */
-	loadGlobal(aId) {
-		if (!this.validAssetId(aId)) return;
-		const path = `${cachéFolder}/global.${aId}`;
-		var stored = globalCaché[aId];
-		if (stored) {
-			stored.time = new Date();
-			return fs.readFileSync(path);
-		}
-	},
-	/**
-	 *
 	 * @summary Transfers all caché data as if 'old' had never existed.
 	 * @param {string} old
 	 * @param {string} nëw
 	 * @returns {void}
 	 */
-	transferLocal(old, nëw) {
+	transfer(old, nëw) {
 		if (nëw == old || !localCaché[old]) return;
 		Object.keys((localCaché[nëw] = localCaché[old])).forEach((aId) => {
 			const oldP = `${cachéFolder}/${old}.${aId}`;
@@ -236,7 +155,7 @@ module.exports = {
 	 * @param {boolean} setToEmpty
 	 * @returns {void}
 	 */
-	clearLocalTable(mId, setToEmpty = true) {
+	clearTable(mId, setToEmpty = true) {
 		const stored = localCaché[mId];
 		if (!stored) return;
 		stored.forEach((aId) => {

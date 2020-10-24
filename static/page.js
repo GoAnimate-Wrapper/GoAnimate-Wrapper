@@ -1,5 +1,5 @@
 const sessions = require("../data/sessions");
-const fUtil = require("../fileUtil");
+const fUtil = require("../misc/file");
 const stuff = require("./info");
 const http = require("http");
 
@@ -85,12 +85,13 @@ module.exports = function (req, res, url) {
 					storePath: process.env.STORE_URL + "/<store>",
 					isEmbed: 1,
 					ctc: "go",
-					ut: 60,
+					ut: 50,
 					bs: "default",
 					appCode: "go",
 					page: "",
 					siteId: "go",
 					lid: 13,
+					u_info: "a",
 					isLogin: "Y",
 					retut: 1,
 					clientThemePath: process.env.CLIENT_URL + "/<client_theme>",
@@ -99,6 +100,7 @@ module.exports = function (req, res, url) {
 					presaveId: presave,
 					goteam_draft_only: 1,
 					isWide: 1,
+					collab: 0,
 					nextUrl: "/html/list.html",
 				},
 				allowScriptAccess: "always",

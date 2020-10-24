@@ -1,5 +1,5 @@
 const caché = require("../data/caché");
-const fUtil = require("../fileUtil");
+const fUtil = require("../misc/file");
 const nodezip = require("node-zip");
 const parse = require("./parse");
 const fs = require("fs");
@@ -21,7 +21,7 @@ module.exports = {
 		}
 
 		return new Promise((res, rej) => {
-			caché.transferLocal(oldId, nëwId);
+			caché.transfer(oldId, nëwId);
 			var i = nëwId.indexOf("-");
 			var prefix = nëwId.substr(0, i);
 			var suffix = nëwId.substr(i + 1);
@@ -67,7 +67,7 @@ module.exports = {
 
 					try {
 						var pack = await parse.packMovie(buffer, mId);
-						caché.saveLocalTable(mId, pack.caché);
+						caché.saveTable(mId, pack.caché);
 						res(pack.zipBuf);
 						break;
 					} catch {
@@ -90,18 +90,15 @@ module.exports = {
 					fs.existsSync(fn) ? res(fs.readFileSync(fn)) : rej();
 					break;
 				}
-				// TODO: fix extraction of example file assets.
-				/*
 				case "e": {
 					const fn = `${exFolder}/${suffix}.zip`;
 					if (!fs.existsSync(fn)) return rej();
 					parse
-						.unpackZip(nodezip.unzip(fn))
+						.unpackMovie(nodezip.unzip(fn))
 						.then((v) => res(v))
 						.catch((e) => rej(e));
 					break;
 				}
-				*/
 				default:
 					rej();
 			}

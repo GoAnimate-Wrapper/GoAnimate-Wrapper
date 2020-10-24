@@ -1,39 +1,41 @@
 const chars = require("../character/main");
 const caché = require("../data/caché");
-const fUtil = require("../fileUtil");
+const fUtil = require("../misc/file");
 
 module.exports = {
-	loadLocal(mId, aId) {
-		return caché.loadLocal(mId, aId);
+	load(mId, aId) {
+		return caché.load(mId, aId);
 	},
-	loadGlobal(aId) {
-		return caché.loadGlobal(aId);
-	},
-	save(buffer, mId, library, mode, ext) {
+	save(buffer, mId, mode, ext) {
 		var suffix = `-${mode}.${ext}`;
-		if (library == "comm") {
-			caché.newGlobal(buffer, mId, "", suffix);
-		} else {
-			caché.newLocal(buffer, mId, "", suffix);
-		}
+		caché.new(buffer, mId, "", suffix);
 	},
-	list(library, mId, mode) {
+	list(mId, mode) {
 		var ret = [];
-		if (library == "comm") {
-			var files = caché.listGlobal();
-			// TODO: Add community library.
-		} else {
-			var files = caché.listLocal(mId);
-			files.forEach((aId) => {
-				var dot = aId.lastIndexOf(".");
-				var dash = aId.lastIndexOf("-");
-				var fMode = aId.substr(dash + 1, dot - dash - 1);
-				var ext = aId.substr(dot + 1);
-				if (fMode == mode) {
-					ret.push({ id: aId, ext: ext });
-				}
-			});
-		}
+		var files = caché.list(mId);
+		files.forEach((aId) => {
+			var dot = aId.lastIndexOf(".");
+			var dash = aId.lastIndexOf("-");
+			var name = aId.substr(0, dash);
+			var ext = aId.substr(dot + 1);
+			var fMode = aId.substr(dash + 1, dot - dash - 1);
+			if (fMode == mode) {
+				ret.push({ id: aId, ext: ext, name: name, mode: fMode });
+			}
+		});
+		return ret;
+	},
+	listAll(mId) {
+		var ret = [];
+		var files = caché.list(mId);
+		files.forEach((aId) => {
+			var dot = aId.lastIndexOf(".");
+			var dash = aId.lastIndexOf("-");
+			var name = aId.substr(0, dash);
+			var ext = aId.substr(dot + 1);
+			var fMode = aId.substr(dash + 1, dot - dash - 1);
+			ret.push({ id: aId, ext: ext, name: name, mode: fMode });
+		});
 		return ret;
 	},
 	async chars(theme) {

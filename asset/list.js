@@ -1,14 +1,13 @@
-const loadPost = require("../request/post_body");
-const sessions = require("../data/sessions");
+const loadPost = require("../misc/post_body");
 const header = process.env.XML_HEADER;
-const fUtil = require("../fileUtil");
+const fUtil = require("../misc/file");
 const nodezip = require("node-zip");
 const base = Buffer.alloc(1, 0);
 const asset = require("./main");
 const http = require("http");
 
 async function listAssets(data, makeZip) {
-	var xmlString, files;
+	var xmlString;
 	switch (data.type) {
 		case "char": {
 			const chars = await asset.chars(data.themeId);
@@ -21,34 +20,39 @@ async function listAssets(data, makeZip) {
 			break;
 		}
 		case "bg": {
-			files = asset.list("local", data.movieId, "bg");
-			xmlString = `${header}<ugc more="0">${files.map((v) => `<bg id="${v.id}"/>`)}</ugc>`;
+			var files = asset.list(data.movieId, "bg");
+			xmlString = `${header}<ugc more="0">${files.map((v) => `<bg id="${v.id}"/>`).join("")}</ugc>`;
 			break;
 		}
 		case "prop":
 		default: {
-			files = asset.list("local", data.movieId, "prop");
-			xmlString = `${header}<ugc more="0">${files.map((v) => `<prop id="${v.id}"/>`)}</ugc>`;
+			var files = asset.list(data.movieId, "prop");
+			xmlString = `${header}<ugc more="0">${files.map((v) => `<prop id="${v.id}"/>`).join("")}</ugc>`;
 			break;
 		}
 	}
 
 	if (makeZip) {
 		const zip = nodezip.create();
+		const files = asset.listAll(data.movieId);
 		fUtil.addToZip(zip, "desc.xml", Buffer.from(xmlString));
 
-		switch (data.type) {
-			case "bg": {
-				for (let c = 0; c < files.length; c++) {
-					const file = files[c];
-					const buffer = asset.loadLocal(data.movieId, file.id);
-					fUtil.addToZip(zip, `bg/${file.id}`, buffer);
+		files.forEach((file) => {
+			switch (file.mode) {
+				case "bg":
+				case "sound":
+				case "effect":
+				case "prop": {
+					const buffer = asset.load(data.movieId, file.id);
+					fUtil.addToZip(zip, `${file.mode}/${file.id}`, buffer);
+					break;
 				}
-				break;
 			}
-		}
+		});
 		return Buffer.concat([base, await zip.zip()]);
-	} else return Buffer.from(xmlString);
+	} else {
+		return Buffer.from(xmlString);
+	}
 }
 
 /**

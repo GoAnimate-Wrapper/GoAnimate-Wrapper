@@ -1,4 +1,4 @@
-const loadPost = require("../request/post_body");
+const loadPost = require("../misc/post_body");
 const sessions = require("../data/sessions");
 const asset = require("./main");
 const http = require("http");
@@ -17,7 +17,7 @@ module.exports = function (req, res, url) {
 
 			const mId = match[1];
 			const aId = match[2];
-			const b = asset.loadLocal(mId, aId);
+			const b = asset.load(mId, aId);
 			if (b) {
 				res.statusCode = 200;
 				res.end(b);
@@ -36,7 +36,7 @@ module.exports = function (req, res, url) {
 						const mId = data.movieId || data.presaveId || sessions.get(req);
 						const aId = data.assetId || data.enc_asset_id;
 
-						const b = asset.loadLocal(mId, aId);
+						const b = asset.load(mId, aId);
 						sessions.set({ movieId: mId }, req);
 						if (b) {
 							res.setHeader("Content-Length", b.length);
