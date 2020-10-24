@@ -16,7 +16,7 @@ fs.readdirSync(cachéFolder).forEach((v) => {
 	const prefix = v.substr(0, index);
 	const suffix = v.substr(index + 1);
 
-	localCaché[prefix] = localCaché[prefix] ?? [];
+	if (!localCaché[prefix]) localCaché[prefix] = [];
 	localCaché[prefix].push(suffix);
 });
 
@@ -51,7 +51,7 @@ module.exports = {
 	 */
 	save(mId, aId, buffer) {
 		if (!this.validAssetId(aId)) return;
-		localCaché[mId] = localCaché[mId] ?? [];
+		localCaché[mId] = localCaché[mId] || [];
 		var stored = localCaché[mId];
 		const path = `${cachéFolder}/${mId}.${aId}`;
 
@@ -99,7 +99,7 @@ module.exports = {
 	 * @returns {cTableType}
 	 */
 	list(mId) {
-		return localCaché[mId] ?? [];
+		return localCaché[mId] || [];
 	},
 	/**
 	 *
@@ -110,7 +110,7 @@ module.exports = {
 	 * @param {string} suffix
 	 */
 	newItem(buffer, mId, prefix = "", suffix = "") {
-		localCaché[mId] = localCaché[mId] ?? [];
+		localCaché[mId] = localCaché[mId] || [];
 		var stored = localCaché[mId];
 		var aId = this.generateId(prefix, suffix, stored);
 		this.save(mId, aId, buffer);

@@ -464,7 +464,6 @@ module.exports = {
 				fs.writeFileSync(fUtil.getFileIndex("thumb-", ".png", suffix), sub);
 			}
 			fs.writeFileSync(fUtil.getFileIndex("movie-", ".xml", suffix), xml);
-			break;
 		}
 	},
 };
