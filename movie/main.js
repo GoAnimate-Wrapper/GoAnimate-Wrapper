@@ -30,7 +30,7 @@ module.exports = {
 				case "m": {
 					var path = fUtil.getFileIndex("movie-", ".xml", suffix);
 					var writeStream = fs.createWriteStream(path);
-					var assetBuffers = caché.loadLocalTable(nëwId);
+					var assetBuffers = caché.loadTable(nëwId);
 					parse.unpackMovie(zip, thumb, assetBuffers).then((data) => {
 						writeStream.write(data, () => {
 							writeStream.close();

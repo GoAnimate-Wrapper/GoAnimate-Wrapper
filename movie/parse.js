@@ -232,21 +232,28 @@ module.exports = {
 				case "scene": {
 					for (var pK in element.children) {
 						var piece = element.children[pK];
-						switch (piece.name) {
+						var tag = piece.name;
+						if (tag == "effectAsset") {
+							tag = "effect";
+						}
+
+						switch (tag) {
 							case "durationSetting":
 							case "trans":
 								break;
 							case "bg":
 							case "effect":
 							case "prop": {
-								var val = piece.childNamed("file").val;
+								var file = piece.childNamed("file");
+								if (!file) continue;
+								var val = file.val;
 								var pieces = val.split(".");
 
 								if (pieces[0] == "ugc") {
 									// TODO: Make custom props load.
 								} else {
 									var ext = pieces.pop();
-									pieces.splice(1, 0, piece.name);
+									pieces.splice(1, 0, tag);
 									pieces[pieces.length - 1] += `.${ext}`;
 
 									var fileName = pieces.join(".");
