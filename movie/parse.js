@@ -430,7 +430,17 @@ module.exports = {
 				// Appends base-64 encoded assets into XML.
 				if (assetBuffers)
 					for (let aId in assetBuffers) {
-						//if (!assetHash[aId]) continue;
+						var dot = aId.lastIndexOf(".");
+						var dash = aId.lastIndexOf("-");
+						var mode = aId.substr(dash + 1, dot - dash - 1);
+						if (!assetHash[aId]) {
+							switch (mode) {
+								case "tts":
+									continue;
+								default:
+							}
+						}
+
 						if (useBase64(aId)) {
 							var assetString = assetBuffers[aId].toString("base64");
 							xmlBuffers.push(Buffer.from(`<asset id="${aId}">${assetString}</asset>`));
