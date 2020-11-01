@@ -75,6 +75,12 @@
 			},
 			"content": "<?xml encoding=\"UTF-8\"?><watermarks><watermark style=\"visualplugin\"/></watermarks>"
 		},
+		"/api_v2/asset/get": {
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			},
+			"content": "1"
+		},
 		"/goapi/getWaveform/": {
 			"headers": {
 				"Content-Type": "text/html; charset=UTF-8"
