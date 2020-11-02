@@ -21,7 +21,7 @@ async function listAssets(data, makeZip) {
 		}
 		case "bg": {
 			var files = asset.list(data.movieId, "bg");
-			xmlString = `${header}<ugc more="0">${files.map((v) => `<background subtype="0" id="${v.id} "enable="Y" enc_asset_id="${v.id}" signature="${v.signature}"/>`).join("")}</ugc>`;
+			xmlString = `${header}<ugc more="0">${files.map((v) => `<background subtype="0" id="${v.id} name="${v.name}" "enable="Y" enc_asset_id="${v.id}" signature="${v.signature}"/>`).join("")}</ugc>`;
 			break;
 		}
 		case "prop":
