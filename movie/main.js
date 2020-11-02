@@ -1,3 +1,4 @@
+const exFolder = process.env.EXAMPLE_FOLDER;
 const caché = require("../data/caché");
 const fUtil = require("../misc/file");
 const nodezip = require("node-zip");
@@ -51,7 +52,7 @@ module.exports = {
 			const suffix = mId.substr(i + 1);
 			switch (prefix) {
 				case "e": {
-					caché.clearLocalTable(mId);
+					caché.clearTable(mId);
 					let data = fs.readFileSync(`${exFolder}/${suffix}.zip`);
 					res(data.subarray(data.indexOf(80)));
 					break;

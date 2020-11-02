@@ -17,7 +17,7 @@ module.exports = function (req, res, url) {
 		var path = files.import.path;
 		var buffer = fs.readFileSync(path);
 		var mId = sessions.get(req).movieId;
-		asset.save(buffer, mId, library, mode, ext);
+		asset.save(buffer, mId, mode, ext);
 		fs.unlinkSync(path);
 		delete buffer;
 		res.end();

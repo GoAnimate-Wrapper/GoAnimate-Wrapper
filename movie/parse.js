@@ -151,9 +151,10 @@ module.exports = {
 		if (xmlBuffer.length == 0) throw null;
 		var zip = nodezip.create();
 		var themes = { common: true };
-		var assetTypes = {};
+		var assetPreData = {};
 		var assetBuffers = {};
 		var ugcString = `${header}<theme id="ugc" name="ugc">`;
+		var ugcIds = {};
 
 		fUtil.addToZip(zip, "movie.xml", xmlBuffer);
 		var xml = new xmldoc.XmlDocument(xmlBuffer);
@@ -162,21 +163,6 @@ module.exports = {
 		for (var eK in elements) {
 			var element = elements[eK];
 			switch (element.name) {
-				case "asset": {
-					if (mId) {
-						var aId = element.attr.id;
-						var m = useBase64(aId) ? "base64" : "utf8";
-						var b = Buffer.from(element.val, m);
-						var d = await new Promise((res) => mp3Duration(b, (e, d) => e || res(Math.floor(1e3 * d))));
-						var t = assetTypes[aId];
-						if (t) {
-							ugcString += `<sound subtype="${t.subtype}" id="${aId}" enc_asset_id="${aId}" name="${t.name}" downloadtype="progressive" duration="${d}"/>`;
-							assetBuffers[aId] = b;
-						}
-					}
-					break;
-				}
-
 				case "cc_char": {
 					var beg = element.startTagPosition - 1;
 					var end = xmlBuffer.indexOf("</cc_char>", beg) + 10;
@@ -189,43 +175,6 @@ module.exports = {
 
 					fUtil.addToZip(zip, element.attr.file_name, sub);
 					ugcString += `<char id="${id}"cc_theme_id="${theme}"><tags/></char>`;
-					break;
-				}
-
-				case "sound": {
-					var sfile = element.childNamed("sfile").val;
-					var file = sfile.substr(sfile.indexOf(".") + 1);
-
-					var ttsData = element.childNamed("ttsdata");
-					if (sfile.endsWith(".swf")) {
-						var pieces = sfile.split(".");
-						var [theme, fileName] = pieces;
-						var url = `${store}/${theme}/sound/${fileName}.swf`;
-						var fileName = `${theme}.sound.${fileName}.swf`;
-						if (!zip[fileName]) {
-							var buffer = await get(url);
-							fUtil.addToZip(zip, fileName, buffer);
-						}
-					} else if (sfile.startsWith("ugc.")) {
-						var subtype, fileName;
-						if (ttsData) {
-							var text = ttsData.childNamed("text").val;
-							var vName = ttsData.childNamed("voice").val;
-							var vInfo = ttsInfo.voices[vName];
-							if (vInfo) fileName = `[${vInfo.desc}] ${text.replace(/"/g, '\\"')}`;
-							else fileName = text.replace(/"/g, '\\"');
-
-							subtype = "tts";
-						} else {
-							subtype = "sound";
-							fileName = file;
-						}
-
-						assetTypes[file] = {
-							subtype: subtype,
-							name: fileName,
-						};
-					}
 					break;
 				}
 
@@ -247,48 +196,58 @@ module.exports = {
 								var file = piece.childNamed("file");
 								if (!file) continue;
 								var val = file.val;
-								var pieces = val.split(".");
 
-								if (pieces[0] == "ugc") {
-									// TODO: Make custom props load.
+								if (val.startsWith("ugc")) {
+									var aId = val.substr(4);
+									ugcIds[aId] = tag;
+									assetPreData[aId] = {
+										subtype: tag,
+										name: aId,
+									};
 								} else {
-									var ext = pieces.pop();
-									pieces.splice(1, 0, tag);
-									pieces[pieces.length - 1] += `.${ext}`;
+									var slices = val.split(".");
+									var ext = slices.pop();
+									slices.splice(1, 0, tag);
+									slices[slices.length - 1] += `.${ext}`;
 
-									var fileName = pieces.join(".");
+									var fileName = slices.join(".");
 									if (!zip[fileName]) {
-										var buff = await get(`${store}/${pieces.join("/")}`);
+										var buff = await get(`${store}/${slices.join("/")}`);
 										fUtil.addToZip(zip, fileName, buff);
-										themes[pieces[0]] = true;
+										themes[slices[0]] = true;
 									}
 								}
 								break;
 							}
 							case "char": {
 								var val = piece.childNamed("action").val;
-								var pieces = val.split(".");
+								var slices = val.split(".");
 
 								var theme, fileName, buffer;
-								switch (pieces[pieces.length - 1]) {
+								switch (slices[slices.length - 1]) {
 									case "xml": {
-										theme = pieces[0];
-										var id = pieces[1];
+										theme = slices[0];
+										var id = slices[1];
 
 										try {
+											if (ugcIds[id] != null) continue;
 											buffer = await char.load(id);
 											var charTheme = await char.getTheme(id);
 											fileName = `${theme}.char.${id}.xml`;
-											if (theme == "ugc") ugcString += `<char id="${id}"cc_theme_id="${charTheme}"><tags/></char>`;
+
+											if (theme == "ugc") {
+												ugcIds[id] = false;
+												ugcString += `<char id="${id}"cc_theme_id="${charTheme}"><tags/></char>`;
+											}
 										} catch (e) {
-											console.log(e);
+											console.log(id, e.toString());
 										}
 										break;
 									}
 									case "swf": {
-										theme = pieces[0];
-										var ch = pieces[1];
-										var model = pieces[2];
+										theme = slices[0];
+										var ch = slices[1];
+										var model = slices[2];
 										var url = `${store}/${theme}/char/${ch}/${model}.swf`;
 										fileName = `${theme}.char.${ch}.${model}.swf`;
 										buffer = await get(url);
@@ -316,6 +275,8 @@ module.exports = {
 
 									var file = part.childNamed("file");
 									var slicesP = file.val.split(".");
+									if (slicesP[0] == "ugc") continue;
+
 									slicesP.pop(), slicesP.splice(1, 0, urlF);
 									var urlP = `${store}/${slicesP.join("/")}.swf`;
 
@@ -346,6 +307,65 @@ module.exports = {
 					}
 					break;
 				}
+
+				case "sound": {
+					var sfile = element.childNamed("sfile").val;
+					var file = sfile.substr(sfile.indexOf(".") + 1);
+
+					var ttsData = element.childNamed("ttsdata");
+					if (sfile.endsWith(".swf")) {
+						var slices = sfile.split(".");
+						var [theme, fileName] = slices;
+						var url = `${store}/${theme}/sound/${fileName}.swf`;
+						var fileName = `${theme}.sound.${fileName}.swf`;
+						if (!zip[fileName]) {
+							var buffer = await get(url);
+							fUtil.addToZip(zip, fileName, buffer);
+						}
+					} else if (sfile.startsWith("ugc.")) {
+						var subtype, fileName;
+						if (ttsData) {
+							var text = ttsData.childNamed("text").val;
+							var vName = ttsData.childNamed("voice").val;
+							var vInfo = ttsInfo.voices[vName];
+							if (vInfo) {
+								fileName = `[${vInfo.desc}] ${text.replace(/"/g, '\\"')}`;
+							} else {
+								fileName = text.replace(/"/g, '\\"');
+							}
+							subtype = "tts";
+						} else {
+							subtype = "sound";
+							fileName = file;
+						}
+
+						assetPreData[file] = {
+							subtype: subtype,
+							name: fileName,
+						};
+					}
+					break;
+				}
+
+				case "asset": {
+					if (!mId) continue;
+					var aId = element.attr.id;
+					var m = useBase64(aId) ? "base64" : "utf8";
+					var b = Buffer.from(element.val, m);
+					var t = assetPreData[aId];
+					if (!t) continue;
+					switch (t.subtype) {
+						case "sound": {
+							var d = await new Promise((res) => mp3Duration(b, (e, d) => e || res(Math.floor(1e3 * d))));
+							ugcString += `<sound subtype="${t.subtype}" id="${aId}" enc_asset_id="${aId}" name="${t.name}" downloadtype="progressive" duration="${d}"/>`;
+							break;
+						}
+						case "bg":
+							ugcString += `<background id="${aId}"/>`;
+					}
+					assetBuffers[aId] = b;
+					break;
+				}
 			}
 		}
 
@@ -366,11 +386,22 @@ module.exports = {
 			fUtil.addToZip(zip, `${t}.xml`, file);
 		});
 
-		fUtil.addToZip(
-			zip,
-			"themelist.xml",
-			Buffer.from(`${header}<themes>${themeKs.map((t) => `<theme>${t}</theme>`).join("")}</themes>`)
+		for (const id in ugcIds) {
+			var tag = ugcIds[id];
+			if (!tag) continue;
+			var buffer = assetBuffers[id];
+			fUtil.addToZip(zip, `ugc.${tag}.${id}`, buffer);
+		}
+
+		var themelist = Buffer.from(
+			`${header}<themes>${themeKs
+				.map((t) => {
+					return `<theme>${t}</theme>`;
+				})
+				.join("")}</themes>`
 		);
+
+		fUtil.addToZip(zip, "themelist.xml", themelist);
 		fUtil.addToZip(zip, "ugc.xml", Buffer.from(ugcString + `</theme>`));
 		return { zipBuf: await zip.zip(), caché: assetBuffers };
 	},
@@ -471,6 +502,7 @@ module.exports = {
 	 * @param {mId} mId
 	 */
 	async unpackXml(xml, mId) {
+		var i = mId.indexOf("-");
 		var prefix = mId.substr(0, i);
 		var suffix = mId.substr(i + 1);
 		if (prefix == "m") {

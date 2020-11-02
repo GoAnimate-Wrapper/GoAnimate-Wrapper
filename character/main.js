@@ -85,9 +85,13 @@ module.exports = {
 								.toString("utf8")
 								.split("\n")
 								.find((v) => v.substr(0, xNumWidth) == lnNum);
-							line ? res(Buffer.from(line.substr(xNumWidth))) : rej(Buffer.from(fXml));
+							if (line) {
+								res(Buffer.from(line.substr(xNumWidth)));
+							} else {
+								rej(Buffer.from(util.xmlFail()));
+							}
 						})
-						.catch((e) => rej(Buffer.from(fXml)));
+						.catch((e) => rej(Buffer.from(util.xmlFail())));
 				}
 			}
 		});
