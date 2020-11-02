@@ -126,7 +126,7 @@ module.exports = function (req, res, url) {
 					clientThemePath: process.env.CLIENT_URL + "/<client_theme>",
 				},
 				allowScriptAccess: "always",
-				allowFullScreen: 'true",
+				allowFullScreen: "true",
 			};
 			break;
 		}
