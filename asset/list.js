@@ -21,13 +21,53 @@ async function listAssets(data, makeZip) {
 		}
 		case "bg": {
 			var files = asset.list(data.movieId, "bg");
-			xmlString = `${header}<ugc more="0">${files.map((v) => `<bg id="${v.id}"/>`).join("")}</ugc>`;
+			xmlString = `${header}<ugc more="0">${files
+				.map(
+					(v) =>
+						`<background subtype="0" id="${v.id} name="${v.name}" "enable="Y" enc_asset_id="${v.id}" signature="${v.signature}"/>`
+				)
+				.join("")}</ugc>`;
+			break;
+		}
+		case "bgmusic": {
+			var files = asset.list(data.movieId, "bgmusic");
+			xmlString = `${header}<ugc more="0">${files
+				.map(
+					(v) =>
+						`<sound subtype="bgmusic" id="${v.id}" name="${v.name}" enable="Y" duration="${v.duration}" downloadtype="progressive" enc_asset_id="${v.id}" signature="${v.signature}"/>`
+				)
+				.join("")}</ugc>`;
+			break;
+		}
+		case "soundeffect": {
+			var files = asset.list(data.movieId, "soundeffect");
+			xmlString = `${header}<ugc more="0">${files
+				.map(
+					(v) =>
+						`<sound subtype="soundeffect" id="${v.id}" name="${v.name}" enable="Y" duration="${v.duration}" downloadtype="progressive" enc_asset_id="${v.id}" signature="${v.signature}"/>`
+				)
+				.join("")}</ugc>`;
+			break;
+		}
+		case "voiceover": {
+			var files = asset.list(data.movieId, "voiceover");
+			xmlString = `${header}<ugc more="0">${files
+				.map(
+					(v) =>
+						`<sound subtype="voiceover" id="${v.id}" name="${v.name}" enable="Y" duration="${v.duration}" downloadtype="progressive" enc_asset_id="${v.id}" signature="${v.signature}"/>`
+				)
+				.join("")}</ugc>`;
 			break;
 		}
 		case "prop":
 		default: {
 			var files = asset.list(data.movieId, "prop");
-			xmlString = `${header}<ugc more="0">${files.map((v) => `<prop id="${v.id}"/>`).join("")}</ugc>`;
+			xmlString = `${header}<ugc more="0">${files
+				.map(
+					(v) =>
+						`<prop subtype="0" id="${v.id}" name="${v.name}" enable="Y" holdable="0" headable="0" placeable="1" facing="left" width="0" height="0" duration="0" enc_asset_id="${v.id}" signature="${v.signature}"/>`
+				)
+				.join("")}</ugc>`;
 			break;
 		}
 	}
@@ -39,8 +79,27 @@ async function listAssets(data, makeZip) {
 
 		files.forEach((file) => {
 			switch (file.mode) {
-				case "bg":
+				case "bg": {
+					const buffer = asset.load(data.movieId, file.id);
+					fUtil.addToZip(zip, `${file.mode}/${file.id}`, buffer);
+					break;
+				}
 				case "sound":
+				case "soundeffect": {
+					const buffer = asset.load(data.movieId, file.id);
+					fUtil.addToZip(zip, `${file.mode}/${file.id}`, buffer);
+					break;
+				}
+				case "bgmusic": {
+					const buffer = asset.load(data.movieId, file.id);
+					fUtil.addToZip(zip, `${file.mode}/${file.id}`, buffer);
+					break;
+				}
+				case "voiceover": {
+					const buffer = asset.load(data.movieId, file.id);
+					fUtil.addToZip(zip, `${file.mode}/${file.id}`, buffer);
+					break;
+				}
 				case "effect":
 				case "prop": {
 					const buffer = asset.load(data.movieId, file.id);
