@@ -60,5 +60,5 @@ Example:
 <library theme_id="business" component_id="3002" type="GoFeet"/>
 </cc_char>
  ```
-#Memory was here
+# Memory was here
 lol
