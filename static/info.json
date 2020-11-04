@@ -49,10 +49,51 @@
 			},
 			"content": ""
 		},
-		"/html/([^?]+).*": {
-			"regexLink": "/html/$1",
+			"/html/list.html": {
+			"regexLink": "/html/list.html",
 			"headers": {
 				"Content-Type": "text/html; charset=UTF-8"
+			}
+		},
+		"/html/listdark.html": {
+			"regexLink": "/html/listdark.html",
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			}
+		},
+		"/html/Sailec-Light.woff": {
+			"headers": {
+				"Content-Type": "application/font-woff; charset=UTF-8"
+			}
+		},
+		"/html/Sailec-Medium.woff": {
+			"headers": {
+				"Content-Type": "application/font-woff; charset=UTF-8"
+			}
+		},
+		"/html/Sailec-Regular.woff": {
+			"headers": {
+				"Content-Type": "application/font-woff; charset=UTF-8"
+			}
+		},
+		"/html/Sailec-Thin.woff": {
+			"headers": {
+				"Content-Type": "application/font-woff; charset=UTF-8"
+			}
+		},
+		"/html/glyphicons-regular.woff": {
+			"headers": {
+				"Content-Type": "application/font-woff; charset=UTF-8"
+			}
+		},
+		"/html/logo.png": {
+			"headers": {
+				"Content-Type": "image/png"
+			}
+		},
+		"/html/char-default.png": {
+			"headers": {
+				"Content-Type": "image/png"
 			}
 		}
 	},
