@@ -49,7 +49,7 @@
 			},
 			"content": ""
 		},
-		"/html/([^?]+).*": {
+		"/html/list.html
 			"regexLink": "/html/$1",
 			"headers": {
 				"Content-Type": "text/html; charset=UTF-8"
