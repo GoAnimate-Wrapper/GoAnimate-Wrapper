@@ -3,7 +3,7 @@
 		<div>
 			<div>
 				<a><img src="logo.png" /></a>
-				<span>1.2.7⅝</span><a href="./listdark.html"><span id="dark"></span></a>
+				<span>1.2.7⅝</span><a href="./list.html"><span id="light"></span></a>
 			</div>
 			<div>
 				<a class="button_small" onclick="document.getElementById('file').click()">UPLOAD A MOVIE</a>
@@ -36,6 +36,7 @@
 						<div></div>
 						<a href="/cc?themeId=ninja&bs=default">Chibi Ninjas</a>
 						<div></div>
+
 					</menu>
 				</div>
 				<a href="/go_full" class="button_big">MAKE A VIDEO</a>
@@ -67,7 +68,6 @@
 	<form enctype='multipart/form-data' action='/upload_movie' method='post'>
 		<input id='file' type="file" onchange="this.form.submit()" name='import' />
 	</form>
-	 
 	<script>
 		const closeReq = new XMLHttpRequest();
 		closeReq.open('GET', '/events/close');
@@ -116,8 +116,8 @@
 
 		body {
 			margin: 0;
-			background-color: #fff;
-			color: #474747;
+			background-color: #36393F;
+			color: #fff;
 			font-size: 16px;
 			font-weight: 400;
 			line-height: 1.5;
@@ -151,7 +151,7 @@
 		}
 
 		header>:nth-child(1)>:nth-child(1)>:nth-child(2) {
-			color: #666;
+			color: #fff;
 			padding-left: 4px;
 			font-weight: 700;
 		}
@@ -214,7 +214,7 @@
 			list-style: none;
 			font-size: 14px;
 			text-align: left;
-			background-color: #fff;
+			background-color: #1E1E1E;
 			border: 1px solid #ccc;
 			border: 1px solid rgba(0, 0, 0, 0.15);
 			border-radius: 4px;
@@ -233,7 +233,7 @@
 			padding: 2px 20px;
 			clear: both;
 			font-weight: normal;
-			color: #333;
+			color: #fff;
 			text-decoration: none;
 		}
 
@@ -245,13 +245,14 @@
 		.char_dropdown>menu>div {
 			height: 1px;
 			margin: 10px 0;
-			background-color: #e5e5e5;
+			background-color: #86868648;
 		}
 
 		.warning {
 			font-size: 14px;
 			padding: 10px 0;
 			background-color: #fd7;
+			color: #474747;
 			text-align: center;
 		}
 
@@ -262,10 +263,10 @@
 			font-size: 12px;
 		}
 
-		#dark::before {
+		#light::before {
 			font-family: 'GlyphiconsRegular';
 			padding-left: 10px;
-			content: '\E190';
+			content: '\E231';
 			font-size: 20px;
 			color: #fff;
 			text-decoration: none;
@@ -343,7 +344,7 @@
 		}
 
 		tr>:nth-child(2) {
-			color: #999;
+			color: #fff;
 		}
 
 		tr>:nth-child(2)>:nth-child(2) {
@@ -373,7 +374,7 @@
 			display: inline-block;
 			text-decoration: none;
 			padding-right: 10px;
-			color: #474747;
+			color: #fff;
 		}
 
 		tr>:nth-child(4)>a:hover {
