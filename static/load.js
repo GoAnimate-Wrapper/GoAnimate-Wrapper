@@ -1,3 +1,4 @@
+const pjson = require("../package.json");
 const stuff = require("./info");
 const http = require("http");
 const fs = require("fs");
@@ -16,14 +17,25 @@ module.exports = function (req, res, url) {
 			var t = methodLinks[linkIndex];
 			var link = t.regexLink ? url.path.replace(regex, t.regexLink) : t.link || url.path;
 			var headers = t.headers;
+			var path = `./${link}`;
 
 			try {
-				for (var headerName in headers || {}) res.setHeader(headerName, headers[headerName]);
+				for (var headerName in headers || {}) {
+					res.setHeader(headerName, headers[headerName]);
+				}
 				res.statusCode = t.statusCode || 200;
-				if (t.content !== undefined) res.end(t.content);
-				else fs.createReadStream(`./${link}`).pipe(res);
+				if (t.content !== undefined) {
+					res.end(t.content);
+				} else if (t.contentReplace) {
+					content = fs.readFileSync(`./${link}`, "utf8");
+					content = content.replace(/VERSIÖN/g, pjson.versionStr);
+					res.end(content);
+				} else {
+					fs.createReadStream(path).pipe(res);
+				}
 			} catch (e) {
-				(res.statusCode = t.statusCode || 404), res.end();
+				res.statusCode = t.statusCode || 404;
+				res.end();
 			}
 			return true;
 		}

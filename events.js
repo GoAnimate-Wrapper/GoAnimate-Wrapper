@@ -9,8 +9,8 @@ const start = "/events/";
  * @returns {boolean}
  */
 module.exports = function (req, res, url) {
-	if (!url.path.startsWith(start)) return;
-	switch (url.path.substr(start.length)) {
+	if (!url.pathname.startsWith(start)) return;
+	switch (url.pathname.substr(start.length)) {
 		case "close": {
 			sessions.remove(req);
 			break;

@@ -2,7 +2,6 @@ const loadPost = require("../misc/post_body");
 const header = process.env.XML_HEADER;
 const fUtil = require("../misc/file");
 const nodezip = require("node-zip");
-const base = Buffer.alloc(1, 0);
 const asset = require("./main");
 const http = require("http");
 
@@ -22,10 +21,7 @@ async function listAssets(data, makeZip) {
 		case "bg": {
 			var files = asset.list(data.movieId, "bg");
 			xmlString = `${header}<ugc more="0">${files
-				.map(
-					(v) =>
-						`<background subtype="0" id="${v.id} name="${v.name}" "enable="Y" enc_asset_id="${v.id}" signature="${v.signature}"/>`
-				)
+				.map((v) => `<background subtype="0" id="${v.id}" name="${v.name}" enable="Y" />`)
 				.join("")}</ugc>`;
 			break;
 		}
@@ -108,7 +104,7 @@ async function listAssets(data, makeZip) {
 				}
 			}
 		});
-		return Buffer.concat([base, await zip.zip()]);
+		return await zip.zip();
 	} else {
 		return Buffer.from(xmlString);
 	}
@@ -122,7 +118,7 @@ async function listAssets(data, makeZip) {
  */
 module.exports = function (req, res, url) {
 	var makeZip = false;
-	switch (url.path) {
+	switch (url.pathname) {
 		case "/goapi/getUserAssets/":
 			makeZip = true;
 			break;
@@ -134,18 +130,23 @@ module.exports = function (req, res, url) {
 
 	switch (req.method) {
 		case "GET": {
-			listAssets(url.query, makeZip).then((buff) => {
-				const type = makeZip ? "application/zip" : "text/xml";
-				res.setHeader("Content-Type", type), res.end(buff);
-			});
-			return true;
+			var q = url.query;
+			if (q.movieId && q.type) {
+				listAssets(q, makeZip).then((buff) => {
+					const type = makeZip ? "application/zip" : "text/xml";
+					res.setHeader("Content-Type", type), res.end(buff);
+				});
+				return true;
+			}
 		}
 		case "POST": {
 			loadPost(req, res)
 				.then((data) => listAssets(data, makeZip))
 				.then((buff) => {
 					const type = makeZip ? "application/zip" : "text/xml";
-					res.setHeader("Content-Type", type), res.end(buff);
+					res.setHeader("Content-Type", type);
+					if (makeZip) res.write("0");
+					res.end(buff);
 				});
 			return true;
 		}

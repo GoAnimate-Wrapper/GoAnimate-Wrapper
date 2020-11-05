@@ -354,14 +354,16 @@ module.exports = {
 					var b = Buffer.from(element.val, m);
 					var t = assetPreData[aId];
 					if (!t) continue;
+
 					switch (t.subtype) {
+						case "tts":
 						case "sound": {
 							var d = await new Promise((res) => mp3Duration(b, (e, d) => e || res(Math.floor(1e3 * d))));
 							ugcString += `<sound subtype="${t.subtype}" id="${aId}" enc_asset_id="${aId}" name="${t.name}" downloadtype="progressive" duration="${d}"/>`;
 							break;
 						}
 						case "bg":
-							ugcString += `<background id="${aId}"/>`;
+							ugcString += `<background id="${aId}" thumb="${aId}" aid="${aId}" enc_asset_id="${aId}" asset_url="http://google.com" published="1" name="Evil" enable="Y"><tag/><color/><c_parts><c_area/></c_parts><colorset/></background>`;
 					}
 					assetBuffers[aId] = b;
 					break;

@@ -38,9 +38,9 @@ module.exports = function (req, res) {
 					})
 					//.catch(e => { res.statusCode = 404, res.end(1 + e) })
 
-					// Why should I care if my character went missing, if Fluttergirl can just take their place.
+					// Character not found?	Why not load my archnemesis instead?
 					.catch(() =>
-						character.load("a-249148259").then((v) => {
+						character.load("a-306687427").then((v) => {
 							(res.statusCode = 200), res.end(0 + v);
 						})
 					);

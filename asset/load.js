@@ -29,7 +29,7 @@ module.exports = function (req, res, url) {
 		}
 
 		case "POST": {
-			switch (url.path) {
+			switch (url.pathname) {
 				case "/goapi/getAsset/":
 				case "/goapi/getAssetEx/": {
 					loadPost(req, res).then((data) => {

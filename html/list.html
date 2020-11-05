@@ -2,8 +2,8 @@
 	<header>
 		<div>
 			<div>
-				<a><img src="logo.png" /></a>
-				<span>1.2.7⅝</span><a href="./listdark.html"><span id="dark"></span></a>
+				<a href="./"><img src="logo.png" /></a>
+				<span>VERSIÖN</span>
 			</div>
 			<div>
 				<a class="button_small" onclick="document.getElementById('file').click()">UPLOAD A MOVIE</a>
@@ -36,14 +36,14 @@
 						<div></div>
 						<a href="/cc?themeId=ninja&bs=default">Chibi Ninjas</a>
 						<div></div>
+
 					</menu>
 				</div>
 				<a href="/go_full" class="button_big">MAKE A VIDEO</a>
 			</div>
 		</div>
-		<div class="warning">
-			.<br>Hours spent on getting importing to work so far: at least a dozen.
-			be advised that as new functionalities are being implemented,
+		<div class="warning">One dozen four hours on importing and I've somewhat got it to work.<br>
+			Be advised that as new functionalities are being implemented,
 			software-breaking bugs will ensue.<br><a href='https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper'>Link
 				to the source code on GitHub</a>
 		</div>
@@ -67,7 +67,6 @@
 	<form enctype='multipart/form-data' action='/upload_movie' method='post'>
 		<input id='file' type="file" onchange="this.form.submit()" name='import' />
 	</form>
-	 
 	<script>
 		const closeReq = new XMLHttpRequest();
 		closeReq.open('GET', '/events/close');
@@ -260,15 +259,6 @@
 			padding-right: 4px;
 			content: '\E079';
 			font-size: 12px;
-		}
-
-		#dark::before {
-			font-family: 'GlyphiconsRegular';
-			padding-left: 10px;
-			content: '\E190';
-			font-size: 20px;
-			color: #fff;
-			text-decoration: none;
 		}
 
 		.warning>a {
