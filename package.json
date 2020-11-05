@@ -1,7 +1,7 @@
 {
 	"name": "grounded",
 	"version": "1.2.7",
-	"versionStr": "1.2.7⅝",
+	"versionStr": "1.2.7¾",
 	"scripts": {
 		"start": "node main.js"
 	},
