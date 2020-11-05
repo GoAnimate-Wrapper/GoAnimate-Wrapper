@@ -31,7 +31,7 @@ async function listAssets(data, makeZip) {
 			xmlString = `${header}<ugc more="0">${files
 				.map(
 					(v) =>
-						`<sound subtype="bgmusic" id="${v.id}" name="${v.name}" enable="Y" duration="${v.duration}" downloadtype="progressive" enc_asset_id="${v.id}" signature="${v.signature}"/>`
+						`<sound subtype="bgmusic" id="${v.id}" name="${v.name}" enable="Y" duration="${v.duration}" downloadtype="progressive"/>`
 				)
 				.join("")}</ugc>`;
 			break;
@@ -41,7 +41,7 @@ async function listAssets(data, makeZip) {
 			xmlString = `${header}<ugc more="0">${files
 				.map(
 					(v) =>
-						`<sound subtype="soundeffect" id="${v.id}" name="${v.name}" enable="Y" duration="${v.duration}" downloadtype="progressive" enc_asset_id="${v.id}" signature="${v.signature}"/>`
+						`<sound subtype="soundeffect" id="${v.id}" name="${v.name}" enable="Y" duration="${v.duration}" downloadtype="progressive"/>`
 				)
 				.join("")}</ugc>`;
 			break;
@@ -51,7 +51,7 @@ async function listAssets(data, makeZip) {
 			xmlString = `${header}<ugc more="0">${files
 				.map(
 					(v) =>
-						`<sound subtype="voiceover" id="${v.id}" name="${v.name}" enable="Y" duration="${v.duration}" downloadtype="progressive" enc_asset_id="${v.id}" signature="${v.signature}"/>`
+						`<sound subtype="voiceover" id="${v.id}" name="${v.name}" enable="Y" duration="${v.duration}" downloadtype="progressive"/>`
 				)
 				.join("")}</ugc>`;
 			break;
@@ -62,7 +62,7 @@ async function listAssets(data, makeZip) {
 			xmlString = `${header}<ugc more="0">${files
 				.map(
 					(v) =>
-						`<prop subtype="0" id="${v.id}" name="${v.name}" enable="Y" holdable="0" headable="0" placeable="1" facing="left" width="0" height="0" duration="0" enc_asset_id="${v.id}" signature="${v.signature}"/>`
+						`<prop subtype="0" id="${v.id}" name="${v.name}" enable="Y" holdable="0" headable="0" placeable="1" facing="left" width="0" height="0" duration="0"/>`
 				)
 				.join("")}</ugc>`;
 			break;
