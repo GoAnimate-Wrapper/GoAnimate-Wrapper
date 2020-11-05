@@ -363,7 +363,7 @@ module.exports = {
 							break;
 						}
 						case "bg":
-							ugcString += `<background id="${aId}" thumb="${aId}" aid="${aId}" enc_asset_id="${aId}" asset_url="http://google.com" published="1" name="Evil" enable="Y"><tag/><color/><c_parts><c_area/></c_parts><colorset/></background>`;
+							ugcString += `<background id="${aId}" thumb="${aId}" aid="${aId}" enc_asset_id="${aId}"/>`;
 					}
 					assetBuffers[aId] = b;
 					break;

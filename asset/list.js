@@ -2,6 +2,7 @@ const loadPost = require("../misc/post_body");
 const header = process.env.XML_HEADER;
 const fUtil = require("../misc/file");
 const nodezip = require("node-zip");
+const base = Buffer.alloc(1, 0);
 const asset = require("./main");
 const http = require("http");
 
@@ -21,7 +22,7 @@ async function listAssets(data, makeZip) {
 		case "bg": {
 			var files = asset.list(data.movieId, "bg");
 			xmlString = `${header}<ugc more="0">${files
-				.map((v) => `<background subtype="0" id="${v.id}" name="${v.name}" enable="Y" />`)
+				.map((v) => `<background subtype="0" id="${v.id}" name="${v.name}" enable="Y"/>`)
 				.join("")}</ugc>`;
 			break;
 		}
@@ -61,7 +62,7 @@ async function listAssets(data, makeZip) {
 			xmlString = `${header}<ugc more="0">${files
 				.map(
 					(v) =>
-						`<prop subtype="0" id="${v.id}" name="${v.name}" enable="Y" holdable="0" headable="0" placeable="1" facing="left" width="0" height="0" duration="0" enc_asset_id="${v.id}" signature="${v.signature}"/>`
+						`<prop subtype="0" id="${v.id}" name="${v.name}" enable="Y" holdable="0" headable="0" placeable="1" facing="left" width="0" height="0" duration="0" enc_asset_id="${v.id}"/>`
 				)
 				.join("")}</ugc>`;
 			break;
@@ -145,7 +146,7 @@ module.exports = function (req, res, url) {
 				.then((buff) => {
 					const type = makeZip ? "application/zip" : "text/xml";
 					res.setHeader("Content-Type", type);
-					if (makeZip) res.write("0");
+					if (makeZip) res.write(base);
 					res.end(buff);
 				});
 			return true;
