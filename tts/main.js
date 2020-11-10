@@ -13,7 +13,7 @@ try {
 }
 
 module.exports = function (voiceName, text) {
-	return new Promise((res, rej) => {
+	return new Promise(async (res, rej) => {
 		const voice = voices[voiceName];
 		switch (voice.source) {
 			case "nextup": {
@@ -24,7 +24,7 @@ module.exports = function (voiceName, text) {
 						text: text,
 					});
 					var buffers = [];
-					var req = https.get(`https://nextup.com/ivona/php/nextup-polly/CreateSpeech/CreateSpeechGet3.php?${q}`, (r) => {
+					https.get(`https://nextup.com/ivona/php/nextup-polly/CreateSpeech/CreateSpeechGet3.php?${q}`, (r) => {
 						r.on("data", (d) => buffers.push(d));
 						r.on("end", () => {
 							const loc = Buffer.concat(buffers).toString();
@@ -69,7 +69,7 @@ module.exports = function (voiceName, text) {
 						voiceText: text,
 					});
 					var buffers = [];
-					var req = https.get(
+					https.get(
 						{
 							host: "www.voiceforge.com",
 							path: `/demos/createAudio.php?${q}`,

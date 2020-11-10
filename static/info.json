@@ -14,20 +14,6 @@
 			"statusCode": 302,
 			"content": ""
 		},
-		"/go/character_creator/family": {
-			"headers": {
-				"Location": "/cc?themeId=family&bs=adam"
-			},
-			"statusCode": 302,
-			"content": ""
-		},
-		"/go/character_creator/business": {
-			"headers": {
-				"Location": "/cc?themeId=business"
-			},
-			"statusCode": 302,
-			"content": ""
-		},
 		"/goapi/getAssetTags": {
 			"headers": {
 				"Content-Type": "application/json"
@@ -83,6 +69,12 @@
 			"content": "<?xml encoding=\"UTF-8\"?><watermarks><watermark style=\"visualplugin\"/></watermarks>"
 		},
 		"/api_v2/asset/get": {
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			},
+			"content": "1"
+		},
+		"/goapi/rebuildTTS/": {
 			"headers": {
 				"Content-Type": "text/html; charset=UTF-8"
 			},

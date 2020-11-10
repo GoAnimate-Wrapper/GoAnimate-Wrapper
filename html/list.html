@@ -20,29 +20,38 @@
 						<a href="/cc?themeId=business&bs=heavy">Heavy</a>
 						<a href="/cc?themeId=business&bs=kid">Kid</a>
 						<div></div>
-						-->
 						<a href="/cc?themeId=whiteboard&bs=default">Whiteboard</a>
 						<a href="/cc?themeId=whiteboard&bs=kid">Whiteboard (Kid)</a>
 						<div></div>
+						-->
 						<a href="/cc?themeId=anime&bs=guy">Guy (Anime)</a>
 						<a href="/cc?themeId=anime&bs=girl">Girl (Anime)</a>
 						<div></div>
 						<a href="/cc?themeId=ninjaanime&bs=guy">Guy (Ninja Anime)</a>
 						<a href="/cc?themeId=ninjaanime&bs=girl">Girl (Ninja Anime)</a>
 						<div></div>
-						<a href="/cc?themeId=cc2&bs=default">Lil Peepz</a>
+						<a href="/cc?themeId=cc2&bs=default">Lil' Peepz</a>
 						<div></div>
 						<a href="/cc?themeId=chibi&bs=default">Chibi Peepz</a>
 						<div></div>
 						<a href="/cc?themeId=ninja&bs=default">Chibi Ninjas</a>
-						<div></div>
-
+					</menu>
+				</div>
+				<div class="char_dropdown button_small">
+					<div>BROWSE CHARACTERS</div>
+					<menu>
+						<a href="/cc_browser?themeId=family">Comedy World</a>
+						<a href="/cc_browser?themeId=anime">Anime</a>
+						<a href="/cc_browser?themeId=ninjaanime">Ninja Anime</a>
+						<a href="/cc_browser?themeId=cc2">Lil' Peepz</a>
+						<a href="/cc_browser?themeId=chibi">Chibi Peepz</a>
+						<a href="/cc_browser?themeId=ninja">Chibi Ninjas</a>
 					</menu>
 				</div>
 				<a href="/go_full" class="button_big">MAKE A VIDEO</a>
 			</div>
 		</div>
-		<div class="warning">One dozen four hours on importing and I've somewhat got it to work.<br>
+		<div class="warning"><strong>Severe Warning:</strong> I've put the character browser in!<br>
 			Be advised that as new functionalities are being implemented,
 			software-breaking bugs will ensue.<br><a href='https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper'>Link
 				to the source code on GitHub</a>
@@ -91,7 +100,7 @@
 				const tbl = json[c];
 				const date = tbl.date.substr(0, 10) + ' ' + tbl.date.substr(11);
 				tbody.insertAdjacentHTML('beforeend',
-					'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;") + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a href="/go_full?movieId=' + tbl.id + '"></a><a href="/movies/' + tbl.id + '.xml" download="' + tbl.title + '"></a></td></tr>');
+					'<tr><td><img src="/movie_thumbs/' + tbl.id + '.png"></td><td><div>' + tbl.title.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;") + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a href="/go_full?movieId=' + tbl.id + '"></a><a href="/movies/' + tbl.id + '.xml" download="' + tbl.title + '"></a></td></tr>');
 			}
 		}
 
@@ -162,7 +171,7 @@
 
 		.button_big,
 		.button_small {
-			margin-left: 10px;
+			margin-left: 20px;
 			margin-top: 7px;
 			display: inline-block;
 			padding-top: 5px;
@@ -191,10 +200,6 @@
 			cursor: pointer;
 		}
 
-		.char_dropdown {
-			width: 200px;
-		}
-
 		.char_dropdown:hover>:nth-child(1) {
 			cursor: context-menu;
 			color: #d85e27;
@@ -207,7 +212,7 @@
 			left: 0;
 			z-index: 1000;
 			float: left;
-			width: 190px;
+			width: 100%;
 			padding: 10px 0;
 			margin: 9px 0 0;
 			list-style: none;

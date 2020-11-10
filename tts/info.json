@@ -192,14 +192,6 @@
 			"arg": "graham22k",
 			"desc": "Graham"
 		},
-		"harry": {
-			"country": "GB",
-			"language": "en",
-			"gender": "M",
-			"source": "acapela",
-			"arg": "harry22k",
-			"desc": "Harry"
-		},
 		"lucy": {
 			"country": "GB",
 			"language": "en",

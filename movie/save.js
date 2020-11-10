@@ -5,18 +5,18 @@ const http = require("http");
 /**
  * @param {http.IncomingMessage} req
  * @param {http.ServerResponse} res
- * @param {string} url
+ * @param {import("url").UrlWithParsedQuery} url
  * @returns {boolean}
  */
 module.exports = function (req, res, url) {
 	if (req.method != "POST" || (url.path != "/goapi/saveMovie/" && url.path != "/goapi/saveTemplate/")) return;
-	loadPost(req, res).then((data) => {
+	loadPost(req, res).then(([data, mId]) => {
 		const trigAutosave = data.is_triggered_by_autosave;
 		if (trigAutosave && (!data.movieId || data.noAutosave)) return res.end("0");
 
 		var body = Buffer.from(data.body_zip, "base64");
 		var thumb = data.thumbnail_large && Buffer.from(data.thumbnail_large, "base64");
-		movie.save(body, thumb, data.movieId || data.presaveId, data.presaveId).then((nId) => res.end("0" + nId));
+		movie.save(body, thumb, mId, data.presaveId).then((nId) => res.end("0" + nId));
 	});
 	return true;
 };

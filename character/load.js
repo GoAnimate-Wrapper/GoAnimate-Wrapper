@@ -5,7 +5,7 @@ const http = require("http");
 /**
  * @param {http.IncomingMessage} req
  * @param {http.ServerResponse} res
- * @param {string} url
+ * @param {import("url").UrlWithParsedQuery} url
  * @returns {boolean}
  */
 module.exports = function (req, res) {
@@ -29,7 +29,7 @@ module.exports = function (req, res) {
 
 		case "POST": {
 			if (req.url != "/goapi/getCcCharCompositionXml/") return;
-			loadPost(req, res).then(async (data) => {
+			loadPost(req, res).then(async ([data]) => {
 				res.setHeader("Content-Type", "text/html; charset=UTF-8");
 				character
 					.load(data.assetId || data.original_asset_id)

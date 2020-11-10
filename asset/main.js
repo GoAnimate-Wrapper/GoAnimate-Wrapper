@@ -38,26 +38,29 @@ module.exports = {
 		});
 		return ret;
 	},
-	async chars(theme) {
-		switch (theme) {
-			case "custom":
-				theme = "family";
-				break;
-			case "action":
-			case "animal":
-			case "space":
-			case "vietnam":
-				theme = "cc2";
-				break;
-		}
+	chars(theme) {
+		return new Promise(async (res, rej) => {
+			switch (theme) {
+				case "custom":
+					theme = "family";
+					break;
+				case "action":
+				case "animal":
+				case "space":
+				case "vietnam":
+					theme = "cc2";
+					break;
+			}
 
-		const table = [];
-		const ids = fUtil.getValidFileIndicies("char-", ".xml");
-		for (let c = 0; c < ids.length; c++) {
-			const v = ids[c];
-			const id = `c-${v}`;
-			if (theme == (await chars.getTheme(id))) table.unshift({ theme: theme, id: id });
-		}
-		return table;
+			var table = [];
+			var ids = fUtil.getValidFileIndicies("char-", ".xml");
+			for (const i in ids) {
+				var id = `c-${ids[i]}`;
+				if (!theme || theme == (await chars.getTheme(id))) {
+					table.unshift({ theme: theme, id: id });
+				}
+			}
+			res(table);
+		});
 	},
 };

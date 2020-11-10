@@ -1,9 +1,11 @@
 const env = Object.assign(process.env, require("./env"), require("./config"));
 
 const http = require("http");
+const chr = require("./character/redirect");
 const pmc = require("./character/premade");
 const chl = require("./character/load");
 const chs = require("./character/save");
+const cht = require("./character/thmb");
 const mvu = require("./movie/upload");
 const asu = require("./asset/upload");
 const stl = require("./static/load");
@@ -23,7 +25,30 @@ const tsl = require("./tts/load");
 const evt = require("./events");
 const url = require("url");
 
-const functions = [mvL, pmc, asl, evt, chl, thl, thL, chs, asL, tsl, ast, mvm, mvl, mvs, mvt, tsv, asu, mvu, stp, stl];
+const functions = [
+	mvL,
+	pmc,
+	asl,
+	evt,
+	chl,
+	thl,
+	thL,
+	chs,
+	cht,
+	asL,
+	tsl,
+	chr,
+	ast,
+	mvm,
+	mvl,
+	mvs,
+	mvt,
+	tsv,
+	asu,
+	mvu,
+	stp,
+	stl,
+];
 
 module.exports = http
 	.createServer((req, res) => {

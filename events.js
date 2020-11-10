@@ -5,7 +5,7 @@ const start = "/events/";
 /**
  * @param {http.IncomingMessage} req
  * @param {http.ServerResponse} res
- * @param {string} url
+ * @param {import("url").UrlWithParsedQuery} url
  * @returns {boolean}
  */
 module.exports = function (req, res, url) {

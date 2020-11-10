@@ -45,13 +45,14 @@ module.exports = {
 	/**
 	 * @param {string} s
 	 * @param {string} suf
+	 * @param {Buffer} data
 	 * @param {number} l
 	 * @returns {number}
 	 */
-	fillNextFileId(s, suf = ".xml", l = 7) {
+	fillNextFileId(s, suf = ".xml", data = Buffer.alloc(0), l = 7) {
 		const id = this.getNextFileId(s, suf);
 		const fn = this.getFileIndex(s, suf, id, l);
-		fs.writeFileSync(fn, "");
+		fs.writeFileSync(fn, data);
 		return id;
 	},
 	/**

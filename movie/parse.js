@@ -163,21 +163,6 @@ module.exports = {
 		for (var eK in elements) {
 			var element = elements[eK];
 			switch (element.name) {
-				case "cc_char": {
-					var beg = element.startTagPosition - 1;
-					var end = xmlBuffer.indexOf("</cc_char>", beg) + 10;
-					var sub = xmlBuffer.subarray(beg, end);
-
-					var fileName = element.attr.file_name;
-					var id = fileName.substr(9, fileName.indexOf(".", 9) - 9);
-					var theme = await char.getTheme(await char.save(sub, id));
-					themes[theme] = true;
-
-					fUtil.addToZip(zip, element.attr.file_name, sub);
-					ugcString += `<char id="${id}"cc_theme_id="${theme}"><tags/></char>`;
-					break;
-				}
-
 				case "scene": {
 					for (var pK in element.children) {
 						var piece = element.children[pK];
@@ -226,21 +211,19 @@ module.exports = {
 								var theme, fileName, buffer;
 								switch (slices[slices.length - 1]) {
 									case "xml": {
-										theme = slices[0];
-										var id = slices[1];
+										var [theme, id] = slices;
+										if (ugcIds[id] != null) continue;
+										fileName = `${theme}.char.${id}.xml`;
 
-										try {
-											if (ugcIds[id] != null) continue;
-											buffer = await char.load(id);
-											var charTheme = await char.getTheme(id);
-											fileName = `${theme}.char.${id}.xml`;
+										if (!assetBuffers[id]) {
+											try {
+												buffer = await char.load(id);
+												assetBuffers[id] = buffer;
+											} catch (e) {}
+										}
 
-											if (theme == "ugc") {
-												ugcIds[id] = false;
-												ugcString += `<char id="${id}"cc_theme_id="${charTheme}"><tags/></char>`;
-											}
-										} catch (e) {
-											console.log(id, e.toString());
+										if (theme == "ugc") {
+											ugcIds[id] = "char";
 										}
 										break;
 									}
@@ -347,6 +330,22 @@ module.exports = {
 					break;
 				}
 
+				case "cc_char": {
+					var beg = element.startTagPosition - 1;
+					var end = xmlBuffer.indexOf("</cc_char>", beg) + 10;
+					var sub = xmlBuffer.subarray(beg, end);
+
+					var fileName = element.attr.file_name;
+					var id = fileName.substr(9, fileName.indexOf(".", 9) - 9);
+					var theme = await char.getTheme(await char.save(sub, id));
+					themes[theme] = true;
+
+					fUtil.addToZip(zip, element.attr.file_name, sub);
+					ugcString += `<char id="${id}"cc_theme_id="${theme}"><tags/></char>`;
+					assetBuffers[id] = sub;
+					break;
+				}
+
 				case "asset": {
 					if (!mId) continue;
 					var aId = element.attr.id;
@@ -390,7 +389,6 @@ module.exports = {
 
 		for (const id in ugcIds) {
 			var tag = ugcIds[id];
-			if (!tag) continue;
 			var buffer = assetBuffers[id];
 			fUtil.addToZip(zip, `ugc.${tag}.${id}`, buffer);
 		}
@@ -427,7 +425,7 @@ module.exports = {
 				var charMap = {};
 				var charBuffers = {};
 
-				// UGC prefixes any references to custom content (i.e. audio, photos).
+				// Remaps UGC asset IDs to match the current Wrapper environment.
 				for (let c = 0, end; ; c = mainSlice.indexOf("ugc.", c) + 4) {
 					if (c == 0) continue;
 					else if (c == 3) {
@@ -445,7 +443,11 @@ module.exports = {
 						case "C": {
 							var dot = assetId.indexOf(".");
 							var charId = assetId.substr(0, dot);
-							var saveId = (charMap[charId] = charMap[charId] || `C-${c}-${time}`);
+							var saveId = charMap[charId];
+							if (!saveId) {
+								saveId = `C-${fUtil.getNextFileId("char-", ".xml")}`;
+							}
+
 							var remainder = assetId.substr(dot);
 							xmlBuffers.push(Buffer.from(saveId + remainder));
 							try {

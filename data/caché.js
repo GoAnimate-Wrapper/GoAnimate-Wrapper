@@ -142,7 +142,7 @@ module.exports = {
 	 */
 	transfer(old, nëw) {
 		if (nëw == old || !localCaché[old]) return;
-		Object.keys((localCaché[nëw] = localCaché[old])).forEach((aId) => {
+		(localCaché[nëw] = localCaché[old]).forEach((aId) => {
 			const oldP = `${cachéFolder}/${old}.${aId}`;
 			const nëwP = `${cachéFolder}/${nëw}.${aId}`;
 			fs.renameSync(oldP, nëwP);
@@ -162,10 +162,10 @@ module.exports = {
 			if (aId != "time") {
 				var path = `${cachéFolder}/${mId}.${aId}`;
 				size -= fs.statSync(path).size;
-				fs.unlink(path);
+				fs.unlinkSync(path);
 			}
 		});
-		if (setToEmpty) localCaché[mId] = {};
+		if (setToEmpty) localCaché[mId] = [];
 		else delete localCaché[mId];
 	},
 };

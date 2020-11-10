@@ -1,12 +1,11 @@
 const loadPost = require("../misc/post_body");
-const sessions = require("../data/sessions");
 const asset = require("./main");
 const http = require("http");
 
 /**
  * @param {http.IncomingMessage} req
  * @param {http.ServerResponse} res
- * @param {string} url
+ * @param {import("url").UrlWithParsedQuery} url
  * @returns {boolean}
  */
 module.exports = function (req, res, url) {
@@ -32,12 +31,10 @@ module.exports = function (req, res, url) {
 			switch (url.pathname) {
 				case "/goapi/getAsset/":
 				case "/goapi/getAssetEx/": {
-					loadPost(req, res).then((data) => {
-						const mId = data.movieId || data.presaveId || sessions.get(req);
+					loadPost(req, res).then(([data, mId]) => {
 						const aId = data.assetId || data.enc_asset_id;
 
 						const b = asset.load(mId, aId);
-						sessions.set({ movieId: mId }, req);
 						if (b) {
 							res.setHeader("Content-Length", b.length);
 							res.setHeader("Content-Type", "audio/mp3");
