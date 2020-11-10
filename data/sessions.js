@@ -12,10 +12,6 @@ module.exports = {
 		const key = this.getKey(req);
 		caché[key] = caché[key] || {};
 		Object.assign(caché[key], data);
-
-		console.log("Session Adding.");
-		console.log(key);
-		console.log(data);
 	},
 	get(req) {
 		const ip = this.getKey(req);
@@ -23,9 +19,6 @@ module.exports = {
 	},
 	remove(req) {
 		const ip = this.getKey(req);
-		console.log("Session Removing.");
-		console.log(ip);
-		console.log(caché[ip]);
 		delete caché[ip];
 	},
 };

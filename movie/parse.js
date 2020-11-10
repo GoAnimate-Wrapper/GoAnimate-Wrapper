@@ -151,10 +151,9 @@ module.exports = {
 		if (xmlBuffer.length == 0) throw null;
 		var zip = nodezip.create();
 		var themes = { common: true };
-		var assetPreData = {};
-		var assetBuffers = {};
 		var ugcString = `${header}<theme id="ugc" name="ugc">`;
-		var ugcIds = {};
+		var assetBuffers = {};
+		var ugcData = {};
 
 		fUtil.addToZip(zip, "movie.xml", xmlBuffer);
 		var xml = new xmldoc.XmlDocument(xmlBuffer);
@@ -166,12 +165,12 @@ module.exports = {
 				case "scene": {
 					for (var pK in element.children) {
 						var piece = element.children[pK];
-						var tag = piece.name;
-						if (tag == "effectAsset") {
-							tag = "effect";
+						var data = piece.name;
+						if (data == "effectAsset") {
+							data = "effect";
 						}
 
-						switch (tag) {
+						switch (data) {
 							case "durationSetting":
 							case "trans":
 								break;
@@ -184,15 +183,11 @@ module.exports = {
 
 								if (val.startsWith("ugc")) {
 									var aId = val.substr(4);
-									ugcIds[aId] = tag;
-									assetPreData[aId] = {
-										subtype: tag,
-										name: aId,
-									};
+									ugcData[aId] = { type: data, subtype: data, name: aId };
 								} else {
 									var slices = val.split(".");
 									var ext = slices.pop();
-									slices.splice(1, 0, tag);
+									slices.splice(1, 0, data);
 									slices[slices.length - 1] += `.${ext}`;
 
 									var fileName = slices.join(".");
@@ -208,29 +203,29 @@ module.exports = {
 								var val = piece.childNamed("action").val;
 								var slices = val.split(".");
 
-								var theme, fileName, buffer;
+								var theme, ccTheme, fileName, buffer;
 								switch (slices[slices.length - 1]) {
 									case "xml": {
-										var [theme, id] = slices;
-										if (ugcIds[id] != null) continue;
+										theme = slices[0];
+										var id = slices[1];
 										fileName = `${theme}.char.${id}.xml`;
 
-										if (!assetBuffers[id]) {
+										if (assetBuffers[id]) {
+											buffer = assetBuffers[id];
+											char.save(buffer, id);
+										} else {
 											try {
 												buffer = await char.load(id);
 												assetBuffers[id] = buffer;
 											} catch (e) {}
 										}
-
-										if (theme == "ugc") {
-											ugcIds[id] = "char";
-										}
+										ccTheme = await char.getTheme(id);
 										break;
 									}
 									case "swf": {
-										theme = slices[0];
 										var ch = slices[1];
 										var model = slices[2];
+										ccTheme = theme = slices[0];
 										var url = `${store}/${theme}/char/${ch}/${model}.swf`;
 										fileName = `${theme}.char.${ch}.${model}.swf`;
 										buffer = await get(url);
@@ -238,41 +233,65 @@ module.exports = {
 									}
 								}
 
-								for (let ptK in piece.children) {
-									var part = piece.children[ptK];
-									if (!part.children) continue;
-
-									var urlF, fileF;
-									switch (part.name) {
-										case "head":
-											urlF = "char";
-											fileF = "prop";
-											break;
-										case "prop":
-											urlF = "prop";
-											fileF = "prop";
-											break;
-										default:
-											continue;
-									}
-
-									var file = part.childNamed("file");
-									var slicesP = file.val.split(".");
-									if (slicesP[0] == "ugc") continue;
-
-									slicesP.pop(), slicesP.splice(1, 0, urlF);
-									var urlP = `${store}/${slicesP.join("/")}.swf`;
-
-									slicesP.splice(1, 1, fileF);
-									var fileP = `${slicesP.join(".")}.swf`;
-									if (!zip[fileP]) {
-										fUtil.addToZip(zip, fileP, await get(urlP));
-									}
-								}
-
 								if (buffer) {
+									var ugcCharSubs = [];
+									for (let ptK in piece.children) {
+										var part = piece.children[ptK];
+										if (!part.children) continue;
+
+										var file = part.childNamed("file");
+										if (!file) continue;
+
+										var slicesP = file.val.split(".");
+										if (slicesP[0] == "ugc") {
+											switch (part.name) {
+												case "head":
+													ugcCharSubs.push([slicesP[3], "facial"]);
+													break;
+												case "action":
+													if (file.motionface) ugcCharSubs[slicesP[3]] = "motion";
+													else ugcCharSubs.push([slicesP[3], "action"]);
+													break;
+												default:
+													continue;
+											}
+										} else {
+											var urlF, fileF;
+											switch (part.name) {
+												case "head":
+													urlF = "char";
+													fileF = "prop";
+													break;
+												case "prop":
+													urlF = "prop";
+													fileF = "prop";
+													break;
+												default:
+													continue;
+											}
+
+											slicesP.pop(), slicesP.splice(1, 0, urlF);
+											var urlP = `${store}/${slicesP.join("/")}.swf`;
+
+											slicesP.splice(1, 1, fileF);
+											var fileP = `${slicesP.join(".")}.swf`;
+											if (!zip[fileP]) {
+												fUtil.addToZip(zip, fileP, await get(urlP));
+											}
+										}
+									}
+
 									themes[theme] = true;
 									fUtil.addToZip(zip, fileName, buffer);
+									if (ugcData[id]) {
+										ugcData[id].subs.push.apply(ugcData[id].subs, ugcCharSubs);
+									} else {
+										ugcData[id] = {
+											type: "char",
+											subs: ugcCharSubs,
+											theme: ccTheme,
+										};
+									}
 								}
 								break;
 							}
@@ -322,7 +341,8 @@ module.exports = {
 							fileName = file;
 						}
 
-						assetPreData[file] = {
+						ugcData[file] = {
+							type: "sound",
 							subtype: subtype,
 							name: fileName,
 						};
@@ -341,7 +361,6 @@ module.exports = {
 					themes[theme] = true;
 
 					fUtil.addToZip(zip, element.attr.file_name, sub);
-					ugcString += `<char id="${id}"cc_theme_id="${theme}"><tags/></char>`;
 					assetBuffers[id] = sub;
 					break;
 				}
@@ -351,7 +370,7 @@ module.exports = {
 					var aId = element.attr.id;
 					var m = useBase64(aId) ? "base64" : "utf8";
 					var b = Buffer.from(element.val, m);
-					var t = assetPreData[aId];
+					var t = ugcData[aId];
 					if (!t) continue;
 
 					switch (t.subtype) {
@@ -387,10 +406,18 @@ module.exports = {
 			fUtil.addToZip(zip, `${t}.xml`, file);
 		});
 
-		for (const id in ugcIds) {
-			var tag = ugcIds[id];
+		for (const id in ugcData) {
+			var data = ugcData[id];
+			switch (data.type) {
+				case "char": {
+					var subs = data.subs.map(([id, mode]) => `<${mode} id="${id}.xml" enable="Y"/>`);
+					ugcString += `<char id="${id}"cc_theme_id="${data.theme}"><tags/>${subs.join("")}</char>`;
+				}
+				case "sound":
+					continue;
+			}
 			var buffer = assetBuffers[id];
-			fUtil.addToZip(zip, `ugc.${tag}.${id}`, buffer);
+			fUtil.addToZip(zip, `ugc.${data}.${id}`, buffer);
 		}
 
 		var themelist = Buffer.from(
