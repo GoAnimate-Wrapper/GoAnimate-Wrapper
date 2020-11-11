@@ -12,7 +12,7 @@ try {
 	get = require("./get");
 }
 
-module.exports = function (voiceName, text) {
+module.exports = (voiceName, text) => {
 	return new Promise(async (res, rej) => {
 		const voice = voices[voiceName];
 		switch (voice.source) {
@@ -28,6 +28,7 @@ module.exports = function (voiceName, text) {
 						r.on("data", (d) => buffers.push(d));
 						r.on("end", () => {
 							const loc = Buffer.concat(buffers).toString();
+							if (!loc.startsWith("http")) rej();
 							get(loc).then(res).catch(rej);
 						});
 						r.on("error", rej);

@@ -56,6 +56,7 @@ module.exports = http
 			const parsedUrl = url.parse(req.url, true);
 			//if (!parsedUrl.path.endsWith('/')) parsedUrl.path += '/';
 			const found = functions.find((f) => f(req, res, parsedUrl));
+			console.log(req.method, parsedUrl.path);
 			if (!found) {
 				res.statusCode = 404;
 				res.end();

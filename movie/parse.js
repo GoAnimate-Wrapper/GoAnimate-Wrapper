@@ -209,17 +209,30 @@ module.exports = {
 										theme = slices[0];
 										var id = slices[1];
 										fileName = `${theme}.char.${id}.xml`;
+										var prefix = id.substr(0, id.indexOf("-"));
 
+										/*
 										if (assetBuffers[id]) {
 											buffer = assetBuffers[id];
 											char.save(buffer, id);
+											ccTheme = await char.getTheme(id);
 										} else {
 											try {
 												buffer = await char.load(id);
 												assetBuffers[id] = buffer;
+												ccTheme = await char.getTheme(id);
 											} catch (e) {}
 										}
-										ccTheme = await char.getTheme(id);
+										*/
+
+										switch (prefix) {
+											case "c":
+											case "C":
+												break;
+											default:
+												ccTheme = await char.getTheme(id);
+												break;
+										}
 										break;
 									}
 									case "swf": {
@@ -233,65 +246,62 @@ module.exports = {
 									}
 								}
 
-								if (buffer) {
-									var ugcCharSubs = [];
-									for (let ptK in piece.children) {
-										var part = piece.children[ptK];
-										if (!part.children) continue;
+								var ugcCharSubs = [];
+								for (let ptK in piece.children) {
+									var part = piece.children[ptK];
+									if (!part.children) continue;
 
-										var file = part.childNamed("file");
-										if (!file) continue;
+									var file = part.childNamed("file");
+									if (!file) continue;
+									var fName = file ? file.val : part.val;
+									var slicesP = fName.split(".");
+									if (slicesP[0] == "ugc") {
+										switch (part.name) {
+											case "head":
+												ugcCharSubs.push([slicesP[3], "facial"]);
+												break;
+											case "action":
+												ugcCharSubs.push([slicesP[2], "action"]);
+												break;
+											default:
+												continue;
+										}
+									} else if (slicesP.length > 1) {
+										var urlF, fileF;
+										switch (part.name) {
+											case "head":
+												urlF = "char";
+												fileF = "prop";
+												break;
+											case "prop":
+												urlF = "prop";
+												fileF = "prop";
+												break;
+											default:
+												continue;
+										}
 
-										var slicesP = file.val.split(".");
-										if (slicesP[0] == "ugc") {
-											switch (part.name) {
-												case "head":
-													ugcCharSubs.push([slicesP[3], "facial"]);
-													break;
-												case "action":
-													if (file.motionface) ugcCharSubs[slicesP[3]] = "motion";
-													else ugcCharSubs.push([slicesP[3], "action"]);
-													break;
-												default:
-													continue;
-											}
-										} else {
-											var urlF, fileF;
-											switch (part.name) {
-												case "head":
-													urlF = "char";
-													fileF = "prop";
-													break;
-												case "prop":
-													urlF = "prop";
-													fileF = "prop";
-													break;
-												default:
-													continue;
-											}
+										slicesP.pop(), slicesP.splice(1, 0, urlF);
+										var urlP = `${store}/${slicesP.join("/")}.swf`;
 
-											slicesP.pop(), slicesP.splice(1, 0, urlF);
-											var urlP = `${store}/${slicesP.join("/")}.swf`;
-
-											slicesP.splice(1, 1, fileF);
-											var fileP = `${slicesP.join(".")}.swf`;
-											if (!zip[fileP]) {
-												fUtil.addToZip(zip, fileP, await get(urlP));
-											}
+										slicesP.splice(1, 1, fileF);
+										var fileP = `${slicesP.join(".")}.swf`;
+										if (!zip[fileP]) {
+											fUtil.addToZip(zip, fileP, await get(urlP));
 										}
 									}
+								}
 
-									themes[theme] = true;
-									fUtil.addToZip(zip, fileName, buffer);
-									if (ugcData[id]) {
-										ugcData[id].subs.push.apply(ugcData[id].subs, ugcCharSubs);
-									} else {
-										ugcData[id] = {
-											type: "char",
-											subs: ugcCharSubs,
-											theme: ccTheme,
-										};
-									}
+								themes[theme] = true;
+								if (buffer) fUtil.addToZip(zip, fileName, buffer);
+								if (ugcData[id]) {
+									ugcData[id].subs.push.apply(ugcData[id].subs, ugcCharSubs);
+								} else {
+									ugcData[id] = {
+										type: "char",
+										subs: ugcCharSubs,
+										theme: ccTheme,
+									};
 								}
 								break;
 							}
@@ -358,10 +368,11 @@ module.exports = {
 					var fileName = element.attr.file_name;
 					var id = fileName.substr(9, fileName.indexOf(".", 9) - 9);
 					var theme = await char.getTheme(await char.save(sub, id));
+					if (ugcData[id]) ugcData[id].theme = theme;
 					themes[theme] = true;
 
 					fUtil.addToZip(zip, element.attr.file_name, sub);
-					assetBuffers[id] = sub;
+					//assetBuffers[`${id}.xml`] = sub;
 					break;
 				}
 
@@ -403,15 +414,16 @@ module.exports = {
 		themeKs.forEach((t) => {
 			if (t == "ugc") return;
 			var file = fs.readFileSync(`${themeFolder}/${t}.xml`);
-			fUtil.addToZip(zip, `${t}.xml`, file);
+			//fUtil.addToZip(zip, `${t}.xml`, file);
 		});
 
 		for (const id in ugcData) {
 			var data = ugcData[id];
 			switch (data.type) {
 				case "char": {
-					var subs = data.subs.map(([id, mode]) => `<${mode} id="${id}.xml" enable="Y"/>`);
-					ugcString += `<char id="${id}"cc_theme_id="${data.theme}"><tags/>${subs.join("")}</char>`;
+					//var subs = `/><action id="stand.xml" name="Stand" loop="Y" totalframe="1" enable="Y"/><motion id="walk.xml" name="Walk" loop="Y" totalframe="24" enable="Y"/><motion id="run.xml" name="Run" loop="Y" totalframe="20" enable="Y"/><action id="sit.xml" name="Sit" loop="Y" totalframe="1" enable="Y"/><action id="lie.xml" name="Lie down" loop="Y" totalframe="1" enable="Y"/><action id="kneel.xml" name="Kneel down" loop="Y" totalframe="1" enable="Y"/><action id="xarms.xml" name="Crossed arms" loop="Y" totalframe="1" enable="Y"/><category name="emotion"><action id="excited.xml" name="Excited / Cheers" loop="Y" totalframe="80" enable="Y"/><action id="taunt.xml" name="Taunt" loop="Y" totalframe="60" enable="Y"/><action id="chuckle.xml" name="Chuckle" loop="Y" totalframe="6" enable="Y"/><action id="laugh.xml" name="Laugh" loop="Y" totalframe="6" enable="Y"/><action id="sad.xml" name="Sad" loop="Y" totalframe="60" enable="Y"/><action id="fearful.xml" name="Fearful" loop="Y" totalframe="60" enable="Y"/></category><action id="pt_at.xml" name="Point at" loop="Y" totalframe="30" enable="Y"/><action id="talk_phone.xml" name="Talk on phone" loop="Y" totalframe="115" enable="Y"/><action id="dance.xml" name="Dance" loop="Y" totalframe="23" enable="Y"/><action id="talk.xml" name="Talk" loop="Y" totalframe="100" enable="Y"/><facial id="head_talk_a.xml" name="Talk neutral A" enable="Y"/><facial id="head_talk_b.xml" name="Talk neutral B" enable="Y"/><facial id="head_talk_angry.xml" name="Talk angry" enable="Y"/><facial id="head_talk_happy.xml" name="Talk happy" enable="Y"/><facial id="head_talk_sad.xml" name="Talk sad" enable="Y"/><facial id="head_happy.xml" name="Happy" enable="Y"/><facial id="head_sad.xml" name="Sad" enable="Y"/><facial id="head_angry.xml" name="Angry" enable="Y"/><facial id="head_neutral.xml" name="Neutral" enable="Y"/><facial id="head_laugh.xml" name="Laugh" enable="Y"/><facial id="head_cry.xml" name="Cry" enable="Y"/><facial id="head_shocked.xml" name="Shocked" enable="Y"/><facial id="head_surprised.xml" name="Surprised" enable="Y"/><facial id="head_thinking.xml" name="Thinking" enable="Y"/><facial id="head_sick.xml" name="Sick" enable="Y"/><facial id="head_asleep.xml" name="Asleep" enable="Y"/><facial id="head_yawn.xml" name="Yawn" enable="Y"/><facial id="head_chewing.xml" name="Chewing" enable="Y"/><facial id="head_disgusted.xml" name="Disgusted" enable="Y"/><facial id="head_schemeing.xml" name="Schemeing" enable="Y"/><facial id="head_talk_cry.xml" name="Talk while crying" enable="Y"/><facial id="head_taunt.xml" name="Taunt" enable="Y"/>`;
+					var subs = data.subs.map(([id, mode]) => `<${mode} id="${id}.xml" name="${id}" enable="Y"/>`).join("");
+					ugcString += `<char id="${id}"cc_theme_id="${data.theme}"><tags/>${subs}<action id="xarmsx.xml" name="Crossed arms 2" loop="Y" totalframe="1" enable="Y"/></char>`;
 				}
 				case "sound":
 					continue;
@@ -445,7 +457,6 @@ module.exports = {
 			var stream = zipFile["movie.xml"].toReadStream();
 			stream.on("data", (b) => pieces.push(b));
 			stream.on("end", async () => {
-				var time = new Date() - 0;
 				var mainSlice = Buffer.concat(pieces).slice(0, -7);
 				var xmlBuffers = [];
 				var assetHash = {};
@@ -472,7 +483,7 @@ module.exports = {
 							var charId = assetId.substr(0, dot);
 							var saveId = charMap[charId];
 							if (!saveId) {
-								saveId = `C-${fUtil.getNextFileId("char-", ".xml")}`;
+								saveId = `C-${fUtil.fillNextFileId("char-", ".xml")}`;
 							}
 
 							var remainder = assetId.substr(dot);
@@ -485,6 +496,7 @@ module.exports = {
 						default: {
 							xmlBuffers.push(Buffer.from(assetId));
 							assetHash[assetId] = true;
+							break;
 						}
 					}
 				}
@@ -509,12 +521,12 @@ module.exports = {
 						} else xmlBuffers.push(Buffer.from(`<asset id="${aId}">${assetBuffers[aId]}</asset>`));
 					}
 
+				var hLen = header.length;
 				for (let id in charBuffers) {
 					var buff = charBuffers[id];
-					var start = header.length + 9;
-					if (buff.includes("file_name")) start = buff.indexOf(".xml", start) + 6;
-					var element = buff.subarray(start);
-					xmlBuffers.push(Buffer.from(`<cc_char file_name='ugc.char.${id}.xml' ${element}`));
+					var hasHeader = buff.subarray(0, hLen).toString() == header;
+					var start = buff.includes("file_name") ? buff.indexOf(".xml") + 6 : hasHeader ? hLen + 9 : 9;
+					xmlBuffers.push(Buffer.from(`<cc_char file_name='ugc.char.${id}.xml' ${buff.subarray(start)}`));
 				}
 
 				if (thumb) {

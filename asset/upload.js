@@ -1,5 +1,4 @@
 const loadPost = require("../misc/post_body");
-const sessions = require("../data/sessions");
 const formidable = require("formidable");
 const asset = require("./main");
 const http = require("http");
@@ -16,7 +15,7 @@ module.exports = function (req, res, url) {
 	switch (url.pathname) {
 		case "/upload_asset":
 			formidable().parse(req, (_, fields, files) => {
-				var [mode, ext] = fields.params.split(".");
+				var [mId, mode, ext] = fields.params.split(".");
 				switch (mode) {
 					case "vo":
 						mode = "voiceover";
@@ -31,7 +30,6 @@ module.exports = function (req, res, url) {
 
 				var path = files.import.path;
 				var buffer = fs.readFileSync(path);
-				var mId = sessions.get(req).movieId;
 				asset.save(buffer, mId, mode, ext);
 				fs.unlinkSync(path);
 				delete buffer;

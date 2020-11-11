@@ -71,7 +71,7 @@ module.exports = {
 						caché.saveTable(mId, pack.caché);
 						res(pack.zipBuf);
 						break;
-					} catch {
+					} catch (e) {
 						rej();
 					}
 				}

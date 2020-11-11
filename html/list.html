@@ -51,10 +51,9 @@
 				<a href="/go_full" class="button_big">MAKE A VIDEO</a>
 			</div>
 		</div>
-		<div class="warning"><strong>Severe Warning:</strong> I've put the character browser in!<br>
-			Be advised that as new functionalities are being implemented,
-			software-breaking bugs will ensue.<br><a href='https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper'>Link
-				to the source code on GitHub</a>
+		<div class="warning">Disregard what I said about the white-screen error being fixed; it still needs work.<br><a
+				href='https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper/projects/1'>Link
+				to a progress map of the project on GitHub</a>
 		</div>
 	</header>
 	<table>
@@ -74,7 +73,7 @@
 		</tfoot>
 	</table>
 	<form enctype='multipart/form-data' action='/upload_movie' method='post'>
-		<input id='file' type="file" onchange="this.form.submit()" name='import' />
+		<input id='file' type="file" onchange="this.form.submit()" name='import' accept=".xml" />
 	</form>
 	<script>
 		const closeReq = new XMLHttpRequest();

@@ -16,7 +16,10 @@ function addTheme(id, buffer) {
 }
 
 function save(id, data) {
-	fs.writeFileSync(fUtil.getFileIndex("char-", ".xml", id), data);
+	const i = id.indexOf("-");
+	const prefix = id.substr(0, i);
+	const suffix = id.substr(i + 1);
+	fs.writeFileSync(fUtil.getFileIndex("char-", ".xml", suffix), data);
 	addTheme(id, data);
 	return id;
 }
@@ -72,7 +75,8 @@ module.exports = {
 					break;
 
 				case "a":
-				case "": {
+				case "":
+				default: {
 					// Blank prefix is left here for backwards-compatibility purposes.
 					const nId = Number.parseInt(suffix);
 					const xmlSubId = nId % fw,
@@ -110,14 +114,14 @@ module.exports = {
 				const suffix = id.substr(i + 1);
 				switch (prefix) {
 					case "c":
-						return fs.writeFile(fUtil.getFileIndex("char-", ".xml", suffix), data, (e) => (e ? rej() : res(id)));
+						fs.writeFile(fUtil.getFileIndex("char-", ".xml", suffix), data, (e) => (e ? rej() : res(id)));
 					case "C":
-						return fs.writeFile(fUtil.getFileString("char-", ".xml", suffix), data, (e) => (e ? rej() : res(id)));
+						fs.writeFile(fUtil.getFileString("char-", ".xml", suffix), data, (e) => (e ? rej() : res(id)));
 					default:
-						return res(save(id, data));
+						res(save(id, data));
 				}
 			} else {
-				saveId = fUtil.getNextFileId("char-", ".xml");
+				saveId = `c-${fUtil.getNextFileId("char-", ".xml")}`;
 				res(save(saveId, data));
 			}
 		});

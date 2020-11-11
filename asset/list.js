@@ -60,11 +60,11 @@ async function listAssets(data, makeZip) {
 		case "movie": {
 			var files = asset.list(data.movieId, "movie");
 			xmlString = `${header}<ugc more="0">${files
-                        .map(
-                                (v) =>
-                                        `<movie id="${v.id}" enc_asset_id="${v.id}" path="/_SAVED/${v.id}" numScene="1" title="${v.name}" thumbnail_url="/movie_thumbs/${v.id}"><tags></tags></movie>
-                        )
-                               .join("")}</ugc>`;
+				.map(
+					(v) =>
+						`<movie id="${v.id}" enc_asset_id="${v.id}" path="/_SAVED/${v.id}" numScene="1" title="${v.name}" thumbnail_url="/movie_thumbs/${v.id}.png"><tags></tags></movie>`
+				)
+				.join("")}</ugc>`;
 			break;
 		}
 		case "prop":
