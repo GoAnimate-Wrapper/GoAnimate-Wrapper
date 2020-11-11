@@ -34,7 +34,7 @@ module.exports = {
 	 * @returns {Promise<string>}
 	 */
 	getTheme(id) {
-		return new Promise(async (res, rej) => {
+		return new Promise((res, rej) => {
 			if (themes[id]) res(themes[id]);
 			this.load(id)
 				.then((b) => res(addTheme(id, b)))
@@ -46,7 +46,7 @@ module.exports = {
 	 * @returns {Promise<Buffer>}
 	 */
 	load(id) {
-		return new Promise(async (res, rej) => {
+		return new Promise((res, rej) => {
 			const i = id.indexOf("-");
 			const prefix = id.substr(0, i);
 			const suffix = id.substr(i + 1);
@@ -107,7 +107,7 @@ module.exports = {
 	 * @returns {Promise<string>}
 	 */
 	save(data, id) {
-		return new Promise(async (res, rej) => {
+		return new Promise((res, rej) => {
 			if (id) {
 				const i = id.indexOf("-");
 				const prefix = id.substr(0, i);
@@ -132,7 +132,7 @@ module.exports = {
 	 * @returns {Promise<string>}
 	 */
 	saveThumb(data, id) {
-		return new Promise(async (res, rej) => {
+		return new Promise((res, rej) => {
 			var thumb = Buffer.from(data, "base64");
 			var path = `${cachéFolder}/char.${id}.png`;
 			fs.writeFileSync(path, thumb);
@@ -144,7 +144,7 @@ module.exports = {
 	 * @returns {Promise<Buffer>}
 	 */
 	loadThumb(id) {
-		return new Promise(async (res, rej) => {
+		return new Promise((res, rej) => {
 			var path = `${cachéFolder}/char.${id}.png`;
 			fs.readFile(path, (e, b) => {
 				if (e) {

@@ -46,7 +46,7 @@ module.exports = {
 		});
 	},
 	loadZip(mId) {
-		return new Promise(async (res, rej) => {
+		return new Promise((res, rej) => {
 			const i = mId.indexOf("-");
 			const prefix = mId.substr(0, i);
 			const suffix = mId.substr(i + 1);
@@ -67,9 +67,10 @@ module.exports = {
 					if (!buffer || buffer.length == 0) rej();
 
 					try {
-						var pack = await parse.packMovie(buffer, mId);
-						caché.saveTable(mId, pack.caché);
-						res(pack.zipBuf);
+						parse.packMovie(buffer, mId).then((pack) => {
+							caché.saveTable(mId, pack.caché);
+							res(pack.zipBuf);
+						});
 						break;
 					} catch (e) {
 						rej();

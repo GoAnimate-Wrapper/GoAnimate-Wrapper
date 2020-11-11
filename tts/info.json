@@ -134,7 +134,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "willbadguy22k",
-			"desc": "WillBadGuy"
+			"desc": "Will (Bad Guy)"
 		},
 		"willfromafar": {
 			"country": "US",
@@ -142,7 +142,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "willfromafar22k",
-			"desc": "WillFromAFar"
+			"desc": "Will (From Afar)"
 		},
 		"willhappy": {
 			"country": "US",
@@ -150,7 +150,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "willhappy22k",
-			"desc": "WillHappy"
+			"desc": "Will (Happy)"
 		},
 		"willlittlecreature": {
 			"country": "US",
@@ -158,7 +158,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "willlittlecreature22k",
-			"desc": "WillLittleCreature"
+			"desc": "Will (Little Creature)"
 		},
 		"willoldman": {
 			"country": "US",
@@ -166,7 +166,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "willoldman22k",
-			"desc": "WillOldMan"
+			"desc": "Will (Old Man)"
 		},
 		"willsad": {
 			"country": "US",
@@ -174,7 +174,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "willsad22k",
-			"desc": "WillSad"
+			"desc": "Will (Sad)"
 		},
 		"willupclose": {
 			"country": "US",
@@ -182,7 +182,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "willupclose22k",
-			"desc": "WillUpClose"
+			"desc": "Will (Up Close)"
 		},
 		"graham": {
 			"country": "GB",
@@ -880,13 +880,13 @@
 			"source": "vocalware",
 			"desc": "Simon"
 		},
-		"steven1": {
+		"steven": {
 			"country": "US",
 			"language": "en",
 			"gender": "M",
 			"arg": [2, 1, 8],
 			"source": "vocalware",
-			"desc": "Steven (Oddcast)"
+			"desc": "Steven (OddCast)"
 		},
 		"kenneth": {
 			"country": "US",
@@ -1871,166 +1871,6 @@
 			"arg": [3, 26, 2],
 			"source": "vocalware",
 			"desc": "Somsi"
-		},
-		"linda": {
-			"arg": "linda",
-			"desc": "Linda",
-			"gender": "F",
-			"country": "US",
-			"language": "en",
-			"source": "voicery"
-		},
-		"steven": {
-			"arg": "steven",
-			"desc": "Steven (Voicery)",
-			"gender": "M",
-			"country": "US",
-			"language": "en",
-			"source": "voicery"
-		},
-		"katie": {
-			"arg": "katie",
-			"desc": "Katie",
-			"gender": "F",
-			"country": "US",
-			"language": "en",
-			"source": "voicery"
-		},
-		"luke": {
-			"arg": "luke",
-			"desc": "Luke",
-			"gender": "M",
-			"country": "AU",
-			"language": "en",
-			"source": "voicery"
-		},
-		"jason": {
-			"arg": "jason",
-			"desc": "Jason",
-			"gender": "M",
-			"country": "US",
-			"language": "en",
-			"source": "voicery"
-		},
-		"maya": {
-			"arg": "maya",
-			"desc": "Maya",
-			"gender": "F",
-			"country": "Indian",
-			"language": "en",
-			"source": "voicery"
-		},
-		"richard": {
-			"arg": "richard",
-			"desc": "Richard",
-			"gender": "M",
-			"country": "GB",
-			"language": "en",
-			"source": "voicery"
-		},
-		"samantha": {
-			"arg": "samantha",
-			"desc": "Samantha (Voicery)",
-			"gender": "F",
-			"country": "GB",
-			"language": "en",
-			"source": "voicery"
-		},
-		"matthew1": {
-			"arg": "matthew",
-			"desc": "Matthew",
-			"gender": "M",
-			"country": "US",
-			"language": "en",
-			"source": "voicery"
-		},
-		"chloe": {
-			"arg": "chloe",
-			"desc": "Chloe (Voicery)",
-			"gender": "F",
-			"country": "US",
-			"language": "en",
-			"source": "voicery"
-		},
-		"emma1": {
-			"arg": "emma",
-			"desc": "Emma (Voicery)",
-			"gender": "F",
-			"country": "CA",
-			"language": "en",
-			"source": "voicery"
-		},
-		"arno": {
-			"arg": "arno",
-			"desc": "Arno",
-			"gender": "M",
-			"country": "ZA",
-			"language": "en",
-			"source": "voicery"
-		},
-		"mieke": {
-			"arg": "mieke",
-			"desc": "Mieke",
-			"gender": "F",
-			"country": "ZA",
-			"language": "en",
-			"source": "voicery"
-		},
-		"gavin": {
-			"arg": "gavin",
-			"desc": "Gavin (Scottish)",
-			"gender": "M",
-			"country": "GB",
-			"language": "en",
-			"source": "voicery"
-		},
-		"mairi2": {
-			"arg": "mairi",
-			"desc": "Mairi",
-			"gender": "F",
-			"country": "GB",
-			"language": "en",
-			"source": "voicery"
-		},
-		"charlie": {
-			"arg": "charlie",
-			"desc": "Charlie (Voicery)",
-			"gender": "M",
-			"country": "GB",
-			"language": "en",
-			"source": "voicery"
-		},
-		"abigail": {
-			"arg": "abigail",
-			"desc": "Abigail",
-			"gender": "F",
-			"country": "GB",
-			"language": "en",
-			"source": "voicery"
-		},
-		"sean": {
-			"arg": "sean",
-			"desc": "Sean",
-			"gender": "M",
-			"country": "IE",
-			"language": "en",
-			"source": "voicery"
-		},
-		"mona": {
-			"arg": "mona",
-			"desc": "Mona",
-			"gender": "F",
-			"country": "IE",
-			"language": "en",
-			"source": "voicery"
-		},
-		"sebastian": {
-			"arg": "sebastian",
-			"desc": "Sebastian",
-			"gender": "M",
-			"country": "AU",
-			"language": "en",
-			"source": "voicery"
 		},
 		"callieq": {
 			"country": "US",
@@ -3495,6 +3335,166 @@
 			"source": "nextup",
 			"arg": "Liv",
 			"desc": "Liv"
+		},
+		"linda": {
+			"arg": "linda",
+			"desc": "Linda",
+			"gender": "F",
+			"country": "US",
+			"language": "en",
+			"source": "voicery"
+		},
+		"steven1": {
+			"arg": "steven",
+			"desc": "Steven (Voicery)",
+			"gender": "M",
+			"country": "US",
+			"language": "en",
+			"source": "voicery"
+		},
+		"katie": {
+			"arg": "katie",
+			"desc": "Katie",
+			"gender": "F",
+			"country": "US",
+			"language": "en",
+			"source": "voicery"
+		},
+		"luke": {
+			"arg": "luke",
+			"desc": "Luke",
+			"gender": "M",
+			"country": "AU",
+			"language": "en",
+			"source": "voicery"
+		},
+		"jason": {
+			"arg": "jason",
+			"desc": "Jason",
+			"gender": "M",
+			"country": "US",
+			"language": "en",
+			"source": "voicery"
+		},
+		"maya": {
+			"arg": "maya",
+			"desc": "Maya",
+			"gender": "F",
+			"country": "Indian",
+			"language": "en",
+			"source": "voicery"
+		},
+		"richard": {
+			"arg": "richard",
+			"desc": "Richard",
+			"gender": "M",
+			"country": "GB",
+			"language": "en",
+			"source": "voicery"
+		},
+		"samantha": {
+			"arg": "samantha",
+			"desc": "Samantha (Voicery)",
+			"gender": "F",
+			"country": "GB",
+			"language": "en",
+			"source": "voicery"
+		},
+		"matthew1": {
+			"arg": "matthew",
+			"desc": "Matthew",
+			"gender": "M",
+			"country": "US",
+			"language": "en",
+			"source": "voicery"
+		},
+		"chloe": {
+			"arg": "chloe",
+			"desc": "Chloe (Voicery)",
+			"gender": "F",
+			"country": "US",
+			"language": "en",
+			"source": "voicery"
+		},
+		"emma1": {
+			"arg": "emma",
+			"desc": "Emma (Voicery)",
+			"gender": "F",
+			"country": "CA",
+			"language": "en",
+			"source": "voicery"
+		},
+		"arno": {
+			"arg": "arno",
+			"desc": "Arno",
+			"gender": "M",
+			"country": "ZA",
+			"language": "en",
+			"source": "voicery"
+		},
+		"mieke": {
+			"arg": "mieke",
+			"desc": "Mieke",
+			"gender": "F",
+			"country": "ZA",
+			"language": "en",
+			"source": "voicery"
+		},
+		"gavin": {
+			"arg": "gavin",
+			"desc": "Gavin (Scottish)",
+			"gender": "M",
+			"country": "GB",
+			"language": "en",
+			"source": "voicery"
+		},
+		"mairi2": {
+			"arg": "mairi",
+			"desc": "Mairi",
+			"gender": "F",
+			"country": "GB",
+			"language": "en",
+			"source": "voicery"
+		},
+		"charlie": {
+			"arg": "charlie",
+			"desc": "Charlie (Voicery)",
+			"gender": "M",
+			"country": "GB",
+			"language": "en",
+			"source": "voicery"
+		},
+		"abigail": {
+			"arg": "abigail",
+			"desc": "Abigail",
+			"gender": "F",
+			"country": "GB",
+			"language": "en",
+			"source": "voicery"
+		},
+		"sean": {
+			"arg": "sean",
+			"desc": "Sean",
+			"gender": "M",
+			"country": "IE",
+			"language": "en",
+			"source": "voicery"
+		},
+		"mona": {
+			"arg": "mona",
+			"desc": "Mona",
+			"gender": "F",
+			"country": "IE",
+			"language": "en",
+			"source": "voicery"
+		},
+		"sebastian": {
+			"arg": "sebastian",
+			"desc": "Sebastian",
+			"gender": "M",
+			"country": "AU",
+			"language": "en",
+			"source": "voicery"
 		}
 	},
 	"languages": {

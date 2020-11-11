@@ -230,7 +230,11 @@ module.exports = {
 											case "C":
 												break;
 											default:
-												ccTheme = await char.getTheme(id);
+												try {
+													ccTheme = await char.getTheme(id);
+												} catch (e) {
+													ccTheme = "family";
+												}
 												break;
 										}
 										break;
@@ -371,7 +375,7 @@ module.exports = {
 					if (ugcData[id]) ugcData[id].theme = theme;
 					themes[theme] = true;
 
-					fUtil.addToZip(zip, element.attr.file_name, sub);
+					fUtil.addToZip(zip, fileName, sub);
 					//assetBuffers[`${id}.xml`] = sub;
 					break;
 				}
@@ -410,28 +414,36 @@ module.exports = {
 			themes.action = true;
 		}
 
-		var themeKs = Object.keys(themes);
-		themeKs.forEach((t) => {
-			if (t == "ugc") return;
+		for (const t in themes) {
+			switch (t) {
+				case "ugc":
+					continue;
+				default:
+					break;
+			}
 			var file = fs.readFileSync(`${themeFolder}/${t}.xml`);
-			//fUtil.addToZip(zip, `${t}.xml`, file);
-		});
+			fUtil.addToZip(zip, `${t}.xml`, file);
+		}
 
 		for (const id in ugcData) {
 			var data = ugcData[id];
 			switch (data.type) {
 				case "char": {
-					//var subs = `/><action id="stand.xml" name="Stand" loop="Y" totalframe="1" enable="Y"/><motion id="walk.xml" name="Walk" loop="Y" totalframe="24" enable="Y"/><motion id="run.xml" name="Run" loop="Y" totalframe="20" enable="Y"/><action id="sit.xml" name="Sit" loop="Y" totalframe="1" enable="Y"/><action id="lie.xml" name="Lie down" loop="Y" totalframe="1" enable="Y"/><action id="kneel.xml" name="Kneel down" loop="Y" totalframe="1" enable="Y"/><action id="xarms.xml" name="Crossed arms" loop="Y" totalframe="1" enable="Y"/><category name="emotion"><action id="excited.xml" name="Excited / Cheers" loop="Y" totalframe="80" enable="Y"/><action id="taunt.xml" name="Taunt" loop="Y" totalframe="60" enable="Y"/><action id="chuckle.xml" name="Chuckle" loop="Y" totalframe="6" enable="Y"/><action id="laugh.xml" name="Laugh" loop="Y" totalframe="6" enable="Y"/><action id="sad.xml" name="Sad" loop="Y" totalframe="60" enable="Y"/><action id="fearful.xml" name="Fearful" loop="Y" totalframe="60" enable="Y"/></category><action id="pt_at.xml" name="Point at" loop="Y" totalframe="30" enable="Y"/><action id="talk_phone.xml" name="Talk on phone" loop="Y" totalframe="115" enable="Y"/><action id="dance.xml" name="Dance" loop="Y" totalframe="23" enable="Y"/><action id="talk.xml" name="Talk" loop="Y" totalframe="100" enable="Y"/><facial id="head_talk_a.xml" name="Talk neutral A" enable="Y"/><facial id="head_talk_b.xml" name="Talk neutral B" enable="Y"/><facial id="head_talk_angry.xml" name="Talk angry" enable="Y"/><facial id="head_talk_happy.xml" name="Talk happy" enable="Y"/><facial id="head_talk_sad.xml" name="Talk sad" enable="Y"/><facial id="head_happy.xml" name="Happy" enable="Y"/><facial id="head_sad.xml" name="Sad" enable="Y"/><facial id="head_angry.xml" name="Angry" enable="Y"/><facial id="head_neutral.xml" name="Neutral" enable="Y"/><facial id="head_laugh.xml" name="Laugh" enable="Y"/><facial id="head_cry.xml" name="Cry" enable="Y"/><facial id="head_shocked.xml" name="Shocked" enable="Y"/><facial id="head_surprised.xml" name="Surprised" enable="Y"/><facial id="head_thinking.xml" name="Thinking" enable="Y"/><facial id="head_sick.xml" name="Sick" enable="Y"/><facial id="head_asleep.xml" name="Asleep" enable="Y"/><facial id="head_yawn.xml" name="Yawn" enable="Y"/><facial id="head_chewing.xml" name="Chewing" enable="Y"/><facial id="head_disgusted.xml" name="Disgusted" enable="Y"/><facial id="head_schemeing.xml" name="Schemeing" enable="Y"/><facial id="head_talk_cry.xml" name="Talk while crying" enable="Y"/><facial id="head_taunt.xml" name="Taunt" enable="Y"/>`;
 					var subs = data.subs.map(([id, mode]) => `<${mode} id="${id}.xml" name="${id}" enable="Y"/>`).join("");
-					ugcString += `<char id="${id}"cc_theme_id="${data.theme}"><tags/>${subs}<action id="xarmsx.xml" name="Crossed arms 2" loop="Y" totalframe="1" enable="Y"/></char>`;
+					ugcString += `<char id="${id}"cc_theme_id="${data.theme}"><tags/>${subs}</char>`;
+					try {
+						var buffer = await char.load(id);
+						fUtil.addToZip(zip, `ugc.${data.type}.${id}.xml`, buffer);
+					} catch (e) {}
 				}
 				case "sound":
 					continue;
 			}
 			var buffer = assetBuffers[id];
-			fUtil.addToZip(zip, `ugc.${data}.${id}`, buffer);
+			fUtil.addToZip(zip, `ugc.${data.type}.${id}`, buffer);
 		}
 
+		var themeKs = Object.keys(themes);
 		var themelist = Buffer.from(
 			`${header}<themes>${themeKs
 				.map((t) => {
@@ -460,7 +472,6 @@ module.exports = {
 				var mainSlice = Buffer.concat(pieces).slice(0, -7);
 				var xmlBuffers = [];
 				var assetHash = {};
-				var charMap = {};
 				var charBuffers = {};
 
 				// Remaps UGC asset IDs to match the current Wrapper environment.
@@ -477,14 +488,12 @@ module.exports = {
 					var index = assetId.indexOf("-");
 					var prefix = assetId.substr(0, index);
 					switch (prefix) {
-						case "c":
-						case "C": {
+						case "C":
+						case "c": {
+							var t = new Date().getTime();
 							var dot = assetId.indexOf(".");
 							var charId = assetId.substr(0, dot);
-							var saveId = charMap[charId];
-							if (!saveId) {
-								saveId = `C-${fUtil.fillNextFileId("char-", ".xml")}`;
-							}
+							var saveId = `C-${~~(1e4 * Math.random())}-${t}`;
 
 							var remainder = assetId.substr(dot);
 							xmlBuffers.push(Buffer.from(saveId + remainder));
@@ -495,7 +504,6 @@ module.exports = {
 						}
 						default: {
 							xmlBuffers.push(Buffer.from(assetId));
-							assetHash[assetId] = true;
 							break;
 						}
 					}
@@ -524,7 +532,7 @@ module.exports = {
 				var hLen = header.length;
 				for (let id in charBuffers) {
 					var buff = charBuffers[id];
-					var hasHeader = buff.subarray(0, hLen).toString() == header;
+					var hasHeader = buff.subarray(0, hLen / 2).toString() == header.substr(0, hLen / 2);
 					var start = buff.includes("file_name") ? buff.indexOf(".xml") + 6 : hasHeader ? hLen + 9 : 9;
 					xmlBuffers.push(Buffer.from(`<cc_char file_name='ugc.char.${id}.xml' ${buff.subarray(start)}`));
 				}

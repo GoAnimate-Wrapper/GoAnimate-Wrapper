@@ -20,7 +20,7 @@ module.exports = function (req, res, url) {
 				mp3Duration(buffer, (e, d) => {
 					var dur = d * 1e3;
 					if (e || !dur) {
-						return res.end(1 + util.xmlFail("Unable to determine audio duration."));
+						return res.end(1 + util.xmlFail("Unable to retrieve MP3 stream."));
 					}
 
 					const title = `[${voices[data.voice].desc}] ${data.text}`;
