@@ -15,7 +15,7 @@ module.exports = function (url, options = {}) {
 					.on("error", rej)
 			);
 		} catch (e) {
-			rej(e);
+			rej();
 		}
 	});
 };

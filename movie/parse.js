@@ -262,10 +262,10 @@ module.exports = {
 									if (slicesP[0] == "ugc") {
 										switch (part.name) {
 											case "head":
-												ugcCharSubs.push([slicesP[3], "facial"]);
+												ugcCharSubs[slicesP[3]] = "facial";
 												break;
 											case "action":
-												ugcCharSubs.push([slicesP[2], "action"]);
+												ugcCharSubs[slicesP[2]] = "action";
 												break;
 											default:
 												continue;
@@ -299,8 +299,8 @@ module.exports = {
 								themes[theme] = true;
 								if (buffer) fUtil.addToZip(zip, fileName, buffer);
 								if (ugcData[id]) {
-									ugcData[id].subs.push.apply(ugcData[id].subs, ugcCharSubs);
-								} else {
+									Object.assign(ugcData[id].subs, ugcCharSubs);
+								} else if (id) {
 									ugcData[id] = {
 										type: "char",
 										subs: ugcCharSubs,
@@ -331,13 +331,14 @@ module.exports = {
 					var ttsData = element.childNamed("ttsdata");
 					if (sfile.endsWith(".swf")) {
 						var slices = sfile.split(".");
-						var [theme, fileName] = slices;
-						var url = `${store}/${theme}/sound/${fileName}.swf`;
-						var fileName = `${theme}.sound.${fileName}.swf`;
+						var [theme, name] = slices;
+						var url = `${store}/${theme}/sound/${name}.swf`;
+						var fileName = `${theme}.sound.${name}.swf`;
 						if (!zip[fileName]) {
 							var buffer = await get(url);
 							fUtil.addToZip(zip, fileName, buffer);
 						}
+						ugcString += `<sound subtype="sound" id="${name}.swf" name="${name}.swf" downloadtype="progressive"/>`;
 					} else if (sfile.startsWith("ugc.")) {
 						var subtype, fileName;
 						if (ttsData) {
@@ -392,7 +393,7 @@ module.exports = {
 						case "tts":
 						case "sound": {
 							var d = await new Promise((res) => mp3Duration(b, (e, d) => e || res(Math.floor(1e3 * d))));
-							ugcString += `<sound subtype="${t.subtype}" id="${aId}" enc_asset_id="${aId}" name="${t.name}" downloadtype="progressive" duration="${d}"/>`;
+							ugcString += `<sound subtype="${t.subtype}" id="${aId}" name="${t.name}" downloadtype="progressive" duration="${d}"/>`;
 							break;
 						}
 						case "bg":
@@ -429,7 +430,8 @@ module.exports = {
 			var data = ugcData[id];
 			switch (data.type) {
 				case "char": {
-					var subs = data.subs.map(([id, mode]) => `<${mode} id="${id}.xml" name="${id}" enable="Y"/>`).join("");
+					var subs = "";
+					for (var subId in data.subs) subs += `<${data.subs[subId]} id="${subId}.xml" enable="Y"/>`;
 					ugcString += `<char id="${id}"cc_theme_id="${data.theme}"><tags/>${subs}</char>`;
 					try {
 						var buffer = await char.load(id);
@@ -473,6 +475,7 @@ module.exports = {
 				var xmlBuffers = [];
 				var assetHash = {};
 				var charBuffers = {};
+				var assetRemap = {};
 
 				// Remaps UGC asset IDs to match the current Wrapper environment.
 				for (let c = 0, end; ; c = mainSlice.indexOf("ugc.", c) + 4) {
@@ -493,7 +496,10 @@ module.exports = {
 							var t = new Date().getTime();
 							var dot = assetId.indexOf(".");
 							var charId = assetId.substr(0, dot);
-							var saveId = `C-${~~(1e4 * Math.random())}-${t}`;
+							var saveId = assetRemap[charId];
+							if (!assetRemap[charId]) {
+								saveId = assetRemap[charId] = `C-${~~(1e4 * Math.random())}-${t}`;
+							}
 
 							var remainder = assetId.substr(dot);
 							xmlBuffers.push(Buffer.from(saveId + remainder));

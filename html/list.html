@@ -51,7 +51,7 @@
 				<a href="/go_full" class="button_big">MAKE A VIDEO</a>
 			</div>
 		</div>
-		<div class="warning">Disregard what I said about the white-screen error being fixed; it still needs work.<br><a
+		<div class="warning">Bugs are getting squatted everywhere! Stay tuned for the coming batch of changes<br><a
 				href='https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper/projects/1'>Link
 				to a progress map of the project on GitHub</a>
 		</div>
@@ -132,18 +132,18 @@
 		}
 
 		header {
-			position: fixed;
+			position: sticky;
 			top: 0;
 			width: 100%;
 		}
 
 		header>:nth-child(1) {
-			height: 44px;
 			align-content: center;
 			background-color: #1e1e1e;
-			color: #fff;
-			text-align: center;
 			display: inline-block;
+			padding-bottom: 13px;
+			text-align: center;
+			color: #fff;
 			width: 100%;
 		}
 
@@ -165,7 +165,7 @@
 
 		header>:nth-child(1)>:nth-child(2) {
 			margin-right: 20px;
-			float: right;
+			clear: both;
 		}
 
 		.button_big,
@@ -275,7 +275,7 @@
 			margin-bottom: 127px;
 			margin-right: auto;
 			margin-left: auto;
-			margin-top: 127px;
+			margin-top: 70px;
 			background-color: transparent;
 			border-collapse: collapse;
 			border-spacing: 0;
@@ -286,17 +286,41 @@
 			table {
 				width: 750px;
 			}
+
+			tr>:nth-child(2)>* {
+				width: 350px;
+			}
 		}
 
 		@media(min-width: 992px) {
 			table {
 				width: 970px;
 			}
+
+			tr>:nth-child(2)>* {
+				width: 580px;
+			}
+		}
+
+		@media (min-width: 1030px) {
+			header>:nth-child(1) {
+				padding-bottom: 0;
+				height: 44px;
+			}
+
+			header>:nth-child(1)>:nth-child(2) {
+				clear: none;
+				float: right;
+			}
 		}
 
 		@media(min-width: 1200px) {
 			table {
 				width: 1170px;
+			}
+
+			tr>:nth-child(2)>* {
+				width: 780px;
 			}
 		}
 
@@ -340,12 +364,17 @@
 			color: #999;
 		}
 
+		tr>:nth-child(2)>:nth-child(1) {
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
 		tr>:nth-child(2)>:nth-child(2) {
 			font-family: monospace;
 		}
 
 		tr>:nth-child(3) {
-			width: 250px;
+			width: 200px;
 		}
 
 		tr>:nth-child(3)>* {
