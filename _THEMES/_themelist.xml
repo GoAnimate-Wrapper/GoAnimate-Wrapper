@@ -7,6 +7,7 @@
 	<theme id="custom" name="Comedy World" thumb="" cc_theme_id="custom" />
 	<theme id="action" name="Lil' Peepz" thumb="" cc_theme_id="action" />
 	<theme id="common" name="Common" thumb="matchboy-stand.swf" cc_theme_id="common" />
+	<theme id="import" name="Imported Assets" />
 	<theme id="retro" name="Cartoon Classics" thumb="ann-stand.swf" cc_theme_id="retro" />
 	<theme id="sticklybiz" name="Stickly Business" thumb="" cc_theme_id="infographics" />
 	<theme id="vietnam" name="Jungle Warfare" thumb="" cc_theme_id="vietnam" />
