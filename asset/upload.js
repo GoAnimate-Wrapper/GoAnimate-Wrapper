@@ -42,5 +42,11 @@ module.exports = function (req, res, url) {
 				asset.save(bytes, mId, "voiceover", "ogg");
 			});
 			return true;
+		case "/goapi/saveTemplate/":
+			loadPost(req, res).then(([data, mId]) => {
+				var body = Buffer.from(data.body_zip, "base64");
+				res.end("0" + asset.save(body, mId, "starter", "xml"));
+			});
+			return true;
 	}
 };

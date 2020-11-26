@@ -58,7 +58,7 @@ async function listAssets(data, makeZip) {
 			break;
 		}
 		case "movie": {
-			var files = asset.list(data.movieId, "movie");
+			var files = asset.list(data.movieId, "starter");
 			xmlString = `${header}<ugc more="0">${files
 				.map(
 					(v) =>

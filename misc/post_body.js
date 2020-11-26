@@ -1,4 +1,3 @@
-const sessions = require("../data/sessions");
 const qs = require("querystring");
 
 /**
@@ -22,9 +21,7 @@ module.exports = function (req, res) {
 
 		req.on("end", () => {
 			var dict = qs.parse(data);
-			var sess = sessions.get(req);
 			var mId = dict.movieId || dict.presaveId;
-			if (!mId && sess) mId = sess.movieId;
 			resolve([dict, mId]);
 		});
 	});

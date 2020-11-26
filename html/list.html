@@ -51,8 +51,11 @@
 				<a href="/go_full" class="button_big">MAKE A VIDEO</a>
 			</div>
 		</div>
-		<div class="warning">Bugs are getting squatted everywhere! Stay tuned for the coming batch of changes<br><a
-				href='https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper/projects/1'>Link
+		<div class="warning"><strong>I was just notified by Spark that GoAnimate Inc. wanted me to <a
+					href="https://media.discordapp.net/attachments/741394845679091792/778077861650759711/unknown.png">cease
+					development on Wrapper</a> ... again.</strong><br>This instance of Wrapper will be taken down any
+			time before
+			2020-11-17 09:00 UTC.<br><a href='https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper/projects/1'>Link
 				to a progress map of the project on GitHub</a>
 		</div>
 	</header>
@@ -76,10 +79,6 @@
 		<input id='file' type="file" onchange="this.form.submit()" name='import' accept=".xml" />
 	</form>
 	<script>
-		const closeReq = new XMLHttpRequest();
-		closeReq.open('GET', '/events/close');
-		closeReq.send();
-
 		var json;
 		var tbody = document.getElementsByTagName('tbody')[0];
 		var loadMore = document.getElementById('load_more');
@@ -111,7 +110,7 @@
 		}
 
 		function popup(id) {
-			window.open('/player?movieId=' + id, 'MsgWindow', 'width=1280,height=720,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
+			window.open('/player?movieId=' + id, 'MsgWindow', 'width=1280,height=723,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
 		}
 	</script>
 	<style>

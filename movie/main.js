@@ -1,5 +1,5 @@
 const exFolder = process.env.EXAMPLE_FOLDER;
-const caché = require("../data/caché");
+const caché = require("../asset/caché");
 const fUtil = require("../misc/file");
 const nodezip = require("node-zip");
 const parse = require("./parse");
@@ -46,7 +46,7 @@ module.exports = {
 		});
 	},
 	loadZip(mId) {
-		return new Promise((res, rej) => {
+		return new Promise((res) => {
 			const i = mId.indexOf("-");
 			const prefix = mId.substr(0, i);
 			const suffix = mId.substr(i + 1);
@@ -59,12 +59,12 @@ module.exports = {
 				}
 				case "m": {
 					let numId = Number.parseInt(suffix);
-					if (isNaN(numId)) rej();
+					if (isNaN(numId)) res();
 					let filePath = fUtil.getFileIndex("movie-", ".xml", numId);
-					if (!fs.existsSync(filePath)) rej();
+					if (!fs.existsSync(filePath)) res();
 
 					const buffer = fs.readFileSync(filePath);
-					if (!buffer || buffer.length == 0) rej();
+					if (!buffer || buffer.length == 0) res();
 
 					try {
 						parse.packMovie(buffer, mId).then((pack) => {
@@ -73,11 +73,11 @@ module.exports = {
 						});
 						break;
 					} catch (e) {
-						rej();
+						res();
 					}
 				}
 				default:
-					rej();
+					res();
 			}
 		});
 	},
@@ -89,7 +89,8 @@ module.exports = {
 			switch (prefix) {
 				case "m": {
 					const fn = fUtil.getFileIndex("movie-", ".xml", suffix);
-					fs.existsSync(fn) ? res(fs.readFileSync(fn)) : rej();
+					if (fs.existsSync(fn)) res(fs.readFileSync(fn));
+					else rej();
 					break;
 				}
 				case "e": {

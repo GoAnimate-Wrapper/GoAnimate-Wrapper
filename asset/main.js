@@ -1,6 +1,6 @@
 const chars = require("../character/main");
-const caché = require("../data/caché");
 const fUtil = require("../misc/file");
+const caché = require("./caché");
 
 module.exports = {
 	load(mId, aId) {

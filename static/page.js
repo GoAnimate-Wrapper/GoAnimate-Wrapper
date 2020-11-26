@@ -1,4 +1,3 @@
-const sessions = require("../data/sessions");
 const fUtil = require("../misc/file");
 const stuff = require("./info");
 const http = require("http");
@@ -168,7 +167,6 @@ module.exports = function (req, res, url) {
 	}
 	res.setHeader("Content-Type", "text/html; charset=UTF-8");
 	Object.assign(params.flashvars, query);
-	sessions.set({ movieId: query.movieId || query.presave }, req);
 	res.end(
 		`<script>document.title='${title}',flashvars=${JSON.stringify(
 			params.flashvars

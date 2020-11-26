@@ -132,6 +132,7 @@ function name2Font(font) {
 }
 
 function useBase64(aId) {
+	if (aId.endsWith("-starter.xml")) return true;
 	switch (aId.substr(aId.lastIndexOf(".") + 1)) {
 		case "xml":
 			return false;
@@ -211,24 +212,10 @@ module.exports = {
 										fileName = `${theme}.char.${id}.xml`;
 										var prefix = id.substr(0, id.indexOf("-"));
 
-										/*
-										if (assetBuffers[id]) {
-											buffer = assetBuffers[id];
-											char.save(buffer, id);
-											ccTheme = await char.getTheme(id);
-										} else {
-											try {
-												buffer = await char.load(id);
-												assetBuffers[id] = buffer;
-												ccTheme = await char.getTheme(id);
-											} catch (e) {}
-										}
-										*/
-
 										switch (prefix) {
-											case "c":
 											case "C":
 												break;
+											case "c":
 											default:
 												try {
 													ccTheme = await char.getTheme(id);
@@ -417,10 +404,11 @@ module.exports = {
 
 		for (const t in themes) {
 			switch (t) {
-				case "ugc":
-					continue;
-				default:
+				case "common":
 					break;
+				case "ugc":
+				default:
+					continue;
 			}
 			var file = fs.readFileSync(`${themeFolder}/${t}.xml`);
 			fUtil.addToZip(zip, `${t}.xml`, file);
@@ -430,6 +418,11 @@ module.exports = {
 			var data = ugcData[id];
 			switch (data.type) {
 				case "char": {
+					if (data.theme === undefined) {
+						console.warn("Character theme undefined.");
+						continue;
+					}
+
 					var subs = "";
 					for (var subId in data.subs) subs += `<${data.subs[subId]} id="${subId}.xml" enable="Y"/>`;
 					ugcString += `<char id="${id}"cc_theme_id="${data.theme}"><tags/>${subs}</char>`;
@@ -473,7 +466,6 @@ module.exports = {
 			stream.on("end", async () => {
 				var mainSlice = Buffer.concat(pieces).slice(0, -7);
 				var xmlBuffers = [];
-				var assetHash = {};
 				var charBuffers = {};
 				var assetRemap = {};
 
@@ -491,7 +483,6 @@ module.exports = {
 					var index = assetId.indexOf("-");
 					var prefix = assetId.substr(0, index);
 					switch (prefix) {
-						case "C":
 						case "c": {
 							var t = new Date().getTime();
 							var dot = assetId.indexOf(".");
@@ -508,6 +499,13 @@ module.exports = {
 							} catch (e) {}
 							break;
 						}
+						case "C": {
+							var dot = assetId.indexOf(".");
+							var charId = assetId.substr(0, dot);
+							charBuffers[charId] = await char.load(charId);
+							xmlBuffers.push(Buffer.from(assetId));
+							break;
+						}
 						default: {
 							xmlBuffers.push(Buffer.from(assetId));
 							break;
@@ -520,14 +518,7 @@ module.exports = {
 					for (let aId in assetBuffers) {
 						var dot = aId.lastIndexOf(".");
 						var dash = aId.lastIndexOf("-");
-						var mode = aId.substr(dash + 1, dot - dash - 1);
-						if (!assetHash[aId]) {
-							switch (mode) {
-								case "tts":
-									continue;
-								default:
-							}
-						}
+						//var mode = aId.substr(dash + 1, dot - dash - 1);
 
 						if (useBase64(aId)) {
 							var assetString = assetBuffers[aId].toString("base64");

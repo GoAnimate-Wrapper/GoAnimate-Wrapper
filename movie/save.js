@@ -9,7 +9,7 @@ const http = require("http");
  * @returns {boolean}
  */
 module.exports = function (req, res, url) {
-	if (req.method != "POST" || (url.path != "/goapi/saveMovie/" && url.path != "/goapi/saveTemplate/")) return;
+	if (req.method != "POST" || url.path != "/goapi/saveMovie/") return;
 	loadPost(req, res).then(([data, mId]) => {
 		const trigAutosave = data.is_triggered_by_autosave;
 		if (trigAutosave && (!data.movieId || data.noAutosave)) return res.end("0");

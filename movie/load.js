@@ -19,25 +19,28 @@ module.exports = function (req, res, url) {
 			switch (ext) {
 				case "zip":
 					res.setHeader("Content-Type", "application/zip");
-					movie
-						.loadZip(id)
-						.then((v) => {
-							(res.statusCode = 200), res.end(v);
-						})
-						.catch((e) => {
-							(res.statusCode = 404), res.end();
-						});
+					movie.loadZip(id).then((v) => {
+						if (v) {
+							res.statusCode = 200;
+							res.end(v);
+						} else {
+							res.statusCode = 404;
+							res.end();
+						}
+					});
 					break;
 				default:
 					res.setHeader("Content-Type", "text/xml");
-					movie
-						.loadXml(id)
-						.then((v) => {
-							(res.statusCode = 200), res.end(v);
-						})
-						.catch((e) => {
-							(res.statusCode = 404), res.end();
-						});
+					movie.loadXml(id).then((v) => {
+						if (v) {
+							res.statusCode = 200;
+							res.end(v);
+						} else {
+							res.statusCode = 404;
+							res.end();
+						}
+					});
+					break;
 			}
 			return true;
 		}

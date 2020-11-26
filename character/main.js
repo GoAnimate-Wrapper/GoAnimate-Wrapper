@@ -19,7 +19,12 @@ function save(id, data) {
 	const i = id.indexOf("-");
 	const prefix = id.substr(0, i);
 	const suffix = id.substr(i + 1);
-	fs.writeFileSync(fUtil.getFileIndex("char-", ".xml", suffix), data);
+	switch (prefix) {
+		case "c":
+			fs.writeFileSync(fUtil.getFileIndex("char-", ".xml", suffix), data);
+			break;
+		case "C":
+	}
 	addTheme(id, data);
 	return id;
 }
@@ -27,6 +32,39 @@ function save(id, data) {
 fUtil.getValidFileIndicies("char-", ".xml").map((n) => {
 	return addTheme(`c-${n}`, fs.readFileSync(fUtil.getFileIndex("char-", ".xml", n)));
 });
+
+/**
+ * @param {string} id
+ * @returns {string}
+ */
+function getCharPath(id) {
+	var i = id.indexOf("-");
+	var prefix = id.substr(0, i);
+	var suffix = id.substr(i + 1);
+	switch (prefix) {
+		case "c":
+			return fUtil.getFileIndex("char-", ".xml", suffix);
+		case "C":
+		default:
+			return `${cachéFolder}/char.${id}.xml`;
+	}
+}
+/**
+ * @param {string} id
+ * @returns {string}
+ */
+function getThumbPath(id) {
+	var i = id.indexOf("-");
+	var prefix = id.substr(0, i);
+	var suffix = id.substr(i + 1);
+	switch (prefix) {
+		case "c":
+			return fUtil.getFileIndex("char-", ".png", suffix);
+		case "C":
+		default:
+			return `${cachéFolder}/char.${id}.png`;
+	}
+}
 
 module.exports = {
 	/**
@@ -47,24 +85,14 @@ module.exports = {
 	 */
 	load(id) {
 		return new Promise((res, rej) => {
-			const i = id.indexOf("-");
-			const prefix = id.substr(0, i);
-			const suffix = id.substr(i + 1);
+			var i = id.indexOf("-");
+			var prefix = id.substr(0, i);
+			var suffix = id.substr(i + 1);
 
 			switch (prefix) {
 				case "c":
-					fs.readFile(fUtil.getFileIndex("char-", ".xml", suffix), (e, b) => {
-						if (e) {
-							var fXml = util.xmlFail();
-							rej(Buffer.from(fXml));
-						} else {
-							res(b);
-						}
-					});
-					break;
-
 				case "C":
-					fs.readFile(fUtil.getFileString("char-", ".xml", suffix), (e, b) => {
+					fs.readFile(getCharPath(id), (e, b) => {
 						if (e) {
 							var fXml = util.xmlFail();
 							rej(Buffer.from(fXml));
@@ -74,15 +102,14 @@ module.exports = {
 					});
 					break;
 
-				case "a":
 				case "":
 				default: {
 					// Blank prefix is left here for backwards-compatibility purposes.
-					const nId = Number.parseInt(suffix);
-					const xmlSubId = nId % fw,
-						fileId = nId - xmlSubId;
-					const lnNum = fUtil.padZero(xmlSubId, xNumWidth);
-					const url = `${baseUrl}/${fUtil.padZero(fileId)}.txt`;
+					var nId = Number.parseInt(suffix);
+					var xmlSubId = nId % fw;
+					var fileId = nId - xmlSubId;
+					var lnNum = fUtil.padZero(xmlSubId, xNumWidth);
+					var url = `${baseUrl}/${fUtil.padZero(fileId)}.txt`;
 
 					get(url)
 						.then((b) => {
@@ -111,12 +138,10 @@ module.exports = {
 			if (id) {
 				const i = id.indexOf("-");
 				const prefix = id.substr(0, i);
-				const suffix = id.substr(i + 1);
 				switch (prefix) {
 					case "c":
-						fs.writeFile(fUtil.getFileIndex("char-", ".xml", suffix), data, (e) => (e ? rej() : res(id)));
 					case "C":
-						fs.writeFile(fUtil.getFileString("char-", ".xml", suffix), data, (e) => (e ? rej() : res(id)));
+						fs.writeFile(getCharPath(id), data, (e) => (e ? rej() : res(id)));
 					default:
 						res(save(id, data));
 				}
@@ -134,8 +159,7 @@ module.exports = {
 	saveThumb(data, id) {
 		return new Promise((res, rej) => {
 			var thumb = Buffer.from(data, "base64");
-			var path = `${cachéFolder}/char.${id}.png`;
-			fs.writeFileSync(path, thumb);
+			fs.writeFileSync(getThumbPath(id), thumb);
 			res(id);
 		});
 	},
@@ -145,8 +169,7 @@ module.exports = {
 	 */
 	loadThumb(id) {
 		return new Promise((res, rej) => {
-			var path = `${cachéFolder}/char.${id}.png`;
-			fs.readFile(path, (e, b) => {
+			fs.readFile(getThumbPath(id), (e, b) => {
 				if (e) {
 					var fXml = util.xmlFail();
 					rej(Buffer.from(fXml));

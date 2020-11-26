@@ -2,6 +2,7 @@ const pjson = require("../package.json");
 const stuff = require("./info");
 const http = require("http");
 const fs = require("fs");
+const { rejects } = require("assert");
 
 /**
  * @param {http.IncomingMessage} req
@@ -26,13 +27,15 @@ module.exports = function (req, res, url) {
 				res.statusCode = t.statusCode || 200;
 				if (t.content !== undefined) {
 					res.end(t.content);
-				} else if (t.contentReplace) {
-					content = fs.readFileSync(`./${link}`, "utf8");
-					content = content.replace(/VERSIÖN/g, pjson.versionStr);
-					res.end(content);
-				} else {
-					fs.createReadStream(path).pipe(res);
-				}
+				} else if (fs.existsSync(path)) {
+					if (t.contentReplace) {
+						content = fs.readFileSync(path, "utf8");
+						content = content.replace(/VERSIÖN/g, pjson.versionStr);
+						res.end(content);
+					} else {
+						fs.createReadStream(path).pipe(res);
+					}
+				} else throw null;
 			} catch (e) {
 				res.statusCode = t.statusCode || 404;
 				res.end();
