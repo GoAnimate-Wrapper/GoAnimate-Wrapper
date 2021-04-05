@@ -26,37 +26,16 @@ async function listAssets(data, makeZip) {
 				.join("")}</ugc>`;
 			break;
 		}
-		case "bgmusic": {
-			var files = asset.list(data.movieId, "bgmusic");
-			xmlString = `${header}<ugc more="0">${files
-				.map(
-					(v) =>
-						`<sound subtype="bgmusic" id="${v.id}" name="${v.name}" enable="Y" duration="${v.duration}" downloadtype="progressive" enc_asset_id="${v.id}" signature="${v.signature}"/>`
-				)
-				.join("")}</ugc>`;
-			break;
-		}
-		case "soundeffect": {
-			var files = asset.list(data.movieId, "soundeffect");
-			xmlString = `${header}<ugc more="0">${files
-				.map(
-					(v) =>
-						`<sound subtype="soundeffect" id="${v.id}" name="${v.name}" enable="Y" duration="${v.duration}" downloadtype="progressive" enc_asset_id="${v.id}" signature="${v.signature}"/>`
-				)
-				.join("")}</ugc>`;
-			break;
-		}
-		case "sound":
-		case "voiceover": {
+		case "sound": {
 			var files = asset.list(data.movieId, "voiceover");
 			xmlString = `${header}<ugc more="0">${files
 				.map(
 					(v) =>
-						`<sound subtype="voiceover" id="${v.id}" name="${v.name}" enable="Y" duration="${v.duration}" downloadtype="progressive" enc_asset_id="${v.id}" signature="${v.signature}"/>`
+						`<sound subtype="${v.subtype}" id="${v.id}" name="${v.name}" enable="Y" duration="${v.duration}" downloadtype="progressive"/>`
 				)
 				.join("")}</ugc>`;
 			break;
-		}
+		}	
 		case "movie": {
 			var files = asset.list(data.movieId, "starter");
 			xmlString = `${header}<ugc more="0">${files
@@ -73,7 +52,7 @@ async function listAssets(data, makeZip) {
 			xmlString = `${header}<ugc more="0">${files
 				.map(
 					(v) =>
-						`<prop subtype="0" id="${v.id}" name="${v.name}" enable="Y" holdable="0" headable="0" placeable="1" facing="left" width="0" height="0" duration="0" enc_asset_id="${v.id}"/>`
+						`<prop subtype="0" id="${v.id}" name="${v.name}" enable="Y" holdable="0" headable="0" placeable="1" facing="left" width="0" height="0" duration="0"/>`
 				)
 				.join("")}</ugc>`;
 			break;
@@ -97,18 +76,7 @@ async function listAssets(data, makeZip) {
 					fUtil.addToZip(zip, `${file.mode}/${file.id}`, buffer);
 					break;
 				}
-				case "sound":
-				case "soundeffect": {
-					const buffer = asset.load(data.movieId, file.id);
-					fUtil.addToZip(zip, `${file.mode}/${file.id}`, buffer);
-					break;
-				}
-				case "bgmusic": {
-					const buffer = asset.load(data.movieId, file.id);
-					fUtil.addToZip(zip, `${file.mode}/${file.id}`, buffer);
-					break;
-				}
-				case "voiceover": {
+				case "sound": {
 					const buffer = asset.load(data.movieId, file.id);
 					fUtil.addToZip(zip, `${file.mode}/${file.id}`, buffer);
 					break;
