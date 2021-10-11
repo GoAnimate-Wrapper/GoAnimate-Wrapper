@@ -27,7 +27,7 @@ async function listAssets(data, makeZip) {
 			break;
 		}
 		case "sound": {
-			var files = asset.list(data.movieId, "voiceover");
+			var files = asset.list(data.movieId, "music");
 			xmlString = `${header}<ugc more="0">${files
 				.map(
 					(v) =>
@@ -72,11 +72,6 @@ async function listAssets(data, makeZip) {
 					break;
 				}
 				case "movie": {
-					const buffer = asset.load(data.movieId, file.id);
-					fUtil.addToZip(zip, `${file.mode}/${file.id}`, buffer);
-					break;
-				}
-				case "sound": {
 					const buffer = asset.load(data.movieId, file.id);
 					fUtil.addToZip(zip, `${file.mode}/${file.id}`, buffer);
 					break;
