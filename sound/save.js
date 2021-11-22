@@ -1,3 +1,4 @@
+const loadPost = require("../misc/post_body");
 const formidable = require("formidable");
 const asset = require("../main");
 const http = require("http");
