@@ -1,3 +1,8 @@
+const formidable = require("formidable");
+const asset = require("./main");
+const http = require("http");
+const fs = require("fs");
+
 module.exports = function (req, res, url) {
 	if (req.method != "POST" || url.path != "/goapi/saveSound/") return;
 	loadPost(req, res).then((data) => {
