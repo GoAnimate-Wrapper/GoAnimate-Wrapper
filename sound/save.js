@@ -1,5 +1,5 @@
 const formidable = require("formidable");
-const asset = require("../asset/main");
+const asset = require("../main");
 const http = require("http");
 const fs = require("fs");
 
