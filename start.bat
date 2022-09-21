@@ -1,7 +1,7 @@
 :: Important stuff
 @echo off && cls
 title GoAnimate Wrapper
-
+if not exist "installed" (if not exist "notinstalled" (echo GoAnimate Wrapper Configuration File >> notinstalled))
 ::::::::::::::::::::
 :: Initialization ::
 ::::::::::::::::::::
