@@ -62,9 +62,8 @@ module.exports = (voiceName, text) => {
 				req.end();
 				break;
 			}
-			case "cepstral":
-			case "voiceforge": {
-				https.get("https://www.voiceforge.com/demo", (r) => {
+			case "cepstral": {
+				https.get("https://www.cepstral.com/en/demos", (r) => {
 					const cookie = r.headers["set-cookie"];
 					var q = qs.encode({
 						voice: voice.arg,
@@ -73,7 +72,7 @@ module.exports = (voiceName, text) => {
 					var buffers = [];
 					https.get(
 						{
-							host: "www.voiceforge.com",
+							host: "www.cepstral.com",
 							path: `/demos/createAudio.php?${q}`,
 							headers: { Cookie: cookie },
 						},
@@ -84,7 +83,7 @@ module.exports = (voiceName, text) => {
 								const beg = html.indexOf('id="mp3Source" src="') + 20;
 								const end = html.indexOf('"', beg);
 								const loc = html.subarray(beg, end).toString();
-								get(`https://www.voiceforge.com${loc}`).then(res).catch(rej);
+								get(`https://www.cepstral.com${loc}`).then(res).catch(rej);
 							});
 						}
 					);
