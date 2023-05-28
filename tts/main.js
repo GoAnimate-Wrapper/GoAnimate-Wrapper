@@ -166,40 +166,10 @@ module.exports = (voiceName, text) => {
 				);
 				break;
 			}
-			case "acapela": {
-				var q = qs.encode({
-					cl_login: "VAAS_MKT",
-					req_snd_type: "",
-					req_voice: voice.arg,
-					cl_app: "seriousbusiness",
-					req_text: text,
-					cl_pwd: "M5Awq9xu",
-				});
-				http.get(
-					{
-						host: "vaassl3.acapela-group.com",
-						path: `/Services/AcapelaTV/Synthesizer?${q}`,
-					},
-					(r) => {
-						var buffers = [];
-						r.on("data", (d) => buffers.push(d));
-						r.on("end", () => {
-							const html = Buffer.concat(buffers);
-							const beg = html.indexOf("&snd_url=") + 9;
-							const end = html.indexOf("&", beg);
-							const sub = html.subarray(beg + 4, end).toString();
-							if (!sub.startsWith("://")) return rej();
-							get(`https${sub}`).then(res).catch(rej);
-						});
-						r.on("error", rej);
-					}
-				);
-				break;
-			}
 			case "readloud": {
 				const req = https.request(
 					{
-						host: "readloud.net",
+						host: "gonutts.net",
 						path: voice.arg,
 						method: "POST",
 						port: "443",
@@ -215,7 +185,7 @@ module.exports = (voiceName, text) => {
 							const beg = html.indexOf("/tmp/");
 							const end = html.indexOf(".mp3", beg) + 4;
 							const sub = html.subarray(beg, end).toString();
-							const loc = `https://readloud.net${sub}`;
+							const loc = `https://gonutts.net${sub}`;
 							get(loc).then(res).catch(rej);
 						});
 						r.on("error", rej);
