@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list version="1.0">
 	<fvm_meta theme_code="" is_biz="0" />
-	<!--theme id="business" name="Business Friendly" thumb="" cc_theme_id="business" /-->
-	<!--theme id="whiteboard" name="Whiteboard Animation" thumb="" cc_theme_id="whiteboard" /-->
-	<!--theme id="infographics" name="Video Infographics" thumb="" cc_theme_id="infographics" /-->
+	<theme id="business" name="Business Friendly" thumb="" cc_theme_id="business" />
+	<theme id="whiteboard" name="Whiteboard Animation" thumb="" cc_theme_id="whiteboard" />
+	<theme id="infographics" name="Video Infographics" thumb="" cc_theme_id="infographics" />
 	<theme id="custom" name="Comedy World" thumb="" cc_theme_id="custom" />
+	<theme id="Community" name="Community Library" thumb="" cc_theme_id="Community" />
 	<theme id="action" name="Lil' Peepz" thumb="" cc_theme_id="action" />
 	<theme id="common" name="Common" thumb="matchboy-stand.swf" cc_theme_id="common" />
 	<theme id="retro" name="Cartoon Classics" thumb="ann-stand.swf" cc_theme_id="retro" />
