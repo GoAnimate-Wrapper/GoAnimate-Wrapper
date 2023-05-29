@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="Imported2" name="Imported Assets2">
+<prop id="peedy_parrot.swf" name="Peedy Parrot" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9004" money="0" sharing="0" />
+<prop id="char-0000000.png" name="potatoes" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9004" money="0" sharing="0" />
+<prop id="community.png" name="Themes" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9004" money="0" sharing="0" />
+<prop id="d2ror09-784c002a-f3a5-4c1b-99a5-6f92160f2672.png" name="klasky csupo robot logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9004" money="0" sharing="0" />
+<prop id="logo.png" name="wrapper offline" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9004" money="0" sharing="0" />
+<sound id="klaskycsupo.mp3" name="Klasky Csupo Robot Logo" downloadtype="progressive" subtype="bgmusic" duration="5805" enable="Y" is_premium="N" aid="50122" money="0" sharing="0"/>
+<sound id="bigrock.mp3" name="Big Rock" downloadtype="progressive" subtype="bgmusic" duration="185000" enable="Y" is_premium="N" aid="3408" money="0" sharing="0"/>
+</theme> 
