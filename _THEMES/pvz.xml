@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="pvz" name="Plants vs zombies">
+	<char id="peashooter" name="Peashooter" thumb="peashooter.swf" facing="left" default="peashooter.swf" motion="idle.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="peashooter.swf" name="Idle" loop="Y" totalframe="25" enable="Y" aid="900047"/>
+		</char>
+	<char id="sunflower" name="Sun Flower" thumb="sunflower.swf" facing="left" default="sunflower.swf" motion="sunflower.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="sunflower.swf" name="Idle" loop="Y" totalframe="25" enable="Y" aid="900047"/>
+		</char>
+	<char id="cherrybomb" name="Cherry Bomb" thumb="cherrybomb.swf" facing="left" default="cherrybomb.swf" motion="cherrybomb.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="cherrybomb.swf" name="Idle" loop="Y" totalframe="13" enable="Y" aid="900047"/>
+		<action id="explode.swf" name="Explode" loop="N" totalframe="14" enable="Y" aid="900047"/>
+		</char>
+	<char id="wallnut" name="Wall-Nut" thumb="wallnut.swf" facing="left" default="wallnut.swf" motion="roll.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="wallnut.swf" name="Idle" loop="Y" totalframe="17" enable="Y" aid="900047"/>
+		<motion id="roll.swf" name="Roll" loop="Y" totalframe="13" enable="Y" aid="900047"/>
+		</char>
+	<char id="potatomine" name="Potato Mine" thumb="potatomine.swf" facing="left" default="potatomine.swf" motion="potatomine.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="potatomine.swf" name="Idle" loop="Y" totalframe="11" enable="Y" aid="900047"/>
+		<action id="ground.swf" name="In the ground" loop="Y" totalframe="1" enable="Y" aid="900047"/>
+		<action id="dig.swf" name="Digging up" loop="N" totalframe="19" enable="Y" aid="900047"/>
+		<action id="mashed.swf" name="Mashed" loop="Y" totalframe="1" enable="Y" aid="900047"/>
+		</char>
+	<char id="snowpea" name="Snowpea" thumb="snowpea.swf" facing="left" default="snowpea.swf" motion="snowpea.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="snowpea.swf" name="Idle" loop="Y" totalframe="25" enable="Y" aid="900047"/>
+		</char>
+	<char id="chomper" name="Chomper" thumb="chomper.swf" facing="left" default="chomper.swf" motion="chomper.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="chomper.swf" name="Idle" loop="Y" totalframe="25" enable="Y" aid="900047"/>
+		<action id="chomp.swf" name="Chomp" loop="Y" totalframe="25" enable="Y" aid="900047"/>
+		<action id="chew.swf" name="Chew" loop="Y" totalframe="16" enable="Y" aid="900047"/>
+		<action id="swallow.swf" name="Swallow" loop="Y" totalframe="28" enable="Y" aid="900047"/>
+		</char>
+	<char id="repeater" name="Repeater" thumb="repeater.swf" facing="left" default="repeater.swf" motion="repeater.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="repeater.swf" name="Idle" loop="Y" totalframe="25" enable="Y" aid="900047"/>
+		</char>
+	<char id="puffshroom" name="Puffshroom" thumb="puffshroom.swf" facing="left" default="puffshroom.swf" motion="puffshroom.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="puffshroom.swf" name="Idle" loop="Y" totalframe="17" enable="Y" aid="900047"/>
+		<action id="squirt.swf" name="Squirt" loop="Y" totalframe="13" enable="Y" aid="900047"/>
+		<action id="sleep.swf" name="Idle" loop="Y" totalframe="17" enable="Y" aid="900047"/>
+		</char>
+	<char id="sunshroom" name="Sunshroom" thumb="sunshroom.swf" facing="left" default="sunshroom.swf" motion="repeater.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="sunshroom.swf" name="Idle" loop="Y" totalframe="12" enable="Y" aid="900047"/>
+		<action id="sleep.swf" name="Sleep" loop="Y" totalframe="10" enable="Y" aid="900047"/>
+		<action id="grow.swf" name="Grow" loop="N" totalframe="12" enable="Y" aid="900047"/>
+		<action id="sunshroomlarge.swf" name="Idle Large" loop="Y" totalframe="12" enable="Y" aid="900047"/>
+		<action id="sleeplarge.swf" name="Sleep Large" loop="Y" totalframe="12" enable="Y" aid="900047"/>
+		</char>
+	<char id="fumeshroom" name="Fumeshroom" thumb="fumeshroom.swf" facing="left" default="fumeshroom.swf" motion="fumeshroom.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="fumeshroom.swf" name="Idle" loop="Y" totalframe="17" enable="Y" aid="900047"/>
+		<action id="fume.swf" name="Fume" loop="Y" totalframe="30" enable="Y" aid="900047"/>
+		<action id="sleep.swf" name="Sleep" loop="Y" totalframe="17" enable="Y" aid="900047"/>
+		</char>
+	<char id="gravebuster" name="Gravebuster" thumb="gravebuster.swf" facing="left" default="gravebuster.swf" motion="gravebuster.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="gravebuster.swf" name="Idle" loop="Y" totalframe="28" enable="Y" aid="900047"/>
+		</char>
+	<char id="hypnoshroom" name="Hypno Shroom" thumb="hypnoshroom.swf" facing="left" default="hypnoshroom.swf" motion="hypnoshroom.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="hypnoshroom.swf" name="Idle" loop="Y" totalframe="20" enable="Y" aid="900047"/>
+		<action id="sleep.swf" name="Sleep" loop="Y" totalframe="20" enable="Y" aid="900047"/>
+		</char>
+	<char id="scaredyshroom" name="Scaredy Shroom" thumb="scaredyshroom.swf" facing="left" default="scaredyshroom.swf" motion="scaredyshroom.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="scaredyshroom.swf" name="Idle" loop="Y" totalframe="16" enable="Y" aid="900047"/>
+		<action id="squirt.swf" name="Squirt" loop="Y" totalframe="15" enable="Y" aid="900047"/>
+		<action id="hide.swf" name="Hide" loop="Y" totalframe="13" enable="Y" aid="900047"/>
+		<action id="hiding.swf" name="Hiding" loop="Y" totalframe="11" enable="Y" aid="900047"/>
+		<action id="unhide.swf" name="Unhide" loop="Y" totalframe="10" enable="Y" aid="900047"/>
+		<action id="sleep.swf" name="Sleep" loop="Y" totalframe="16" enable="Y" aid="900047"/>
+		</char>
+	<char id="iceshroom" name="Ice Shroom" thumb="iceshroom.swf" facing="left" default="iceshroom.swf" motion="iceshroom.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="iceshroom.swf" name="Idle" loop="Y" totalframe="17" enable="Y" aid="900047"/>
+		<action id="sleep.swf" name="Sleep" loop="Y" totalframe="17" enable="Y" aid="900047"/>
+		</char>
+	<char id="doomshroom" name="Doom Shroom" thumb="doomshroom.swf" facing="left" default="doomshroom.swf" motion="doomshroom.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="doomshroom.swf" name="Idle" loop="Y" totalframe="20" enable="Y" aid="900047"/>
+		<action id="explode.swf" name="Explode" loop="Y" totalframe="32" enable="Y" aid="900047"/>
+		<action id="sleep.swf" name="Sleep" loop="Y" totalframe="25" enable="Y" aid="900047"/>
+		</char>
+	<char id="lilypad" name="Lilypad" thumb="lilypad.swf" facing="left" default="lilypad.swf" motion="lilypad.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="lilypad.swf" name="Idle" loop="Y" totalframe="25" enable="Y" aid="900047"/>
+		</char>
+	<char id="squash" name="Squash" thumb="squash.swf" facing="left" default="squash.swf" motion="squash.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="squash.swf" name="Idle" loop="Y" totalframe="19" enable="Y" aid="900047"/>
+		<action id="lookleft.swf" name="Look Left" loop="Y" totalframe="13" enable="Y" aid="900047"/>
+		<action id="lookright.swf" name="Look Right" loop="Y" totalframe="13" enable="Y" aid="900047"/>
+		<action id="jumpup.swf" name="Jump Up" loop="Y" totalframe="16" enable="Y" aid="900047"/>
+		<action id="jumpdown.swf" name="Jump Down" loop="Y" totalframe="8" enable="Y" aid="900047"/>
+		</char>
+	<char id="threepeater" name="Threepeater" thumb="threepeater.swf" facing="left" default="threepeater.swf" motion="threepeater.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="threepeater.swf" name="Idle" loop="Y" totalframe="25" enable="Y" aid="900047"/>
+		</char>
+	<char id="stinky" name="Stinky" thumb="stinky.swf" facing="left" default="stinky.swf" motion="move.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<action id="stinky.swf" name="Idle" loop="Y" totalframe="13" enable="Y" aid="900047"/>
+		<motion id="move.swf" name="Move around" loop="Y" totalframe="13" enable="Y" aid="900047"/>
+		</char>
+	<prop id="sun.swf" name="Sun" holdable="0" wearable="0" placeable="1" facing="left" thumb="sun.swf" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
+	<prop id="hammer.swf" name="Hammer" holdable="1" wearable="0" placeable="1" facing="left" thumb="hammer.swf" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
+</theme> 
