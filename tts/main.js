@@ -67,6 +67,11 @@ module.exports = (voiceName, text) => {
 					const cookie = r.headers["set-cookie"];
 					var q = qs.encode({
 						voice: voice.arg,
+                                                voiceText: text,
+                                                rate: 170,
+                                                pitch: 1,
+                                                sfx: 'none',
+						voice: voice.arg,
 						voiceText: text,
 					});
 					var buffers = [];
@@ -75,6 +80,7 @@ module.exports = (voiceName, text) => {
 							host: "www.cepstral.com",
 							path: `/demos/createAudio.php?${q}`,
 							headers: { Cookie: cookie },
+							method: 'GET',
 						},
 						(r) => {
 							r.on("data", (b) => buffers.push(b));
