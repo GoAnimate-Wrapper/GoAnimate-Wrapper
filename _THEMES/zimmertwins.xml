@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="zimmertwins" name="Zimmer Twins">
+<!-- This was a fucking NIGHTMARE to work on. ~xom -->
+	<char id="edgar" name="Edgar" thumb="stand.swf" facing="left" default="stand.swf" motion="walks.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+		<action id="admires.swf" name="Admire" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="begs.swf" name="Beg" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="bored.swf" name="Bored" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="celebrates.swf" name="Excited/Cheers" loop="Y" totalframe="15" enable="Y" aid="90036"/>
+		<action id="flies.swf" name="Fly" loop="Y" totalframe="45" enable="Y" aid="90036"/>
+		<action id="karatechop.swf" name="Karate Chop" loop="Y" totalframe="90" enable="Y" aid="90036"/>
+		<action id="point.swf" name="Point" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="run.swf" name="Run" loop="Y" totalframe="24" enable="Y" aid="90036"/>
+		<action id="sits.swf" name="Sit" loop="Y" totalframe="24" enable="Y" aid="90036"/>
+		<action id="sleep_walks.swf" name="Sleep Walk" loop="Y" totalframe="24" enable="Y" aid="90036"/>
+		<action id="stand.swf" name="Stand" loop="Y" totalframe="150" enable="Y" aid="90036"/>
+		<action id="teleport.swf" name="Teleport" loop="N" totalframe="30" enable="Y" aid="90036"/>
+		<action id="walks.swf" name="Walk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		</char>
+	<char id="eva" name="Eva" thumb="stand.swf" facing="left" default="stand.swf" motion="walks.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+		<action id="admires.swf" name="Admire" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="begs.swf" name="Beg" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="bored.swf" name="Bored" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="celebrates.swf" name="Excited/Cheers" loop="Y" totalframe="31" enable="Y" aid="90036"/>
+		<action id="flies.swf" name="Fly" loop="Y" totalframe="45" enable="Y" aid="90036"/>
+		<action id="karatechop.swf" name="Karate Chop" loop="Y" totalframe="90" enable="Y" aid="90036"/>
+		<action id="point.swf" name="Point" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="run.swf" name="Run" loop="Y" totalframe="24" enable="Y" aid="90036"/>
+		<action id="sits.swf" name="Sit" loop="Y" totalframe="24" enable="Y" aid="90036"/>
+		<action id="sleep_walks.swf" name="Sleep Walk" loop="Y" totalframe="24" enable="Y" aid="90036"/>
+		<action id="stand.swf" name="Stand" loop="Y" totalframe="150" enable="Y" aid="90036"/>
+		<action id="teleport.swf" name="Teleport" loop="N" totalframe="30" enable="Y" aid="90036"/>
+		<action id="walks.swf" name="Walk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		</char>
+	<char id="13" name="13" thumb="stand.swf" facing="left" default="stand.swf" motion="walks.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+		<action id="admires.swf" name="Admire" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="panting.swf" name="Panting" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="bored.swf" name="Bored" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="celebrates.swf" name="Excited/Cheers" loop="Y" totalframe="32" enable="Y" aid="90036"/>
+		<action id="flies.swf" name="Fly" loop="Y" totalframe="45" enable="Y" aid="90036"/>
+		<action id="karatechop.swf" name="Karate Chop" loop="Y" totalframe="90" enable="Y" aid="90036"/>
+		<action id="run.swf" name="Run" loop="Y" totalframe="24" enable="Y" aid="90036"/>
+		<action id="sleep_walks.swf" name="Sleep Walk" loop="Y" totalframe="24" enable="Y" aid="90036"/>
+		<action id="stand.swf" name="Stand" loop="Y" totalframe="150" enable="Y" aid="90036"/>
+		<action id="swat.swf" name="Swat" loop="Y" totalframe="150" enable="Y" aid="90036"/>
+		<action id="teleport.swf" name="Teleport" loop="N" totalframe="30" enable="Y" aid="90036"/>
+		<action id="walks.swf" name="Walk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		</char>
+	<char id="alien" name="Alien" thumb="stand.swf" facing="left" default="stand.swf" motion="stand.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+		<action id="stand.swf" name="Default" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		</char>
+	<background id="alley.swf" name="Alley" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="backstage.swf" name="Backstage" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="backyard.swf" name="Backyard" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="cave.swf" name="Cave" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="chinese_restaurant.swf" name="Chinese restaurant" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="couch.swf" name="Couch" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="desert.swf" name="Desert" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="edgar_bedroom.swf" name="Edgar's room" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="eva_bedroom.swf" name="Eva's room" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="forest.swf" name="Forest" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="jungle.swf" name="Jungle" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="kitchen.swf" name="Kitchen" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="living_room.swf" name="Living room" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="meat_shop.swf" name="Meat shop" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="museum.swf" name="Museum" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="outerspace.swf" name="Outer space" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="park.swf" name="Park" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="planet.swf" name="The surface of the Moon" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="psychic.swf" name="Psychic" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="seventeenth_parallel.swf" name="The 17th Parallel" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="sky.swf" name="Sky" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="stage.swf" name="Stage" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="store.swf" name="Magic store" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="street.swf" name="Street" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="thirteenth_dimension.swf" name="The 13th Dimension" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<background id="zimmercircles.swf" name="Zimmer circles" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<prop id="bunny_doll.swf" name="Bunny doll" holdable="1" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
+	<prop id="camera.swf" name="Camera" holdable="1" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
+	<prop id="diamond.swf" name="Diamond" holdable="1" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
+	<prop id="idol.swf" name="Golden idol" holdable="1" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
+	<prop id="mystery_box.swf" name="Mystery box" holdable="1" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
+	<prop id="potion.swf" name="Potion" holdable="1" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
+	<prop id="present.swf" name="Present" holdable="1" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
+	<prop id="sack.swf" name="Sack" holdable="1" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="10_park.wav.mp3" name="Park" subtype="soundeffect" duration="6656" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="11_outerspace.wav.mp3" name="Outer space" subtype="soundeffect" duration="6604" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="12_museum.wav.mp3" name="Museum" subtype="bgmusic" duration="8320" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="13_living_room.wav.mp3" name="Living room" subtype="bgmusic" duration="9776" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="14_kitchen.wav.mp3" name="Kitchen" subtype="bgmusic" duration="8216" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="15_Jungle.wav.mp3" name="Jungle" subtype="soundeffect" duration="6136" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="16_forest.wav.mp3" name="Forest" subtype="soundeffect" duration="6240" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="17_eva_bedroom.wav.mp3" name="Eva's room" subtype="bgmusic" duration="8216" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="18_edgar_bedroom.wav.mp3" name="Edgar's room" subtype="bgmusic" duration="4212" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="19_desert.wav.mp3" name="Desert" subtype="bgmusic" duration="8684" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="1_thirteenth_dimension.wav.mp3" name="The 13th Dimension" subtype="soundeffect" duration="6240" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="20_couch.wav.mp3" name="Couch" subtype="bgmusic" duration="9776" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="21_cave.wav.mp3" name="Cave" subtype="soundeffect" duration="6240" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="22_backyard.wav.mp3" name="Backyard" subtype="soundeffect" duration="10192" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="23_backstage.wav.mp3" name="Backstage" subtype="soundeffect" duration="10556" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="24_alley.wav.mp3" name="Alley" subtype="soundeffect" duration="5980" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="2_street.wav.mp3" name="Street" subtype="soundeffect" duration="10088" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="3_store.wav.mp3" name="Magic store" subtype="soundeffect" duration="6552" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="4_stage.wav.mp3" name="Stage" subtype="soundeffect" duration="6136" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="5_sky.wav.mp3" name="Sky" subtype="soundeffect" duration="6240" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="6_seventeenth_parallel.wav.mp3" name="The 17th Parallel" subtype="soundeffect" duration="7020" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="7_restaurant.wav.mp3" name="Chinese restaurant" subtype="bgmusic" duration="8684" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="8_salon.wav.mp3" name="Psychic" subtype="bgmusic" duration="8216" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="9_planet.wav.mp3" name="The Moon" subtype="soundeffect" duration="8164" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+	<sound id="64.mp3" name="Celebration" subtype="soundeffect" duration="2132" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+	<sound id="17.mp3" name="Multiple boings" subtype="soundeffect" duration="1820" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+	</theme>
