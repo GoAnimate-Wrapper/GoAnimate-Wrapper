@@ -1,3 +1,5 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
 	<header>
 		<div>
@@ -112,6 +114,21 @@
 		function popup(id) {
 			window.open('/player?movieId=' + id, 'MsgWindow', 'width=1280,height=723,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
 		}
+
+		// hover doesn't exist on touch screens, so let tapping the dropdown label toggle it open instead
+		document.querySelectorAll('.char_dropdown').forEach(function (dropdown) {
+			dropdown.firstElementChild.addEventListener('click', function (e) {
+				const isOpen = dropdown.classList.contains('open');
+				document.querySelectorAll('.char_dropdown.open').forEach((d) => d.classList.remove('open'));
+				if (!isOpen) {
+					dropdown.classList.add('open');
+					e.stopPropagation();
+				}
+			});
+		});
+		document.addEventListener('click', function () {
+			document.querySelectorAll('.char_dropdown.open').forEach((d) => d.classList.remove('open'));
+		});
 	</script>
 	<style>
 		html {
@@ -226,7 +243,8 @@
 			background-clip: padding-box;
 		}
 
-		.char_dropdown:hover>menu {
+		.char_dropdown:hover>menu,
+		.char_dropdown.open>menu {
 			display: block;
 		}
 
@@ -298,6 +316,39 @@
 
 			tr>:nth-child(2)>* {
 				width: 580px;
+			}
+		}
+
+		@media (max-width: 767px) {
+			header>:nth-child(1)>:nth-child(1) {
+				float: none;
+				text-align: left;
+			}
+
+			header>:nth-child(1)>:nth-child(2) {
+				clear: both;
+				margin: 0;
+				padding: 7px 10px 10px;
+			}
+
+			.button_big,
+			.button_small {
+				margin-left: 0;
+				margin-right: 10px;
+			}
+
+			.char_dropdown>menu {
+				position: static;
+				box-shadow: none;
+				border: none;
+			}
+
+			table {
+				margin-top: 0;
+			}
+
+			tr>:nth-child(3) {
+				display: none;
 			}
 		}
 

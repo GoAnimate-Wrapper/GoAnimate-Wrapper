@@ -168,9 +168,12 @@ module.exports = function (req, res, url) {
 	res.setHeader("Content-Type", "text/html; charset=UTF-8");
 	Object.assign(params.flashvars, query);
 	res.end(
-		`<script>document.title='${title}',flashvars=${JSON.stringify(
-			params.flashvars
-		)}</script><body style="margin:0px">${toObjectString(attrs, params)}</body>${stuff.pages[url.pathname] || ""}`
+		`<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><title>${title}</title>` +
+			`<style>html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:#000;touch-action:none;-webkit-user-select:none;user-select:none;}#obj,ruffle-player{width:100%!important;height:100%!important;}</style>` +
+			`<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={publicPath:"/ruffle/",polyfills:true,autoplay:"auto"};</script>` +
+			`<script src="/ruffle/ruffle.js"></script>` +
+			`<script>document.title='${title}',flashvars=${JSON.stringify(params.flashvars)}</script>` +
+			`</head><body>${toObjectString(attrs, params)}</body>${stuff.pages[url.pathname] || ""}</html>`
 	);
 	return true;
 };
